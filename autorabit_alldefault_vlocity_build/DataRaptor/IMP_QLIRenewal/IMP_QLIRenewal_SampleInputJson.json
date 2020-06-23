@@ -1,0 +1,115 @@
+{
+    "ContextId": "0Q0W0000000HJ5l",
+    "DRId_QuoteLineItem": "0QLW0000000VrjsOAC",
+    "IMP-ProgramStages": [
+        "In Progress",
+        "IGAP Dead",
+        "IGAP In Progress",
+        "IGAP Lost",
+        "IGAP Sold",
+        "Jeopardy",
+        "Renewed",
+        "Termed"
+    ],
+    "InProgressCount": true,
+    "OppDetails": {
+        "Frm-ImpType": "",
+        "Frm-OpportunityName": "2018 Opportunity Renewal-Hunter Douglas Inc.",
+        "Frm-OpportunityType": "Renewal"
+    },
+    "OpportunityDetails": {
+        "OpportunityName": "2018 Opportunity Renewal-Hunter Douglas Inc.",
+        "OpportunityType": "Renewal"
+    },
+    "OtherCount": true,
+    "ProductsInprogress": {
+        "QuoteDetails": [
+            {
+                "$$hashKey": "object:453",
+                "Area": true,
+                "Id": "0QLW0000000VrjjOAC",
+                "ProductName": "Health and Wellness - Live Health Online",
+                "ProductStage": "In Progress",
+                "vlcBundleStage": "Renewed",
+                "vlcSelected": true
+            }
+        ]
+    },
+    "ProductsOther": {
+        "QuoteDetailsOther": [
+            {
+                "$$hashKey": "object:585",
+                "Area": true,
+                "Id": "0QLW0000000VrjsOAC",
+                "ProductName": "Medical - EPO",
+                "ProductStage": "IGAP Dead",
+                "vlcBundleStage": "Termed",
+                "vlcSelected": true
+            }
+        ]
+    },
+    "ProductsRenewal": {
+        "QuoteDetailsRenewal": [
+            {
+                "$$hashKey": "object:491",
+                "Id": "0QLW0000000VrjlOAC",
+                "ProductName": "AIM: A La Carte",
+                "ProductStage": "Renewed",
+                "vlcBundleStage": "IGAP Lost",
+                "vlcSelected": true
+            }
+        ],
+        "RenewedwithChanges": "Yes"
+    },
+    "ProductsSold": {
+        "QuoteDetailsSold": [
+            {
+                "$$hashKey": "object:564",
+                "Area": true,
+                "Id": "0QLW0000000VrjrOAC",
+                "ProductName": "Anthem FlexHour Vision Plan",
+                "ProductStage": "IGAP Sold",
+                "vlcBundleStage": "Jeopardy",
+                "vlcSelected": true
+            }
+        ]
+    },
+    "RenewedCount": true,
+    "SoldCount": true,
+    "Stage": "",
+    "VariableBundles": {
+        "BundleDetails": null
+    },
+    "id": "a3CW0000000Aj81MAC",
+    "layout": "lightning",
+    "timeStamp": "2017-12-15T14:30:29.139Z",
+    "userId": "005W0000002XquzIAC",
+    "userName": "shravani@chadda@eaglecrk.com.prod.nal1b.dev",
+    "userProfile": "System Administrator",
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "DRE-OpportunityDetails": 5191,
+        "DRE-ProdcutsSold": 3420,
+        "DRE-ProductExtract": 9720,
+        "DRE-ProductsOthers": 1579,
+        "DRE-ProductsRenewed": 9114,
+        "DRE-VariableBundles": 1988,
+        "OmniScriptSessionToken": "a65d5866-d2b3-4865-b098-aa437ffc698d",
+        "OppDetails": 8624,
+        "ProductsInprogress": 10184,
+        "ProductsOther": 9347,
+        "ProductsRenewal": 35161,
+        "ProductsSold": 38202,
+        "QLIInprogressStage": 4766,
+        "QLIOtherStages": 1232,
+        "QLIRenewalStages": 1369,
+        "QLISoldStages": 1119,
+        "SV-ContextId": 271,
+        "SV-InProgressCount": 75,
+        "SV-Other": 13,
+        "SV-ProgramStages": 77,
+        "SV-RenewedCount": 28,
+        "SV-SoldCount": 15
+    }
+}

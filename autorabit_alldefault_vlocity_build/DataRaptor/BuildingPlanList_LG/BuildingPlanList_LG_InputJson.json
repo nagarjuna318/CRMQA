@@ -1,0 +1,40 @@
+{
+    "DR-ExtractQLIProducts": {
+        "ContextId": "801S0000000HoujIAC",
+        "DR-ExtractQLIProductsStatus": true,
+        "options": {
+            "chainable": false
+        },
+        "selectedPlans": [
+            {
+                "$$hashKey": "object:1370",
+                "Contract_Code__c": "3SAR",
+                "HPCC_Code__c": "HM09",
+                "Id": "01t1K00000674DgQAI",
+                "IsConfigurable__c": false,
+                "IsRecommended__c": false,
+                "MarketSegment__c": "Large Group",
+                "Name": "Anthem PPO HIA Plus copay 2000/30/20",
+                "Network__c": "Prudent Buyer PPO",
+                "ParentProduct__c": "01t1K00000673QJ",
+                "Portfolio_Year__c": "2019",
+                "Price": "",
+                "ProductCode": "PMT-3SAR",
+                "Product_Family__c": "PPO",
+                "QLIRecordType__c": "LocalType",
+                "RecordTypeName__c": "Product",
+                "Term__c": "Annual",
+                "displaySequence": -1,
+                "originalIndex": 0,
+                "productId": "01t1K00000674DgQAI",
+                "rider_list": [
+                ],
+                "selected": true,
+                "visible": true
+            }
+        ]
+    },
+    "RA-ValuesBackStatus": true,
+    "response": {
+    }
+}

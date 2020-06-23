@@ -1,0 +1,83 @@
+{
+    "ContextId": "a6pW00000007Z8u",
+    "End": {
+        "FSACommon": "Yes",
+        "HCICommon": "Yes",
+        "HRATransfersCommon": "Yes",
+        "HxCSCommon": "Yes",
+        "VECommon": "Yes"
+    },
+    "IMPTClaimSystem": "WGS 2.0",
+    "Step_CreateDITWGS": {
+        "90DayFLDateNonC": "2018-04-03",
+        "BaggingProfileCDateNonC": "2018-04-03",
+        "DateIAHxConvSentToITNonC": "2018-04-03",
+        "EstimatedIAHxProdDateNonC": "2018-04-02",
+        "FSANonCWGS": "Yes",
+        "HCINonCWGS": "Yes",
+        "HRATransfersNonCWGS": "Yes",
+        "HxCSNonCWGS": "Yes",
+        "IAHCCRSSCRNumNonC": "dsadas",
+        "IAHxEBANonC": "fsdfds",
+        "IAHxEligibilityNonC": "sadsa",
+        "IAHxOpsOpenTxNonC": "sdfds",
+        "IdentifyAccToTransferNonC": "sdfds",
+        "InternalAccumHxConvNonC": "Yes",
+        "LoadToProductionNonC": "2018-04-06",
+        "MembershipLoadDateNonC": "2018-04-04",
+        "MentalHealthC": "",
+        "OIAHxConvStatusNonC": "Active - Green",
+        "PharmacyC": "",
+        "ReviewIAHxPreloadReportNonC": "2018-04-03",
+        "VENonCWGS": "Yes",
+        "WGSBlock": {
+            "WGSC": "Yes",
+            "WGSNonC": "Yes"
+        },
+        "WGSCBlock": null,
+        "WGSNonCBlock": {
+            "90DayFLDate": "2018-04-03",
+            "BaggingProfileCDate": "2018-04-03",
+            "DateIAHxConvSentToIT": "2018-04-03",
+            "EstimatedIAHxProdDate": "2018-04-02",
+            "FSAWGS": "Yes",
+            "HCIWGS": "Yes",
+            "HRATransfersWGS": "Yes",
+            "HxCSWGS": "Yes",
+            "IAHCCRSSCRNum": "dsadas",
+            "IAHxEBA": "fsdfds",
+            "IAHxEligibility": "sadsa",
+            "IAHxOpsOpenTx": "sdfds",
+            "IdentifyAccToTransfer": "sdfds",
+            "InternalAccumHxConv": "Yes",
+            "LoadToProduction": "2018-04-06",
+            "MembershipLoadDate": "2018-04-04",
+            "OIAHxConvStatus": "Active - Green",
+            "ReviewIAHxPreloadReport": "2018-04-03",
+            "VEWGS": "Yes"
+        }
+    },
+    "Step_DITType": {
+        "ClaimSystem": "WGS",
+        "NASCOType": null,
+        "RecordType": "National and Local WGS Non-Commingled",
+        "WGSType": "National and Local WGS Non-Commingled"
+    },
+    "id": "a3CW00000013hFiMAI",
+    "layout": "lightning",
+    "timeStamp": "2018-04-20T19:24:12.709Z",
+    "userCurrencyCode": "USD",
+    "userId": "005W0000002ndMIIAY",
+    "userName": "tlu@vlocity.com.prod.nal1b.dev",
+    "userProfile": "System Administrator",
+    "userTimeZone": -240,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "DRE_IMPTracking": 551,
+        "OmniScriptSessionToken": "52fbbe5b-2429-48b3-9605-d9949dc0fda9",
+        "SetContextId": 36,
+        "Step_CreateDITWGS": 139233,
+        "Step_DITType": 17864
+    }
+}

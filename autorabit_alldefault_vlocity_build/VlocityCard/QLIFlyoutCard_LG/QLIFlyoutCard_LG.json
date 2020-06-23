@@ -1,0 +1,254 @@
+{
+    "dataSource": {
+        "type": null,
+        "value": {
+            "body": "{\n        \"Quote_Line_Items__r\": {\n\"records\": [\n  { \"Product2\": {\"Name\": \"A\"}},\n  { \"Product2\": {\"Name\": \"B\"}},\n  { \"Product2\": {\"Name\": \"C\"}},\n  { \"Product2\": {\"Name\": \"D\"}},\n  { \"Product2\": {\"Name\": \"E\"}}\n]\n}\n}",
+            "bundle": "AP-RetrieveVBundle",
+            "ctxId": "Id",
+            "query": "",
+            "resultVar": "[0].Quote_Line_Items__r.records"
+        }
+    },
+    "filter": {
+        "['AnthemEntityTransform__c']": "Local"
+    },
+    "states": [
+        {
+            "actionCtxId": "['Id']",
+            "blankStateCheck": false,
+            "collapse": false,
+            "conditions": {
+                "group": [
+                    {
+                        "field": "$scope.data.status",
+                        "operator": "===",
+                        "type": "system",
+                        "value": "'active'"
+                    }
+                ]
+            },
+            "definedActions": {
+                "actions": [
+                    {
+                        "collapse": true,
+                        "hasExtraParams": false,
+                        "id": "ProgramConfiguration",
+                        "isCustomAction": false,
+                        "type": "Vlocity Action"
+                    },
+                    {
+                        "collapse": true,
+                        "hasExtraParams": false,
+                        "id": "ModifyPlan",
+                        "isCustomAction": false,
+                        "type": "Vlocity Action"
+                    },
+                    {
+                        "collapse": true,
+                        "hasExtraParams": false,
+                        "id": "Edit Program",
+                        "isCustomAction": false,
+                        "type": "Vlocity Action"
+                    },
+                    {
+                        "collapse": true,
+                        "hasExtraParams": false,
+                        "id": "AddCommercialClinical",
+                        "isCustomAction": false,
+                        "type": "Vlocity Action"
+                    },
+                    {
+                        "collapse": true,
+                        "hasExtraParams": false,
+                        "id": "ProductConfigurationApprovals",
+                        "isCustomAction": false,
+                        "type": "Vlocity Action"
+                    },
+                    {
+                        "collapse": true,
+                        "conditions": {
+                            "group": [
+                            ]
+                        },
+                        "hasExtraParams": false,
+                        "id": "ViewPlan",
+                        "isCustomAction": false,
+                        "type": "Vlocity Action"
+                    },
+                    {
+                        "collapse": true,
+                        "hasExtraParams": false,
+                        "id": "Delete Program",
+                        "isCustomAction": false,
+                        "type": "Vlocity Action"
+                    },
+                    {
+                        "collapse": true,
+                        "conditions": {
+                            "group": [
+                            ]
+                        },
+                        "extraParams": {
+                            "ActWiseChildQuote": "['ActWiseChildQuote__c']",
+                            "ContextId": "['ActWiseChildQuote__c']"
+                        },
+                        "hasExtraParams": true,
+                        "id": "ProductConfigurationMedicalActWise",
+                        "isCustomAction": false,
+                        "type": "Vlocity Action"
+                    }
+                ]
+            },
+            "disableAddCondition": false,
+            "fields": [
+                {
+                    "collapse": true,
+                    "displayLabel": "['Product2']['Name']",
+                    "editing": false,
+                    "group": "Custom Properties",
+                    "label": "Product Name",
+                    "name": "['Product2']['Name']",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "displayLabel": "['ProductStage__c']",
+                    "editing": false,
+                    "fieldType": "standard",
+                    "group": "Custom Properties",
+                    "label": "Product Stage",
+                    "name": "['ProductStage__c']",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "displayLabel": "['Probability__c']",
+                    "editing": false,
+                    "fieldType": "standard",
+                    "group": "Custom Properties",
+                    "label": "Probability",
+                    "name": "['Probability__c']",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "displayLabel": "['CPLCodes__c']",
+                    "editing": false,
+                    "fieldType": "standard",
+                    "group": "Custom Properties",
+                    "label": "CPL Codes",
+                    "name": "['CPLCodes__c']",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "displayLabel": "<<Custom Field>>",
+                    "editing": false,
+                    "fieldType": "custom",
+                    "label": "A H&W package has not been selected yet",
+                    "name": "",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "displayLabel": "['HW_Package_Name__c']",
+                    "editing": false,
+                    "fieldType": "standard",
+                    "group": "Custom Properties",
+                    "label": "A H&W package has been selected",
+                    "name": "['HW_Package_Name__c']",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "displayLabel": "<<Custom Field>>",
+                    "editing": false,
+                    "fieldType": "custom",
+                    "label": "Contract Code",
+                    "name": "['Contract_Codes__c']",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "displayLabel": "['%vlocity_namespace%__ContractCode__c']",
+                    "editing": false,
+                    "fieldType": "standard",
+                    "group": "Custom Properties",
+                    "label": "Custom Contract Code",
+                    "name": "['%vlocity_namespace%__ContractCode__c']",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "displayLabel": "<<Custom Field>>",
+                    "editing": false,
+                    "fieldType": "custom",
+                    "label": "Plan Type",
+                    "name": "['Plan_Type__c']",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "displayLabel": "<<Custom Field>>",
+                    "editing": false,
+                    "fieldType": "custom",
+                    "label": "Network",
+                    "name": "['Product2']['Network__c']",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "displayLabel": "<<Custom Field>>",
+                    "editing": false,
+                    "fieldType": "custom",
+                    "label": "Co-Insurance",
+                    "name": "['Product2']['Coinsurance__c']",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "displayLabel": "<<Custom Field>>",
+                    "editing": false,
+                    "fieldType": "custom",
+                    "label": "Deductible",
+                    "name": "['Product2']['Deductible_Amount__c']",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "displayLabel": "<<Custom Field>>",
+                    "editing": false,
+                    "fieldType": "custom",
+                    "label": "HPCC Code",
+                    "name": "['HPCC_Code__c']",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "displayLabel": "<<Custom Field>>",
+                    "editing": false,
+                    "fieldType": "custom",
+                    "label": "Act Wise Status",
+                    "name": "['ActWiseChildQuote__r']['CompletionMarker__c']",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "displayLabel": "['Single_INN_provider_co_pay__c']",
+                    "editing": false,
+                    "fieldType": "standard",
+                    "group": "Custom Properties",
+                    "label": "Single INN Provider Co-pay",
+                    "name": "['Single_INN_provider_co_pay__c']",
+                    "type": "string"
+                }
+            ],
+            "filter": "$scope.data.status === 'active'",
+            "name": "active-quoteLI-child-flyout-card",
+            "sObjectType": "QuoteLineItem",
+            "templateUrl": "anthem-QLI-Plan-card_LG"
+        }
+    ],
+    "title": "QLIFlyoutCard_LG",
+    "zone": "bottom"
+}

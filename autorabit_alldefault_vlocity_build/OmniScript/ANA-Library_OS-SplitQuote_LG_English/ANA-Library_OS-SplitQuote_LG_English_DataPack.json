@@ -1,0 +1,29 @@
+{
+    "%vlocity_namespace%__AdditionalInformation__c": "43206-GLD-Split quote RUAT Issue fix",
+    "%vlocity_namespace%__ElementTypeToHTMLTemplateList__c": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "%vlocity_namespace%__Element__c": [
+        "ANA-Library_OS-SplitQuote_LG_English_Element_SetConstants.json",
+        "ANA-Library_OS-SplitQuote_LG_English_Element_DR-RetrieveProducts.json",
+        "ANA-Library_OS-SplitQuote_LG_English_Element_SetQLIValues.json",
+        "ANA-Library_OS-SplitQuote_LG_English_Element_SplitRecordSelection.json",
+        "ANA-Library_OS-SplitQuote_LG_English_Element_QLIProdList.json",
+        "ANA-Library_OS-SplitQuote_LG_English_Element_QLI-TextMessage.json",
+        "ANA-Library_OS-SplitQuote_LG_English_Element_QLI-ProductSelectionMessage.json",
+        "ANA-Library_OS-SplitQuote_LG_English_Element_Split-End.json",
+        "ANA-Library_OS-SplitQuote_LG_English_Element_TB-End.json",
+        "ANA-Library_OS-SplitQuote_LG_English_Element_DR-Updating.json",
+        "ANA-Library_OS-SplitQuote_LG_English_Element_RemoteAction-DeleteQLI.json",
+        "ANA-Library_OS-SplitQuote_LG_English_Element_Redirect-QuoteId.json"
+    ],
+    "%vlocity_namespace%__IsProcedure__c": false,
+    "%vlocity_namespace%__IsReusable__c": false,
+    "%vlocity_namespace%__Language__c": "English",
+    "%vlocity_namespace%__LastPreviewPage__c": "ANA_Membership_Split",
+    "%vlocity_namespace%__PropertySet__c": "ANA-Library_OS-SplitQuote_LG_English_PropertySet.json",
+    "%vlocity_namespace%__SubType__c": "OS-SplitQuote_LG",
+    "%vlocity_namespace%__Type__c": "ANA Library",
+    "Name": "SplitQuote_LG",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__OmniScript__c/ANA Library/OS-SplitQuote_LG/English"
+}

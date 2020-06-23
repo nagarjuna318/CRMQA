@@ -1,0 +1,34 @@
+{
+    "data": {
+        "actions": [
+            {
+                "Name": "Capture IC Details",
+                "displayName": "Capture IC Details",
+                "vlocityIcon": "icon-v-calendar"
+            },
+            {
+                "Name": "IC Submission",
+                "displayName": "IC Submission",
+                "vlocityIcon": "icon-v-edit"
+            }
+        ],
+        "fields": [
+            {
+                "label": "Description",
+                "name": "description"
+            },
+            {
+                "label": "Cost",
+                "name": "cost",
+                "type": "currency"
+            }
+        ],
+        "title": "Card Title"
+    },
+    "obj": {
+        "Id": "123456",
+        "Implementation_Status__c": "Initiated",
+        "Implementation_Type__c": "Project",
+        "LoggedInUserProfile__c": "National Sales"
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "%vlocity_namespace%__ElementTypeToHTMLTemplateList__c": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "%vlocity_namespace%__Element__c": [
+        "IMPCase-Library_IC-CancelImplementationCase_English_Element_zzzSetValues1.json",
+        "IMPCase-Library_IC-CancelImplementationCase_English_Element_DR-RetrieveIMPL.json",
+        "IMPCase-Library_IC-CancelImplementationCase_English_Element_SetValues1.json",
+        "IMPCase-Library_IC-CancelImplementationCase_English_Element_ConfirmImplementationCancellation.json",
+        "IMPCase-Library_IC-CancelImplementationCase_English_Element_tbHeader.json",
+        "IMPCase-Library_IC-CancelImplementationCase_English_Element_msgImplStatus.json",
+        "IMPCase-Library_IC-CancelImplementationCase_English_Element_tbAcctManagerName.json",
+        "IMPCase-Library_IC-CancelImplementationCase_English_Element_msgImplAcctManager.json",
+        "IMPCase-Library_IC-CancelImplementationCase_English_Element_tbComfirm.json",
+        "IMPCase-Library_IC-CancelImplementationCase_English_Element_DR-PostIMPL.json",
+        "IMPCase-Library_IC-CancelImplementationCase_English_Element_DoneAction1.json"
+    ],
+    "%vlocity_namespace%__IsProcedure__c": false,
+    "%vlocity_namespace%__IsReusable__c": false,
+    "%vlocity_namespace%__Language__c": "English",
+    "%vlocity_namespace%__PropertySet__c": "IMPCase-Library_IC-CancelImplementationCase_English_PropertySet.json",
+    "%vlocity_namespace%__SubType__c": "IC-CancelImplementationCase",
+    "%vlocity_namespace%__Type__c": "IMPCase Library",
+    "Name": "IMPCase Library/IC-CancelImplementationCase",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__OmniScript__c/IMPCase Library/IC-CancelImplementationCase/English"
+}

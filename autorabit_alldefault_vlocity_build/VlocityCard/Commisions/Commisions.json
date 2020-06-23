@@ -1,0 +1,74 @@
+{
+    "dataSource": {
+        "type": null,
+        "value": {
+        }
+    },
+    "filter": {
+    },
+    "states": [
+        {
+            "actionCtxId": "['Id']",
+            "conditions": {
+                "group": [
+                    {
+                        "field": "$scope.data.status",
+                        "operator": "===",
+                        "type": "system",
+                        "value": "'active'"
+                    }
+                ]
+            },
+            "definedActions": {
+                "actions": [
+                ]
+            },
+            "fields": [
+                {
+                    "collapse": true,
+                    "displayLabel": "<<Custom Field>>",
+                    "editing": false,
+                    "fieldType": "custom",
+                    "label": "Reports",
+                    "name": "['Owner_Name__c']",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "displayLabel": "<<Custom Field>>",
+                    "editing": false,
+                    "fieldType": "custom",
+                    "label": "Role",
+                    "name": "['Role__c']",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "displayLabel": "<<Custom Field>>",
+                    "editing": false,
+                    "fieldType": "custom",
+                    "label": "TOTAL COMP AMOUNT FOR PERSON",
+                    "name": "['Total_Comp_Amount_For_Person__c']",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "displayLabel": "<<Custom Field>>",
+                    "editing": false,
+                    "fieldType": "custom",
+                    "label": "MULTIPLIER PERCENTAGE",
+                    "name": "['Multiplier_Percentage__c']",
+                    "type": "string"
+                }
+            ],
+            "flyout": {
+                "data": "",
+                "layout": "CommissionsFlyoutCards"
+            },
+            "name": "Commisions",
+            "sObjectType": "Internal_Commission__c",
+            "templateUrl": "anthem-Commisions-card-active-slds"
+        }
+    ],
+    "title": "Commisions"
+}

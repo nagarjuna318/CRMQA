@@ -1,0 +1,538 @@
+{
+    "ChildCountDynamic": 9,
+    "CommercialBuyUp": "Commercial Buy-Ups",
+    "Commercial_BuyUpSelection": {
+        "AP-ProductSelectionValidation": true,
+        "APParentCount2": true,
+        "FixList": [
+            {
+                "$$hashKey": "object:434",
+                "Id": "01tS0000006bjNrIAI",
+                "IsActive": true,
+                "Name": "24/7 NURSELINE",
+                "QLIRecordType__c": "Default",
+                "vlcSelected": true
+            },
+            {
+                "$$hashKey": "object:444",
+                "Id": "01t1K0000067As0QAE",
+                "IsActive": true,
+                "LOB": "Health and Wellness",
+                "Name": "AUTISM SPECTRUM DISORDER (ASD) PROGRAM V2",
+                "QLIRecordType__c": "Default",
+                "vlcSelected": true
+            },
+            {
+                "$$hashKey": "object:447",
+                "Id": "01t1K0000067As1QAE",
+                "IsActive": true,
+                "LOB": "Health and Wellness",
+                "Name": "BEHAVIORAL HEALTH CASE MANAGEMENT WITH MYSTRENGTH",
+                "QLIRecordType__c": "Default",
+                "vlcSelected": true
+            },
+            {
+                "$$hashKey": "object:451",
+                "Id": "01t1K0000067AsVQAU",
+                "IsActive": true,
+                "LOB": "Health and Wellness",
+                "Name": "CASE MANAGEMENT",
+                "QLIRecordType__c": "Default",
+                "vlcSelected": true
+            },
+            {
+                "$$hashKey": "object:461",
+                "Id": "01t1K0000067As3QAE",
+                "IsActive": true,
+                "LOB": "Health and Wellness",
+                "Name": "CLINICAL REVIEW - CANCER CARE QUALITY PROGRAM",
+                "QLIRecordType__c": "Default",
+                "vlcSelected": true
+            },
+            {
+                "$$hashKey": "object:462",
+                "Id": "01tS0000006bjNsIAI",
+                "IsActive": true,
+                "Name": "CLINICAL REVIEW - CARDIOLOGY",
+                "QLIRecordType__c": "Default",
+                "vlcSelected": true
+            },
+            {
+                "$$hashKey": "object:463",
+                "Id": "01tS0000006bjNtIAI",
+                "IsActive": true,
+                "Name": "CLINICAL REVIEW - GENETIC TESTING",
+                "QLIRecordType__c": "Default",
+                "vlcSelected": true
+            },
+            {
+                "$$hashKey": "object:465",
+                "Id": "01tS0000006bjNuIAI",
+                "IsActive": true,
+                "Name": "CLINICAL REVIEW - IMAGING W SITE OF CARE",
+                "QLIRecordType__c": "Default",
+                "vlcSelected": true
+            },
+            {
+                "$$hashKey": "object:466",
+                "Id": "01tS0000006bjNvIAI",
+                "IsActive": true,
+                "Name": "CLINICAL REVIEW - MUSCULOSKELETAL",
+                "QLIRecordType__c": "Default",
+                "vlcSelected": true
+            },
+            {
+                "$$hashKey": "object:467",
+                "Id": "01tS0000006bjNwIAI",
+                "IsActive": true,
+                "Name": "CLINICAL REVIEW - PROCEDURE SHOPPER",
+                "QLIRecordType__c": "Default",
+                "vlcSelected": true
+            },
+            {
+                "$$hashKey": "object:468",
+                "Id": "01tS0000006bjNxIAI",
+                "IsActive": true,
+                "Name": "CLINICAL REVIEW - RADIATION THERAPY",
+                "QLIRecordType__c": "Default",
+                "vlcSelected": true
+            },
+            {
+                "$$hashKey": "object:469",
+                "Id": "01tS0000006bjNyIAI",
+                "IsActive": true,
+                "Name": "CLINICAL REVIEW - RADIOLOGY BENEFIT MANAGEMENT",
+                "QLIRecordType__c": "Default",
+                "vlcSelected": true
+            },
+            {
+                "$$hashKey": "object:471",
+                "Id": "01tS0000006bjNzIAI",
+                "IsActive": true,
+                "Name": "CLINICAL REVIEW - SLEEP",
+                "QLIRecordType__c": "Default",
+                "vlcSelected": true
+            },
+            {
+                "$$hashKey": "object:473",
+                "Id": "01tS0000006bjO1IAI",
+                "IsActive": true,
+                "Name": "CLINICAL REVIEW - SPECIALTY RX W SITE OF CARE",
+                "QLIRecordType__c": "Default",
+                "vlcSelected": true
+            },
+            {
+                "$$hashKey": "object:474",
+                "Id": "01tS0000006bjNpIAI",
+                "IsActive": true,
+                "Name": "CLINICAL REVIEW - SURGICAL GI",
+                "QLIRecordType__c": "Default",
+                "vlcSelected": true
+            },
+            {
+                "$$hashKey": "object:475",
+                "Id": "01tS0000006bjO2IAI",
+                "IsActive": true,
+                "Name": "CLINICAL REVIEW - SURGICAL SHOPPER",
+                "QLIRecordType__c": "Default",
+                "vlcSelected": true
+            },
+            {
+                "$$hashKey": "object:479",
+                "Id": "01t1K0000067AsWQAU",
+                "IsActive": true,
+                "LOB": "Health and Wellness",
+                "Name": "COMMERCIAL OUTBOUND CALL PROGRAM",
+                "QLIRecordType__c": "Default",
+                "vlcSelected": true
+            },
+            {
+                "$$hashKey": "object:482",
+                "Id": "01t1K0000067AsXQAU",
+                "IsActive": true,
+                "LOB": "Health and Wellness",
+                "Name": "CONDITIONCARE:CORE",
+                "QLIRecordType__c": "Default",
+                "vlcSelected": true
+            },
+            {
+                "$$hashKey": "object:483",
+                "Id": "01t1K0000067AsYQAU",
+                "IsActive": true,
+                "LOB": "Health and Wellness",
+                "Name": "CONDITIONCARE:ESRD",
+                "QLIRecordType__c": "Default",
+                "vlcSelected": true
+            },
+            {
+                "$$hashKey": "object:489",
+                "Id": "01t1K0000067AsnQAE",
+                "IsActive": true,
+                "LOB": "Health and Wellness",
+                "Name": "FUTURE MOMS WITH ID AND LHO LACTATION",
+                "QLIRecordType__c": "Default",
+                "vlcSelected": true
+            },
+            {
+                "$$hashKey": "object:511",
+                "Id": "01t1K0000067AsFQAU",
+                "IsActive": true,
+                "LOB": "Health and Wellness",
+                "Name": "MYHEALTH ADVANTAGE GOLD V2",
+                "QLIRecordType__c": "Default",
+                "vlcSelected": true
+            },
+            {
+                "$$hashKey": "object:516",
+                "Id": "01t1K0000067AspQAE",
+                "IsActive": true,
+                "LOB": "Health and Wellness",
+                "Name": "NICU CASE MANAGEMENT",
+                "QLIRecordType__c": "Default",
+                "vlcSelected": true
+            },
+            {
+                "$$hashKey": "object:520",
+                "Id": "01t1K0000067AsqQAE",
+                "IsActive": true,
+                "LOB": "Health and Wellness",
+                "Name": "PHARMACY OUTREACH PROGRAMS",
+                "QLIRecordType__c": "Default",
+                "vlcSelected": true
+            },
+            {
+                "$$hashKey": "object:524",
+                "Id": "01t1K0000067AsrQAE",
+                "IsActive": true,
+                "LOB": "Health and Wellness",
+                "Name": "QUICK CARE OPTIONS",
+                "QLIRecordType__c": "Default",
+                "vlcSelected": true
+            },
+            {
+                "$$hashKey": "object:535",
+                "Id": "01tS0000005xePcIAI",
+                "IsActive": true,
+                "Name": "SYDNEY",
+                "QLIRecordType__c": "Default",
+                "vlcSelected": true
+            },
+            {
+                "$$hashKey": "object:537",
+                "Id": "01t1K0000067AssQAE",
+                "IsActive": true,
+                "LOB": "Health and Wellness",
+                "Name": "TRANSPLANT",
+                "QLIRecordType__c": "Default",
+                "vlcSelected": true
+            },
+            {
+                "$$hashKey": "object:538",
+                "Id": "01t1K0000067AstQAE",
+                "IsActive": true,
+                "LOB": "Health and Wellness",
+                "Name": "UTILIZATION MANAGEMENT",
+                "QLIRecordType__c": "Default",
+                "vlcSelected": true
+            },
+            {
+                "$$hashKey": "object:544",
+                "Id": "01t1K0000067AsuQAE",
+                "IsActive": true,
+                "LOB": "Health and Wellness",
+                "Name": "WEBMD HEALTH ASSESSMENT",
+                "QLIRecordType__c": "Default",
+                "vlcSelected": true
+            }
+        ],
+        "ValidateParentCount": true
+    },
+    "Commercial_Clinical": {
+        "AP-ProdSelected": true,
+        "APParentCount": true,
+        "ParentProductId": "01tS0000006IgQCIA0",
+        "ProdList": [
+            {
+                "$$hashKey": "object:377",
+                "Bundle": "Fixed",
+                "ClinicalName": "ASO Enhanced Foundational",
+                "HasSPP": false,
+                "Id": "01tS0000006IgQCIA0",
+                "Name": "ASO Enhanced Foundational",
+                "QLIRecordType": "LocalType",
+                "RecordTypeId": "01241000001IOWvAAO",
+                "vlcSelected": true
+            }
+        ],
+        "Wellbeing_Solutions_Custom_Message": true,
+        "Wellbeing_Solutions_Standard_Packages_Message": null
+    },
+    "ContextId": "0QLS0000000QhP8OAK",
+    "EffectiveDate": "2020-01-01",
+    "EffectiveDateCheck1": "Y",
+    "EffectiveDateCheck2": "N",
+    "Funding_Type": "ASO",
+    "HPCCCodeVal": "HJKH",
+    "HPCCCodeValue": "HJ7M",
+    "IncentiveType": {
+        "Clinical_Product": "ASO Enhanced Foundational",
+        "IncentiveTypeSelect": "NA",
+        "Selected_Product": "ASO Enhanced Foundational"
+    },
+    "IncentiveTypeSelect": "NA",
+    "PackageNameValue": [
+        "JAA ASO Basic Foundational"
+    ],
+    "ParentCount": 1,
+    "ParentCountDynamic": 1,
+    "ParentId": "01tS0000006IgQbIAK",
+    "ProdListCB": {
+        "Bundle": "Variable",
+        "HasSPP": false,
+        "Id": "01t1K0000067AsKQAU",
+        "NALGProdRecordType": "Commercial Buy-Ups",
+        "Name": "Custom Package",
+        "QLIRecordType": "Default",
+        "RecordTypeId": "01241000001IOWvAAO"
+    },
+    "ProductSelection": {
+        "Child_Bundles": {
+            "ChildList": [
+                {
+                    "$$hashKey": "object:227",
+                    "Name": "AUTISM SPECTRUM DISORDER (ASD) PROGRAM V2",
+                    "vlcSelected": true
+                },
+                {
+                    "$$hashKey": "object:228",
+                    "Name": "BEHAVIORAL HEALTH CASE MANAGEMENT WITH MYSTRENGTH",
+                    "vlcSelected": true
+                },
+                {
+                    "$$hashKey": "object:229",
+                    "Name": "CASE MANAGEMENT",
+                    "vlcSelected": true
+                },
+                {
+                    "$$hashKey": "object:230",
+                    "Name": "COMMERCIAL OUTBOUND CALL PROGRAM",
+                    "vlcSelected": true
+                },
+                {
+                    "$$hashKey": "object:231",
+                    "Name": "NICU CASE MANAGEMENT",
+                    "vlcSelected": true
+                },
+                {
+                    "$$hashKey": "object:232",
+                    "Name": "SYDNEY",
+                    "vlcSelected": true
+                },
+                {
+                    "$$hashKey": "object:233",
+                    "Name": "TRANSPLANT",
+                    "vlcSelected": true
+                },
+                {
+                    "$$hashKey": "object:234",
+                    "Name": "UTILIZATION MANAGEMENT",
+                    "vlcSelected": true
+                },
+                {
+                    "$$hashKey": "object:235",
+                    "Name": "WEBMD HEALTH ASSESSMENT",
+                    "vlcSelected": true
+                }
+            ]
+        },
+        "Commercial_Selections": {
+            "CommercialFlow": "Commercial Buy-Ups"
+        },
+        "DefaultProductCreationMessage": null,
+        "Group_Display": false,
+        "Messaging9": true,
+        "Parent_Count": 1,
+        "Parent_Product": {
+            "SelectedParentProduct": [
+                {
+                    "$$hashKey": "object:224",
+                    "Id": "01tS0000006IgQbIAK",
+                    "Name": "JAA ASO Basic Foundational",
+                    "vlcSelected": true
+                }
+            ]
+        }
+    },
+    "ProgramList": [
+        {
+            "Id": "01t1K0000067Ax4QAE",
+            "IsActive": true,
+            "Name": "24/7 NURSELINE"
+        },
+        {
+            "Id": "01tS0000005xFKtIAM",
+            "IsActive": true,
+            "Name": "AUTISM SPECTRUM DISORDER (ASD) PROGRAM V2"
+        },
+        {
+            "Id": "01tS0000005xFKuIAM",
+            "IsActive": true,
+            "Name": "BEHAVIORAL HEALTH CASE MANAGEMENT WITH MYSTRENGTH"
+        },
+        {
+            "Id": "01t1K0000067Ax9QAE",
+            "IsActive": true,
+            "Name": "CASE MANAGEMENT"
+        },
+        {
+            "Id": "01tS0000005xFKzIAM",
+            "IsActive": true,
+            "Name": "CLINICAL REVIEW - CANCER CARE QUALITY PROGRAM"
+        },
+        {
+            "Id": "01tS0000005xFL0IAM",
+            "IsActive": true,
+            "Name": "CLINICAL REVIEW - CARDIOLOGY"
+        },
+        {
+            "Id": "01tS0000005xFL1IAM",
+            "IsActive": true,
+            "Name": "CLINICAL REVIEW - GENETIC TESTING"
+        },
+        {
+            "Id": "01tS0000005xFL2IAM",
+            "IsActive": true,
+            "Name": "CLINICAL REVIEW - IMAGING W SITE OF CARE"
+        },
+        {
+            "Id": "01tS0000005xFL3IAM",
+            "IsActive": true,
+            "Name": "CLINICAL REVIEW - MUSCULOSKELETAL"
+        },
+        {
+            "Id": "01tS0000005xFL4IAM",
+            "IsActive": true,
+            "Name": "CLINICAL REVIEW - PROCEDURE SHOPPER"
+        },
+        {
+            "Id": "01tS0000005xFL5IAM",
+            "IsActive": true,
+            "Name": "CLINICAL REVIEW - RADIATION THERAPY"
+        },
+        {
+            "Id": "01tS0000005xFL6IAM",
+            "IsActive": true,
+            "Name": "CLINICAL REVIEW - RADIOLOGY BENEFIT MANAGEMENT"
+        },
+        {
+            "Id": "01tS0000005xFL8IAM",
+            "IsActive": true,
+            "Name": "CLINICAL REVIEW - SLEEP"
+        },
+        {
+            "Id": "01tS0000005xFLAIA2",
+            "IsActive": true,
+            "Name": "CLINICAL REVIEW - SPECIALTY RX W SITE OF CARE"
+        },
+        {
+            "Id": "01tS0000005xFLBIA2",
+            "IsActive": true,
+            "Name": "CLINICAL REVIEW - SURGICAL GI"
+        },
+        {
+            "Id": "01tS0000005xFLCIA2",
+            "IsActive": true,
+            "Name": "CLINICAL REVIEW - SURGICAL SHOPPER"
+        },
+        {
+            "Id": "01t1K0000067AxAQAU",
+            "IsActive": true,
+            "Name": "COMMERCIAL OUTBOUND CALL PROGRAM"
+        },
+        {
+            "Id": "01t1K0000067AxBQAU",
+            "IsActive": true,
+            "Name": "CONDITIONCARE:CORE"
+        },
+        {
+            "Id": "01t1K0000067AxCQAU",
+            "IsActive": true,
+            "Name": "CONDITIONCARE:ESRD"
+        },
+        {
+            "Id": "01t1K0000067AxRQAU",
+            "IsActive": true,
+            "Name": "FUTURE MOMS WITH ID AND LHO LACTATION"
+        },
+        {
+            "Id": "01tS0000005xFLOIA2",
+            "IsActive": true,
+            "Name": "MYHEALTH ADVANTAGE GOLD V2"
+        },
+        {
+            "Id": "01t1K0000067AxTQAU",
+            "IsActive": true,
+            "Name": "NICU CASE MANAGEMENT"
+        },
+        {
+            "Id": "01t1K0000067AxUQAU",
+            "IsActive": true,
+            "Name": "PHARMACY OUTREACH PROGRAMS"
+        },
+        {
+            "Id": "01t1K0000067AxVQAU",
+            "IsActive": true,
+            "Name": "QUICK CARE OPTIONS"
+        },
+        {
+            "Id": "01tS0000006GLu7IAG",
+            "IsActive": true,
+            "Name": "SYDNEY"
+        },
+        {
+            "Id": "01t1K0000067AxWQAU",
+            "IsActive": true,
+            "Name": "TRANSPLANT"
+        },
+        {
+            "Id": "01t1K0000067AxXQAU",
+            "IsActive": true,
+            "Name": "UTILIZATION MANAGEMENT"
+        },
+        {
+            "Id": "01t1K0000067AxYQAU",
+            "IsActive": true,
+            "Name": "WEBMD HEALTH ASSESSMENT"
+        }
+    ],
+    "QLI_Contract_Code": "50A1",
+    "QLI_EffectiveDate": "2020-01-01",
+    "QLI_Financing": "JAA (Jointly Administered Arrangement)",
+    "QLI_Funding": "ASO",
+    "QLI_Group_Size": "500 - 999",
+    "QLI_HPCC_Code": "HJKH",
+    "QLI_Id": "0QLS0000000QsHAOA0",
+    "QLI_Incentive_Type": "NA",
+    "QLI_Market": "OH",
+    "QLI_OppType": "New Business Local",
+    "QLI_Opportunity_RecordType": "New Business Local",
+    "QLI_Product_Name": "Anthem Blue Access Options PPO (3-Tier) Option 1 with Rx Option T2",
+    "QLI_Product_Type": "Commercial Clinical",
+    "QLI_QuoteId": "0Q0S0000000MmOEKA0",
+    "State": "OH",
+    "TopRangeCheck1": "N",
+    "TopRangeCheck2": "Y",
+    "TopRange_Buyup": 1000,
+    "Top_Range": "999",
+    "id": "a3CS0000000GTQCMA4",
+    "isJAA": "Y",
+    "layout": "newport",
+    "timeStamp": "2019-09-23T09:17:54.096Z",
+    "userCurrencyCode": "USD",
+    "userId": "0051K000008dXgiQAE",
+    "userName": "veramesh@deloitte.com.com2.iceqa",
+    "userProfile": "System Administrator",
+    "userTimeZone": -240,
+    "vlcPersistentComponent": {
+    }
+}

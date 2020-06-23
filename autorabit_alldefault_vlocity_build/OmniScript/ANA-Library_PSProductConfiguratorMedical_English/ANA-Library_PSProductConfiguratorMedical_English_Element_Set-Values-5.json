@@ -1,0 +1,60 @@
+{
+    "%vlocity_namespace%__Active__c": true,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "ProductConfiguratorMedical",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/ANA Library/PSProductConfiguratorMedical/English",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__PropertySet__c": {
+        "HTMLTemplateId": "",
+        "controlWidth": 12,
+        "elementValueMap": {
+            "ALTNETCOUNT": "=INTEGER(%ANCNT%)",
+            "CommuterCount": "%CommuterCount%",
+            "FMHPASOApprovedBlock": {
+                "FMHPASOApproved": "=IF(AND(EQUALS(%Funding%, 'ASO'), EQUALS(%FMHPUWReviewOrg%,'Yes - Approved')), %FMHPASOOrg%,'')"
+            },
+            "FMHPASODeclineBlock": {
+                "FMHPASODecline": "=IF(AND(EQUALS(%Funding%, 'ASO'), EQUALS(%FMHPUWReviewOrg%,'Yes - Changes Declined by Client')), %FMHPASOOrg%,'')"
+            },
+            "FMHPFIDefaultBlock": {
+                "FMHPFIDefault": "=IF(AND(EQUALS(%Funding%, 'FI'), EQUALS(%FMHPUWReviewOrg%,'Yes - Approved')), %FMHPFIOrg%,'')"
+            },
+            "FMHPUWReviewASOBlock": {
+                "FMHPUWReviewASO": "=IF(EQUALS(%FinancingDependent%, 'JAA (Jointly Administered Arrangement)'), '', IF(EQUALS(%Funding%,'ASO'), %FMHPUWReviewOrg%,''))"
+            },
+            "FMHPUWReviewDefaultBlock": {
+                "FMHPUWReviewDefault": "=IF(EQUALS(%FinancingDependent%,'JAA (Jointly Administered Arrangement)') , 'JAA - Not Applicable','')"
+            },
+            "FMHPUWReviewFIBlock": {
+                "FMHPUWReviewFI": "=IF(EQUALS(%FinancingDependent%, 'JAA (Jointly Administered Arrangement)'), '', IF(EQUALS(%Funding%,'FI'), 'Yes - Approved',''))"
+            },
+            "FSACount": "%FSACount%",
+            "HRAPaymentType": "%MedicalHRAPaymentTypeExist%",
+            "IsLocalSales": "=IF(%userProfile% = 'Local Sales' || %userProfile% = 'Local Sales Dual' ,true,false)",
+            "MedicalHRAPaymentType": "=IF(%MedicalHRAPaymentTypeExist% = NULL, 'Provider Pay', %MedicalHRAPaymentTypeExist%)",
+            "PreCertificationRequired": "=%IsPre-CertificationRequiredForAppliedBehavioralAnalysis(ABA)%",
+            "PurchasedASD": "=%HasTheClientPurchasedAutismSpectrumDisorder%",
+            "RxHRAPayType": "%RxHRAPaymentTypeExist%",
+            "RxHRAPaymentType": "=IF(%RxHRAPaymentTypeExist% = NULL, 'Provider Pay', %RxHRAPaymentTypeExist%)"
+        },
+        "label": "Set Values 5",
+        "message": {
+        },
+        "show": null,
+        "showPersistentComponent": [
+            false,
+            false
+        ],
+        "ssm": false,
+        "validationRequired": "None",
+        "wpm": false
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": false,
+    "%vlocity_namespace%__Type__c": "Set Values",
+    "Name": "Set Values 5",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/ANA Library/PSProductConfiguratorMedical/English/Set Values 5"
+}

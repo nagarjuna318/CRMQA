@@ -1,0 +1,45 @@
+{
+    "ContextId": "a811b0000008VB7",
+    "CurrentPendingCorrections": {
+        "AddPendingCorrection": false,
+        "CorrectionDepartment": null,
+        "PendingCorrection": {
+            "CorrectionComments": null,
+            "Formula1": false,
+            "Formula2": true,
+            "Id": null,
+            "InitiatorComments": null,
+            "MsgStgComments": true,
+            "MsgStgtoOther": true,
+            "PendingCorrectionsStage": null,
+            "Reason": null
+        },
+        "PendingCorrectionType": null,
+        "RateType": null,
+        "Stage": null,
+        "SubmitDateext": null
+    },
+    "Profile": "SME",
+    "ProfileText": "Other",
+    "Submit": {
+        "SubmitDate": null,
+        "SubmitPendCorrection": null
+    },
+    "id": "a3C2a0000003scgEAA",
+    "layout": "lightning",
+    "timeStamp": "2019-01-24T09:48:14.114Z",
+    "userCurrencyCode": "USD",
+    "userId": "00541000006Y5iSAAS",
+    "userName": "ashishkumar53@deloitte.com2.prod.iceqa",
+    "userProfile": "System Administrator",
+    "userTimeZone": null,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "DR-ExtractPenCorrectionReason": 538,
+        "DR-ExtractPencorrection": 568,
+        "OmniScriptSessionToken": "2b4ac248-e563-4ebc-aa38-e37eccc3ce18",
+        "SetValues1": 128,
+        "SetValues3": 39
+    }
+}

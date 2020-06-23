@@ -1,0 +1,81 @@
+[
+    {
+        "%vlocity_namespace%__DomainObjectAPIName__c": "Account",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 1,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "Claims_Repricing_Tool__c",
+        "%vlocity_namespace%__InterfaceFieldAPIName__c": "MPIClaimsRepricingTool",
+        "%vlocity_namespace%__IsDisabled__c": false,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__MapId__c": "IMP_CreateOrder_AccountMPI_LGCustom3464",
+        "%vlocity_namespace%__UpsertKey__c": false,
+        "Name": "IMP_CreateOrder_AccountMPI_LG",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    },
+    {
+        "%vlocity_namespace%__DomainObjectAPIName__c": "Account",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 1,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "Custom_Saving__c",
+        "%vlocity_namespace%__InterfaceFieldAPIName__c": "MPICustomSavings",
+        "%vlocity_namespace%__IsDisabled__c": false,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__MapId__c": "IMP_CreateOrder_AccountMPI_LGCustom4139",
+        "%vlocity_namespace%__UpsertKey__c": false,
+        "Name": "IMP_CreateOrder_AccountMPI_LG",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    },
+    {
+        "%vlocity_namespace%__DomainObjectAPIName__c": "Account",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 1,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "Id",
+        "%vlocity_namespace%__InterfaceFieldAPIName__c": "MPIAccountId",
+        "%vlocity_namespace%__IsDisabled__c": false,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__MapId__c": "IMP_CreateOrder_AccountMPI_LGCustom7804",
+        "%vlocity_namespace%__UpsertKey__c": true,
+        "Name": "IMP_CreateOrder_AccountMPI_LG",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    },
+    {
+        "%vlocity_namespace%__ConfigurationValue__c": "FAKEMAPPING",
+        "%vlocity_namespace%__DomainObjectAPIName__c": "Account",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 1,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "Id",
+        "%vlocity_namespace%__FilterOperator__c": "=",
+        "%vlocity_namespace%__IsDisabled__c": true,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__MapId__c": "IMP_CreateOrder_AccountMPI_LGCustom8210",
+        "%vlocity_namespace%__UpsertKey__c": false,
+        "Name": "IMP_CreateOrder_AccountMPI_LG",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    },
+    {
+        "%vlocity_namespace%__DomainObjectAPIName__c": "Account",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 1,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "Program_Selection_Details__c",
+        "%vlocity_namespace%__InterfaceFieldAPIName__c": "GroupInformation:MPIdetails:ProgramSelectionDetails",
+        "%vlocity_namespace%__IsDisabled__c": false,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__MapId__c": "IMP_CreateOrder_AccountMPI_LGCustom2770",
+        "%vlocity_namespace%__UpsertKey__c": false,
+        "Name": "IMP_CreateOrder_AccountMPI_LG",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    },
+    {
+        "%vlocity_namespace%__DomainObjectAPIName__c": "Account",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 1,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "Shared_Savings__c",
+        "%vlocity_namespace%__InterfaceFieldAPIName__c": "MPISharedSavings",
+        "%vlocity_namespace%__IsDisabled__c": false,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__MapId__c": "IMP_CreateOrder_AccountMPI_LGCustom6198",
+        "%vlocity_namespace%__UpsertKey__c": false,
+        "Name": "IMP_CreateOrder_AccountMPI_LG",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    }
+]

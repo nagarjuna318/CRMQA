@@ -1,0 +1,464 @@
+{
+    "AccTeamMemId": "01M23000007uvWhEAI",
+    "AccountExecutive": "",
+    "AccountExecutiveLatest": "",
+    "AccountManager": "",
+    "AccountManagerLatest": "",
+    "AccountManagerTest": "",
+    "AccountPreferences": {
+        "ASONewbornOptOutIndicator": "N",
+        "CertofCreditableCoverageSuppression": "N",
+        "ConversionLetterSuppression": "N",
+        "DelinquencyCancellationLttrSuppression": "N",
+        "DoesAnthemGenerateHCID": "G",
+        "ProrationRule": "M",
+        "TerminationLetterSuppression1": "N",
+        "TerminationLetterSuppression2": "N"
+    },
+    "AccountUpdateId": "0012300000UAZ1pAAH",
+    "AccounteExecutiveTest": "",
+    "AddNewDepartmentCodes": false,
+    "AddNewEmployeeClassDivision": false,
+    "AddNewProductMedicalSpecialtyOnly": false,
+    "AddNewProductSupplemental": false,
+    "CaseInformation": {
+        "CaseInformation1": {
+            "AccountId": "0012300000UAZ1pAAH",
+            "AcountAccessLevel": "Edit",
+            "BenefitRenewalAnniversaryDate": "2022-01-01",
+            "IDCardsSentTo": "Group",
+            "ImplementationCaseStatus": "RFP Review Finalized",
+            "ImplementationEffectiveDate": "2021-01-01",
+            "OppOwner-Block": {
+                "OppOwner": "Bharath Kumar"
+            },
+            "UnderwriterName": "Bharath Kumar",
+            "WGSMBUCode": "66200000"
+        }
+    },
+    "ChangeAccountName": false,
+    "ChangeAccountPhoneNumber": false,
+    "ChangeAccountPhysicalOrMailingAddress": false,
+    "ChangeAnniversaryMonth": false,
+    "ChangeBenefitDesignOnAtLeastOneProduct": false,
+    "ChangeContactBillingInvoice": false,
+    "ChangeContactNonBilling": false,
+    "ChangeFundingTypeOnAtLeastOneProduct": false,
+    "ChangeNewHireProbationaryPeriod": false,
+    "ChangeProducts": false,
+    "CompanyInformation1": {
+        "CompanyInformation": {
+            "AccountLegalName": "Account 58343",
+            "AccountStatusCROC": "Active",
+            "AccountStatusNB": "Active",
+            "AnthemEntity": "Labor and Trust",
+            "CompanySizeGroupSize": "1 - 50",
+            "ERISAStatus": "ERISA",
+            "EmployerTaxID": "454545454",
+            "HIPAALetterExclusion": "(Y) Exclude the Generation of HIPAA Add and Term Letters Due To HCR",
+            "HQState": "CA",
+            "LegalEntity": "OT = Other",
+            "Phone1": "9876543122",
+            "PhysicalAndMailingAddress": {
+                "MalingConditionBlock": {
+                    "MailingBlock": {
+                        "MailingCity": "calfornia",
+                        "MailingCountry": "United States",
+                        "MailingCounty": "calfornia",
+                        "MailingState": "CA",
+                        "MailingStreet": "calfornia street",
+                        "MailingZipCode": "90005"
+                    }
+                },
+                "PhysicalCorrectlevel": {
+                    "Physicalblock": {
+                        "PhysicaZiPCode": "90005",
+                        "PhysicalCity": "calfornia",
+                        "PhysicalCountry": "United States",
+                        "PhysicalCounty": "calfornia",
+                        "PhysicalState": "CA",
+                        "PhysicalStreet": "calfornia street"
+                    }
+                },
+                "ShippingAddressissameAsMailingAddress": true
+            },
+            "SitusState": "California",
+            "VendorReferral": "A",
+            "WorkLocation": "4100"
+        }
+    },
+    "ContactGroupParent": "0032300000OWTrpAAH",
+    "ContactInformation": {
+        "GroupAdministratorContactEmail": "test58343@co.in",
+        "GroupAdministratorContactName": "test Talari",
+        "GroupAdministratorContactPhone": "9885533868",
+        "GroupAdministratorContactType": "Group Administrator",
+        "GroupAdministratorFirstName": "test",
+        "GroupAdministratorLastName": "Talari",
+        "GroupAdministratorMailingCity": "Hyderabad",
+        "GroupAdministratorMailingState": "TELANGANA",
+        "GroupAdministratorMailingStreet": "isb road",
+        "GroupAdministratorMailingZipCode": "500084"
+    },
+    "ContactTypeG": "Group Administrator",
+    "ContctrelatGroupId": "a5F23000001HlwPEAS",
+    "ContextId": "80123000000sUfHAAU",
+    "CounterValue": false,
+    "CustomerMasterAccount": false,
+    "DRId_Brokerage_and_Consultant1__c": "a6h230000008ooCAAQ",
+    "DataRaptorExtractAction6Status": true,
+    "DataRaptorExtractAction7Status": true,
+    "DentalQLI": {
+        "AddReasonCode": "New Product Line",
+        "Prefix": "% %",
+        "ProductCategory": "Product",
+        "ProductName": "GOLDEN WEST",
+        "ProductStage": "Sold",
+        "ProductType": "Dental",
+        "id": "0QL23000000IBzIGAW",
+        "parentQLIProdName": "% %"
+    },
+    "FSAQLIAddReasonCode": "",
+    "FSAQLIBenefitPeriod": "",
+    "FSAQLIClaimsRouteCode": "",
+    "FSAQLIProdName": "",
+    "Formula11": true,
+    "GroupInformation": {
+        "ClaimSystem": "WGS 2.0",
+        "ClaimsDetails": {
+            "ClaimsSavingsVendor": "NC8",
+            "DuplicateSupplementalCoverageAllowed": "N",
+            "Non-ContractedSavingsProgram": "No",
+            "TerminatedReservelessMPPFunding": "N"
+        },
+        "EmployeeAssistanceProgram": true,
+        "EnrollmentDetails": {
+            "OngoingEnrollmentSubmissionType": "Manual Move from NASC",
+            "OpenEnrollmentStartDate": "2020-05-28",
+            "RetroEnrollmentMaintenanceElectronic": "90",
+            "RetroEnrollmentMaintenanceOnline": "90"
+        },
+        "GroupNumber": "1234",
+        "IDCardsDetails": {
+            "IDCardsSentToInitially": "Group",
+            "MaintenanceCardsSentTo": "Sales Rep",
+            "NonHmoBlock": {
+                "NonHMOIDCards": "S3",
+                "NonHMOIDCards1": "S3"
+            },
+            "OptOutofLHOURLonIDCards": "N"
+        },
+        "OADAutoDelete": "Y",
+        "OpportunityEffectiveDate": "2021-01-01",
+        "RenewalDetails": {
+            "ActiveRenewalDate": "06/17/2020",
+            "MonthUnderwriterStartsRenewalProcess": "January"
+        },
+        "UpdatedApId": "aAZ2300000003jsGAA"
+    },
+    "GroupNumbervalidation": "RFP Review Finalized",
+    "GroupSubmissionCounter": "",
+    "GroupUpdateID": "a5I230000006fjeEAA",
+    "ID": "a5I230000006fjeEAA",
+    "ImplCase": {
+        "ImplementationType": "New Business"
+    },
+    "ImplementaionTrackingID": "a7X230000008zGxEAI",
+    "ImplementationType": "New Business",
+    "IsLoadGroupSubmitted": false,
+    "LifeDisabilityQLI": {
+        "AddReasonCode": "New Case Sales",
+        "Prefix": "% %",
+        "ProductCategory": "Product",
+        "ProductContractCodes": "ACV41",
+        "ProductName": "Basic Dependent AD&D",
+        "ProductStage": "Sold",
+        "ProductType": "Life",
+        "id": "0QL23000000IBzSGAW",
+        "parentQLIProdName": "% %"
+    },
+    "LoadGroupStatus": "",
+    "LoadGroupStep": {
+        "CaseInformation": {
+            "ImplementationCaseStatus": "RFP Review Finalized"
+        }
+    },
+    "LoadGroupSubmissionTimestamp": "",
+    "MailingAddress": "calfornia street, calfornia, CA, 90005, United States",
+    "MedicalProductQLI": {
+        "AddReasonCode": "New Case Sales",
+        "BenefitPeriod": "Calendar Year",
+        "Prefix": "% %",
+        "ProductCategory": "Product",
+        "ProductName": "ANTHEM  PPO HSA",
+        "ProductStage": "Sold",
+        "ProductType": "Medical",
+        "id": "0QL23000000IBzNGAW",
+        "parentQLIProdName": "% %"
+    },
+    "OpenEffectiveDate1": "",
+    "OpenEnrollmentStartDate": "05/28/2020",
+    "OpportunityId": "0062300000CFZN3AAP",
+    "OppurtunityEffectiveDate": "",
+    "OrderId": "80123000000sUfHAAU",
+    "OrderNumber": "IMPL-32148",
+    "PEOAndAddingNewCompanyThatRequiresNewSuffixes": false,
+    "PhysicalAddress": "calfornia street, calfornia, CA, 90005, United States",
+    "ProductAndCoverageTypeInformation": {
+        "DentalQLIs": {
+            "DentalQLIAddReasonCode": "New Product Line",
+            "DentalQLIBenefitPeriod": null,
+            "DentalQLIClaimsRouteCode": null,
+            "DentalQLIProdName": "GOLDEN WEST"
+        },
+        "EAPQLIs": {
+            "EAPQLIAddReasonCode": null,
+            "EAPQLIBenefitPeriod": null,
+            "EAPQLIClaimsRouteCode": null,
+            "EAPQLIProdName": null
+        },
+        "FSAQLIs": null,
+        "LifeAndDisabilityQLIBlk": {
+            "LifeDisabilityQLIAddReasonCode": "New Case Sales",
+            "LifeDisabilityQLIBenefitPeriod": null,
+            "LifeDisabilityQLIClaimsRouteCode": null,
+            "LifeDisabilityQLIProdName": "Basic Dependent AD&D"
+        },
+        "Pharmacy1": {
+            "Block52": {
+                "ContractCodePharma": null,
+                "CustomContractCodePharma": null,
+                "PharmacyBenefitIdentifier1": null,
+                "PlanNamePharma": null,
+                "PlanTypePharma": null,
+                "ProductTypePharma": null
+            }
+        },
+        "ProductMedicalBlk": {
+            "MedicalProduct": {
+                "MedProdQLIProdCat": "Product",
+                "MedProdQLIProdName": "ANTHEM  PPO HSA",
+                "MedProdQLIProductContractCode": null,
+                "MedProdQLIProductPrefix": null
+            },
+            "PlanMedicalBlk": {
+                "MedPlanQLIAddReasonCode": null,
+                "MedPlanQLIBenefitPeriod": null,
+                "MedPlanQLIClaimsRouteCode": null,
+                "MedPlanQLIContractCode": null,
+                "MedPlanQLIHSABankingPartner": null,
+                "MedPlanQLIParentQLI": null,
+                "MedPlanQLIPlanCat": null,
+                "MedPlanQLIPlanName": null
+            }
+        },
+        "VisionQLIBlk": {
+            "VisionQLIAddReasonCode": "New Case Sales",
+            "VisionQLIBenefitPeriod": "Calendar Year",
+            "VisionQLIClaimsRouteCode": null,
+            "VisionQLIProdName": "EX.A.0"
+        }
+    },
+    "ProductWithPercent": "%",
+    "QLIListToUpdate": [
+        {
+            "AddReasonCode": "New Case Sales",
+            "ProductCategory": "Product",
+            "ProductContractCodes": "ACV41",
+            "ProductName": "Basic Dependent AD&D",
+            "ProductStage": "Sold",
+            "ProductType": "Life",
+            "id": "0QL23000000IBzSGAW"
+        },
+        {
+            "AddReasonCode": "New Case Sales",
+            "BenefitPeriod": "Calendar Year",
+            "ProductCategory": "Product",
+            "ProductName": "Blue View Vision",
+            "ProductStage": "Sold",
+            "ProductType": "Vision",
+            "id": "0QL23000000IC6eGAG"
+        },
+        {
+            "AddReasonCode": "New Case Sales",
+            "BenefitPeriod": "Calendar Year",
+            "ProductCategory": "Product",
+            "ProductName": "ANTHEM  PPO HSA",
+            "ProductStage": "Sold",
+            "ProductType": "Medical",
+            "id": "0QL23000000IBzNGAW"
+        },
+        {
+            "AddReasonCode": "New Case Sales",
+            "BenefitPeriod": "Calendar Year",
+            "ProductCategory": "Plan",
+            "ProductContractCodes": "4T4L",
+            "ProductName": "EX.A.0",
+            "ProductStage": "Sold",
+            "ProductType": "Vision",
+            "id": "0QL23000000IC6xGAG"
+        }
+    ],
+    "QuoteupdateID": "0Q023000000OCIkCAO",
+    "RateAdjustmentDueToInternalError": false,
+    "RecFetch": false,
+    "RecordTypeName": "Renewal Unlock",
+    "ResponseAction2Status": true,
+    "SalesAccountRepAccMgmtTest": "",
+    "SalesAccountRepAcctMgmt": "",
+    "SetCustomerMaster": "",
+    "SitusStateValue": "California",
+    "SpecalitySalesExecutiveTest": "",
+    "SpecialtySalesExecutive": "",
+    "VisionQLI": {
+        "AddReasonCode": "New Case Sales",
+        "BenefitPeriod": "Calendar Year",
+        "Prefix": "% %",
+        "ProductCategory": "Plan",
+        "ProductContractCodes": "4T4L",
+        "ProductName": "EX.A.0",
+        "ProductStage": "Sold",
+        "ProductType": "Vision",
+        "id": "0QL23000000IC6xGAG",
+        "parentQLIProdName": "% %"
+    },
+    "error": "OK",
+    "formula12": true,
+    "formula13": true,
+    "formula14": true,
+    "id": "a3C23000000I7pqEAC",
+    "layout": "lightning",
+    "opportunityupdateID": "0062300000CFZN3AAP",
+    "options": {
+        "chainable": false,
+        "postTransformBundle": "",
+        "preTransformBundle": "",
+        "useContinuation": false,
+        "useFuture": false,
+        "vlcClass": "%vlocity_namespace%.IntegrationProcedureService"
+    },
+    "response": {
+        "AccTeamMemId": "01M23000007uvWhEAI",
+        "AccountPreferences": {
+            "ASONewbornOptOutIndicator": "N",
+            "CertofCreditableCoverageSuppression": "N",
+            "ConversionLetterSuppression": "N",
+            "DelinquencyCancellationLttrSuppression": "N",
+            "DoesAnthemGenerateHCID": "G",
+            "ProrationRule": "M",
+            "TerminationLetterSuppression1": "N",
+            "TerminationLetterSuppression2": "N"
+        },
+        "AccountUpdateId": "0012300000UAZ1pAAH",
+        "CaseInformation": {
+            "CaseInformation1": {
+                "AccountId": "0012300000UAZ1pAAH",
+                "AcountAccessLevel": "Edit",
+                "BenefitRenewalAnniversaryDate": "2022-01-01",
+                "ImplementationCaseStatus": "RFP Review Finalized",
+                "ImplementationEffectiveDate": "2021-01-01",
+                "OppOwner-Block": {
+                    "OppOwner": "Bharath Kumar"
+                },
+                "UnderwriterName": "Bharath Kumar",
+                "WGSMBUCode": "66200000"
+            }
+        },
+        "CompanyInformation1": {
+            "CompanyInformation": {
+                "AccountLegalName": "Account 58343",
+                "AccountStatusCROC": "Active",
+                "AccountStatusNB": "Active",
+                "AnthemEntity": "Labor and Trust",
+                "CompanySizeGroupSize": "1 - 50",
+                "ERISAStatus": "ERISA",
+                "EmployerTaxID": "454545454",
+                "HIPAALetterExclusion": "(Y) Exclude the Generation of HIPAA Add and Term Letters Due To HCR",
+                "HQState": "CA",
+                "LegalEntity": "OT = Other",
+                "Phone1": "9876543122",
+                "PhysicalAndMailingAddress": {
+                    "MalingConditionBlock": {
+                        "MailingBlock": {
+                            "MailingCity": "calfornia",
+                            "MailingCountry": "United States",
+                            "MailingCounty": "calfornia",
+                            "MailingState": "CA",
+                            "MailingStreet": "calfornia street",
+                            "MailingZipCode": "90005"
+                        }
+                    },
+                    "PhysicalCorrectlevel": {
+                        "Physicalblock": {
+                            "PhysicaZiPCode": "90005",
+                            "PhysicalCity": "calfornia",
+                            "PhysicalCountry": "United States",
+                            "PhysicalCounty": "calfornia",
+                            "PhysicalState": "CA",
+                            "PhysicalStreet": "calfornia street"
+                        }
+                    },
+                    "ShippingAddressissameAsMailingAddress": true
+                },
+                "SitusState": "California",
+                "VendorReferral": "A",
+                "WorkLocation": "4100"
+            }
+        },
+        "GroupInformation": {
+            "ClaimSystem": "WGS 2.0",
+            "ClaimsDetails": {
+                "ClaimsSavingsVendor": "NC8",
+                "DuplicateSupplementalCoverageAllowed": "N",
+                "Non-ContractedSavingsProgram": "No",
+                "TerminatedReservelessMPPFunding": "N"
+            },
+            "EmployeeAssistanceProgram": true,
+            "EnrollmentDetails": {
+                "OpenEnrollmentStartDate": "2020-05-28",
+                "RetroEnrollmentMaintenanceElectronic": "90",
+                "RetroEnrollmentMaintenanceOnline": "90"
+            },
+            "GroupNumber": "1234",
+            "IDCardsDetails": {
+                "IDCardsSentToInitially": "Group",
+                "MaintenanceCardsSentTo": "Sales Rep",
+                "NonHmoBlock": {
+                    "NonHMOIDCards": "S3",
+                    "NonHMOIDCards1": "S3"
+                },
+                "OptOutofLHOURLonIDCards": "N"
+            },
+            "OADAutoDelete": "Y",
+            "OpportunityEffectiveDate": "2021-01-01",
+            "RenewalDetails": {
+                "ActiveRenewalDate": "06/17/2020",
+                "MonthUnderwriterStartsRenewalProcess": "January"
+            },
+            "UpdatedApId": "aAZ2300000003jsGAA"
+        },
+        "GroupNumbervalidation": "RFP Review Finalized",
+        "GroupUpdateID": "a5I230000006fjeEAA",
+        "MailingAddress": "calfornia street, calfornia, CA, 90005, United States",
+        "OpenEnrollmentStartDate": "05/28/2020",
+        "OrderId": "80123000000sUfHAAU",
+        "PhysicalAddress": "calfornia street, calfornia, CA, 90005, United States",
+        "QuoteupdateID": "0Q023000000OCIkCAO",
+        "RecordTypeName": "Renewal Unlock",
+        "SitusStateValue": "California",
+        "opportunityupdateID": "0062300000CFZN3AAP"
+    },
+    "st1": "RFP Review Finalized",
+    "st2": false,
+    "st3": true,
+    "stImplementationType": "New Business",
+    "testContextId": "80123000000sUfHAAU",
+    "timeStamp": "2020-06-08T12:19:50.443Z",
+    "userCurrencyCode": "USD",
+    "userId": "0052i000001Izh0AAC",
+    "userName": "goutham.movva@accenture.com.raptors",
+    "userProfile": "System Administrator",
+    "userTimeZone": -240,
+    "vlcPersistentComponent": {
+    }
+}

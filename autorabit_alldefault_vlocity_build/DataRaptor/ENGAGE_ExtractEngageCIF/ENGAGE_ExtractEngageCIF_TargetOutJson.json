@@ -1,0 +1,69 @@
+{
+    "CIFGeneralInformation": {
+        "AccountLegalName": null,
+        "CIFSelectMessage": false,
+        "ClaimSystem": null,
+        "ClientTermination": false,
+        "ClientTerminationEffectiveDate": null,
+        "ExistingClientEffectiveDate": null,
+        "ExistingClientImplementation": false,
+        "GroupNumber": null,
+        "NewClientEffective Date": null,
+        "NewClientImplementation": false,
+        "OpportunityEffectiveDate": null,
+        "OpportunityRecordType": null,
+        "OpportunityStage": null,
+        "QuoteName": null,
+        "TermingCastlightLegacyForEngage": null
+    },
+    "ContextId": "0Q0W0000000BRTx",
+    "EngageOptions": {
+        "AnthemDental": false,
+        "AnthemDentalBlock": {
+            "AnthemDentalEligiblePopulation": null,
+            "ClientQualifiedAnthemDental": false
+        },
+        "EngageElevate": false,
+        "EngageElevateBlock": {
+            "CastlightBehavioralHealthBuyup": null,
+            "EngageElevateEligiblePopulation": null
+        },
+        "EngageElite": false,
+        "EngageEliteBlock": {
+            "ClientWithAnthemRXCheck": false,
+            "EngageEliteEligiblePopulation": null
+        },
+        "EngageEssential": false,
+        "EngageEssentialBlock": {
+            "ClientCareCostFinder": false,
+            "ClientEstimateYourCost": false,
+            "EngageEssentialEligiblePopulation": null
+        },
+        "ReferenceBasedBenefit": false,
+        "ReferenceBasedBenefitBlock": {
+            "ReferenceBasedBenefitEligiblePopulation": null
+        }
+    },
+    "NonEngageCastlightOption": {
+        "TradionalLegacyMdeicalBuyup": false,
+        "TraditionalLegacyBlock": {
+            "MedicalBuyupEligiblePopulation": null
+        }
+    },
+    "RecordId": "",
+    "id": "a3C5B000000A6HLUA0",
+    "layout": "lightning",
+    "timeStamp": "2018-07-25T02:35:05.137Z",
+    "userCurrencyCode": "USD",
+    "userId": "0055B000001O1xCQAS",
+    "userName": "ilugina@anthem.com2.iceconfig",
+    "userProfile": "System Administrator",
+    "userTimeZone": -240,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "DRE-EngageCIF": 991,
+        "OmniScriptSessionToken": "d7d0fc09-a4a9-46e2-adc4-f6f4aa86ab94",
+        "PreSetValues": 89
+    }
+}

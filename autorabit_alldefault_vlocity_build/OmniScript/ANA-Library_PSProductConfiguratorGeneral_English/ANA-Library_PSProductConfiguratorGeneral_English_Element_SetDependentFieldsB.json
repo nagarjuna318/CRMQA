@@ -1,0 +1,41 @@
+{
+    "%vlocity_namespace%__Active__c": true,
+    "%vlocity_namespace%__InternalNotes__c": "Sprint 5.4 US 25302 - Added DDPAccountManager and DDPAccountManagerIdExist",
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "ProductConfiguratorGENERAL",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/ANA Library/PSProductConfiguratorGeneral/English",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__PropertySet__c": {
+        "HTMLTemplateId": "",
+        "controlWidth": 12,
+        "disOnTplt": false,
+        "elementValueMap": {
+            "BenefitAccumulations": "%BenefitPeriod%",
+            "DDPAccountManager": "=IF(%QLIDDPAccountManager%=NULL, IF(COUNT(%AccountManagerId%) = 1, %AccountManagerUserName%,''), %QLIDDPAccountManager%)",
+            "DDPAccountManagerExist": "=IF(%QLIDDPAccountManager%=NULL, IF(COUNT(%AccountManagerId%) = 1, %AccountManagerUserName%,''), %QLIDDPAccountManager%)",
+            "DDPAccountManagerIdExist": "=IF(%QLIDDPAccountManagerId%=NULL, IF(COUNT(%AccountManagerId%) = 1, %AccountManagerId%,''), %QLIDDPAccountManagerId%)",
+            "DDPConatctTypeAhead": "%ContactName%",
+            "IntegratedHRAFSAB": "%IntegratedHRAFSADependent%",
+            "OmadaCaseNumbers": "=IF(%RTGeneral:OmadaCaseNumbers%=NULL,'Case Number: ' +  %GroupNumber% + '. Exclusion:', %RTGeneral:OmadaCaseNumbers%)"
+        },
+        "label": "SetDependentFieldsB",
+        "message": {
+        },
+        "show": null,
+        "showPersistentComponent": [
+            false,
+            false
+        ],
+        "ssm": false,
+        "validationRequired": "None",
+        "wpm": false
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": false,
+    "%vlocity_namespace%__Type__c": "Set Values",
+    "Name": "SetDependentFieldsB",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/ANA Library/PSProductConfiguratorGeneral/English/SetDependentFieldsB"
+}

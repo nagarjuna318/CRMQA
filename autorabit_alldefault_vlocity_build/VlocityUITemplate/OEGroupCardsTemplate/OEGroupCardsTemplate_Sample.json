@@ -1,0 +1,27 @@
+{
+    "data": {
+        "actions": [
+            {
+                "Name": "Create_Open_Enrollments",
+                "displayName": "Create Open Enrollments",
+                "vlocityIcon": "icon-v-heart"
+            }
+        ],
+        "fields": [
+            {
+                "label": "Description",
+                "name": "description"
+            },
+            {
+                "label": "Cost",
+                "name": "cost",
+                "type": "currency"
+            }
+        ],
+        "title": "Card Title"
+    },
+    "obj": {
+        "Logged_In_User_Profile__c": "National Sales",
+        "Open_Enrollment_Meetings__c": "a9IS00000000BJv"
+    }
+}

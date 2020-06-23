@@ -1,0 +1,39 @@
+{
+    "%vlocity_namespace%__Active__c": true,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "DocusignASO51+",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/Opportunity/SendDocuSign51+/English",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__ParentElementId__c": {
+        "%vlocity_namespace%__OmniScriptId__c": {
+            "Name": "DocusignASO51+",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/Opportunity/SendDocuSign51+/English",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+        },
+        "Name": "AgentCertification",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/Opportunity/SendDocuSign51+/English/AgentCertification",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c"
+    },
+    "%vlocity_namespace%__ParentElementName__c": "AgentCertification",
+    "%vlocity_namespace%__ParentElementType__c": "Block",
+    "%vlocity_namespace%__PropertySet__c": {
+        "HTMLTemplateId": "",
+        "controlWidth": 12,
+        "dataJSON": false,
+        "disOnTplt": false,
+        "label": "AgentText1",
+        "show": null,
+        "text": "<ol>\n<li>&nbsp;I am not aware of any information not disclosed by the client in this application that may have bearing on this risk</li>\n<li>I have not completed any of the information contained in the application except with the permission of the applicant and as noted by my initials and date on the application.</li>\n<li>I have not signed any of the applications for an employer representative or individual applicant. If after submission of this application, I request any additions or changes to any of the above information, I will do so only with the written consent of the applicant, and I authorize Anthem to attribute such additions or changes to me.</li>\n<li>I have advised the employer that a failure to provide complete and accurate information may result in a loss of coverage retroactive to the effective date of coverage or re-rating of the employer&rsquo;s premium retroactive to the coverage effective date and that coverage shall not be effective until Anthem reviews and approves the application and the employer receives a written notice from Anthem.</li>\n<li>I am the appointed agent/broker and am receiving commissions for the submission of this client. No portion of my commission payments from Anthem shall be paid to an agent/broker/producer not appointed/approved by Anthem.</li>\n<li>I have advised the client not to terminate any existing coverage until receiving written notification from Anthem that the coverage being applied for by this application is accepted.</li>\n</ol>",
+        "textKey": ""
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": true,
+    "%vlocity_namespace%__Type__c": "Text Block",
+    "Name": "AgentText1",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/Opportunity/SendDocuSign51+/English/AgentText1"
+}

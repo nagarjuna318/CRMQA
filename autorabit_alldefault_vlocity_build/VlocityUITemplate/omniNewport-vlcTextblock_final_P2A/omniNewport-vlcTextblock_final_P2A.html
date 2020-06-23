@@ -1,0 +1,20 @@
+<div class="nds-size_1-of-1">
+    <ng-form name='loopform'
+             class='margin-bottom-fix title-blue-background nds-form-element nds-size_1-of-1 nds-m-bottom_large nds-p-around_medium nds-rich-text-editor__output'
+             ng-repeat='control in child.eleArray' id='{{::control.name}}'>
+        	<!-- <slds-svg-icon aria-hidden="true"
+               sprite="'utility'"
+                icon="'info'"
+                size="'small'">
+            </slds-svg-icon>  -->
+            <svg aria-hidden="true" class="slds-icon slds-icon--small nds-icon nds-icon_small " xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet" sprite="'utility'" icon="'info'" size="'small'" viewBox="0 0 52 52" alt="info">
+                <path fill="#1589ee" xmlns="http://www.w3.org/2000/svg" d="m26 2c-13.3 0-24 10.7-24 24s10.7 24 24 24 24-10.7 24-24-10.7-24-24-24z m0 12.1c1.7 0 3 1.3 3 3s-1.3 3-3 3-3-1.3-3-3 1.3-3 3-3z m5 21c0 0.5-0.4 0.9-1 0.9h-8c-0.5 0-1-0.3-1-0.9v-2c0-0.5 0.4-1.1 1-1.1 0.5 0 1-0.3 1-0.9v-4c0-0.5-0.4-1.1-1-1.1-0.5 0-1-0.3-1-0.9v-2c0-0.5 0.4-1.1 1-1.1h6c0.5 0 1 0.5 1 1.1v8c0 0.5 0.4 0.9 1 0.9 0.5 0 1 0.5 1 1.1v2z"></path>
+            </svg>
+        
+        <div class="nds-form-element__control">
+            <p class="title-color-final" vlc-bind-html='::control.propSetMap.value'></p>
+        </div>
+
+    </ng-form>
+
+</div>

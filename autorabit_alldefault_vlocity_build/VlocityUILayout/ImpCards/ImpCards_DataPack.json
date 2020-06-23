@@ -1,0 +1,19 @@
+{
+    "%vlocity_namespace%__Author__c": "Anthem Commercial 2.0",
+    "%vlocity_namespace%__Datasource__c": {
+        "type": "Query",
+        "value": {
+            "query": "Select Id, OrderNumber, Implementation_Status__c, Assigned_Implementer_Name__c, Owner_Full_Name__c, CreatedDate, Date_Signed_Paperwork_Rec_Opty__c, Implementation_Effective_Date__c, Implementation_Case_Topic__c, Implementation_Type__c from Order where AccountId= '{{params.id}}'"
+        }
+    },
+    "%vlocity_namespace%__Definition__c": "ImpCards.json",
+    "%vlocity_namespace%__Description__c": "",
+    "%vlocity_namespace%__GlobalKey__c": "ImpCards/1/Anthem Commercial 2.0/1563921534224",
+    "%vlocity_namespace%__ParentID__c": "",
+    "%vlocity_namespace%__Type__c": "Layout",
+    "%vlocity_namespace%__Version__c": 1,
+    "Name": "ImpCards",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__VlocityUILayout__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__VlocityUILayout__c/ImpCards"
+}

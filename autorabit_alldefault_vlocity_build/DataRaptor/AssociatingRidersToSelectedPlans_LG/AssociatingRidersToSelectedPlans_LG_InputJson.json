@@ -1,0 +1,1498 @@
+{
+    "Plan_Info": [
+        {
+            "$$hashKey": "object:1524",
+            "Contract_Code__c": "3RMR",
+            "HPCC_Code__c": "HM09",
+            "Id": "01t1K00000673bvQAA",
+            "IsConfigurable__c": false,
+            "IsRecommended__c": false,
+            "MarketSegment__c": "Large Group",
+            "Name": "Anthem PPO HSA 2700/20%/50",
+            "Network__c": "Prudent Buyer PPO",
+            "ParentProduct__c": "01t1K00000673Ln",
+            "Portfolio_Year__c": "2019",
+            "Price": "",
+            "ProductCode": "PMT-3RMR",
+            "Product_Family__c": "PPO",
+            "QLIRecordType__c": "LocalType",
+            "RecordTypeName__c": "Product",
+            "Term__c": "Annual",
+            "attributeCategories": {
+                "records": [
+                    {
+                        "$$hashKey": "object:1197",
+                        "Code__c": "inn",
+                        "Name": "In Network",
+                        "displaySequence": 1000,
+                        "id": "a1L1K000007LFrlUAG",
+                        "productAttributes": {
+                            "records": [
+                                {
+                                    "$$hashKey": "object:1213",
+                                    "attributeGroupType": "In-Network",
+                                    "attributeId": "a1M1K0000082KcOUAU",
+                                    "cloneable": true,
+                                    "code": "inn_defaultCoinsurance_inn",
+                                    "dataType": "percent",
+                                    "disabled": true,
+                                    "displaySequence": 1,
+                                    "filterable": true,
+                                    "formattedValues": [
+                                        20
+                                    ],
+                                    "hasRules": false,
+                                    "hidden": false,
+                                    "inputType": "text",
+                                    "isNotTranslatable": false,
+                                    "label": "In Network Coinsurance",
+                                    "multiselect": false,
+                                    "readonly": true,
+                                    "required": false,
+                                    "userValues": 20,
+                                    "values": [
+                                        {
+                                            "disabled": true,
+                                            "readonly": true
+                                        }
+                                    ]
+                                },
+                                {
+                                    "$$hashKey": "object:1214",
+                                    "attributeGroupType": "In-Network",
+                                    "attributeId": "a1M1K0000082KcQUAU",
+                                    "cloneable": true,
+                                    "code": "inn_deductibleSingle_inn",
+                                    "dataType": "currency",
+                                    "disabled": true,
+                                    "displaySequence": 2,
+                                    "filterable": true,
+                                    "formattedValues": [
+                                        2700
+                                    ],
+                                    "hasRules": false,
+                                    "hidden": false,
+                                    "inputType": "text",
+                                    "isNotTranslatable": false,
+                                    "label": "In Network Deductible Single",
+                                    "multiselect": false,
+                                    "readonly": true,
+                                    "required": false,
+                                    "userValues": 2700,
+                                    "values": [
+                                        {
+                                            "disabled": true,
+                                            "readonly": true
+                                        }
+                                    ]
+                                },
+                                {
+                                    "attributeGroupType": "In-Network",
+                                    "attributeId": "a1M1K0000082KcPUAU",
+                                    "cloneable": true,
+                                    "code": "inn_deductibleFamily_inn",
+                                    "dataType": "currency",
+                                    "disabled": true,
+                                    "displaySequence": 3,
+                                    "filterable": true,
+                                    "formattedValues": [
+                                        5400
+                                    ],
+                                    "hasRules": false,
+                                    "hidden": false,
+                                    "inputType": "text",
+                                    "isNotTranslatable": false,
+                                    "label": "In Network Deductible Family",
+                                    "multiselect": false,
+                                    "readonly": true,
+                                    "required": false,
+                                    "userValues": 5400,
+                                    "values": [
+                                        {
+                                            "disabled": true,
+                                            "readonly": true
+                                        }
+                                    ]
+                                },
+                                {
+                                    "$$hashKey": "object:1215",
+                                    "attributeGroupType": "In-Network",
+                                    "attributeId": "a1M1K0000082KcRUAU",
+                                    "cloneable": true,
+                                    "code": "inn_outOfPocketSingle_inn",
+                                    "dataType": "currency",
+                                    "disabled": true,
+                                    "displaySequence": 4,
+                                    "filterable": true,
+                                    "formattedValues": [
+                                        5000
+                                    ],
+                                    "hasRules": false,
+                                    "hidden": false,
+                                    "inputType": "text",
+                                    "isNotTranslatable": false,
+                                    "label": "In Network Out of Pocket Max Single",
+                                    "multiselect": false,
+                                    "readonly": true,
+                                    "required": false,
+                                    "userValues": 5000,
+                                    "values": [
+                                        {
+                                            "disabled": true,
+                                            "readonly": true
+                                        }
+                                    ]
+                                },
+                                {
+                                    "attributeGroupType": "In-Network",
+                                    "attributeId": "a1M1K0000082KcSUAU",
+                                    "cloneable": true,
+                                    "code": "inn_outOfPocketFamily_inn",
+                                    "dataType": "currency",
+                                    "disabled": true,
+                                    "displaySequence": 5,
+                                    "filterable": true,
+                                    "formattedValues": [
+                                        10000
+                                    ],
+                                    "hasRules": false,
+                                    "hidden": false,
+                                    "inputType": "text",
+                                    "isNotTranslatable": false,
+                                    "label": "In Network Out of Pocket Max Family",
+                                    "multiselect": false,
+                                    "readonly": true,
+                                    "required": false,
+                                    "userValues": 10000,
+                                    "values": [
+                                        {
+                                            "disabled": true,
+                                            "readonly": true
+                                        }
+                                    ]
+                                }
+                            ],
+                            "totalSize": 5
+                        }
+                    },
+                    {
+                        "$$hashKey": "object:1198",
+                        "Code__c": "oon",
+                        "Name": "Out of Network",
+                        "displaySequence": 1010,
+                        "id": "a1L1K000007LFrnUAG",
+                        "productAttributes": {
+                            "records": [
+                                {
+                                    "attributeGroupType": "Out-Of-Network",
+                                    "attributeId": "a1M1K0000082KcYUAU",
+                                    "cloneable": true,
+                                    "code": "oon_defaultCoinsurance_oon",
+                                    "dataType": "percent",
+                                    "disabled": true,
+                                    "displaySequence": 1,
+                                    "filterable": true,
+                                    "formattedValues": [
+                                        50
+                                    ],
+                                    "hasRules": false,
+                                    "hidden": false,
+                                    "inputType": "text",
+                                    "isNotTranslatable": false,
+                                    "label": "Out of Network Coinsurance",
+                                    "multiselect": false,
+                                    "readonly": true,
+                                    "required": false,
+                                    "userValues": 50,
+                                    "values": [
+                                        {
+                                            "disabled": true,
+                                            "readonly": true
+                                        }
+                                    ]
+                                },
+                                {
+                                    "attributeGroupType": "Out-Of-Network",
+                                    "attributeId": "a1M1K0000082KcaUAE",
+                                    "cloneable": true,
+                                    "code": "oon_deductibleSingle_oon",
+                                    "dataType": "currency",
+                                    "disabled": true,
+                                    "displaySequence": 2,
+                                    "filterable": true,
+                                    "formattedValues": [
+                                        8100
+                                    ],
+                                    "hasRules": false,
+                                    "hidden": false,
+                                    "inputType": "text",
+                                    "isNotTranslatable": false,
+                                    "label": "Out of Network Deductible Single",
+                                    "multiselect": false,
+                                    "readonly": true,
+                                    "required": false,
+                                    "userValues": 8100,
+                                    "values": [
+                                        {
+                                            "disabled": true,
+                                            "readonly": true
+                                        }
+                                    ]
+                                },
+                                {
+                                    "attributeGroupType": "Out-Of-Network",
+                                    "attributeId": "a1M1K0000082KcZUAU",
+                                    "cloneable": true,
+                                    "code": "oon_deductibleFamily_oon",
+                                    "dataType": "currency",
+                                    "disabled": true,
+                                    "displaySequence": 3,
+                                    "filterable": true,
+                                    "formattedValues": [
+                                        16200
+                                    ],
+                                    "hasRules": false,
+                                    "hidden": false,
+                                    "inputType": "text",
+                                    "isNotTranslatable": false,
+                                    "label": "Out of Network Deductible Family",
+                                    "multiselect": false,
+                                    "readonly": true,
+                                    "required": false,
+                                    "userValues": 16200,
+                                    "values": [
+                                        {
+                                            "disabled": true,
+                                            "readonly": true
+                                        }
+                                    ]
+                                },
+                                {
+                                    "attributeGroupType": "Out-Of-Network",
+                                    "attributeId": "a1M1K0000082KcbUAE",
+                                    "cloneable": true,
+                                    "code": "oon_outOfPocketSingle_oon",
+                                    "dataType": "currency",
+                                    "disabled": true,
+                                    "displaySequence": 4,
+                                    "filterable": true,
+                                    "formattedValues": [
+                                        15000
+                                    ],
+                                    "hasRules": false,
+                                    "hidden": false,
+                                    "inputType": "text",
+                                    "isNotTranslatable": false,
+                                    "label": "OON Out of Pocket Max Single",
+                                    "multiselect": false,
+                                    "readonly": true,
+                                    "required": false,
+                                    "userValues": 15000,
+                                    "values": [
+                                        {
+                                            "disabled": true,
+                                            "readonly": true
+                                        }
+                                    ]
+                                },
+                                {
+                                    "attributeGroupType": "Out-Of-Network",
+                                    "attributeId": "a1M1K0000082KccUAE",
+                                    "cloneable": true,
+                                    "code": "oon_outOfPocketFamily_oon",
+                                    "dataType": "currency",
+                                    "disabled": true,
+                                    "displaySequence": 5,
+                                    "filterable": true,
+                                    "formattedValues": [
+                                        30000
+                                    ],
+                                    "hasRules": false,
+                                    "hidden": false,
+                                    "inputType": "text",
+                                    "isNotTranslatable": false,
+                                    "label": "OON Out of Pocket Max Family",
+                                    "multiselect": false,
+                                    "readonly": true,
+                                    "required": false,
+                                    "userValues": 30000,
+                                    "values": [
+                                        {
+                                            "disabled": true,
+                                            "readonly": true
+                                        }
+                                    ]
+                                }
+                            ],
+                            "totalSize": 5
+                        }
+                    },
+                    {
+                        "$$hashKey": "object:1199",
+                        "Code__c": "SCP",
+                        "Name": "Specialty Care Provider",
+                        "displaySequence": 1015,
+                        "id": "a1L1K000007LFroUAG",
+                        "productAttributes": {
+                            "records": [
+                                {
+                                    "attributeGroupType": "In-Network",
+                                    "attributeId": "a1M1K0000082KcgUAE",
+                                    "cloneable": true,
+                                    "code": "SCP_coinsurancePercentage_12_inn",
+                                    "dataType": "percent",
+                                    "disabled": true,
+                                    "displaySequence": 4,
+                                    "filterable": true,
+                                    "formattedValues": [
+                                        20
+                                    ],
+                                    "hasRules": false,
+                                    "hidden": false,
+                                    "inputType": "text",
+                                    "isNotTranslatable": false,
+                                    "label": "Co Ins - Specialty Care Provider (INN)",
+                                    "multiselect": false,
+                                    "readonly": true,
+                                    "required": false,
+                                    "userValues": 20,
+                                    "values": [
+                                        {
+                                            "disabled": true,
+                                            "readonly": true
+                                        }
+                                    ]
+                                },
+                                {
+                                    "attributeGroupType": "Out-Of-Network",
+                                    "attributeId": "a1M1K0000082KciUAE",
+                                    "cloneable": true,
+                                    "code": "SCP_coinsurancePercentage_12_oon",
+                                    "dataType": "percent",
+                                    "disabled": true,
+                                    "displaySequence": 6,
+                                    "filterable": true,
+                                    "formattedValues": [
+                                        50
+                                    ],
+                                    "hasRules": false,
+                                    "hidden": false,
+                                    "inputType": "text",
+                                    "isNotTranslatable": false,
+                                    "label": "Co Ins - Specialty Care Provider (OON)",
+                                    "multiselect": false,
+                                    "readonly": true,
+                                    "required": false,
+                                    "userValues": 50,
+                                    "values": [
+                                        {
+                                            "disabled": true,
+                                            "readonly": true
+                                        }
+                                    ]
+                                }
+                            ],
+                            "totalSize": 2
+                        }
+                    },
+                    {
+                        "$$hashKey": "object:1200",
+                        "Code__c": "PCP",
+                        "Name": "Primary Care Provider",
+                        "displaySequence": 1020,
+                        "id": "a1L1K000007LFrpUAG",
+                        "productAttributes": {
+                            "records": [
+                                {
+                                    "attributeGroupType": "In-Network",
+                                    "attributeId": "a1M1K0000082KcmUAE",
+                                    "cloneable": true,
+                                    "code": "PCP_coinsurancePercentage_2_inn",
+                                    "dataType": "percent",
+                                    "disabled": true,
+                                    "displaySequence": 4,
+                                    "filterable": true,
+                                    "formattedValues": [
+                                        20
+                                    ],
+                                    "hasRules": false,
+                                    "hidden": false,
+                                    "inputType": "text",
+                                    "isNotTranslatable": false,
+                                    "label": "Co Ins - Primary Care Provider (INN)",
+                                    "multiselect": false,
+                                    "readonly": true,
+                                    "required": false,
+                                    "userValues": 20,
+                                    "values": [
+                                        {
+                                            "disabled": true,
+                                            "readonly": true
+                                        }
+                                    ]
+                                },
+                                {
+                                    "attributeGroupType": "Out-Of-Network",
+                                    "attributeId": "a1M1K0000082KcoUAE",
+                                    "cloneable": true,
+                                    "code": "PCP_coinsurancePercentage_2_oon",
+                                    "dataType": "percent",
+                                    "disabled": true,
+                                    "displaySequence": 6,
+                                    "filterable": true,
+                                    "formattedValues": [
+                                        50
+                                    ],
+                                    "hasRules": false,
+                                    "hidden": false,
+                                    "inputType": "text",
+                                    "isNotTranslatable": false,
+                                    "label": "Co Ins - Primary Care Provider (OON)",
+                                    "multiselect": false,
+                                    "readonly": true,
+                                    "required": false,
+                                    "userValues": 50,
+                                    "values": [
+                                        {
+                                            "disabled": true,
+                                            "readonly": true
+                                        }
+                                    ]
+                                }
+                            ],
+                            "totalSize": 2
+                        }
+                    },
+                    {
+                        "$$hashKey": "object:1201",
+                        "Code__c": "EMRM",
+                        "Name": "Emergency Room",
+                        "displaySequence": 1025,
+                        "id": "a1L1K000007LFrqUAG",
+                        "productAttributes": {
+                            "records": [
+                                {
+                                    "attributeGroupType": "In-Network",
+                                    "attributeId": "a1M1K0000082KcsUAE",
+                                    "cloneable": true,
+                                    "code": "EMRM_coinsurancePercentage_43_inn",
+                                    "dataType": "percent",
+                                    "disabled": true,
+                                    "displaySequence": 4,
+                                    "filterable": true,
+                                    "formattedValues": [
+                                        20
+                                    ],
+                                    "hasRules": false,
+                                    "hidden": false,
+                                    "inputType": "text",
+                                    "isNotTranslatable": false,
+                                    "label": "Co Ins - Emergency Room (INN)",
+                                    "multiselect": false,
+                                    "readonly": true,
+                                    "required": false,
+                                    "userValues": 20,
+                                    "values": [
+                                        {
+                                            "disabled": true,
+                                            "readonly": true
+                                        }
+                                    ]
+                                }
+                            ],
+                            "totalSize": 1
+                        }
+                    },
+                    {
+                        "$$hashKey": "object:1202",
+                        "Code__c": "UCARE",
+                        "Name": "Urgent Care",
+                        "displaySequence": 1030,
+                        "id": "a1L1K000007LFrrUAG",
+                        "productAttributes": {
+                            "records": [
+                                {
+                                    "attributeGroupType": "In-Network",
+                                    "attributeId": "a1M1K0000082KcyUAE",
+                                    "cloneable": true,
+                                    "code": "UCARE_coinsurancePercentage_33_inn",
+                                    "dataType": "percent",
+                                    "disabled": true,
+                                    "displaySequence": 4,
+                                    "filterable": true,
+                                    "formattedValues": [
+                                        20
+                                    ],
+                                    "hasRules": false,
+                                    "hidden": false,
+                                    "inputType": "text",
+                                    "isNotTranslatable": false,
+                                    "label": "Co ins -Urgent Care (INN)",
+                                    "multiselect": false,
+                                    "readonly": true,
+                                    "required": false,
+                                    "userValues": 20,
+                                    "values": [
+                                        {
+                                            "disabled": true,
+                                            "readonly": true
+                                        }
+                                    ]
+                                },
+                                {
+                                    "attributeGroupType": "Out-Of-Network",
+                                    "attributeId": "a1M1K0000082Kd0UAE",
+                                    "cloneable": true,
+                                    "code": "UCARE_coinsurancePercentage_33_oon",
+                                    "dataType": "percent",
+                                    "disabled": true,
+                                    "displaySequence": 6,
+                                    "filterable": true,
+                                    "formattedValues": [
+                                        50
+                                    ],
+                                    "hasRules": false,
+                                    "hidden": false,
+                                    "inputType": "text",
+                                    "isNotTranslatable": false,
+                                    "label": "Co ins -Urgent Care (OON)",
+                                    "multiselect": false,
+                                    "readonly": true,
+                                    "required": false,
+                                    "userValues": 50,
+                                    "values": [
+                                        {
+                                            "disabled": true,
+                                            "readonly": true
+                                        }
+                                    ]
+                                }
+                            ],
+                            "totalSize": 2
+                        }
+                    },
+                    {
+                        "$$hashKey": "object:1203",
+                        "Code__c": "RXPLAN",
+                        "Name": "Pharmacy Plan",
+                        "displaySequence": 1035,
+                        "id": "a1L1K000007LFrsUAG",
+                        "productAttributes": {
+                            "records": [
+                                {
+                                    "attributeId": "a1M1K0000082Kd1UAE",
+                                    "cloneable": true,
+                                    "code": "RXPLAN_rxPlanName",
+                                    "dataType": "text",
+                                    "disabled": true,
+                                    "displaySequence": 1,
+                                    "filterable": true,
+                                    "formattedValues": [
+                                    ],
+                                    "hasRules": false,
+                                    "hidden": false,
+                                    "inputType": "text",
+                                    "isNotTranslatable": false,
+                                    "label": "Rx Plan Name",
+                                    "multiselect": false,
+                                    "readonly": true,
+                                    "required": false,
+                                    "userValues": "CA-LG T5 $5/$15/$40/$60/30% to $250 after deductible",
+                                    "values": [
+                                        {
+                                            "disabled": true,
+                                            "readonly": true
+                                        }
+                                    ]
+                                }
+                            ],
+                            "totalSize": 1
+                        }
+                    },
+                    {
+                        "$$hashKey": "object:1204",
+                        "Code__c": "OTHER",
+                        "Name": "Other Plan Details",
+                        "displaySequence": 1100,
+                        "id": "a1L1K000007LFruUAG",
+                        "productAttributes": {
+                            "records": [
+                                {
+                                    "attributeId": "a1M1K0000082Kd3UAE",
+                                    "cloneable": true,
+                                    "code": "OTHER_masterBrand",
+                                    "dataType": "text",
+                                    "disabled": true,
+                                    "displaySequence": 1,
+                                    "filterable": true,
+                                    "formattedValues": [
+                                    ],
+                                    "hasRules": false,
+                                    "hidden": false,
+                                    "inputType": "text",
+                                    "isNotTranslatable": false,
+                                    "label": "Master  Branding",
+                                    "multiselect": false,
+                                    "readonly": true,
+                                    "required": false,
+                                    "userValues": "Anthem",
+                                    "values": [
+                                        {
+                                            "disabled": true,
+                                            "readonly": true
+                                        }
+                                    ]
+                                },
+                                {
+                                    "attributeId": "a1M1K0000082Kd4UAE",
+                                    "cloneable": true,
+                                    "code": "OTHER_branding",
+                                    "dataType": "text",
+                                    "disabled": true,
+                                    "displaySequence": 2,
+                                    "filterable": true,
+                                    "formattedValues": [
+                                    ],
+                                    "hasRules": false,
+                                    "hidden": false,
+                                    "inputType": "text",
+                                    "isNotTranslatable": false,
+                                    "label": "Branding",
+                                    "multiselect": false,
+                                    "readonly": true,
+                                    "required": false,
+                                    "userValues": "LG 100+",
+                                    "values": [
+                                        {
+                                            "disabled": true,
+                                            "readonly": true
+                                        }
+                                    ]
+                                },
+                                {
+                                    "attributeId": "a1M1K0000082Kd5UAE",
+                                    "cloneable": true,
+                                    "code": "OTHER_legalEntity",
+                                    "dataType": "text",
+                                    "disabled": true,
+                                    "displaySequence": 3,
+                                    "filterable": true,
+                                    "formattedValues": [
+                                    ],
+                                    "hasRules": false,
+                                    "hidden": false,
+                                    "inputType": "text",
+                                    "isNotTranslatable": false,
+                                    "label": "Legal Entity",
+                                    "multiselect": false,
+                                    "readonly": true,
+                                    "required": false,
+                                    "userValues": "Blue Cross of California",
+                                    "values": [
+                                        {
+                                            "disabled": true,
+                                            "readonly": true
+                                        }
+                                    ]
+                                },
+                                {
+                                    "attributeId": "a1M1K0000082Kd6UAE",
+                                    "cloneable": true,
+                                    "code": "OTHER_cdhProductType",
+                                    "dataType": "text",
+                                    "disabled": true,
+                                    "displaySequence": 4,
+                                    "filterable": true,
+                                    "formattedValues": [
+                                    ],
+                                    "hasRules": false,
+                                    "hidden": false,
+                                    "inputType": "text",
+                                    "isNotTranslatable": false,
+                                    "label": "CDHP Product Type",
+                                    "multiselect": false,
+                                    "readonly": true,
+                                    "required": false,
+                                    "userValues": "HSA",
+                                    "values": [
+                                        {
+                                            "disabled": true,
+                                            "readonly": true
+                                        }
+                                    ]
+                                }
+                            ],
+                            "totalSize": 4
+                        }
+                    }
+                ],
+                "totalSize": 8
+            },
+            "displaySequence": -1,
+            "originalIndex": 1,
+            "productId": "01t1K00000673bvQAA",
+            "rider_list": [
+            ],
+            "selected": true,
+            "visible": true
+        },
+        {
+            "$$hashKey": "object:1557",
+            "Contract_Code__c": "3SAM",
+            "HPCC_Code__c": "HM2A",
+            "Id": "01t1K00000674HYQAY",
+            "IsConfigurable__c": false,
+            "IsRecommended__c": false,
+            "MarketSegment__c": "Large Group",
+            "Name": "Anthem PPO HSA 2700/20%/50 with Be Active",
+            "Network__c": "Prudent Buyer PPO",
+            "ParentProduct__c": "01t1K00000673Ln",
+            "Portfolio_Year__c": "2019",
+            "Price": "",
+            "ProductCode": "PMT-3SAM",
+            "Product_Family__c": "PPO",
+            "QLIRecordType__c": "LocalType",
+            "RecordTypeName__c": "Product",
+            "Term__c": "Annual",
+            "attributeCategories": {
+                "records": [
+                    {
+                        "$$hashKey": "object:1249",
+                        "Code__c": "inn",
+                        "Name": "In Network",
+                        "displaySequence": 1000,
+                        "id": "a1L1K000007LFrlUAG",
+                        "productAttributes": {
+                            "records": [
+                                {
+                                    "$$hashKey": "object:1265",
+                                    "attributeGroupType": "In-Network",
+                                    "attributeId": "a1M1K0000082KcOUAU",
+                                    "cloneable": true,
+                                    "code": "inn_defaultCoinsurance_inn",
+                                    "dataType": "percent",
+                                    "disabled": true,
+                                    "displaySequence": 1,
+                                    "filterable": true,
+                                    "formattedValues": [
+                                        20
+                                    ],
+                                    "hasRules": false,
+                                    "hidden": false,
+                                    "inputType": "text",
+                                    "isNotTranslatable": false,
+                                    "label": "In Network Coinsurance",
+                                    "multiselect": false,
+                                    "readonly": true,
+                                    "required": false,
+                                    "userValues": 20,
+                                    "values": [
+                                        {
+                                            "disabled": true,
+                                            "readonly": true
+                                        }
+                                    ]
+                                },
+                                {
+                                    "$$hashKey": "object:1266",
+                                    "attributeGroupType": "In-Network",
+                                    "attributeId": "a1M1K0000082KcQUAU",
+                                    "cloneable": true,
+                                    "code": "inn_deductibleSingle_inn",
+                                    "dataType": "currency",
+                                    "disabled": true,
+                                    "displaySequence": 2,
+                                    "filterable": true,
+                                    "formattedValues": [
+                                        2700
+                                    ],
+                                    "hasRules": false,
+                                    "hidden": false,
+                                    "inputType": "text",
+                                    "isNotTranslatable": false,
+                                    "label": "In Network Deductible Single",
+                                    "multiselect": false,
+                                    "readonly": true,
+                                    "required": false,
+                                    "userValues": 2700,
+                                    "values": [
+                                        {
+                                            "disabled": true,
+                                            "readonly": true
+                                        }
+                                    ]
+                                },
+                                {
+                                    "attributeGroupType": "In-Network",
+                                    "attributeId": "a1M1K0000082KcPUAU",
+                                    "cloneable": true,
+                                    "code": "inn_deductibleFamily_inn",
+                                    "dataType": "currency",
+                                    "disabled": true,
+                                    "displaySequence": 3,
+                                    "filterable": true,
+                                    "formattedValues": [
+                                        5400
+                                    ],
+                                    "hasRules": false,
+                                    "hidden": false,
+                                    "inputType": "text",
+                                    "isNotTranslatable": false,
+                                    "label": "In Network Deductible Family",
+                                    "multiselect": false,
+                                    "readonly": true,
+                                    "required": false,
+                                    "userValues": 5400,
+                                    "values": [
+                                        {
+                                            "disabled": true,
+                                            "readonly": true
+                                        }
+                                    ]
+                                },
+                                {
+                                    "$$hashKey": "object:1267",
+                                    "attributeGroupType": "In-Network",
+                                    "attributeId": "a1M1K0000082KcRUAU",
+                                    "cloneable": true,
+                                    "code": "inn_outOfPocketSingle_inn",
+                                    "dataType": "currency",
+                                    "disabled": true,
+                                    "displaySequence": 4,
+                                    "filterable": true,
+                                    "formattedValues": [
+                                        5000
+                                    ],
+                                    "hasRules": false,
+                                    "hidden": false,
+                                    "inputType": "text",
+                                    "isNotTranslatable": false,
+                                    "label": "In Network Out of Pocket Max Single",
+                                    "multiselect": false,
+                                    "readonly": true,
+                                    "required": false,
+                                    "userValues": 5000,
+                                    "values": [
+                                        {
+                                            "disabled": true,
+                                            "readonly": true
+                                        }
+                                    ]
+                                },
+                                {
+                                    "attributeGroupType": "In-Network",
+                                    "attributeId": "a1M1K0000082KcSUAU",
+                                    "cloneable": true,
+                                    "code": "inn_outOfPocketFamily_inn",
+                                    "dataType": "currency",
+                                    "disabled": true,
+                                    "displaySequence": 5,
+                                    "filterable": true,
+                                    "formattedValues": [
+                                        10000
+                                    ],
+                                    "hasRules": false,
+                                    "hidden": false,
+                                    "inputType": "text",
+                                    "isNotTranslatable": false,
+                                    "label": "In Network Out of Pocket Max Family",
+                                    "multiselect": false,
+                                    "readonly": true,
+                                    "required": false,
+                                    "userValues": 10000,
+                                    "values": [
+                                        {
+                                            "disabled": true,
+                                            "readonly": true
+                                        }
+                                    ]
+                                }
+                            ],
+                            "totalSize": 5
+                        }
+                    },
+                    {
+                        "$$hashKey": "object:1250",
+                        "Code__c": "oon",
+                        "Name": "Out of Network",
+                        "displaySequence": 1010,
+                        "id": "a1L1K000007LFrnUAG",
+                        "productAttributes": {
+                            "records": [
+                                {
+                                    "attributeGroupType": "Out-Of-Network",
+                                    "attributeId": "a1M1K0000082KcYUAU",
+                                    "cloneable": true,
+                                    "code": "oon_defaultCoinsurance_oon",
+                                    "dataType": "percent",
+                                    "disabled": true,
+                                    "displaySequence": 1,
+                                    "filterable": true,
+                                    "formattedValues": [
+                                        50
+                                    ],
+                                    "hasRules": false,
+                                    "hidden": false,
+                                    "inputType": "text",
+                                    "isNotTranslatable": false,
+                                    "label": "Out of Network Coinsurance",
+                                    "multiselect": false,
+                                    "readonly": true,
+                                    "required": false,
+                                    "userValues": 50,
+                                    "values": [
+                                        {
+                                            "disabled": true,
+                                            "readonly": true
+                                        }
+                                    ]
+                                },
+                                {
+                                    "attributeGroupType": "Out-Of-Network",
+                                    "attributeId": "a1M1K0000082KcaUAE",
+                                    "cloneable": true,
+                                    "code": "oon_deductibleSingle_oon",
+                                    "dataType": "currency",
+                                    "disabled": true,
+                                    "displaySequence": 2,
+                                    "filterable": true,
+                                    "formattedValues": [
+                                        8100
+                                    ],
+                                    "hasRules": false,
+                                    "hidden": false,
+                                    "inputType": "text",
+                                    "isNotTranslatable": false,
+                                    "label": "Out of Network Deductible Single",
+                                    "multiselect": false,
+                                    "readonly": true,
+                                    "required": false,
+                                    "userValues": 8100,
+                                    "values": [
+                                        {
+                                            "disabled": true,
+                                            "readonly": true
+                                        }
+                                    ]
+                                },
+                                {
+                                    "attributeGroupType": "Out-Of-Network",
+                                    "attributeId": "a1M1K0000082KcZUAU",
+                                    "cloneable": true,
+                                    "code": "oon_deductibleFamily_oon",
+                                    "dataType": "currency",
+                                    "disabled": true,
+                                    "displaySequence": 3,
+                                    "filterable": true,
+                                    "formattedValues": [
+                                        16200
+                                    ],
+                                    "hasRules": false,
+                                    "hidden": false,
+                                    "inputType": "text",
+                                    "isNotTranslatable": false,
+                                    "label": "Out of Network Deductible Family",
+                                    "multiselect": false,
+                                    "readonly": true,
+                                    "required": false,
+                                    "userValues": 16200,
+                                    "values": [
+                                        {
+                                            "disabled": true,
+                                            "readonly": true
+                                        }
+                                    ]
+                                },
+                                {
+                                    "attributeGroupType": "Out-Of-Network",
+                                    "attributeId": "a1M1K0000082KcbUAE",
+                                    "cloneable": true,
+                                    "code": "oon_outOfPocketSingle_oon",
+                                    "dataType": "currency",
+                                    "disabled": true,
+                                    "displaySequence": 4,
+                                    "filterable": true,
+                                    "formattedValues": [
+                                        15000
+                                    ],
+                                    "hasRules": false,
+                                    "hidden": false,
+                                    "inputType": "text",
+                                    "isNotTranslatable": false,
+                                    "label": "OON Out of Pocket Max Single",
+                                    "multiselect": false,
+                                    "readonly": true,
+                                    "required": false,
+                                    "userValues": 15000,
+                                    "values": [
+                                        {
+                                            "disabled": true,
+                                            "readonly": true
+                                        }
+                                    ]
+                                },
+                                {
+                                    "attributeGroupType": "Out-Of-Network",
+                                    "attributeId": "a1M1K0000082KccUAE",
+                                    "cloneable": true,
+                                    "code": "oon_outOfPocketFamily_oon",
+                                    "dataType": "currency",
+                                    "disabled": true,
+                                    "displaySequence": 5,
+                                    "filterable": true,
+                                    "formattedValues": [
+                                        30000
+                                    ],
+                                    "hasRules": false,
+                                    "hidden": false,
+                                    "inputType": "text",
+                                    "isNotTranslatable": false,
+                                    "label": "OON Out of Pocket Max Family",
+                                    "multiselect": false,
+                                    "readonly": true,
+                                    "required": false,
+                                    "userValues": 30000,
+                                    "values": [
+                                        {
+                                            "disabled": true,
+                                            "readonly": true
+                                        }
+                                    ]
+                                }
+                            ],
+                            "totalSize": 5
+                        }
+                    },
+                    {
+                        "$$hashKey": "object:1251",
+                        "Code__c": "SCP",
+                        "Name": "Specialty Care Provider",
+                        "displaySequence": 1015,
+                        "id": "a1L1K000007LFroUAG",
+                        "productAttributes": {
+                            "records": [
+                                {
+                                    "attributeGroupType": "In-Network",
+                                    "attributeId": "a1M1K0000082KcgUAE",
+                                    "cloneable": true,
+                                    "code": "SCP_coinsurancePercentage_12_inn",
+                                    "dataType": "percent",
+                                    "disabled": true,
+                                    "displaySequence": 4,
+                                    "filterable": true,
+                                    "formattedValues": [
+                                        20
+                                    ],
+                                    "hasRules": false,
+                                    "hidden": false,
+                                    "inputType": "text",
+                                    "isNotTranslatable": false,
+                                    "label": "Co Ins - Specialty Care Provider (INN)",
+                                    "multiselect": false,
+                                    "readonly": true,
+                                    "required": false,
+                                    "userValues": 20,
+                                    "values": [
+                                        {
+                                            "disabled": true,
+                                            "readonly": true
+                                        }
+                                    ]
+                                },
+                                {
+                                    "attributeGroupType": "Out-Of-Network",
+                                    "attributeId": "a1M1K0000082KciUAE",
+                                    "cloneable": true,
+                                    "code": "SCP_coinsurancePercentage_12_oon",
+                                    "dataType": "percent",
+                                    "disabled": true,
+                                    "displaySequence": 6,
+                                    "filterable": true,
+                                    "formattedValues": [
+                                        50
+                                    ],
+                                    "hasRules": false,
+                                    "hidden": false,
+                                    "inputType": "text",
+                                    "isNotTranslatable": false,
+                                    "label": "Co Ins - Specialty Care Provider (OON)",
+                                    "multiselect": false,
+                                    "readonly": true,
+                                    "required": false,
+                                    "userValues": 50,
+                                    "values": [
+                                        {
+                                            "disabled": true,
+                                            "readonly": true
+                                        }
+                                    ]
+                                }
+                            ],
+                            "totalSize": 2
+                        }
+                    },
+                    {
+                        "$$hashKey": "object:1252",
+                        "Code__c": "PCP",
+                        "Name": "Primary Care Provider",
+                        "displaySequence": 1020,
+                        "id": "a1L1K000007LFrpUAG",
+                        "productAttributes": {
+                            "records": [
+                                {
+                                    "attributeGroupType": "In-Network",
+                                    "attributeId": "a1M1K0000082KcmUAE",
+                                    "cloneable": true,
+                                    "code": "PCP_coinsurancePercentage_2_inn",
+                                    "dataType": "percent",
+                                    "disabled": true,
+                                    "displaySequence": 4,
+                                    "filterable": true,
+                                    "formattedValues": [
+                                        20
+                                    ],
+                                    "hasRules": false,
+                                    "hidden": false,
+                                    "inputType": "text",
+                                    "isNotTranslatable": false,
+                                    "label": "Co Ins - Primary Care Provider (INN)",
+                                    "multiselect": false,
+                                    "readonly": true,
+                                    "required": false,
+                                    "userValues": 20,
+                                    "values": [
+                                        {
+                                            "disabled": true,
+                                            "readonly": true
+                                        }
+                                    ]
+                                },
+                                {
+                                    "attributeGroupType": "Out-Of-Network",
+                                    "attributeId": "a1M1K0000082KcoUAE",
+                                    "cloneable": true,
+                                    "code": "PCP_coinsurancePercentage_2_oon",
+                                    "dataType": "percent",
+                                    "disabled": true,
+                                    "displaySequence": 6,
+                                    "filterable": true,
+                                    "formattedValues": [
+                                        50
+                                    ],
+                                    "hasRules": false,
+                                    "hidden": false,
+                                    "inputType": "text",
+                                    "isNotTranslatable": false,
+                                    "label": "Co Ins - Primary Care Provider (OON)",
+                                    "multiselect": false,
+                                    "readonly": true,
+                                    "required": false,
+                                    "userValues": 50,
+                                    "values": [
+                                        {
+                                            "disabled": true,
+                                            "readonly": true
+                                        }
+                                    ]
+                                }
+                            ],
+                            "totalSize": 2
+                        }
+                    },
+                    {
+                        "$$hashKey": "object:1253",
+                        "Code__c": "EMRM",
+                        "Name": "Emergency Room",
+                        "displaySequence": 1025,
+                        "id": "a1L1K000007LFrqUAG",
+                        "productAttributes": {
+                            "records": [
+                                {
+                                    "attributeGroupType": "In-Network",
+                                    "attributeId": "a1M1K0000082KcsUAE",
+                                    "cloneable": true,
+                                    "code": "EMRM_coinsurancePercentage_43_inn",
+                                    "dataType": "percent",
+                                    "disabled": true,
+                                    "displaySequence": 4,
+                                    "filterable": true,
+                                    "formattedValues": [
+                                        20
+                                    ],
+                                    "hasRules": false,
+                                    "hidden": false,
+                                    "inputType": "text",
+                                    "isNotTranslatable": false,
+                                    "label": "Co Ins - Emergency Room (INN)",
+                                    "multiselect": false,
+                                    "readonly": true,
+                                    "required": false,
+                                    "userValues": 20,
+                                    "values": [
+                                        {
+                                            "disabled": true,
+                                            "readonly": true
+                                        }
+                                    ]
+                                }
+                            ],
+                            "totalSize": 1
+                        }
+                    },
+                    {
+                        "$$hashKey": "object:1254",
+                        "Code__c": "UCARE",
+                        "Name": "Urgent Care",
+                        "displaySequence": 1030,
+                        "id": "a1L1K000007LFrrUAG",
+                        "productAttributes": {
+                            "records": [
+                                {
+                                    "attributeGroupType": "In-Network",
+                                    "attributeId": "a1M1K0000082KcyUAE",
+                                    "cloneable": true,
+                                    "code": "UCARE_coinsurancePercentage_33_inn",
+                                    "dataType": "percent",
+                                    "disabled": true,
+                                    "displaySequence": 4,
+                                    "filterable": true,
+                                    "formattedValues": [
+                                        20
+                                    ],
+                                    "hasRules": false,
+                                    "hidden": false,
+                                    "inputType": "text",
+                                    "isNotTranslatable": false,
+                                    "label": "Co ins -Urgent Care (INN)",
+                                    "multiselect": false,
+                                    "readonly": true,
+                                    "required": false,
+                                    "userValues": 20,
+                                    "values": [
+                                        {
+                                            "disabled": true,
+                                            "readonly": true
+                                        }
+                                    ]
+                                },
+                                {
+                                    "attributeGroupType": "Out-Of-Network",
+                                    "attributeId": "a1M1K0000082Kd0UAE",
+                                    "cloneable": true,
+                                    "code": "UCARE_coinsurancePercentage_33_oon",
+                                    "dataType": "percent",
+                                    "disabled": true,
+                                    "displaySequence": 6,
+                                    "filterable": true,
+                                    "formattedValues": [
+                                        50
+                                    ],
+                                    "hasRules": false,
+                                    "hidden": false,
+                                    "inputType": "text",
+                                    "isNotTranslatable": false,
+                                    "label": "Co ins -Urgent Care (OON)",
+                                    "multiselect": false,
+                                    "readonly": true,
+                                    "required": false,
+                                    "userValues": 50,
+                                    "values": [
+                                        {
+                                            "disabled": true,
+                                            "readonly": true
+                                        }
+                                    ]
+                                }
+                            ],
+                            "totalSize": 2
+                        }
+                    },
+                    {
+                        "$$hashKey": "object:1255",
+                        "Code__c": "RXPLAN",
+                        "Name": "Pharmacy Plan",
+                        "displaySequence": 1035,
+                        "id": "a1L1K000007LFrsUAG",
+                        "productAttributes": {
+                            "records": [
+                                {
+                                    "attributeId": "a1M1K0000082Kd1UAE",
+                                    "cloneable": true,
+                                    "code": "RXPLAN_rxPlanName",
+                                    "dataType": "text",
+                                    "disabled": true,
+                                    "displaySequence": 1,
+                                    "filterable": true,
+                                    "formattedValues": [
+                                    ],
+                                    "hasRules": false,
+                                    "hidden": false,
+                                    "inputType": "text",
+                                    "isNotTranslatable": false,
+                                    "label": "Rx Plan Name",
+                                    "multiselect": false,
+                                    "readonly": true,
+                                    "required": false,
+                                    "userValues": "CA-LG T5 $5/$15/$40/$60/30% to $250 after deductible",
+                                    "values": [
+                                        {
+                                            "disabled": true,
+                                            "readonly": true
+                                        }
+                                    ]
+                                }
+                            ],
+                            "totalSize": 1
+                        }
+                    },
+                    {
+                        "$$hashKey": "object:1256",
+                        "Code__c": "OTHER",
+                        "Name": "Other Plan Details",
+                        "displaySequence": 1100,
+                        "id": "a1L1K000007LFruUAG",
+                        "productAttributes": {
+                            "records": [
+                                {
+                                    "attributeId": "a1M1K0000082Kd3UAE",
+                                    "cloneable": true,
+                                    "code": "OTHER_masterBrand",
+                                    "dataType": "text",
+                                    "disabled": true,
+                                    "displaySequence": 1,
+                                    "filterable": true,
+                                    "formattedValues": [
+                                    ],
+                                    "hasRules": false,
+                                    "hidden": false,
+                                    "inputType": "text",
+                                    "isNotTranslatable": false,
+                                    "label": "Master  Branding",
+                                    "multiselect": false,
+                                    "readonly": true,
+                                    "required": false,
+                                    "userValues": "Anthem",
+                                    "values": [
+                                        {
+                                            "disabled": true,
+                                            "readonly": true
+                                        }
+                                    ]
+                                },
+                                {
+                                    "attributeId": "a1M1K0000082Kd4UAE",
+                                    "cloneable": true,
+                                    "code": "OTHER_branding",
+                                    "dataType": "text",
+                                    "disabled": true,
+                                    "displaySequence": 2,
+                                    "filterable": true,
+                                    "formattedValues": [
+                                    ],
+                                    "hasRules": false,
+                                    "hidden": false,
+                                    "inputType": "text",
+                                    "isNotTranslatable": false,
+                                    "label": "Branding",
+                                    "multiselect": false,
+                                    "readonly": true,
+                                    "required": false,
+                                    "userValues": "LG 100+",
+                                    "values": [
+                                        {
+                                            "disabled": true,
+                                            "readonly": true
+                                        }
+                                    ]
+                                },
+                                {
+                                    "attributeId": "a1M1K0000082Kd5UAE",
+                                    "cloneable": true,
+                                    "code": "OTHER_legalEntity",
+                                    "dataType": "text",
+                                    "disabled": true,
+                                    "displaySequence": 3,
+                                    "filterable": true,
+                                    "formattedValues": [
+                                    ],
+                                    "hasRules": false,
+                                    "hidden": false,
+                                    "inputType": "text",
+                                    "isNotTranslatable": false,
+                                    "label": "Legal Entity",
+                                    "multiselect": false,
+                                    "readonly": true,
+                                    "required": false,
+                                    "userValues": "Blue Cross of California",
+                                    "values": [
+                                        {
+                                            "disabled": true,
+                                            "readonly": true
+                                        }
+                                    ]
+                                },
+                                {
+                                    "attributeId": "a1M1K0000082Kd6UAE",
+                                    "cloneable": true,
+                                    "code": "OTHER_cdhProductType",
+                                    "dataType": "text",
+                                    "disabled": true,
+                                    "displaySequence": 4,
+                                    "filterable": true,
+                                    "formattedValues": [
+                                    ],
+                                    "hasRules": false,
+                                    "hidden": false,
+                                    "inputType": "text",
+                                    "isNotTranslatable": false,
+                                    "label": "CDHP Product Type",
+                                    "multiselect": false,
+                                    "readonly": true,
+                                    "required": false,
+                                    "userValues": "HSA",
+                                    "values": [
+                                        {
+                                            "disabled": true,
+                                            "readonly": true
+                                        }
+                                    ]
+                                }
+                            ],
+                            "totalSize": 4
+                        }
+                    }
+                ],
+                "totalSize": 8
+            },
+            "displaySequence": -1,
+            "originalIndex": 0,
+            "productId": "01t1K00000674HYQAY",
+            "rider_list": [
+            ],
+            "selected": true,
+            "visible": true
+        }
+    ],
+    "Rider_Info": [
+        {
+            "Name": "Rider 1",
+            "Rider_Id__c": "R-0000"
+        },
+        {
+            "Name": "Rider 2",
+            "Rider_Id__c": "R-0001"
+        },
+        {
+            "Name": "Rider 3",
+            "Rider_Id__c": "R-0002"
+        },
+        {
+            "Name": "Rider 5",
+            "Rider_Id__c": "R-0004"
+        },
+        {
+            "Name": "Rider 4",
+            "Rider_Id__c": "R-0003"
+        }
+    ]
+}

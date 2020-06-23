@@ -1,0 +1,22 @@
+$background-blue: #f7fbfe;
+$dark-grey: #706e6b;
+
+.margin-bottom-fix{
+    margin-bottom: 0 !important;
+}
+
+.title-color{
+    color: black !important;
+    font-size: 16px;
+}
+
+.title-blue-background-chcbx{
+    background-color: $background-blue !important;
+    text-align: right;
+    
+}
+
+.chk-label{
+    // color: black !important;
+    font-size: .8125rem !important;
+}

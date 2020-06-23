@@ -1,0 +1,88 @@
+{
+    "ContextId": null,
+    "EmployeeCategorySelection": {
+        "EmployeeCategories": null
+    },
+    "GroupPlanDesignSuffix": {
+        "GroupPlanDesigns": null
+    },
+    "InvoiceGPDMappingStep": {
+        "GPD": null,
+        "InvoiceList": {
+            "InvDescription": null,
+            "InvOtherSortingOption1": null,
+            "InvRecordId": null,
+            "InvSortingOption1": null,
+            "InvSortingOption2": null
+        }
+    },
+    "Step1": {
+        "Invoices": {
+            "BillingFrequency": null,
+            "BillingPreference": null,
+            "ClaimGraceDays": null,
+            "EBillingContactTitle": null,
+            "FaxDispl": null,
+            "FullName": null,
+            "GraceDays": null,
+            "InvoiceDescription": null,
+            "InvoiceFormat": null,
+            "InvoiceSortingOption": null,
+            "InvoiceSortingOption2": null,
+            "InvoicesId": null,
+            "Messaging2": null,
+            "OtherInvoiceSortingOption": null,
+            "OtherInvoiceSortingOption2": null,
+            "PhoneDisplay": null,
+            "TARANameLookup-Block": {
+                "Fax": null,
+                "FirstName": null,
+                "Id": null,
+                "LastName": null,
+                "MailingCity": null,
+                "MailingPostalCode": null,
+                "MailingState": null,
+                "MailingStreet": null,
+                "Phone": null,
+                "TARANameLookup": null,
+                "Title": null,
+                "eMail": null
+            },
+            "ToleranceLevel": null,
+            "TypeOfBill": null,
+            "eId": null,
+            "eMailDisp": null,
+            "eMailingCity": null,
+            "eMailingPostalCode": null,
+            "eMailingState": null,
+            "eMailingStreet": null
+        },
+        "WhatareInvoices": {
+        }
+    },
+    "timeStamp": null,
+    "userId": null,
+    "userName": null,
+    "userProfile": null,
+    "userTimeZone": null,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "DoneAction1": null,
+        "EligibilityrecordSt": null,
+        "EligibilityrecordSt193": null,
+        "EmpCatPostDR": null,
+        "EmpCategoryRemote": null,
+        "EmployeeCategorySelection": null,
+        "ExtractEligibilityFundingByImpleCaseDR": null,
+        "ExtractGPDDetails": null,
+        "ExtractInvoiceAndGPDs": null,
+        "GroupPlanDesignSuffix": null,
+        "InvoiceGPDMappingStep": null,
+        "InvoicePostAction": null,
+        "PostGPDDetails": null,
+        "SetInvoiceValues": null,
+        "Step1": null,
+        "UpdateGPDWithInvoiceId": null
+    }
+}

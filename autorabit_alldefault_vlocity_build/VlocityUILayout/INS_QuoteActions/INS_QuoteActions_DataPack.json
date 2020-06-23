@@ -1,0 +1,25 @@
+{
+    "%vlocity_namespace%__Author__c": "Anthem Commercial 2.0",
+    "%vlocity_namespace%__Datasource__c": {
+        "contextVariables": [
+            {
+                "name": "params.id",
+                "val": "0Q02a0000000scnCAA"
+            }
+        ],
+        "type": "Query",
+        "value": {
+            "query": "SELECT Id, Name, LoggedInUserProfile__c, ShowGroupNumberProfiles__c,Castlight_Product_Quote__c, Engage_Alone_Product_Quote__c, Engage_Product_Quote__c, GroupNumber__r.IsPartOfAMigration__c, GroupNumber__r.Date_Migrated_to_WGS__c, GroupNumber__r.ClaimSystem__c,Opportunity.CloseDate, IsGroupNumberExist__c, IsGroupExist__c,GroupNumberRequestStatus__c,GroupNumber__c,AnthemEntityTransform__c, Account.Situs_State_Abbrev__c, Opportunity.RecordTypeName__c,LG_Plan_Config_Exception__c, Is_GRS_Profile_With_Correct_Record_Type__c,Anthem_Entity__c  FROM Quote WHERE Id = '{{params.id || params.Id}}'"
+        }
+    },
+    "%vlocity_namespace%__Definition__c": "INS_QuoteActions.json",
+    "%vlocity_namespace%__Description__c": "",
+    "%vlocity_namespace%__GlobalKey__c": "INS_QuoteActions/11/Anthem Commercial 2.0/1588675112894",
+    "%vlocity_namespace%__ParentID__c": "",
+    "%vlocity_namespace%__Type__c": "Layout",
+    "%vlocity_namespace%__Version__c": 11,
+    "Name": "INS_QuoteActions",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__VlocityUILayout__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__VlocityUILayout__c/INS_QuoteActions"
+}

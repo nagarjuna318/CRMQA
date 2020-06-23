@@ -1,0 +1,15 @@
+<div class="full-width" ng-controller="ins-product-selection-controller">
+	  <div ng-if="!control.vlcSI['recSet']" class="empty-state-product">
+		<p class="plan-attribute">No products are available under this set of filters. Please go back and select different options.</p>
+  </div>
+			<div ng-if="control.vlcSI['recSet']" class="nds-grid product-bundle-container nds-wrap">
+					
+				<article ng-repeat="p in control.vlcSI['recSet'] | filter:searchCriteria.Text" ng-init='onSelectItem(control, p, $index, this, true)' class="nds-col nds-size_1-of-4">
+					<div class="nds-box product-bundle" >
+			             <div class="product-title-bundle">
+								<h3 class="font-weight-bold product-h3">{{p.Name}}</h3>
+						</div>	
+			        </div>
+		    	</article>
+	      </div>
+</div>

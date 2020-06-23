@@ -1,0 +1,32 @@
+{
+    "Cards": [
+        "NAOpportunity"
+    ],
+    "bypassSave": true,
+    "dataSource": {
+        "contextVariables": [
+            {
+                "name": "params.id",
+                "val": "0011K00002AYVcRQAX"
+            }
+        ],
+        "type": "Query",
+        "value": {
+            "bundle": "ExtractOpportunityCards",
+            "ctxId": "params.id",
+            "jsonMap": "{\"params.id\":\"{{params.id}}\"}",
+            "resultVar": ""
+        }
+    },
+    "previewType": "runTime",
+    "sessionVars": [
+    ],
+    "templates": {
+        "0": {
+            "templateUrl": "card-canvas-3x-slds"
+        }
+    },
+    "workspace": [
+        "NAOpportunity/Anthem Commercial 2.0/null/1525482252663"
+    ]
+}

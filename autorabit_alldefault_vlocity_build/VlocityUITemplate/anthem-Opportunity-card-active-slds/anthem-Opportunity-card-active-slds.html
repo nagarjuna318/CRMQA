@@ -1,0 +1,101 @@
+<div class="slds-card via-slds-card--active slds-m-bottom--small" data-card="{{uniqueLayoutId}}-card-{{cardIndex}}" ng-class="{selected:isSelected(cardIndex)}"  data-popover-flyout="true" ng-controller="anthemOpportunityCardController">
+    <div class="via-slds-card__header slds-card__header slds-grid slds-grid--vertical-align-center slds-p-around--small header-{{getHeaderColor(obj)}}">
+      <div class="slds-media slds-media--center slds-has-flexi-truncate">
+        <div class="slds-media__figure">
+            <!--<vloc-card-icon data="data" obj="obj" size="'medium'"></vloc-card-icon>-->
+          <div ng-show="{{getIconBasedOnRecordType(obj, 'New Business')}}">
+            <span class="slds-icon_container slds-icon-standard-opportunity">
+                <svg aria-hidden="true" class="slds-icon slds-icon--medium" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet" data="data" obj="obj" size="'medium'" viewBox="-11 -11 75 75">
+                  <g fill="inherit" xmlns="http://www.w3.org/2000/svg"><path fill="#fff" d="m41.8 41h-31.6c-0.8 0-1.4 0.7-1.4 1.4v0.1c0 2.5 2 4.5 4.5 4.5h25.5c2.5 0 4.5-2 4.5-4.5v-0.1c-0.1-0.7-0.7-1.4-1.5-1.4z m3.7-30.8c-2.5 0-4.5 2-4.5 4.5 0 1.4 0.6 2.6 1.6 3.4-1.3 2.9-4.2 4.9-7.6 4.8-4-0.2-7.2-3.4-7.4-7.4 0-0.7 0-1.3 0.1-1.9 1.7-0.7 2.9-2.2 2.9-4.2-0.1-2.4-2.1-4.4-4.6-4.4s-4.5 2-4.5 4.5c0 1.9 1.2 3.5 2.8 4.2 0.2 0.6 0.2 1.2 0.2 1.9-0.2 4-3.4 7.2-7.4 7.4-3.4 0.2-6.4-1.9-7.7-4.8 1-0.8 1.6-2.1 1.6-3.4 0-2.5-2-4.5-4.5-4.5s-4.5 2-4.5 4.5 2 4.5 4.5 4.5l2.1 16c0.1 0.7 0.7 1.2 1.4 1.2h32c0.7 0 1.3-0.5 1.4-1.2l2.1-16c2.5 0 4.5-2 4.5-4.5s-2-4.6-4.5-4.6z"></path></g>
+                  </svg>
+              </span>
+          </div>
+          <div ng-show="{{getIconBasedOnRecordType(obj, 'Renewal')}}">
+            <span class="slds-icon_container slds-icon-standard-drafts">
+                <svg aria-hidden="true" class="slds-icon slds-icon--medium" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet" data="data" obj="obj" size="'medium'" viewBox="-11 -11 75 75">
+                  <g fill="#fff"><path d="m46 2h-28c-2.2 0-4 1.8-4 4v2.5c0 0.8 0.7 1.5 1.5 1.5h18.5c4.4 0 8 3.6 8 8v18.5c0 0.8 0.7 1.5 1.5 1.5h2.5c2.2 0 4-1.8 4-4v-28c0-2.2-1.8-4-4-4z m-12 12h-28c-2.2 0-4 1.8-4 4v28c0 2.2 1.8 4 4 4h28c2.2 0 4-1.8 4-4v-28c0-2.2-1.8-4-4-4z m-4 27c0 0.6-0.4 1-1 1h-18c-0.6 0-1-0.4-1-1v-2c0-0.6 0.4-1 1-1h18c0.6 0 1 0.4 1 1v2z m0-8c0 0.6-0.4 1-1 1h-18c-0.6 0-1-0.4-1-1v-2c0-0.6 0.4-1 1-1h18c0.6 0 1 0.4 1 1v2z m0-8c0 0.6-0.4 1-1 1h-18c-0.6 0-1-0.4-1-1v-2c0-0.6 0.4-1 1-1h18c0.6 0 1 0.4 1 1v2z"></path></g>
+                  </svg>
+              </span>
+          </div>
+          <div ng-show="{{getIconBasedOnRecordType(obj, 'In Group Change')}}">
+            <span class="slds-icon_container slds-icon-standard-account">
+                <svg aria-hidden="true" class="slds-icon slds-icon--medium" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet" data="data" obj="obj" size="'medium'" viewBox="-11 -11 75 75">
+                  <path fill="#fff" d="m46.8 2h-41.6c-1.8 0-3.2 1.4-3.2 3.2v6.4c0 1.8 1.4 3.2 3.2 3.2h41.6c1.8 0 3.2-1.4 3.2-3.2v-6.4c0-1.8-1.4-3.2-3.2-3.2z m-20 9.6v-6.4h20v6.4h-20z m20 8h-41.6c-1.8 0-3.2 1.4-3.2 3.2v6.4c0 1.8 1.4 3.2 3.2 3.2h41.6c1.8 0 3.2-1.4 3.2-3.2v-6.4c0-1.8-1.4-3.2-3.2-3.2z m-27.2 9.6v-6.4h27.2v6.4h-27.2z m27.2 8h-41.6c-1.8 0-3.2 1.4-3.2 3.2v6.4c0 1.8 1.4 3.2 3.2 3.2h41.6c1.8 0 3.2-1.4 3.2-3.2v-6.4c0-1.8-1.4-3.2-3.2-3.2z m-12.8 9.6v-6.4h12.8v6.4h-12.8z"></path>
+                  </svg>
+              </span>
+          </div>
+          <div ng-show="{{getIconBasedOnRecordType(obj, 'In Group Add Product')}}">
+            <span class="slds-icon_container slds-icon-standard-campaign">
+                <svg aria-hidden="true" class="slds-icon slds-icon--medium" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet" data="data" obj="obj" size="'medium'" viewBox="-11 -11 75 75">
+                  <g fill="#fff"><path d="m15 11h4c0.6 0 1-0.4 1-1v-2h10v2c0 0.6 0.4 1 1 1h4c0.6 0 1-0.4 1-1v-2.5c0-3-2.5-5.5-5.5-5.5h-11.1c-3 0-5.4 2.4-5.4 5.4v2.6c0 0.6 0.4 1 1 1z m17 23h2v-2c0-2.2 1.8-4 4-4h6c1.3 0 2.4 0.6 3.1 1.5 0.3 0.4 0.9 0.1 0.9-0.3v-10.2c0-2.2-1.8-4-4-4h-38c-2.2 0-4 1.8-4 4v23c0 2.2 1.8 4 4 4h21.8c0.4 0 0.6-0.3 0.5-0.7-0.2-0.4-0.3-0.8-0.3-1.3v-6c0-2.2 1.8-4 4-4z m16.5 4h-4.5v-4.5c0-0.8-0.7-1.5-1.5-1.5h-3c-0.8 0-1.5 0.7-1.5 1.5v4.5h-4.5c-0.8 0-1.5 0.7-1.5 1.5v3c0 0.8 0.7 1.5 1.5 1.5h4.5v4.5c0 0.8 0.7 1.5 1.5 1.5h3c0.8 0 1.5-0.7 1.5-1.5v-4.5h4.5c0.8 0 1.5-0.7 1.5-1.5v-3c0-0.8-0.7-1.5-1.5-1.5z"></path></g>
+                  </svg>
+              </span>
+          </div>
+        </div>
+        <div class="slds-media__body slds-truncate">
+          <a ng-href="/one/one.app#/sObject/{{obj.Id}}/view" ng-data-url="/one/one.app#/sObject/{{obj.Id}}/view" class="slds-text-link--reset" tooltip-placement="bottom" tooltip="{{data.title}}" target="_parent">
+            <span class="slds-text-heading--medium" title="{{obj | getter:data.fields[0]}}"><strong>{{obj | getter:data.fields[0] | picker:data.fields[0].type}}</strong></span>
+              <br />
+              <span class="slds-text-heading--small" title="{{obj | getter:data.fields[1]}}">{{obj | getter:data.fields[1] | picker:data.fields[1].type}}</span> 
+          </a>
+        </div>
+      </div>
+      <div class="slds-no-flex" ng-init="overflowActions = data.actions.slice(data.limitActionLinksTo?data.limitActionLinksTo:5)">
+          <slds-dropdown content="overflowActions" ng-if="overflowActions.length > 0" icon-attribute="vlocityIcon" label-attribute="displayName" action-function="performAction(item)" button-size="medium"></slds-dropdown>
+      </div>
+    </div>
+    <div class="slds-card__body via-slds-card__body slds-grid slds-wrap slds-theme--default slds-p-around--medium">
+        <div class="slds-col--padded slds-size--1-of-1">
+           <div class="slds-tile slds-p-bottom--medium" ng-repeat="field in data.fields.slice(2, 5) " ng-show="key != 'attributes'">
+              <p class="slds-truncate slds-text-heading--label" title="{{field.label}}">{{field.label}}</p>
+              <div class="slds-tile__detail slds-text-heading--small ">
+                  <p class="slds-truncate" title="{{obj | getter: field | picker: field.type}}">{{obj | getter: field | picker: field.type}}</p>
+              </div>
+          </div>
+          <div class="slds-tile slds-p-bottom--medium" ng-show="{{getIconBasedOnRecordType(obj, 'Renewal')}}">
+              <p class="slds-truncate slds-text-heading--label" title="{{data.fields[5].label}}">{{data.fields[5].label}}</p>
+              <div class="slds-tile__detail slds-text-heading--small ">
+                  <p class="slds-truncate" title="{{obj | getter: data.fields[5]}}">{{obj |  getter: data.fields[5]}}</p>
+              </div>
+          </div>
+          <div class="slds-tile slds-p-bottom--medium" ng-show="{{getIconBasedOnRecordType(obj, 'In Group Change')}}">
+              <p class="slds-truncate slds-text-heading--label" title="{{data.fields[6].label}}">{{data.fields[6].label}}</p>
+              <div class="slds-tile__detail slds-text-heading--small">
+                  <p class="slds-truncate" title="{{obj | getter: data.fields[6]}}" style="color:{{getColorValueForLoseLives(obj)}}">{{obj |  getter: data.fields[6]}}</p>
+              </div>
+          </div>
+        </div>
+    </div>
+    <div class="slds-col slds-col--padded slds-grid slds-wrap slds-grid--vertical-align-center slds-grid--align-spread">
+        <div class="slds-col--padded slds-m-top--medium slds-p-bottom--medium" style="float:right;">
+          <button class="slds-button" ng-click="performFlyout(uniqueLayoutId + '-card-'+cardIndex)">
+            <slds-button-svg-icon sprite="'utility'" icon="'chevrondown'" no-hint="true" ng-if="!isSelected(cardIndex)"></slds-button-svg-icon><span ng-if="!isSelected(cardIndex)"> View Quotes</span>
+            <slds-button-svg-icon sprite="'utility'" icon="'chevronup'" no-hint="true" ng-if="isSelected(cardIndex)"></slds-button-svg-icon><span ng-if="isSelected(cardIndex)"> Hide Quotes</span>
+          </button>
+        </div>
+        <span id="flyout" class="slds-p-around--small slds-size-1-of-1"></span>
+    </div>
+    
+    <div class="embed-flyout slds-p-left--medium slds-p-right--medium"></div>
+    <div class="slds-x-small-show-only slds-card__body via-slds-x-small-card__body slds-grid slds-grid--vertical slds-theme--default">
+      <div class="slds-size--1-of-1 slds-x-small-show-only" ng-repeat="field in data.fields.slice(1, 6)" ng-show="key != 'attributes'">
+        <div class="slds-grid via-slds-grid slds-p-around--small">
+            <div class="slds-col slds-size--1-of-2">
+                <p class="slds-text-align--left slds-truncate slds-text-heading--label" title="{{field.label}}">{{field.label}}</p>
+            </div>
+            <div class="slds-col slds-size--1-of-2" ng-if="!obj[field.relationshipName]">
+                <p class="slds-text-align--right slds-truncate" >{{obj | getter: field | picker: field.type}}</p>
+            </div>
+            <div class="slds-col slds-size--1-of-2" ng-if="obj[field.relationshipName]">
+                <p class="slds-text-align--right slds-truncate" >{{obj[field.relationshipName]['Name']}}</p>
+            </div>
+        </div>
+      </div>
+    </div>
+    <div class="slds-card__footer slds-x-small-show-only">
+      <button class="slds-button" ng-click="performFlyout('card-'+cardIndex)">
+        <span ng-if="!isSelected(cardIndex)">View More</span>
+        <span ng-if="isSelected(cardIndex)">View Less</span>
+      </button>
+    </div>
+    </div>

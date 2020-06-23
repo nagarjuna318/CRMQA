@@ -1,0 +1,30 @@
+{
+    "%vlocity_namespace%__AdditionalInformation__c": "Raptors- PRDCRM-58144",
+    "%vlocity_namespace%__DisableMetadataCache__c": false,
+    "%vlocity_namespace%__ElementTypeToHTMLTemplateList__c": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "%vlocity_namespace%__Element__c": [
+        "LGAIDCard_Design_English_Element_DataRaptorExtractAction3.json",
+        "LGAIDCard_Design_English_Element_SetValues1.json",
+        "LGAIDCard_Design_English_Element_ExtractQLIForIDCardDesign.json",
+        "LGAIDCard_Design_English_Element_ExtratQLIRecordsForIdCardDesignLGgroup.json",
+        "LGAIDCard_Design_English_Element_EnterIDCardDesign.json",
+        "LGAIDCard_Design_English_Element_Headline1.json",
+        "LGAIDCard_Design_English_Element_QliRecords.json",
+        "LGAIDCard_Design_English_Element_Messaging1.json",
+        "LGAIDCard_Design_English_Element_LoadIdCardDesignToQLI.json",
+        "LGAIDCard_Design_English_Element_DoneAction1.json"
+    ],
+    "%vlocity_namespace%__IsLwcEnabled__c": false,
+    "%vlocity_namespace%__IsProcedure__c": false,
+    "%vlocity_namespace%__IsReusable__c": false,
+    "%vlocity_namespace%__Language__c": "English",
+    "%vlocity_namespace%__LastPreviewPage__c": "LGA_IDCardDesign",
+    "%vlocity_namespace%__LwcId__c": "29885909-5b70-64b2-41f7-acd14f501b20",
+    "%vlocity_namespace%__PropertySet__c": "LGAIDCard_Design_English_PropertySet.json",
+    "%vlocity_namespace%__SubType__c": "Design",
+    "%vlocity_namespace%__Type__c": "LGAIDCard",
+    "Name": "LGAIDCardDesign",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__OmniScript__c/LGAIDCard/Design/English"
+}

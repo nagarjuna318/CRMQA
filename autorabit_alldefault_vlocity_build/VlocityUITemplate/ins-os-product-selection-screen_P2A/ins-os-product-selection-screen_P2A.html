@@ -1,0 +1,54 @@
+<div class="full-width" ng-controller="ins-product-selection-controller">
+   <div class="search-container nds-m-bottom_small">
+        <div class="nds-size_1-of-1">
+           <div class="nds-form-element">
+  					<div class="nds-form-element__control nds-input-has-icon nds-input-has-icon_left">
+						<!-- <img src="/resource/1491332014000/%vlocity_namespace%__slds/assets/icons/action/approval.svg" align="middle" width="25" height="15"> -->
+						<!-- <svg class="nds-icon nds-input__icon nds-icon_x-small nds-icon-text-default search-icon-margin" aria-hidden="true">
+							<use xlink:href="../resource/%vlocity_namespace%__slds/assets/icons/utility-sprite/svg/symbols.svg#search"></use>
+						</svg> -->
+
+						<svg class="nds-icon nds-input__icon nds-icon_x-small nds-icon-text-default search-icon-margin" style=
+						"top: 25% !important;"xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="search" width="100%" height="100%">
+							<path d="M22.9 20.9l-6.2-6.1c1.3-1.8 1.9-4 1.6-6.4-.6-3.9-3.8-7.1-7.8-7.4C5 .4.4 5 1 10.5c.3 4 3.5 7.3 7.4 7.8 2.4.3 4.6-.3 6.4-1.5l6.1 6.1c.3.3.7.3 1 0l.9-1c.3-.3.3-.7.1-1zM3.7 9.6c0-3.2 2.7-5.9 5.9-5.9 3.3 0 6 2.7 6 5.9 0 3.3-2.7 6-6 6-3.2 0-5.9-2.6-5.9-6z"></path>
+						</svg>
+						<input type="text" ng-disabled="!control.vlcSI['recSet']" class="nds-input nds-combobox__input search_plans search-padding-left" id="searchBar"aria-autocomplete="list" aria-controls="listbox-unique-id" autocomplete="off" ng-model="searchCriteria.Text" role="textbox" placeholder="Search Products">
+  					</div>
+           </div>
+        </div>
+  </div>
+
+  <!-- <div style="width: 100%;">
+		<p>0 products selected</p>
+  </div> -->
+  <div ng-if="!control.vlcSI['recSet']" class="empty-state-product">
+		<p class="plan-attribute">No products are available under this set of filters. Please go back and select different options.</p>
+  </div>
+  <div ng-if="control.vlcSI['recSet']" class="nds-grid product-container nds-wrap">
+	<!-- <div class="nds-box padding-left-0">{{control.vlcSI['recSet']}}</div> -->
+		
+		<article ng-repeat="p in control.vlcSI['recSet'] | filter:searchCriteria.Text" class="nds-col nds-size_1-of-4">
+		<div class="nds-box product">
+
+			<div class="product-title">
+					<h3 class="font-weight-bold product-h3">{{p.Name}}</h3>
+					<!-- <span class="tooltiptext" ng-if="p.HelpText != undefined">{{p.HelpText}}</span> -->
+			</div>			  
+			<div ng-init="p.vlcSelected=false" class="product-button-container">
+				<!-- ng-class="{'vlc-selectableitem-selected' : p.vlcSelected || p.vlcSelected == undefined }" -->
+				<button
+					class="nds-button nds-m-top_x-small btn-width"
+					ng-class="{'deselect-cta': p.vlcSelected, 'select-cta' : !p.vlcSelected}"
+					ng-click="onSelectItem(control, p, $index, this, true)">
+					<span>{{p.vlcSelected ? 'Deselect' : 'Select'}}</span>
+					<!-- <span ng-hide="p.vlcSelected">Select Product</span>
+					<span ng-show="p.vlcSelected" class="selected"><i class="icon icon-v-check"></i>Selected</span> -->
+				</button>
+			</div>
+
+
+
+		</div>
+  </div>
+	
+</div>

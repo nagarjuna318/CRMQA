@@ -1,0 +1,32 @@
+{
+    "%vlocity_namespace%__AdditionalInformation__c": "Contract Code Reservation Service -displaying failed and success QLIs",
+    "%vlocity_namespace%__ElementTypeToHTMLTemplateList__c": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "%vlocity_namespace%__Element__c": [
+        "IMPCase-Library_IC-ReserveContractCode_English_Element_SetValues2.json",
+        "IMPCase-Library_IC-ReserveContractCode_English_Element_DRE-QuoteDetails.json",
+        "IMPCase-Library_IC-ReserveContractCode_English_Element_SetValues3.json",
+        "IMPCase-Library_IC-ReserveContractCode_English_Element_DRE-QLIDetails.json",
+        "IMPCase-Library_IC-ReserveContractCode_English_Element_SetValues1.json",
+        "IMPCase-Library_IC-ReserveContractCode_English_Element_SetValues9.json",
+        "IMPCase-Library_IC-ReserveContractCode_English_Element_SetValues10.json",
+        "IMPCase-Library_IC-ReserveContractCode_English_Element_ValidateProdNotSold.json",
+        "IMPCase-Library_IC-ReserveContractCode_English_Element_TxtValidateProdNotSold.json",
+        "IMPCase-Library_IC-ReserveContractCode_English_Element_RA_ContCodeReservService.json",
+        "IMPCase-Library_IC-ReserveContractCode_English_Element_DRE-ContractReservationServiceCallLog_Success.json",
+        "IMPCase-Library_IC-ReserveContractCode_English_Element_SetStatusofWebservice.json",
+        "IMPCase-Library_IC-ReserveContractCode_English_Element_DRE-ContractReservationServiceCallLog_Failure.json",
+        "IMPCase-Library_IC-ReserveContractCode_English_Element_SoldProduct.json",
+        "IMPCase-Library_IC-ReserveContractCode_English_Element_QLI_Items.json",
+        "IMPCase-Library_IC-ReserveContractCode_English_Element_DoneAction.json"
+    ],
+    "%vlocity_namespace%__IsProcedure__c": false,
+    "%vlocity_namespace%__IsReusable__c": false,
+    "%vlocity_namespace%__Language__c": "English",
+    "%vlocity_namespace%__PropertySet__c": "IMPCase-Library_IC-ReserveContractCode_English_PropertySet.json",
+    "%vlocity_namespace%__SubType__c": "IC-ReserveContractCode",
+    "%vlocity_namespace%__Type__c": "IMPCase Library",
+    "Name": "ReserveContractCode_LG",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__OmniScript__c/IMPCase Library/IC-ReserveContractCode/English"
+}

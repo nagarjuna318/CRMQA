@@ -1,0 +1,25 @@
+{
+    "ContextId": "801W0000000n9sb",
+    "ImplementationCaseId": "801W0000000n9sbIAA",
+    "ImplementationType": "Renewal",
+    "ProductEffectiveDate": "2018-12-01",
+    "ST-Confirmation": {
+        "ConfirmationSelect": "No",
+        "FR-ProductEffectiveDate": "2018-12-01"
+    },
+    "id": "a3CW0000000AqoTMAS",
+    "layout": "lightning",
+    "timeStamp": "2018-02-09T17:10:26.615Z",
+    "userCurrencyCode": "USD",
+    "userId": "005W0000002nEcaIAE",
+    "userName": "ilugina@vlocity.com.prod.nal1b.dev",
+    "userProfile": "System Administrator",
+    "userTimeZone": -300,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "DR-IMPLCaseExtract": 1807,
+        "OmniScriptSessionToken": "cd4d2c29-b776-4007-9191-b96133eaf5d2",
+        "SV-PresetData": 46
+    }
+}

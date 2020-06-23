@@ -1,0 +1,32 @@
+{
+    "NoDate": {
+        "BCId": "a6h540000000mqyAAA",
+        "BORandCORFormula": false,
+        "BrokerageEffectiveDate": "2021-01-01",
+        "BrokerageName-Block": {
+            "BrokerageId": "0012i00000BVIaKAAX",
+            "BrokerageName": "Enforcers Sprint 1 LG Brokerage"
+        },
+        "ConsultantName-Block": {
+            "ConsultantId": "a5F540000006xbLEAQ",
+            "ConsultantName": "samatha"
+        }
+    },
+    "WithDate": {
+        "BCId": "a6h540000000mqtAAA",
+        "BOR": true,
+        "BORandCORFormula": true,
+        "BrokerValidationMessaging": true,
+        "BrokerageEffectiveDate": "2020-06-04",
+        "BrokerageName-Block": {
+            "BrokerageId": "0012i00000BVIaKAAX",
+            "BrokerageName": "Enforcers Sprint 1 LG Brokerage"
+        },
+        "COR": true,
+        "ConsultantName-Block": {
+            "ConsultantId": "a5F540000006xbLEAQ",
+            "ConsultantName": "samatha"
+        },
+        "ConsultantValidationMessaging": true
+    }
+}

@@ -1,0 +1,122 @@
+{
+    "ContextId": null,
+    "OS-AcctObjective": {
+        "BLK-AccntDetails": {
+            "OD-Impact": null,
+            "OD-Name": null,
+            "OD-ObjLibrary": null,
+            "OD-ObjSource": null
+        },
+        "BLK-ObjDetails": {
+            "OBJ-ObjReach": null,
+            "OD-ObjEndDt": null,
+            "OD-ObjStartDt": null
+        },
+        "OD-AccntPlan": null,
+        "OD-AcctName": null,
+        "TAContacts-Block": {
+            "TAContacts": null
+        }
+    },
+    "OS-AcctObservation": {
+        "BLK-AcctObsDetails": {
+            "OSD-Impact": null,
+            "OSD-ImpactCategory": null,
+            "OSD-Name": null,
+            "OSD-ObsLibrary": null,
+            "OSD-ObsType": null
+        },
+        "BLK-ObsDetails": {
+            "OSD-FactorType": null,
+            "OSD-ImpactArea": null,
+            "OSD-ImpactType": null,
+            "OSD-ImpactValue": null,
+            "OSD-ObservationRank": null
+        }
+    },
+    "OS-ObjSelect": {
+        "FRM-ObjOk": null,
+        "OS-Category": null,
+        "OS-MsgObjSel": null,
+        "PlanCheck": null,
+        "TAObjSelection-Block": {
+            "TAObjSelection": null
+        }
+    },
+    "OS-ObsPreSelect": {
+        "FRM-ObsReType": null,
+        "OS-ObsReTypeA": null,
+        "OS-ObsReTypeB": null
+    },
+    "OS-ObsSelect": {
+        "FRM-ObsCount": null,
+        "MSG-ObsSelection": null,
+        "ObsDetails": null
+    },
+    "OS-SolDeSelection": {
+        "BLK-AcctObjSol": {
+            "AS-Impact": null,
+            "AS-Name": null,
+            "AS-ObjSolRec": null,
+            "SO-Name": null
+        },
+        "BLK-AcctObsSol": {
+            "AOS-Impact": null,
+            "AOS-Name": null,
+            "AS-ObsSolRec": null,
+            "SOO-Name": null
+        },
+        "BLK-AcctOthSol": {
+            "OOO-Name": null,
+            "OTH-Impact": null,
+            "OTH-Name": null
+        }
+    },
+    "OS-SolPreSelect": {
+        "FRM-SolReType": null,
+        "OS-SolReTypeA": null,
+        "OS-SolReTypeB": null
+    },
+    "OS-SolSelection": {
+        "FRM-SolCount": null,
+        "MSG-SolSelection": null,
+        "SolDetails": null
+    },
+    "timeStamp": null,
+    "userId": null,
+    "userName": null,
+    "userProfile": null,
+    "userTimeZone": null,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "DA": null,
+        "DR-ExtAcctPlan": null,
+        "DR-ExtAllObs": null,
+        "DR-ExtAllSol": null,
+        "DR-ExtObjCustom": null,
+        "DR-ExtObjDetails": null,
+        "DR-ExtObsCustom": null,
+        "DR-ExtObsDetails": null,
+        "DR-ExtRecmdObs": null,
+        "DR-ExtSolDetails": null,
+        "DR-PostAnalysis": null,
+        "DR-PostObjSolution": null,
+        "DR-PostObsSolution": null,
+        "DR-PostOthSolution": null,
+        "DR-PostUpdObj": null,
+        "DR-PostUpdObs": null,
+        "OS-AcctObjective": null,
+        "OS-AcctObservation": null,
+        "OS-ObjSelect": null,
+        "OS-ObsPreSelect": null,
+        "OS-ObsSelect": null,
+        "OS-SolDeSelection": null,
+        "OS-SolPreSelect": null,
+        "OS-SolSelection": null,
+        "SV-IniValues": null,
+        "SV-ObsValues": null,
+        "SV-Recommend": null,
+        "SV-Solution": null
+    }
+}

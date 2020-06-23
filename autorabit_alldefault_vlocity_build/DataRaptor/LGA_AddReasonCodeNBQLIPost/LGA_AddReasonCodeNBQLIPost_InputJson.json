@@ -1,0 +1,164 @@
+{
+    "ContextId": null,
+    "ImpactedProductAndCoverageTypeInformation": {
+        "Dental": {
+            "dentalAddReasonCodeImp": null,
+            "dentalBenefitPeriodImp": null,
+            "dentalClaimsRouteCodeImp": null,
+            "dentalProductName": null
+        },
+        "EAP": {
+            "EAPAddReasonCodeImp": null,
+            "EAPBenefitPeriodImp": null,
+            "EAPClaimsRouteCodeImp": null,
+            "EAPProductName": null
+        },
+        "FSA": {
+            "FSAAddReasonCodeImp": null,
+            "FSABenefitPeriodImp": null,
+            "FSAClaimsRouteCodeImp": null,
+            "FSAProductName": null
+        },
+        "LifeAndDisability": {
+            "LifeDisabilityAddReasonCodeImp": null,
+            "LifeDisabilityBenefitPeriodImp": null,
+            "LifeDisabilityClaimsRouteCodeImp": null,
+            "LifeDisabilityProductName": null
+        },
+        "Medical": {
+            "ImpactedMedicalPlans": {
+                "MedicalPlanAddReasonCodeImp": null,
+                "MedicalPlanBenefitPeriodImp": null,
+                "MedicalPlanClaimsRouteCodeImp": null,
+                "MedicalPlanContractCode": null,
+                "MedicalPlanHSABankingPartnerImp": null,
+                "MedicalPlanParentQuoteLineItem": null,
+                "MedicalPlanProductCategory": null,
+                "MedicalPlanProductName": null
+            },
+            "ImpactedMedicalProducts": {
+                "MedicalProductCategory": null,
+                "MedicalProductContractCode": null,
+                "MedicalProductName": null,
+                "MedicalProductPrefix": null
+            }
+        },
+        "Pharmacy": {
+            "Block50": {
+                "ContractCodePharmacy": null,
+                "CustomContractCodePharmacy": null,
+                "PharmacyBenefitIdentifier": null,
+                "PlanNamePharmacy": null,
+                "PlanTypePharmacy": null,
+                "ProductTypePharmacy": null
+            }
+        },
+        "SelectableItems5": null,
+        "Vision": {
+            "visionAddReasonCodeImp": null,
+            "visionBenefitPeriodImp": null,
+            "visionClaimsRouteCode": null,
+            "visionProductName": null
+        }
+    },
+    "ProductAndCoverageTypeInformation": {
+        "DentalQLIs": {
+            "DentalQLIAddReasonCode": null,
+            "DentalQLIBenefitPeriod": null,
+            "DentalQLIClaimsRouteCode": null,
+            "DentalQLIProdName": null
+        },
+        "EAPQLIs": {
+            "EAPQLIAddReasonCode": null,
+            "EAPQLIBenefitPeriod": null,
+            "EAPQLIClaimsRouteCode": null,
+            "EAPQLIProdName": null
+        },
+        "FSAQLIs": {
+            "FSAQLIAddReasonCode": null,
+            "FSAQLIBenefitPeriod": null,
+            "FSAQLIClaimsRouteCode": null,
+            "FSAQLIProdName": null
+        },
+        "LifeAndDisabilityQLIBlk": {
+            "LifeDisabilityQLIAddReasonCode": null,
+            "LifeDisabilityQLIBenefitPeriod": null,
+            "LifeDisabilityQLIClaimsRouteCode": null,
+            "LifeDisabilityQLIProdName": null
+        },
+        "Pharmacy1": {
+            "Block52": {
+                "ContractCodePharma": null,
+                "CustomContractCodePharma": null,
+                "PharmacyBenefitIdentifier1": null,
+                "PlanNamePharma": null,
+                "PlanTypePharma": null,
+                "ProductTypePharma": null
+            }
+        },
+        "ProductMedicalBlk": {
+            "MedicalProduct": {
+                "MedProdQLIProdCat": null,
+                "MedProdQLIProdName": null,
+                "MedProdQLIProductContractCode": null,
+                "MedProdQLIProductPrefix": null
+            },
+            "PlanMedicalBlk": {
+                "MedPlanQLIAddReasonCode": null,
+                "MedPlanQLIBenefitPeriod": null,
+                "MedPlanQLIClaimsRouteCode": null,
+                "MedPlanQLIContractCode": null,
+                "MedPlanQLIHSABankingPartner": null,
+                "MedPlanQLIParentQLI": null,
+                "MedPlanQLIPlanCat": null,
+                "MedPlanQLIPlanName": null
+            }
+        },
+        "SelectableItems6": null,
+        "VisionQLIBlk": {
+            "VisionQLIAddReasonCode": null,
+            "VisionQLIBenefitPeriod": null,
+            "VisionQLIClaimsRouteCode": null,
+            "VisionQLIProdName": null
+        }
+    },
+    "ProductWithPercent": "%",
+    "timeStamp": null,
+    "userId": null,
+    "userName": null,
+    "userProfile": null,
+    "userTimeZone": null,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "AccountTeamRole1": null,
+        "AccountTeamRole2": null,
+        "AccountTeamRole3": null,
+        "AccountTeamRole4": null,
+        "BrokerInfoUpload": null,
+        "BrokerInformationExtract": null,
+        "DataRaptorExtractAction1": null,
+        "DataRaptorExtractAction12": null,
+        "DataRaptorExtractAction9": null,
+        "DataRaptorPostAction6": null,
+        "ImpactedProductAndCoverageTypeInformation": null,
+        "ImpactedProduteElements": null,
+        "ImpactedProduteElements_EAPFSAVison": null,
+        "IntegrationProcedureAction2": null,
+        "IntegrationProcedureAction3": null,
+        "LoadGroupDoneAction": null,
+        "LoadGroupUpdate": null,
+        "ProductAndCoverageTypeInformation": null,
+        "QLIIntegrationProcedure": null,
+        "QLIProductSetVal": null,
+        "RemoteActionToFetchQLIBasedOnType": null,
+        "SaveandSubmit": null,
+        "SetValues1": null,
+        "SetValues10": null,
+        "SetValues11": null,
+        "SetValues2": null,
+        "SetValues7": null,
+        "SetValues9": null,
+        "transformProductDetails": null
+    }
+}

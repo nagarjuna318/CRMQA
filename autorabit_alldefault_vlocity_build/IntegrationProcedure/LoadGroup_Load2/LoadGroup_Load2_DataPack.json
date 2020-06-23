@@ -1,0 +1,23 @@
+{
+    "%vlocity_namespace%__CustomJavaScript__c": "{}",
+    "%vlocity_namespace%__DisableMetadataCache__c": false,
+    "%vlocity_namespace%__ElementTypeToHTMLTemplateList__c": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "%vlocity_namespace%__Element__c": [
+        "LoadGroup_Load2_Element_DataRaptorExtractAction1.json",
+        "LoadGroup_Load2_Element_DataRaptorExtractAction2.json",
+        "LoadGroup_Load2_Element_DataRaptorExtractAction3.json",
+        "LoadGroup_Load2_Element_DataRaptorExtractAction4.json"
+    ],
+    "%vlocity_namespace%__IsLwcEnabled__c": false,
+    "%vlocity_namespace%__IsProcedure__c": true,
+    "%vlocity_namespace%__IsReusable__c": false,
+    "%vlocity_namespace%__Language__c": "Procedure",
+    "%vlocity_namespace%__ProcedureKey__c": "LoadGroup_Load2",
+    "%vlocity_namespace%__PropertySet__c": "LoadGroup_Load2_PropertySet.json",
+    "%vlocity_namespace%__SubType__c": "Load2",
+    "%vlocity_namespace%__Type__c": "LoadGroup",
+    "Name": "New Integration Procedure2",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__OmniScript__c/LoadGroup/Load2/Procedure"
+}

@@ -1,0 +1,94 @@
+{
+    "%vlocity_namespace%__Active__c": true,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "Load Group_Order",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/LoadGroup/Group/English",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__PropertySet__c": {
+        "HTMLTemplateId": "",
+        "controlWidth": 12,
+        "disOnTplt": false,
+        "elementValueMap": {
+            "DentalQLIAddReasonCode": "=%DentalQLI:AddReasonCode%",
+            "DentalQLIBenefitPeriod": "=%DentalQLI:BenefitPeriod%",
+            "DentalQLIClaimsRouteCode": "=%DentalQLI:ClaimsRouteCode%",
+            "DentalQLIProdName": "=%DentalQLI:ProductName%",
+            "EAPQLIAddReasonCode": "=%EAPQLI:AddReasonCode%",
+            "EAPQLIBenefitPeriod": "=%EAPQLI:BenefitPeriod%",
+            "EAPQLIClaimsRouteCode": "=%EAPQLI:ClaimsRouteCode%",
+            "EAPQLIProdName": "=%EAPQLI:ProductName%",
+            "FSAQLIAddReasonCode": "=%FSAQLI:AddReasonCode%",
+            "FSAQLIBenefitPeriod": "=%FSAQLI:BenefitPeriod%",
+            "FSAQLIClaimsRouteCode": "=%FSAQLI:ClaimsRouteCode%",
+            "FSAQLIProdName": "=%FSAQLI:ProductName%",
+            "LifeDisabilityQLIAddReasonCode": "=%LifeDisabilityQLI:AddReasonCode%",
+            "LifeDisabilityQLIBenefitPeriod": "=%LifeDisabilityQLI:BenefitPeriod%",
+            "LifeDisabilityQLIClaimsRouteCode": "=%LifeDisabilityQLI:ClaimsRouteCode%",
+            "LifeDisabilityQLIProdName": "=%LifeDisabilityQLI:ProductName%",
+            "MedPlanQLIAddReasonCode": "=%MedicalPlanQLI:AddReasonCode%",
+            "MedPlanQLIBenefitPeriod": "=%MedicalPlanQLI:BenefitPeriod%",
+            "MedPlanQLIClaimsRouteCode": "=%MedicalPlanQLI:ClaimsRouteCode%",
+            "MedPlanQLIContractCode": "=%MedicalPlanQLI:ProductContractCodes%",
+            "MedPlanQLIHSABankingPartner": "=%MedicalPlanQLI:HSABankingPartner%",
+            "MedPlanQLIParentQLI": "=%MedicalPlanQLI:ParentQuoteLineItem%",
+            "MedPlanQLIPlanCat": "=%MedicalPlanQLI:ProductCategory%",
+            "MedPlanQLIPlanName": "=%MedicalPlanQLI:ProductName%",
+            "MedProdQLIProdCat": "=%MedicalProductQLI:ProductCategory%",
+            "MedProdQLIProdName": "=%MedicalProductQLI:ProductName%",
+            "MedProdQLIProductContractCode": "=%MedicalProductQLI:ProductContractCode%",
+            "MedProdQLIProductPrefix": "=%MedicalProductQLI:Prefix%",
+            "VisionQLIAddReasonCode": "=%VisionQLI:AddReasonCode%",
+            "VisionQLIBenefitPeriod": "=%VisionQLI:BenefitPeriod%",
+            "VisionQLIClaimsRouteCode": "=%VisionQLI:ClaimsRouteCode%",
+            "VisionQLIProdName": "=%VisionQLI:ProductName%"
+        },
+        "label": "QLIProductSetValues",
+        "message": {
+        },
+        "pubsub": false,
+        "show": {
+            "group": {
+                "operator": "AND",
+                "rules": [
+                    {
+                        "condition": "=",
+                        "data": "true",
+                        "field": "st3"
+                    },
+                    {
+                        "group": {
+                            "operator": "OR",
+                            "rules": [
+                                {
+                                    "condition": "=",
+                                    "data": "New Business",
+                                    "field": "stImplementationType"
+                                },
+                                {
+                                    "condition": "=",
+                                    "data": "Renewal",
+                                    "field": "stImplementationType"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        },
+        "showPersistentComponent": [
+            false,
+            false
+        ],
+        "ssm": false,
+        "validationRequired": "Step",
+        "wpm": false
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": false,
+    "%vlocity_namespace%__Type__c": "Set Values",
+    "Name": "QLIProductSetVal",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/LoadGroup/Group/English/QLIProductSetVal"
+}

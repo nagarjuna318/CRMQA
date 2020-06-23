@@ -1,0 +1,299 @@
+{
+    "BillingArrangementstep": {
+        "BillingArrangement": null,
+        "BillingArrangementValidation": null,
+        "IsSelectedBilingPattern": null
+    },
+    "ContextId": null,
+    "DepartmentCode": {
+        "DepartmentBlockCode": {
+            "DepartmentCodeValue": null,
+            "DepartmentId": null,
+            "DepartmentName": null
+        }
+    },
+    "EligibilityInformation": {
+        "EmployerEligibility": {
+            "EligibilityBlockLeftSide": {
+                "COBRAAdministrationServicesProvided": null,
+                "DomesticPartnerApplyToAllGroup": null,
+                "DomesticPartnerIndicator": null,
+                "DomesticPartnerIndicator1": null,
+                "DomesticPartnerIndicator2": null,
+                "DomesticPartnerIndicator3": null,
+                "DomesticPartnerIndicator4": null,
+                "EligibilityChangeIndicator": null,
+                "EligibilityChangeIndicator1": null,
+                "EligibilityChangeIndicator2": null,
+                "EligibilityTermIndicator": null,
+                "EligibilityTermIndicator1": null,
+                "EligibilityTermIndicator2": null,
+                "EmployeeExcludeCodeFormula": null,
+                "EmployeeExcludedCode1": null,
+                "EmployeeExcludedCode2": null,
+                "EmployeeExcludedCode3": null,
+                "EmployeeExcludedCode4": null,
+                "EmployeeExcludedCode5": null,
+                "EmployeeExcludedCode6": null,
+                "EmployeeExcludedCode7": null,
+                "EmployeeExcludedCode8": null,
+                "IfDepReachesMaxAgeAutoTermate": null,
+                "MHSAServicelevelIndicator1": null,
+                "MHSAServicelevelIndicator2": null,
+                "MHSAServicelevelIndicator3": null,
+                "MHSAServicelevelIndicator4": null,
+                "MHSAServicelevelIndicator5": null,
+                "MHSAServicelevelIndicator6": null,
+                "MHSAServicelevelIndicator7": null,
+                "MhsaFormula": null,
+                "NewHireProbationaryPeriod": null,
+                "Over65Code": null,
+                "OverageDepTermLettersMailedToBus": null,
+                "PremPaidForEachSubDepPerMonth": null,
+                "PremPaidForEachSubPerMonth": null,
+                "WomenContraceptiveExemptionInd": null
+            },
+            "EligibilityBlockRightSide": {
+                "Messaging6": null,
+                "NHProbPDSameForAllQliAndSufix": null,
+                "PartIndSameForAllQLIAndSuffix": null,
+                "PercentPremDepSameForAllQliAndSufix": null,
+                "PercentPremSubSameForAllQliAndSufix": null
+            }
+        },
+        "ImplemenationCaseDetails": {
+            "AccountName1": null,
+            "ClaimSystem": null,
+            "EligibilityName": null
+        }
+    },
+    "EligibilityandFundingValidations": {
+    },
+    "EmployeeCategorySelection": {
+        "EmpCatValidationMessaging": null,
+        "EmployeeCategories": null
+    },
+    "EmployeeClassStep": {
+        "EditEmployeeBlock": {
+            "EmployeeClassId": null,
+            "EmployeeClassName": null,
+            "EmployeeClassType": null,
+            "LastModifiedBy": null
+        },
+        "EmployeeClassExtract": null,
+        "EmployeeClassesseparate": {
+        },
+        "Formula24": null,
+        "Formula25": null,
+        "Formula26": null,
+        "Messaging5": null
+    },
+    "FundingInformation": {
+        "COBRAWest": {
+            "COBRABillGo": null,
+            "COBRAPremium": null,
+            "COBRATPA": null
+        },
+        "FundingDetails": {
+            "DifferentContactsAtSuffixLevel": null,
+            "IfYesPlzExpln": null,
+            "IncludeHCIDNumberOnTheInvoice": null,
+            "MoreThanOneBillEntity": null,
+            "PremiumRecdFromMoreThanOneSource": null,
+            "SelfFundedwithReinsurance": null
+        },
+        "FundingImplementationCaseDetails": {
+            "FRM-AccountName2": null,
+            "FRM-ClaimSystem1": null,
+            "FRM-FundingName": null
+        },
+        "TPAContactInformation": {
+            "City": null,
+            "FRTPACity": null,
+            "FRTPAPhone": null,
+            "FRTPAState": null,
+            "FRTPAStreetAddress": null,
+            "FRTPAZipCode": null,
+            "Phonee": null,
+            "State": null,
+            "StreetAddress": null,
+            "TPAContactName-Block": {
+                "TPAContactId": null,
+                "TPAContactName": null,
+                "TPAContactNameFM": null
+            },
+            "ZipCode": null
+        }
+    },
+    "GroupPlanDesignSuffix": {
+        "GroupPlanDesigns": null,
+        "activeGPDSelectionVal": null
+    },
+    "InvoiceGPDMappingStep": {
+        "BillingArrangements": {
+            "BAId": null,
+            "InvDescription": null,
+            "InvOtherSortingOption1": null,
+            "InvSortingOption1": null,
+            "InvSortingOption2": null,
+            "InvoiceRecordId": null
+        },
+        "GPD": null
+    },
+    "QLIProductEligibility": {
+        "QliEligibility": null,
+        "QliFirstBlock": {
+            "DomPartIndSameForAllQliAndSufixPriview": null,
+            "NHProbPDSameForAllQliAndSufixPriview": null,
+            "PercentPremDepSameForAllQLIAndSuffix": null,
+            "PercentPremSubSameForAllQLIAndSuffix": null
+        }
+    },
+    "QLIProductsData": {
+        "APNDetails": {
+            "ANPrefixProdName": null,
+            "AssignedPrefixName": null,
+            "CustomNwkName": null,
+            "PrdNwkName": null
+        },
+        "QLIProducts": null
+    },
+    "RecapandNextSteps": {
+        "NextBlock": {
+        },
+        "RecapBlock": {
+        }
+    },
+    "Step1": {
+        "AccountPreferences": {
+            "BillingSystemIndicator": null
+        },
+        "Invoices": {
+            "BillingPreference": null,
+            "ClaimGraceDays": null,
+            "ClaimGraceDays1": null,
+            "ClaimGraceDays2": null,
+            "ClaimGraceDaysNY": null,
+            "CycleCode": null,
+            "CycleCode1": null,
+            "CycleCode2": null,
+            "CycleCode3": null,
+            "CycleCode4": null,
+            "CycleCode5": null,
+            "EBillingContactTitle": null,
+            "FaxDispl": null,
+            "FullName": null,
+            "GraceDays1": null,
+            "GraceDays2": null,
+            "InvoiceDescription": null,
+            "InvoiceEffectiveDate": null,
+            "InvoiceFormat": null,
+            "InvoiceSortingOption": null,
+            "InvoiceSortingOption2": null,
+            "InvoicesId": null,
+            "Messaging2": null,
+            "OtherInvoiceSortingOption": null,
+            "OtherInvoiceSortingOption2": null,
+            "PhoneDisplay": null,
+            "SortingOrderForOption1": null,
+            "SortingOrderForOption2": null,
+            "TARANameLookup-Block": {
+                "Fax": null,
+                "FirstName": null,
+                "Id": null,
+                "LastName": null,
+                "MailingCity": null,
+                "MailingPostalCode": null,
+                "MailingState": null,
+                "MailingStreet": null,
+                "Phone": null,
+                "TARANameLookup": null,
+                "Title": null,
+                "eMail": null
+            },
+            "ToleranceLevel": null,
+            "TypeOfBill": null,
+            "eId": null,
+            "eMailDisp": null,
+            "eMailingCity": null,
+            "eMailingPostalCode": null,
+            "eMailingState": null,
+            "eMailingStreet": null
+        },
+        "WhatareInvoices": {
+        }
+    },
+    "Submit": {
+        "ASQS": null,
+        "SubmitThisAccountStructure": null,
+        "TrackAccountStructure": null
+    },
+    "timeStamp": null,
+    "userId": null,
+    "userName": null,
+    "userProfile": null,
+    "userTimeZone": null,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "APNSetValues": null,
+        "AccountStructureAccountExtract": null,
+        "AttachInvoieBillingActiveGPDs": null,
+        "BillingArrangementRemote": null,
+        "BillingArrangementstep": null,
+        "CreateGroupPlanDesign_Remote": null,
+        "DataRaptorPostAction13": null,
+        "DepartmentCode": null,
+        "DepartmentCodeExtract": null,
+        "DepartmentCodePost": null,
+        "DoneAction1": null,
+        "EC": null,
+        "ECset": null,
+        "EligibilityDetailsSt": null,
+        "EligibilityInformation": null,
+        "EligibilityPost": null,
+        "EligibilityandFundingValidations": null,
+        "EligibilityrecordSt": null,
+        "EmpCategoryGpdUpdateRemote": null,
+        "EmpCategoryRemote": null,
+        "EmployeeCategorySelection": null,
+        "EmployeeClassDataRaptor": null,
+        "EmployeeClassPostAction": null,
+        "EmployeeClassStep": null,
+        "ExtractAPNDetailsDR": null,
+        "ExtractBillingArrangementsAndGPDs": null,
+        "ExtractEligibilityFundingByImpleCaseDR": null,
+        "ExtractGPDDetails": null,
+        "ExtractQLIPicklistRemote": null,
+        "ExtractQliEligibility": null,
+        "FundingDetailsSt": null,
+        "FundingInformation": null,
+        "GPSetValues": null,
+        "GrouPreferenceExtract": null,
+        "GroupPlanDesignSuffix": null,
+        "GroupPreferencePostAction": null,
+        "ImpTrackandGroupUpdate": null,
+        "ImplementationTrackingUpdate": null,
+        "InvoiceExtractTypeaHead": null,
+        "InvoiceGPDMappingStep": null,
+        "InvoicePostAction": null,
+        "PostBillingArrangement": null,
+        "PostFundingByImplCaseDR": null,
+        "PostGPDDetails": null,
+        "QLIAPNUpdatePostDR": null,
+        "QLIProductEligibility": null,
+        "QLIProductsData": null,
+        "QliEligibilityPostAction": null,
+        "RecapandNextSteps": null,
+        "SaveandSubmit": null,
+        "SetBillingArrangementsValues": null,
+        "SetBillingList": null,
+        "SetValues10": null,
+        "SetValues12": null,
+        "SetValues14": null,
+        "SetValues7": null,
+        "Step1": null,
+        "Submit": null,
+        "UpdateGPDWithBAId": null
+    }
+}

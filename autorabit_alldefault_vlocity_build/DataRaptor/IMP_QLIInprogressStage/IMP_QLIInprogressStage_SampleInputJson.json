@@ -1,0 +1,118 @@
+{
+    "BundleCount": true,
+    "ContextId": "0Q0W0000000HJAC",
+    "DRId_QuoteLineItem": "0QLW0000000Vs07OAC",
+    "IMP-ProgramStages": [
+        "In Progress",
+        "IGAP Dead",
+        "IGAP In Progress",
+        "IGAP Lost",
+        "IGAP Sold",
+        "Jeopardy",
+        "Renewed",
+        "Termed"
+    ],
+    "InProgressCount": true,
+    "OppDetails": {
+        "Frm-ImpType": "",
+        "Frm-OpportunityName": "2019 Opportunity Renewal-Eagle Enterprise",
+        "Frm-OpportunityType": "Renewal"
+    },
+    "OpportunityDetails": {
+        "OpportunityName": "2019 Opportunity Renewal-Eagle Enterprise",
+        "OpportunityType": "Renewal"
+    },
+    "OtherCount": false,
+    "ProductsInprogress": {
+        "QuoteDetails": [
+            {
+                "$$hashKey": "object:436",
+                "Area": true,
+                "Id": "0QLW0000000Vs00OAC",
+                "ProductName": "Medical - POS",
+                "ProductStage": "Jeopardy",
+                "vlcBundleStage": "IGAP In Progress",
+                "vlcSelected": true
+            },
+            {
+                "$$hashKey": "object:437",
+                "Area": true,
+                "Id": "0QLW0000000Vs01OAC",
+                "ProductName": "AIM: A La Carte",
+                "ProductStage": "Jeopardy",
+                "vlcBundleStage": "Termed",
+                "vlcSelected": true
+            }
+        ]
+    },
+    "ProductsOther": {
+        "QuoteDetailsOther": null
+    },
+    "ProductsSold": {
+        "QuoteDetailsSold": [
+            {
+                "$$hashKey": "object:478",
+                "Area": true,
+                "Id": "0QLW0000000VrzyOAC",
+                "ProductName": "Dental: Dental Blue 200",
+                "ProductStage": "IGAP Sold",
+                "vlcBundleStage": "Renewed",
+                "vlcSelected": true
+            }
+        ]
+    },
+    "RenewedCount": false,
+    "SoldCount": true,
+    "Stage": "",
+    "Test1": "0Q0W0000000HJ5l",
+    "VariableBundles": {
+        "BundleDetails": [
+            {
+                "$$hashKey": "object:517",
+                "BundleName": "AIM: A La Carte",
+                "DisplayOrder": "A",
+                "OppType": "Renewal",
+                "ProgramName": "Radiology Benefit Management UM Model",
+                "ProgramStatus": "In Progress",
+                "QLId": "0QLW0000000Vs07OAC",
+                "vlcBundleStage": "IGAP Sold",
+                "vlcSelected": true
+            }
+        ]
+    },
+    "id": "a3CW0000000Aj81MAC",
+    "layout": "lightning",
+    "timeStamp": "2017-12-22T18:28:06.971Z",
+    "userCurrencyCode": "USD",
+    "userId": "005W0000002XquzIAC",
+    "userName": "shravani@chadda@eaglecrk.com.prod.nal1b.dev",
+    "userProfile": "System Administrator",
+    "userTimeZone": -300,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "DRE-OpportunityDetails": 498,
+        "DRE-ProdcutsSold": 467,
+        "DRE-ProductExtract": 565,
+        "DRE-ProductsOthers": 532,
+        "DRE-ProductsRenewed": 423,
+        "DRE-VariableBundles": 953,
+        "OmniScriptSessionToken": "0628fc76-5b64-4e6f-8f21-31d7f5090c5e",
+        "OppDetails": 6909,
+        "ProductsInprogress": 20477,
+        "ProductsOther": 9384,
+        "ProductsRenewal": 4093,
+        "ProductsSold": 7574,
+        "QLIInprogressStage": 1336,
+        "QLISoldStages": 1021,
+        "QLIUpdates": 926,
+        "SV-Bundle": 16,
+        "SV-ContextId": 25,
+        "SV-InProgressCount": 19,
+        "SV-Other": 15,
+        "SV-ProgramStages": 9,
+        "SV-RenewedCount": 12,
+        "SV-SoldCount": 14,
+        "VariableBundles": 13141
+    }
+}

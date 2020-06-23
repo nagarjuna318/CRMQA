@@ -1,0 +1,39 @@
+{
+    "%vlocity_namespace%__Active__c": true,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "DocusignASO51+",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/Opportunity/SendDocuSign51+/English",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__ParentElementId__c": {
+        "%vlocity_namespace%__OmniScriptId__c": {
+            "Name": "DocusignASO51+",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/Opportunity/SendDocuSign51+/English",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+        },
+        "Name": "TypeOfCoverage",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/Opportunity/SendDocuSign51+/English/TypeOfCoverage",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c"
+    },
+    "%vlocity_namespace%__ParentElementName__c": "TypeOfCoverage",
+    "%vlocity_namespace%__ParentElementType__c": "Block",
+    "%vlocity_namespace%__PropertySet__c": {
+        "HTMLTemplateId": "",
+        "controlWidth": 12,
+        "dataJSON": false,
+        "disOnTplt": false,
+        "label": null,
+        "show": null,
+        "text": "<h6>The employees listed below are not presently actively-at-work and/or are not expected to be actively-at-work on the requested group effective date. Anthem Life may make an exception and assume liability, subject to Underwriting approval, for certain employees. Unless this exception is applied for and granted as indicated below, they will not be covered until they return to active work. To qualify for this exception, the following conditions must all be satisfied. 1) The employee&rsquo;s absence must be due to illness or injury. 2) The employee must be covered by the prior carrier on the day immediately prior to Anthem Life&rsquo;s effective date of coverage for your group. 3) The employee must not be eligible to have coverage continued or extended by the prior carrier after that policy/contract terminates. In no event will the actively-at work requirement be waived for coverage which provides benefits due to total disability, such as short term disability, waiver of premium or extension of benefits. In no event will any increase in coverage or any additional coverage become effective until the employee returns to work. Coverage approved below will end when your group&rsquo;s coverage under Anthem Life&lsquo;s policy ends or at the end of any time period shown below, whichever occurs first. (Attach additional sheet if necessary.)</h6>",
+        "textKey": ""
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": true,
+    "%vlocity_namespace%__Type__c": "Text Block",
+    "Name": "NotActiveAtWorkText",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/Opportunity/SendDocuSign51+/English/NotActiveAtWorkText"
+}

@@ -1,0 +1,38 @@
+{
+    "%vlocity_namespace%__Active__c": true,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "IMPCase Library/IC-CreateAlphanumericPrefixRequest",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/IMPCase Library/IC-CreateAlphanumericPrefixRequest/English",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__ParentElementId__c": {
+        "%vlocity_namespace%__OmniScriptId__c": {
+            "Name": "IMPCase Library/IC-CreateAlphanumericPrefixRequest",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/IMPCase Library/IC-CreateAlphanumericPrefixRequest/English",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+        },
+        "Name": "GeneralInformation",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/IMPCase Library/IC-CreateAlphanumericPrefixRequest/English/GeneralInformation",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c"
+    },
+    "%vlocity_namespace%__ParentElementName__c": "GeneralInformation",
+    "%vlocity_namespace%__ParentElementType__c": "Step",
+    "%vlocity_namespace%__PropertySet__c": {
+        "HTMLTemplateId": "",
+        "controlWidth": 8,
+        "dataJSON": false,
+        "disOnTplt": false,
+        "label": null,
+        "show": null,
+        "text": "<p></p>\n<p></p>\n<p><strong>&nbsp; &nbsp; &nbsp;<span style=\"text-decoration: underline;\">Description</span></strong></p>\n<p style=\"text-align: left;\"><strong>&nbsp; &nbsp; &nbsp;Full Account Termination</strong><br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; If the prefix involves an Account being terminated.</p>\n<p><strong>&nbsp; &nbsp; &nbsp;Migration - New Prefix Request</strong><br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; If a prefix involves a migration.</p>\n<p style=\"text-align: left;\"><strong>&nbsp; &nbsp; &nbsp;New Business</strong><br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; If a prefix is for a New Business engagement.</p>\n<p><strong>&nbsp; &nbsp; &nbsp;New Product Existing Business</strong><br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; If a prefix is for an existing engagement.</p>\n<p><strong>&nbsp; &nbsp; &nbsp;Phone Number or URL Change</strong><br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;If the prefix request only involves a phone number or URL change.</p>\n<p style=\"text-align: left;\"><strong>&nbsp; &nbsp; &nbsp;Return Unused Prefix</strong><br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; If an existing prefix needs to be returned.</p>\n<p><strong>&nbsp; &nbsp; &nbsp;Term Prefix/Partial Account Term</strong><br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; If a prefix involves a Partial Account or Term Prefix.</p>"
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": false,
+    "%vlocity_namespace%__Type__c": "Text Block",
+    "Name": "RecordTypeInstruction",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/IMPCase Library/IC-CreateAlphanumericPrefixRequest/English/RecordTypeInstruction"
+}

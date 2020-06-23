@@ -1,0 +1,73 @@
+[
+    {
+        "%vlocity_namespace%__DomainObjectAPIName__c": "QuoteLineItem",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 1,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "Id",
+        "%vlocity_namespace%__FormulaOrder__c": 0,
+        "%vlocity_namespace%__InterfaceFieldAPIName__c": "VariableBundles:BundleDetails:QLId",
+        "%vlocity_namespace%__InterfaceObjectName__c": "json",
+        "%vlocity_namespace%__IsDisabled__c": false,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__LinkCreatedIndex__c": 0,
+        "%vlocity_namespace%__MapId__c": "IMP_QLIStageUpdatesCustom7822",
+        "%vlocity_namespace%__UpsertKey__c": true,
+        "Name": "IMP_QLIStageUpdates",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    },
+    {
+        "%vlocity_namespace%__DomainObjectAPIName__c": "QuoteLineItem",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 1,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "ProductStage__c",
+        "%vlocity_namespace%__FormulaOrder__c": 0,
+        "%vlocity_namespace%__InterfaceFieldAPIName__c": "VariableBundles:BundleDetails:vlcBundleStage",
+        "%vlocity_namespace%__InterfaceObjectName__c": "json",
+        "%vlocity_namespace%__IsDisabled__c": false,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__LinkCreatedIndex__c": 0,
+        "%vlocity_namespace%__MapId__c": "IMP_QLIStageUpdatesCustom2312",
+        "%vlocity_namespace%__UpsertKey__c": false,
+        "Name": "IMP_QLIStageUpdates",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    },
+    {
+        "%vlocity_namespace%__DomainObjectAPIName__c": "QuoteLineItem",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 2,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "Id",
+        "%vlocity_namespace%__InterfaceFieldAPIName__c": "VariableBundles:BundleDetails:QLId",
+        "%vlocity_namespace%__IsDisabled__c": false,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__MapId__c": "IMP_QLIStageUpdatesCustom9908",
+        "%vlocity_namespace%__UpsertKey__c": false,
+        "Name": "IMP_QLIStageUpdates",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    },
+    {
+        "%vlocity_namespace%__DomainObjectAPIName__c": "QuoteLineItem",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 2,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "Probability__c",
+        "%vlocity_namespace%__InterfaceFieldAPIName__c": "VariableBundles:BundleDetails:Probability",
+        "%vlocity_namespace%__IsDisabled__c": false,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__MapId__c": "IMP_QLIStageUpdatesCustom3342",
+        "%vlocity_namespace%__UpsertKey__c": false,
+        "Name": "IMP_QLIStageUpdates",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    },
+    {
+        "%vlocity_namespace%__DomainObjectAPIName__c": "QuoteLineItem",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 2,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "ProductStage__c",
+        "%vlocity_namespace%__InterfaceFieldAPIName__c": "VariableBundles:BundleDetails:vlcBundleStage",
+        "%vlocity_namespace%__IsDisabled__c": false,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__MapId__c": "IMP_QLIStageUpdatesCustom1594",
+        "%vlocity_namespace%__UpsertKey__c": false,
+        "Name": "IMP_QLIStageUpdates",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    }
+]

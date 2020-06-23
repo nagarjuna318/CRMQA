@@ -1,0 +1,132 @@
+{
+    "AccountId": "0011F000008YAymQAG",
+    "ActionPlan": {
+        "ActionPlanBlock": {
+            "ActionPlanAnalytics": null,
+            "ActionPlanConsumerExperience": null,
+            "ActionPlanHealthActivation": null,
+            "ActionPlanIdentifiedGap": null,
+            "ActionPlanObjective": null,
+            "ActionPlanObjectiveId": null,
+            "ActionPlanProviderOptimization": null
+        }
+    },
+    "BenefitObjectiveType": "Benefit Objective",
+    "BenefitObjectives": {
+        "BenefitObjectiveBOBlock": [
+            {
+                "BenefitObjectiveBODesc": "Client is intending to acquire new companies.",
+                "BenefitObjectiveBOType": "Corporate"
+            },
+            {
+                "BenefitObjectiveBODesc": "Client plans to add 5000 new employees",
+                "BenefitObjectiveBOType": "Workforce"
+            },
+            {
+                "BenefitObjectiveBODesc": "Another goal.",
+                "BenefitObjectiveBOType": "Total Rewards"
+            },
+            {
+                "BenefitObjectiveBODesc": "Client wants to do full replacement CDHP to take the company to a new direction.",
+                "BenefitObjectiveBOType": "Total Rewards"
+            },
+            {
+                "BenefitObjectiveBODesc": "Client wants to add plans in the United Kingdom.",
+                "BenefitObjectiveBOType": "Total Rewards"
+            }
+        ],
+        "BusinessObjectiveSelectCount": 1,
+        "ObjectiveSelect": [
+            {
+                "$$hashKey": "object:1740",
+                "ObjExtId": "a6l1F0000004LmAQAU_a6m1F0000004EyTQAU",
+                "ObjectId": "a6m1F0000004EyTQAU",
+                "ObjectiveName": "Other",
+                "objlookup": "Other",
+                "vlcSelected": true
+            }
+        ]
+    },
+    "ClientObjectActive": true,
+    "ClientObjectives": {
+        "ClientObjective": [
+            {
+                "ClientObjectiveDescription": "Another goal.",
+                "ClientObjectiveId": "a6i1F000000DMtOQAW",
+                "ClientObjectiveType": "Total Rewards"
+            },
+            {
+                "ClientObjectiveDescription": "Client is intending to acquire new companies.",
+                "ClientObjectiveId": "a6i1F000000DL8gQAG",
+                "ClientObjectiveType": "Corporate"
+            },
+            {
+                "ClientObjectiveDescription": "Client plans to add 5000 new employees",
+                "ClientObjectiveId": "a6i1F000000DL8hQAG",
+                "ClientObjectiveType": "Workforce"
+            },
+            {
+                "ClientObjectiveDescription": "Client wants to do full replacement CDHP to take the company to a new direction.",
+                "ClientObjectiveId": "a6i1F000000DL8iQAG",
+                "ClientObjectiveType": "Total Rewards"
+            },
+            {
+                "ClientObjectiveDescription": "Client wants to add plans in the United Kingdom.",
+                "ClientObjectiveId": "a6i1F000000DL8jQAG",
+                "ClientObjectiveType": "Total Rewards"
+            }
+        ],
+        "ClientObjectiveCount": 5,
+        "ClientObjectiveMsgMax": true
+    },
+    "ContextId": "0011F000008YAymQAG",
+    "DRId_Account_Plan__c": "a6l1F0000004LmAQAU",
+    "DefineBenefitObjectives": {
+        "BenefitObjectiveBlock": {
+            "BenefitObjectiveComment": null,
+            "BenefitObjectiveDesc": null,
+            "BenefitObjectiveId": null,
+            "BenefitObjectiveLookup": null,
+            "BenefitObjectiveLookupId": null,
+            "BenefitObjectiveRank": null
+        }
+    },
+    "Name": "Cheryl's Test Account",
+    "PlanDetails": {
+        "AccountId": "0011F000008YAymQAG",
+        "AccountName": "Cheryl's Test Account",
+        "Id": "a6l1F0000004LmAQAU",
+        "Name": "CSP-0000007"
+    },
+    "PlanDetailsId": "a6l1F0000004LmAQAU",
+    "StrategicOpportunity": {
+        "StrategicOpportunityBlock": {
+            "StrategicOpportunityBenefitObjective": null,
+            "StrategicOpportunityId": null,
+            "StrategicOpportunitySelect": null
+        }
+    },
+    "error": "OK",
+    "id": "a3C1F0000004my8UAA",
+    "layout": "lightning",
+    "testContextId": "0011F000008YAymQAG",
+    "timeStamp": "2018-08-11T03:59:21.490Z",
+    "userCurrencyCode": "USD",
+    "userId": "0051F000001e386QAA",
+    "userName": "ilugina@vlocity.com2.configdev",
+    "userProfile": "System Administrator",
+    "userTimeZone": -240,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "ClientObjectives": 3145,
+        "DR_ExtractAccountPlan": 1137,
+        "DR_ExtractAccountPlanReload": 883,
+        "DR_ExtractReviewBO": 914,
+        "DR_LoadAccountPlan": 554,
+        "DR_LoadClientObjective": 1821,
+        "OmniScriptSessionToken": "37f69c35-f34b-47ea-b217-0d2a46211b6f",
+        "PreSetValue": 62,
+        "RA_ExtractObjectives": 313
+    }
+}

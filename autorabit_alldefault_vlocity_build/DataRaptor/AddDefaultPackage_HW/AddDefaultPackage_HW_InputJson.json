@@ -1,0 +1,84 @@
+{
+    "ChildCountDynamic": 0,
+    "CommercialBuyUp": "Commercial Buy-Ups",
+    "Commercial_Clinical": {
+        "AP-ProdSelected": true,
+        "APParentCount": true,
+        "ParentProductId": "01t1K0000067AuZQAU",
+        "ProdList": [
+            {
+                "$$hashKey": "object:320",
+                "Bundle": "Fixed",
+                "ClinicalName": "ASO Enhanced Foundation + Be Active",
+                "HasSPP": false,
+                "Id": "01t1K0000067AuZQAU",
+                "Name": "ASO Enhanced Foundation + Be Active",
+                "QLIRecordType": "LocalType",
+                "RecordTypeId": "01241000001IOWvAAO",
+                "vlcSelected": true
+            }
+        ],
+        "Wellbeing_Solutions_Custom_Message": null,
+        "Wellbeing_Solutions_Standard_Packages_Message": true
+    },
+    "ContextId": "0QL540000005LPXGA2",
+    "EffectiveDate": "2019-09-20",
+    "EffectiveDateCheck1": "N",
+    "EffectiveDateCheck2": "Y",
+    "Funding_Type": "ASO",
+    "HPCCCodeValue": "HM2H",
+    "IncentiveType": {
+        "Clinical_Product": "ASO Enhanced Foundation + Be Active",
+        "IncentiveTypeSelect": "GC",
+        "Selected_Product": "ASO Enhanced Foundation + Be Active"
+    },
+    "IncentiveTypeSelect": "",
+    "PackageNameValue": "",
+    "ParentCount": 0,
+    "ParentCountDynamic": 0,
+    "ProductSelection": {
+        "Child_Bundles": null,
+        "Commercial_Selections": {
+            "CommercialFlow": "Commercial Clinical"
+        },
+        "DefaultProductCreationMessage": null,
+        "Group_Display": true,
+        "Messaging9": null,
+        "Parent_Count": 1,
+        "Parent_Product": null
+    },
+    "QLI_Contract_Code": "3CJA",
+    "QLI_EffectiveDate": "2019-09-20",
+    "QLI_Financing": "Cost Plus",
+    "QLI_Funding": "ASO",
+    "QLI_Group_Size": "100 - 249",
+    "QLI_HPCC_Code": "HM97",
+    "QLI_Id": "0QL540000005LPXGA2",
+    "QLI_Incentive_Type": "NA",
+    "QLI_Market": "KY",
+    "QLI_Members": 2,
+    "QLI_OppType": "New Business Local",
+    "QLI_Opportunity_RecordType": "New Business Local",
+    "QLI_Probability": "10%",
+    "QLI_ProductStage": "In Progress",
+    "QLI_Product_Name": "Anthem Blue Access PPO HSAs Option E1",
+    "QLI_Product_Type": "Medical",
+    "QLI_QuoteId": "0Q0540000004wjPCAQ",
+    "QLI_Subscribers": 1,
+    "State": "KY",
+    "TopRangeCheck1": "Y",
+    "TopRangeCheck2": "Y",
+    "TopRange_Buyup": 1000,
+    "Top_Range": "249",
+    "id": "a3C54000000Isw6EAC",
+    "isJAA": "N",
+    "layout": "newport",
+    "timeStamp": "2019-11-11T06:29:16.779Z",
+    "userCurrencyCode": "USD",
+    "userId": "00541000006Y54QAAS",
+    "userName": "veramesh@deloitte.com.icegld",
+    "userProfile": "System Administrator",
+    "userTimeZone": -480,
+    "vlcPersistentComponent": {
+    }
+}

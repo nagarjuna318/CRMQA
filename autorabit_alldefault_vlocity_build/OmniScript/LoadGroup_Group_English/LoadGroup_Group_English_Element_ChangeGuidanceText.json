@@ -1,0 +1,39 @@
+{
+    "%vlocity_namespace%__Active__c": true,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "Load Group_Order",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/LoadGroup/Group/English",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__ParentElementId__c": {
+        "%vlocity_namespace%__OmniScriptId__c": {
+            "Name": "Load Group_Order",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/LoadGroup/Group/English",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+        },
+        "Name": "ChangeGuidance",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/LoadGroup/Group/English/ChangeGuidance",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c"
+    },
+    "%vlocity_namespace%__ParentElementName__c": "ChangeGuidance",
+    "%vlocity_namespace%__ParentElementType__c": "Step",
+    "%vlocity_namespace%__PropertySet__c": {
+        "HTMLTemplateId": "",
+        "controlWidth": 12,
+        "dataJSON": false,
+        "disOnTplt": false,
+        "label": null,
+        "show": null,
+        "text": "<h4><strong><em><span style=\"text-decoration: underline;\"><span style=\"color: #ff0000; text-decoration: underline;\">ATTENTION PLEASE READ</span>:</span></em></strong><br /><span style=\"color: #000000;\"><strong><em>Submission via this action for &ldquo;Change Request Off Cycle&rdquo; Implementation Types should only be performed for certain types of changes such as the following:<br /></em></strong></span><br /><span style=\"color: #000000;\"><strong><em>1.Updating a Contact<br /></em></strong></span><br /><span style=\"color: #000000;\"><strong><em>2.Updating an Address<br /></em></strong></span><br /><span style=\"color: #000000;\"><strong><em>3.TBD<br /><br /></em></strong></span><br /><span style=\"color: #000000;\"><strong><em>If you are submitting a change for another reason, such as adding an IGAP Sold product, it may need to been done via a different process. For additional clarification you may reach out to your Salesforce Support Training Rep.</em></strong></span></h4>",
+        "textKey": ""
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": false,
+    "%vlocity_namespace%__Type__c": "Text Block",
+    "Name": "ChangeGuidanceText",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/LoadGroup/Group/English/ChangeGuidanceText"
+}

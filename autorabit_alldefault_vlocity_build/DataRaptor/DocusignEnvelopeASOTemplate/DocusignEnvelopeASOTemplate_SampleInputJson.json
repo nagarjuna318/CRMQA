@@ -1,0 +1,75 @@
+{
+    "Acc_Name": "0012g00000BFiLeAAL",
+    "AccountHQState": "GA",
+    "CI_BillingCity": "TestCity1",
+    "CI_BillingState": "TestState1",
+    "CI_City": "testCity",
+    "CI_CompanyName": "Test_Docusign_Account",
+    "CI_Country": "TestCountry",
+    "CI_EmployeeTaxID": "Tax",
+    "CI_State": "TestState",
+    "CI_ZipCode": "Test",
+    "ContextId": "0062g000003LBhXAAW",
+    "Details": {
+        "CompanyInformation": null,
+        "Eligibility": null,
+        "TypeOfCoverage": {
+            "BuyUpPrograms": null,
+            "TCCDHPAccountsOption": null,
+            "TCContributionOption1Blank1": null,
+            "TCContributionOption1Blank2": null,
+            "TCContributionOption2Blank1": null,
+            "TCCurrentPBMVendorName": null,
+            "TCHRAProductName1": null,
+            "TCHRAProductName2": null,
+            "TCHRAProductName3": null,
+            "TCHRAProductName4": null,
+            "TCHRAProductName5": null,
+            "TCHRAProductName6": null,
+            "TCHealthandWellnessOption": null,
+            "TCPharmacyOption": null,
+            "TCProductName1": "testtttttt",
+            "TCProductName2": null,
+            "TCProductName3": null,
+            "TCProductName4": null,
+            "TCProductName5": null,
+            "TCProductName6": null
+        }
+    },
+    "Oppty_Email": "Prospect",
+    "Oppty_Name": "Test_Oppty_Docusign",
+    "Oppty_stage": "Closed Won",
+    "RecipientDetails": {
+        "DocuSignEmail": "smita.ganiger@legatohealth.com",
+        "DocuSignEmail2": "smita.ganiger@legatohealth.com",
+        "DocuSignRecipient": "TCProductName1",
+        "DocuSignRecipient2": "smita.ganiger@legatohealth.com",
+        "File1": null
+    },
+    "TemplateSelection": {
+        "Radio_Template": null
+    },
+    "id": "a3C2g0000000qpREAQ",
+    "isdtp": "p1",
+    "layout": "lightning",
+    "sfdcIFrameHost": "web",
+    "sfdcIFrameOrigin": "https://commercial--symsmita--vlocity-ins.visualforce.com",
+    "testContextId": "0062g000003LBhXAAW",
+    "timeStamp": "2020-04-28T08:30:17.556Z",
+    "userCurrencyCode": "USD",
+    "userId": "0054N000004WGJeQAO",
+    "userName": "smita.ganiger@legatohealth.com2.symsmita",
+    "userProfile": "System Administrator",
+    "userTimeZone": -240,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "Confirm": 4317,
+        "DataRaptorExtractAction1": 4101,
+        "Details": 15890,
+        "Done": 8869,
+        "OmniScriptSessionToken": "360f3039-7763-4d41-8234-4f7e3ad58bdb",
+        "RecipientDetails": 21129,
+        "TemplateSelection": 3394
+    }
+}

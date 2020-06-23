@@ -1,0 +1,49 @@
+{
+    "%vlocity_namespace%__Active__c": false,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "ImplementationCase",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/IMPCase Library/IC-ImplementationCase/English",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__ParentElementId__c": {
+        "%vlocity_namespace%__OmniScriptId__c": {
+            "Name": "ImplementationCase",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/IMPCase Library/IC-ImplementationCase/English",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+        },
+        "Name": "CastlightProducts",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/IMPCase Library/IC-ImplementationCase/English/CastlightProducts",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c"
+    },
+    "%vlocity_namespace%__ParentElementName__c": "CastlightProducts",
+    "%vlocity_namespace%__ParentElementType__c": "Block",
+    "%vlocity_namespace%__PropertySet__c": {
+        "HTMLTemplateId": "",
+        "controlWidth": 12,
+        "dataJSON": false,
+        "disOnTplt": false,
+        "label": "TextBlock12",
+        "show": {
+            "group": {
+                "operator": "AND",
+                "rules": [
+                    {
+                        "condition": "=",
+                        "data": "false",
+                        "field": "ClientInformationFormMessageElite"
+                    }
+                ]
+            }
+        },
+        "text": "<p><em><strong><a href=\"https://urldefense.proofpoint.com/v2/url?u=https-3A__na01.safelinks.protection.outlook.com_-3Furl-3Dhttp-253A-252F-252Fmmpappsprd1.wellpoint.com-252FMMPE-252FNPage.aspx-253FID-253D33570-26data-3D02-257C01-257Cikechukwu.c.ahams-2540accenturefederal.com-257Cbaf29c94d25c4683e9ff08d5932037e2-257C0ee6c63b4eab4748b74ad1dc22fc1a24-257C0-257C0-257C636576688959874833-26sdata-3DO6lIUeWsvfMWgwFTt7W6HR9y5-252FQJX4foINJA-252F5Ndh3w-253D-26reserved-3D0&amp;d=DwMFAg&amp;c=A-GX6P9ovB1qTBp7iQve2Q&amp;r=josBtaLU_RJbcp_tr-BPVdlVdWsB6_RzI7RujYKSP_8&amp;m=Nr5ouMo0ZBj0D-SqjvSCaFFwnhSS7o2LeTkNuOfTDhU&amp;s=9Vkm3HiB-nqVKx_cA5HbRbvnHBulIDafhvQYoh-nEWc&amp;e=\" target=\"_blank\" style=\"color: #ff0000; text-decoration: underline;\">Client Information Forms</a></strong></em></p>"
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": false,
+    "%vlocity_namespace%__Type__c": "Text Block",
+    "Name": "TextBlock12",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/IMPCase Library/IC-ImplementationCase/English/TextBlock12"
+}

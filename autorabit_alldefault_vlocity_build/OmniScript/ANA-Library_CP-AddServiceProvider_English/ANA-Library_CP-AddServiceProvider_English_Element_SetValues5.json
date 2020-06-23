@@ -1,0 +1,55 @@
+{
+    "%vlocity_namespace%__Active__c": true,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "AddServiceProvider",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/ANA Library/CP-AddServiceProvider/English",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__PropertySet__c": {
+        "HTMLTemplateId": "",
+        "controlWidth": 12,
+        "disOnTplt": false,
+        "elementValueMap": {
+            "DeleteComp1_Final": "=IF(%UserGroup%='Local',%DeleteComp1_Final%,IF(%UserGroup%='National',%DeleteComp1%,''))",
+            "DeleteComp2_Final": "=IF(%UserGroup%='Local',%DeleteComp2_LG%,IF(%UserGroup%='National',%DeleteComp2%,''))",
+            "DeleteComp3_Final": "=IF(%UserGroup%='Local',%DeleteComp3_LG%,IF(%UserGroup%='National',%DeleteComp3%,''))",
+            "FinalComp1Id": "=IF(%UserGroup%='Local',%FinalComp1Id_LG%,IF(%UserGroup%='National',%FinalComp1Id_NA%,''))",
+            "FinalComp1Stat": "=IF(%UserGroup%='Local',%FinalComp1Stat_LG%,IF(%UserGroup%='National',%FinalComp1Stat_NA%,''))",
+            "FinalComp2Id": "=IF(%UserGroup%='Local',%FinalComp2Id_LG%,IF(%UserGroup%='National',%FinalComp2Id_NA%,''))",
+            "FinalComp2Stat": "=IF(%UserGroup%='Local',%FinalComp2Stat_LG%,IF(%UserGroup%='National',%FinalComp2Stat_NA%,''))",
+            "FinalComp3Id": "=IF(%UserGroup%='Local',%FinalComp3Id_LG%,IF(%UserGroup%='National',%FinalComp3Id_NA%,''))",
+            "FinalComp3Stat": "=IF(%UserGroup%='Local',%FinalComp3Stat_LG%,IF(%UserGroup%='National',%FinalComp3Stat_NA%,''))",
+            "InvType1": "=IF(%UpdateCom1_LG%==true,IF(EQUALS(%InvType1Edit%,NULL),'Yes',%InvType1Edit%),%InvType1ReadOnly%)",
+            "InvType2": "=IF((%UpdateCom2_LG%==true || %AddCom1_LG%==true || %AddCom2_LG%==true),IF(EQUALS(%InvType2Edit%,NULL),'Yes',%InvType2Edit%),%InvType2ReadOnly%)",
+            "InvType3": "=IF((%UpdateCom3_LG%==true || %AddCom2_LG%==true),IF(EQUALS(%InvType3Edit%,NULL),'Yes',%InvType3Edit%),%InvType3ReadOnly%)",
+            "LOB1": "=IF(%UpdateCom1_LG%==true,IF(EQUALS(%LOB1Edit%,NULL),'Yes',%LOB1Edit%),%LOB1ReadOnly%)",
+            "LOB2": "=IF((%UpdateCom2_LG%==true || %AddCom1_LG%==true || %AddCom2_LG%==true),IF(EQUALS(%LOB2Edit%,NULL),'Yes',%LOB2Edit%),%LOB2ReadOnly%)",
+            "LOB3": "=IF((%UpdateCom3_LG%==true || %AddCom2_LG%==true),IF(EQUALS(%LOB3Edit%,NULL),'Yes',%LOB3Edit%),%LOB3ReadOnly%)",
+            "MultiEmp1": "=IF(%UpdateCom1_LG%==true,%MultiEmp1Edit%,%MultiEmp1ReadOnly%)",
+            "MultiEmp2": "=IF((%UpdateCom2_LG%==true || %AddCom1_LG%==true || %AddCom2_LG%==true),%MultiEmp2Edit%,%MultiEmp2ReadOnly%)",
+            "MultiEmp3": "=IF((%UpdateCom3_LG%==true || %AddCom2_LG%==true),%MultiEmp3Edit%,%MultiEmp3ReadOnly%)",
+            "NOEmp1": "=IF(%UpdateCom1_LG%==true,IF(EQUALS(%NOEmp1Edit%,NULL),'Yes',%NOEmp1Edit%),%NOEmp1ReadOnly%)",
+            "NOEmp2": "=IF((%UpdateCom2_LG%==true || %AddCom1_LG%==true || %AddCom2_LG%==true),IF(EQUALS(%NOEmp2Edit%,NULL),'Yes',%NOEmp2Edit%),%NOEmp2ReadOnly%)",
+            "NOEmp3": "=IF((%UpdateCom3_LG%==true || %AddCom2_LG%==true),IF(EQUALS(%NOEmp3Edit%,NULL),'Yes',%NOEmp3Edit%),%NOEmp3ReadOnly%)",
+            "NOUFlagEditStep": "=IF(%UserGroup%='Local',%NOUFlagEditStep_LG%,%NOUFlagEditStep_NA%)"
+        },
+        "label": "SetValues5",
+        "message": {
+        },
+        "show": null,
+        "showPersistentComponent": [
+            false,
+            false
+        ],
+        "ssm": false,
+        "validationRequired": "None",
+        "wpm": false
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": true,
+    "%vlocity_namespace%__Type__c": "Set Values",
+    "Name": "SetValues5",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/ANA Library/CP-AddServiceProvider/English/SetValues5"
+}

@@ -1,0 +1,1810 @@
+{
+    "AP-Family": "",
+    "AP-FamilySelection": {
+        "AP-CatSelection": "Vision",
+        "AP-MarketSelection": null,
+        "AP-MarketSelectionFinalvlaue": null,
+        "AP-NALGMergeValue": "No",
+        "AP-OpptyType": null,
+        "AP-Plan_Message": true,
+        "AP-TypeRequiredMessaging": null,
+        "AnthemEntity_Abbrev": "Local/Large Group",
+        "Medical_ProductType": null,
+        "Non_Medical_Product_Type": "Vision",
+        "SetProdStage": "No",
+        "Situs_State_Abbrev": "CA"
+    },
+    "AP-HasSPP": "No",
+    "AP-ParentId": "",
+    "AP-ProductFamily": {
+        "AP-ProductFamilySelection": null,
+        "AP-ProductFamilySelectionValidation": null,
+        "AP-ProductFamilySelection_Val": null
+    },
+    "AP-ProductFamilySelected": "",
+    "AP-ProductName": "FS.A.0.0.130.130",
+    "AP-ProductSelection": {
+        "AP-ProdSelected": null,
+        "AP-Selected": null,
+        "APParentCount": null,
+        "HelpText_FSA_Actwise": null,
+        "HelpText_Medical_CDHP": null,
+        "Messaging12": null,
+        "ProdList": null
+    },
+    "AP-Selected": true,
+    "AP-Stages": [
+        "Dead",
+        "In Progress",
+        "Lost",
+        "Sold",
+        "Declined to Quote"
+    ],
+    "AP-VisionPlanSelection": {
+        "VisionPlanMessage": true,
+        "VisionPlanSelection": null
+    },
+    "AccountDetails": {
+        "Group_Size": "51 - 99",
+        "Situs_State_Abbrev": "CA"
+    },
+    "AccountGroupSize": 99,
+    "AccountId": "0013I000004fX0DQAU",
+    "AnthemEntity": "Local/Large Group",
+    "Category": "Product",
+    "ClinicalProductSelected": "",
+    "CompetitorCheck": 0,
+    "ContextId": "0063I000002RCcY",
+    "CustomRidersList": [
+    ],
+    "DeleteComp1_Final": "",
+    "DeleteComp2_Final": "",
+    "DeleteComp3_Final": "",
+    "FinalComp1Id": "",
+    "FinalComp1Stat": "",
+    "FinalComp2Id": "",
+    "FinalComp2Stat": "",
+    "FinalComp3Id": "",
+    "FinalComp3Stat": "",
+    "FinalOpptyRecType": "New Business Local",
+    "HPCCCodeVal": "",
+    "HPCCVal_Count": "",
+    "HSAIntegratedBlock": {
+        "HSAIntegratedPlan": [
+        ]
+    },
+    "IGAP": "0064B000007p3pJ",
+    "InvType1": "",
+    "InvType2": "",
+    "InvType3": "",
+    "IsEyemedVisible": true,
+    "IsHRAProductSelected": "No",
+    "IsHSAProductSelected": "No",
+    "LOB1": "",
+    "LOB2": "",
+    "LOB3": "",
+    "MultiEmp1": "",
+    "MultiEmp1ReadOnly": "",
+    "MultiEmp2": "",
+    "MultiEmp2ReadOnly": "",
+    "MultiEmp3": "",
+    "MultiEmp3ReadOnly": "",
+    "NOEmp1": "",
+    "NOEmp1ReadOnly": "",
+    "NOEmp2": "",
+    "NOEmp2ReadOnly": "",
+    "NOEmp3": "",
+    "NOEmp3ReadOnly": "",
+    "NOUFlagEditStep": "",
+    "NewBusiness": "0064B000007oLSJ",
+    "OpptyDetails": {
+        "AnthemEntity": "Local/Large Group",
+        "OpportunityEffectiveDate": "2020-02-06",
+        "StageName": "Initiated"
+    },
+    "OpptyEffectiveDateYear": "2020",
+    "OpptyType": "New Business Local",
+    "Opptystage": "Initiated",
+    "ParticipationType": "Voluntary",
+    "PlanList": [
+    ],
+    "PlanListInit": 0.08789960158573562,
+    "PlanType": "Standard",
+    "PlanTypeValNp": "",
+    "QLD": {
+        "AP-BundleType": "",
+        "EyeMedDetails": {
+            "ClaimsGraceDays": null,
+            "EmployeeAssistanceProgram": false,
+            "EyeMedBenefitLevel1": null,
+            "EyeMedBenefitLevel2": null,
+            "EyeMedBenefitLevel3": null,
+            "EyeMedBenefitLevel4": null,
+            "EyeMedBenefitPlanCode": null,
+            "IDCardDesign": null,
+            "PharmacyBenefitIdentifier": null,
+            "ProxyID": null,
+            "RateStructure": null,
+            "VisionAdultCoMingle": false,
+            "VisionChildCoMingle": false,
+            "VisionExamCopay": null,
+            "VisionLensCopay": null
+        },
+        "QLD-AccountId": "0013I000004fX0DQAU",
+        "QLD-Block": {
+            "AccessFlagDentalLifeDisability": "No",
+            "AccessFlagDentalVisionLifeDisability": "Yes",
+            "AccessFlagVisionLifeDisability": "Yes",
+            "BenefitPeriodDetails": {
+                "Benefit_Period_Standard": null
+            },
+            "Benefit_Period": "Calendar Year",
+            "Benefit_Period_Vision": "Calendar Year",
+            "Block11": null,
+            "Block8": null,
+            "BlockHSAIntegrated": {
+                "QLD-IsHSAIntegrated": null
+            },
+            "Pharmacy Section": null,
+            "Probability": "10%",
+            "ProductStage": "In Progress",
+            "QLD-AdminIntegration": null,
+            "QLD-AutoQuote": false,
+            "QLD-CEPIndicator": null,
+            "QLD-ClinicalIntegration": false,
+            "QLD-DayMsg": true,
+            "QLD-Discount": null,
+            "QLD-Discountsharing": null,
+            "QLD-DoNotAutoPickPCP": null,
+            "QLD-EPHCEnhPersHealthCare": null,
+            "QLD-EmplyrContDepend": null,
+            "QLD-EmplyrContEmp": null,
+            "QLD-EstimAnnualPrem": null,
+            "QLD-EyemedCollaboration": null,
+            "QLD-Final_Rate": null,
+            "QLD-Financing": "Fully Insured",
+            "QLD-Funding": "FI",
+            "QLD-Members": 8,
+            "QLD-Network": "Blue View Vision Access",
+            "QLD-Network_1": null,
+            "QLD-Network_2": "Blue View Vision Access",
+            "QLD-NoSalesCredit": null,
+            "QLD-Original_Rate_Adjustment": null,
+            "QLD-ParticipationType": "Voluntary",
+            "QLD-ParticipationType_2": "Voluntary",
+            "QLD-Probability": "10%",
+            "QLD-ProdStage": "In Progress",
+            "QLD-ProductStageMsg": true,
+            "QLD-ProductTermYearsLeft": null,
+            "QLD-RX Vendors": null,
+            "QLD-RateGuarThr": null,
+            "QLD-Rate_Differential": null,
+            "QLD-Rate_Differential_Type": null,
+            "QLD-Rate_Relief": null,
+            "QLD-Reason": "Billing Issues",
+            "QLD-ReasonCalc": null,
+            "QLD-ReasonPck": "Billing Issues",
+            "QLD-Subscribers": 8,
+            "QLD-TermDate": null,
+            "QLD-TermDateIn": null,
+            "QLD-TermSelection": "Ok",
+            "QLD-Upsell": null,
+            "QLD_Reason_Chk": true,
+            "QLD_Stage_Chk": "No"
+        },
+        "QLD-ReqCompetitor": "No",
+        "QLD-TermReqFlds": "No",
+        "QLD-Vendor": null
+    },
+    "QLD-IsHSAIntegrated-BL": "No",
+    "QLD-IsHSAIntegrated-FM": "Yes",
+    "QLD-Network_2": "Blue View Vision Access",
+    "QLD-NoSalesCredit": "No",
+    "QuoteDetails": {
+        "AccountId": "0013I000004fX0DQAU",
+        "EffectiveDate": "2020-02-06",
+        "GNReqStatus": "Not Requested",
+        "Id": "0Q03I0000008YRVSA2",
+        "OpptyId": "0063I000002RCcYQAW",
+        "OpptyRecType": "New Business Local",
+        "OpptyStage": "Initiated",
+        "PriceBookId": "01s41000007wBCZAA2"
+    },
+    "QuoteEffectiveDate": "2020-02-06",
+    "QuoteId": "0Q03I0000008YRVSA2",
+    "QuoteLineItem_RecordType": "LocalType",
+    "QuotedStatus": "External & Internal",
+    "Renewals": "0064B000009scXt",
+    "RiderEffectiveDate": 2020,
+    "RiderSize": 0,
+    "SPD": {
+        "Factory_Scratch__c": "$0 Copay",
+        "Id": "m0R3I0000004CMCUA2",
+        "Photchormatic_for_Adults__c": "$75 Copay",
+        "Photchromatic_for_Kids__c": "$0 Copay",
+        "Polycarb_for_Adults__c": "$40 Copay",
+        "Polycarb_for_Kids__c": "$0 Copay",
+        "Standard_AR_Copay__c": "$45",
+        "Standard_Progressive__c": "$55 Copay (plus Lens copay)",
+        "Tint__c": "$15 Copay",
+        "UV_Copay__c": "$15 Copay"
+    },
+    "SelectServiceProvider": {
+        "Account_Id": "0013I000004fX0DQAU",
+        "AddComp2": false,
+        "AddComp3": null,
+        "CompIdCalc2": null,
+        "CompIdCalc3": null,
+        "CompStatusCalc2": null,
+        "CompStatusCalc3": null,
+        "CompetitorId": null,
+        "CompetitorStatus": null,
+        "CompetitorStatus1_LG": null,
+        "CompetitorStatusFormula": null,
+        "InvTypeCalc1": null,
+        "InvTypeCalc2": null,
+        "InvTypeCalc3": null,
+        "InvolvementType": null,
+        "InvolvementType2": null,
+        "InvolvementType3": null,
+        "LOBCalc1": null,
+        "LOBCalc2": null,
+        "LOBCalc3": null,
+        "LineOfBusiness": null,
+        "LineOfBusiness2": null,
+        "LineOfBusiness3": null,
+        "Membership1": null,
+        "Membership2": null,
+        "Membership3": null,
+        "Multi-Employer": false,
+        "Multi-Employer2": null,
+        "Multi-Employer3": null,
+        "MultiEmpCalc1": null,
+        "MultiEmpCalc2": false,
+        "MultiEmpCalc3": false,
+        "NA-WarnMembership": null,
+        "NOUFlag": true,
+        "NameOfEmployers": null,
+        "NameOfEmployers2": null,
+        "NameOfEmployers3": null,
+        "NoEmpCalc1": null,
+        "NoEmpCalc2": null,
+        "NoEmpCalc3": null,
+        "ReqComFlds": "Yes",
+        "SP-CompStatus2": null,
+        "SP-CompStatus2_LG": null,
+        "SP-CompStatus3": null,
+        "SP-CompStatus3_LG": null,
+        "SPTD-Msg": null,
+        "SPTermDate": null,
+        "SPTermDateDay": null,
+        "SPTermDateIn": null,
+        "SSP-Msg": true,
+        "SSPMsg-Flg": "No",
+        "TACompetitor2-Block": null,
+        "TACompetitor2_NA-Block": null,
+        "TACompetitor3-Block": null,
+        "TACompetitor3_NA-Block": null,
+        "TypeAheadAccount-Block": {
+            "ServiceProviderAccountId_LG": null,
+            "TypeAheadAccount": null
+        },
+        "TypeAheadAccount_NA-Block": null
+    },
+    "Situs_State": "CA",
+    "Skip_Plan_Selection": false,
+    "UserArea": "Local",
+    "UserGroup": "Local",
+    "VisionPlanSelectionInit": 0.03601151131407265,
+    "VisionPlanType": "Standard",
+    "VisionProductSelection": {
+        "VisionProductType": "Standard Plan Selection",
+        "VisionSubCategory": {
+            "VisionStandardType": "Voluntary"
+        }
+    },
+    "effectiveDate": "2020-02-06",
+    "error": "OK",
+    "filterFrame": "Category__c:Plan,Product_Type__c:Medical,Market__c:CA,Plan_Type__c:Standard,Portfolio_Year__c:2020,Deductible_Amount_Calc__c:undefined,Coinsurance_Rate_Calc__c:undefined",
+    "id": "a3C3I0000005Bd1UAE",
+    "insSgpsCartInit": 0.029801499144977317,
+    "isLocalSales": false,
+    "layout": "newport",
+    "timeStamp": "2020-03-30T10:12:52.578Z",
+    "undefined": {
+        "VisionPlanSelectionInit": 0.03601151131407265,
+        "cartCompareSelectMap": {
+        },
+        "cartPlans": [
+            {
+                "$$hashKey": "object:1428",
+                "Contact_Lens_Benefit_and_Frequency": " Once every calendar year",
+                "Contract_Code__c": "4K9Z",
+                "Exam_Copay_and_Frequency": "Not Covered ",
+                "Frame_Benefit_and_Frequency": " Once every calendar year",
+                "Id": "01t3I000000N9WqQAK",
+                "IsConfigurable__c": false,
+                "IsRecommended__c": false,
+                "Name": "FS.A.0.0.130.130",
+                "Network__c": "Blue View Vision",
+                "ParticipationType__c": "Voluntary",
+                "Prescription_Lens_Copay_and_Frequency": "$10 Once every calendar year",
+                "Price": "",
+                "RecordTypeName__c": "Product",
+                "Term__c": "Annual",
+                "attributeCategories": {
+                    "records": [
+                        {
+                            "Code__c": "VISION_OTHER",
+                            "Name": "Vision Other Plan Details",
+                            "displaySequence": 1000,
+                            "id": "a1L1K000007LFrlUAG",
+                            "productAttributes": {
+                                "records": [
+                                    {
+                                        "attributeGroupType": "Plan-Sub-Type",
+                                        "attributeId": "a1M1K0000082KcOUAU",
+                                        "cloneable": true,
+                                        "code": "VISION_OTHER_plansubtype",
+                                        "dataType": "text",
+                                        "disabled": true,
+                                        "displaySequence": 1,
+                                        "filterable": true,
+                                        "hasRules": false,
+                                        "hidden": false,
+                                        "inputType": "text",
+                                        "isNotTranslatable": false,
+                                        "label": "Plan subtype",
+                                        "multiselect": false,
+                                        "readonly": true,
+                                        "required": false,
+                                        "userValues": "Material Only",
+                                        "values": [
+                                            {
+                                                "disabled": true,
+                                                "readonly": true
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "totalSize": 1
+                            }
+                        },
+                        {
+                            "Code__c": "VISION_frequency",
+                            "Name": "Vision Plan Frequencies",
+                            "displaySequence": 1000,
+                            "id": "a1L1K000007LFrlUAG",
+                            "productAttributes": {
+                                "records": [
+                                    {
+                                        "attributeGroupType": "exam_freq",
+                                        "attributeId": "a1M1K0000082KcOUAU",
+                                        "cloneable": true,
+                                        "code": "VISION_frequency_exam",
+                                        "dataType": "text",
+                                        "disabled": true,
+                                        "displaySequence": 1,
+                                        "filterable": true,
+                                        "hasRules": false,
+                                        "hidden": false,
+                                        "inputType": "text",
+                                        "isNotTranslatable": false,
+                                        "label": "Exam Frequency",
+                                        "multiselect": false,
+                                        "readonly": true,
+                                        "required": false,
+                                        "userValues": "Unlimited",
+                                        "values": [
+                                            {
+                                                "disabled": true,
+                                                "readonly": true
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "attributeGroupType": "lens_freq",
+                                        "attributeId": "a1M1K0000082KcOUAU",
+                                        "cloneable": true,
+                                        "code": "VISION_frequency_lens",
+                                        "dataType": "text",
+                                        "disabled": true,
+                                        "displaySequence": 1,
+                                        "filterable": true,
+                                        "hasRules": false,
+                                        "hidden": false,
+                                        "inputType": "text",
+                                        "isNotTranslatable": false,
+                                        "label": "Lens Frequency",
+                                        "multiselect": false,
+                                        "readonly": true,
+                                        "required": false,
+                                        "userValues": "Once every calendar year",
+                                        "values": [
+                                            {
+                                                "disabled": true,
+                                                "readonly": true
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "attributeGroupType": "frame_freq",
+                                        "attributeId": "a1M1K0000082KcOUAU",
+                                        "cloneable": true,
+                                        "code": "VISION_frequency_frame",
+                                        "dataType": "text",
+                                        "disabled": true,
+                                        "displaySequence": 1,
+                                        "filterable": true,
+                                        "hasRules": false,
+                                        "hidden": false,
+                                        "inputType": "text",
+                                        "isNotTranslatable": false,
+                                        "label": "Frame Frequency",
+                                        "multiselect": false,
+                                        "readonly": true,
+                                        "required": false,
+                                        "userValues": "Once every calendar year",
+                                        "values": [
+                                            {
+                                                "disabled": true,
+                                                "readonly": true
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "attributeGroupType": "contactlens_freq",
+                                        "attributeId": "a1M1K0000082KcOUAU",
+                                        "cloneable": true,
+                                        "code": "VISION_frequency_contactLens",
+                                        "dataType": "text",
+                                        "disabled": true,
+                                        "displaySequence": 1,
+                                        "filterable": true,
+                                        "hasRules": false,
+                                        "hidden": false,
+                                        "inputType": "text",
+                                        "isNotTranslatable": false,
+                                        "label": "Contactlens Frequency",
+                                        "multiselect": false,
+                                        "readonly": true,
+                                        "required": false,
+                                        "userValues": "Once every calendar year",
+                                        "values": [
+                                            {
+                                                "disabled": true,
+                                                "readonly": true
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "totalSize": 4
+                            }
+                        },
+                        {
+                            "Code__c": "VISION_INN",
+                            "Name": "Vision In Network",
+                            "displaySequence": 1000,
+                            "id": "a1L1K000007LFrlUAG",
+                            "productAttributes": {
+                                "records": [
+                                    {
+                                        "attributeGroupType": "In-Network",
+                                        "attributeId": "a1M1K0000082KcOUAU",
+                                        "cloneable": true,
+                                        "code": "VISION_INN_examcopay",
+                                        "dataType": "text",
+                                        "disabled": true,
+                                        "displaySequence": 1,
+                                        "filterable": true,
+                                        "hasRules": false,
+                                        "hidden": false,
+                                        "inputType": "text",
+                                        "isNotTranslatable": false,
+                                        "label": "In Network Exam Copay",
+                                        "multiselect": false,
+                                        "readonly": true,
+                                        "required": false,
+                                        "userValues": "Not Covered,  No",
+                                        "values": [
+                                            {
+                                                "disabled": true,
+                                                "readonly": true
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "attributeGroupType": "In-Network",
+                                        "attributeId": "a1M1K0000082KcOUAU",
+                                        "cloneable": true,
+                                        "code": "VISION_INN_singlevisionlenscopay",
+                                        "dataType": "text",
+                                        "disabled": true,
+                                        "displaySequence": 1,
+                                        "filterable": true,
+                                        "hasRules": false,
+                                        "hidden": false,
+                                        "inputType": "text",
+                                        "isNotTranslatable": false,
+                                        "label": "In Network Singlevision Lens Copay",
+                                        "multiselect": false,
+                                        "readonly": true,
+                                        "required": false,
+                                        "userValues": "$10 Copay,  Yes",
+                                        "values": [
+                                            {
+                                                "disabled": true,
+                                                "readonly": true
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "attributeGroupType": "In-Network",
+                                        "attributeId": "a1M1K0000082KcOUAU",
+                                        "cloneable": true,
+                                        "code": "VISION_INN_bifocallenscopay",
+                                        "dataType": "text",
+                                        "disabled": true,
+                                        "displaySequence": 1,
+                                        "filterable": true,
+                                        "hasRules": false,
+                                        "hidden": false,
+                                        "inputType": "text",
+                                        "isNotTranslatable": false,
+                                        "label": "In Network Bifocal Lens Copay",
+                                        "multiselect": false,
+                                        "readonly": true,
+                                        "required": false,
+                                        "userValues": "$10 Copay,  Yes",
+                                        "values": [
+                                            {
+                                                "disabled": true,
+                                                "readonly": true
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "attributeGroupType": "In-Network",
+                                        "attributeId": "a1M1K0000082KcOUAU",
+                                        "cloneable": true,
+                                        "code": "VISION_INN_trifocallensecopay",
+                                        "dataType": "text",
+                                        "disabled": true,
+                                        "displaySequence": 1,
+                                        "filterable": true,
+                                        "hasRules": false,
+                                        "hidden": false,
+                                        "inputType": "text",
+                                        "isNotTranslatable": false,
+                                        "label": "In Network Trifocal Lens Copay",
+                                        "multiselect": false,
+                                        "readonly": true,
+                                        "required": false,
+                                        "userValues": "$10 Copay,  Yes",
+                                        "values": [
+                                            {
+                                                "disabled": true,
+                                                "readonly": true
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "attributeGroupType": "In-Network",
+                                        "attributeId": "a1M1K0000082KcOUAU",
+                                        "cloneable": true,
+                                        "code": "VISION_INN_frameallowance",
+                                        "dataType": "text",
+                                        "disabled": true,
+                                        "displaySequence": 1,
+                                        "filterable": true,
+                                        "hasRules": false,
+                                        "hidden": false,
+                                        "inputType": "text",
+                                        "isNotTranslatable": false,
+                                        "label": "In Network Frame Allowance",
+                                        "multiselect": false,
+                                        "readonly": true,
+                                        "required": false,
+                                        "userValues": "Allowance;  100  Dollars,  Yes",
+                                        "values": [
+                                            {
+                                                "disabled": true,
+                                                "readonly": true
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "attributeGroupType": "In-Network",
+                                        "attributeId": "a1M1K0000082KcOUAU",
+                                        "cloneable": true,
+                                        "code": "VISION_INN_electivecontactlensallowance",
+                                        "dataType": "text",
+                                        "disabled": true,
+                                        "displaySequence": 1,
+                                        "filterable": true,
+                                        "hasRules": false,
+                                        "hidden": false,
+                                        "inputType": "text",
+                                        "isNotTranslatable": false,
+                                        "label": "In Network Elective Contact lens Allowance",
+                                        "multiselect": false,
+                                        "readonly": true,
+                                        "required": false,
+                                        "userValues": "Allowance;  100  Dollars,  Yes",
+                                        "values": [
+                                            {
+                                                "disabled": true,
+                                                "readonly": true
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "attributeGroupType": "In-Network",
+                                        "attributeId": "a1M1K0000082KcOUAU",
+                                        "cloneable": true,
+                                        "code": "VISION_INN_nonelectivecontactlenscopay",
+                                        "dataType": "text",
+                                        "disabled": true,
+                                        "displaySequence": 1,
+                                        "filterable": true,
+                                        "hasRules": false,
+                                        "hidden": false,
+                                        "inputType": "text",
+                                        "isNotTranslatable": false,
+                                        "label": "In Network Non-Elective Contact Lens Copay",
+                                        "multiselect": false,
+                                        "readonly": true,
+                                        "required": false,
+                                        "userValues": "$0 Copay,  Yes",
+                                        "values": [
+                                            {
+                                                "disabled": true,
+                                                "readonly": true
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "totalSize": 7
+                            }
+                        }
+                    ],
+                    "totalSize": 3
+                },
+                "displaySequence": -1,
+                "originalIndex": 0,
+                "productId": "01t3I000000N9WqQAK",
+                "selected": true,
+                "visible": true
+            }
+        ],
+        "displayedCartPlans": [
+            {
+                "$$hashKey": "object:1428",
+                "Contact_Lens_Benefit_and_Frequency": " Once every calendar year",
+                "Contract_Code__c": "4K9Z",
+                "Exam_Copay_and_Frequency": "Not Covered ",
+                "Frame_Benefit_and_Frequency": " Once every calendar year",
+                "Id": "01t3I000000N9WqQAK",
+                "IsConfigurable__c": false,
+                "IsRecommended__c": false,
+                "Name": "FS.A.0.0.130.130",
+                "Network__c": "Blue View Vision",
+                "ParticipationType__c": "Voluntary",
+                "Prescription_Lens_Copay_and_Frequency": "$10 Once every calendar year",
+                "Price": "",
+                "RecordTypeName__c": "Product",
+                "Term__c": "Annual",
+                "attributeCategories": {
+                    "records": [
+                        {
+                            "Code__c": "VISION_OTHER",
+                            "Name": "Vision Other Plan Details",
+                            "displaySequence": 1000,
+                            "id": "a1L1K000007LFrlUAG",
+                            "productAttributes": {
+                                "records": [
+                                    {
+                                        "attributeGroupType": "Plan-Sub-Type",
+                                        "attributeId": "a1M1K0000082KcOUAU",
+                                        "cloneable": true,
+                                        "code": "VISION_OTHER_plansubtype",
+                                        "dataType": "text",
+                                        "disabled": true,
+                                        "displaySequence": 1,
+                                        "filterable": true,
+                                        "hasRules": false,
+                                        "hidden": false,
+                                        "inputType": "text",
+                                        "isNotTranslatable": false,
+                                        "label": "Plan subtype",
+                                        "multiselect": false,
+                                        "readonly": true,
+                                        "required": false,
+                                        "userValues": "Material Only",
+                                        "values": [
+                                            {
+                                                "disabled": true,
+                                                "readonly": true
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "totalSize": 1
+                            }
+                        },
+                        {
+                            "Code__c": "VISION_frequency",
+                            "Name": "Vision Plan Frequencies",
+                            "displaySequence": 1000,
+                            "id": "a1L1K000007LFrlUAG",
+                            "productAttributes": {
+                                "records": [
+                                    {
+                                        "attributeGroupType": "exam_freq",
+                                        "attributeId": "a1M1K0000082KcOUAU",
+                                        "cloneable": true,
+                                        "code": "VISION_frequency_exam",
+                                        "dataType": "text",
+                                        "disabled": true,
+                                        "displaySequence": 1,
+                                        "filterable": true,
+                                        "hasRules": false,
+                                        "hidden": false,
+                                        "inputType": "text",
+                                        "isNotTranslatable": false,
+                                        "label": "Exam Frequency",
+                                        "multiselect": false,
+                                        "readonly": true,
+                                        "required": false,
+                                        "userValues": "Unlimited",
+                                        "values": [
+                                            {
+                                                "disabled": true,
+                                                "readonly": true
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "attributeGroupType": "lens_freq",
+                                        "attributeId": "a1M1K0000082KcOUAU",
+                                        "cloneable": true,
+                                        "code": "VISION_frequency_lens",
+                                        "dataType": "text",
+                                        "disabled": true,
+                                        "displaySequence": 1,
+                                        "filterable": true,
+                                        "hasRules": false,
+                                        "hidden": false,
+                                        "inputType": "text",
+                                        "isNotTranslatable": false,
+                                        "label": "Lens Frequency",
+                                        "multiselect": false,
+                                        "readonly": true,
+                                        "required": false,
+                                        "userValues": "Once every calendar year",
+                                        "values": [
+                                            {
+                                                "disabled": true,
+                                                "readonly": true
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "attributeGroupType": "frame_freq",
+                                        "attributeId": "a1M1K0000082KcOUAU",
+                                        "cloneable": true,
+                                        "code": "VISION_frequency_frame",
+                                        "dataType": "text",
+                                        "disabled": true,
+                                        "displaySequence": 1,
+                                        "filterable": true,
+                                        "hasRules": false,
+                                        "hidden": false,
+                                        "inputType": "text",
+                                        "isNotTranslatable": false,
+                                        "label": "Frame Frequency",
+                                        "multiselect": false,
+                                        "readonly": true,
+                                        "required": false,
+                                        "userValues": "Once every calendar year",
+                                        "values": [
+                                            {
+                                                "disabled": true,
+                                                "readonly": true
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "attributeGroupType": "contactlens_freq",
+                                        "attributeId": "a1M1K0000082KcOUAU",
+                                        "cloneable": true,
+                                        "code": "VISION_frequency_contactLens",
+                                        "dataType": "text",
+                                        "disabled": true,
+                                        "displaySequence": 1,
+                                        "filterable": true,
+                                        "hasRules": false,
+                                        "hidden": false,
+                                        "inputType": "text",
+                                        "isNotTranslatable": false,
+                                        "label": "Contactlens Frequency",
+                                        "multiselect": false,
+                                        "readonly": true,
+                                        "required": false,
+                                        "userValues": "Once every calendar year",
+                                        "values": [
+                                            {
+                                                "disabled": true,
+                                                "readonly": true
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "totalSize": 4
+                            }
+                        },
+                        {
+                            "Code__c": "VISION_INN",
+                            "Name": "Vision In Network",
+                            "displaySequence": 1000,
+                            "id": "a1L1K000007LFrlUAG",
+                            "productAttributes": {
+                                "records": [
+                                    {
+                                        "attributeGroupType": "In-Network",
+                                        "attributeId": "a1M1K0000082KcOUAU",
+                                        "cloneable": true,
+                                        "code": "VISION_INN_examcopay",
+                                        "dataType": "text",
+                                        "disabled": true,
+                                        "displaySequence": 1,
+                                        "filterable": true,
+                                        "hasRules": false,
+                                        "hidden": false,
+                                        "inputType": "text",
+                                        "isNotTranslatable": false,
+                                        "label": "In Network Exam Copay",
+                                        "multiselect": false,
+                                        "readonly": true,
+                                        "required": false,
+                                        "userValues": "Not Covered,  No",
+                                        "values": [
+                                            {
+                                                "disabled": true,
+                                                "readonly": true
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "attributeGroupType": "In-Network",
+                                        "attributeId": "a1M1K0000082KcOUAU",
+                                        "cloneable": true,
+                                        "code": "VISION_INN_singlevisionlenscopay",
+                                        "dataType": "text",
+                                        "disabled": true,
+                                        "displaySequence": 1,
+                                        "filterable": true,
+                                        "hasRules": false,
+                                        "hidden": false,
+                                        "inputType": "text",
+                                        "isNotTranslatable": false,
+                                        "label": "In Network Singlevision Lens Copay",
+                                        "multiselect": false,
+                                        "readonly": true,
+                                        "required": false,
+                                        "userValues": "$10 Copay,  Yes",
+                                        "values": [
+                                            {
+                                                "disabled": true,
+                                                "readonly": true
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "attributeGroupType": "In-Network",
+                                        "attributeId": "a1M1K0000082KcOUAU",
+                                        "cloneable": true,
+                                        "code": "VISION_INN_bifocallenscopay",
+                                        "dataType": "text",
+                                        "disabled": true,
+                                        "displaySequence": 1,
+                                        "filterable": true,
+                                        "hasRules": false,
+                                        "hidden": false,
+                                        "inputType": "text",
+                                        "isNotTranslatable": false,
+                                        "label": "In Network Bifocal Lens Copay",
+                                        "multiselect": false,
+                                        "readonly": true,
+                                        "required": false,
+                                        "userValues": "$10 Copay,  Yes",
+                                        "values": [
+                                            {
+                                                "disabled": true,
+                                                "readonly": true
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "attributeGroupType": "In-Network",
+                                        "attributeId": "a1M1K0000082KcOUAU",
+                                        "cloneable": true,
+                                        "code": "VISION_INN_trifocallensecopay",
+                                        "dataType": "text",
+                                        "disabled": true,
+                                        "displaySequence": 1,
+                                        "filterable": true,
+                                        "hasRules": false,
+                                        "hidden": false,
+                                        "inputType": "text",
+                                        "isNotTranslatable": false,
+                                        "label": "In Network Trifocal Lens Copay",
+                                        "multiselect": false,
+                                        "readonly": true,
+                                        "required": false,
+                                        "userValues": "$10 Copay,  Yes",
+                                        "values": [
+                                            {
+                                                "disabled": true,
+                                                "readonly": true
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "attributeGroupType": "In-Network",
+                                        "attributeId": "a1M1K0000082KcOUAU",
+                                        "cloneable": true,
+                                        "code": "VISION_INN_frameallowance",
+                                        "dataType": "text",
+                                        "disabled": true,
+                                        "displaySequence": 1,
+                                        "filterable": true,
+                                        "hasRules": false,
+                                        "hidden": false,
+                                        "inputType": "text",
+                                        "isNotTranslatable": false,
+                                        "label": "In Network Frame Allowance",
+                                        "multiselect": false,
+                                        "readonly": true,
+                                        "required": false,
+                                        "userValues": "Allowance;  100  Dollars,  Yes",
+                                        "values": [
+                                            {
+                                                "disabled": true,
+                                                "readonly": true
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "attributeGroupType": "In-Network",
+                                        "attributeId": "a1M1K0000082KcOUAU",
+                                        "cloneable": true,
+                                        "code": "VISION_INN_electivecontactlensallowance",
+                                        "dataType": "text",
+                                        "disabled": true,
+                                        "displaySequence": 1,
+                                        "filterable": true,
+                                        "hasRules": false,
+                                        "hidden": false,
+                                        "inputType": "text",
+                                        "isNotTranslatable": false,
+                                        "label": "In Network Elective Contact lens Allowance",
+                                        "multiselect": false,
+                                        "readonly": true,
+                                        "required": false,
+                                        "userValues": "Allowance;  100  Dollars,  Yes",
+                                        "values": [
+                                            {
+                                                "disabled": true,
+                                                "readonly": true
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "attributeGroupType": "In-Network",
+                                        "attributeId": "a1M1K0000082KcOUAU",
+                                        "cloneable": true,
+                                        "code": "VISION_INN_nonelectivecontactlenscopay",
+                                        "dataType": "text",
+                                        "disabled": true,
+                                        "displaySequence": 1,
+                                        "filterable": true,
+                                        "hasRules": false,
+                                        "hidden": false,
+                                        "inputType": "text",
+                                        "isNotTranslatable": false,
+                                        "label": "In Network Non-Elective Contact Lens Copay",
+                                        "multiselect": false,
+                                        "readonly": true,
+                                        "required": false,
+                                        "userValues": "$0 Copay,  Yes",
+                                        "values": [
+                                            {
+                                                "disabled": true,
+                                                "readonly": true
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "totalSize": 7
+                            }
+                        }
+                    ],
+                    "totalSize": 3
+                },
+                "displaySequence": -1,
+                "originalIndex": 0,
+                "productId": "01t3I000000N9WqQAK",
+                "selected": true,
+                "visible": true
+            }
+        ],
+        "nextDisabled": true,
+        "prevDisabled": true,
+        "selectedPlans": [
+            {
+                "$$hashKey": "object:1428",
+                "Contact_Lens_Benefit_and_Frequency": " Once every calendar year",
+                "Contract_Code__c": "4K9Z",
+                "Exam_Copay_and_Frequency": "Not Covered ",
+                "Frame_Benefit_and_Frequency": " Once every calendar year",
+                "Id": "01t3I000000N9WqQAK",
+                "IsConfigurable__c": false,
+                "IsRecommended__c": false,
+                "Name": "FS.A.0.0.130.130",
+                "Network__c": "Blue View Vision",
+                "ParticipationType__c": "Voluntary",
+                "Prescription_Lens_Copay_and_Frequency": "$10 Once every calendar year",
+                "Price": "",
+                "RecordTypeName__c": "Product",
+                "Term__c": "Annual",
+                "attributeCategories": {
+                    "records": [
+                        {
+                            "Code__c": "VISION_OTHER",
+                            "Name": "Vision Other Plan Details",
+                            "displaySequence": 1000,
+                            "id": "a1L1K000007LFrlUAG",
+                            "productAttributes": {
+                                "records": [
+                                    {
+                                        "attributeGroupType": "Plan-Sub-Type",
+                                        "attributeId": "a1M1K0000082KcOUAU",
+                                        "cloneable": true,
+                                        "code": "VISION_OTHER_plansubtype",
+                                        "dataType": "text",
+                                        "disabled": true,
+                                        "displaySequence": 1,
+                                        "filterable": true,
+                                        "hasRules": false,
+                                        "hidden": false,
+                                        "inputType": "text",
+                                        "isNotTranslatable": false,
+                                        "label": "Plan subtype",
+                                        "multiselect": false,
+                                        "readonly": true,
+                                        "required": false,
+                                        "userValues": "Material Only",
+                                        "values": [
+                                            {
+                                                "disabled": true,
+                                                "readonly": true
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "totalSize": 1
+                            }
+                        },
+                        {
+                            "Code__c": "VISION_frequency",
+                            "Name": "Vision Plan Frequencies",
+                            "displaySequence": 1000,
+                            "id": "a1L1K000007LFrlUAG",
+                            "productAttributes": {
+                                "records": [
+                                    {
+                                        "attributeGroupType": "exam_freq",
+                                        "attributeId": "a1M1K0000082KcOUAU",
+                                        "cloneable": true,
+                                        "code": "VISION_frequency_exam",
+                                        "dataType": "text",
+                                        "disabled": true,
+                                        "displaySequence": 1,
+                                        "filterable": true,
+                                        "hasRules": false,
+                                        "hidden": false,
+                                        "inputType": "text",
+                                        "isNotTranslatable": false,
+                                        "label": "Exam Frequency",
+                                        "multiselect": false,
+                                        "readonly": true,
+                                        "required": false,
+                                        "userValues": "Unlimited",
+                                        "values": [
+                                            {
+                                                "disabled": true,
+                                                "readonly": true
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "attributeGroupType": "lens_freq",
+                                        "attributeId": "a1M1K0000082KcOUAU",
+                                        "cloneable": true,
+                                        "code": "VISION_frequency_lens",
+                                        "dataType": "text",
+                                        "disabled": true,
+                                        "displaySequence": 1,
+                                        "filterable": true,
+                                        "hasRules": false,
+                                        "hidden": false,
+                                        "inputType": "text",
+                                        "isNotTranslatable": false,
+                                        "label": "Lens Frequency",
+                                        "multiselect": false,
+                                        "readonly": true,
+                                        "required": false,
+                                        "userValues": "Once every calendar year",
+                                        "values": [
+                                            {
+                                                "disabled": true,
+                                                "readonly": true
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "attributeGroupType": "frame_freq",
+                                        "attributeId": "a1M1K0000082KcOUAU",
+                                        "cloneable": true,
+                                        "code": "VISION_frequency_frame",
+                                        "dataType": "text",
+                                        "disabled": true,
+                                        "displaySequence": 1,
+                                        "filterable": true,
+                                        "hasRules": false,
+                                        "hidden": false,
+                                        "inputType": "text",
+                                        "isNotTranslatable": false,
+                                        "label": "Frame Frequency",
+                                        "multiselect": false,
+                                        "readonly": true,
+                                        "required": false,
+                                        "userValues": "Once every calendar year",
+                                        "values": [
+                                            {
+                                                "disabled": true,
+                                                "readonly": true
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "attributeGroupType": "contactlens_freq",
+                                        "attributeId": "a1M1K0000082KcOUAU",
+                                        "cloneable": true,
+                                        "code": "VISION_frequency_contactLens",
+                                        "dataType": "text",
+                                        "disabled": true,
+                                        "displaySequence": 1,
+                                        "filterable": true,
+                                        "hasRules": false,
+                                        "hidden": false,
+                                        "inputType": "text",
+                                        "isNotTranslatable": false,
+                                        "label": "Contactlens Frequency",
+                                        "multiselect": false,
+                                        "readonly": true,
+                                        "required": false,
+                                        "userValues": "Once every calendar year",
+                                        "values": [
+                                            {
+                                                "disabled": true,
+                                                "readonly": true
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "totalSize": 4
+                            }
+                        },
+                        {
+                            "Code__c": "VISION_INN",
+                            "Name": "Vision In Network",
+                            "displaySequence": 1000,
+                            "id": "a1L1K000007LFrlUAG",
+                            "productAttributes": {
+                                "records": [
+                                    {
+                                        "attributeGroupType": "In-Network",
+                                        "attributeId": "a1M1K0000082KcOUAU",
+                                        "cloneable": true,
+                                        "code": "VISION_INN_examcopay",
+                                        "dataType": "text",
+                                        "disabled": true,
+                                        "displaySequence": 1,
+                                        "filterable": true,
+                                        "hasRules": false,
+                                        "hidden": false,
+                                        "inputType": "text",
+                                        "isNotTranslatable": false,
+                                        "label": "In Network Exam Copay",
+                                        "multiselect": false,
+                                        "readonly": true,
+                                        "required": false,
+                                        "userValues": "Not Covered,  No",
+                                        "values": [
+                                            {
+                                                "disabled": true,
+                                                "readonly": true
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "attributeGroupType": "In-Network",
+                                        "attributeId": "a1M1K0000082KcOUAU",
+                                        "cloneable": true,
+                                        "code": "VISION_INN_singlevisionlenscopay",
+                                        "dataType": "text",
+                                        "disabled": true,
+                                        "displaySequence": 1,
+                                        "filterable": true,
+                                        "hasRules": false,
+                                        "hidden": false,
+                                        "inputType": "text",
+                                        "isNotTranslatable": false,
+                                        "label": "In Network Singlevision Lens Copay",
+                                        "multiselect": false,
+                                        "readonly": true,
+                                        "required": false,
+                                        "userValues": "$10 Copay,  Yes",
+                                        "values": [
+                                            {
+                                                "disabled": true,
+                                                "readonly": true
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "attributeGroupType": "In-Network",
+                                        "attributeId": "a1M1K0000082KcOUAU",
+                                        "cloneable": true,
+                                        "code": "VISION_INN_bifocallenscopay",
+                                        "dataType": "text",
+                                        "disabled": true,
+                                        "displaySequence": 1,
+                                        "filterable": true,
+                                        "hasRules": false,
+                                        "hidden": false,
+                                        "inputType": "text",
+                                        "isNotTranslatable": false,
+                                        "label": "In Network Bifocal Lens Copay",
+                                        "multiselect": false,
+                                        "readonly": true,
+                                        "required": false,
+                                        "userValues": "$10 Copay,  Yes",
+                                        "values": [
+                                            {
+                                                "disabled": true,
+                                                "readonly": true
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "attributeGroupType": "In-Network",
+                                        "attributeId": "a1M1K0000082KcOUAU",
+                                        "cloneable": true,
+                                        "code": "VISION_INN_trifocallensecopay",
+                                        "dataType": "text",
+                                        "disabled": true,
+                                        "displaySequence": 1,
+                                        "filterable": true,
+                                        "hasRules": false,
+                                        "hidden": false,
+                                        "inputType": "text",
+                                        "isNotTranslatable": false,
+                                        "label": "In Network Trifocal Lens Copay",
+                                        "multiselect": false,
+                                        "readonly": true,
+                                        "required": false,
+                                        "userValues": "$10 Copay,  Yes",
+                                        "values": [
+                                            {
+                                                "disabled": true,
+                                                "readonly": true
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "attributeGroupType": "In-Network",
+                                        "attributeId": "a1M1K0000082KcOUAU",
+                                        "cloneable": true,
+                                        "code": "VISION_INN_frameallowance",
+                                        "dataType": "text",
+                                        "disabled": true,
+                                        "displaySequence": 1,
+                                        "filterable": true,
+                                        "hasRules": false,
+                                        "hidden": false,
+                                        "inputType": "text",
+                                        "isNotTranslatable": false,
+                                        "label": "In Network Frame Allowance",
+                                        "multiselect": false,
+                                        "readonly": true,
+                                        "required": false,
+                                        "userValues": "Allowance;  100  Dollars,  Yes",
+                                        "values": [
+                                            {
+                                                "disabled": true,
+                                                "readonly": true
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "attributeGroupType": "In-Network",
+                                        "attributeId": "a1M1K0000082KcOUAU",
+                                        "cloneable": true,
+                                        "code": "VISION_INN_electivecontactlensallowance",
+                                        "dataType": "text",
+                                        "disabled": true,
+                                        "displaySequence": 1,
+                                        "filterable": true,
+                                        "hasRules": false,
+                                        "hidden": false,
+                                        "inputType": "text",
+                                        "isNotTranslatable": false,
+                                        "label": "In Network Elective Contact lens Allowance",
+                                        "multiselect": false,
+                                        "readonly": true,
+                                        "required": false,
+                                        "userValues": "Allowance;  100  Dollars,  Yes",
+                                        "values": [
+                                            {
+                                                "disabled": true,
+                                                "readonly": true
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "attributeGroupType": "In-Network",
+                                        "attributeId": "a1M1K0000082KcOUAU",
+                                        "cloneable": true,
+                                        "code": "VISION_INN_nonelectivecontactlenscopay",
+                                        "dataType": "text",
+                                        "disabled": true,
+                                        "displaySequence": 1,
+                                        "filterable": true,
+                                        "hasRules": false,
+                                        "hidden": false,
+                                        "inputType": "text",
+                                        "isNotTranslatable": false,
+                                        "label": "In Network Non-Elective Contact Lens Copay",
+                                        "multiselect": false,
+                                        "readonly": true,
+                                        "required": false,
+                                        "userValues": "$0 Copay,  Yes",
+                                        "values": [
+                                            {
+                                                "disabled": true,
+                                                "readonly": true
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "totalSize": 7
+                            }
+                        }
+                    ],
+                    "totalSize": 3
+                },
+                "displaySequence": -1,
+                "originalIndex": 0,
+                "productId": "01t3I000000N9WqQAK",
+                "selected": true,
+                "visible": true
+            }
+        ],
+        "selectedPlansMap": {
+            "01t3I000000N9WqQAK": {
+                "$$hashKey": "object:1428",
+                "Contact_Lens_Benefit_and_Frequency": " Once every calendar year",
+                "Contract_Code__c": "4K9Z",
+                "Exam_Copay_and_Frequency": "Not Covered ",
+                "Frame_Benefit_and_Frequency": " Once every calendar year",
+                "Id": "01t3I000000N9WqQAK",
+                "IsConfigurable__c": false,
+                "IsRecommended__c": false,
+                "Name": "FS.A.0.0.130.130",
+                "Network__c": "Blue View Vision",
+                "ParticipationType__c": "Voluntary",
+                "Prescription_Lens_Copay_and_Frequency": "$10 Once every calendar year",
+                "Price": "",
+                "RecordTypeName__c": "Product",
+                "Term__c": "Annual",
+                "attributeCategories": {
+                    "records": [
+                        {
+                            "Code__c": "VISION_OTHER",
+                            "Name": "Vision Other Plan Details",
+                            "displaySequence": 1000,
+                            "id": "a1L1K000007LFrlUAG",
+                            "productAttributes": {
+                                "records": [
+                                    {
+                                        "attributeGroupType": "Plan-Sub-Type",
+                                        "attributeId": "a1M1K0000082KcOUAU",
+                                        "cloneable": true,
+                                        "code": "VISION_OTHER_plansubtype",
+                                        "dataType": "text",
+                                        "disabled": true,
+                                        "displaySequence": 1,
+                                        "filterable": true,
+                                        "hasRules": false,
+                                        "hidden": false,
+                                        "inputType": "text",
+                                        "isNotTranslatable": false,
+                                        "label": "Plan subtype",
+                                        "multiselect": false,
+                                        "readonly": true,
+                                        "required": false,
+                                        "userValues": "Material Only",
+                                        "values": [
+                                            {
+                                                "disabled": true,
+                                                "readonly": true
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "totalSize": 1
+                            }
+                        },
+                        {
+                            "Code__c": "VISION_frequency",
+                            "Name": "Vision Plan Frequencies",
+                            "displaySequence": 1000,
+                            "id": "a1L1K000007LFrlUAG",
+                            "productAttributes": {
+                                "records": [
+                                    {
+                                        "attributeGroupType": "exam_freq",
+                                        "attributeId": "a1M1K0000082KcOUAU",
+                                        "cloneable": true,
+                                        "code": "VISION_frequency_exam",
+                                        "dataType": "text",
+                                        "disabled": true,
+                                        "displaySequence": 1,
+                                        "filterable": true,
+                                        "hasRules": false,
+                                        "hidden": false,
+                                        "inputType": "text",
+                                        "isNotTranslatable": false,
+                                        "label": "Exam Frequency",
+                                        "multiselect": false,
+                                        "readonly": true,
+                                        "required": false,
+                                        "userValues": "Unlimited",
+                                        "values": [
+                                            {
+                                                "disabled": true,
+                                                "readonly": true
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "attributeGroupType": "lens_freq",
+                                        "attributeId": "a1M1K0000082KcOUAU",
+                                        "cloneable": true,
+                                        "code": "VISION_frequency_lens",
+                                        "dataType": "text",
+                                        "disabled": true,
+                                        "displaySequence": 1,
+                                        "filterable": true,
+                                        "hasRules": false,
+                                        "hidden": false,
+                                        "inputType": "text",
+                                        "isNotTranslatable": false,
+                                        "label": "Lens Frequency",
+                                        "multiselect": false,
+                                        "readonly": true,
+                                        "required": false,
+                                        "userValues": "Once every calendar year",
+                                        "values": [
+                                            {
+                                                "disabled": true,
+                                                "readonly": true
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "attributeGroupType": "frame_freq",
+                                        "attributeId": "a1M1K0000082KcOUAU",
+                                        "cloneable": true,
+                                        "code": "VISION_frequency_frame",
+                                        "dataType": "text",
+                                        "disabled": true,
+                                        "displaySequence": 1,
+                                        "filterable": true,
+                                        "hasRules": false,
+                                        "hidden": false,
+                                        "inputType": "text",
+                                        "isNotTranslatable": false,
+                                        "label": "Frame Frequency",
+                                        "multiselect": false,
+                                        "readonly": true,
+                                        "required": false,
+                                        "userValues": "Once every calendar year",
+                                        "values": [
+                                            {
+                                                "disabled": true,
+                                                "readonly": true
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "attributeGroupType": "contactlens_freq",
+                                        "attributeId": "a1M1K0000082KcOUAU",
+                                        "cloneable": true,
+                                        "code": "VISION_frequency_contactLens",
+                                        "dataType": "text",
+                                        "disabled": true,
+                                        "displaySequence": 1,
+                                        "filterable": true,
+                                        "hasRules": false,
+                                        "hidden": false,
+                                        "inputType": "text",
+                                        "isNotTranslatable": false,
+                                        "label": "Contactlens Frequency",
+                                        "multiselect": false,
+                                        "readonly": true,
+                                        "required": false,
+                                        "userValues": "Once every calendar year",
+                                        "values": [
+                                            {
+                                                "disabled": true,
+                                                "readonly": true
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "totalSize": 4
+                            }
+                        },
+                        {
+                            "Code__c": "VISION_INN",
+                            "Name": "Vision In Network",
+                            "displaySequence": 1000,
+                            "id": "a1L1K000007LFrlUAG",
+                            "productAttributes": {
+                                "records": [
+                                    {
+                                        "attributeGroupType": "In-Network",
+                                        "attributeId": "a1M1K0000082KcOUAU",
+                                        "cloneable": true,
+                                        "code": "VISION_INN_examcopay",
+                                        "dataType": "text",
+                                        "disabled": true,
+                                        "displaySequence": 1,
+                                        "filterable": true,
+                                        "hasRules": false,
+                                        "hidden": false,
+                                        "inputType": "text",
+                                        "isNotTranslatable": false,
+                                        "label": "In Network Exam Copay",
+                                        "multiselect": false,
+                                        "readonly": true,
+                                        "required": false,
+                                        "userValues": "Not Covered,  No",
+                                        "values": [
+                                            {
+                                                "disabled": true,
+                                                "readonly": true
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "attributeGroupType": "In-Network",
+                                        "attributeId": "a1M1K0000082KcOUAU",
+                                        "cloneable": true,
+                                        "code": "VISION_INN_singlevisionlenscopay",
+                                        "dataType": "text",
+                                        "disabled": true,
+                                        "displaySequence": 1,
+                                        "filterable": true,
+                                        "hasRules": false,
+                                        "hidden": false,
+                                        "inputType": "text",
+                                        "isNotTranslatable": false,
+                                        "label": "In Network Singlevision Lens Copay",
+                                        "multiselect": false,
+                                        "readonly": true,
+                                        "required": false,
+                                        "userValues": "$10 Copay,  Yes",
+                                        "values": [
+                                            {
+                                                "disabled": true,
+                                                "readonly": true
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "attributeGroupType": "In-Network",
+                                        "attributeId": "a1M1K0000082KcOUAU",
+                                        "cloneable": true,
+                                        "code": "VISION_INN_bifocallenscopay",
+                                        "dataType": "text",
+                                        "disabled": true,
+                                        "displaySequence": 1,
+                                        "filterable": true,
+                                        "hasRules": false,
+                                        "hidden": false,
+                                        "inputType": "text",
+                                        "isNotTranslatable": false,
+                                        "label": "In Network Bifocal Lens Copay",
+                                        "multiselect": false,
+                                        "readonly": true,
+                                        "required": false,
+                                        "userValues": "$10 Copay,  Yes",
+                                        "values": [
+                                            {
+                                                "disabled": true,
+                                                "readonly": true
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "attributeGroupType": "In-Network",
+                                        "attributeId": "a1M1K0000082KcOUAU",
+                                        "cloneable": true,
+                                        "code": "VISION_INN_trifocallensecopay",
+                                        "dataType": "text",
+                                        "disabled": true,
+                                        "displaySequence": 1,
+                                        "filterable": true,
+                                        "hasRules": false,
+                                        "hidden": false,
+                                        "inputType": "text",
+                                        "isNotTranslatable": false,
+                                        "label": "In Network Trifocal Lens Copay",
+                                        "multiselect": false,
+                                        "readonly": true,
+                                        "required": false,
+                                        "userValues": "$10 Copay,  Yes",
+                                        "values": [
+                                            {
+                                                "disabled": true,
+                                                "readonly": true
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "attributeGroupType": "In-Network",
+                                        "attributeId": "a1M1K0000082KcOUAU",
+                                        "cloneable": true,
+                                        "code": "VISION_INN_frameallowance",
+                                        "dataType": "text",
+                                        "disabled": true,
+                                        "displaySequence": 1,
+                                        "filterable": true,
+                                        "hasRules": false,
+                                        "hidden": false,
+                                        "inputType": "text",
+                                        "isNotTranslatable": false,
+                                        "label": "In Network Frame Allowance",
+                                        "multiselect": false,
+                                        "readonly": true,
+                                        "required": false,
+                                        "userValues": "Allowance;  100  Dollars,  Yes",
+                                        "values": [
+                                            {
+                                                "disabled": true,
+                                                "readonly": true
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "attributeGroupType": "In-Network",
+                                        "attributeId": "a1M1K0000082KcOUAU",
+                                        "cloneable": true,
+                                        "code": "VISION_INN_electivecontactlensallowance",
+                                        "dataType": "text",
+                                        "disabled": true,
+                                        "displaySequence": 1,
+                                        "filterable": true,
+                                        "hasRules": false,
+                                        "hidden": false,
+                                        "inputType": "text",
+                                        "isNotTranslatable": false,
+                                        "label": "In Network Elective Contact lens Allowance",
+                                        "multiselect": false,
+                                        "readonly": true,
+                                        "required": false,
+                                        "userValues": "Allowance;  100  Dollars,  Yes",
+                                        "values": [
+                                            {
+                                                "disabled": true,
+                                                "readonly": true
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "attributeGroupType": "In-Network",
+                                        "attributeId": "a1M1K0000082KcOUAU",
+                                        "cloneable": true,
+                                        "code": "VISION_INN_nonelectivecontactlenscopay",
+                                        "dataType": "text",
+                                        "disabled": true,
+                                        "displaySequence": 1,
+                                        "filterable": true,
+                                        "hasRules": false,
+                                        "hidden": false,
+                                        "inputType": "text",
+                                        "isNotTranslatable": false,
+                                        "label": "In Network Non-Elective Contact Lens Copay",
+                                        "multiselect": false,
+                                        "readonly": true,
+                                        "required": false,
+                                        "userValues": "$0 Copay,  Yes",
+                                        "values": [
+                                            {
+                                                "disabled": true,
+                                                "readonly": true
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "totalSize": 7
+                            }
+                        }
+                    ],
+                    "totalSize": 3
+                },
+                "displaySequence": -1,
+                "originalIndex": 0,
+                "productId": "01t3I000000N9WqQAK",
+                "selected": true,
+                "visible": true
+            }
+        }
+    },
+    "userCurrencyCode": "USD",
+    "userId": "0053I000000KA7XQAW",
+    "userName": "veramesh@deloitte.com.c2ramesh",
+    "userProfile": "System Administrator",
+    "userTimeZone": -240,
+    "visionFilterFrame": "Category__c:Plan,Product_Type__c:Vision,Market__c:CA,Plan_Type__c:Standard,ParticipationType__c:Voluntary,MarketingStatus__c:Marketed",
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "AP-FamilySelection": 6070,
+        "AP-SetProductFamilyValues": 73,
+        "AP-SetValues": 46,
+        "AP-SetVariableBundleStageValues": 22,
+        "AP-VisionPlanSelection": 11003,
+        "AP-VisionPlanSelectionConfirmation": 3882,
+        "ClinicalProductSelected": 9,
+        "CountHPCCVal": 10,
+        "DR-ExtractQuote": 780,
+        "DR-HPCCCodeRetrieval": 883,
+        "DR-ProductRetrieval": 1469,
+        "DR-QuoteDetails": 1904,
+        "DR-SitusState": 1595,
+        "DR-StandardPlanDiscount": 628,
+        "ExtractAccountId": 1478,
+        "GlobalSetValues": 9,
+        "HPCCSetValues": 8,
+        "OmniScriptSessionToken": "8dd17c8a-40bf-4279-8c36-0389cc718925",
+        "QLD": 19440,
+        "RA-HRAHSAProduct": 615,
+        "SVinsSgpsCartInit": 75,
+        "SelectServiceProvider": 6134,
+        "Set AccountId": 24,
+        "SetConstants": 202,
+        "SetPlanList": 65,
+        "SetValues26": 15,
+        "SetValues4": 24,
+        "SetValues5": 27,
+        "SetValuesHSA": 39,
+        "SetValuesHSABlank": 17,
+        "VisionProductSelection": 3722
+    }
+}

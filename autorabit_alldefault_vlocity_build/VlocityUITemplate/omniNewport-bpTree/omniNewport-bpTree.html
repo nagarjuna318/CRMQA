@@ -1,0 +1,20 @@
+<!-- looks like they have sf components -->
+<div class="nds-cont-wrapper">
+	<div class="nds-col nds-clearfix" ng-if="children && children.length>0">
+	    <sidebar class="nds-col_padded nds-cleafix"></sidebar>
+
+	    <auto-saveforlater-msg></auto-saveforlater-msg>
+	    <div ng-include="'vlcStepChart.html'"></div>
+
+	    <div>
+	        <!-- step chart for lightning this is the stepchar -->
+	        <bptree class="nds-clearfix" style="width: 100%"></bptree>
+	    </div>
+	</div>
+
+	<div class="nds-container nds-knowledge-block"
+			ng-if="::!bpTree.propSetMap.hideStepChart"
+			ng-class="(knowledge.isToggled)?'nds-knowledge_full-cont-width':'nds-knowledge_cont-init-width'">
+        <vlc-slds-right-panel></vlc-slds-right-panel>
+    </div>
+</div>

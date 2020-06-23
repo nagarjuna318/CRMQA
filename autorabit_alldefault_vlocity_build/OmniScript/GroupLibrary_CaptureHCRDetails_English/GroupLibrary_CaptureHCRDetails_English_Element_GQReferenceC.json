@@ -1,0 +1,38 @@
+{
+    "%vlocity_namespace%__Active__c": true,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "GL-CaptureHCRDetails",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/GroupLibrary/CaptureHCRDetails/English",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__ParentElementId__c": {
+        "%vlocity_namespace%__OmniScriptId__c": {
+            "Name": "GL-CaptureHCRDetails",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/GroupLibrary/CaptureHCRDetails/English",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+        },
+        "Name": "GeneralHCRQuestion",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/GroupLibrary/CaptureHCRDetails/English/GeneralHCRQuestion",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c"
+    },
+    "%vlocity_namespace%__ParentElementName__c": "GeneralHCRQuestion",
+    "%vlocity_namespace%__ParentElementType__c": "Step",
+    "%vlocity_namespace%__PropertySet__c": {
+        "HTMLTemplateId": "",
+        "controlWidth": 12,
+        "dataJSON": false,
+        "disOnTplt": false,
+        "label": null,
+        "show": null,
+        "text": "<p style=\"text-align: center;\"><strong>Reference Note C: Contraceptive Coverage-Religious Affiliated or CHFP Group Employers</strong></p>\n<p><strong>HCR Womens Contraceptive Religious Exemption Mandate Fact Sheet</strong>:&nbsp;<span style=\"text-decoration: underline;\"><a href=\"http://worknet.auth.wellpoint.com/resources/Tl_Main_1_HealthCareReform/default/Intranet_Asset/PW_C163258.docx\" target=\"_blank\">WCRE Fact Sheet/Internal Resource</a></span><br />NGF plans will cover Womens Contraceptive Coverage unless the group self certifies as either:<br />1) A Religious Affiliated Employer (please see Exemption Form for definition)&nbsp;<br />2) A CLOSELY HELD FOR-PROFIT GROUP (please see Exemption Form for definition)&nbsp;<br /><br />The client is responsible for determining if they qualify for this exemption. As the administrator, we will accept their self-certification at face-value and will not pursue any further validation of their qualifications.<br /><br />HCR requires Anthem to provide Womens contraceptive coverage (medical and pharmacy when carved-in) to ALL FEMALE MEMBERS of a Religious-Affiliated or a Closely Held For-Profit group who fills out the Exemption Form. This coverage by Anthem is completely separate from the group coverage. The group will not be billed for any premiums related to this coverage and will not receive any claims information.<br /><br />The coverage required by law is 100% with no member cost-share. ALL employees (male and female) will receive a letter from Anthem informing them of this coverage.<br /><br />The self-certification is only required once and will remain in effect until the group revokes the self-certificaion in writing (group email is sufficient).</p>"
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": false,
+    "%vlocity_namespace%__Type__c": "Text Block",
+    "Name": "GQReferenceC",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/GroupLibrary/CaptureHCRDetails/English/GQReferenceC"
+}

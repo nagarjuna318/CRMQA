@@ -1,0 +1,85 @@
+{
+    "AccountName": "Hunter Douglas Inc.",
+    "AttachmentSRA": 0,
+    "AttachmentSRR": 0,
+    "AttachmentWSRA": 0,
+    "AttachmentWSRR": 0,
+    "CROFC": "801W0000000px5W",
+    "ContextId": "801W0000000px5W",
+    "FileAttachment": {
+        "File": [
+            {
+                "$$hashKey": "object:854",
+                "data": "e706ae16-f68c-4081-8814-47c160d295b0",
+                "filename": "IMP_CreateOrder.json",
+                "size": 260655
+            }
+        ],
+        "FileCount": 1,
+        "MSG-AttachmentError": null
+    },
+    "IMPCaseName": "00000653",
+    "IMPCaseStatus": "Pending SME Review",
+    "IMPRecordtype": "012W00000009VeTIAU",
+    "IMPRecordtypename": "Renewal",
+    "IMPType": "Renewal",
+    "Profile": "System Administrator",
+    "RFPP": "801W0000000myjw",
+    "Revision": {
+        "FRM-AccountName": "Hunter Douglas Inc.",
+        "FRM-ImplementationCase": "00000653",
+        "FRM-ImplementationCaseStatus": "Pending SME Review",
+        "FRM-RecordType": "Renewal"
+    },
+    "RevisionStatus": "Initiated/In Progress",
+    "RevisionsReasons": {
+        "Msg-Duplicate": true,
+        "RevisionBlock": [
+            {
+                "Description": "DESCRIPTION 1",
+                "DoesChangeImpactBenefitBooklets": true,
+                "DoesChangeImpactSBCs": false,
+                "ImpactedPackagesDetailsBlock": {
+                    "ImpactedPackages/Suffixes/Sections": "023"
+                },
+                "RevisionReason": "Benefit Change",
+                "RevisionType": "Clarification Based On Discovery Call"
+            },
+            {
+                "Description": "DESCRIPTION 2",
+                "DoesChangeImpactBenefitBooklets": true,
+                "DoesChangeImpactSBCs": true,
+                "ImpactedPackagesDetailsBlock": {
+                    "ImpactedPackages/Suffixes/Sections": "024"
+                },
+                "RevisionReason": "Effective Date Change",
+                "RevisionType": "Clarification Based On Discovery Call"
+            }
+        ],
+        "Text1": null
+    },
+    "Submission": {
+        "SubmitRevision": "Yes"
+    },
+    "id": "a3CW00000013S0NMAU",
+    "layout": "lightning",
+    "timeStamp": "2018-04-01T21:21:52.149Z",
+    "userCurrencyCode": "USD",
+    "userId": "005W0000002XPj6IAG",
+    "userName": "jcarrero@vlocity.com.prod.nal1b.dev",
+    "userProfile": "System Administrator",
+    "userTimeZone": -240,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "FileAttachment": 6630,
+        "IMPCaseExtract": 2563,
+        "OmniScriptSessionToken": "20e5d17e-cec9-4094-81d8-b234adf6233b",
+        "Revision": 1969,
+        "RevisionsReasons": 36010,
+        "SV-AttachmentFormula": 17,
+        "SV-ContextId": 1904,
+        "SV2": 25,
+        "Submission": 2657
+    }
+}

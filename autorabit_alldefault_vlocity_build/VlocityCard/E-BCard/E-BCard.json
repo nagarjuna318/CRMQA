@@ -1,0 +1,42 @@
+{
+    "dataSource": {
+        "type": null,
+        "value": {
+        }
+    },
+    "filter": {
+        "['PendingCorrectionAction__c']": "Y"
+    },
+    "states": [
+        {
+            "actionCtxId": "['Id']",
+            "conditions": {
+                "group": [
+                    {
+                        "field": "$scope.data.status",
+                        "operator": "===",
+                        "type": "system",
+                        "value": "'active'"
+                    }
+                ]
+            },
+            "definedActions": {
+                "actions": [
+                    {
+                        "collapse": true,
+                        "hasExtraParams": false,
+                        "id": "SME Pending Corrections_Enrollment_and_Billing",
+                        "isCustomAction": false,
+                        "type": "Vlocity Action"
+                    }
+                ]
+            },
+            "fields": [
+            ],
+            "name": "E&BCard",
+            "sObjectType": "Enrollment_and_Billing__c",
+            "templateUrl": "ActionCardsTemplate"
+        }
+    ],
+    "title": "E&BCard"
+}

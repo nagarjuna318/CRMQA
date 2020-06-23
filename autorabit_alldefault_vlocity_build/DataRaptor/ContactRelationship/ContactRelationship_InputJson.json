@@ -1,0 +1,31 @@
+{
+    "AccountName": null,
+    "ContactName": null,
+    "ContextId": null,
+    "Email": null,
+    "SearchContact": {
+        "Block 1": {
+        },
+        "Contact-Block": {
+            "Contact": null
+        }
+    },
+    "Step 2": {
+        "RelationshipStrength": null,
+        "RelationshipType": null
+    },
+    "timeStamp": null,
+    "userId": null,
+    "userName": null,
+    "userProfile": null,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "DataRaptor Post Action 1": null,
+        "Done Action": null,
+        "PullContactID": null,
+        "QueryTargetContact": null,
+        "SearchContact": null,
+        "Step 2": null
+    }
+}

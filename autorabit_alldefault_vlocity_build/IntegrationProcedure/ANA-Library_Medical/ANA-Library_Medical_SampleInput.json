@@ -1,0 +1,386 @@
+{
+    "AP-Family": "",
+    "AP-FamilySelection": {
+        "AP-CatSelection": "Medical",
+        "AP-MarketSelection": "CT",
+        "AP-MarketSelectionFinalvlaue": "CT",
+        "AP-NALGMergeValue": "No",
+        "AP-OpptyType": null,
+        "AP-TypeRequiredMessaging": true,
+        "Aggregate1": null,
+        "AnthemEntity_Abbrev": "Local/Large Group",
+        "SetProdStage": "No",
+        "Situs_State_Abbrev": "CT"
+    },
+    "AP-HasSPP": "No",
+    "AP-ParentId": "01t41000004JBzqAAG",
+    "AP-ProductFamily": {
+        "AP-ProductFamilySelection": "AIM",
+        "AP-ProductFamilySelectionValidation": true
+    },
+    "AP-ProductFamilySelected": "MedicalCT",
+    "AP-ProductName": "Expanded Cost & Quality Plus (ECQ+)",
+    "AP-ProductSelection": {
+        "AP-ProdSelected": true,
+        "AP-Selected": false,
+        "APParentCount": true,
+        "HelpText_FSA_Actwise": false,
+        "HelpText_Medical_CDHP": false,
+        "Messaging13": null,
+        "ProdList": [
+            {
+                "$$hashKey": "object:1405",
+                "HasSPP": false,
+                "Id": "01t41000004JBzqAAG",
+                "Name": "Expanded Cost & Quality Plus (ECQ+)",
+                "QLIRecordType": "LocalType",
+                "RecordTypeId": "01241000001IOWvAAO",
+                "vlcSelected": true
+            }
+        ]
+    },
+    "AP-Stages": [
+        "IGAP Dead",
+        "IGAP In Progress",
+        "IGAP Lost",
+        "IGAP Sold",
+        "Declined to Quote"
+    ],
+    "AccountDetails": {
+        "Situs_State_Abbrev": "CT"
+    },
+    "AccountId": "001S0000012NbTPIA0",
+    "AnthemEntity": "Local/Large Group",
+    "ClinicalProductSelected": "Expanded Cost & Quality Plus (ECQ+)",
+    "ContextId": "006S000000DjFsTIAV",
+    "DeleteComp1_Final": "",
+    "DeleteComp2_Final": "",
+    "DeleteComp3_Final": "",
+    "FinalComp1Id": "",
+    "FinalComp1Stat": "",
+    "FinalComp2Id": "",
+    "FinalComp2Stat": "",
+    "FinalComp3Id": "",
+    "FinalComp3Stat": "",
+    "FinalOpptyRecType": "In Group Add Product Local",
+    "HPCCCodeVal": "",
+    "HPCCVal_Count": "",
+    "IGAP": "0Q04B000000AFao",
+    "InvType1": "",
+    "InvType2": "",
+    "InvType3": "",
+    "LOB1": "",
+    "LOB2": "",
+    "LOB3": "",
+    "MultiEmp1": "",
+    "MultiEmp1ReadOnly": "",
+    "MultiEmp2": "",
+    "MultiEmp2ReadOnly": "",
+    "MultiEmp3": "",
+    "MultiEmp3ReadOnly": "",
+    "NOEmp1": "",
+    "NOEmp1ReadOnly": "",
+    "NOEmp2": "",
+    "NOEmp2ReadOnly": "",
+    "NOEmp3": "",
+    "NOEmp3ReadOnly": "",
+    "NOUFlagEditStep": "",
+    "NewBusiness": "0Q04B000000AJiN",
+    "OpptyDetails": {
+        "AnthemEntity": "Local/Large Group",
+        "OpportunityEffectiveDate": "2019-01-01",
+        "StageName": "Initiated"
+    },
+    "OpptyType": "In Group Add Product Local",
+    "Opptystage": "Initiated",
+    "ProdFamilyList": [
+        {
+            "LOB_Org__c": "MedicalCT"
+        },
+        {
+            "LOB_Org__c": "MedicalCT"
+        },
+        {
+            "LOB_Org__c": "MedicalCT"
+        },
+        {
+            "LOB_Org__c": "MedicalCT"
+        },
+        {
+            "LOB_Org__c": "MedicalCT"
+        },
+        {
+            "LOB_Org__c": "MedicalCT"
+        },
+        {
+            "LOB_Org__c": "MedicalCT"
+        },
+        {
+            "LOB_Org__c": "MedicalCT"
+        },
+        {
+            "LOB_Org__c": "MedicalCT"
+        },
+        {
+            "LOB_Org__c": "MedicalCT"
+        },
+        {
+            "LOB_Org__c": "MedicalCT"
+        },
+        {
+            "LOB_Org__c": "MedicalCT"
+        },
+        {
+            "LOB_Org__c": "MedicalCT"
+        },
+        {
+            "LOB_Org__c": "MedicalCT"
+        },
+        {
+            "LOB_Org__c": "MedicalCT"
+        },
+        {
+            "LOB_Org__c": "MedicalCT"
+        },
+        {
+            "LOB_Org__c": "MedicalCT"
+        },
+        {
+            "LOB_Org__c": "MedicalCT"
+        },
+        {
+            "LOB_Org__c": "MedicalCT"
+        },
+        {
+            "LOB_Org__c": "MedicalCT"
+        },
+        {
+            "LOB_Org__c": "MedicalCT"
+        },
+        {
+            "LOB_Org__c": "MedicalCT"
+        },
+        {
+            "LOB_Org__c": "MedicalCT"
+        },
+        {
+            "LOB_Org__c": "MedicalCT"
+        },
+        {
+            "LOB_Org__c": "MedicalCT"
+        },
+        {
+            "LOB_Org__c": "MedicalCT"
+        },
+        {
+            "LOB_Org__c": "MedicalCT"
+        },
+        {
+            "LOB_Org__c": "MedicalCT"
+        },
+        {
+            "LOB_Org__c": "MedicalCT"
+        },
+        {
+            "LOB_Org__c": "MedicalCT"
+        },
+        {
+            "LOB_Org__c": "MedicalCT"
+        },
+        {
+            "LOB_Org__c": "MedicalCT"
+        },
+        {
+            "LOB_Org__c": "MedicalCT"
+        },
+        {
+            "LOB_Org__c": "MedicalCT"
+        },
+        {
+            "LOB_Org__c": "MedicalCT"
+        },
+        {
+            "LOB_Org__c": "MedicalCT"
+        }
+    ],
+    "ProductStage": "IGAP Sold",
+    "QLD": {
+        "AP-BundleType": "",
+        "Block9": null,
+        "PharmacyCarvedOut": false,
+        "QLD-AccountId": "001S0000012NbTPIA0",
+        "QLD-Block": {
+            "Block8": {
+                "QLD-ParticipationType": null
+            },
+            "Pharmacy Section": null,
+            "ProbBlock": {
+                "Probability": "100%"
+            },
+            "QLD-AdminIntegration": false,
+            "QLD-AutoQuote": false,
+            "QLD-CEPIndicator": null,
+            "QLD-ClinicalIntegration": false,
+            "QLD-Discount": null,
+            "QLD-Discountsharing": null,
+            "QLD-DoNotAutoPickPCP": false,
+            "QLD-EPHCEnhPersHealthCare": null,
+            "QLD-EmplyrContDepend": null,
+            "QLD-EmplyrContEmp": null,
+            "QLD-EstimAnnualPrem": null,
+            "QLD-EyemedCollaboration": null,
+            "QLD-Final_Rate": null,
+            "QLD-Financing": "Administrative Services Only",
+            "QLD-Funding": "ASO",
+            "QLD-Members": 11,
+            "QLD-Network": null,
+            "QLD-NoSalesCredit": null,
+            "QLD-Original_Rate_Adjustment": null,
+            "QLD-Probability": "100%",
+            "QLD-ProdStage": "IGAP Sold",
+            "QLD-ProductTermYearsLeft": null,
+            "QLD-RX Vendors": null,
+            "QLD-RateGuarThr": null,
+            "QLD-Rate_Differential": null,
+            "QLD-Rate_Differential_Type": null,
+            "QLD-Rate_Relief": null,
+            "QLD-Reason": "Brand",
+            "QLD-ReasonCalc": null,
+            "QLD-ReasonPck": "Brand",
+            "QLD-Subscribers": 11,
+            "QLD-TermDate": "--",
+            "QLD-TermDateIn": null,
+            "QLD-TermSelection": "Ok",
+            "QLD-Upsell": "No",
+            "QLD_Stage_Chk": "No",
+            "SetValuesToDropDown": {
+                "ConfigurableProgramSetValueTriggers": "IGAP Sold",
+                "ConfigureProgramSetValues": null
+            }
+        },
+        "QLD-DayMsg": true,
+        "QLD-ProductStageMsg": true,
+        "QLD-ReqCompetitor": "No",
+        "QLD-TermReqFlds": "No",
+        "QLD-Vendor": null,
+        "QLD_Reason_Chk": true
+    },
+    "QLD-NoSalesCredit": "No",
+    "QuoteDetails": {
+        "AccountId": "001S0000012NbTPIA0",
+        "EffectiveDate": "2019-01-01",
+        "GNReqStatus": "Not Requested",
+        "Id": "0Q0S0000000MXFPKA4",
+        "OpptyId": "006S000000DZZKKIA5",
+        "OpptyRecType": "In Group Add Product Local",
+        "OpptyStage": "Initiated"
+    },
+    "QuoteId": "0Q0S0000000MXFPKA4",
+    "QuoteLineItem_RecordType": "LocalType",
+    "Renewals": "0Q04B000000AKWwSAO",
+    "SelectServiceProvider": {
+        "Account_Id": "001S0000012NbTPIA0",
+        "AddComp2": false,
+        "AddComp3": false,
+        "CompIdCalc2": null,
+        "CompIdCalc3": null,
+        "CompStatusCalc2": null,
+        "CompStatusCalc3": null,
+        "CompetitorId": null,
+        "CompetitorStatus": null,
+        "CompetitorStatus1_LG": null,
+        "CompetitorStatusFormula": null,
+        "InvTypeCalc1": null,
+        "InvTypeCalc2": null,
+        "InvTypeCalc3": null,
+        "InvolvementType": null,
+        "InvolvementType2": null,
+        "InvolvementType3": null,
+        "LOBCalc1": null,
+        "LOBCalc2": null,
+        "LOBCalc3": null,
+        "LineOfBusiness": null,
+        "LineOfBusiness2": null,
+        "LineOfBusiness3": null,
+        "Membership1": null,
+        "Membership2": null,
+        "Membership3": null,
+        "Multi-Employer": false,
+        "Multi-Employer2": false,
+        "Multi-Employer3": null,
+        "MultiEmpCalc1": null,
+        "MultiEmpCalc2": false,
+        "MultiEmpCalc3": false,
+        "NA-WarnMembership": null,
+        "NOUFlag": true,
+        "NameOfEmployers": null,
+        "NameOfEmployers2": null,
+        "NameOfEmployers3": null,
+        "NoEmpCalc1": null,
+        "NoEmpCalc2": null,
+        "NoEmpCalc3": null,
+        "ReqComFlds": "Yes",
+        "SP-CompStatus2": null,
+        "SP-CompStatus2_LG": null,
+        "SP-CompStatus3": null,
+        "SP-CompStatus3_LG": null,
+        "SPTD-Msg": null,
+        "SPTermDate": null,
+        "SPTermDateDay": null,
+        "SPTermDateIn": null,
+        "SSP-Msg": true,
+        "SSPMsg-Flg": "No",
+        "TACompetitor2-Block": null,
+        "TACompetitor2_NA-Block": null,
+        "TACompetitor3-Block": null,
+        "TACompetitor3_NA-Block": null,
+        "TypeAheadAccount-Block": {
+            "ServiceProviderAccountId_LG": null,
+            "TypeAheadAccount": null
+        },
+        "TypeAheadAccount_NA-Block": null
+    },
+    "Situs_State": "CT",
+    "UserArea": "Local",
+    "UserGroup": "Local",
+    "id": "a3CS0000000FwkpMAC",
+    "isLocalSales": false,
+    "isdtp": "p1",
+    "layout": "lightning",
+    "sfdcIFrameHost": "web",
+    "sfdcIFrameOrigin": "https://commercial--iceqa--vlocity-ins.cs1.visual.force.com",
+    "timeStamp": "2019-07-29T17:27:58.188Z",
+    "userCurrencyCode": "USD",
+    "userId": "005S000000FuP7DIAV",
+    "userName": "ilugina@vlocity.com.iceqa",
+    "userProfile": "System Administrator",
+    "userTimeZone": -240,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "AP-FamilySelection": 33127,
+        "AP-ProductFamily": 17240,
+        "AP-ProductSelection": 6902,
+        "AP-SetProductFamilyValues": 311,
+        "AP-SetValues": 28,
+        "AP-SetVariableBundleStageValues": 28,
+        "ClinicalProductSelected": 19,
+        "CountHPCCVal": 15,
+        "DR-ExtractQuote": 1305,
+        "DR-HPCCCodeRetrieval": 1929,
+        "DR-ProductFamilyRetrieval": 12172,
+        "DR-ProductRetrieval": 1704,
+        "DR-QuoteDetails": 1513,
+        "DR-SitusState": 1708,
+        "ExtractAccountId": 1151,
+        "GlobalSetValues": 16,
+        "HPCCSetValues": 34,
+        "OmniScriptSessionToken": "994e7b0c-20ff-4601-9768-6d584827175b",
+        "QLD": 23491,
+        "SelectServiceProvider": 5972,
+        "Set AccountId": 20,
+        "Set Constants": 211,
+        "SetValues4": 29,
+        "SetValues5": 76
+    }
+}

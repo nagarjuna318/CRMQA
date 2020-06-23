@@ -1,0 +1,177 @@
+{
+    "ContextId": null,
+    "RTGeneral": {
+        "AIM": {
+            "AIMNewToClient": null,
+            "AccountMigratingtoAnotherPlatform": null,
+            "DoesAccountHaveMedicareSuppPlans": null,
+            "DoesAcctHaveRBBForMRICT": null,
+            "IfNoApprovedNumber": null,
+            "IfYesProvidePkgCCTiedtoMedicare": null,
+            "IsThereAnAIMROIGuarantee": null,
+            "MedicalManagementPlatformAIM": null,
+            "MemberPenaltyAmount": null,
+            "PrecertVendor": null,
+            "StandardNationalAIMNumOnIDCard": null
+        },
+        "AnthemEngageSilverBlock": {
+            "ElevateBH": null,
+            "RBB": null
+        },
+        "AnthemFLexHourMedicalPlanOptions": {
+            "BasicComprehensiveMedicalPlan": null,
+            "EnhancedComprehensiveMedicalPlan": null,
+            "MECPlusMedicalPlan": null
+        },
+        "AnthemFlexhourCommentsBlock": {
+            "AnthemFlexHourComments": null
+        },
+        "AnthemFlexhourSupplimentalPlanOptions": {
+            "AccidentPlan": null,
+            "CriticalCarePlan": null,
+            "HighDeductibleGapPaymentPlan": null,
+            "HospitalOnlyFixedCashBenefitsPlan": null,
+            "HospitalPlusFixedCashBenefitsPlan": null,
+            "LimitedDurationMedicalPlan": null
+        },
+        "BenefitsAdmin": {
+            "ActivationCode": null,
+            "EffectiveDate": null,
+            "IntegratedHRAFSA": null,
+            "ServicedByBA": null,
+            "ServicedByBAFSA": null,
+            "TermDateRO": null,
+            "Vendors": null
+        },
+        "CastLightDetails": {
+            "RelationshipType1": null
+        },
+        "ClonedFromRenewalValidationComplete": null,
+        "ClonedToRenewalFalse": null,
+        "CommentsBlock": {
+            "Comments": null
+        },
+        "CompletionMarkerFormula": null,
+        "DPPDetails": {
+            "DPPVendor": null
+        },
+        "DateMessage": null,
+        "EngageEssentialEliteBlock": {
+            "ExpectedCloseDate": null
+        },
+        "HasSPPFormula": null,
+        "OpportunityTypeFormula": null,
+        "PLCompleteX": null,
+        "PharmacyDetail": {
+            "AnthemPrescriptionDrugPlan": null,
+            "DoesRXApplyToAllPackages": null,
+            "EssentialFormulary": null,
+            "ExclusiveSpecialtyPharmacyServices": null,
+            "IfNoPleaseProvideDetailsHere": null,
+            "MailOrder": null,
+            "RXChoiceTieredNetwork": null,
+            "Retail": null,
+            "SplitGenericTier": null,
+            "SplitSpecialtyTier": null
+        },
+        "ProdStage5-95ProbMessage": null,
+        "ProductNameFormula": null,
+        "ProductVendorBlock": {
+            "ProdVendor": null,
+            "UpdateVendor": null,
+            "VendorNameReadOnly": null,
+            "VendorReadOnlyFormula": null
+        },
+        "ProductivitySolutionsBlock": {
+            "ProductivitySolutions": null
+        },
+        "ProfileReadOnly": null,
+        "QLD-AccountId": null,
+        "QLD-Vendor": null,
+        "QuoteLineDetails": {
+            "CompetitorReadOnly": null,
+            "CompetitorReadOnlyFormula": null,
+            "CompetitorRequired": null,
+            "CompetitorStatusReadOnly": null,
+            "Financing": null,
+            "Funding": null,
+            "Members": null,
+            "OppType": null,
+            "Probability": null,
+            "ProbabilityFixedDisplay": null,
+            "ProbabilityFixedFormula": null,
+            "ProbabilityNOT0": null,
+            "ProbabilityNOT100": null,
+            "ProductStage": null,
+            "Reason": null,
+            "ReasonRequired": null,
+            "RecordType": null,
+            "Subscribers": null,
+            "TermDate": null,
+            "TermSelection": null,
+            "UpdateCompetitor": null
+        },
+        "RecordTypeFormula": null,
+        "SetPLComplete": {
+            "PLComplete": null
+        },
+        "SpecialtyPharmacy": {
+            "MedicalManagementPlatformMSPh": null,
+            "RXVendors": null,
+            "SpecialtyDrugsCarvedOutToRX": null
+        },
+        "TermDateNullFormula": null,
+        "TermDateNullMessage": null,
+        "VirtualSecondOpinion": {
+            "VendorName": null
+        },
+        "VisionParticipation": {
+            "NonVoluntaryParticipation": null,
+            "VoluntaryParticipation": null
+        }
+    },
+    "SelectServiceProvider": {
+        "Account_Id": null,
+        "CompetitorId": null,
+        "CompetitorStatus": null,
+        "CompetitorStatusFormula": null,
+        "NOUFlag": null,
+        "NotInCompetitorList": null,
+        "ReqComFlds": null,
+        "SPTD-Msg": null,
+        "SPTermDate": null,
+        "SPTermDateDay": null,
+        "SPTermDateIn": null,
+        "SSP-Msg": null,
+        "SSPMsg-Flg": null,
+        "ServiceProviderTypeAhead-Block": {
+            "CompetitorAccountId": null,
+            "ServiceProviderId": null,
+            "ServiceProviderTypeAhead": null
+        },
+        "StageReason": null,
+        "TypeAheadAccount-Block": {
+            "ServiceProviderAccountId": null,
+            "TypeAheadAccount": null
+        }
+    },
+    "timeStamp": null,
+    "userId": null,
+    "userName": null,
+    "userProfile": null,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "DataRaptor Post Action 1": null,
+        "DataRaptor Post Action 3": null,
+        "ExtractAccountId": null,
+        "ExtractQLI": null,
+        "POSTQLIDATA": null,
+        "RTGeneral": null,
+        "SelectServiceProvider": null,
+        "Set Values 2": null,
+        "SetConsts": null,
+        "SetDependentFields": null,
+        "UpdateQLI": null
+    }
+}

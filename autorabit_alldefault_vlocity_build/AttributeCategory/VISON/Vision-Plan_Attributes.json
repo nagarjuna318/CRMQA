@@ -1,0 +1,37 @@
+[
+    {
+        "%vlocity_namespace%__ActiveFlg__c": true,
+        "%vlocity_namespace%__AttributeCategoryCode__c": "VISON",
+        "%vlocity_namespace%__AttributeCategoryId__c": {
+            "%vlocity_namespace%__Code__c": "VISON",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__AttributeCategory__c/VISON",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__AttributeCategory__c"
+        },
+        "%vlocity_namespace%__AttributeCategoryName__c": "Vision Plan",
+        "%vlocity_namespace%__AttributeGroupType__c": "",
+        "%vlocity_namespace%__Code__c": "VISON_visionOutofNetworkCoverage",
+        "%vlocity_namespace%__Configurable__c": true,
+        "%vlocity_namespace%__CustomConfigUiTemplate__c": "",
+        "%vlocity_namespace%__Description__c": "",
+        "%vlocity_namespace%__DisplaySequence__c": 1,
+        "%vlocity_namespace%__EffectiveFromDate__c": "",
+        "%vlocity_namespace%__EffectiveUntilDate__c": "",
+        "%vlocity_namespace%__Filterable__c": true,
+        "%vlocity_namespace%__GlobalKey__c": "ae49c69c-2f22-adc7-0b0b-2af564129b95",
+        "%vlocity_namespace%__HelpText__c": "",
+        "%vlocity_namespace%__IsCloneable__c": true,
+        "%vlocity_namespace%__IsEncrypted__c": false,
+        "%vlocity_namespace%__IsPrivate__c": false,
+        "%vlocity_namespace%__OwnerId__c": "",
+        "%vlocity_namespace%__PicklistId__c": "",
+        "%vlocity_namespace%__UniqueNameField__c": "",
+        "%vlocity_namespace%__ValueType__c": "Text",
+        "%vlocity_namespace%__Value__c": "",
+        "%vlocity_namespace%__isDefaultHidden__c": false,
+        "Name": "Vision OON Coverage",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__Attribute__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__Attribute__c/VISON_visionOutofNetworkCoverage"
+    }
+]

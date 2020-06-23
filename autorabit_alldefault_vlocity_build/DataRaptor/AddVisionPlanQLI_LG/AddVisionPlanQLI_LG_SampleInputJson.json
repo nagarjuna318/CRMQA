@@ -1,0 +1,2742 @@
+{
+    "AP-Family": "",
+    "AP-FamilySelection": {
+        "AP-CatSelection": "Vision",
+        "AP-MarketSelection": null,
+        "AP-MarketSelectionFinalvlaue": null,
+        "AP-OpptyType": null,
+        "AP-Plan_Message": true,
+        "AP-TypeRequiredMessaging": null,
+        "AnthemEntity_Abbrev": "Local/Large Group",
+        "Medical_ProductType": null,
+        "Non_Medical_Product_Type": "Vision",
+        "SetProdStage": "No",
+        "Situs_State_Abbrev": "CA"
+    },
+    "AP-HasSPP": "No",
+    "AP-ParentId": "",
+    "AP-ProductFamily": {
+        "AP-ProductFamilySelection": null,
+        "AP-ProductFamilySelectionValidation": null,
+        "AP-ProductFamilySelection_Val": null
+    },
+    "AP-ProductFamilySelected": "",
+    "AP-ProductName": "Blue View Vision",
+    "AP-ProductSelection": {
+        "AP-ProdSelected": null,
+        "AP-Selected": null,
+        "APParentCount": null,
+        "HelpText_FSA_Actwise": null,
+        "HelpText_Medical_CDHP": null,
+        "Messaging13": null,
+        "ProdList": null
+    },
+    "AP-Selected": true,
+    "AP-Stages": [
+        "Dead",
+        "In Progress",
+        "Lost",
+        "Sold",
+        "Declined to Quote"
+    ],
+    "AP-VisionPlanSelection": {
+        "VisionPlanMessage": true,
+        "VisionPlanSelection": null
+    },
+    "AccountDetails": {
+        "Group_Size": "1000+",
+        "Situs_State_Abbrev": "CA"
+    },
+    "AccountGroupSize": 1000,
+    "AccountId": "0012h00000ChiXzAAJ",
+    "AnthemEntity": "Local/Large Group",
+    "Benefit_Period_Vision": "Calendar Year",
+    "Category": "Product",
+    "ClinicalName": "",
+    "ClinicalProductSelected": "",
+    "CompetitorCheck": 0,
+    "ContextId": "0Q02h000000D5HVCA0",
+    "CustomRidersList": [
+    ],
+    "CustomVisionProductsDisplay": {
+        "CustomVisionProdList": [
+            {
+                "$$hashKey": "object:1652",
+                "HasSPP": false,
+                "Id": "01t1K0000067KQlQAM",
+                "Name": "Blue View Vision",
+                "QLIRecordType": "LocalType",
+                "RecordTypeId": "01241000001IOWvAAO",
+                "vlcSelected": true
+            }
+        ]
+    },
+    "DeleteComp1_Final": "",
+    "DeleteComp2_Final": "",
+    "DeleteComp3_Final": "",
+    "FinalComp1Id": "",
+    "FinalComp1Stat": "",
+    "FinalComp2Id": "",
+    "FinalComp2Stat": "",
+    "FinalComp3Id": "",
+    "FinalComp3Stat": "",
+    "FinalOpptyRecType": "New Business Local",
+    "HPCCCodeVal": "",
+    "HPCCVal_Count": "",
+    "HSAIntegratedBlock": {
+        "HSAIntegratedPlan": [
+        ]
+    },
+    "IGAP": "0Q04B000000AFao",
+    "InvType1": "",
+    "InvType2": "",
+    "InvType3": "",
+    "IsEyemedVisible": true,
+    "IsHRAProductSelected": "No",
+    "IsHSAProductSelected": "No",
+    "LOB1": "",
+    "LOB2": "",
+    "LOB3": "",
+    "MultiEmp1": "",
+    "MultiEmp1ReadOnly": "",
+    "MultiEmp2": "",
+    "MultiEmp2ReadOnly": "",
+    "MultiEmp3": "",
+    "MultiEmp3ReadOnly": "",
+    "NOEmp1": "",
+    "NOEmp1ReadOnly": "",
+    "NOEmp2": "",
+    "NOEmp2ReadOnly": "",
+    "NOEmp3": "",
+    "NOEmp3ReadOnly": "",
+    "NOUFlagEditStep": "",
+    "NewBusiness": "0Q0540000005MThCAM",
+    "OpptyDetails": {
+        "AnthemEntity": "Local/Large Group",
+        "OpportunityEffectiveDate": "2020-04-06",
+        "StageName": "Initiated"
+    },
+    "OpptyEffectiveDateYear": "2020",
+    "OpptyType": "New Business Local",
+    "Opptystage": "Initiated",
+    "ParticipationType": "Employer Paid",
+    "PlanList": [
+    ],
+    "PlanListInit": 0.698253327742314,
+    "PlanType": "Standard",
+    "PlanTypeValNp": "",
+    "QLD": {
+        "AP-BundleType": "",
+        "EyeMedDetails": {
+            "ClaimsGraceDays": null,
+            "EmployeeAssistanceProgram": false,
+            "EyeMedBenefitLevel1": null,
+            "EyeMedBenefitLevel2": null,
+            "EyeMedBenefitLevel3": null,
+            "EyeMedBenefitLevel4": null,
+            "EyeMedBenefitPlanCode": null,
+            "IDCardDesign": null,
+            "PharmacyBenefitIdentifier": null,
+            "ProxyID": null,
+            "RateStructure": null,
+            "VisionAdultCoMingle": false,
+            "VisionChildCoMingle": false,
+            "VisionExamCopay": null,
+            "VisionLensCopay": null
+        },
+        "QLD-AccountId": "0012h00000ChiXzAAJ",
+        "QLD-Block": {
+            "BenefitPeriodDetails": {
+                "Benefit_Period_Standard": "Calendar Year"
+            },
+            "Benefit_Period": "Calendar Year",
+            "Benefit_Period_Vision": "Calendar Year",
+            "Block13": null,
+            "Block8": {
+                "Dental_JAA_MCS": "N",
+                "QLD-ParticipationType_1": "Voluntary"
+            },
+            "BlockHSAIntegrated": {
+                "QLD-IsHSAIntegrated": null
+            },
+            "Pharmacy Section": null,
+            "Probability": "10%",
+            "ProductStage": "In Progress",
+            "QLD-AdminIntegration": null,
+            "QLD-AutoQuote": false,
+            "QLD-CEPIndicator": null,
+            "QLD-ClinicalIntegration": false,
+            "QLD-DayMsg": true,
+            "QLD-Discount": null,
+            "QLD-Discountsharing": null,
+            "QLD-DoNotAutoPickPCP": null,
+            "QLD-EPHCEnhPersHealthCare": null,
+            "QLD-EmplyrContDepend": null,
+            "QLD-EmplyrContEmp": null,
+            "QLD-EstimAnnualPrem": null,
+            "QLD-EyemedCollaboration": null,
+            "QLD-Final_Rate": null,
+            "QLD-Financing": "Fully Insured",
+            "QLD-Funding": "FI",
+            "QLD-Members": 8,
+            "QLD-Network": "Blue View Vision Access",
+            "QLD-Network_1": null,
+            "QLD-Network_2": "Blue View Vision Access",
+            "QLD-NoSalesCredit": null,
+            "QLD-Original_Rate_Adjustment": null,
+            "QLD-ParticipationType": "Non-Voluntary",
+            "QLD-ParticipationType_2": "Non-Voluntary",
+            "QLD-Probability": "10%",
+            "QLD-ProdStage": "In Progress",
+            "QLD-ProductStageMsg": true,
+            "QLD-ProductTermYearsLeft": null,
+            "QLD-RX Vendors": null,
+            "QLD-RateGuarThr": null,
+            "QLD-Rate_Differential": null,
+            "QLD-Rate_Differential_Type": null,
+            "QLD-Rate_Relief": null,
+            "QLD-Reason": null,
+            "QLD-ReasonCalc": null,
+            "QLD-ReasonPck": null,
+            "QLD-Subscribers": 8,
+            "QLD-TermDate": null,
+            "QLD-TermDateIn": null,
+            "QLD-TermSelection": "Ok",
+            "QLD-Upsell": null,
+            "QLD_Reason_Chk": true,
+            "QLD_Stage_Chk": "No",
+            "RenewedNoBenefitChanges": null,
+            "RenewedNoBenefitChangesDefaultValue": null
+        },
+        "QLD-ReqCompetitor": "No",
+        "QLD-TermReqFlds": "Yes",
+        "QLD-Vendor": null
+    },
+    "QLD-IsHSAIntegrated-BL": "No",
+    "QLD-IsHSAIntegrated-FM": "Yes",
+    "QLD-NoSalesCredit": "No",
+    "QLD-RX Vendors": "",
+    "QuoteDetails": {
+        "AccountId": "0012h00000ChiXzAAJ",
+        "EffectiveDate": "2020-04-06",
+        "GNReqStatus": "Not Requested",
+        "Id": "0Q02h000000D5HVCA0",
+        "OpptyId": "0062h000006LvAmAAK",
+        "OpptyRecType": "New Business Local",
+        "OpptyStage": "Initiated",
+        "Pricebook2Id": "01s41000007wBCZAA2"
+    },
+    "QuoteEffectiveDate": "2020-04-06",
+    "QuoteId": "0Q02h000000D5HVCA0",
+    "QuoteLineItem_RecordType": "LocalType",
+    "QuotedStatus": "External & Internal",
+    "Renewals": "0Q0540000005MThCAM",
+    "RiderEffectiveDate": 2020,
+    "RiderSize": 0,
+    "SPD": {
+        "Factory_Scratch__c": "$0 Copay",
+        "Id": "m0W2h000000CaViEAK",
+        "Photchormatic_for_Adults__c": "$75 Copay",
+        "Photchromatic_for_Kids__c": "$0 Copay",
+        "Polycarb_for_Adults__c": "$40 Copay",
+        "Polycarb_for_Kids__c": "$0 Copay",
+        "Standard_AR_Copay__c": "$45",
+        "Standard_Progressive__c": "$55 Copay (plus Lens copay)",
+        "Tint__c": "$15 Copay",
+        "UV_Copay__c": "$15 Copay"
+    },
+    "SelectServiceProvider": {
+        "Account_Id": "0012h00000ChiXzAAJ",
+        "AddComp2": false,
+        "AddComp3": null,
+        "CompIdCalc2": null,
+        "CompIdCalc3": null,
+        "CompStatusCalc2": null,
+        "CompStatusCalc3": null,
+        "CompetitorId": null,
+        "CompetitorStatus": null,
+        "CompetitorStatus1_LG": null,
+        "CompetitorStatusFormula": null,
+        "InvTypeCalc1": null,
+        "InvTypeCalc2": null,
+        "InvTypeCalc3": null,
+        "InvolvementType": null,
+        "InvolvementType2": null,
+        "InvolvementType3": null,
+        "LOBCalc1": null,
+        "LOBCalc2": null,
+        "LOBCalc3": null,
+        "LineOfBusiness": null,
+        "LineOfBusiness2": null,
+        "LineOfBusiness3": null,
+        "Membership1": null,
+        "Membership2": null,
+        "Membership3": null,
+        "Multi-Employer": false,
+        "Multi-Employer2": null,
+        "Multi-Employer3": null,
+        "MultiEmpCalc1": null,
+        "MultiEmpCalc2": false,
+        "MultiEmpCalc3": false,
+        "NA-WarnMembership": null,
+        "NOUFlag": true,
+        "NameOfEmployers": null,
+        "NameOfEmployers2": null,
+        "NameOfEmployers3": null,
+        "NoEmpCalc1": null,
+        "NoEmpCalc2": null,
+        "NoEmpCalc3": null,
+        "ReqComFlds": "Yes",
+        "SP-CompStatus2": null,
+        "SP-CompStatus2_LG": null,
+        "SP-CompStatus3": null,
+        "SP-CompStatus3_LG": null,
+        "SPTD-Msg": null,
+        "SPTermDate": null,
+        "SPTermDateDay": null,
+        "SPTermDateIn": null,
+        "SSP-Msg": true,
+        "SSPMsg-Flg": "No",
+        "TACompetitor2-Block": null,
+        "TACompetitor2_NA-Block": null,
+        "TACompetitor3-Block": null,
+        "TACompetitor3_NA-Block": null,
+        "TypeAheadAccount-Block": {
+            "ServiceProviderAccountId_LG": null,
+            "TypeAheadAccount": null
+        },
+        "TypeAheadAccount_NA-Block": null
+    },
+    "Situs_State": "CA",
+    "Skip_Plan_Selection": false,
+    "UserArea": "Local",
+    "UserGroup": "Local",
+    "VisionPlanSelection": [
+    ],
+    "VisionPlanSelectionInit": 0.35665367891162036,
+    "VisionPlanType": "Standard",
+    "VisionProductSelection": {
+        "VisionProductType": "Standard Plan Selection",
+        "VisionSubCategory": {
+            "VisionStandardType": "Non-Voluntary"
+        }
+    },
+    "attributeFilters": {
+    },
+    "effectiveDate": "2020-04-06",
+    "error": "OK",
+    "filterFrame": "Category__c:Plan,Product_Type__c:Medical,Market__c:CA,Plan_Type__c:Standard,Portfolio_Year__c:2020,Deductible_Amount_Calc__c:undefined,Coinsurance_Rate_Calc__c:undefined",
+    "id": "a3C2h000000CgV9EAK",
+    "insSgpsCartInit": 0.08702862253068289,
+    "isLocalSales": false,
+    "lastRecordId": "01t2h000000uwwxAAA",
+    "layout": "newport",
+    "timeStamp": "2020-04-06T12:51:42.718Z",
+    "undefined": {
+        "VisionPlanSelectionInit": 0.35665367891162036,
+        "cartCompareSelectMap": {
+        },
+        "cartPlans": [
+            {
+                "$$hashKey": "object:2665",
+                "Contact_Lens_Benefit_and_Frequency": " Not Covered",
+                "Contract_Code__c": "4T6D",
+                "Exam_Copay_and_Frequency": "$10 Once every calendar year",
+                "Frame_Benefit_and_Frequency": " Not Covered",
+                "Id": "01t2h000000ux35AAA",
+                "IsConfigurable__c": false,
+                "IsRecommended__c": false,
+                "MarketSegment__c": "Large Group",
+                "Name": "EX.A.10",
+                "Network__c": "Blue View Vision",
+                "ParticipationType__c": "Employer Paid",
+                "Portfolio_Year__c": "2020",
+                "Prescription_Lens_Copay_and_Frequency": " Not Covered",
+                "Price": "",
+                "ProductCode": "PMT-4T6D",
+                "QLIRecordType__c": "LocalType",
+                "RecordTypeName__c": "Product",
+                "Term__c": "Annual",
+                "attributeCategories": {
+                    "records": [
+                        {
+                            "Code__c": "VISION_frequency",
+                            "Name": "Vision Plan Frequencies",
+                            "displaySequence": 2000,
+                            "id": "a1L2h000000CkbhEAC",
+                            "productAttributes": {
+                                "records": [
+                                    {
+                                        "attributeId": "a1M2h000000JCf8EAG",
+                                        "cloneable": true,
+                                        "code": "VISION_frequency_exam",
+                                        "dataType": "text",
+                                        "disabled": true,
+                                        "displaySequence": 1,
+                                        "filterable": true,
+                                        "hasRules": false,
+                                        "hidden": false,
+                                        "inputType": "text",
+                                        "isNotTranslatable": false,
+                                        "label": "Exam Frequency",
+                                        "multiselect": false,
+                                        "readonly": true,
+                                        "required": false,
+                                        "userValues": "Once every calendar year",
+                                        "values": [
+                                            {
+                                                "disabled": true,
+                                                "readonly": true
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "attributeId": "a1M2h000000JCf9EAG",
+                                        "cloneable": true,
+                                        "code": "VISION_frequency_lens",
+                                        "dataType": "text",
+                                        "disabled": true,
+                                        "displaySequence": 2,
+                                        "filterable": true,
+                                        "hasRules": false,
+                                        "hidden": false,
+                                        "inputType": "text",
+                                        "isNotTranslatable": false,
+                                        "label": "Lens Frequency",
+                                        "multiselect": false,
+                                        "readonly": true,
+                                        "required": false,
+                                        "userValues": "Unlimited",
+                                        "values": [
+                                            {
+                                                "disabled": true,
+                                                "readonly": true
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "attributeId": "a1M2h000000JCfAEAW",
+                                        "cloneable": true,
+                                        "code": "VISION_frequency_frame",
+                                        "dataType": "text",
+                                        "disabled": true,
+                                        "displaySequence": 3,
+                                        "filterable": true,
+                                        "hasRules": false,
+                                        "hidden": false,
+                                        "inputType": "text",
+                                        "isNotTranslatable": false,
+                                        "label": "Frame Frequency",
+                                        "multiselect": false,
+                                        "readonly": true,
+                                        "required": false,
+                                        "userValues": "Unlimited",
+                                        "values": [
+                                            {
+                                                "disabled": true,
+                                                "readonly": true
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "attributeId": "a1M2h000000JCfBEAW",
+                                        "cloneable": true,
+                                        "code": "VISION_frequency_contactLens",
+                                        "dataType": "text",
+                                        "disabled": true,
+                                        "displaySequence": 4,
+                                        "filterable": true,
+                                        "hasRules": false,
+                                        "hidden": false,
+                                        "inputType": "text",
+                                        "isNotTranslatable": false,
+                                        "label": "Contactlens Frequency",
+                                        "multiselect": false,
+                                        "readonly": true,
+                                        "required": false,
+                                        "userValues": "Unlimited",
+                                        "values": [
+                                            {
+                                                "disabled": true,
+                                                "readonly": true
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "totalSize": 4
+                            }
+                        },
+                        {
+                            "Code__c": "VISION_INN",
+                            "Name": "Vision In Network",
+                            "displaySequence": 2005,
+                            "id": "a1L2h000000CkbiEAC",
+                            "productAttributes": {
+                                "records": [
+                                    {
+                                        "attributeGroupType": "In-Network",
+                                        "attributeId": "a1M2h000000JCfCEAW",
+                                        "cloneable": true,
+                                        "code": "VISION_INN_examcopay",
+                                        "dataType": "text",
+                                        "disabled": true,
+                                        "displaySequence": 1,
+                                        "filterable": true,
+                                        "hasRules": false,
+                                        "hidden": false,
+                                        "inputType": "text",
+                                        "isNotTranslatable": false,
+                                        "label": "In Network Exam Copay",
+                                        "multiselect": false,
+                                        "readonly": true,
+                                        "required": false,
+                                        "userValues": "10.00",
+                                        "values": [
+                                            {
+                                                "disabled": true,
+                                                "readonly": true
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "totalSize": 1
+                            }
+                        },
+                        {
+                            "Code__c": "VISION_OON",
+                            "Name": "Vision Out of Network",
+                            "displaySequence": 2010,
+                            "id": "a1L2h000000CkbjEAC",
+                            "productAttributes": {
+                                "records": [
+                                    {
+                                        "attributeGroupType": "Out-Of-Network",
+                                        "attributeId": "a1M2h000000JCfJEAW",
+                                        "cloneable": true,
+                                        "code": "VISION_OON_examreimbursement",
+                                        "dataType": "text",
+                                        "disabled": true,
+                                        "displaySequence": 1,
+                                        "filterable": true,
+                                        "hasRules": false,
+                                        "hidden": false,
+                                        "inputType": "text",
+                                        "isNotTranslatable": false,
+                                        "label": "OON Exam Reimbursement",
+                                        "multiselect": false,
+                                        "readonly": true,
+                                        "required": false,
+                                        "userValues": "42.00",
+                                        "values": [
+                                            {
+                                                "disabled": true,
+                                                "readonly": true
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "totalSize": 1
+                            }
+                        },
+                        {
+                            "Code__c": "VISION_OTHER",
+                            "Name": "Vision Other Plan Details",
+                            "displaySequence": 2100,
+                            "id": "a1L2h000000CkbkEAC",
+                            "productAttributes": {
+                                "records": [
+                                    {
+                                        "attributeId": "a1M2h000000JCfQEAW",
+                                        "cloneable": true,
+                                        "code": "VISION_OTHER_wgseyemedcode",
+                                        "dataType": "text",
+                                        "disabled": true,
+                                        "displaySequence": 1,
+                                        "filterable": true,
+                                        "hasRules": false,
+                                        "hidden": false,
+                                        "inputType": "text",
+                                        "isNotTranslatable": false,
+                                        "label": "Wgs Eyemed Plan Code",
+                                        "multiselect": false,
+                                        "readonly": true,
+                                        "required": false,
+                                        "userValues": "1021766",
+                                        "values": [
+                                            {
+                                                "disabled": true,
+                                                "readonly": true
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "attributeId": "a1M2h000000JCfREAW",
+                                        "cloneable": true,
+                                        "code": "VISION_OTHER_wgseyemedbenefitlevelcode",
+                                        "dataType": "text",
+                                        "disabled": true,
+                                        "displaySequence": 2,
+                                        "filterable": true,
+                                        "hasRules": false,
+                                        "hidden": false,
+                                        "inputType": "text",
+                                        "isNotTranslatable": false,
+                                        "label": "Wgs Eyemed Benefit Level Code",
+                                        "multiselect": false,
+                                        "readonly": true,
+                                        "required": false,
+                                        "userValues": "0103",
+                                        "values": [
+                                            {
+                                                "disabled": true,
+                                                "readonly": true
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "attributeId": "a1M2h000000JCfSEAW",
+                                        "cloneable": true,
+                                        "code": "VISION_OTHER_plansubtype",
+                                        "dataType": "text",
+                                        "disabled": true,
+                                        "displaySequence": 3,
+                                        "filterable": true,
+                                        "hasRules": false,
+                                        "hidden": false,
+                                        "inputType": "text",
+                                        "isNotTranslatable": false,
+                                        "label": "Plan subtype",
+                                        "multiselect": false,
+                                        "readonly": true,
+                                        "required": false,
+                                        "userValues": "Exam Only",
+                                        "values": [
+                                            {
+                                                "disabled": true,
+                                                "readonly": true
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "totalSize": 3
+                            }
+                        }
+                    ],
+                    "totalSize": 4
+                },
+                "displaySequence": -1,
+                "originalIndex": 0,
+                "productId": "01t2h000000ux35AAA",
+                "selected": true,
+                "visible": true
+            },
+            {
+                "$$hashKey": "object:2661",
+                "Contact_Lens_Benefit_and_Frequency": " Not Covered",
+                "Contract_Code__c": "4T91",
+                "Exam_Copay_and_Frequency": "$25 Once every calendar year",
+                "Frame_Benefit_and_Frequency": " Not Covered",
+                "Id": "01t2h000000uxJ9AAI",
+                "IsConfigurable__c": false,
+                "IsRecommended__c": false,
+                "MarketSegment__c": "Large Group",
+                "Name": "EX.A.25",
+                "Network__c": "Blue View Vision",
+                "ParticipationType__c": "Employer Paid",
+                "Portfolio_Year__c": "2020",
+                "Prescription_Lens_Copay_and_Frequency": " Not Covered",
+                "Price": "",
+                "ProductCode": "PMT-4T91",
+                "QLIRecordType__c": "LocalType",
+                "RecordTypeName__c": "Product",
+                "Term__c": "Annual",
+                "attributeCategories": {
+                    "records": [
+                        {
+                            "Code__c": "VISION_frequency",
+                            "Name": "Vision Plan Frequencies",
+                            "displaySequence": 2000,
+                            "id": "a1L2h000000CkbhEAC",
+                            "productAttributes": {
+                                "records": [
+                                    {
+                                        "attributeId": "a1M2h000000JCf8EAG",
+                                        "cloneable": true,
+                                        "code": "VISION_frequency_exam",
+                                        "dataType": "text",
+                                        "disabled": true,
+                                        "displaySequence": 1,
+                                        "filterable": true,
+                                        "hasRules": false,
+                                        "hidden": false,
+                                        "inputType": "text",
+                                        "isNotTranslatable": false,
+                                        "label": "Exam Frequency",
+                                        "multiselect": false,
+                                        "readonly": true,
+                                        "required": false,
+                                        "userValues": "Once every calendar year",
+                                        "values": [
+                                            {
+                                                "disabled": true,
+                                                "readonly": true
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "attributeId": "a1M2h000000JCf9EAG",
+                                        "cloneable": true,
+                                        "code": "VISION_frequency_lens",
+                                        "dataType": "text",
+                                        "disabled": true,
+                                        "displaySequence": 2,
+                                        "filterable": true,
+                                        "hasRules": false,
+                                        "hidden": false,
+                                        "inputType": "text",
+                                        "isNotTranslatable": false,
+                                        "label": "Lens Frequency",
+                                        "multiselect": false,
+                                        "readonly": true,
+                                        "required": false,
+                                        "userValues": "Unlimited",
+                                        "values": [
+                                            {
+                                                "disabled": true,
+                                                "readonly": true
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "attributeId": "a1M2h000000JCfAEAW",
+                                        "cloneable": true,
+                                        "code": "VISION_frequency_frame",
+                                        "dataType": "text",
+                                        "disabled": true,
+                                        "displaySequence": 3,
+                                        "filterable": true,
+                                        "hasRules": false,
+                                        "hidden": false,
+                                        "inputType": "text",
+                                        "isNotTranslatable": false,
+                                        "label": "Frame Frequency",
+                                        "multiselect": false,
+                                        "readonly": true,
+                                        "required": false,
+                                        "userValues": "Unlimited",
+                                        "values": [
+                                            {
+                                                "disabled": true,
+                                                "readonly": true
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "attributeId": "a1M2h000000JCfBEAW",
+                                        "cloneable": true,
+                                        "code": "VISION_frequency_contactLens",
+                                        "dataType": "text",
+                                        "disabled": true,
+                                        "displaySequence": 4,
+                                        "filterable": true,
+                                        "hasRules": false,
+                                        "hidden": false,
+                                        "inputType": "text",
+                                        "isNotTranslatable": false,
+                                        "label": "Contactlens Frequency",
+                                        "multiselect": false,
+                                        "readonly": true,
+                                        "required": false,
+                                        "userValues": "Unlimited",
+                                        "values": [
+                                            {
+                                                "disabled": true,
+                                                "readonly": true
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "totalSize": 4
+                            }
+                        },
+                        {
+                            "Code__c": "VISION_INN",
+                            "Name": "Vision In Network",
+                            "displaySequence": 2005,
+                            "id": "a1L2h000000CkbiEAC",
+                            "productAttributes": {
+                                "records": [
+                                    {
+                                        "attributeGroupType": "In-Network",
+                                        "attributeId": "a1M2h000000JCfCEAW",
+                                        "cloneable": true,
+                                        "code": "VISION_INN_examcopay",
+                                        "dataType": "text",
+                                        "disabled": true,
+                                        "displaySequence": 1,
+                                        "filterable": true,
+                                        "hasRules": false,
+                                        "hidden": false,
+                                        "inputType": "text",
+                                        "isNotTranslatable": false,
+                                        "label": "In Network Exam Copay",
+                                        "multiselect": false,
+                                        "readonly": true,
+                                        "required": false,
+                                        "userValues": "25.00",
+                                        "values": [
+                                            {
+                                                "disabled": true,
+                                                "readonly": true
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "totalSize": 1
+                            }
+                        },
+                        {
+                            "Code__c": "VISION_OON",
+                            "Name": "Vision Out of Network",
+                            "displaySequence": 2010,
+                            "id": "a1L2h000000CkbjEAC",
+                            "productAttributes": {
+                                "records": [
+                                    {
+                                        "attributeGroupType": "Out-Of-Network",
+                                        "attributeId": "a1M2h000000JCfJEAW",
+                                        "cloneable": true,
+                                        "code": "VISION_OON_examreimbursement",
+                                        "dataType": "text",
+                                        "disabled": true,
+                                        "displaySequence": 1,
+                                        "filterable": true,
+                                        "hasRules": false,
+                                        "hidden": false,
+                                        "inputType": "text",
+                                        "isNotTranslatable": false,
+                                        "label": "OON Exam Reimbursement",
+                                        "multiselect": false,
+                                        "readonly": true,
+                                        "required": false,
+                                        "userValues": "42.00",
+                                        "values": [
+                                            {
+                                                "disabled": true,
+                                                "readonly": true
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "totalSize": 1
+                            }
+                        },
+                        {
+                            "Code__c": "VISION_OTHER",
+                            "Name": "Vision Other Plan Details",
+                            "displaySequence": 2100,
+                            "id": "a1L2h000000CkbkEAC",
+                            "productAttributes": {
+                                "records": [
+                                    {
+                                        "attributeId": "a1M2h000000JCfQEAW",
+                                        "cloneable": true,
+                                        "code": "VISION_OTHER_wgseyemedcode",
+                                        "dataType": "text",
+                                        "disabled": true,
+                                        "displaySequence": 1,
+                                        "filterable": true,
+                                        "hasRules": false,
+                                        "hidden": false,
+                                        "inputType": "text",
+                                        "isNotTranslatable": false,
+                                        "label": "Wgs Eyemed Plan Code",
+                                        "multiselect": false,
+                                        "readonly": true,
+                                        "required": false,
+                                        "userValues": "1021766",
+                                        "values": [
+                                            {
+                                                "disabled": true,
+                                                "readonly": true
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "attributeId": "a1M2h000000JCfREAW",
+                                        "cloneable": true,
+                                        "code": "VISION_OTHER_wgseyemedbenefitlevelcode",
+                                        "dataType": "text",
+                                        "disabled": true,
+                                        "displaySequence": 2,
+                                        "filterable": true,
+                                        "hasRules": false,
+                                        "hidden": false,
+                                        "inputType": "text",
+                                        "isNotTranslatable": false,
+                                        "label": "Wgs Eyemed Benefit Level Code",
+                                        "multiselect": false,
+                                        "readonly": true,
+                                        "required": false,
+                                        "userValues": "0106",
+                                        "values": [
+                                            {
+                                                "disabled": true,
+                                                "readonly": true
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "attributeId": "a1M2h000000JCfSEAW",
+                                        "cloneable": true,
+                                        "code": "VISION_OTHER_plansubtype",
+                                        "dataType": "text",
+                                        "disabled": true,
+                                        "displaySequence": 3,
+                                        "filterable": true,
+                                        "hasRules": false,
+                                        "hidden": false,
+                                        "inputType": "text",
+                                        "isNotTranslatable": false,
+                                        "label": "Plan subtype",
+                                        "multiselect": false,
+                                        "readonly": true,
+                                        "required": false,
+                                        "userValues": "Exam Only",
+                                        "values": [
+                                            {
+                                                "disabled": true,
+                                                "readonly": true
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "totalSize": 3
+                            }
+                        }
+                    ],
+                    "totalSize": 4
+                },
+                "displaySequence": -1,
+                "originalIndex": 1,
+                "productId": "01t2h000000uxJ9AAI",
+                "selected": true,
+                "visible": true
+            }
+        ],
+        "displayedCartPlans": [
+            {
+                "$$hashKey": "object:2665",
+                "Contact_Lens_Benefit_and_Frequency": " Not Covered",
+                "Contract_Code__c": "4T6D",
+                "Exam_Copay_and_Frequency": "$10 Once every calendar year",
+                "Frame_Benefit_and_Frequency": " Not Covered",
+                "Id": "01t2h000000ux35AAA",
+                "IsConfigurable__c": false,
+                "IsRecommended__c": false,
+                "MarketSegment__c": "Large Group",
+                "Name": "EX.A.10",
+                "Network__c": "Blue View Vision",
+                "ParticipationType__c": "Employer Paid",
+                "Portfolio_Year__c": "2020",
+                "Prescription_Lens_Copay_and_Frequency": " Not Covered",
+                "Price": "",
+                "ProductCode": "PMT-4T6D",
+                "QLIRecordType__c": "LocalType",
+                "RecordTypeName__c": "Product",
+                "Term__c": "Annual",
+                "attributeCategories": {
+                    "records": [
+                        {
+                            "Code__c": "VISION_frequency",
+                            "Name": "Vision Plan Frequencies",
+                            "displaySequence": 2000,
+                            "id": "a1L2h000000CkbhEAC",
+                            "productAttributes": {
+                                "records": [
+                                    {
+                                        "attributeId": "a1M2h000000JCf8EAG",
+                                        "cloneable": true,
+                                        "code": "VISION_frequency_exam",
+                                        "dataType": "text",
+                                        "disabled": true,
+                                        "displaySequence": 1,
+                                        "filterable": true,
+                                        "hasRules": false,
+                                        "hidden": false,
+                                        "inputType": "text",
+                                        "isNotTranslatable": false,
+                                        "label": "Exam Frequency",
+                                        "multiselect": false,
+                                        "readonly": true,
+                                        "required": false,
+                                        "userValues": "Once every calendar year",
+                                        "values": [
+                                            {
+                                                "disabled": true,
+                                                "readonly": true
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "attributeId": "a1M2h000000JCf9EAG",
+                                        "cloneable": true,
+                                        "code": "VISION_frequency_lens",
+                                        "dataType": "text",
+                                        "disabled": true,
+                                        "displaySequence": 2,
+                                        "filterable": true,
+                                        "hasRules": false,
+                                        "hidden": false,
+                                        "inputType": "text",
+                                        "isNotTranslatable": false,
+                                        "label": "Lens Frequency",
+                                        "multiselect": false,
+                                        "readonly": true,
+                                        "required": false,
+                                        "userValues": "Unlimited",
+                                        "values": [
+                                            {
+                                                "disabled": true,
+                                                "readonly": true
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "attributeId": "a1M2h000000JCfAEAW",
+                                        "cloneable": true,
+                                        "code": "VISION_frequency_frame",
+                                        "dataType": "text",
+                                        "disabled": true,
+                                        "displaySequence": 3,
+                                        "filterable": true,
+                                        "hasRules": false,
+                                        "hidden": false,
+                                        "inputType": "text",
+                                        "isNotTranslatable": false,
+                                        "label": "Frame Frequency",
+                                        "multiselect": false,
+                                        "readonly": true,
+                                        "required": false,
+                                        "userValues": "Unlimited",
+                                        "values": [
+                                            {
+                                                "disabled": true,
+                                                "readonly": true
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "attributeId": "a1M2h000000JCfBEAW",
+                                        "cloneable": true,
+                                        "code": "VISION_frequency_contactLens",
+                                        "dataType": "text",
+                                        "disabled": true,
+                                        "displaySequence": 4,
+                                        "filterable": true,
+                                        "hasRules": false,
+                                        "hidden": false,
+                                        "inputType": "text",
+                                        "isNotTranslatable": false,
+                                        "label": "Contactlens Frequency",
+                                        "multiselect": false,
+                                        "readonly": true,
+                                        "required": false,
+                                        "userValues": "Unlimited",
+                                        "values": [
+                                            {
+                                                "disabled": true,
+                                                "readonly": true
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "totalSize": 4
+                            }
+                        },
+                        {
+                            "Code__c": "VISION_INN",
+                            "Name": "Vision In Network",
+                            "displaySequence": 2005,
+                            "id": "a1L2h000000CkbiEAC",
+                            "productAttributes": {
+                                "records": [
+                                    {
+                                        "attributeGroupType": "In-Network",
+                                        "attributeId": "a1M2h000000JCfCEAW",
+                                        "cloneable": true,
+                                        "code": "VISION_INN_examcopay",
+                                        "dataType": "text",
+                                        "disabled": true,
+                                        "displaySequence": 1,
+                                        "filterable": true,
+                                        "hasRules": false,
+                                        "hidden": false,
+                                        "inputType": "text",
+                                        "isNotTranslatable": false,
+                                        "label": "In Network Exam Copay",
+                                        "multiselect": false,
+                                        "readonly": true,
+                                        "required": false,
+                                        "userValues": "10.00",
+                                        "values": [
+                                            {
+                                                "disabled": true,
+                                                "readonly": true
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "totalSize": 1
+                            }
+                        },
+                        {
+                            "Code__c": "VISION_OON",
+                            "Name": "Vision Out of Network",
+                            "displaySequence": 2010,
+                            "id": "a1L2h000000CkbjEAC",
+                            "productAttributes": {
+                                "records": [
+                                    {
+                                        "attributeGroupType": "Out-Of-Network",
+                                        "attributeId": "a1M2h000000JCfJEAW",
+                                        "cloneable": true,
+                                        "code": "VISION_OON_examreimbursement",
+                                        "dataType": "text",
+                                        "disabled": true,
+                                        "displaySequence": 1,
+                                        "filterable": true,
+                                        "hasRules": false,
+                                        "hidden": false,
+                                        "inputType": "text",
+                                        "isNotTranslatable": false,
+                                        "label": "OON Exam Reimbursement",
+                                        "multiselect": false,
+                                        "readonly": true,
+                                        "required": false,
+                                        "userValues": "42.00",
+                                        "values": [
+                                            {
+                                                "disabled": true,
+                                                "readonly": true
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "totalSize": 1
+                            }
+                        },
+                        {
+                            "Code__c": "VISION_OTHER",
+                            "Name": "Vision Other Plan Details",
+                            "displaySequence": 2100,
+                            "id": "a1L2h000000CkbkEAC",
+                            "productAttributes": {
+                                "records": [
+                                    {
+                                        "attributeId": "a1M2h000000JCfQEAW",
+                                        "cloneable": true,
+                                        "code": "VISION_OTHER_wgseyemedcode",
+                                        "dataType": "text",
+                                        "disabled": true,
+                                        "displaySequence": 1,
+                                        "filterable": true,
+                                        "hasRules": false,
+                                        "hidden": false,
+                                        "inputType": "text",
+                                        "isNotTranslatable": false,
+                                        "label": "Wgs Eyemed Plan Code",
+                                        "multiselect": false,
+                                        "readonly": true,
+                                        "required": false,
+                                        "userValues": "1021766",
+                                        "values": [
+                                            {
+                                                "disabled": true,
+                                                "readonly": true
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "attributeId": "a1M2h000000JCfREAW",
+                                        "cloneable": true,
+                                        "code": "VISION_OTHER_wgseyemedbenefitlevelcode",
+                                        "dataType": "text",
+                                        "disabled": true,
+                                        "displaySequence": 2,
+                                        "filterable": true,
+                                        "hasRules": false,
+                                        "hidden": false,
+                                        "inputType": "text",
+                                        "isNotTranslatable": false,
+                                        "label": "Wgs Eyemed Benefit Level Code",
+                                        "multiselect": false,
+                                        "readonly": true,
+                                        "required": false,
+                                        "userValues": "0103",
+                                        "values": [
+                                            {
+                                                "disabled": true,
+                                                "readonly": true
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "attributeId": "a1M2h000000JCfSEAW",
+                                        "cloneable": true,
+                                        "code": "VISION_OTHER_plansubtype",
+                                        "dataType": "text",
+                                        "disabled": true,
+                                        "displaySequence": 3,
+                                        "filterable": true,
+                                        "hasRules": false,
+                                        "hidden": false,
+                                        "inputType": "text",
+                                        "isNotTranslatable": false,
+                                        "label": "Plan subtype",
+                                        "multiselect": false,
+                                        "readonly": true,
+                                        "required": false,
+                                        "userValues": "Exam Only",
+                                        "values": [
+                                            {
+                                                "disabled": true,
+                                                "readonly": true
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "totalSize": 3
+                            }
+                        }
+                    ],
+                    "totalSize": 4
+                },
+                "displaySequence": -1,
+                "originalIndex": 0,
+                "productId": "01t2h000000ux35AAA",
+                "selected": true,
+                "visible": true
+            },
+            {
+                "$$hashKey": "object:2661",
+                "Contact_Lens_Benefit_and_Frequency": " Not Covered",
+                "Contract_Code__c": "4T91",
+                "Exam_Copay_and_Frequency": "$25 Once every calendar year",
+                "Frame_Benefit_and_Frequency": " Not Covered",
+                "Id": "01t2h000000uxJ9AAI",
+                "IsConfigurable__c": false,
+                "IsRecommended__c": false,
+                "MarketSegment__c": "Large Group",
+                "Name": "EX.A.25",
+                "Network__c": "Blue View Vision",
+                "ParticipationType__c": "Employer Paid",
+                "Portfolio_Year__c": "2020",
+                "Prescription_Lens_Copay_and_Frequency": " Not Covered",
+                "Price": "",
+                "ProductCode": "PMT-4T91",
+                "QLIRecordType__c": "LocalType",
+                "RecordTypeName__c": "Product",
+                "Term__c": "Annual",
+                "attributeCategories": {
+                    "records": [
+                        {
+                            "Code__c": "VISION_frequency",
+                            "Name": "Vision Plan Frequencies",
+                            "displaySequence": 2000,
+                            "id": "a1L2h000000CkbhEAC",
+                            "productAttributes": {
+                                "records": [
+                                    {
+                                        "attributeId": "a1M2h000000JCf8EAG",
+                                        "cloneable": true,
+                                        "code": "VISION_frequency_exam",
+                                        "dataType": "text",
+                                        "disabled": true,
+                                        "displaySequence": 1,
+                                        "filterable": true,
+                                        "hasRules": false,
+                                        "hidden": false,
+                                        "inputType": "text",
+                                        "isNotTranslatable": false,
+                                        "label": "Exam Frequency",
+                                        "multiselect": false,
+                                        "readonly": true,
+                                        "required": false,
+                                        "userValues": "Once every calendar year",
+                                        "values": [
+                                            {
+                                                "disabled": true,
+                                                "readonly": true
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "attributeId": "a1M2h000000JCf9EAG",
+                                        "cloneable": true,
+                                        "code": "VISION_frequency_lens",
+                                        "dataType": "text",
+                                        "disabled": true,
+                                        "displaySequence": 2,
+                                        "filterable": true,
+                                        "hasRules": false,
+                                        "hidden": false,
+                                        "inputType": "text",
+                                        "isNotTranslatable": false,
+                                        "label": "Lens Frequency",
+                                        "multiselect": false,
+                                        "readonly": true,
+                                        "required": false,
+                                        "userValues": "Unlimited",
+                                        "values": [
+                                            {
+                                                "disabled": true,
+                                                "readonly": true
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "attributeId": "a1M2h000000JCfAEAW",
+                                        "cloneable": true,
+                                        "code": "VISION_frequency_frame",
+                                        "dataType": "text",
+                                        "disabled": true,
+                                        "displaySequence": 3,
+                                        "filterable": true,
+                                        "hasRules": false,
+                                        "hidden": false,
+                                        "inputType": "text",
+                                        "isNotTranslatable": false,
+                                        "label": "Frame Frequency",
+                                        "multiselect": false,
+                                        "readonly": true,
+                                        "required": false,
+                                        "userValues": "Unlimited",
+                                        "values": [
+                                            {
+                                                "disabled": true,
+                                                "readonly": true
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "attributeId": "a1M2h000000JCfBEAW",
+                                        "cloneable": true,
+                                        "code": "VISION_frequency_contactLens",
+                                        "dataType": "text",
+                                        "disabled": true,
+                                        "displaySequence": 4,
+                                        "filterable": true,
+                                        "hasRules": false,
+                                        "hidden": false,
+                                        "inputType": "text",
+                                        "isNotTranslatable": false,
+                                        "label": "Contactlens Frequency",
+                                        "multiselect": false,
+                                        "readonly": true,
+                                        "required": false,
+                                        "userValues": "Unlimited",
+                                        "values": [
+                                            {
+                                                "disabled": true,
+                                                "readonly": true
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "totalSize": 4
+                            }
+                        },
+                        {
+                            "Code__c": "VISION_INN",
+                            "Name": "Vision In Network",
+                            "displaySequence": 2005,
+                            "id": "a1L2h000000CkbiEAC",
+                            "productAttributes": {
+                                "records": [
+                                    {
+                                        "attributeGroupType": "In-Network",
+                                        "attributeId": "a1M2h000000JCfCEAW",
+                                        "cloneable": true,
+                                        "code": "VISION_INN_examcopay",
+                                        "dataType": "text",
+                                        "disabled": true,
+                                        "displaySequence": 1,
+                                        "filterable": true,
+                                        "hasRules": false,
+                                        "hidden": false,
+                                        "inputType": "text",
+                                        "isNotTranslatable": false,
+                                        "label": "In Network Exam Copay",
+                                        "multiselect": false,
+                                        "readonly": true,
+                                        "required": false,
+                                        "userValues": "25.00",
+                                        "values": [
+                                            {
+                                                "disabled": true,
+                                                "readonly": true
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "totalSize": 1
+                            }
+                        },
+                        {
+                            "Code__c": "VISION_OON",
+                            "Name": "Vision Out of Network",
+                            "displaySequence": 2010,
+                            "id": "a1L2h000000CkbjEAC",
+                            "productAttributes": {
+                                "records": [
+                                    {
+                                        "attributeGroupType": "Out-Of-Network",
+                                        "attributeId": "a1M2h000000JCfJEAW",
+                                        "cloneable": true,
+                                        "code": "VISION_OON_examreimbursement",
+                                        "dataType": "text",
+                                        "disabled": true,
+                                        "displaySequence": 1,
+                                        "filterable": true,
+                                        "hasRules": false,
+                                        "hidden": false,
+                                        "inputType": "text",
+                                        "isNotTranslatable": false,
+                                        "label": "OON Exam Reimbursement",
+                                        "multiselect": false,
+                                        "readonly": true,
+                                        "required": false,
+                                        "userValues": "42.00",
+                                        "values": [
+                                            {
+                                                "disabled": true,
+                                                "readonly": true
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "totalSize": 1
+                            }
+                        },
+                        {
+                            "Code__c": "VISION_OTHER",
+                            "Name": "Vision Other Plan Details",
+                            "displaySequence": 2100,
+                            "id": "a1L2h000000CkbkEAC",
+                            "productAttributes": {
+                                "records": [
+                                    {
+                                        "attributeId": "a1M2h000000JCfQEAW",
+                                        "cloneable": true,
+                                        "code": "VISION_OTHER_wgseyemedcode",
+                                        "dataType": "text",
+                                        "disabled": true,
+                                        "displaySequence": 1,
+                                        "filterable": true,
+                                        "hasRules": false,
+                                        "hidden": false,
+                                        "inputType": "text",
+                                        "isNotTranslatable": false,
+                                        "label": "Wgs Eyemed Plan Code",
+                                        "multiselect": false,
+                                        "readonly": true,
+                                        "required": false,
+                                        "userValues": "1021766",
+                                        "values": [
+                                            {
+                                                "disabled": true,
+                                                "readonly": true
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "attributeId": "a1M2h000000JCfREAW",
+                                        "cloneable": true,
+                                        "code": "VISION_OTHER_wgseyemedbenefitlevelcode",
+                                        "dataType": "text",
+                                        "disabled": true,
+                                        "displaySequence": 2,
+                                        "filterable": true,
+                                        "hasRules": false,
+                                        "hidden": false,
+                                        "inputType": "text",
+                                        "isNotTranslatable": false,
+                                        "label": "Wgs Eyemed Benefit Level Code",
+                                        "multiselect": false,
+                                        "readonly": true,
+                                        "required": false,
+                                        "userValues": "0106",
+                                        "values": [
+                                            {
+                                                "disabled": true,
+                                                "readonly": true
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "attributeId": "a1M2h000000JCfSEAW",
+                                        "cloneable": true,
+                                        "code": "VISION_OTHER_plansubtype",
+                                        "dataType": "text",
+                                        "disabled": true,
+                                        "displaySequence": 3,
+                                        "filterable": true,
+                                        "hasRules": false,
+                                        "hidden": false,
+                                        "inputType": "text",
+                                        "isNotTranslatable": false,
+                                        "label": "Plan subtype",
+                                        "multiselect": false,
+                                        "readonly": true,
+                                        "required": false,
+                                        "userValues": "Exam Only",
+                                        "values": [
+                                            {
+                                                "disabled": true,
+                                                "readonly": true
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "totalSize": 3
+                            }
+                        }
+                    ],
+                    "totalSize": 4
+                },
+                "displaySequence": -1,
+                "originalIndex": 1,
+                "productId": "01t2h000000uxJ9AAI",
+                "selected": true,
+                "visible": true
+            }
+        ],
+        "insSgpsCartInit": 0.2179829510835578,
+        "nextDisabled": true,
+        "prevDisabled": true,
+        "selectedPlans": [
+            {
+                "$$hashKey": "object:2661",
+                "Contact_Lens_Benefit_and_Frequency": " Not Covered",
+                "Contract_Code__c": "4T91",
+                "Exam_Copay_and_Frequency": "$25 Once every calendar year",
+                "Frame_Benefit_and_Frequency": " Not Covered",
+                "Id": "01t2h000000uxJ9AAI",
+                "IsConfigurable__c": false,
+                "IsRecommended__c": false,
+                "MarketSegment__c": "Large Group",
+                "Name": "EX.A.25",
+                "Network__c": "Blue View Vision",
+                "ParticipationType__c": "Employer Paid",
+                "Portfolio_Year__c": "2020",
+                "Prescription_Lens_Copay_and_Frequency": " Not Covered",
+                "Price": "",
+                "ProductCode": "PMT-4T91",
+                "QLIRecordType__c": "LocalType",
+                "RecordTypeName__c": "Product",
+                "Term__c": "Annual",
+                "attributeCategories": {
+                    "records": [
+                        {
+                            "Code__c": "VISION_frequency",
+                            "Name": "Vision Plan Frequencies",
+                            "displaySequence": 2000,
+                            "id": "a1L2h000000CkbhEAC",
+                            "productAttributes": {
+                                "records": [
+                                    {
+                                        "attributeId": "a1M2h000000JCf8EAG",
+                                        "cloneable": true,
+                                        "code": "VISION_frequency_exam",
+                                        "dataType": "text",
+                                        "disabled": true,
+                                        "displaySequence": 1,
+                                        "filterable": true,
+                                        "hasRules": false,
+                                        "hidden": false,
+                                        "inputType": "text",
+                                        "isNotTranslatable": false,
+                                        "label": "Exam Frequency",
+                                        "multiselect": false,
+                                        "readonly": true,
+                                        "required": false,
+                                        "userValues": "Once every calendar year",
+                                        "values": [
+                                            {
+                                                "disabled": true,
+                                                "readonly": true
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "attributeId": "a1M2h000000JCf9EAG",
+                                        "cloneable": true,
+                                        "code": "VISION_frequency_lens",
+                                        "dataType": "text",
+                                        "disabled": true,
+                                        "displaySequence": 2,
+                                        "filterable": true,
+                                        "hasRules": false,
+                                        "hidden": false,
+                                        "inputType": "text",
+                                        "isNotTranslatable": false,
+                                        "label": "Lens Frequency",
+                                        "multiselect": false,
+                                        "readonly": true,
+                                        "required": false,
+                                        "userValues": "Unlimited",
+                                        "values": [
+                                            {
+                                                "disabled": true,
+                                                "readonly": true
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "attributeId": "a1M2h000000JCfAEAW",
+                                        "cloneable": true,
+                                        "code": "VISION_frequency_frame",
+                                        "dataType": "text",
+                                        "disabled": true,
+                                        "displaySequence": 3,
+                                        "filterable": true,
+                                        "hasRules": false,
+                                        "hidden": false,
+                                        "inputType": "text",
+                                        "isNotTranslatable": false,
+                                        "label": "Frame Frequency",
+                                        "multiselect": false,
+                                        "readonly": true,
+                                        "required": false,
+                                        "userValues": "Unlimited",
+                                        "values": [
+                                            {
+                                                "disabled": true,
+                                                "readonly": true
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "attributeId": "a1M2h000000JCfBEAW",
+                                        "cloneable": true,
+                                        "code": "VISION_frequency_contactLens",
+                                        "dataType": "text",
+                                        "disabled": true,
+                                        "displaySequence": 4,
+                                        "filterable": true,
+                                        "hasRules": false,
+                                        "hidden": false,
+                                        "inputType": "text",
+                                        "isNotTranslatable": false,
+                                        "label": "Contactlens Frequency",
+                                        "multiselect": false,
+                                        "readonly": true,
+                                        "required": false,
+                                        "userValues": "Unlimited",
+                                        "values": [
+                                            {
+                                                "disabled": true,
+                                                "readonly": true
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "totalSize": 4
+                            }
+                        },
+                        {
+                            "Code__c": "VISION_INN",
+                            "Name": "Vision In Network",
+                            "displaySequence": 2005,
+                            "id": "a1L2h000000CkbiEAC",
+                            "productAttributes": {
+                                "records": [
+                                    {
+                                        "attributeGroupType": "In-Network",
+                                        "attributeId": "a1M2h000000JCfCEAW",
+                                        "cloneable": true,
+                                        "code": "VISION_INN_examcopay",
+                                        "dataType": "text",
+                                        "disabled": true,
+                                        "displaySequence": 1,
+                                        "filterable": true,
+                                        "hasRules": false,
+                                        "hidden": false,
+                                        "inputType": "text",
+                                        "isNotTranslatable": false,
+                                        "label": "In Network Exam Copay",
+                                        "multiselect": false,
+                                        "readonly": true,
+                                        "required": false,
+                                        "userValues": "25.00",
+                                        "values": [
+                                            {
+                                                "disabled": true,
+                                                "readonly": true
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "totalSize": 1
+                            }
+                        },
+                        {
+                            "Code__c": "VISION_OON",
+                            "Name": "Vision Out of Network",
+                            "displaySequence": 2010,
+                            "id": "a1L2h000000CkbjEAC",
+                            "productAttributes": {
+                                "records": [
+                                    {
+                                        "attributeGroupType": "Out-Of-Network",
+                                        "attributeId": "a1M2h000000JCfJEAW",
+                                        "cloneable": true,
+                                        "code": "VISION_OON_examreimbursement",
+                                        "dataType": "text",
+                                        "disabled": true,
+                                        "displaySequence": 1,
+                                        "filterable": true,
+                                        "hasRules": false,
+                                        "hidden": false,
+                                        "inputType": "text",
+                                        "isNotTranslatable": false,
+                                        "label": "OON Exam Reimbursement",
+                                        "multiselect": false,
+                                        "readonly": true,
+                                        "required": false,
+                                        "userValues": "42.00",
+                                        "values": [
+                                            {
+                                                "disabled": true,
+                                                "readonly": true
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "totalSize": 1
+                            }
+                        },
+                        {
+                            "Code__c": "VISION_OTHER",
+                            "Name": "Vision Other Plan Details",
+                            "displaySequence": 2100,
+                            "id": "a1L2h000000CkbkEAC",
+                            "productAttributes": {
+                                "records": [
+                                    {
+                                        "attributeId": "a1M2h000000JCfQEAW",
+                                        "cloneable": true,
+                                        "code": "VISION_OTHER_wgseyemedcode",
+                                        "dataType": "text",
+                                        "disabled": true,
+                                        "displaySequence": 1,
+                                        "filterable": true,
+                                        "hasRules": false,
+                                        "hidden": false,
+                                        "inputType": "text",
+                                        "isNotTranslatable": false,
+                                        "label": "Wgs Eyemed Plan Code",
+                                        "multiselect": false,
+                                        "readonly": true,
+                                        "required": false,
+                                        "userValues": "1021766",
+                                        "values": [
+                                            {
+                                                "disabled": true,
+                                                "readonly": true
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "attributeId": "a1M2h000000JCfREAW",
+                                        "cloneable": true,
+                                        "code": "VISION_OTHER_wgseyemedbenefitlevelcode",
+                                        "dataType": "text",
+                                        "disabled": true,
+                                        "displaySequence": 2,
+                                        "filterable": true,
+                                        "hasRules": false,
+                                        "hidden": false,
+                                        "inputType": "text",
+                                        "isNotTranslatable": false,
+                                        "label": "Wgs Eyemed Benefit Level Code",
+                                        "multiselect": false,
+                                        "readonly": true,
+                                        "required": false,
+                                        "userValues": "0106",
+                                        "values": [
+                                            {
+                                                "disabled": true,
+                                                "readonly": true
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "attributeId": "a1M2h000000JCfSEAW",
+                                        "cloneable": true,
+                                        "code": "VISION_OTHER_plansubtype",
+                                        "dataType": "text",
+                                        "disabled": true,
+                                        "displaySequence": 3,
+                                        "filterable": true,
+                                        "hasRules": false,
+                                        "hidden": false,
+                                        "inputType": "text",
+                                        "isNotTranslatable": false,
+                                        "label": "Plan subtype",
+                                        "multiselect": false,
+                                        "readonly": true,
+                                        "required": false,
+                                        "userValues": "Exam Only",
+                                        "values": [
+                                            {
+                                                "disabled": true,
+                                                "readonly": true
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "totalSize": 3
+                            }
+                        }
+                    ],
+                    "totalSize": 4
+                },
+                "displaySequence": -1,
+                "originalIndex": 1,
+                "productId": "01t2h000000uxJ9AAI",
+                "selected": true,
+                "visible": true
+            },
+            {
+                "$$hashKey": "object:2665",
+                "Contact_Lens_Benefit_and_Frequency": " Not Covered",
+                "Contract_Code__c": "4T6D",
+                "Exam_Copay_and_Frequency": "$10 Once every calendar year",
+                "Frame_Benefit_and_Frequency": " Not Covered",
+                "Id": "01t2h000000ux35AAA",
+                "IsConfigurable__c": false,
+                "IsRecommended__c": false,
+                "MarketSegment__c": "Large Group",
+                "Name": "EX.A.10",
+                "Network__c": "Blue View Vision",
+                "ParticipationType__c": "Employer Paid",
+                "Portfolio_Year__c": "2020",
+                "Prescription_Lens_Copay_and_Frequency": " Not Covered",
+                "Price": "",
+                "ProductCode": "PMT-4T6D",
+                "QLIRecordType__c": "LocalType",
+                "RecordTypeName__c": "Product",
+                "Term__c": "Annual",
+                "attributeCategories": {
+                    "records": [
+                        {
+                            "Code__c": "VISION_frequency",
+                            "Name": "Vision Plan Frequencies",
+                            "displaySequence": 2000,
+                            "id": "a1L2h000000CkbhEAC",
+                            "productAttributes": {
+                                "records": [
+                                    {
+                                        "attributeId": "a1M2h000000JCf8EAG",
+                                        "cloneable": true,
+                                        "code": "VISION_frequency_exam",
+                                        "dataType": "text",
+                                        "disabled": true,
+                                        "displaySequence": 1,
+                                        "filterable": true,
+                                        "hasRules": false,
+                                        "hidden": false,
+                                        "inputType": "text",
+                                        "isNotTranslatable": false,
+                                        "label": "Exam Frequency",
+                                        "multiselect": false,
+                                        "readonly": true,
+                                        "required": false,
+                                        "userValues": "Once every calendar year",
+                                        "values": [
+                                            {
+                                                "disabled": true,
+                                                "readonly": true
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "attributeId": "a1M2h000000JCf9EAG",
+                                        "cloneable": true,
+                                        "code": "VISION_frequency_lens",
+                                        "dataType": "text",
+                                        "disabled": true,
+                                        "displaySequence": 2,
+                                        "filterable": true,
+                                        "hasRules": false,
+                                        "hidden": false,
+                                        "inputType": "text",
+                                        "isNotTranslatable": false,
+                                        "label": "Lens Frequency",
+                                        "multiselect": false,
+                                        "readonly": true,
+                                        "required": false,
+                                        "userValues": "Unlimited",
+                                        "values": [
+                                            {
+                                                "disabled": true,
+                                                "readonly": true
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "attributeId": "a1M2h000000JCfAEAW",
+                                        "cloneable": true,
+                                        "code": "VISION_frequency_frame",
+                                        "dataType": "text",
+                                        "disabled": true,
+                                        "displaySequence": 3,
+                                        "filterable": true,
+                                        "hasRules": false,
+                                        "hidden": false,
+                                        "inputType": "text",
+                                        "isNotTranslatable": false,
+                                        "label": "Frame Frequency",
+                                        "multiselect": false,
+                                        "readonly": true,
+                                        "required": false,
+                                        "userValues": "Unlimited",
+                                        "values": [
+                                            {
+                                                "disabled": true,
+                                                "readonly": true
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "attributeId": "a1M2h000000JCfBEAW",
+                                        "cloneable": true,
+                                        "code": "VISION_frequency_contactLens",
+                                        "dataType": "text",
+                                        "disabled": true,
+                                        "displaySequence": 4,
+                                        "filterable": true,
+                                        "hasRules": false,
+                                        "hidden": false,
+                                        "inputType": "text",
+                                        "isNotTranslatable": false,
+                                        "label": "Contactlens Frequency",
+                                        "multiselect": false,
+                                        "readonly": true,
+                                        "required": false,
+                                        "userValues": "Unlimited",
+                                        "values": [
+                                            {
+                                                "disabled": true,
+                                                "readonly": true
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "totalSize": 4
+                            }
+                        },
+                        {
+                            "Code__c": "VISION_INN",
+                            "Name": "Vision In Network",
+                            "displaySequence": 2005,
+                            "id": "a1L2h000000CkbiEAC",
+                            "productAttributes": {
+                                "records": [
+                                    {
+                                        "attributeGroupType": "In-Network",
+                                        "attributeId": "a1M2h000000JCfCEAW",
+                                        "cloneable": true,
+                                        "code": "VISION_INN_examcopay",
+                                        "dataType": "text",
+                                        "disabled": true,
+                                        "displaySequence": 1,
+                                        "filterable": true,
+                                        "hasRules": false,
+                                        "hidden": false,
+                                        "inputType": "text",
+                                        "isNotTranslatable": false,
+                                        "label": "In Network Exam Copay",
+                                        "multiselect": false,
+                                        "readonly": true,
+                                        "required": false,
+                                        "userValues": "10.00",
+                                        "values": [
+                                            {
+                                                "disabled": true,
+                                                "readonly": true
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "totalSize": 1
+                            }
+                        },
+                        {
+                            "Code__c": "VISION_OON",
+                            "Name": "Vision Out of Network",
+                            "displaySequence": 2010,
+                            "id": "a1L2h000000CkbjEAC",
+                            "productAttributes": {
+                                "records": [
+                                    {
+                                        "attributeGroupType": "Out-Of-Network",
+                                        "attributeId": "a1M2h000000JCfJEAW",
+                                        "cloneable": true,
+                                        "code": "VISION_OON_examreimbursement",
+                                        "dataType": "text",
+                                        "disabled": true,
+                                        "displaySequence": 1,
+                                        "filterable": true,
+                                        "hasRules": false,
+                                        "hidden": false,
+                                        "inputType": "text",
+                                        "isNotTranslatable": false,
+                                        "label": "OON Exam Reimbursement",
+                                        "multiselect": false,
+                                        "readonly": true,
+                                        "required": false,
+                                        "userValues": "42.00",
+                                        "values": [
+                                            {
+                                                "disabled": true,
+                                                "readonly": true
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "totalSize": 1
+                            }
+                        },
+                        {
+                            "Code__c": "VISION_OTHER",
+                            "Name": "Vision Other Plan Details",
+                            "displaySequence": 2100,
+                            "id": "a1L2h000000CkbkEAC",
+                            "productAttributes": {
+                                "records": [
+                                    {
+                                        "attributeId": "a1M2h000000JCfQEAW",
+                                        "cloneable": true,
+                                        "code": "VISION_OTHER_wgseyemedcode",
+                                        "dataType": "text",
+                                        "disabled": true,
+                                        "displaySequence": 1,
+                                        "filterable": true,
+                                        "hasRules": false,
+                                        "hidden": false,
+                                        "inputType": "text",
+                                        "isNotTranslatable": false,
+                                        "label": "Wgs Eyemed Plan Code",
+                                        "multiselect": false,
+                                        "readonly": true,
+                                        "required": false,
+                                        "userValues": "1021766",
+                                        "values": [
+                                            {
+                                                "disabled": true,
+                                                "readonly": true
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "attributeId": "a1M2h000000JCfREAW",
+                                        "cloneable": true,
+                                        "code": "VISION_OTHER_wgseyemedbenefitlevelcode",
+                                        "dataType": "text",
+                                        "disabled": true,
+                                        "displaySequence": 2,
+                                        "filterable": true,
+                                        "hasRules": false,
+                                        "hidden": false,
+                                        "inputType": "text",
+                                        "isNotTranslatable": false,
+                                        "label": "Wgs Eyemed Benefit Level Code",
+                                        "multiselect": false,
+                                        "readonly": true,
+                                        "required": false,
+                                        "userValues": "0103",
+                                        "values": [
+                                            {
+                                                "disabled": true,
+                                                "readonly": true
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "attributeId": "a1M2h000000JCfSEAW",
+                                        "cloneable": true,
+                                        "code": "VISION_OTHER_plansubtype",
+                                        "dataType": "text",
+                                        "disabled": true,
+                                        "displaySequence": 3,
+                                        "filterable": true,
+                                        "hasRules": false,
+                                        "hidden": false,
+                                        "inputType": "text",
+                                        "isNotTranslatable": false,
+                                        "label": "Plan subtype",
+                                        "multiselect": false,
+                                        "readonly": true,
+                                        "required": false,
+                                        "userValues": "Exam Only",
+                                        "values": [
+                                            {
+                                                "disabled": true,
+                                                "readonly": true
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "totalSize": 3
+                            }
+                        }
+                    ],
+                    "totalSize": 4
+                },
+                "displaySequence": -1,
+                "originalIndex": 0,
+                "productId": "01t2h000000ux35AAA",
+                "selected": true,
+                "visible": true
+            }
+        ],
+        "selectedPlansMap": {
+            "01t2h000000ux35AAA": {
+                "$$hashKey": "object:2665",
+                "Contact_Lens_Benefit_and_Frequency": " Not Covered",
+                "Contract_Code__c": "4T6D",
+                "Exam_Copay_and_Frequency": "$10 Once every calendar year",
+                "Frame_Benefit_and_Frequency": " Not Covered",
+                "Id": "01t2h000000ux35AAA",
+                "IsConfigurable__c": false,
+                "IsRecommended__c": false,
+                "MarketSegment__c": "Large Group",
+                "Name": "EX.A.10",
+                "Network__c": "Blue View Vision",
+                "ParticipationType__c": "Employer Paid",
+                "Portfolio_Year__c": "2020",
+                "Prescription_Lens_Copay_and_Frequency": " Not Covered",
+                "Price": "",
+                "ProductCode": "PMT-4T6D",
+                "QLIRecordType__c": "LocalType",
+                "RecordTypeName__c": "Product",
+                "Term__c": "Annual",
+                "attributeCategories": {
+                    "records": [
+                        {
+                            "Code__c": "VISION_frequency",
+                            "Name": "Vision Plan Frequencies",
+                            "displaySequence": 2000,
+                            "id": "a1L2h000000CkbhEAC",
+                            "productAttributes": {
+                                "records": [
+                                    {
+                                        "attributeId": "a1M2h000000JCf8EAG",
+                                        "cloneable": true,
+                                        "code": "VISION_frequency_exam",
+                                        "dataType": "text",
+                                        "disabled": true,
+                                        "displaySequence": 1,
+                                        "filterable": true,
+                                        "hasRules": false,
+                                        "hidden": false,
+                                        "inputType": "text",
+                                        "isNotTranslatable": false,
+                                        "label": "Exam Frequency",
+                                        "multiselect": false,
+                                        "readonly": true,
+                                        "required": false,
+                                        "userValues": "Once every calendar year",
+                                        "values": [
+                                            {
+                                                "disabled": true,
+                                                "readonly": true
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "attributeId": "a1M2h000000JCf9EAG",
+                                        "cloneable": true,
+                                        "code": "VISION_frequency_lens",
+                                        "dataType": "text",
+                                        "disabled": true,
+                                        "displaySequence": 2,
+                                        "filterable": true,
+                                        "hasRules": false,
+                                        "hidden": false,
+                                        "inputType": "text",
+                                        "isNotTranslatable": false,
+                                        "label": "Lens Frequency",
+                                        "multiselect": false,
+                                        "readonly": true,
+                                        "required": false,
+                                        "userValues": "Unlimited",
+                                        "values": [
+                                            {
+                                                "disabled": true,
+                                                "readonly": true
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "attributeId": "a1M2h000000JCfAEAW",
+                                        "cloneable": true,
+                                        "code": "VISION_frequency_frame",
+                                        "dataType": "text",
+                                        "disabled": true,
+                                        "displaySequence": 3,
+                                        "filterable": true,
+                                        "hasRules": false,
+                                        "hidden": false,
+                                        "inputType": "text",
+                                        "isNotTranslatable": false,
+                                        "label": "Frame Frequency",
+                                        "multiselect": false,
+                                        "readonly": true,
+                                        "required": false,
+                                        "userValues": "Unlimited",
+                                        "values": [
+                                            {
+                                                "disabled": true,
+                                                "readonly": true
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "attributeId": "a1M2h000000JCfBEAW",
+                                        "cloneable": true,
+                                        "code": "VISION_frequency_contactLens",
+                                        "dataType": "text",
+                                        "disabled": true,
+                                        "displaySequence": 4,
+                                        "filterable": true,
+                                        "hasRules": false,
+                                        "hidden": false,
+                                        "inputType": "text",
+                                        "isNotTranslatable": false,
+                                        "label": "Contactlens Frequency",
+                                        "multiselect": false,
+                                        "readonly": true,
+                                        "required": false,
+                                        "userValues": "Unlimited",
+                                        "values": [
+                                            {
+                                                "disabled": true,
+                                                "readonly": true
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "totalSize": 4
+                            }
+                        },
+                        {
+                            "Code__c": "VISION_INN",
+                            "Name": "Vision In Network",
+                            "displaySequence": 2005,
+                            "id": "a1L2h000000CkbiEAC",
+                            "productAttributes": {
+                                "records": [
+                                    {
+                                        "attributeGroupType": "In-Network",
+                                        "attributeId": "a1M2h000000JCfCEAW",
+                                        "cloneable": true,
+                                        "code": "VISION_INN_examcopay",
+                                        "dataType": "text",
+                                        "disabled": true,
+                                        "displaySequence": 1,
+                                        "filterable": true,
+                                        "hasRules": false,
+                                        "hidden": false,
+                                        "inputType": "text",
+                                        "isNotTranslatable": false,
+                                        "label": "In Network Exam Copay",
+                                        "multiselect": false,
+                                        "readonly": true,
+                                        "required": false,
+                                        "userValues": "10.00",
+                                        "values": [
+                                            {
+                                                "disabled": true,
+                                                "readonly": true
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "totalSize": 1
+                            }
+                        },
+                        {
+                            "Code__c": "VISION_OON",
+                            "Name": "Vision Out of Network",
+                            "displaySequence": 2010,
+                            "id": "a1L2h000000CkbjEAC",
+                            "productAttributes": {
+                                "records": [
+                                    {
+                                        "attributeGroupType": "Out-Of-Network",
+                                        "attributeId": "a1M2h000000JCfJEAW",
+                                        "cloneable": true,
+                                        "code": "VISION_OON_examreimbursement",
+                                        "dataType": "text",
+                                        "disabled": true,
+                                        "displaySequence": 1,
+                                        "filterable": true,
+                                        "hasRules": false,
+                                        "hidden": false,
+                                        "inputType": "text",
+                                        "isNotTranslatable": false,
+                                        "label": "OON Exam Reimbursement",
+                                        "multiselect": false,
+                                        "readonly": true,
+                                        "required": false,
+                                        "userValues": "42.00",
+                                        "values": [
+                                            {
+                                                "disabled": true,
+                                                "readonly": true
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "totalSize": 1
+                            }
+                        },
+                        {
+                            "Code__c": "VISION_OTHER",
+                            "Name": "Vision Other Plan Details",
+                            "displaySequence": 2100,
+                            "id": "a1L2h000000CkbkEAC",
+                            "productAttributes": {
+                                "records": [
+                                    {
+                                        "attributeId": "a1M2h000000JCfQEAW",
+                                        "cloneable": true,
+                                        "code": "VISION_OTHER_wgseyemedcode",
+                                        "dataType": "text",
+                                        "disabled": true,
+                                        "displaySequence": 1,
+                                        "filterable": true,
+                                        "hasRules": false,
+                                        "hidden": false,
+                                        "inputType": "text",
+                                        "isNotTranslatable": false,
+                                        "label": "Wgs Eyemed Plan Code",
+                                        "multiselect": false,
+                                        "readonly": true,
+                                        "required": false,
+                                        "userValues": "1021766",
+                                        "values": [
+                                            {
+                                                "disabled": true,
+                                                "readonly": true
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "attributeId": "a1M2h000000JCfREAW",
+                                        "cloneable": true,
+                                        "code": "VISION_OTHER_wgseyemedbenefitlevelcode",
+                                        "dataType": "text",
+                                        "disabled": true,
+                                        "displaySequence": 2,
+                                        "filterable": true,
+                                        "hasRules": false,
+                                        "hidden": false,
+                                        "inputType": "text",
+                                        "isNotTranslatable": false,
+                                        "label": "Wgs Eyemed Benefit Level Code",
+                                        "multiselect": false,
+                                        "readonly": true,
+                                        "required": false,
+                                        "userValues": "0103",
+                                        "values": [
+                                            {
+                                                "disabled": true,
+                                                "readonly": true
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "attributeId": "a1M2h000000JCfSEAW",
+                                        "cloneable": true,
+                                        "code": "VISION_OTHER_plansubtype",
+                                        "dataType": "text",
+                                        "disabled": true,
+                                        "displaySequence": 3,
+                                        "filterable": true,
+                                        "hasRules": false,
+                                        "hidden": false,
+                                        "inputType": "text",
+                                        "isNotTranslatable": false,
+                                        "label": "Plan subtype",
+                                        "multiselect": false,
+                                        "readonly": true,
+                                        "required": false,
+                                        "userValues": "Exam Only",
+                                        "values": [
+                                            {
+                                                "disabled": true,
+                                                "readonly": true
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "totalSize": 3
+                            }
+                        }
+                    ],
+                    "totalSize": 4
+                },
+                "displaySequence": -1,
+                "originalIndex": 0,
+                "productId": "01t2h000000ux35AAA",
+                "selected": true,
+                "visible": true
+            },
+            "01t2h000000uxJ9AAI": {
+                "$$hashKey": "object:2661",
+                "Contact_Lens_Benefit_and_Frequency": " Not Covered",
+                "Contract_Code__c": "4T91",
+                "Exam_Copay_and_Frequency": "$25 Once every calendar year",
+                "Frame_Benefit_and_Frequency": " Not Covered",
+                "Id": "01t2h000000uxJ9AAI",
+                "IsConfigurable__c": false,
+                "IsRecommended__c": false,
+                "MarketSegment__c": "Large Group",
+                "Name": "EX.A.25",
+                "Network__c": "Blue View Vision",
+                "ParticipationType__c": "Employer Paid",
+                "Portfolio_Year__c": "2020",
+                "Prescription_Lens_Copay_and_Frequency": " Not Covered",
+                "Price": "",
+                "ProductCode": "PMT-4T91",
+                "QLIRecordType__c": "LocalType",
+                "RecordTypeName__c": "Product",
+                "Term__c": "Annual",
+                "attributeCategories": {
+                    "records": [
+                        {
+                            "Code__c": "VISION_frequency",
+                            "Name": "Vision Plan Frequencies",
+                            "displaySequence": 2000,
+                            "id": "a1L2h000000CkbhEAC",
+                            "productAttributes": {
+                                "records": [
+                                    {
+                                        "attributeId": "a1M2h000000JCf8EAG",
+                                        "cloneable": true,
+                                        "code": "VISION_frequency_exam",
+                                        "dataType": "text",
+                                        "disabled": true,
+                                        "displaySequence": 1,
+                                        "filterable": true,
+                                        "hasRules": false,
+                                        "hidden": false,
+                                        "inputType": "text",
+                                        "isNotTranslatable": false,
+                                        "label": "Exam Frequency",
+                                        "multiselect": false,
+                                        "readonly": true,
+                                        "required": false,
+                                        "userValues": "Once every calendar year",
+                                        "values": [
+                                            {
+                                                "disabled": true,
+                                                "readonly": true
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "attributeId": "a1M2h000000JCf9EAG",
+                                        "cloneable": true,
+                                        "code": "VISION_frequency_lens",
+                                        "dataType": "text",
+                                        "disabled": true,
+                                        "displaySequence": 2,
+                                        "filterable": true,
+                                        "hasRules": false,
+                                        "hidden": false,
+                                        "inputType": "text",
+                                        "isNotTranslatable": false,
+                                        "label": "Lens Frequency",
+                                        "multiselect": false,
+                                        "readonly": true,
+                                        "required": false,
+                                        "userValues": "Unlimited",
+                                        "values": [
+                                            {
+                                                "disabled": true,
+                                                "readonly": true
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "attributeId": "a1M2h000000JCfAEAW",
+                                        "cloneable": true,
+                                        "code": "VISION_frequency_frame",
+                                        "dataType": "text",
+                                        "disabled": true,
+                                        "displaySequence": 3,
+                                        "filterable": true,
+                                        "hasRules": false,
+                                        "hidden": false,
+                                        "inputType": "text",
+                                        "isNotTranslatable": false,
+                                        "label": "Frame Frequency",
+                                        "multiselect": false,
+                                        "readonly": true,
+                                        "required": false,
+                                        "userValues": "Unlimited",
+                                        "values": [
+                                            {
+                                                "disabled": true,
+                                                "readonly": true
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "attributeId": "a1M2h000000JCfBEAW",
+                                        "cloneable": true,
+                                        "code": "VISION_frequency_contactLens",
+                                        "dataType": "text",
+                                        "disabled": true,
+                                        "displaySequence": 4,
+                                        "filterable": true,
+                                        "hasRules": false,
+                                        "hidden": false,
+                                        "inputType": "text",
+                                        "isNotTranslatable": false,
+                                        "label": "Contactlens Frequency",
+                                        "multiselect": false,
+                                        "readonly": true,
+                                        "required": false,
+                                        "userValues": "Unlimited",
+                                        "values": [
+                                            {
+                                                "disabled": true,
+                                                "readonly": true
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "totalSize": 4
+                            }
+                        },
+                        {
+                            "Code__c": "VISION_INN",
+                            "Name": "Vision In Network",
+                            "displaySequence": 2005,
+                            "id": "a1L2h000000CkbiEAC",
+                            "productAttributes": {
+                                "records": [
+                                    {
+                                        "attributeGroupType": "In-Network",
+                                        "attributeId": "a1M2h000000JCfCEAW",
+                                        "cloneable": true,
+                                        "code": "VISION_INN_examcopay",
+                                        "dataType": "text",
+                                        "disabled": true,
+                                        "displaySequence": 1,
+                                        "filterable": true,
+                                        "hasRules": false,
+                                        "hidden": false,
+                                        "inputType": "text",
+                                        "isNotTranslatable": false,
+                                        "label": "In Network Exam Copay",
+                                        "multiselect": false,
+                                        "readonly": true,
+                                        "required": false,
+                                        "userValues": "25.00",
+                                        "values": [
+                                            {
+                                                "disabled": true,
+                                                "readonly": true
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "totalSize": 1
+                            }
+                        },
+                        {
+                            "Code__c": "VISION_OON",
+                            "Name": "Vision Out of Network",
+                            "displaySequence": 2010,
+                            "id": "a1L2h000000CkbjEAC",
+                            "productAttributes": {
+                                "records": [
+                                    {
+                                        "attributeGroupType": "Out-Of-Network",
+                                        "attributeId": "a1M2h000000JCfJEAW",
+                                        "cloneable": true,
+                                        "code": "VISION_OON_examreimbursement",
+                                        "dataType": "text",
+                                        "disabled": true,
+                                        "displaySequence": 1,
+                                        "filterable": true,
+                                        "hasRules": false,
+                                        "hidden": false,
+                                        "inputType": "text",
+                                        "isNotTranslatable": false,
+                                        "label": "OON Exam Reimbursement",
+                                        "multiselect": false,
+                                        "readonly": true,
+                                        "required": false,
+                                        "userValues": "42.00",
+                                        "values": [
+                                            {
+                                                "disabled": true,
+                                                "readonly": true
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "totalSize": 1
+                            }
+                        },
+                        {
+                            "Code__c": "VISION_OTHER",
+                            "Name": "Vision Other Plan Details",
+                            "displaySequence": 2100,
+                            "id": "a1L2h000000CkbkEAC",
+                            "productAttributes": {
+                                "records": [
+                                    {
+                                        "attributeId": "a1M2h000000JCfQEAW",
+                                        "cloneable": true,
+                                        "code": "VISION_OTHER_wgseyemedcode",
+                                        "dataType": "text",
+                                        "disabled": true,
+                                        "displaySequence": 1,
+                                        "filterable": true,
+                                        "hasRules": false,
+                                        "hidden": false,
+                                        "inputType": "text",
+                                        "isNotTranslatable": false,
+                                        "label": "Wgs Eyemed Plan Code",
+                                        "multiselect": false,
+                                        "readonly": true,
+                                        "required": false,
+                                        "userValues": "1021766",
+                                        "values": [
+                                            {
+                                                "disabled": true,
+                                                "readonly": true
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "attributeId": "a1M2h000000JCfREAW",
+                                        "cloneable": true,
+                                        "code": "VISION_OTHER_wgseyemedbenefitlevelcode",
+                                        "dataType": "text",
+                                        "disabled": true,
+                                        "displaySequence": 2,
+                                        "filterable": true,
+                                        "hasRules": false,
+                                        "hidden": false,
+                                        "inputType": "text",
+                                        "isNotTranslatable": false,
+                                        "label": "Wgs Eyemed Benefit Level Code",
+                                        "multiselect": false,
+                                        "readonly": true,
+                                        "required": false,
+                                        "userValues": "0106",
+                                        "values": [
+                                            {
+                                                "disabled": true,
+                                                "readonly": true
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "attributeId": "a1M2h000000JCfSEAW",
+                                        "cloneable": true,
+                                        "code": "VISION_OTHER_plansubtype",
+                                        "dataType": "text",
+                                        "disabled": true,
+                                        "displaySequence": 3,
+                                        "filterable": true,
+                                        "hasRules": false,
+                                        "hidden": false,
+                                        "inputType": "text",
+                                        "isNotTranslatable": false,
+                                        "label": "Plan subtype",
+                                        "multiselect": false,
+                                        "readonly": true,
+                                        "required": false,
+                                        "userValues": "Exam Only",
+                                        "values": [
+                                            {
+                                                "disabled": true,
+                                                "readonly": true
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "totalSize": 3
+                            }
+                        }
+                    ],
+                    "totalSize": 4
+                },
+                "displaySequence": -1,
+                "originalIndex": 1,
+                "productId": "01t2h000000uxJ9AAI",
+                "selected": true,
+                "visible": true
+            }
+        }
+    },
+    "userCurrencyCode": "USD",
+    "userId": "00541000006Ejf8AAC",
+    "userName": "anthem-lg-devops@autorabit.com.iceprod.ruat",
+    "userProfile": "System Administrator",
+    "userTimeZone": -240,
+    "visionFilterFrame": "Category__c:Plan,Product_Type__c:Vision,Market__c:CA,Plan_Type__c:Standard,ParticipationType__c:Employer Paid,MarketingStatus__c:Marketed",
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "AP-END": 5626,
+        "AP-FamilySelection": 8587,
+        "AP-SetProductFamilyValues": 16,
+        "AP-SetValues": 160,
+        "AP-SetVariableBundleStageValues": 52,
+        "AP-VisionPlanSelection": 115901,
+        "AP-VisionPlanSelectionConfirmation": 5362,
+        "ClinicalName": 32,
+        "ClinicalProductSelected": 69,
+        "CountHPCCVal": 31,
+        "CustomVisionProduct_Extract": 1926,
+        "CustomVisionProductsDisplay": 4524,
+        "DR-CustomVisionProductCreation": 41090,
+        "DR-ExtractQuote": 1875,
+        "DR-HPCCCodeRetrieval": 1851,
+        "DR-ProductFamilyRetrieval": 1354,
+        "DR-ProductRetrieval": 2533,
+        "DR-QuoteDetails": 1643,
+        "DR-SitusState": 1900,
+        "DR-StandardPlanDiscount": 784,
+        "ExtractAccountId": 3232,
+        "GlobalSetValues": 69,
+        "HPCCSetValues": 46,
+        "OmniScriptSessionToken": "e2631256-2e75-487a-b98e-cb518b54ba4b",
+        "QLD": 36895,
+        "RA-HRAHSAProduct": 1387,
+        "SVinsSgpsCartInit": 229,
+        "SelectServiceProvider": 6842,
+        "SetAccountId": 53,
+        "SetConstants": 220,
+        "SetPlanList": 247,
+        "SetValues29": 30,
+        "SetValues4": 128,
+        "SetValues5": 121,
+        "SetValuesHSA": 120,
+        "SetValuesHSABlank": 87,
+        "VisionProductSelection": 43389
+    }
+}

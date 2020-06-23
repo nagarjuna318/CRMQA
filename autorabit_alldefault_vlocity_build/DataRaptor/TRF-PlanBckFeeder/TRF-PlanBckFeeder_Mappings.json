@@ -1,0 +1,93 @@
+[
+    {
+        "%vlocity_namespace%__DomainObjectAPIName__c": "json",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 1,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "PD:PD-Block:BCK-PlanType:PTContractCodes",
+        "%vlocity_namespace%__InterfaceFieldAPIName__c": "undefined:selectedPlans:Contract_Code__c",
+        "%vlocity_namespace%__IsDisabled__c": false,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__MapId__c": "TRF-PlanBckFeederCustom8186",
+        "%vlocity_namespace%__UpsertKey__c": false,
+        "Name": "TRF-PlanBckFeeder",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    },
+    {
+        "%vlocity_namespace%__DomainObjectAPIName__c": "json",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 1,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "PD:PD-Block:BCK-PlanType:PTHPCC_Code",
+        "%vlocity_namespace%__InterfaceFieldAPIName__c": "undefined:selectedPlans:HPCC_Code__c",
+        "%vlocity_namespace%__IsDisabled__c": false,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__MapId__c": "TRF-PlanBckFeederCustom3707",
+        "%vlocity_namespace%__UpsertKey__c": false,
+        "Name": "TRF-PlanBckFeeder",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    },
+    {
+        "%vlocity_namespace%__DomainObjectAPIName__c": "json",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 1,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "PD:PD-Block:BCK-PlanType:PTNetwork",
+        "%vlocity_namespace%__InterfaceFieldAPIName__c": "undefined:selectedPlans:Network__c",
+        "%vlocity_namespace%__IsDisabled__c": false,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__MapId__c": "TRF-PlanBckFeederCustom4129",
+        "%vlocity_namespace%__UpsertKey__c": false,
+        "Name": "TRF-PlanBckFeeder",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    },
+    {
+        "%vlocity_namespace%__DomainObjectAPIName__c": "json",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 1,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "PD:PD-Block:BCK-PlanType:PTParentProdId",
+        "%vlocity_namespace%__InterfaceFieldAPIName__c": "undefined:selectedPlans:ParentProduct__c",
+        "%vlocity_namespace%__IsDisabled__c": false,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__MapId__c": "TRF-PlanBckFeederCustom3946",
+        "%vlocity_namespace%__UpsertKey__c": false,
+        "Name": "TRF-PlanBckFeeder",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    },
+    {
+        "%vlocity_namespace%__DomainObjectAPIName__c": "json",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 1,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "PD:PD-Block:BCK-PlanType:PTPlanName",
+        "%vlocity_namespace%__InterfaceFieldAPIName__c": "undefined:selectedPlans:Name",
+        "%vlocity_namespace%__IsDisabled__c": false,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__MapId__c": "TRF-PlanBckFeederCustom766",
+        "%vlocity_namespace%__UpsertKey__c": false,
+        "Name": "TRF-PlanBckFeeder",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    },
+    {
+        "%vlocity_namespace%__DomainObjectAPIName__c": "json",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 1,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "PD:PD-Block:BCK-PlanType:PTProductId",
+        "%vlocity_namespace%__InterfaceFieldAPIName__c": "undefined:selectedPlans:productId",
+        "%vlocity_namespace%__IsDisabled__c": false,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__MapId__c": "TRF-PlanBckFeederCustom3899",
+        "%vlocity_namespace%__UpsertKey__c": false,
+        "Name": "TRF-PlanBckFeeder",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    },
+    {
+        "%vlocity_namespace%__DomainObjectAPIName__c": "json",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 1,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "PD:PD-Block:BCK-PlanType:PTRecordType",
+        "%vlocity_namespace%__InterfaceFieldAPIName__c": "undefined:selectedPlans:QLIRecordType__c",
+        "%vlocity_namespace%__IsDisabled__c": false,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__MapId__c": "TRF-PlanBckFeederCustom3927",
+        "%vlocity_namespace%__UpsertKey__c": false,
+        "Name": "TRF-PlanBckFeeder",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    }
+]

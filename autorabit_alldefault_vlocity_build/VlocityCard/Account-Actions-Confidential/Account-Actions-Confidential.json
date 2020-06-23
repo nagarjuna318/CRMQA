@@ -1,0 +1,74 @@
+{
+    "dataSource": {
+        "type": null
+    },
+    "filter": {
+        "['AnthemEntityTransform__c']": "National",
+        "['Check_Account_Type__c']": "No",
+        "['RecordType']['Name']": "Confidential"
+    },
+    "states": [
+        {
+            "actionCtxId": "['Id']",
+            "blankCardState": false,
+            "blankStateCheck": false,
+            "collapse": false,
+            "conditions": {
+                "group": [
+                    {
+                        "field": "$scope.data.status",
+                        "operator": "===",
+                        "type": "system",
+                        "value": "'active'"
+                    }
+                ]
+            },
+            "definedActions": {
+                "actions": [
+                    {
+                        "collapse": true,
+                        "hasExtraParams": false,
+                        "id": "CreateOpportunity",
+                        "isCustomAction": false,
+                        "type": "Vlocity Action"
+                    },
+                    {
+                        "collapse": true,
+                        "hasExtraParams": false,
+                        "id": "Add Contact",
+                        "isCustomAction": false,
+                        "type": "Vlocity Action"
+                    },
+                    {
+                        "collapse": true,
+                        "hasExtraParams": false,
+                        "id": "Submit DNC Preferences",
+                        "isCustomAction": false,
+                        "type": "Vlocity Action"
+                    },
+                    {
+                        "collapse": true,
+                        "hasExtraParams": false,
+                        "id": "BuildAccountPlan",
+                        "isCustomAction": false,
+                        "type": "Vlocity Action"
+                    },
+                    {
+                        "collapse": true,
+                        "hasExtraParams": false,
+                        "id": "Create_Open_Enrollment_Meetings",
+                        "isCustomAction": false,
+                        "type": "Vlocity Action"
+                    }
+                ]
+            },
+            "fields": [
+            ],
+            "filter": "$scope.data.status === 'active'",
+            "name": "open-actions",
+            "sObjectType": "Account",
+            "templateUrl": "AccountsActionCardsTemplate"
+        }
+    ],
+    "title": "Account Actions"
+}

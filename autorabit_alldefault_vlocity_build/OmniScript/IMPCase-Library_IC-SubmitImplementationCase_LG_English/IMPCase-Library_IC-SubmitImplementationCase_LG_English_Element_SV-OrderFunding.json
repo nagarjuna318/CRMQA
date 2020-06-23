@@ -1,0 +1,57 @@
+{
+    "%vlocity_namespace%__Active__c": true,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "IMPCase Library/IC-SubmitImplementationCase_LG",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/IMPCase Library/IC-SubmitImplementationCase_LG/English",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__PropertySet__c": {
+        "HTMLTemplateId": "",
+        "controlWidth": 12,
+        "disOnTplt": false,
+        "elementValueMap": {
+            "BHealthCountFailed": "=IF(OR(EQUALS(%ImplementationCaseType%,'Renewal'),EQUALS(%ImplementationCaseType%,'Change Request Off Cycle')) && EQUALS(%ImplementationCaseBHealthChange%,'Yes - See Behavioral Health Related List For Changes') &&  EQUALS(%BHealthCount%,0),'Failed','NA')",
+            "BHealthCountPassed": "=IF(OR(EQUALS(%ImplementationCaseType%,'Renewal'),EQUALS(%ImplementationCaseType%,'Change Request Off Cycle')) && EQUALS(%ImplementationCaseBHealthChange%,'Yes - See Behavioral Health Related List For Changes') &&  %BHealthCount%>0,'Passed','NA')",
+            "BHealthFailedText": "=IF(OR(EQUALS(%ImplementationCaseType%,'Renewal'),EQUALS(%ImplementationCaseType%,'Change Request Off Cycle')) && EQUALS(%ImplementationCaseBHealthChange%,'Yes - See Behavioral Health Related List For Changes') && %BHealthCount%=0,\"Rule: Since the field “Are There Changes To Behavioral Health” = Yes, you must have at least one Behavioral Health record on the Related List off the Implementation Case : \",'NA')",
+            "BHealthSuccessText": "=IF(OR(EQUALS(%ImplementationCaseType%,'Renewal'),EQUALS(%ImplementationCaseType%,'Change Request Off Cycle')) && EQUALS(%ImplementationCaseBHealthChange%,'Yes - See Behavioral Health Related List For Changes') && %BHealthCount%>0,\"Rule: Since the field “Are There Changes To Behavioral Health” = Yes, you must have at least one Behavioral Health record on the Related List off the Implementation Case : \",'NA')",
+            "BillingCountFailed": "=IF(OR(EQUALS(%ImplementationCaseType%,'Renewal'),EQUALS(%ImplementationCaseType%,'Change Request Off Cycle')) && EQUALS(%ImplementationCaseBillingChange%,'Yes') && %ImplementationCaseFundingCount%=0,'Failed','NA')",
+            "BillingCountPassed": "=IF(OR(EQUALS(%ImplementationCaseType%,'Renewal'),EQUALS(%ImplementationCaseType%,'Change Request Off Cycle')) && EQUALS(%ImplementationCaseBillingChange%,'Yes') && %ImplementationCaseFundingCount%>0,'Passed','NA')",
+            "BillingFailedText": "=IF(OR(EQUALS(%ImplementationCaseType%,'Renewal'),EQUALS(%ImplementationCaseType%,'Change Request Off Cycle')) && EQUALS(%ImplementationCaseBillingChange%,'Yes') && %ImplementationCaseFundingCount%=0,\"Rule: Since the field “Changes To Funding Or Billing Entity” = Yes, you must have at least one Billing Entity record for the Group :   \",'NA')",
+            "BillingSucessText": "=IF(OR(EQUALS(%ImplementationCaseType%,'Renewal'),EQUALS(%ImplementationCaseType%,'Change Request Off Cycle')) && EQUALS(%ImplementationCaseBillingChange%,'Yes') && %ImplementationCaseFundingCount%>0,\"Rule: Since the field “Changes To Funding Or Billing Entity” = Yes, you must have at least one Billing Entity record for the Group : \",'NA')",
+            "FundingCountFailed": "=IF(OR(EQUALS(%ImplementationCaseType%,'Renewal'),EQUALS(%ImplementationCaseType%,'Change Request Off Cycle')) && EQUALS(%ImplementationCaseBillingChange%,'Yes') && %ImplementationCaseFunding%='NA','Failed','NA')",
+            "FundingCountPassed": "=IF(OR(EQUALS(%ImplementationCaseType%,'Renewal'),EQUALS(%ImplementationCaseType%,'Change Request Off Cycle')) && EQUALS(%ImplementationCaseBillingChange%,'Yes') && %ImplementationCaseFunding%!='NA','Passed','NA')",
+            "FundingFailedText": "=IF(OR(EQUALS(%ImplementationCaseType%,'Renewal'),EQUALS(%ImplementationCaseType%,'Change Request Off Cycle')) && EQUALS(%ImplementationCaseBillingChange%,'Yes') && %ImplementationCaseFunding%='NA',\"Rule: Since the field “Changes To Funding Or Billing Entity” = Yes, you must complete the “Indicate Funding Record (WGS)” field :  \",'NA')",
+            "FundingSuccessText": "=IF(OR(EQUALS(%ImplementationCaseType%,'Renewal'),EQUALS(%ImplementationCaseType%,'Change Request Off Cycle'))  && EQUALS(%ImplementationCaseBillingChange%,'Yes') && %ImplementationCaseFundingCount%!='NA',\"Rule: Since the field “Changes To Funding Or Billing Entity” = Yes, you must complete the “Indicate Funding Record (WGS)” field :  \",'NA')"
+        },
+        "label": "SetValues7",
+        "message": {
+        },
+        "pubsub": false,
+        "show": {
+            "group": {
+                "operator": "OR",
+                "rules": [
+                    {
+                        "condition": "=",
+                        "data": "WGS 2.0",
+                        "field": "Claimsystem"
+                    }
+                ]
+            }
+        },
+        "showPersistentComponent": [
+            false,
+            false
+        ],
+        "ssm": false,
+        "validationRequired": "None",
+        "wpm": false
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": false,
+    "%vlocity_namespace%__Type__c": "Set Values",
+    "Name": "SV-OrderFunding",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/IMPCase Library/IC-SubmitImplementationCase_LG/English/SV-OrderFunding"
+}

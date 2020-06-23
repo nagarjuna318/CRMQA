@@ -1,0 +1,74 @@
+{
+    "Account": {
+        "Active_Renewal_Date": "2029-02-28",
+        "Anthem_Entity": "National Accounts",
+        "Id": "001V000000dIrAmIAK",
+        "LoggedInUserProfile": "System Administrator",
+        "Name": "Open Enrollment",
+        "RecordType": "Customer",
+        "RecordTypeId": "01241000001IOh7AAG",
+        "SitusState": "ANA"
+    },
+    "CAStrategyForm": {
+        "CaseSize": null,
+        "DP": null,
+        "DPType": null,
+        "OtherCT": null
+    },
+    "ContextId": "001V000000dIrAmIAK",
+    "OEDetail": {
+        "AccountName": "Open Enrollment",
+        "AlternateSubmission": false,
+        "CCLocal": null,
+        "CCNational": "National - Northeast - 5360500300",
+        "Comments": null,
+        "MGName": "ewewr",
+        "PGComments": "rewrewr",
+        "PGCommentsF": "rewrewr",
+        "PerformanceG": "Yes",
+        "RequestIsFrom": "Commercial Medical",
+        "UserProfile": "National"
+    },
+    "PlanDetails": {
+        "AdditionalVendorNameBlock": {
+            "AdditionalVendorName": "asdsad"
+        },
+        "AdditionalVendorsBlock": {
+            "AdditionalVendors": "Medical - Aetna;Other - List Below"
+        },
+        "AdditionalVendorsF": true,
+        "CarrierType": "Multi Carrier",
+        "ClientArrangementBlock": {
+            "ClientArrangement": "Renewal – Partial Replacement"
+        },
+        "ClientDriversRisk": "asdas",
+        "PlanTypeBlock": {
+            "PlanType": "Group Retiree – MA PPO"
+        }
+    },
+    "StrategyForm": {
+        "AdditionalComments": null,
+        "DressCode": "Other",
+        "MemberCSOperation": null,
+        "MemberCSPhone": null,
+        "MemberCSTimezone": null,
+        "OtherDressCode": "asdsad"
+    },
+    "id": "a3CV00000005XgyMAE",
+    "layout": "lightning",
+    "timeStamp": "2019-05-03T17:06:46.151Z",
+    "userCurrencyCode": "USD",
+    "userId": "005V0000005XLiaIAG",
+    "userName": "ted.lu@anthem.com2.iceanjali",
+    "userProfile": "System Administrator",
+    "userTimeZone": -240,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "DRE_Account": 4121,
+        "OEDetail": 142513,
+        "OmniScriptSessionToken": "d171031b-6b4a-4845-8376-6373e2505b4c",
+        "PlanDetails": 45574,
+        "SV-Context": 56
+    }
+}

@@ -1,0 +1,184 @@
+{
+    "AccountName": "Cleveland Company",
+    "AddtlDomPartner": "",
+    "AddtlDomPartnerDR": "",
+    "BillingArrangementstep": {
+        "BillingArrangement": [
+            {
+                "$$hashKey": "object:358",
+                "billing": "Single Invoices (containing all Suffixes)",
+                "vlcSelected": true
+            }
+        ]
+    },
+    "COBRAAdmin": "",
+    "COBRAAdminDR": "",
+    "COBRABillGoDR": "",
+    "COBRAPremiumDR": "",
+    "COBRATPADR": "",
+    "CalCOBRAEligibileParticipants": "",
+    "CalCOBRAEligibileParticipantsDR": "",
+    "CityDR": "",
+    "ClientAllowsDomesticPartnersCovered": "",
+    "ClientAllowsDomesticPartnersCoveredDR": "",
+    "ClientAllowsSamsex": "",
+    "ClientAllowsSamsexDR": "",
+    "ContextId": "801S0000000Nb6g",
+    "DifferentContactsAtSuffixLevelDR": "",
+    "DoesThisInformationApplyToAllGroup": "",
+    "DoesThisInformationApplyToAllGroupDR": "",
+    "DomPartIndSameForAllQliDR": "Yes",
+    "DomesticPartnerApplyToAllGroup": "",
+    "DomesticPartnerApplyToAllGroupDR": "",
+    "DomesticPartnerIndicator": "",
+    "DomesticPartnerIndicatorDR": "",
+    "EligibilityInformation": {
+        "ImplemenationCaseDetails": {
+            "ClaimSystem": "WGS 2.0"
+        }
+    },
+    "EligibilityRecordId": "a7HS0000000GSzLMAW",
+    "EligibilityRecordType": "EligibilityWGS",
+    "EligibilityValidationRule": "Passed",
+    "EligibilityVisible": "ShowEligibility",
+    "EmployeeCategorySelection": {
+        "EmpCatValidationMessaging": null,
+        "EmployeeCategories": [
+            {
+                "employeeCategory": "Active",
+                "vlcSelected": true
+            }
+        ]
+    },
+    "EmployeeClass": "",
+    "EmployeeExcludedCode": "",
+    "EmployeeExcludedCodeDRs": "",
+    "EmployeeReinstatementDateEligibility": "",
+    "EmployeeReinstatementDateEligibilityDR": "",
+    "EmployeeReinstatementProbationaryPeriod": "",
+    "EmployeeReinstatementProbationaryPeriodDR": "",
+    "FContactName": "",
+    "FundingInformation": {
+        "COBRAWest": {
+            "COBRABillToGo": "",
+            "COBRAPremiumPaid": "",
+            "COBRATPAUsingNonBC": ""
+        },
+        "FundingDetails": {
+            "IfYesPlzExplain": ""
+        },
+        "TPAContactInformation": {
+            "State": "",
+            "TPAContactName-Block": {
+                "Phonee": "\"\"",
+                "StreetAddress": ""
+            },
+            "ZipCode": ""
+        }
+    },
+    "FundingName": "FUND-000214",
+    "FundingRecordId": "a7LS0000000D9jqMAC",
+    "FundingValidationRule": "Passed",
+    "FundingVisible": "ShowFunding",
+    "GroupClaimSystem": "WGS 2.0",
+    "GroupContractCode": "",
+    "GroupID": "a5IS00000005LKmMAM",
+    "IfDepReachesMaxAgeAutoTermateDR": "",
+    "IfNoPleaseSpecify": "",
+    "IfNoPleaseSpecifyDR": "",
+    "IfNoSpecifyGroupsForDomesticPart": "",
+    "IfNoSpecifyGroupsForDomesticPartDR": "",
+    "IfYesIndicateProbPeriod": "",
+    "IfYesIndicateProbPeriodDR": "",
+    "IfYesPlzExplnDR": "",
+    "ImplCase": {
+        "AccountId": "001S000000yl42tIAA",
+        "AreThereChangesToEligibility": "Yes",
+        "ChangesToFundingOrBillingEntity": "Yes",
+        "GroupId": "a5IS00000005LKmMAM",
+        "Id": "801S0000000Nb6gIAC",
+        "ImplementationType": "Change Request Off Cycle",
+        "LatestEligibility": "a7HS0000000GSzLMAW",
+        "LatestFunding": "a7LS0000000D9jqMAC"
+    },
+    "IncludeHCIDNumberOnTheInvoiceDR": "No",
+    "InvoiceGPDMappingStep": {
+        "GPD": null,
+        "InvoiceList": {
+            "InvDescription": null,
+            "InvOtherSortingOption1": null,
+            "InvRecordId": null,
+            "InvSortingOption1": null,
+            "InvSortingOption2": null
+        }
+    },
+    "IsThereaWaitingPeriod": "",
+    "IsThereaWaitingPeriodDR": "",
+    "MembershipComments": "",
+    "MembershipCommentsDR": "",
+    "MoreThanOneBillEntityDR": "Yes",
+    "NHProbPDSameForAllQliAndSufixDR": "Yes",
+    "NewHireCoverageEffDateEligibility": "",
+    "NewHireCoverageEffDateEligibilityDR": "",
+    "NewHireProbationaryPeriod": "",
+    "NewHireProbationaryPeriodDR": "",
+    "Notes": "",
+    "NotesDR": "",
+    "OverageDepTermLettersMailedToBusDR": "",
+    "PercentPremDepSameForAllQliAndSufixDR": "Yes",
+    "PercentPremSubSameForAllQliAndSufixDR": "Yes",
+    "PhoneDR": "",
+    "PremPaidForEachSubDepPerMonth": "",
+    "PremPaidForEachSubDepPerMonthDR": "",
+    "PremPaidForEachSubPerMonth": "",
+    "PremPaidForEachSubPerMonthDR": "",
+    "PremiumRecdFromMoreThanOneSourceDR": "",
+    "SelectedBilling": "One Invoice per Employee Category",
+    "SelectedEmpCategory": "Active",
+    "SelfFundedwithReinsuranceDR": "",
+    "StateDR": "",
+    "StatusDescription": "",
+    "Step12": {
+        "Select31": ""
+    },
+    "StreetAddressDR": "",
+    "Submit": {
+        "ASQS": null,
+        "CustomerRequestedGroupNumber": null,
+        "SubmitThisAccountStructure": null,
+        "TrackAccountStructure": null
+    },
+    "TPAContactNameDR": "",
+    "WhoWilHandleCalCOBRABilling": "",
+    "WhoWilHandleCalCOBRABillingDR": "",
+    "ZipCodeDR": "",
+    "eligibilityname": "ELIG-00257",
+    "error": "OK",
+    "groupname": "",
+    "id": "a3CS0000000HQ7pMAG",
+    "qlirecord": "",
+    "stChangesToEligibility": "Yes",
+    "stChangesToFunding": "Yes",
+    "stImplType": "Change Request Off Cycle",
+    "testContextId": "801S0000000Nb6g",
+    "timeStamp": "2019-11-24T11:41:20.900Z",
+    "userCurrencyCode": "USD",
+    "userId": "005S000000FuNOzIAN",
+    "userName": "gandla.bhanu.prakash@accenture.com.icerapt",
+    "userProfile": "System Administrator",
+    "userTimeZone": -300,
+    "verticalmode": true,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "BillingArrangementRemote": 667,
+        "EligibilityDetailsSt": 8,
+        "EligibilityrecordSt": 49,
+        "EligibilityrecordSt193": 8,
+        "EmpCategoryRemote": 789,
+        "EmployeeCategorySelection": 2134,
+        "ExtractEligibilityFundingByImpleCaseDR": 1984,
+        "OmniScriptSessionToken": "90f157af-c66d-4001-9251-fb1db24b4394",
+        "SetValues6": 14
+    }
+}

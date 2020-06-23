@@ -1,0 +1,55 @@
+{
+    "ContextId": "0Q02F00000012tu",
+    "GNReqStatus": "NotAssigned",
+    "GroupId": "",
+    "GrpName": "Do not update",
+    "QuoteDetails": {
+        "AccountId": "0012F00000DQgJNQA1",
+        "EffectiveDate": "2019-01-01",
+        "GNReqStatus": "Not Requested",
+        "Id": "0Q02F00000012tuSAA",
+        "OpptyId": "0062F0000048obhQAA",
+        "OpptyRecType": "New Business Local",
+        "OpptyStage": "Quoting",
+        "PriceBookId": "01s41000007wBCZAA2",
+        "UserGroup": "Local"
+    },
+    "RequestGroupNumberStep": {
+        "CallServiceCenter": null,
+        "ClaimServiceCenter": null,
+        "ClaimSystem": "ACES",
+        "DeliveryChannel": null,
+        "GroupNumber": null,
+        "GroupNumberFormula": "TestSSS1212",
+        "GroupNumberText": "TestSSS1212",
+        "GroupStatus": "Manually Assigned",
+        "LineOfBusiness": "Life"
+    },
+    "RequiredInformation": {
+        "AccountRecordType": "LG Prospect",
+        "AnthemEntity": "Local/Large Group",
+        "Branding": "Anthem BCBS",
+        "GroupSize": "1 - 50",
+        "HQState": "AK",
+        "RecordTypeId": "0122F0000004f6TQAQ",
+        "Region": "Central",
+        "TotalEmployees": 50
+    },
+    "UserArea": "Local",
+    "UserGroup": "Local",
+    "acctId": "0012F00000DQgJNQA1",
+    "grpid": "NotAllow",
+    "id": "a3C2F000000qieRUAQ",
+    "layout": "lightning",
+    "optyid": "0062F0000048obhQAA",
+    "quteid": "0Q02F00000012tu",
+    "testContextId": "0Q02F00000012tu",
+    "timeStamp": "2018-03-20T06:04:30.312Z",
+    "userCurrencyCode": "USD",
+    "userId": "0052F00000108UTQAY",
+    "userName": "veramesh@deloitte.com.com.lgqa",
+    "userProfile": "System Administrator",
+    "userTimeZone": -240,
+    "vlcPersistentComponent": {
+    }
+}

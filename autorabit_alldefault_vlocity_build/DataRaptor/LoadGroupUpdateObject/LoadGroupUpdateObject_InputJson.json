@@ -1,0 +1,118 @@
+{
+    "AccountUpdateId": "001S000000ySN88IAG",
+    "CaseInformation": {
+        "CaseInformation1": {
+            "AssignedPrefix": null,
+            "BenefitRenewalAnniversaryDate": null,
+            "CancelDate": null,
+            "IDCardsSentTo": null,
+            "ImplementationCaseStatus": "Revision Pending Implementations Review",
+            "ImplementationEffectiveDate": "2019-06-25",
+            "MBSCode": null,
+            "MonthUnderwriterStartsRenewalProcess": null,
+            "OpenEnrollmentStartDate": null,
+            "OppOwner-Block": {
+                "OppOwner": null,
+                "OpportunityOwner": null
+            },
+            "OpportunityOwnerAnthemFederationID": null,
+            "OppurtunityEffectiveDate": null,
+            "UnderwriterAnthemFederationID": null,
+            "UnderwriterName": null
+        }
+    },
+    "CompanyInformation1": {
+        "CompanyInformation": {
+            "AccountLegalName": "testing for CA",
+            "AccountNameDBA": null,
+            "AnthemEntity": "Local/Large Group",
+            "ClaimSystem": null,
+            "CompanySizeGroupSize": "2001 - 3000",
+            "ERISAStatus": null,
+            "EmployerTaxID": null,
+            "GroupNumber": null,
+            "HIPAALetterExclusion": null,
+            "HQState": "OH",
+            "LegalEntity": "CO = Corporation",
+            "PhysicalAndMailingAddress": {
+                "MalingConditionBlock": {
+                    "MailingBlock": {
+                        "MailingCity": null,
+                        "MailingCountry": null,
+                        "MailingCounty": null,
+                        "MailingState": null,
+                        "MailingStreet": null,
+                        "MailingZipCode": null
+                    },
+                    "MailingFormula": null
+                },
+                "PhysicalCorrectlevel": {
+                    "Physicalblock": {
+                        "PhysicaZiPCode": "50001",
+                        "PhysicalCity": "LA",
+                        "PhysicalCountry": null,
+                        "PhysicalCounty": null,
+                        "PhysicalState": "CA",
+                        "PhysicalStreet": "226 Peach Street"
+                    }
+                }
+            },
+            "ShippingAddressissameAsMailingAddress": false,
+            "SicCodeTypeAhead-Block": {
+                "SICCodeName": null,
+                "SICId": null,
+                "SicCodeTypeAhead": "Test Industry"
+            },
+            "SitusState": "ANA"
+        }
+    },
+    "ContactBillParent": "003S0000017DmCnIAK",
+    "ContactGroupParent": "003S0000016cr6kIAA",
+    "ContactInformation": {
+        "BillingContactEmail": "ewrwewer@sgs.com",
+        "BillingContactFax": "21324234434",
+        "BillingContactName": "tsdsadasdsad",
+        "BillingContactPhone": "2323232323",
+        "GroupAdministratorContactEmail": "werwewer@afdf.dfgfdg",
+        "GroupAdministratorContactFax": "asdasdsad",
+        "GroupAdministratorContactName": "sdsdasdsa",
+        "GroupAdministratorContactPhone": "2323323232"
+    },
+    "ContactRelatBillID": "a5FS00000007l2hMAA",
+    "ContactTypeB": "Billing Contact",
+    "ContactTypeG": "Group Administrator",
+    "ContctrelatGroupId": "a5FS00000007l2mMAA",
+    "ContextId": "801S0000000HbneIAC",
+    "CounterValue": "",
+    "DRId_Account": "001S000000ySN88IAG",
+    "DRId_Contact": "003S0000017DmCnIAK",
+    "GroupNumbervalidation": "Revision Pending Implementations Review",
+    "IsLoadGroupSubmitted": false,
+    "LoadGroupStep": {
+        "CaseInformation": {
+            "ImplementationCaseStatus": "Revision Pending Implementations Review"
+        }
+    },
+    "MailingAddress": ", , , , ",
+    "OrderId": "801S0000000HbneIAC",
+    "OrderNumber": "IMPL-2714",
+    "PhysicalAddress": "226 Peach Street, LA, CA, 50001, ",
+    "ProductWithPercent": "%",
+    "RecFetch": false,
+    "RecordTypeName": "Renwal Unlock",
+    "id": "a3CS0000000FxmKMAS",
+    "layout": "lightning",
+    "st1": "Revision Pending Implementations Review",
+    "st2": false,
+    "st3": true,
+    "stImplementationType": "",
+    "testContextId": "801S0000000HbneIAC",
+    "timeStamp": "2019-08-08T11:18:50.656Z",
+    "userCurrencyCode": "USD",
+    "userId": "005S000000FuB4nIAF",
+    "userName": "s.a.singh.rajput@accenture.com.icerapt",
+    "userProfile": "System Administrator",
+    "userTimeZone": -240,
+    "vlcPersistentComponent": {
+    }
+}

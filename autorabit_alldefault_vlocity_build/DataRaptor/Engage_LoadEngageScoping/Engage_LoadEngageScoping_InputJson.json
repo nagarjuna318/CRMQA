@@ -1,0 +1,220 @@
+{
+    "Carriers": {
+        "AnthemDental": {
+            "AnthemDentalCarrierBlock": {
+                "AnthemDentalCarrier": "Anthem Dental Consumer Choice PPO",
+                "SelectAllAnthemDentalThatApply": null
+            },
+            "DeltaDentalState": null,
+            "DentalGroupBlock": {
+                "TwoYearDentalGroupNumbers": "23424"
+            },
+            "FutureDentalClaims": false,
+            "FutureDentalGroupNumbers": null,
+            "IfOtherAnthemDeltaDentalSelected": false,
+            "IfOtherAnthemDentalSelected": false,
+            "IfOtherAnthemDentalSpecifyCarriers": null,
+            "IsThereAnthemDental": "Yes",
+            "Past2YearDentalClaimHistory": true
+        },
+        "MedicalBlock": {
+            "AnthemOnlyOrMultiCarrier": "Anthem (Only)",
+            "IfMultiCarrierSelectAllThatApply": null,
+            "IfMutliCarrierSelectOther": false,
+            "IfOtherSpecifyMedicalCarriers": null
+        },
+        "Pharmacy": {
+            "ESICarveIn": "Yes",
+            "FuturePharmacyClaims": true,
+            "FuturePharmacyGroupNumbers": "123",
+            "IfCarveOutSelectAllThatApply": null,
+            "IfCarveOutSelectApplyHasOther": false,
+            "IfOtherSpecifyRxCarriers": null,
+            "IfYesPleaseIndicateRxVendor": null,
+            "IsPharmacyIncluded": "Yes",
+            "Past2YearPharmacyClaimHistory": false,
+            "PharmacyBlock": {
+                "TwoYearPharmacyGroupNumbers": null
+            }
+        }
+    },
+    "ContextId": "a7p1b00000004g8AAA",
+    "ContextIdTx": "a7p1b00000004g8AAA",
+    "DRId_Engage_Scoping_And_Engage_Standard__c": "a7p1b00000004g8AAA",
+    "EngageScopingGeneralInfo": {
+        "AccountExcutiveManager": null,
+        "AccountImplementationLead": null,
+        "AccountLegalName": null,
+        "AccountRenewalOrNewSale": null,
+        "AnthemControlState": null,
+        "CastlightSubmissionStatus": null,
+        "ClaimSystem": null,
+        "ClientMarket": null,
+        "ContractType": "Castlight Contract With Client",
+        "GroupNumber": null,
+        "OpportunityName": null,
+        "OpportunityType": null,
+        "QuoteName": null,
+        "RecordIdFM": "a7p1b00000004g8AAA",
+        "RequestedDate": {
+            "AnthemContractSignDate": "2019-02-16",
+            "CastlightContractSignDate": "2019-02-16",
+            "ClientPreferredLaunchDateForEngage": "2019-02-16",
+            "ClientTerminationEffectiveDate": "2019-02-16",
+            "ExistingClientChangesEffectiveDate": "2019-02-16",
+            "RegistrationAvailabilityDuringOE": "Yes",
+            "WhenDoesPlanYearStart": "2019-02-16",
+            "WhenIsOpenEnrollment": "2019-02-16"
+        }
+    },
+    "EngageScopingGeneralInfo:ClientBillingCity": "",
+    "EngageScopingGeneralInfo:ClientBillingCountry": "",
+    "EngageScopingGeneralInfo:ClientBillingPostalCode": "",
+    "EngageScopingGeneralInfo:ClientBillingState": "",
+    "EngageScopingGeneralInfo:ClientBillingStreet": "",
+    "EstimatedTotalMembershipByProduct": {
+        "EstimatedTotalMembershipFM": 25,
+        "ProductElite": false,
+        "ProductEliteBlock": {
+            "SubscribersE": 10,
+            "TotalMembershipE": 26
+        },
+        "ProductElitePlus": true,
+        "ProductElitePlusBlock": {
+            "SubscribersElitePlus": 22,
+            "TotalMembershipEP": 25
+        },
+        "ProductEssentials": false,
+        "ProductEssentialsBlock": {
+            "ProductEssentialsCCF": false,
+            "ProductEssentialsEYCFAD": false,
+            "SubscribersES": null,
+            "TotalMembershipES": 0
+        },
+        "ProductEssentialsNonAnthem": false,
+        "ProductEssentialsNonAnthemBlock": {
+            "SubscribersENA": null,
+            "TotalMembershipENA": 0
+        },
+        "ProductEssentialsPlus": false,
+        "ProductEssentialsPlusBlock": {
+            "SubscribersESP": null,
+            "TotalMembershipESP": 0
+        }
+    },
+    "ExpectedIntegrations": {
+        "BenefitEnrollmentBlock": {
+            "ClientHaveBenefitEnrollmentPlatform": "Yes",
+            "EmbedRegistrationIntoAEAndNHE": "Yes",
+            "IfOtherSpecifyBEPAdministrator": null,
+            "IfYesSpecifyBEPAdministrator": "Empyrean",
+            "IfYesSpecifyBEPAdministratorOtherSelected": false
+        },
+        "HealthAccountsBlocks": {
+            "FSAHealthAccount": false,
+            "HRAHealthAccount": false,
+            "HSAHealthAccount": false,
+            "IfYesSpecifyFSAVendor": null,
+            "IfYesSpecifyHRAVendor": null,
+            "IfYesSpecifyHSAVendor": null,
+            "OtherHealthAccount": false,
+            "SpecifyAccountTypeAndVendorDetails": null
+        },
+        "OnsiteClinicsBlock": {
+            "DoesTheClientHaveOnsiteClinics": "Yes",
+            "IfYesSpecifyOCAdministrator": "CHS"
+        },
+        "SSOBlock": {
+            "InboundSSOPartnersDesired": "Anthem",
+            "IsInboundSSORequired": "Yes",
+            "IsOutboundSSORequired": "Yes",
+            "OutboundSSOPartnersDesired": "Anthem;ConnectYourCare"
+        }
+    },
+    "Interests": {
+        "DeviceCreditBudget": null,
+        "DoesClientHaveAnthemHealthRewards": "Yes",
+        "IncentivesBudget": "Yes",
+        "IsClientInterestedInDeviceCredit": false,
+        "IsClientInterestedInIncentives": true,
+        "IsClientInterestedInRewardsCenter": false
+    },
+    "NetworksCommunications": {
+        "CommunicationsBlock": {
+            "AnthemToProvideCommSupport": "Yes",
+            "IfNoSpecifyAlternativeArrangement": null
+        },
+        "NetworkStructure": {
+            "AdvantageNetworks": false,
+            "AdvantageNetworksAlphaPrefixes": null,
+            "IfOtherSpecifyNetwork": null,
+            "NationalNetworks": true,
+            "NationalNetworksAlphaPrefixes": "test-17-Feb",
+            "NumberOfPlans": null
+        }
+    },
+    "Programs": {
+        "BehavioralHealthBlock": {
+            "AnthemBasicOfEnhancedEAP": "Basic",
+            "IFEAPSelectAllThatApply": "Anthem",
+            "IFEAPSelectAllThatApplyEqANTHEM": true,
+            "IFEAPSelectAllThatApplyOtherSelected": false,
+            "IfBehavioralHealthSelectAllThatApply": "Other",
+            "IfOtherBehaviorHealthSelected": true,
+            "IfOtherPleaseSpecifyBHEAP": null,
+            "IfOtherSpecifyBehaviorHealth": "test",
+            "IncludesBehavioralHealthElevate": "Yes"
+        },
+        "ClinicalBlock": {
+            "ClinicalSharedDataAndExperiences": "Future Moms;Virtual Second Opinion",
+            "ClinicalSharedDataAndExperiencesOtherSelected": false,
+            "IfOtherClinicalPleaseSpecify": null
+        },
+        "WellnessBlock": {
+            "ClientHaveOwnWellnessVendors": "Yes",
+            "ClientIntegratingWellnessBundlePackage": null,
+            "IfOtherSpecifyEcosystemIntegration": null,
+            "IfYesSelectAllApplicableWellness": null,
+            "IfYesWhichVendorUsedToday": "VirginPulse",
+            "SelectAllEcosystemIntegrations": null,
+            "SelectAllEcosystemIntegrationsContainsOther": false
+        }
+    },
+    "ReadyToSubmit": {
+        "CastlightStatusCalculation": "Not Submitted",
+        "FR-FinishMessage": " Updating Castlight Engage Scoping Record For: "
+    },
+    "RecordId": "a7p1b00000004g8AAA",
+    "RecordType": "Engage Scoping",
+    "RecordTypeName": "Engage Scoping",
+    "TodaysDate": "2019-02-17T18:30:00.000Z",
+    "id": "a3C1b0000009XCNEA2",
+    "isdtp": "p1",
+    "layout": "lightning",
+    "sfdcIFrameHost": "web",
+    "sfdcIFrameOrigin": "https://commercial--iceanup--vlocity-ins.cs25.visual.force.com",
+    "testContextId": "a7p1b00000004g8AAA",
+    "testId": "0Q05B000000Ej94SAC",
+    "timeStamp": "2019-02-18T07:53:21.267Z",
+    "userCurrencyCode": "USD",
+    "userId": "0051b000001Jo5nAAC",
+    "userName": "dhiraj.kumar@legatohealth.com.iceanup",
+    "userProfile": "System Administrator",
+    "userTimeZone": -300,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "Carriers": 3859,
+        "DRE_ENGAGE_ExtractESS": 1533,
+        "DRE_ENGAGE_ExtractQuoteAccount": 2854,
+        "EngageScopingGeneralInfo": 4519,
+        "EstimatedTotalMembershipByProduct": 4942,
+        "ExpectedIntegrations": 5726,
+        "Interests": 3963,
+        "NetworksCommunications": 2465,
+        "OmniScriptSessionToken": "eb039a22-2de7-41eb-b41a-ea0f64c8b1a5",
+        "PostSetValue": 13,
+        "PreSetValue": 77,
+        "Programs": 6068
+    }
+}

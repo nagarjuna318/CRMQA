@@ -1,0 +1,18 @@
+$dark-grey: #706e6b;
+
+.form-bottom-margin{
+    margin-bottom: 0 !important;
+    display: flex !important;
+    justify-content: center;
+}
+
+.inner-div-margin-top{
+    margin-top: 0 !important;
+}
+
+.message-text-red{
+    color: $dark-grey;
+    font-style: italic;
+
+    // font-weight: bold;
+}

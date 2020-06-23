@@ -1,0 +1,171 @@
+{
+    "%vlocity_namespace%__Active__c": true,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "AddProduct_GRS",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/GRS Library/AddProduct_GRS/English",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__ParentElementId__c": {
+        "%vlocity_namespace%__OmniScriptId__c": {
+            "Name": "AddProduct_GRS",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/GRS Library/AddProduct_GRS/English",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+        },
+        "Name": "GRS-PlanSelection",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/GRS Library/AddProduct_GRS/English/GRS-PlanSelection",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c"
+    },
+    "%vlocity_namespace%__ParentElementName__c": "GRS-PlanSelection",
+    "%vlocity_namespace%__ParentElementType__c": "Step",
+    "%vlocity_namespace%__PropertySet__c": {
+        "HTMLTemplateId": "omniNewport-vlcMulti-select_GRS",
+        "accessibleInFutureSteps": false,
+        "conditionType": "Hide if False",
+        "controlWidth": 12,
+        "controllingField": {
+            "element": "",
+            "source": "",
+            "type": ""
+        },
+        "defaultValue": null,
+        "disOnTplt": false,
+        "enableCaption": true,
+        "help": false,
+        "helpText": "",
+        "hide": false,
+        "horizontalMode": "image",
+        "imageCountInRow": 3,
+        "label": "Plan Type",
+        "optionHeight": 100,
+        "optionSource": {
+            "source": "Product2.GRS_Type__c",
+            "type": "SObject"
+        },
+        "optionWidth": 100,
+        "options": [
+            {
+                "name": "ABA",
+                "value": "ABA"
+            },
+            {
+                "name": "Benefits Admin",
+                "value": "Benefits Admin"
+            },
+            {
+                "name": "Commercial Act Wise",
+                "value": "Commercial Act Wise"
+            },
+            {
+                "name": "Commercial AIM",
+                "value": "Commercial AIM"
+            },
+            {
+                "name": "Commercial Blue Distinction",
+                "value": "Commercial Blue Distinction"
+            },
+            {
+                "name": "Commercial Buy-Ups",
+                "value": "Commercial Buy-Ups"
+            },
+            {
+                "name": "Commercial Clinical",
+                "value": "Commercial Clinical"
+            },
+            {
+                "name": "Commercial Engage",
+                "value": "Commercial Engage"
+            },
+            {
+                "name": "Commercial Subrogation",
+                "value": "Commercial Subrogation"
+            },
+            {
+                "name": "CONEXIS",
+                "value": "CONEXIS"
+            },
+            {
+                "name": "Dental",
+                "value": "Dental"
+            },
+            {
+                "name": "Disability",
+                "value": "Disability"
+            },
+            {
+                "name": "EAP",
+                "value": "EAP"
+            },
+            {
+                "name": "Expatriate",
+                "value": "Expatriate"
+            },
+            {
+                "name": "FSA (Non-ActWise)",
+                "value": "FSA (Non-ActWise)"
+            },
+            {
+                "name": "Group Companion",
+                "value": "Group Companion"
+            },
+            {
+                "name": "Life",
+                "value": "Life"
+            },
+            {
+                "name": "LTD",
+                "value": "LTD"
+            },
+            {
+                "name": "Medicare",
+                "value": "Medicare"
+            },
+            {
+                "name": "Network based",
+                "value": "Network based"
+            },
+            {
+                "name": "Other",
+                "value": "Other"
+            },
+            {
+                "name": "Pharmacy",
+                "value": "Pharmacy"
+            },
+            {
+                "name": "Stand Alone",
+                "value": "Stand Alone"
+            },
+            {
+                "name": "STD",
+                "value": "STD"
+            },
+            {
+                "name": "Stop loss",
+                "value": "Stop loss"
+            },
+            {
+                "name": "Vision",
+                "value": "Vision"
+            },
+            {
+                "name": "Workers comp",
+                "value": "Workers comp"
+            }
+        ],
+        "readOnly": false,
+        "repeat": false,
+        "repeatClone": false,
+        "repeatLimit": null,
+        "required": false,
+        "show": null
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": false,
+    "%vlocity_namespace%__Type__c": "Multi-select",
+    "Name": "PlanType",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/GRS Library/AddProduct_GRS/English/PlanType"
+}

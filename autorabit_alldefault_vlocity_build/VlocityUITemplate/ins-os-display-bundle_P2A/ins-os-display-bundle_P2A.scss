@@ -1,0 +1,98 @@
+$light-grey: #dddbda;
+$brownish-grey: #706E6B;
+$background-blue: #f7fbfe;
+$action-blue: #1589EE;
+$hover-blue: #0070d2;
+$active-blue: #003768;
+
+input:placeholder-shown{
+    color: black;
+}
+.search-container{
+    width: 100%;
+}
+
+.full-width{
+    width: 100%;
+}
+
+.search-padding-left{
+    padding-left: 2rem !important;
+}
+
+.dropdown-width{
+    width: 100%;
+}
+
+.product-bundle-container{
+    border-radius: 3px;
+    border: solid 1px $light-grey;
+    //justify-content: center;
+    padding: 1.75%;
+}
+
+.product-bundle{
+    margin: 0.85rem;
+    display: table;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 175px;
+    width: 90%;
+    height: 100%;
+    position: relative;
+    background-color: $background-blue;
+}
+
+.font-weight-bold{
+    font-weight: bold;
+}
+
+.product-h3{
+    max-height: 90px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    word-break: break-word;
+}
+
+.product-title-bundle{
+    // top: 0;
+    // position: absolute;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    // padding-top: 1rem;
+    // text-overflow: ellipsis;
+    
+}
+
+.product-button-container-bundle{
+    // position: absolute;
+    // height: 50%;
+    bottom: 0;
+    // padding-top: 1rem;
+}
+
+.deselect-cta{
+    background-color: $brownish-grey !important;
+    border: 1px solid $brownish-grey;
+    span{
+        color: white;
+    }
+}
+
+.select-cta{
+    background-color: $action-blue;
+    span{
+        color: white;
+    }
+}
+
+.select-cta:hover{
+    background-color: $hover-blue !important;
+}
+
+button:active{
+    background-color: $active-blue !important;
+}

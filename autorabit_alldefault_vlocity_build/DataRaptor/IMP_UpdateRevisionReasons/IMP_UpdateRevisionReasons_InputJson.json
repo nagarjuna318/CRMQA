@@ -1,0 +1,112 @@
+{
+    "AccountName": "<a href=\"001W000000amKK5\" target=\"_blank\">Hunter Douglas Inc.</a>",
+    "AttachmentSRA": 0,
+    "AttachmentSRR": 0,
+    "AttachmentWSRA": 0,
+    "AttachmentWSRR": 0,
+    "ContextId": "a6PW0000000EDPV",
+    "CreatedUser": "Others",
+    "CreatedUserProfile": "Others",
+    "CurrentRevisionsReasons": {
+        "AddRevisionreasons": false,
+        "RevisionReason": [
+            {
+                "Description": ".'  , L,obhyhfgh",
+                "DoesChangeImpactBenefitBooklets": false,
+                "DoesChangeImpactSBCs": false,
+                "Id": "a7FW00000009B3aMAE",
+                "ImpactedPackages/Suffixes/Sections": "kjhbgvjuyghf",
+                "ImpactedPackagesSuffixesSectionRo": "kjhbgvjuyghf",
+                "RRevisionReasons": "HPCC code incorrect in Sales Tool",
+                "RevisionReasonType": "Client Request Change After Original Intake"
+            },
+            {
+                "Description": "hjgjhg",
+                "DoesChangeImpactBenefitBooklets": true,
+                "DoesChangeImpactSBCs": false,
+                "Id": "a7FW00000009B07MAE",
+                "ImpactedPackagesblock": {
+                    "ImpactedPackages/Suffixes/Sections": null
+                },
+                "RRevisionReasons": "Effective Date Change",
+                "RevisionReasonType": "Client Request Change After Original Intake"
+            },
+            {
+                "Description": "iuhyuh",
+                "DoesChangeImpactBenefitBooklets": true,
+                "DoesChangeImpactSBCs": false,
+                "Id": "a7FW00000009B0CMAU",
+                "ImpactedPackagesblock": {
+                    "ImpactedPackages/Suffixes/Sections": null
+                },
+                "RRevisionReasons": "Domestic Partner Change",
+                "RevisionReasonType": "Internal Change Request"
+            },
+            {
+                "Description": "dfsdff",
+                "DoesChangeImpactBenefitBooklets": true,
+                "DoesChangeImpactSBCs": false,
+                "Id": "a7FW00000009B0RMAU",
+                "ImpactedPackagesblock": {
+                    "ImpactedPackages/Suffixes/Sections": null
+                },
+                "RRevisionReasons": "Effective Date Change",
+                "RevisionReasonType": "Client Request Change After Original Intake"
+            },
+            {
+                "Description": "jdjasdhashda",
+                "DoesChangeImpactBenefitBooklets": true,
+                "DoesChangeImpactSBCs": false,
+                "Id": "a7FW00000009B0bMAE",
+                "ImpactedPackagesblock": {
+                    "ImpactedPackages/Suffixes/Sections": null
+                },
+                "RRevisionReasons": "Rate Change",
+                "RevisionReasonType": "Late Client Decision"
+            }
+        ],
+        "UserProfileStage": "OthersInitiated/In Progress"
+    },
+    "DRId_Impl_Revision__c": "a6PW0000000EDPVMA4",
+    "FileAttachment": {
+        "FileCount": 0,
+        "MSG-AttachmentError": null,
+        "UploadAttachment": null
+    },
+    "IMPCaseStatus": "Approved",
+    "ImpCaseStatus": "Approved",
+    "ImplementationType": "Renewal",
+    "LoggedinProfile": "Others",
+    "Profile": "Others",
+    "RecordType": "Renewal",
+    "RevisionName": "REV-0051",
+    "RevisionRecordStatus": "Initiated/In Progress",
+    "RevisionStatus": "Initiated/In Progress",
+    "Submit": {
+        "SubmitRevision": "No"
+    },
+    "id": "a3CW00000013V2vMAE",
+    "layout": "lightning",
+    "timeStamp": "2018-04-03T16:40:17.954Z",
+    "userCurrencyCode": "USD",
+    "userId": "005W0000002XquzIAC",
+    "userName": "shravani@chadda@eaglecrk.com.prod.nal1b.dev",
+    "userProfile": "System Administrator",
+    "userTimeZone": -240,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "CurrentRevisionsReasons": 7614,
+        "DR-UpdateRevision": 964,
+        "DR-UpdateRevisionReasons": 1051,
+        "DRE-RevisionDetails": 3009,
+        "FileAttachment": 1545,
+        "OmniScriptSessionToken": "373029cf-210d-49a2-bc88-a7ebe8418694",
+        "SV-ContextId": 162,
+        "SV-FileAttachmentValidation": 124,
+        "SV-RevisionDetails": 69,
+        "SetValues4": 37,
+        "SetValues5": 161,
+        "Submit": 3123
+    }
+}

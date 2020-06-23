@@ -1,0 +1,50 @@
+{
+    "%vlocity_namespace%__Active__c": true,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "DocusignMasterApplication",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/Opportunity/SendDocuSign/English",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__PropertySet__c": {
+        "HTMLTemplateId": "",
+        "controlWidth": 12,
+        "disOnTplt": false,
+        "elementValueMap": {
+            "AccID": "%Account_Id%",
+            "BrokerName": "%Con_Email%",
+            "CIBillingCity": "%CI_BillingCity%",
+            "CIBillingCountry": "%CI_BillingCountry%",
+            "CIBillingState": "%CI_BillingState%",
+            "CIBillingZipCode": "%CI_BillingZipCode%",
+            "CICity": "%CI_City%",
+            "CICompanyName": "%CI_CompanyName%",
+            "CICountry": "%CI_Country%",
+            "CIEmployeeTaxID": "%CI_EmployeeTaxID%",
+            "CISICCode": "%CI_SicCode%",
+            "CIState": "%CI_State%",
+            "CIZipCode": "%CI_ZipCode%",
+            "ContextId": "%OppID%",
+            "DocuSignEmail": "%BrokerEmail%",
+            "DocuSignRecipient": "%BrokerName%"
+        },
+        "label": "SetValues1",
+        "message": {
+            "ContextId": "Id"
+        },
+        "show": null,
+        "showPersistentComponent": [
+            false,
+            false
+        ],
+        "ssm": false,
+        "validationRequired": null,
+        "wpm": false
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": false,
+    "%vlocity_namespace%__Type__c": "Set Values",
+    "Name": "SetValues1",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/Opportunity/SendDocuSign/English/SetValues1"
+}

@@ -1,0 +1,34 @@
+{
+    "Cards": [
+        "QuoteLineItem_Actions_LG_AHG",
+        "QuoteLineItem_Actions",
+        "QuoteLineItem Actions_NA_LG",
+        "QuoteLineItem Actions_Old_LG"
+    ],
+    "dataSource": {
+        "contextVariables": [
+            {
+                "name": "params.Id",
+                "val": "0QL540000001X46GAE"
+            }
+        ],
+        "type": "Query",
+        "value": {
+            "jsonMap": "{\"params.id || params.Id\":\"{{params.id || params.Id}}\"}"
+        }
+    },
+    "previewType": "runTime",
+    "templates": {
+        "0": {
+            "templateUrl": "card-canvas-1x-slds-nosearch"
+        }
+    },
+    "workspace": [
+        null,
+        "QuoteLineItem_Actions_LG_AHG/Anthem Commercial 2.0/1/1557745741674",
+        "QuoteLineItem_Actions/Anthem Commercial 2.0/null/1513958233678",
+        "QuoteLineItem_Actions_LG/Anthem Commercial 2.0/null/1519399241419",
+        "QuoteLineItem Actions_NA_LG/Anthem Commercial 2.0/null/1530189022719",
+        "QuoteLineItem Actions_Old_LG/Anthem Commercial 2.0/null/1530801232841"
+    ]
+}

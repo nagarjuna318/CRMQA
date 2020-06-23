@@ -1,0 +1,34 @@
+{
+    "ClientObjectives": {
+        "ClientObjective": [
+            {
+                "ClientObjectActive": true,
+                "ClientObjectiveDescription": null,
+                "ClientObjectiveType": "Corporate"
+            },
+            {
+                "ClientObjectActive": true,
+                "ClientObjectiveDescription": null,
+                "ClientObjectiveType": "Workforce"
+            }
+        ],
+        "ClientObjectiveCount": 2,
+        "ClientObjectiveMsgMax": true
+    },
+    "ContextId": "0011F000007ETAc",
+    "id": "a3C1F0000001X1hUAE",
+    "layout": "lightning",
+    "timeStamp": "2018-07-17T19:09:01.736Z",
+    "userCurrencyCode": "USD",
+    "userId": "0051F000001e386QAA",
+    "userName": "ilugina@vlocity.com2.configdev",
+    "userProfile": "System Administrator",
+    "userTimeZone": -240,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "DR_ExtractAccountPlan": 2307,
+        "OmniScriptSessionToken": "562ea872-abcb-4eeb-9ab9-3481a9731f74",
+        "PreSetValue": 74
+    }
+}

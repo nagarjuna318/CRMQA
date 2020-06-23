@@ -1,0 +1,74 @@
+<div class="full-width vloc-small-group-plan-selection-container nds-box" ng-controller="riders_selectable_items_controller" >
+
+     <div class="nds-grid list-header">
+        <div class="nds-size_1-of-2">
+        	
+            <p class="plans-text" ng-cloak><b class="ng-binding" ng-bind-template="{{checkForArray(bpTree.response.Rider_Selected_to_Plans).length}}"></b> Selected Plans with <b class="ng-binding" ng-bind-template="{{checkForArray(bpTree.response.Rider_Info).length}}"></b> Available Riders</p>
+            
+        </div>
+        
+    </div>
+
+	<div class="nds-col nds-size_3-of-3 empty-state" ng-show="checkForArray(bpTree.response.Rider_Info).length == 0">
+		<p class="plan-attribute" style="font-size: 1rem;">No riders are available for this Quote Line Item.</p>
+</div >
+	<div class="table-wrapper" ng-show="checkForArray(bpTree.response.Rider_Info).length > 0">
+			<table class="nds-table nds-table_bordered nds-table_cell-buffer nds-table_striped nds-no-row-hover" style="table-layout: fixed;">
+			<thead>
+			<tr class="nds-text-title_caps">
+			  
+			  <th scope="col" style="width: 20vw; word-wrap: break-word; white-space: initial; align-items: center">
+			    <div style="display: flex">
+				    <div style="display: flex; align-items: center;">
+					    <label class="nds-checkbox">
+							<input type="checkbox" value="on" ng-model="all_plan_to_rider_selected" ng-click="rider_select_all(bpTree, control)">
+							<span class="nds-checkbox_faux">
+							</span>
+						</label>
+					</div>
+					<div>
+				    	Plan Name
+					</div>
+				</div>
+			  </th>
+			  <th ng-repeat='rider in checkForArray(bpTree.response.Rider_Info)' scope="col" style="width: 10rem; word-wrap: break-word; white-space: initial; text-align: center;">
+			    {{rider.VARIATION_NAME}}
+			  </th>
+			</tr>
+			</thead>
+			<tbody>
+			<tr ng-repeat='plan in checkForArray(bpTree.response.Rider_Selected_to_Plans)'>
+			  
+			  <th role="gridcell" style="width: 20vw; word-wrap: break-word; white-space: initial; align-items: center">	
+				  <div style="display: flex">
+					  <div style="display: flex; align-items: center;">
+						    <label class="nds-checkbox">
+								<input type="checkbox" value="on" ng-model="plan.row" ng-click="rider_select_row(bpTree, control, plan)">
+								<span class="nds-checkbox_faux">
+									
+								</span>
+							</label>
+						</div>	
+						<div>
+					    	{{plan.Name}}
+						    <br/>
+						    <p class="plan-attribute">{{plan.Custom_Riders_List.length}} out of {{checkForArray(bpTree.response.Rider_Info).length}} riders selected</p>
+						</div>
+					</div>
+				
+			  </th>
+			  <td role="gridcell" ng-repeat='rider in checkForArray(bpTree.response.Rider_Info)'>
+			    <div style="text-align: center;">
+			    	<label class="nds-checkbox">
+			    		
+						<input type="checkbox" value="on"  ng-model="plan[plan.Id + ':' + rider.Id]" ng-click="rider_select(bpTree, control, plan, rider)">
+						<span class="nds-checkbox_faux">
+						</span>
+					</label>
+				</div>
+			  </td>
+			</tbody>
+			</table>
+	</div>
+
+</div>

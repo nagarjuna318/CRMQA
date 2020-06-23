@@ -1,0 +1,185 @@
+{
+    "%vlocity_namespace%__Active__c": true,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "AddServiceProvider",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/ANA Library/CP-AddServiceProvider/English",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__ParentElementId__c": {
+        "%vlocity_namespace%__OmniScriptId__c": {
+            "Name": "AddServiceProvider",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/ANA Library/CP-AddServiceProvider/English",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+        },
+        "Name": "SelectServiceProvider",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/ANA Library/CP-AddServiceProvider/English/SelectServiceProvider",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c"
+    },
+    "%vlocity_namespace%__ParentElementName__c": "SelectServiceProvider",
+    "%vlocity_namespace%__ParentElementType__c": "Step",
+    "%vlocity_namespace%__PropertySet__c": {
+        "HTMLTemplateId": "",
+        "accessibleInFutureSteps": true,
+        "conditionType": "Hide if False",
+        "controlWidth": 2,
+        "debounceValue": 0,
+        "disOnTplt": false,
+        "help": false,
+        "helpText": "",
+        "hide": false,
+        "inputWidth": 12,
+        "label": null,
+        "maxLength": 32768,
+        "minLength": 0,
+        "pattern": "",
+        "ptrnErrText": "",
+        "readOnly": false,
+        "repeat": false,
+        "repeatClone": false,
+        "required": false,
+        "show": {
+            "group": {
+                "operator": "OR",
+                "rules": [
+                    {
+                        "group": {
+                            "operator": "AND",
+                            "rules": [
+                                {
+                                    "condition": "<>",
+                                    "data": "true",
+                                    "field": "NOUFlag"
+                                },
+                                {
+                                    "condition": "=",
+                                    "data": "true",
+                                    "field": "Multi-Employer"
+                                },
+                                {
+                                    "condition": "=",
+                                    "data": "Local",
+                                    "field": "UserGroup"
+                                },
+                                {
+                                    "group": {
+                                        "operator": "OR",
+                                        "rules": [
+                                            {
+                                                "condition": "=",
+                                                "data": "LocalType",
+                                                "field": "RecordType"
+                                            },
+                                            {
+                                                "condition": "=",
+                                                "data": "Anthem Health Guide",
+                                                "field": "RecordType"
+                                            }
+                                        ]
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "group": {
+                            "operator": "AND",
+                            "rules": [
+                                {
+                                    "condition": "<>",
+                                    "data": "true",
+                                    "field": "NOUFlag"
+                                },
+                                {
+                                    "condition": "=",
+                                    "data": "Local",
+                                    "field": "UserGroup"
+                                },
+                                {
+                                    "condition": "<>",
+                                    "data": "Yes",
+                                    "field": "AP-MarketSelectionFinalvlaue"
+                                },
+                                {
+                                    "condition": "=",
+                                    "data": "true",
+                                    "field": "Multi-Employer"
+                                },
+                                {
+                                    "condition": "=",
+                                    "data": "LocalType",
+                                    "field": "QuoteLineItem_RecordType"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "group": {
+                            "operator": "AND",
+                            "rules": [
+                                {
+                                    "group": {
+                                        "operator": "OR",
+                                        "rules": [
+                                            {
+                                                "condition": "=",
+                                                "data": "FullExisting",
+                                                "field": "RC-S6Flg"
+                                            },
+                                            {
+                                                "condition": "=",
+                                                "data": "FullNew",
+                                                "field": "RC-S6Flg"
+                                            }
+                                        ]
+                                    }
+                                },
+                                {
+                                    "condition": "<>",
+                                    "data": "true",
+                                    "field": "NOUFlag"
+                                },
+                                {
+                                    "condition": "=",
+                                    "data": "Local",
+                                    "field": "UserGroup"
+                                },
+                                {
+                                    "condition": "=",
+                                    "data": "true",
+                                    "field": "Multi-Employer"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "group": {
+                            "operator": "AND",
+                            "rules": [
+                                {
+                                    "condition": "=",
+                                    "data": "true",
+                                    "field": "Medicare_GRS"
+                                },
+                                {
+                                    "condition": "=",
+                                    "data": "true",
+                                    "field": "Multi-Employer"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        },
+        "showInputWidth": false
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": true,
+    "%vlocity_namespace%__Type__c": "Text Area",
+    "Name": "NameOfEmployers",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/ANA Library/CP-AddServiceProvider/English/NameOfEmployers"
+}

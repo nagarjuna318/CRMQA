@@ -1,0 +1,48 @@
+{
+    "%vlocity_namespace%__Active__c": true,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "ImplementationCase_LG",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/IMPCase Library/IC-ImplementationCase_LG/English",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__PropertySet__c": {
+        "HTMLTemplateId": "",
+        "controlWidth": 12,
+        "disOnTplt": false,
+        "elementValueMap": {
+            "CAPublicEducationMbuCodes": "=ARRAY([\"66800000\",\"66700000\"])",
+            "QuoteLineItemFinancingType": "=IF(COUNT(%qliJAAId%)=1, 'JAA (Jointly Administered Arrangement)', IF(COUNT(%qliMCSId%)=1, 'MCS Network Rental', null))",
+            "centralStates": "=ARRAY([\"Ohio\", \"Missouri\", \"Indiana\",\"Wisconsin\",\"Kentucky\",\"Virginia\"])",
+            "mcsMbuCodes": "=ARRAY([\"CMC00000\", \"NCM00000\", \"NMC00000\", \"SCS00000\",\"SNV00000\"])",
+            "northEastStates": "=ARRAY([\"Maine\",\"Connecticut\",\"New Hampshire\"])",
+            "retroDefault1095": "=\"1095\"",
+            "retroDefault180": "=\"180\"",
+            "retroDefault365": "=\"365\"",
+            "retroDefault60": "=\"60\"",
+            "retroDefault90": "=\"90\"",
+            "retroElectronicSitusStatesCommomDefaultValue": "=ARRAY([\"California\",\"Colorado\",\"Nevada\",\"Georgia\",\"Ohio\",\"Missouri\",\"Indiana\",\"Wisconsin\",\"Kentucky\",\"Virginia\"])",
+            "retroOnlineSitusStatesCommonDefaultValue": "=ARRAY([\"California\",\"Colorado\",\"Nevada\",\"Maine\",\"Connecticut\",\"New Hampshire\",\"Georgia\"])",
+            "westStates": "=ARRAY(['California','Colorado','Nevada'])",
+            "westStatesMbuCodes": "=ARRAY([\"65100000\",\"65400000\",\"65500000\",\"65700000\",\"66100000\",\"66300000\",\"66500000\",\"66600000\",\"67600000\",\"67700000\",\"DHG00000\",\"LA100000\",\"LA200000\",\"NAC00000\",\"NCM00000\",\"WNL00000\",\"CCN00000\",\"CKY00000\",\"CMJ0000\",\"CPB00000\",\"CSH00000\",\"NRC00000\",\"SGC00000\",\"ANV00000\",\"LN100000\",\"LN200000\",\"NIN00000\",\"NKY00000\",\"NMC00000\",\"NMJ00000\",\"NNC00000\",\"NPB0000\",\"NRN00000\",\"NSP00000\",\"SGN00000\"])",
+            "westStatesWithoutCA": "=ARRAY([\"Colorado\",\"Nevada\"])"
+        },
+        "label": null,
+        "message": {
+        },
+        "pubsub": false,
+        "show": null,
+        "showPersistentComponent": [
+            false,
+            false
+        ],
+        "ssm": false,
+        "wpm": false
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": false,
+    "%vlocity_namespace%__Type__c": "Set Values",
+    "Name": "SetDependentFieldsRetro",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/IMPCase Library/IC-ImplementationCase_LG/English/SetDependentFieldsRetro"
+}

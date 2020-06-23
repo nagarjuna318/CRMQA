@@ -1,0 +1,182 @@
+{
+    "Account": {
+        "Active_Renewal_Date": "2017-07-01",
+        "Id": "0014B00000KMhYhQAL",
+        "MultipleOppty": false,
+        "Name": "Stark Industries",
+        "RecordTypeId": "0124B0000000QWNQA2"
+    },
+    "AccountId": "0014B00000KMhYh",
+    "CR-UREffectiveDate": "2019-01-01",
+    "ContextId": "0014B00000KMhYh",
+    "CurrentOppty": {
+        "EffectiveDate": "2018-01-01",
+        "EffectiveMonth": 1,
+        "EffectiveYear": "2018",
+        "Id": "0064B000009s7THQAY",
+        "IsRenewalStage": true,
+        "Name": "Clone - 2018 Opportunity Renewal-Stark Industries",
+        "Pricebook2Id": "01s41000007wBCZAA2",
+        "Stage": "Renewal Finalized"
+    },
+    "CurrentOpptyId": "0064B000009s7THQAY",
+    "Customer": "0014B00000KMhYh",
+    "IG-GrpNumMulti": {
+        "QuoteDetailsMulti": [
+            {
+                "GroupId": "a5P4B0000002JhPUAU",
+                "GrpNumber": "000CBF834",
+                "Id": "0Q04B0000006OvKSAU",
+                "cumMembers": 0,
+                "cumSubscribers": 0,
+                "memChange": 1500,
+                "subsChange": 500,
+                "vlcSelected": true
+            },
+            {
+                "DivisionName": "West Manufacturing Division",
+                "GroupId": "a5P4B0000002JkYUAU",
+                "GrpNumber": "003320023",
+                "Id": "0Q04B0000006OvLSAU",
+                "cumMembers": 0,
+                "cumSubscribers": 0,
+                "memChange": 1350,
+                "subsChange": 450,
+                "vlcSelected": true
+            }
+        ]
+    },
+    "IGAP-Comments": {
+        "B41": {
+            "IGAP-OpptyComments": "Hello"
+        }
+    },
+    "IGAP-Details": {
+        "B39": {
+            "IGAP-OwnerName": "Juan Carlos"
+        },
+        "B40": {
+            "IGAP-AccountName": "Stark Industries",
+            "IGAP-ConfEffDate": null,
+            "IGAP-DaySelection": "Ok",
+            "IGAP-EffectiveDate": "2019-01-01T06:00:00.000Z",
+            "IGAP-EffectiveDateCalc": "2019-01-01",
+            "IGAP-OpptyName": "2019 Opportunity In Group Add Product-Stark Industries",
+            "IGAP-Probability": 10,
+            "IGAP-ProbabilityFlg": "Allow",
+            "IGAP-RFPStatus": null,
+            "IGAP-RFPStatusFlg": "Allow",
+            "IGAP-ReceivedDate": null,
+            "IGAP-ReceivedDateCalc": "--",
+            "IGAP-RecordType": "In Group Add Product",
+            "IGAP-StageName": "Initiated",
+            "IGAP-StageReason": null
+        },
+        "IGAP-DayMsg": true,
+        "IGAP-ProbabilityMsg": true,
+        "IGAP-StatusFlg": true,
+        "IGAP-Type": "OPPTY_TYPE",
+        "IGAP-Value": "In Group Add Product"
+    },
+    "IGAP-End": {
+        "IGAP-AddProduct": null
+    },
+    "IGAP-ExecComments": "",
+    "IGAP-SpecialtyComments": "",
+    "MultiOppty": "0014B00000P3maj",
+    "OwnerName": "Juan Carlos",
+    "Prospect": "0014B00000KMWAp",
+    "RC-Interview": {
+        "RC-ActualOffCycle": null,
+        "RC-CYRB1": {
+            "RC-CYR": null
+        },
+        "RC-DayMsg": null,
+        "RC-EffectiveDate": null,
+        "RC-FullPartial/NewExistingMovement": null,
+        "RC-ImpacttoMembership": null,
+        "RC-OffCycleL1": null,
+        "RC-OnCycleL2": {
+            "RC-YYFN": "None",
+            "RCMinM": "No",
+            "RCPtoG": "Yes"
+        },
+        "RC-OpptyName": "2018 Opportunity Renewal-Stark Industries",
+        "RC-PotentialGrowLoseMembers": null,
+        "RC-UREffectiveDate": "2019-01-01T06:00:00.000Z",
+        "RC-UREffectiveDateCalc": "2019-01-01",
+        "RC-YNEffectiveDate": "Yes"
+    },
+    "RC-LeapYears": "2016,2020,2024,2028,2032,2036,2040,2044,2048,2052,2056,2060,2064,2068,2072,2076,2080,2084,2088,2092,2096,2104",
+    "RC-NoOpptyFound": {
+        "NRR-Block8": {
+            "NRR-NewRenewal": "IGAP"
+        }
+    },
+    "RC-UREffectiveYear": 2018,
+    "RecordType": {
+        "Type": "Customer"
+    },
+    "SelectServiceProvider": {
+        "Account_Id": null,
+        "AddComp2": null,
+        "AddComp3": null,
+        "CompIdCalc2": null,
+        "CompIdCalc3": null,
+        "CompStatusCalc2": null,
+        "CompStatusCalc3": null,
+        "CompetitorId": null,
+        "CompetitorStatus": null,
+        "CompetitorStatusFormula": null,
+        "NOUFlag": null,
+        "ReqComFlds": null,
+        "SP-CompStatus2": null,
+        "SP-CompStatus3": null,
+        "SPTD-Msg": null,
+        "SPTermDate": null,
+        "SPTermDateDay": null,
+        "SPTermDateIn": null,
+        "SSP-Msg": null,
+        "SSPMsg-Flg": null,
+        "TACompetitor2-Block": null,
+        "TACompetitor3-Block": null,
+        "TypeAheadAccount-Block": null
+    },
+    "SingleOppty": {
+        "EffectiveDate": "2018-01-01",
+        "Id": "0064B000009s7THQAY",
+        "IsRenewalStage": true,
+        "Name": "Clone - 2018 Opportunity Renewal-Stark Industries",
+        "Pricebook2Id": "01s41000007wBCZAA2",
+        "RecordType": "Renewal",
+        "Stage": "Renewal Finalized"
+    },
+    "id": "a3B4B000000ILSFUA4",
+    "timeStamp": "2017-09-15T22:45:17.545Z",
+    "userId": "0054B000000op45QAA",
+    "userName": "jcarrero@anthem.com2.config",
+    "userProfile": "System Administrator",
+    "verticalmode": true,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "DR-CurrentOppty": 319,
+        "DR-GroupsDetails": 327,
+        "DR-SingleOppty": 522,
+        "DR-UserName": 318,
+        "Get Account Data DR": 495,
+        "IG-GrpNumMulti": 18978,
+        "IGAP-Comments": 6051,
+        "IGAP-Details": 5168,
+        "IGAP-SettingValues": 5,
+        "OmniScriptSessionToken": "eb6302c7-3218-454b-9843-3179ebaa8e10",
+        "RC-Interview": 9867,
+        "RC-NoOpptyFound": 2811,
+        "RC-SetAccountId": 0,
+        "RC-SetConsts": 8,
+        "RC-SetURD": 4,
+        "RC-SetURD2": 3,
+        "RC-SetYear": 4,
+        "SingleToCurrent": 3
+    }
+}

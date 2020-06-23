@@ -1,0 +1,62 @@
+{
+    "%vlocity_namespace%__Active__c": true,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "OpptyCreation",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/ANA Library/OS-CreateOpportunity/English",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__PropertySet__c": {
+        "HTMLTemplateId": "",
+        "controlWidth": 12,
+        "elementValueMap": {
+            "IGAP-EffectiveDate": "=IF(EQUALS(%RC-S6Flg%,'PartialNew'),%IGC-EffectiveDate%,IF(%RC-EffectiveDate%=NULL,%RC-UREffectiveDate%,%RC-EffectiveDate%))",
+            "IGAP-ExecComments": "=IF(EQUALS(%RC-S6Flg%,'PartialNew'),%IGC-ExecComments%,NULL)",
+            "IGAP-OpptyComments": "=IF(EQUALS(%RC-S6Flg%,'PartialNew'),%IGC-OpptyComments%,NULL)",
+            "IGAP-OpptyName": "=IF(%RC-EffectiveDate%=NULL,CONCATENATE(YEAR(%RC-UREffectiveDate%),' Opportunity In Group Add Product-',%Account:Name%),CONCATENATE(YEAR(%RC-EffectiveDate%),' Opportunity In Group Add Product-',%Account:Name%))",
+            "IGAP-RFPStatus": "=%CurrentOppty:RFP_Status%",
+            "IGAP-ReceivedDate": "=IF(EQUALS(%RC-S6Flg%,'PartialNew'),%IGC-ReceivedDate%,NULL)",
+            "IGAP-SpecialtyComments": "=IF(EQUALS(%RC-S6Flg%,'PartialNew'),%IGC-SpecialtyComments%,NULL)",
+            "IGAP-StageName": "=IF(EQUALS(%RC-S6Flg%,'PartialNew'),%IGC-StageName%,NULL)",
+            "IGAP-StageReason": "=IF(EQUALS(%RC-S6Flg%,'PartialNew'),%IGC-StageReason%,NULL)"
+        },
+        "label": "OpportunityName",
+        "message": {
+        },
+        "show": {
+            "group": {
+                "operator": "OR",
+                "rules": [
+                    {
+                        "condition": "=",
+                        "data": "IGAP",
+                        "field": "NRR-NewRenewal"
+                    },
+                    {
+                        "condition": "=",
+                        "data": "Adding",
+                        "field": "RC-ATP"
+                    },
+                    {
+                        "condition": "=",
+                        "data": "IGAP",
+                        "field": "RC-OpptyType"
+                    }
+                ]
+            }
+        },
+        "showPersistentComponent": [
+            false,
+            false
+        ],
+        "ssm": false,
+        "validationRequired": "None",
+        "wpm": false
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": false,
+    "%vlocity_namespace%__Type__c": "Set Values",
+    "Name": "IGAP-SettingValues",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/ANA Library/OS-CreateOpportunity/English/IGAP-SettingValues"
+}

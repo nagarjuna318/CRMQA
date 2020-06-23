@@ -1,0 +1,129 @@
+<div class="slds-card via-slds-card--horiz via-slds-card--horiz-flyout slds-m-bottom--small" data-card="{{uniqueLayoutId}}-card-{{cardIndex}}" ng-class="{selected:isSelected(cardIndex)}" data-popover-flyout="true" ng-controller="anthemQuoteLineItemController">
+  <div class="slds-card__header via-slds-card__header slds-grid slds-p-bottom--medium slds-grid--vertical-align-center header-{{getHeaderColor(obj)}}">
+      <div class="slds-media__body slds-truncate">
+          <span class="slds-small-show" title="{{obj | getter: data.fields[0]}}"><b>{{obj | getter: data.fields[0] | picker: data.fields[0].type}}</b></span>
+      </div>
+      <div ng-show="{{getIconColor(obj, 'Complete')}}">
+      <span class="slds-icon_container slds-icon-action-check slds-icon_container--circle" title="{{obj | getter: data.fields[2]}}">
+          <svg aria-hidden="true" class="slds-icon slds-icon--small slds-icon-action-check" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet" data="data" obj="obj" size="'small'" viewBox="0 0 52 52">
+            <g fill="inherit" xmlns="http://www.w3.org/2000/svg"><path fill="#fff" d="m19.1 42.5l-16.5-16.6c-0.6-0.6-0.6-1.6 0-2.2l2.2-2.2c0.6-0.6 1.6-0.6 2.2 0l12.4 12.5c0.4 0.4 1.1 0.4 1.5 0l24.3-24.5c0.6-0.6 1.6-0.6 2.2 0l2.2 2.2c0.6 0.6 0.6 1.6 0 2.2l-28.3 28.6c-0.6 0.7-1.6 0.7-2.2 0z"></path></g>
+        </svg>
+        </span>
+     </div>
+     <div ng-show="{{getIconColor(obj, 'Not Complete')}}">
+      <span class="slds-icon_container slds-icon-action-more slds-icon_container--circle" title="{{obj | getter: data.fields[2]}}">
+          <svg aria-hidden="true" class="slds-icon slds-icon--small  slds-icon-action-more" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet" data="data" obj="obj" size="'small'" viewBox="0 0 52 52">
+            <g fill="inherit" xmlns="http://www.w3.org/2000/svg"><path fill="#fff" d="m8 20c3.3 0 6 2.7 6 6s-2.7 6-6 6-6-2.7-6-6 2.7-6 6-6z m18 0c3.3 0 6 2.7 6 6s-2.7 6-6 6-6-2.7-6-6 2.7-6 6-6z m18 0c3.3 0 6 2.7 6 6s-2.7 6-6 6-6-2.7-6-6 2.7-6 6-6z"></path></g>
+        </svg>
+        </span>
+     </div>
+     <div ng-show="{{getIconColor(obj, 'Cloned from Renewal but needs Validation')}}">
+      <span class="slds-icon_container slds-icon-action-goal slds-icon_container--circle" title="{{obj | getter: data.fields[2]}}">
+          <svg aria-hidden="true" class="slds-icon slds-icon--small  slds-icon-action-goal" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet" data="data" obj="obj" size="'small'" viewBox="0 0 52 52">
+            <g fill="inherit" xmlns="http://www.w3.org/2000/svg"><path  fill="#fff" d="m5 2c-1.7 0-3 1.3-3 3v42c0 1.6 1.3 3 3 3 1.6 0 3-1.3 3-3v-42c0-1.7-1.3-3-3-3z m43.8 4.5c-13 6.8-23.3-4.9-35.6-0.4-0.6 0.2-1.2 0.8-1.2 1.5v22.4c0 1.1 1.2 1.9 2.3 1.6 11.8-3.5 22 7.6 34.8 0.6 0.5-0.3 0.9-0.8 0.9-1.4v-23.6c0-0.6-0.7-1-1.2-0.7z m-2.8 22.7l-0.5 0.2c-1 0.5-2.6 0.6-5.3 0.6h-0.2v-5c-1.5 0-4.2-0.3-6-0.7v5.3c-1.7-0.3-3.3-0.6-4.6-0.9-0.5-0.1-1-0.3-1.4-0.4v-5.5c-1.7-0.5-4.3-1-6-1.4v5.7c-1.2-0.2-1.5-0.3-2.8-0.3-0.5 0-0.9 0-1.6 0.1l-1.6 0.1v-5.8c1-0.2 2.2-0.2 3.5-0.2 1.3 0 1.4 0.1 2.5 0.3v-6c-1.1-0.2-5-0.2-6 0.1v-6.2l0.9-0.1c1-0.1 4 0.1 5.1 0.4v5.8c1.4 0.3 3.8 0.8 5.6 1.3 0.1 0 0.3 0.1 0.4 0.1v-5.8c1.8 0.5 3.9 1.1 6 1.4v5.7c1.7 0.3 4.4 0.5 6 0.5v-5.5h0.2c1.6 0 2.7-0.4 4.7-0.7l1.2-0.4v6c-1.8 0.5-3.7 0.7-5.6 0.7h-0.4v6.4h0.2c1.9 0 4-0.7 5.8-1.5v5.7z m-18-12.5v6c0.4 0.1 0.8 0.2 1.2 0.4 1.5 0.4 3.1 0.9 4.8 1.2v-6.2c-2.1-0.4-4.2-0.9-6-1.4z"></path></g>
+        </svg>
+        </span>
+     </div>
+  </div>
+  <div class="slds-small-show slds-card__body via-slds-card__body slds-grid slds-grid--vertical slds-theme--default slds-p-left--small slds-p-right--small">
+    <div class="slds-col slds-col--padded slds-grid slds-wrap slds-grid--align-spread">
+      <div class="slds-col--padded slds-size--1-of-3 slds-small-show slds-m-top--medium via-slds-border--bottom" ng-repeat="field in data.fields.slice(3, 7)" ng-show="key != 'attributes'">
+          <div class="slds-truncate"><span title="{{field.label}}">{{field.label}}: </span><b><span title="{{obj | getter: field}}">{{obj | getter: field | picker: field.type}}</span></b></div>
+      </div>
+      <div class="slds-col--padded slds-size--1-of-3 slds-small-show slds-m-top--medium via-slds-border--bottom" ng-show="key != 'attributes'">
+          <div class="slds-truncate"><span title="{{data.fields[7].label}}">{{data.fields[7].label}}: </span><b><span title="{{obj | getter: data.fields[7]}}">{{converttoNumberFormat(obj, data.fields[7].label)}}</span></b></div>
+      </div>
+      <div class="slds-col--padded slds-size--1-of-3 slds-small-show slds-m-top--medium via-slds-border--bottom" ng-show="key != 'attributes'">
+          <div class="slds-truncate"><span title="{{data.fields[8].label}}">{{data.fields[8].label}}: </span><b><span title="{{obj | getter: data.fields[8]}}">{{converttoNumberFormat(obj, data.fields[8].label)}}</span></b></div>
+      </div>
+      <div class="slds-col--padded slds-size--1-of-3 slds-small-show slds-m-top--medium via-slds-border--bottom" ng-show="key != 'attributes'">
+          <div class="slds-truncate"><span title="{{data.fields[9].label}}">{{data.fields[9].label}}: </span><b><span title="{{obj | getter: data.fields[9]}}">{{obj | getter: data.fields[9]}}</span></b></div>
+      </div>
+      <div class="slds-col--padded slds-size--1-of-3 slds-small-show slds-m-top--medium via-slds-border--bottom" ng-show="key != 'attributes'">
+          <div class="slds-truncate"><span title="{{data.fields[10].label}}">{{data.fields[10].label}}: </span><b><span title="{{obj | getter: data.fields[10]}}">{{converttoNumberFormat(obj, data.fields[10].label)}}</span></b></div>
+      </div>
+      <div class="slds-col--padded slds-size--1-of-3 slds-small-show slds-m-top--medium via-slds-border--bottom" ng-show="key != 'attributes'">
+          <div class="slds-truncate"><span title="{{data.fields[11].label}}">{{data.fields[11].label}}: </span><b><span title="{{obj | getter: data.fields[11]}}">{{converttoNumberFormat(obj, data.fields[11].label)}}</span></b></div>
+      </div>
+      <div class="slds-col--padded slds-size--1-of-3 slds-small-show slds-m-top--medium via-slds-border--bottom" ng-show="{{getDisplayApprovalFields(obj)}};">
+          <div class="slds-truncate">
+              <div class="innercircle {{getApprovalStatusColor(obj)}}" style="float:left;bottom:0;"></div>
+              <div style="float:left;"><span title="{{data.fields[12].label}}">  {{data.fields[12].label}} </span></div>
+          </div>
+      </div>
+    </div>
+    <br/>
+    <div class="slds-col slds-col--padded slds-grid slds-wrap slds-grid--vertical-align-center slds-grid--align-spread">
+          <div class="slds-col--padded slds-size--1-of-4 slds-small-show" ng-show="{{getDisplayProductConfigure(obj, data.actions[0].Name)}}">
+              <span ng-show="{{getDisplayActions(obj, data.actions[0].Name)}};">
+                  <button class="slds-button slds-button_neutral" ng-click="performAction(data.actions[0])">
+                      <vloc-card-icon data="data.actions[0]" obj="obj" size="'small'" extra-classes="'big via-action-icon slds-icon-text-default'"></vloc-card-icon>{{data.actions[0].displayName}}
+                  </button>
+              </span>
+          </div>
+          <div class="slds-col--padded slds-size--1-of-4 slds-small-show" ng-show="{{getDisplayProductConfigure(obj, data.actions[1].Name)}}">
+              <span ng-show="{{getDisplayActions(obj, data.actions[1].Name)}};">
+                  <button class="slds-button slds-button_neutral" ng-click="performAction(data.actions[1])">
+                      <vloc-card-icon data="data.actions[1]" obj="obj" size="'small'" extra-classes="'big via-action-icon slds-icon-text-default'"></vloc-card-icon>{{data.actions[1].displayName}}
+                  </button>
+              </span>
+          </div>
+          <div class="slds-col--padded slds-size--1-of-4 slds-small-show" ng-show="{{getDisplayProductConfigure(obj, data.actions[2].Name)}}">
+              <span ng-show="{{getDisplayActions(obj, data.actions[2].Name)}};">
+                  <button class="slds-button slds-button_neutral" ng-click="performAction(data.actions[2])">
+                      <vloc-card-icon data="data.actions[2]" obj="obj" size="'small'" extra-classes="'big via-action-icon slds-icon-text-default'"></vloc-card-icon>{{data.actions[2].displayName}}
+                  </button>
+              </span>
+          </div>
+          <div class="slds-col--padded slds-size--1-of-4 slds-small-show" ng-show="{{getDisplayProductConfigure(obj, data.actions[3].Name)}}">
+              <span ng-show="{{getDisplayActions(obj, data.actions[3].Name)}};">
+                  <button class="slds-button slds-button_neutral" ng-click="performAction(data.actions[3])">
+                      <vloc-card-icon data="data.actions[3]" obj="obj" size="'small'" extra-classes="'big via-action-icon slds-icon-text-default'"></vloc-card-icon>{{data.actions[3].displayName}}
+                  </button>
+              </span>
+          </div>
+           <div class="slds-col--padded slds-size--1-of-4 slds-small-show" ng-show="{{getDisplayProductConfigure(obj, data.actions[4].Name)}}">
+              <span ng-show="{{getDisplayActions(obj, data.actions[4].Name)}};">
+                  <button class="slds-button slds-button_neutral" ng-click="performAction(data.actions[4])">
+                      <vloc-card-icon data="data.actions[4]" obj="obj" size="'small'" extra-classes="'big via-action-icon slds-icon-text-default'"></vloc-card-icon>{{data.actions[4].displayName}}
+                  </button>
+              </span>
+          </div>
+          <div class="slds-col--padded slds-size--1-of-4 slds-small-show" ng-show="{{getDisplayValueForAddProgram(obj)}}">
+              <span ng-show="{{getDisplayActions(obj, data.actions[5].Name)}};">
+                  <button class="slds-button slds-button_neutral" ng-click="performAction(data.actions[5])">
+                      <vloc-card-icon data="data.actions[5]" obj="obj" size="'small'" extra-classes="'big via-action-icon slds-icon-text-default'"></vloc-card-icon>{{data.actions[5].displayName}}
+                  </button>
+              </span>
+          </div>
+          <div class="slds-col--padded slds-size--1-of-4 slds-small-show" ng-show="{{getDisplayApprovalActions(obj, data.actions[6].Name)}}">
+              <span ng-show="{{getDisplayActions(obj, data.actions[6].Name)}};">
+                  <button class="slds-button slds-button_neutral" ng-click="performAction(data.actions[6])">
+                      <vloc-card-icon data="data.actions[6]" obj="obj" size="'small'" extra-classes="'big via-action-icon slds-icon-text-default'"></vloc-card-icon>{{data.actions[6].displayName}}
+                  </button>
+              </span>
+          </div>
+          <div class="slds-col--padded slds-size--1-of-4 slds-small-show" ng-show="{{getDisplayApprovalActions(obj, data.actions[7].Name)}}">
+              <span ng-show="{{getDisplayActions(obj, data.actions[7].Name)}};">
+                  <button class="slds-button slds-button_neutral" ng-click="performAction(data.actions[7])">
+                      <vloc-card-icon data="data.actions[7]" obj="obj" size="'small'" extra-classes="'big via-action-icon slds-icon-text-default'"></vloc-card-icon>{{data.actions[7].displayName}}
+                  </button>
+              </span>
+          </div>
+          <div class="slds-col--padded slds-size--1-of-4 slds-small-show" ng-show="{{getDisplayValueForMassUpdate(obj)}}">
+              <span ng-show="{{getDisplayActions(obj, data.actions[8].Name)}};">
+                  <button class="slds-button slds-button_neutral" ng-click="performAction(data.actions[8])">
+                      <vloc-card-icon data="data.actions[8]" obj="obj" size="'small'" extra-classes="'big via-action-icon slds-icon-text-default'"></vloc-card-icon>{{data.actions[8].displayName}}
+                  </button>
+              </span>
+          </div>
+           <div class="slds-col--padded slds-size--1-of-4 slds-small-show" ng-show="{{getCapturePlanActions(obj, data.actions[9].Name)}}">
+              <span ng-show="{{getDisplayActions(obj, data.actions[9].Name)}};">
+                  <button class="slds-button slds-button_neutral" ng-click="performAction(data.actions[9])">
+                      <vloc-card-icon data="data.actions[9]" obj="obj" size="'small'" extra-classes="'big via-action-icon slds-icon-text-default'"></vloc-card-icon>{{data.actions[9].displayName}}
+                  </button>
+              </span>
+          </div>
+      </div>
+  </div>
+</div>

@@ -1,0 +1,236 @@
+{
+    "AP-Family": "BOLD",
+    "AP-FamilySelection": {
+        "AP-CatSelection": "Clinical",
+        "AP-OpptyType": "Renewal",
+        "AP-SubType": null
+    },
+    "AP-FixDeselection": {
+        "AP-FixSelected": true,
+        "FixList": [
+            {
+                "Id": "01t4B000001XE0hQAG",
+                "IsActive": true,
+                "LOB": "Health and Wellness",
+                "Name": "24/7 Nurseline",
+                "QLIRecordType__c": "Default",
+                "vlcSelected": true
+            },
+            {
+                "Id": "01t4B000001XE0pQAG",
+                "IsActive": true,
+                "LOB": "Health and Wellness",
+                "Name": "Autism Spectrum Disorder Program",
+                "QLIRecordType__c": "Default",
+                "vlcSelected": true
+            },
+            {
+                "Id": "01t4B000001XE0qQAG",
+                "IsActive": true,
+                "LOB": "Health and Wellness",
+                "Name": "Behavioral Health Resource",
+                "QLIRecordType__c": "Default",
+                "vlcSelected": true
+            },
+            {
+                "Id": "01t4B000001XE0sQAG",
+                "IsActive": true,
+                "LOB": "Health and Wellness",
+                "Name": "Complex Care",
+                "QLIRecordType__c": "Default",
+                "vlcSelected": true
+            },
+            {
+                "Id": "01t4B000001XE0zQAG",
+                "IsActive": true,
+                "LOB": "Health and Wellness",
+                "Name": "ConditionCare: Core Asthma, COPD, CAD, DM, CHF",
+                "QLIRecordType__c": "Default",
+                "vlcSelected": true
+            },
+            {
+                "Id": "01t4B000001XE17QAG",
+                "IsActive": true,
+                "LOB": "Health and Wellness",
+                "Name": "Future Moms",
+                "QLIRecordType__c": "Default",
+                "vlcSelected": true
+            },
+            {
+                "Id": "01t4B000001XE1AQAW",
+                "IsActive": true,
+                "LOB": "Health and Wellness",
+                "Name": "Healthy Lifestyles: One on One - Coaching",
+                "QLIRecordType__c": "Default",
+                "vlcSelected": true
+            },
+            {
+                "Id": "01t4B000001XE1CQAW",
+                "IsActive": true,
+                "LOB": "Health and Wellness",
+                "Name": "Healthy Lifestyles: Online",
+                "QLIRecordType__c": "Default",
+                "vlcSelected": true
+            },
+            {
+                "Id": "01t4B000001XE2sQAG",
+                "IsActive": true,
+                "LOB": "Health and Wellness",
+                "Name": "MyHealth Advantage (Gaps in Care)",
+                "QLIRecordType__c": "Default",
+                "vlcSelected": true
+            },
+            {
+                "Id": "01t4B000001XE1LQAW",
+                "IsActive": true,
+                "LOB": "Health and Wellness",
+                "Name": "NICU",
+                "QLIRecordType__c": "Default",
+                "vlcSelected": true
+            },
+            {
+                "Id": "01t4B000001XE1TQAW",
+                "IsActive": true,
+                "LOB": "Health and Wellness",
+                "Name": "Quick Care Options",
+                "QLIRecordType__c": "Default",
+                "vlcSelected": true
+            },
+            {
+                "Id": "01t4B000001XE1aQAG",
+                "IsActive": true,
+                "LOB": "Health and Wellness",
+                "Name": "Transplant",
+                "QLIRecordType__c": "Default",
+                "vlcSelected": true
+            },
+            {
+                "Id": "01t4B000001XE1bQAG",
+                "IsActive": true,
+                "LOB": "Health and Wellness",
+                "Name": "UM/CM",
+                "QLIRecordType__c": "Default",
+                "vlcSelected": true
+            }
+        ]
+    },
+    "AP-HasSPP": "No",
+    "AP-ParentId": "01t4B000001XE0MQAW",
+    "AP-ProductName": "BOLD",
+    "AP-ProductSelection": {
+        "AP-ProdSelected": true,
+        "ProdList": [
+            {
+                "Bundle": "Fixed",
+                "Family": "BOLD",
+                "HasSPP": false,
+                "Id": "01t4B000001XE0MQAW",
+                "Name": "BOLD",
+                "ProductType": "Clinical",
+                "QLIRecordType__c": "Bold",
+                "RecordTypeId": "0124B0000008rwzQAA",
+                "vlcSelected": true
+            }
+        ]
+    },
+    "AP-Selected": false,
+    "AP-Stages": [
+        "In Progress",
+        "IGAP Dead",
+        "IGAP In Progress",
+        "IGAP Lost",
+        "IGAP Sold",
+        "Jeopardy",
+        "Renewed",
+        "Termed"
+    ],
+    "AccountId": "0014B00000P3majQAB",
+    "ContextId": "0Q04B000000AKWwSAO",
+    "IGAP": "0Q04B000000AFao",
+    "NewBusiness": "0Q04B000000AJiN",
+    "QLD": {
+        "AP-BundleType": "Fixed",
+        "QLD-AccountId": "0014B00000P3majQAB",
+        "QLD-Block": {
+            "QLD-Financing": "Administrative Services Only",
+            "QLD-Funding": "ASO",
+            "QLD-Members": 250,
+            "QLD-Probability": "10%",
+            "QLD-ProbabilityEdit": "10%",
+            "QLD-ProbabilityFormula": "",
+            "QLD-ProdStage": "In Progress",
+            "QLD-Reason": "Account/Sales Team",
+            "QLD-ReasonCalc": null,
+            "QLD-ReasonPck": "Account/Sales Team",
+            "QLD-Subscribers": 100,
+            "QLD-TermDate": null,
+            "QLD-TermDateIn": null,
+            "QLD-TermSelection": "Ok"
+        },
+        "QLD-DayMsg": true,
+        "QLD-ReqCompetitor": "No",
+        "QLD-TermReqFlds": "No",
+        "QLD-TermReqMsg": null,
+        "QLD-Vendor": null
+    },
+    "QuoteDetails": {
+        "AccountId": "0014B00000P3majQAB",
+        "EffectiveDate": "2017-02-01",
+        "GNReqStatus": "Not Requested",
+        "GroupId": "00989078",
+        "GroupName": "00989078",
+        "GroupNumber": "a5P4B0000002KIEUA2",
+        "Id": "0Q04B000000AKWwSAO",
+        "OpptyId": "0064B000007p3jqQAA",
+        "OpptyRecType": "Renewal",
+        "OpptyStage": "Renewal Finalized",
+        "PriceBookId": "01s41000007wBCZAA2"
+    },
+    "Renewals": "0Q04B000000AKWwSAO",
+    "SelectServiceProvider": {
+        "Account_Id": null,
+        "AddComp2": null,
+        "AddComp3": null,
+        "CompIdCalc2": null,
+        "CompIdCalc3": null,
+        "CompStatusCalc2": null,
+        "CompStatusCalc3": null,
+        "CompetitorId": null,
+        "CompetitorStatus": null,
+        "CompetitorStatusFormula": null,
+        "NOUFlag": null,
+        "ReqComFlds": null,
+        "SP-CompStatus2": null,
+        "SP-CompStatus3": null,
+        "SPTD-Msg": null,
+        "SPTermDate": null,
+        "SPTermDateDay": null,
+        "SPTermDateIn": null,
+        "SSP-Msg": null,
+        "SSPMsg-Flg": null,
+        "TACompetitor2-Block": null,
+        "TACompetitor3-Block": null,
+        "TypeAheadAccount-Block": null
+    },
+    "id": "a3B4B0000004oY2UAI",
+    "layout": "lightning",
+    "timeStamp": "2017-09-19T13:11:33.824Z",
+    "userId": "0054B000000op45QAA",
+    "userName": "jcarrero@anthem.com2.config",
+    "userProfile": "System Administrator",
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "AP-FamilySelection": 3128,
+        "AP-FixDeselection": 3241,
+        "AP-ProductSelection": 3313,
+        "AP-SetValues": 6,
+        "DR-FixRetrieval": 663,
+        "DR-ProductRetrieval": 466,
+        "DR-QuoteDetails": 675,
+        "OmniScriptSessionToken": "6099f2c8-2b4d-43d9-9846-d160e81a2b15",
+        "QLD": 11254,
+        "Set AccountId": 3,
+        "Set Constants": 10
+    }
+}

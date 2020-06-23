@@ -1,0 +1,26 @@
+{
+    "%vlocity_namespace%__Author__c": "Anthem Commercial 2.0",
+    "%vlocity_namespace%__Datasource__c": {
+        "contextVariables": [
+            {
+                "name": "params.id",
+                "val": "0Q00t0000000JbiCAE"
+            }
+        ],
+        "type": "Query",
+        "value": {
+            "query": "Select Id, QuoteId,isActWise__c,Quote.CDHP_SF_Id_From_ISG__c,Quote.isView_Configure_Product_Details_Show__c,Quote.Logged_In_User_PermissionSet__c, AnthemEntityTransform__c, ParentQuoteLineItem__c, LG_Plan_Config_Exception__c, Product2Id, Product2.Name, Product2.DoNotEditBundle__c, Product2.Bundle__c, Funding__c, Financing__c, Subscribers__c, Reason__c, ProductStage__c, Probability__c, Members__c, RecordType__c, CompletionMarker__c, ProductLineApprovalStatus__c, Cards_Display_Approvals__c, Cards_Product_Config_Action_Name__c, CurrentMembers__c, CurrentSubscribers__c, LoggedInUserProfile__c, AHGProductLineReadyforApproval__c, IHMProductLineReadyforApproval__c, Quote.GroupNumber__r.Date_Migrated_to_WGS__c,Quote.GroupNumber__r.IsPartOfAMigration__c, Quote.GroupNumber__r.ClaimSystem__c,Quote.IsGroupNumberExist__c,CCMUProductLineReadyforApproval__c, ANACustomNetworksReadyForApproval__c, OnsiteClinicsProductLineReadyforAp__c, Quote.Account.Situs_State_Abbrev__c, Quote.Opportunity.RecordTypeName__c, Quote.Opportunity.CloseDate,Product_Type__c,ProductName__c,LG_Master_AHG__c,AnthemEntity__c From QuoteLineItem Where QuoteId = '{{params.id}}' \n\tand (\n\t(ParentQuoteLineItem__c = null \n\tand (From_Act_Wise_Config__c = null or From_Act_Wise_Config__c = false) \n\tand (AnthemEntityTransform__c ='National' or RecordType__c  Not In ('ActWise HRA', 'ActWise HSA') or  Quote.Logged_In_User_PermissionSet__c = true )\n\t)\n\tOR \n\t(LG_Master_AHG__c = true and ProductName__c = 'ANTHEM HEALTH GUIDE')\n\t) \n\tOrder By ProductName__c ASC"
+        }
+    },
+    "%vlocity_namespace%__Definition__c": "QuoteLineItemCards.json",
+    "%vlocity_namespace%__Description__c": "",
+    "%vlocity_namespace%__GlobalKey__c": "QuoteLineItemCards/7/Anthem Commercial 2.0/1591999031394",
+    "%vlocity_namespace%__ParentID__c": "",
+    "%vlocity_namespace%__RequiredPermission__c": "",
+    "%vlocity_namespace%__Type__c": "Layout",
+    "%vlocity_namespace%__Version__c": 7,
+    "Name": "QuoteLineItemCards",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__VlocityUILayout__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__VlocityUILayout__c/QuoteLineItemCards"
+}

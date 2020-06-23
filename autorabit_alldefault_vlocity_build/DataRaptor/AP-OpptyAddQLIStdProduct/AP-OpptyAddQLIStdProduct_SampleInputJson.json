@@ -1,0 +1,66 @@
+{
+    "AP-FamilySelection": {
+        "AP-CatSelection": "Medical",
+        "AP-OpptyType": "New Business"
+    },
+    "AP-ProductSelection": {
+        "AP-ProdSelected": true,
+        "ProdList": [
+            {
+                "Id": "01t4B000001WucPQAS",
+                "Name": "Medical - EPO",
+                "ProductType": "Medical",
+                "QLIRecordType__c": "Medical",
+                "RecordTypeId": "0124B0000008rwzQAA",
+                "vlcSelected": true
+            }
+        ]
+    },
+    "ContextId": "0Q04B000000AE8P",
+    "DRId_QuoteLineItem": "0QL4B0000005uIaWAI",
+    "QLD": {
+        "AP-BundleType": "",
+        "AP-ParentId": "01t4B000001WucPQAS",
+        "QLD-Block": {
+            "QLD-Financing": "Minimum Premium",
+            "QLD-Funding": "FI",
+            "QLD-Members": 200,
+            "QLD-Probability": "5%",
+            "QLD-ProdStage": "In Progress",
+            "QLD-Reason": null,
+            "QLD-Subscribers": 80,
+            "QLD-TermDate": null,
+            "QLD-TermSelection": "Ok"
+        },
+        "QLD-CmpttrTAB-Block": null,
+        "QLD-DayMsg": true
+    },
+    "QuoteDetails": {
+        "EffectiveDate": "2017-01-01",
+        "GroupName": "12345",
+        "GroupNumber": "a5P4B0000002JhPUAU",
+        "OpptyRecType": "New Business",
+        "OpptyStage": "Closed Won",
+        "PriceBookId": "01s41000007wBCZAA2"
+    },
+    "Source": "Oppty",
+    "id": "a3B4B0000001OJeUAM",
+    "layout": "lightning",
+    "timeStamp": "2017-06-01T12:56:18.601Z",
+    "userId": "0054B000000op45QAA",
+    "userName": "jcarrero@anthem.com2.config",
+    "userProfile": "System Administrator",
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "AP-END": 1428,
+        "AP-FamilySelection": 3942,
+        "AP-ProductSelection": 7282,
+        "DR-AddQLIStdProduct": 1013,
+        "DR-ProductRetrieval": 454,
+        "DR-QuoteDetails": 678,
+        "OmniScriptSessionToken": "ecc1d8c5-8f02-49d9-b85a-5125b1b5e818",
+        "QLD": 17191,
+        "Set Constants": 9
+    }
+}

@@ -1,0 +1,29 @@
+{
+    "data": {
+        "actions": [
+            {
+                "Name": "UpdateGroupOutsourcing",
+                "displayName": "Update Group Outsourcing Restriction",
+                "vlocityIcon": "icon-v-heart"
+            }
+        ],
+        "fields": [
+            {
+                "label": "Description",
+                "name": "description"
+            },
+            {
+                "label": "Cost",
+                "name": "cost",
+                "type": "currency"
+            }
+        ],
+        "title": "Card Title"
+    },
+    "obj": {
+        "Group_Outsourcing_Record_Owner__c": "0051b000001JmVVAA0",
+        "LoggedInUserId__c": "0051b000001JmVV",
+        "LoggedInUserProfile__c": "National Sales",
+        "Status__c": "New"
+    }
+}

@@ -1,0 +1,44 @@
+{
+    "%vlocity_namespace%__Active__c": false,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "BillingEntity",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/IMPCase Library/IC-BillingEntity/English",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__ParentElementId__c": {
+        "%vlocity_namespace%__OmniScriptId__c": {
+            "Name": "BillingEntity",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/IMPCase Library/IC-BillingEntity/English",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+        },
+        "Name": "BillingEntity",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/IMPCase Library/IC-BillingEntity/English/BillingEntity",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c"
+    },
+    "%vlocity_namespace%__ParentElementName__c": "BillingEntity",
+    "%vlocity_namespace%__ParentElementType__c": "Step",
+    "%vlocity_namespace%__PropertySet__c": {
+        "HTMLTemplateId": "",
+        "controlWidth": 12,
+        "dataType": "Text",
+        "dateFormat": "MM-dd-yyyy",
+        "disOnTplt": false,
+        "expression": "IF(EQUALS(%WashoutCode%, 'Code 01'), 'WASHOUT CODE = 01 All Events: Dates of events occurring on the 1st - 31st, reflected in premium 1st of the following month.', \n\t\t  IF(EQUALS(%WashoutCode%, 'Code 02'), 'WASHOUT CODE = 02 Enrollment: Enrollment on 1st, Premium due on 1st of the same month. Enrollment on 2nd-31st, premium due from 1st of next month. Contract Change: Dates of events occurring on the 1st, premium for new contract type due from the 1st of same month. 2nd-31st, due next month. Terminations: Benefits terminated on 1st, premium credited from the 1st of same month. 2nd-31st, credited next month.',\n\t\t  IF(EQUALS(%WashoutCode%, 'Code 16'),'WASHOUT CODE = 16 Enrollment: Enrollment 1st- 15th, Premium due on 1st of the same month. Enrollment 16th-31st, premium due from 1st of next month. Contract Change: Date of events 1st- 15th, Premium due from 1st of the same month. Date of events 16th-31st, premium due from 1st of next month. Terminations: Benefits terminated 1st- 15th, Premium due on 1st of the same month. Terminated 16th-31st, premium credited from 1st of next month.',\n IF(EQUALS(%WashoutCode%, 'Code 31'),'WASHOUT CODE = 31 Enrollment: Enrollment 1st- 31st, Premium due from 1st of the same month. Contract Change: Dates of event occurring 1st- 31st, Premium due on 1st of the current month. Terminations: Benefits terminated 1st- 31st, Premium credited from the 1st of the same month.',''))))",
+        "hide": false,
+        "hideGroupSep": false,
+        "inputWidth": 12,
+        "label": "Description",
+        "mask": null,
+        "show": null,
+        "showInputWidth": true
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": true,
+    "%vlocity_namespace%__Type__c": "Formula",
+    "Name": "Formula14",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/IMPCase Library/IC-BillingEntity/English/Formula14"
+}

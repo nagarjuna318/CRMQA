@@ -1,0 +1,129 @@
+{
+    "AcctDet": {
+        "Situs_State": "CA"
+    },
+    "ActWiseSelect": "No",
+    "AddGroupPlanDesign": {
+        "AddMultiPlanDesign": {
+            "DuplicatePlanDesignCheck": null,
+            "Duplicate_PlanMessage": null,
+            "GroupPlanDesignName": null,
+            "Plan_Name": null,
+            "Status": null,
+            "Suffix": null
+        },
+        "GroupPlanDesign": null,
+        "NewSuffix": false
+    },
+    "ContextId": "0QL8A000000AiN5WAK",
+    "CurrentProfile": "System Administrator",
+    "GroupId": "a5IS00000006L8KMAU",
+    "IsLocalSales": false,
+    "Network": "Blue Access",
+    "OpptyDet": {
+        "Id": "006S000000GN1W5IAL",
+        "Name": "2020 New Business Local-CMD integration Test Dec 17",
+        "RecordTypeName": "New Business Local"
+    },
+    "OpptyRecordType": "New Business Local",
+    "Plan_Name": "For Internal use only: Anthem Century Preferred PPO Choice HSA $2000/10%$4000 Rx $5/$30/$60/25% to $250/25% to $500 (Test YNHHS)",
+    "Product2Id": "01tS0000006PF0dIAG",
+    "QLIDet": {
+        "Id": "0QLS0000000WMZnOAO",
+        "Market": "CT",
+        "Network": "Blue Access",
+        "Product2Id": "01tS0000006PF0dIAG",
+        "ProductName": "For Internal use only: Anthem Century Preferred PPO Choice HSA $2000/10%$4000 Rx $5/$30/$60/25% to $250/25% to $500 (Test YNHHS)",
+        "QuoteId": "0Q0S0000000PctWKAS"
+    },
+    "QuoteDet": {
+        "GroupId": "12172019",
+        "GroupNumber": "a5IS00000006L8KMAU"
+    },
+    "QuoteId": "0Q0S0000000PctWKAS",
+    "RxPlanCheckProfile": "N",
+    "RxPlanPoolCheck": "N",
+    "SetPlanType": "",
+    "Update_Plan_Details": {
+        "ActWisePlansChanges": null,
+        "Block7": {
+            "Actwise_Member_RO": null,
+            "Anthem_Engage_Indicators_RO": null,
+            "Block4": {
+                "HCR_Option_RO": null,
+                "HCR_Religious_Exception_RO": null,
+                "HCR_Status_RO": null
+            },
+            "Block5": {
+                "Change_Medicare_RO": "Not Reviewed",
+                "Formula7": null,
+                "Formula8": null,
+                "Letter_Sent_To_RO": "Client",
+                "Medicare_Letter_Sent_RO": null
+            },
+            "Contract_Code_RO": null,
+            "Corporate_Plan_Code_RO": null,
+            "HPCC_Code_RO": "HTTP",
+            "Opportunity_Name_RO": null,
+            "Plan_Benefit_Change_RO": null,
+            "Plan_Comments_RO": null,
+            "Plan_Term_Date_RO": null,
+            "Plan_Type_RO": null,
+            "Rx_Plan_RO": null,
+            "State_RO": null,
+            "WLP_Reference_RO": false
+        },
+        "Block8": {
+            "Actwise_Member_Provider_Pay_Indicator": "Member Pay",
+            "Anthem_Engage_Indicators": "K2- Anthem Engage Basic;9- Must be selected if you choose K2/K3 Value (BASIC/STANDARD);No value coding - Opting out of Anthem Engage Basic",
+            "Block9": {
+                "Rx_Plan": null
+            },
+            "ContractCodes": "4S89",
+            "Corporate_Plan_Code": "1234",
+            "CustomContractCode": "57AF",
+            "HCRSection": {
+                "HCRReligiousException": "Religious Affiliate (RA)",
+                "HCR_Option": "Without Preventives",
+                "HCR_Status": "Nongrandfathered"
+            },
+            "HPCCCode": "HTTP",
+            "MedicarePlanDSection": {
+                "Change_Medicare_Part_D_Rx_To": "Not Reviewed",
+                "CheckLocalProfile": "N",
+                "CheckUnderwritingProfile": "N",
+                "Letter_Sent_To": "Client",
+                "Medicare_Letter_Sent": "2020-01-17"
+            },
+            "OpptyName": "2020 New Business Local-CMD integration Test Dec 17",
+            "Plan_Benefit_Change": "Renew No Benefit Change",
+            "Plan_Comments": "Test",
+            "Plan_Term_Date": "2020-01-18",
+            "Plan_Type": "Standard",
+            "SkipSuffix": false,
+            "State": "DMHC-200C",
+            "WLP_Reference_Based_Benefit": true
+        }
+    },
+    "id": "a3CS0000000HzHsMAK",
+    "isdtp": "p1",
+    "layout": "lightning",
+    "sfdcIFrameHost": "web",
+    "sfdcIFrameOrigin": "https://commercial--iceqa--vlocity-ins.cs1.visual.force.com",
+    "testContextId": "0QLS0000000WMZnOAO",
+    "timeStamp": "2020-01-17T06:52:11.054Z",
+    "userCurrencyCode": "USD",
+    "userId": "0051K000008dXgiQAE",
+    "userName": "veramesh@deloitte.com.com2.iceqa",
+    "userProfile": "System Administrator",
+    "userTimeZone": -300,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "DR-QLIDetails_LG": 6287,
+        "OmniScriptSessionToken": "b1c8ca20-85d4-4eb0-80ca-e85b96c340a0",
+        "SV-planType-Update": 61,
+        "SetValueContextId": 234,
+        "SetValues": 150
+    }
+}

@@ -1,0 +1,79 @@
+{
+    "data": {
+        "actions": [
+            {
+                "displayName": "Like Action",
+                "vlocityIcon": "icon-v-heart"
+            }
+        ],
+        "fields": [
+            {
+                "label": "Description",
+                "name": "description"
+            },
+            {
+                "label": "Cost",
+                "name": "cost",
+                "type": "currency"
+            }
+        ],
+        "title": "Card Title"
+    },
+    "obj": {
+        "Id": "123456",
+        "LastModifiedDate": "2016-09-27T12:43:07.680Z",
+        "Name": "Object Name",
+        "cost": 150,
+        "description": "Some description"
+    },
+    "records": [
+        {
+            "age": -72,
+            "avatar": "http://hhhhold.com/s?14332770",
+            "bio": "The fossa is unique within its family for the shape of its genitalia, which share traits with those of cats and hyenas.",
+            "email": "míchel_salgado@close.net",
+            "id": "8bafe499-705d-4195-b392-c7fa80c5dbcc",
+            "name": "Dory Previn"
+        },
+        {
+            "age": -40,
+            "avatar": "http://hhhhold.com/s?14620885",
+            "bio": "2 km) away, near the village of Fence.",
+            "email": "zac_hanson@force.net",
+            "id": "8bfa5898-c951-4942-86bb-c96658485721",
+            "name": "Peter Reading"
+        },
+        {
+            "age": 35,
+            "avatar": "http://hhhhold.com/s?16739887",
+            "bio": "In Ambato alone, 75 percent of the homes still standing had to be demolished.",
+            "email": "allan_simmons@at.net",
+            "id": "06443f30-4211-4397-a9e4-baff60166431",
+            "name": "Mauro Giuliani"
+        },
+        {
+            "age": 93,
+            "avatar": "http://hhhhold.com/s?10563478",
+            "bio": "The second-tallest building in Vancouver is the Private Residences at Hotel Georgia, at 156 metres (512 feet).",
+            "email": "george_n._leighton@position.com",
+            "id": "d06d7332-70da-4711-b9bc-ca52e33c88c8",
+            "name": "Justin Fashanu"
+        },
+        {
+            "age": 19,
+            "avatar": "http://hhhhold.com/s?7104348",
+            "bio": "In the beginning of 1686 two papers were found in Charles II's strong box and his closet, in his own hand, stating the arguments for Catholicism over Protestantism.",
+            "email": "geoffrey_de_havilland@marry.xxx",
+            "id": "127401b3-5eac-4220-b80b-d6df461d9864",
+            "name": "Tahir-ul-Qadri"
+        },
+        {
+            "age": 28,
+            "avatar": "http://hhhhold.com/s?8589428",
+            "bio": "The unmistakable breeding plumaged male has a chocolate-brown head and white breast with a white stripe extending up the side of the neck.",
+            "email": "fern_persons@abdul-jabbar.xxx",
+            "id": "f5aa6c36-bda8-4ab8-a41d-ddeaf4a38381",
+            "name": "C. Z. Guest"
+        }
+    ]
+}

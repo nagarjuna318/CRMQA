@@ -1,0 +1,100 @@
+{
+    "AccountId": "0012a00000TxX9rAAF",
+    "ContextId": "0Q02a000000KcYzCAK",
+    "ContextIdTest": "0Q05B000000EkWGSA0",
+    "CustomerBenefits": {
+        "ASHEligibleMembers": null,
+        "ASHEligibleMembersFM": "",
+        "ASHGymReimbursementBuyup": "No",
+        "ASHProgramName": "Gym Reimbursement",
+        "ASHProgramNameFM": "",
+        "ActivityNutritionSleepPrograms": "Yes",
+        "AnthemHealthGuide": "No",
+        "AnthemHealthRewards": "No",
+        "BioIQ": "No",
+        "LiveHealthOnlineOffering": "Live Health Online Medical Only",
+        "MyHealthAdvantage": "No",
+        "WebMDHRAProgram": "Yes"
+    },
+    "DRId_Engage_Scoping_And_Engage_Standard__c": "",
+    "ESPCountNumber": 0,
+    "EmployerPrograms": {
+        "AddEmployeePrograms": true,
+        "EmployeeProgramBlock": {
+            "EmployerProgramAvailabilityDate": null,
+            "EmployerProgramEligibleMembers": null,
+            "EmployerProgramEmail": null,
+            "EmployerProgramId": null,
+            "EmployerProgramName": null,
+            "EmployerProgramPhoneNumber": null,
+            "EmployerProgramWebsite": null,
+            "GroupSuffixNumber": null,
+            "IfOtherEmployerProgramName": null
+        },
+        "EmployerProgramAddBlock": {
+            "EmployerProgramAvailabilityDateAdd": "2019-04-24",
+            "EmployerProgramEligibleMembersAdd": "Employees Only",
+            "EmployerProgramEmailAdd": "test@email.test",
+            "EmployerProgramNameAdd": "Onsite Clinic",
+            "EmployerProgramPhoneNumberAdd": "3333333333",
+            "EmployerProgramWebsiteAdd": "https://test.test.com",
+            "GroupSuffixNumberAdd": "444",
+            "IfOtherEmployerProgramNameAdd": null
+        }
+    },
+    "EngageStandardGeneralInfo": {
+        "AccountExcutiveManager": "Kevin Krenk",
+        "AccountLegalName": "Kevin Test Account Oct 2018",
+        "AccountRenewalOrNewSale": "Renewal",
+        "AnthemControlState": "CA California",
+        "CastlightSubmissionStatus_Standard": null,
+        "ClaimSystem": "WGS 2.0",
+        "ClientMarket": "National Accounts",
+        "EndDateOfCustomerContract": "2019-04-24",
+        "EstReceiptDateOfFirstProdEligFile": "2019-04-24",
+        "EstReceiptDateOfFirstProdOEFile": "2019-04-24",
+        "GroupName": "Quote for Group 3 2020 KTAO2018",
+        "GroupNumber": "Group 3",
+        "MemberSupportHoursOfAvailability": "333",
+        "MemberSupportPhoneNumber": "3333333333",
+        "OpportunityName": "2020 Opportunity Renewal-Kevin Test Account Oct 2018",
+        "OpportunityType": "Renewal",
+        "StartDateOfCustomerContract": "2019-04-24"
+    },
+    "ExpectedIntegrations": {
+        "HealthAccountsBlocks": {
+            "SpecifyAccountTypeAndVendorDetails": "Quote for Group 3 2020 KTAO2018"
+        }
+    },
+    "QuoteId": "0Q02a000000KcYzCAK",
+    "ReadyToSubmitForm": {
+        "CastlightStatusCalculation_Standard": "Not Submitted",
+        "FR-FinishMessage": " Creating Engage Standard Record For: Kevin Test Account Oct 2018"
+    },
+    "RecordId": "",
+    "RecordTypeName": "Engage Standard",
+    "id": "a3C2a000000B6xEEAS",
+    "isQuoteRecord": "Y",
+    "isQuoteRecordPrefix": "0Q0",
+    "layout": "lightning",
+    "testContextId": "0Q02a000000KcYzCAK",
+    "timeStamp": "2019-04-24T18:25:16.431Z",
+    "userCurrencyCode": "USD",
+    "userId": "0052a000001AQ5vAAG",
+    "userName": "ilugina@anthem.com2.iceqa",
+    "userProfile": "System Administrator",
+    "userTimeZone": -240,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "ASHProgramNameDefaultValue": 13,
+        "CustomerBenefits": 14040,
+        "DRE_ENGAGE_ExtractESS": 521,
+        "DRE_ENGAGE_ExtractQuoteAccount": 2497,
+        "EmployerPrograms": 30944,
+        "EngageStandardGeneralInfo": 20056,
+        "OmniScriptSessionToken": "1895450f-88ed-4cf3-b4ca-a26158431e53",
+        "PostSetValues": 6,
+        "PreSetValues": 49
+    }
+}

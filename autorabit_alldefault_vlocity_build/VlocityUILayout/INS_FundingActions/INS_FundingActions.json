@@ -1,0 +1,25 @@
+{
+    "Cards": [
+        "Funding Card Standard"
+    ],
+    "dataSource": {
+        "contextVariables": [
+            {
+                "name": "params.Id",
+                "val": "a6cW00000001aU2IAI"
+            }
+        ],
+        "type": "Query",
+        "value": {
+            "query": "SELECT Id, Name FROM Funding__c WHERE Id = '{{params.id || params.Id}}'"
+        }
+    },
+    "templates": {
+        "0": {
+            "templateUrl": "card-canvas-1x-slds-nosearch"
+        }
+    },
+    "workspace": [
+        "Funding Card Standard/Anthem Commercial 2.0/1/1517371820526"
+    ]
+}

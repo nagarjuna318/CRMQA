@@ -1,0 +1,40 @@
+{
+    "ADDTH": {
+        "Telehealth": [
+            {
+                "BHCostShareTH": "Match Existing BH In-person Cost Share",
+                "CopaymentTH": 21,
+                "CustomBenefitTH": "t1",
+                "IsThereCopaymentTH": "Yes",
+                "NoMemberCostShareTH": true,
+                "PackageContractCodeTH": "test",
+                "PercentCoinsuranceFollowingDeductibleTH": 80,
+                "PercentCoinsuranceNotSubjectToDeductibleTH": 20,
+                "ProductSelectNameTH": null,
+                "ProductTypeTH": "CDHP-HIA",
+                "RecordTypeFormulaTH": "Telehealth",
+                "SubjectToDeductibleCoinsuranceTH": "No",
+                "THId": null,
+                "THRecordTypeId": null
+            },
+            {
+                "BHCostShareTH": "Match Existing Medical Cost Share (use only if BH in-person is co-pay)",
+                "CopaymentTH": 0,
+                "CustomBenefitTH": "test2",
+                "IsThereCopaymentTH": "No",
+                "NoMemberCostShareTH": true,
+                "PackageContractCodeTH": "test2",
+                "PercentCoinsuranceFollowingDeductibleTH": 90,
+                "PercentCoinsuranceNotSubjectToDeductibleTH": 10,
+                "ProductSelectNameTH": null,
+                "ProductTypeTH": "CDHP-HSA",
+                "RecordTypeFormulaTH": "Telehealth",
+                "SubjectToDeductibleCoinsuranceTH": "Yes",
+                "THId": null,
+                "THRecordTypeId": null
+            }
+        ]
+    },
+    "ContextId": "0QL4B0000005xTT",
+    "QLIid": "0QL4B0000005xTTWAY"
+}

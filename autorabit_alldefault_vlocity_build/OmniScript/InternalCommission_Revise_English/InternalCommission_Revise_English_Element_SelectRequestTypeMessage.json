@@ -1,0 +1,38 @@
+{
+    "%vlocity_namespace%__Active__c": true,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "ReviseInternalCommissions",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/InternalCommission/Revise/English",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__ParentElementId__c": {
+        "%vlocity_namespace%__OmniScriptId__c": {
+            "Name": "ReviseInternalCommissions",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/InternalCommission/Revise/English",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+        },
+        "Name": "SelectICTypeRequest",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/InternalCommission/Revise/English/SelectICTypeRequest",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c"
+    },
+    "%vlocity_namespace%__ParentElementName__c": "SelectICTypeRequest",
+    "%vlocity_namespace%__ParentElementType__c": "Step",
+    "%vlocity_namespace%__PropertySet__c": {
+        "HTMLTemplateId": "",
+        "controlWidth": 12,
+        "dataJSON": false,
+        "disOnTplt": false,
+        "label": null,
+        "show": null,
+        "text": "<p style=\"background-color: transparent; box-sizing: border-box; color: rgba(0, 0, 0, 0.9); font-family: &amp;quot; salesforce sans&amp;quot;,arial,sans-serif; font-size: 12px; font-style: normal; font-variant: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-decoration: none; text-indent: 0px; text-transform: none; -webkit-text-stroke-width: 0px; white-space: normal; word-spacing: 0px; margin: 0px 0px 10px 0px;\"></p>\n<p style=\"background-color: transparent; box-sizing: border-box; color: rgba(0, 0, 0, 0.9); font-family: &amp;quot; salesforce sans&amp;quot;,arial,sans-serif; font-size: 12px; font-style: normal; font-variant: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-decoration: none; text-indent: 0px; text-transform: none; -webkit-text-stroke-width: 0px; white-space: normal; word-spacing: 0px; margin: 0px 0px 10px 0px;\"><strong style=\"box-sizing: border-box; font-weight: bold;\">Note:</strong></p>\n<ul style=\"background-color: transparent; box-sizing: border-box; color: rgba(0, 0, 0, 0.9); font-family: &amp;quot; salesforce sans&amp;quot;,arial,sans-serif; font-size: 12px; font-style: normal; font-variant: normal; font-weight: 400; letter-spacing: normal; margin-bottom: 10px; margin-top: 0px; orphans: 2; text-align: left; text-decoration: none; text-indent: 0px; text-transform: none; -webkit-text-stroke-width: 0px; white-space: normal; word-spacing: 0px;\">\n<li style=\"box-sizing: border-box;\">\n<p style=\"box-sizing: border-box; margin: 0px 0px 10px 0px;\">Account Executives should select &lsquo;<u style=\"box-sizing: border-box;\"><strong style=\"box-sizing: border-box; font-weight: bold;\">Account Team</strong></u>&rsquo;. This represents the path for Account Executive, Account Manager(s), Regional Managers, Director/Sales AM, RVP, and Chief Client Officer</p>\n</li>\n<li style=\"box-sizing: border-box;\">\n<p style=\"box-sizing: border-box; margin: 0px 0px 10px 0px;\">New Sales / Sales Executives should select &lsquo;<u style=\"box-sizing: border-box;\"><strong style=\"box-sizing: border-box; font-weight: bold;\">New Sales Team</strong></u>&rsquo;. This represents the path for Sales Executive, Sales RVP, and Chief Growth Officer</p>\n</li>\n</ul>"
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": false,
+    "%vlocity_namespace%__Type__c": "Text Block",
+    "Name": "SelectRequestTypeMessage",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/InternalCommission/Revise/English/SelectRequestTypeMessage"
+}

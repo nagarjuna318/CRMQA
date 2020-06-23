@@ -1,0 +1,69 @@
+{
+    "AcctDet": {
+        "Situs_State": "CA"
+    },
+    "AddGroupPlanDesign": {
+        "AddMultiPlanDesign": null,
+        "GroupPlanDes": null,
+        "NewSuffix": false
+    },
+    "ContextId": "0QL4C000000LfeKWAS",
+    "GroupId": "a5I4C000000L75OUAS",
+    "Network": "VI = Vivity",
+    "OpptyDet": {
+        "Id": "0064C000005RKYWQA4",
+        "Name": "2019 New Business Local-Test Prop",
+        "RecordTypeName": "New Business Local"
+    },
+    "OpptyRecordType": "New Business Local",
+    "PlanBenefitDetail": {
+        "PlanBenefitDetails": null,
+        "PlanDetErrorMessage": false
+    },
+    "Product2Id": "01t41000004JBwrAAG",
+    "QLIDet": {
+        "ContractCode": "AA12",
+        "Id": "0QL4C000000LfeKWAS",
+        "Market": "CT",
+        "Network": "VI = Vivity",
+        "Product2Id": "01t41000004JBwrAAG",
+        "ProductName": "EPO",
+        "QuoteId": "0Q04C000000LSHSSA4"
+    },
+    "QuoteDet": {
+        "GroupId": "1234567",
+        "GroupNumber": "a5I4C000000L75OUAS"
+    },
+    "QuoteId": "0Q04C000000LSHSSA4",
+    "Update_Plan_Details": {
+        "Actwise_Member_Provider_Pay_Indicator": null,
+        "Anthem_Engage_Indicators": null,
+        "Corporate_Plan_Code": null,
+        "HCR_Option": null,
+        "HCR_Status": null,
+        "OpptyName": null,
+        "Plan_Benefit_Change": null,
+        "Plan_Comments": null,
+        "Plan_Term_Date": null,
+        "Plan_Type": null,
+        "State": null,
+        "WLP_Reference_Based_Benefit": false
+    },
+    "id": "a3C4C0000000c9OUAQ",
+    "layout": "lightning",
+    "timeStamp": "2019-01-17T09:22:48.600Z",
+    "userCurrencyCode": "USD",
+    "userId": "00541000006Y54QAAS",
+    "userName": "veramesh@deloitte.com2.icepraveen",
+    "userProfile": "System Administrator",
+    "userTimeZone": -480,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "DR-PlanExtract": 1097,
+        "DR-QLIDetails": 2676,
+        "OmniScriptSessionToken": "27e2313f-e8c7-40f0-b976-24f4d7f469d0",
+        "SetValueContextId": 5,
+        "SetValues": 25
+    }
+}

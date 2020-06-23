@@ -1,0 +1,26 @@
+.via-slds-action-grid-card {
+    .via-action-icon:before {
+        font-size: 200%;
+    }
+}
+
+.display-table{
+    display:table !important;
+}
+
+.action-display-name{
+    display: table-cell !important; 
+    text-align: left !important;
+    margin-bottom: 0 !important;
+    vertical-align: middle !important;
+}
+
+.action-link-styles{
+    display: block !important;
+    text-align: left !important;
+    padding-left: 0 !important;
+}
+
+.padding-none{
+    padding: 0 !important;
+}

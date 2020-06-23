@@ -1,0 +1,90 @@
+{
+    "dataSource": {
+        "type": null,
+        "value": {
+        }
+    },
+    "filter": {
+        "['RecordTypeName__c']": "Engage Standard"
+    },
+    "states": [
+        {
+            "collapse": false,
+            "conditions": {
+                "group": [
+                    {
+                        "field": "$scope.data.status",
+                        "operator": "===",
+                        "type": "system",
+                        "value": "'active'"
+                    }
+                ]
+            },
+            "definedActions": {
+                "actions": [
+                    {
+                        "collapse": true,
+                        "conditions": {
+                            "group": [
+                                {
+                                    "group": [
+                                        {
+                                            "field": "['Ready_to_Submit_Engage_Scoping_Form__c']",
+                                            "operator": "==",
+                                            "type": "custom",
+                                            "value": "true"
+                                        },
+                                        {
+                                            "field": "['Ready_to_Submit_Engage_Standard_Form__c']",
+                                            "logicalOperator": "||",
+                                            "operator": "==",
+                                            "type": "custom",
+                                            "value": "true"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "group": [
+                                        {
+                                            "field": "Castlight_Submission_Status_Formula__c",
+                                            "operator": "==",
+                                            "type": "custom",
+                                            "value": "Not Submitted"
+                                        },
+                                        {
+                                            "field": "Castlight_Submission_Status_Formula__c",
+                                            "logicalOperator": "||",
+                                            "operator": "==",
+                                            "type": "custom",
+                                            "value": "Pending Update After Initial Submission"
+                                        }
+                                    ],
+                                    "logicalOperator": "&&"
+                                }
+                            ]
+                        },
+                        "disableAddCondition": false,
+                        "filter": "$scope.obj['Ready_to_Submit_Engage_Scoping_Form__c'] == true || $scope.obj['Ready_to_Submit_Engage_Standard_Form__c'] == true && ($scope.obj.Castlight_Submission_Status_Formula__c == 'Not Submitted' || $scope.obj.Castlight_Submission_Status_Formula__c == 'Pending Update After Initial Submission')",
+                        "hasExtraParams": true,
+                        "id": "Submit Engage Scoping and Engage Standard Form",
+                        "isCustomAction": false,
+                        "type": "Vlocity Action"
+                    },
+                    {
+                        "collapse": true,
+                        "hasExtraParams": false,
+                        "id": "Engage Standard",
+                        "isCustomAction": false,
+                        "type": "Vlocity Action"
+                    }
+                ]
+            },
+            "fields": [
+            ],
+            "name": "Engage Standard",
+            "sObjectType": "Engage_Scoping_And_Engage_Standard__c",
+            "templateUrl": "ActionCardsTemplate"
+        }
+    ],
+    "title": "Engage Standard"
+}

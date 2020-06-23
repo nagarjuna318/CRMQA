@@ -1,0 +1,60 @@
+{
+    "AccountId": "001W000000amKK5IAM",
+    "AccountName": "Hunter Douglas Inc.",
+    "AnthemEntity": "National Accounts",
+    "CaseName": "2018: Renewal-Hunter Douglas Inc.",
+    "ContextId": "801W0000000n9sbIAA",
+    "FR-ProductCode": "",
+    "FR-ProductName": "",
+    "FR-QResult": "",
+    "FR-QResultRCR": "",
+    "GroupClaimSystem": "WGS 2.0",
+    "HQState": "NH",
+    "Id": "801W0000000n9sbIAA",
+    "ImplementationNumber": "00000372",
+    "ImplementationType": "Renewal",
+    "LoggedInUserProfile": "System Administrator",
+    "ST-BehaviorHealthDetail_RCR": {
+        "FR-QResultRCR": "NA",
+        "FR-QResultRCRMsg": false,
+        "Q1_RCR": "No",
+        "Q2_RCR": "No",
+        "Q3_RCR": "No",
+        "Q4_RCR": "No",
+        "Q5_RCR": null,
+        "Q6_RCR": null,
+        "Q7_RCR": null,
+        "Q8_RCR": null
+    },
+    "ST-BehavioralHealth": {
+        "FR-AccountName": "Hunter Douglas Inc.",
+        "FR-ImplementationCaseName": "2018: Renewal-Hunter Douglas Inc.",
+        "FR-ImplementationRecordId": "00000372",
+        "FR-ImplementationType": "RCR"
+    },
+    "ST-ProductDetail": {
+        "BHScenario": null,
+        "FR-PD-Q": null,
+        "FR-QResult": null,
+        "PD-NAComments": null,
+        "PD-NACorrespondingPackageCode": null,
+        "PD-Q": null,
+        "PD-QNotAvailable": null
+    },
+    "id": "a3CW0000000Aq7PMAS",
+    "layout": "lightning",
+    "timeStamp": "2018-02-11T02:45:49.659Z",
+    "userCurrencyCode": "USD",
+    "userId": "005W0000002nEcaIAE",
+    "userName": "ilugina@vlocity.com.prod.nal1b.dev",
+    "userProfile": "System Administrator",
+    "userTimeZone": -300,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "DRE-ImplementationCase": 468,
+        "OmniScriptSessionToken": "96e79103-8123-4902-9b3e-e109fe2c77b5",
+        "ST-BehavioralHealth": 4073,
+        "SV-PresetValue": 32
+    }
+}

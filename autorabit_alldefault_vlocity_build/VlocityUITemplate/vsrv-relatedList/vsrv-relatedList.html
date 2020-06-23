@@ -1,0 +1,304 @@
+<section
+    class="vloc-card slds-card vloc-card--detail-list slds-m-bottom--medium is-active"
+    data-card="card-{{cardIndex}}"
+    ng-class="{'has-icon': viewState.hasIcon, 'has-preview': rlc.previewMode}"
+    ng-init="
+        viewState = {};
+        viewState.headerAction = ((data.actions)?  data.actions[0] : undefined);
+        viewState.hasIcon = (data.icon || data.iconFromType);
+        rlc.init(); 
+    "
+    ng-controller="recordListController as rlc"
+    hotkey-layout-card
+>
+    
+    <div class="slds-card__header slds-grid slds-grid--vertical-align-center">
+        <div class="slds-media slds-media--center slds-has-flexi-truncate">
+            <div class="slds-media__figure">
+                <vloc-card-icon sprite="data.sprite" icon="data.icon" size="'medium'"></vloc-card-icon>
+            </div>
+            <div class="slds-media__body">
+                <h1 class="slds-text-heading--small slds-truncate">{{data.title}} <span ng-if="records.length > 0">({{records.length}})</span></h1>
+                <span ng-if="!records.length >0 ">(0)</span>
+            </div>
+            <!--<button class="slds-button slds-button--neutral slds-float--right" onclick="window.location.reload()">-->
+            <!--    <slds-button-svg-icon sprite="'utility'" icon="'refresh'" no-hint="true" extra-classes="'slds-button__icon--left'"></slds-button-svg-icon> Refresh-->
+            <!--</button>-->
+        </div>
+    </div>
+
+
+    <div class="vloc-card__body">
+        <!--Filter controls -->
+        <div class="slds-form slds-p-horizontal--large slds-p-vertical--small" ng-if="rlc.filterByField === 'all'">
+            <div
+                class="slds-form-element"
+            >
+                <div class="slds-form-element__control slds-input-has-icon slds-input-has-icon--left">
+                    <slds-svg-icon
+                        sprite="'utility'"
+                        icon="'search'"
+                        size="'small'"
+                        no-hint="true"
+                        extra-classes="'slds-input__icon slds-icon-text-default'"
+                    ></slds-svg-icon>
+                    <input
+                        type="text"
+                        id="rlc-filterby-value"
+                        class="slds-input"
+                        placeholder="Search {{data.title}}"
+                        ng-model="rlc.filterByValue.query"
+                    />
+                </div>
+            </div>
+        </div>
+        <div class="slds-form--inline slds-p-horizontal--large slds-p-vertical--small" ng-if="rlc.filterableFields.length && rlc.filterByField !== 'all'">
+            <!-- filter type -->
+            <div class="slds-form-element">
+                <label class="slds-form-element__label" for="rlc-filterby">Filter By:</label>
+                <div class="slds-form-element__control">
+                    <span
+                        class="slds-form-element__static slds-had-divider--bottom"
+                        ng-if="rlc.filterableFields.length === 1"
+                    >{{::rlc.filterableFields[rlc.filterByField].label}}</span>
+                    <select
+                        ng-if="rlc.filterableFields.length > 1"
+                        name="rlc-filterby"
+                        id="rlc-filterby"
+                        class="slds-select"
+                        ng-model="rlc.filterByField"
+                        ng-options="opt as opt.label for opt in rlc.filterableFields track by opt.name"
+                    ></select>
+                </div>
+            </div>
+            <div
+                class="slds-form-element"
+                ng-show="rlc.filterByField.type == 'string'"
+            >
+                <div class="slds-form-element__control slds-input-has-icon slds-input-has-icon--left">
+                    <slds-svg-icon
+                        sprite="'utility'"
+                        icon="'search'"
+                        size="'small'"
+                        no-hint="true"
+                        extra-classes="'slds-input__icon slds-icon-text-default'"
+                    ></slds-svg-icon>
+                    <input
+                        type="text"
+                        id="rlc-filterby-value"
+                        class="slds-input"
+                        placeholder="Search"
+                        ng-model="rlc.filterByValue.query"
+                    />
+                </div>
+            </div>
+
+            <!-- date range filter start date-->
+            <div
+                class="slds-form-element"
+                ng-show="rlc.filterByField.type == 'date'"
+            >
+                <label class="slds-form-element__label" for="date-select--from-date">From:</label>
+                <div class="slds-form-element__control slds-input-has-icon slds-input-has-icon--left">
+                    <!--<svg class="slds-input__icon slds-icon-text-default" aria-hidden="true">
+                        <use xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#search"></use>
+                    </svg>-->
+                    <slds-svg-icon
+                        sprite="'utility'"
+                        icon="'event'"
+                        size="'small'"
+                        no-hint="true"
+                        extra-classes="'slds-input__icon slds-icon-text-default'"
+                    ></slds-svg-icon>
+                    <input
+                        id="date-select--from-date"
+                        class="slds-input"
+                        type="date"
+                        ng-model="rlc.filterByValue.fromDate"
+                    />
+                </div>
+            </div>
+
+            <!--date range filter end date-->
+            <div
+                class="slds-form-element"
+                ng-show="rlc.filterByField.type == 'date'"
+            >
+                <label class="slds-form-element__label" for="date-select--to-date">To:</label>
+                <div class="slds-form-element__control slds-input-has-icon slds-input-has-icon--left">
+                    <!--<svg class="slds-input__icon slds-icon-text-default" aria-hidden="true">
+                        <use xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#search"></use>
+                    </svg>-->
+                    <slds-svg-icon
+                        sprite="'utility'"
+                        icon="'event'"
+                        size="'small'"
+                        no-hint="true"
+                        extra-classes="'slds-input__icon slds-icon-text-default'"
+                    ></slds-svg-icon>
+                    <input
+                        id="date-select--to-date"
+                        class="slds-input"
+                        type="date"
+                        ng-model="rlc.filterByValue.toDate"
+                    />
+                </div>
+                <a
+                    ng-click="
+                        rlc.filterByValue.fromDate = rlc.initialFromDate;
+                        rlc.filterByValue.toDate = rlc.initialToDate;
+                    "
+                    class="slds-button slds-button--neutral"
+                >Clear</a>
+            </div>
+
+        </div>
+        
+        <div
+            class="slds-card__body--inner slds-theme--default slds-p-top--medium slds-p-bottom--medium"
+            ng-if="records.length == 0"
+        >
+            <div class="slds-box slds-theme--shade">
+                 No records found.
+            </div>
+        </div>
+        <div class="vloc-table_wrap">
+            <table ng-if="records.length > 0" class="slds-table slds-table--bordered slds-table--cell-buffer">
+                <thead>
+                    <tr>
+                        <th 
+                            class="slds-cell-wrap"
+                            ng-repeat="field in data.fields | limitTo : rlc.fieldsLimit"
+                        >
+                            <strong
+                                ng-hide="rlc.sortableFields.indexOf(field.name) > -1"
+                                class="slds-text-heading--label"
+                            >
+                                {{::field.label}}
+                            </strong>
+                            <span
+                                ng-show="rlc.sortableFields.indexOf(field.name) > -1"
+                                ng-click="rlc.sortTable(field.name)"
+                            >
+                                <strong
+                                    class="slds-text-heading--label slds-type-focus"
+                                >
+                                    {{::field.label}}
+                                    <span ng-if="rlc.orderBy == rlc.normalizeObjectPath(field.name)">
+                                        <slds-svg-icon
+                                            ng-hide="rlc.orderReverse === false"
+                                            sprite="'utility'"
+                                            icon="'down'"
+                                            size="'small'"
+                                            no-hint="true"
+                                            extra-classes="'vloc-sorting-control__icon slds-icon-text-default'"
+                                        ></slds-svg-icon>
+                                        <slds-svg-icon
+                                            ng-hide="rlc.orderReverse === true"
+                                            sprite="'utility'"
+                                            icon="'up'"
+                                            size="'small'"
+                                            no-hint="true"
+                                            extra-classes="'vloc-sorting-control__icon slds-icon-text-default'"
+                                        ></slds-svg-icon>
+                                    </span>
+                                </strong>
+                            </span>
+                        </th>
+                        <th ng-if="rlc.recordActions.length > 0">
+
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr
+                        ng-repeat-start="record in rlc.filterRecords(records) | orderBy:rlc.orderBy:rlc.orderReverse"
+                        ng-click="rlc.toggleSelection(record)"
+                        ng-init="row = $index"
+                        ng-class="{'slds-is-selected': rlc.selectedRecord == record}"
+                    >
+                    
+                        <td
+                            class="slds-cell-wrap"
+                            ng-repeat="field in data.fields | limitTo : rlc.fieldsLimit"
+                        >
+                            <a ng-href="/{{record[field.linkToId]}}" target="_top" ng-if="field.linkToId" ng-bind="record | getter: field | picker : field.type"></a>
+                            <span ng-if="!field.linkToId" ng-bind="record | getter: field | picker : field.type"></span>
+
+                        </td>
+                        <td ng-if="rlc.recordActions.length > 0">
+                            <div class="slds-button-group">
+                                    <button
+                                        class="slds-button slds-button--neutral"
+                                        ng-click="rlc.performAction(action, null, record)"
+                                        ng-repeat="action in rlc.recordActions"
+                                    >{{::action.displayName}}</button>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr
+                        ng-repeat-end
+                        ng-if="rlc.previewMode && rlc.selectedRecord == record"
+                        class="slds-is-selected"
+                    >
+                        <td colspan="{{::rlc.fieldsLimit}}">
+                            <!-- Preview Flyout-->
+                            <section class="vloc-preview-table_wrap" ng-if="::data.flyout && data.flyout.layout">
+                                <vloc-layout
+                                    ng-if="::data.flyout.data"
+                                    ng-init="rlc.getFlyoutData(data.flyout.data)"
+                                    layout-name="{{::data.flyout.layout}}"
+                                    controller="{{ctrl}}"
+                                    records="::rlc.flyoutData"
+                                ></vloc-layout>
+                                <vloc-layout
+                                    ng-if="::!data.flyout.data"
+                                    controller="{{ctrl}}"
+                                    layout-name="{{::data.flyout.layout}}"
+                                    context-id="{{::record[data.contextId]}}"
+                                >
+                                </vloc-layout>
+                            </section>
+                            
+                            <!-- Preview Fields -->
+                            <div class="vloc-preview-table_wrap">
+                                <table class="vloc-preview-table slds-table slds-table--bordered slds-table--cell-buffer slds-table--col-bordered">
+                                    <tr ng-repeat="field in data.fields | limitTo : -rlc.previewFieldsOffset">
+                                        <th class="detail-label slds-cell-shrink slds-text-heading--label slds-text-color--weak">
+                                            <div class="slds-truncate">
+                                                {{::field.label}}
+                                            </div>
+                                        </th>
+                                        <td class="value slds-cell-wrap">
+                                            <div ng-bind="rlc.selectedRecord | getter: field | picker: field.type"></div>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr ng-if="rlc.showTotals" class="vs-theme--smoke">
+                        <th
+                            ng-repeat="field in data.fields | limitTo : rlc.fieldsLimit"
+                            class="vloc-totals-header "
+                        >
+                            <span ng-if="rlc.hasRollup[field.type]">Total</span>
+                        </th>
+                    </tr>
+                    <tr ng-if="rlc.showTotals">
+                        <td ng-repeat="field in data.fields | limitTo : rlc.fieldsLimit">
+                            <span ng-if="rlc.hasRollup[field.type]">{{rlc.totals[field.label] | picker : field.type}}</span>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+    </div>
+    <footer class="slds-card__footer">
+        <a ng-click="rlc.performAction(action)"
+            ng-repeat="action in data.actions"
+        >{{::action.displayName}}</a>
+    </footer>
+    
+</section>

@@ -1,0 +1,11 @@
+{
+    "DynamicFilters": {
+        "DynamicFilterConditions": {
+            "Value": "Text"
+        },
+        "FieldType": "Text",
+        "Id": "Text",
+        "Name": "Text",
+        "Type": "Text"
+    }
+}

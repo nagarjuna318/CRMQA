@@ -1,0 +1,28 @@
+{
+    "%vlocity_namespace%__AdditionalInformation__c": "Revision SME Approval",
+    "%vlocity_namespace%__ElementTypeToHTMLTemplateList__c": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "%vlocity_namespace%__Element__c": [
+        "IMPCase-Library_IC-RevisionSMEApproval_English_Element_SV-ContextId.json",
+        "IMPCase-Library_IC-RevisionSMEApproval_English_Element_DR-ExtractICSMEFlags.json",
+        "IMPCase-Library_IC-RevisionSMEApproval_English_Element_RemoteAction2.json",
+        "IMPCase-Library_IC-RevisionSMEApproval_English_Element_DR-ExtractSMEDepts.json",
+        "IMPCase-Library_IC-RevisionSMEApproval_English_Element_STManualDepartment.json",
+        "IMPCase-Library_IC-RevisionSMEApproval_English_Element_SIManualDepartment.json",
+        "IMPCase-Library_IC-RevisionSMEApproval_English_Element_SMEEnd.json",
+        "IMPCase-Library_IC-RevisionSMEApproval_English_Element_Headline2.json",
+        "IMPCase-Library_IC-RevisionSMEApproval_English_Element_RemoteAction1.json",
+        "IMPCase-Library_IC-RevisionSMEApproval_English_Element_DR-ImpCaseStatusUpdate.json",
+        "IMPCase-Library_IC-RevisionSMEApproval_English_Element_DA-IMPLCase.json"
+    ],
+    "%vlocity_namespace%__IsProcedure__c": false,
+    "%vlocity_namespace%__IsReusable__c": true,
+    "%vlocity_namespace%__Language__c": "English",
+    "%vlocity_namespace%__PropertySet__c": "IMPCase-Library_IC-RevisionSMEApproval_English_PropertySet.json",
+    "%vlocity_namespace%__SubType__c": "IC-RevisionSMEApproval",
+    "%vlocity_namespace%__TestHTMLTemplates__c": "IMPCase-Library_IC-RevisionSMEApproval_English_HTMLTemplates.html",
+    "%vlocity_namespace%__Type__c": "IMPCase Library",
+    "Name": "RevisionSMEApproval",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__OmniScript__c/IMPCase Library/IC-RevisionSMEApproval/English"
+}

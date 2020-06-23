@@ -1,0 +1,64 @@
+{
+    "ContextId": null,
+    "CoordinationofBenifits": {
+        "BLK-NASCO": {
+            "CB-COBMethodApplytoallPackagesSuffix": null,
+            "CB-IfnospecifyCOBmethodperpackage": null
+        },
+        "CB-AnthemMonthtoSolicitCOB": null,
+        "CB-CaseorSuffixforAnnualCOBSolicit": null,
+        "CB-Comments": null,
+        "CB-CoordinationofBenefits": null,
+        "CB-OptionE": null,
+        "CB-PayandPursue": null,
+        "CB-PursueandPay": null
+    },
+    "Finish": {
+        "F-Message": null
+    },
+    "ImpCase": {
+        "FRM-AccountName1": null,
+        "FRM-COBName": null,
+        "FRM-ClaimSystem": null,
+        "FRM-Id1": null,
+        "FRM-Name1": null
+    },
+    "MeToo": {
+        "MT-DoesMeTooselectionapplytoallpkgs": null,
+        "MT-IfnospecifyMETooperpackage": null,
+        "MT-MeTooIndicator": null
+    },
+    "MedicareCOB": {
+        "ME-ChangeMedicarePartDRxto": null,
+        "ME-DoesthisApplytoAllSubgroups": null,
+        "ME-ExcludefromMedicareCrossover": null,
+        "ME-IfNopleaseexplain": null,
+        "ME-Medicare-COB": null,
+        "ME-MedicareCOBComments": null,
+        "ME-MedicareCOBOptions": null,
+        "ME-WillMedicarePartDBenefitsbeOffered": null
+    },
+    "timeStamp": null,
+    "userId": null,
+    "userName": null,
+    "userProfile": null,
+    "userTimeZone": null,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "CoordinationofBenifits": null,
+        "DA-COB": null,
+        "DRE-GettingCOB": null,
+        "DRE-ICProfile": null,
+        "DRP-COB": null,
+        "DataRaptorPostAction2": null,
+        "Finish": null,
+        "ImpCase": null,
+        "MeToo": null,
+        "MedicareCOB": null,
+        "ST-MeToo": null,
+        "SV-COB": null,
+        "SV-ContextId": null,
+        "SetClaimSystem": null
+    }
+}

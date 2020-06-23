@@ -1,0 +1,444 @@
+{
+    "AP-Family": "",
+    "AP-FamilySelection": {
+        "AP-CatSelection": "Dental",
+        "AP-MarketSelection": "CA",
+        "AP-MarketSelectionFinalvlaue": "CA",
+        "AP-NALGMergeValue": "No",
+        "AP-OpptyType": null,
+        "AP-Plan_Message": true,
+        "AP-TypeRequiredMessaging": true,
+        "Aggregate1": null,
+        "AnthemEntity_Abbrev": "Local/Large Group",
+        "Medical_ProductType": null,
+        "Non_Medical_Product_Type": "Dental",
+        "SetProdStage": "No",
+        "Situs_State_Abbrev": "CA"
+    },
+    "AP-HasSPP": "No",
+    "AP-ParentId": "01tS00000060oHCIAY",
+    "AP-ProductFamily": {
+        "AP-ProductFamilySelection": "DENTAL PPO",
+        "AP-ProductFamilySelectionValidation": true
+    },
+    "AP-ProductFamilySelected": "DENTALCA",
+    "AP-ProductName": "Consumer Choice PPO",
+    "AP-ProductSelection": {
+        "AP-ProdSelected": true,
+        "AP-Selected": false,
+        "APParentCount": true,
+        "HelpText_FSA_Actwise": false,
+        "HelpText_Medical_CDHP": false,
+        "Messaging13": null,
+        "ProdList": [
+            {
+                "$$hashKey": "object:1085",
+                "HasSPP": false,
+                "Id": "01tS00000060oHCIAY",
+                "Name": "Consumer Choice PPO",
+                "QLIRecordType": "LocalType",
+                "RecordTypeId": "01241000001IOWvAAO",
+                "vlcSelected": true
+            }
+        ]
+    },
+    "AP-Selected": true,
+    "AP-Stages": [
+        "Dead",
+        "In Progress",
+        "Lost",
+        "Sold"
+    ],
+    "AccountDetails": {
+        "Situs_State_Abbrev": "CA"
+    },
+    "AccountId": "001S0000012i0R3IAI",
+    "AnthemEntity": "Local/Large Group",
+    "Category": "Product",
+    "ClinicalProductSelected": "Consumer Choice PPO",
+    "CompetitorCheck": 0,
+    "ContextId": "0Q0S0000000MbIRKA0",
+    "DeleteComp1_Final": "",
+    "DeleteComp2_Final": "",
+    "DeleteComp3_Final": "",
+    "FinalComp1Id": "",
+    "FinalComp1Stat": "",
+    "FinalComp2Id": "",
+    "FinalComp2Stat": "",
+    "FinalComp3Id": "",
+    "FinalComp3Stat": "",
+    "FinalOpptyRecType": "In Group Change Local",
+    "HPCCCodeVal": "",
+    "HPCCVal_Count": "",
+    "IGAP": "0Q04B000000AFao",
+    "InvType1": "",
+    "InvType2": "",
+    "InvType3": "",
+    "LOB1": "",
+    "LOB2": "",
+    "LOB3": "",
+    "MultiEmp1": "",
+    "MultiEmp1ReadOnly": "",
+    "MultiEmp2": "",
+    "MultiEmp2ReadOnly": "",
+    "MultiEmp3": "",
+    "MultiEmp3ReadOnly": "",
+    "NOEmp1": "",
+    "NOEmp1ReadOnly": "",
+    "NOEmp2": "",
+    "NOEmp2ReadOnly": "",
+    "NOEmp3": "",
+    "NOEmp3ReadOnly": "",
+    "NOUFlagEditStep": "",
+    "NewBusiness": "0Q04B000000AJiN",
+    "OpptyDetails": {
+        "AnthemEntity": "Local/Large Group",
+        "OpportunityEffectiveDate": "2019-01-01",
+        "StageName": "Initiated"
+    },
+    "OpptyEffectiveDateYear": "2019",
+    "OpptyType": "In Group Change Local",
+    "Opptystage": "Initiated",
+    "PlanList": [
+    ],
+    "PlanListInit": 0.8467879813391692,
+    "PlanType": "Standard",
+    "PlanTypeValNp": "",
+    "ProdFamilyList": [
+        {
+            "LOB_Org__c": "DENTALCA"
+        },
+        {
+            "LOB_Org__c": "DENTALCA"
+        },
+        {
+            "LOB_Org__c": "DENTALCA"
+        },
+        {
+            "LOB_Org__c": "DENTALCA"
+        },
+        {
+            "LOB_Org__c": "DENTALCA"
+        },
+        {
+            "LOB_Org__c": "DENTALCA"
+        },
+        {
+            "LOB_Org__c": "DENTALCA"
+        },
+        {
+            "LOB_Org__c": "DENTALCA"
+        },
+        {
+            "LOB_Org__c": "DENTALCA"
+        },
+        {
+            "LOB_Org__c": "DENTALCA"
+        },
+        {
+            "LOB_Org__c": "DENTALCA"
+        },
+        {
+            "LOB_Org__c": "DENTALCA"
+        },
+        {
+            "LOB_Org__c": "DENTALCA"
+        },
+        {
+            "LOB_Org__c": "DENTALCA"
+        },
+        {
+            "LOB_Org__c": "DENTALCA"
+        },
+        {
+            "LOB_Org__c": "DENTALCA"
+        },
+        {
+            "LOB_Org__c": "DENTALCA"
+        },
+        {
+            "LOB_Org__c": "DENTALCA"
+        },
+        {
+            "LOB_Org__c": "DENTALCA"
+        },
+        {
+            "LOB_Org__c": "DENTALCA"
+        },
+        {
+            "LOB_Org__c": "DENTALCA"
+        },
+        {
+            "LOB_Org__c": "DENTALCA"
+        },
+        {
+            "LOB_Org__c": "DENTALCA"
+        },
+        {
+            "LOB_Org__c": "DENTALCA"
+        },
+        {
+            "LOB_Org__c": "DENTALCA"
+        },
+        {
+            "LOB_Org__c": "DENTALCA"
+        },
+        {
+            "LOB_Org__c": "DENTALCA"
+        },
+        {
+            "LOB_Org__c": "DENTALCA"
+        },
+        {
+            "LOB_Org__c": "DENTALCA"
+        },
+        {
+            "LOB_Org__c": "DENTALCA"
+        },
+        {
+            "LOB_Org__c": "DENTALCA"
+        },
+        {
+            "LOB_Org__c": "DENTALCA"
+        },
+        {
+            "LOB_Org__c": "DENTALCA"
+        },
+        {
+            "LOB_Org__c": "DENTALCA"
+        },
+        {
+            "LOB_Org__c": "DENTALCA"
+        },
+        {
+            "LOB_Org__c": "DENTALCA"
+        },
+        {
+            "LOB_Org__c": "DENTALCA"
+        },
+        {
+            "LOB_Org__c": "DENTALCA"
+        },
+        {
+            "LOB_Org__c": "DENTALCA"
+        },
+        {
+            "LOB_Org__c": "DENTALCA"
+        },
+        {
+            "LOB_Org__c": "DENTALCA"
+        },
+        {
+            "LOB_Org__c": "DENTALCA"
+        },
+        {
+            "LOB_Org__c": "DENTALCA"
+        },
+        {
+            "LOB_Org__c": "DENTALCA"
+        },
+        {
+            "LOB_Org__c": "DENTALCA"
+        },
+        {
+            "LOB_Org__c": "DENTALCA"
+        },
+        {
+            "LOB_Org__c": "DENTALCA"
+        },
+        {
+            "LOB_Org__c": "DENTALCA"
+        },
+        {
+            "LOB_Org__c": "DENTALCA"
+        },
+        {
+            "LOB_Org__c": "DENTALCA"
+        }
+    ],
+    "QLD": {
+        "AP-BundleType": "",
+        "PharmacyCarvedOut": null,
+        "QLD-AccountId": "001S0000012i0R3IAI",
+        "QLD-Block": {
+            "BenefitPeriodDetails": {
+                "Benefit_Period": null
+            },
+            "Block13": null,
+            "Block8": {
+                "QLD-ParticipationType": "Non-Voluntary"
+            },
+            "OpptyEffectiveDate": null,
+            "Pharmacy Section": null,
+            "Probability": "10%",
+            "ProductStage": "In Progress",
+            "QLD-AdminIntegration": false,
+            "QLD-AutoQuote": false,
+            "QLD-CEPIndicator": null,
+            "QLD-ClinicalIntegration": false,
+            "QLD-DayMsg": true,
+            "QLD-Discount": null,
+            "QLD-Discountsharing": null,
+            "QLD-DoNotAutoPickPCP": false,
+            "QLD-EPHCEnhPersHealthCare": null,
+            "QLD-EmplyrContDepend": null,
+            "QLD-EmplyrContEmp": null,
+            "QLD-EstimAnnualPrem": null,
+            "QLD-EyemedCollaboration": null,
+            "QLD-Final_Rate": null,
+            "QLD-Financing": "Fully Insured",
+            "QLD-Funding": "FI",
+            "QLD-GroupSize": null,
+            "QLD-Members": 8,
+            "QLD-Network": null,
+            "QLD-NoSalesCredit": null,
+            "QLD-Original_Rate_Adjustment": null,
+            "QLD-Probability": "10%",
+            "QLD-ProdStage": "In Progress",
+            "QLD-ProductStageMsg": true,
+            "QLD-ProductTermYearsLeft": null,
+            "QLD-RX Vendors": null,
+            "QLD-RateGuarThr": null,
+            "QLD-Rate_Differential": null,
+            "QLD-Rate_Differential_Type": null,
+            "QLD-Rate_Relief": null,
+            "QLD-Reason": null,
+            "QLD-ReasonCalc": null,
+            "QLD-ReasonPck": null,
+            "QLD-Subscribers": 8,
+            "QLD-TermDate": null,
+            "QLD-TermDateIn": null,
+            "QLD-TermSelection": "Ok",
+            "QLD-Upsell": null,
+            "QLD_Reason_Chk": true,
+            "QLD_Stage_Chk": "No"
+        },
+        "QLD-ReqCompetitor": "No",
+        "QLD-TermReqFlds": "Yes",
+        "QLD-Vendor": null
+    },
+    "QLD-NoSalesCredit": "No",
+    "QuoteDetails": {
+        "AccountId": "001S0000012i0R3IAI",
+        "EffectiveDate": "2019-01-01",
+        "GNReqStatus": "Requested",
+        "GroupId": "284959",
+        "GroupName": "284959",
+        "GroupNumber": "a5IS0000002qWTOMA2",
+        "Id": "0Q0S0000000MbIRKA0",
+        "OpptyId": "006S000000DjpkzIAB",
+        "OpptyRecType": "In Group Change Local",
+        "OpptyStage": "Initiated",
+        "UserGroup": "Local"
+    },
+    "QuoteId": "0Q0S0000000MbIRKA0",
+    "QuoteLineItem_RecordType": "LocalType",
+    "QuotedStatus": "External & Internal",
+    "Renewals": "0Q04B000000AKWwSAO",
+    "SelectServiceProvider": {
+        "Account_Id": "001S0000012i0R3IAI",
+        "AddComp2": false,
+        "AddComp3": null,
+        "CompIdCalc2": null,
+        "CompIdCalc3": null,
+        "CompStatusCalc2": null,
+        "CompStatusCalc3": null,
+        "CompetitorId": null,
+        "CompetitorStatus": null,
+        "CompetitorStatus1_LG": null,
+        "CompetitorStatusFormula": null,
+        "InvTypeCalc1": null,
+        "InvTypeCalc2": null,
+        "InvTypeCalc3": null,
+        "InvolvementType": null,
+        "InvolvementType2": null,
+        "InvolvementType3": null,
+        "LOBCalc1": null,
+        "LOBCalc2": null,
+        "LOBCalc3": null,
+        "LineOfBusiness": null,
+        "LineOfBusiness2": null,
+        "LineOfBusiness3": null,
+        "Membership1": null,
+        "Membership2": null,
+        "Membership3": null,
+        "Multi-Employer": false,
+        "Multi-Employer2": null,
+        "Multi-Employer3": null,
+        "MultiEmpCalc1": null,
+        "MultiEmpCalc2": false,
+        "MultiEmpCalc3": false,
+        "NA-WarnMembership": null,
+        "NOUFlag": true,
+        "NameOfEmployers": null,
+        "NameOfEmployers2": null,
+        "NameOfEmployers3": null,
+        "NoEmpCalc1": null,
+        "NoEmpCalc2": null,
+        "NoEmpCalc3": null,
+        "ReqComFlds": "Yes",
+        "SP-CompStatus2": null,
+        "SP-CompStatus2_LG": null,
+        "SP-CompStatus3": null,
+        "SP-CompStatus3_LG": null,
+        "SPTD-Msg": null,
+        "SPTermDate": null,
+        "SPTermDateDay": null,
+        "SPTermDateIn": null,
+        "SSP-Msg": true,
+        "SSPMsg-Flg": "No",
+        "TACompetitor2-Block": null,
+        "TACompetitor2_NA-Block": null,
+        "TACompetitor3-Block": null,
+        "TACompetitor3_NA-Block": null,
+        "TypeAheadAccount-Block": {
+            "ServiceProviderAccountId_LG": null,
+            "TypeAheadAccount": null
+        },
+        "TypeAheadAccount_NA-Block": null
+    },
+    "Situs_State": "CA",
+    "UserArea": "Local",
+    "UserGroup": "Local",
+    "effectiveDate": "2019-01-01",
+    "id": "a3CS0000000FxqxMAC",
+    "insSgpsCartInit": 0.014060721181679003,
+    "isLocalSales": false,
+    "layout": "newport",
+    "timeStamp": "2019-08-08T06:46:12.663Z",
+    "userCurrencyCode": "USD",
+    "userId": "0051K000008dXgiQAE",
+    "userName": "veramesh@deloitte.com.com2.iceqa",
+    "userProfile": "System Administrator",
+    "userTimeZone": -240,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "AP-FamilySelection": 6355,
+        "AP-ProductFamily": 2942,
+        "AP-ProductSelection": 5275,
+        "AP-SetProductFamilyValues": 74,
+        "AP-SetValues": 20,
+        "AP-SetVariableBundleStageValues": 43,
+        "ClinicalProductSelected": 51,
+        "CountHPCCVal": 13,
+        "DR-ExtractQuote": 962,
+        "DR-HPCCCodeRetrieval": 611,
+        "DR-ProductFamilyRetrieval": 1205,
+        "DR-ProductRetrieval": 1448,
+        "DR-QuoteDetails": 3429,
+        "DR-SitusState": 1602,
+        "ExtractAccountId": 1242,
+        "GlobalSetValues": 17,
+        "HPCCSetValues": 17,
+        "OmniScriptSessionToken": "0ff88d35-81de-48ca-93d2-802109bb2f83",
+        "QLD": 15887,
+        "SVinsSgpsCartInit": 49,
+        "SelectServiceProvider": 2711,
+        "SetAccountId": 953,
+        "SetConstants": 1438,
+        "SetPlanList": 51,
+        "SetValues4": 27,
+        "SetValues5": 52
+    }
+}

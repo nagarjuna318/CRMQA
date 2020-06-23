@@ -1,0 +1,111 @@
+{
+    "contextId": "ContactId",
+    "dataSource": {
+        "contextVariables": [
+            {
+                "name": "params.id",
+                "val": "0014B00000PMGKvQAP"
+            }
+        ],
+        "type": null,
+        "value": {
+            "bundle": "ANA_dataRaptor_card_contact_relationships",
+            "ctxId": "params.id",
+            "resultVar": ""
+        }
+    },
+    "filter": {
+    },
+    "filterableFields": [
+        "FirstName",
+        "They_Can"
+    ],
+    "sortableFields": "ALL",
+    "states": [
+        {
+            "conditions": [
+                {
+                    "field": "$scope.data.status",
+                    "operator": "===",
+                    "type": "system",
+                    "value": "'active'"
+                },
+                {
+                    "field": "$scope.data.cardIndex",
+                    "operator": "==",
+                    "type": "custom",
+                    "value": "0"
+                }
+            ],
+            "definedActions": {
+                "actions": [
+                ]
+            },
+            "fields": [
+                {
+                    "collapse": true,
+                    "displayLabel": "<<Custom Field>>",
+                    "editing": false,
+                    "fieldType": "custom",
+                    "label": "Contact",
+                    "linkToId": "LastName",
+                    "name": "FirstName",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "displayLabel": "<<Custom Field>>",
+                    "editing": false,
+                    "fieldType": "custom",
+                    "label": "They Can",
+                    "name": "They_Can",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "displayLabel": "<<Custom Field>>",
+                    "editing": false,
+                    "fieldType": "custom",
+                    "label": "They Care About Personally",
+                    "name": "They_Care_about_P",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "displayLabel": "<<Custom Field>>",
+                    "editing": false,
+                    "fieldType": "custom",
+                    "label": "They Care About Organizationally",
+                    "name": "CareAboutOrganizationally",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "displayLabel": "<<Custom Field>>",
+                    "editing": false,
+                    "fieldType": "custom",
+                    "label": "They Speak The Language Of",
+                    "name": "SpeakTheLanguageOf",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "displayLabel": "<<Custom Field>>",
+                    "editing": true,
+                    "fieldType": "custom",
+                    "label": "Action",
+                    "linkToId": "Action",
+                    "name": "Edittext",
+                    "type": "string"
+                }
+            ],
+            "filter": "$scope.data.status === 'active' && $scope.data.cardIndex == '0'",
+            "flyout": {
+                "layout": "RelationshipMap_Account2-Contact-Flyout"
+            },
+            "name": "Active",
+            "templateUrl": "vsrv-relatedList"
+        }
+    ],
+    "title": "Account Group Contacts"
+}

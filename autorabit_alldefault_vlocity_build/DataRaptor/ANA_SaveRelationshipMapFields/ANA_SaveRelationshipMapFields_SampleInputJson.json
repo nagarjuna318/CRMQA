@@ -1,0 +1,71 @@
+{
+    "AccountAC": "Anthem CST Test Account 1",
+    "AccountAR": "Anthem CST Test Account 1",
+    "AccountCC": "Anthem CST Test Account 1",
+    "AccountID": "'0012F000009lIxCQAU'",
+    "AccountId": "0012F000009lIxCQAU",
+    "AccountLookup": "Anthem CST Test Account 1",
+    "AccountNewContact": "Anthem CST Test Account 1",
+    "AccountRecordType": "Customer",
+    "ContactFirstName": "Jill",
+    "ContactId": "0032F000007rYKsQAM",
+    "ContactLastName": "Jones",
+    "ContactName": "Jill Jones",
+    "ContactNameAC": "Jill Jones",
+    "ContactNameAR": "Jill Jones",
+    "ContactNameCC": "Jill Jones",
+    "ContactRelationshipAccountGC": {
+        "SpeaktheLanguageOfGC": null,
+        "TheyCanGC": null,
+        "TheyCareAboutOrganizationallyGC": "OperationEffeciency",
+        "TheyCareAboutPersonallyGC": null
+    },
+    "ContactTypeAhead-Block": {
+        "ContactId": "0032F000007rYKsQAM",
+        "contactnamelookup": "Jill Jones"
+    },
+    "ContextId": "0012F000009lIxCQAU",
+    "Ctcid": "0032F000007rYKsQAM",
+    "GroupContact": {
+        "AESurvey": false,
+        "AMSurvey": false,
+        "AccountGC": "Anthem CST Test Account 1",
+        "CAGCallParticipationOnly": true,
+        "ClientNewsletter": false,
+        "ClientSurvey": false,
+        "ContactNameGC": "Jill Jones",
+        "ContactTypeGC": null,
+        "Description": null
+    },
+    "RecordTypeId": "01241000001IOh7AAG",
+    "RelationshipToConatct": {
+        "ACHelpText": false,
+        "ARHelpText": false,
+        "BrokerageContactRelationships": null,
+        "ContactIncSelect": "Existing Contact",
+        "ContactRelationships": "Group Contact",
+        "ContactTypeAhead-Block": {
+            "ContactTypeAhead": "Jill Jones"
+        }
+    },
+    "id": "a3C2F000001CLPZUA4",
+    "layout": "lightning",
+    "timeStamp": "2017-12-20T04:26:34.002Z",
+    "userId": "0052F000000u95mQAA",
+    "userName": "pmorin@vlocity.com.iceconfig",
+    "userProfile": "System Administrator",
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "ContactRelationshipAccountGC": 4804,
+        "ExtractAccountDetails": 442,
+        "ExtractAccountRecordType": 382,
+        "ExtractContactDetails": 439,
+        "GroupContact": 5939,
+        "OmniScriptSessionToken": "974b4417-5665-4d07-8c8e-916cd0111be8",
+        "RelationshipToConatct": 60767,
+        "SetAccountId": 0,
+        "SetConstants": 8,
+        "SetContactId": 1
+    }
+}

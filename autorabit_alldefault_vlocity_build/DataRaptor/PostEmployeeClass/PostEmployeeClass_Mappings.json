@@ -1,0 +1,81 @@
+[
+    {
+        "%vlocity_namespace%__DomainObjectAPIName__c": "Employee_Class__c",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 1,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "Account_Legal_Name__c",
+        "%vlocity_namespace%__InterfaceFieldAPIName__c": "EmployeeClassesseparate:AccountLegalName",
+        "%vlocity_namespace%__IsDisabled__c": true,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__MapId__c": "PostEmployeeClassCustom5510",
+        "%vlocity_namespace%__UpsertKey__c": false,
+        "Name": "PostEmployeeClass",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    },
+    {
+        "%vlocity_namespace%__DomainObjectAPIName__c": "Employee_Class__c",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 1,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "Employee_Class_Name__c",
+        "%vlocity_namespace%__InterfaceFieldAPIName__c": "EmployeeClassStep:EditEmployeeBlock:EmployeeClassName",
+        "%vlocity_namespace%__IsDisabled__c": false,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__MapId__c": "PostEmployeeClassCustom5906",
+        "%vlocity_namespace%__UpsertKey__c": false,
+        "Name": "PostEmployeeClass",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    },
+    {
+        "%vlocity_namespace%__DomainObjectAPIName__c": "Employee_Class__c",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 1,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "Employee_Class_Type__c",
+        "%vlocity_namespace%__InterfaceFieldAPIName__c": "EmployeeClassStep:EditEmployeeBlock:EmployeeClassType",
+        "%vlocity_namespace%__IsDisabled__c": false,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__MapId__c": "PostEmployeeClassCustom2101",
+        "%vlocity_namespace%__UpsertKey__c": false,
+        "Name": "PostEmployeeClass",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    },
+    {
+        "%vlocity_namespace%__DomainObjectAPIName__c": "Employee_Class__c",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 1,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "Group__c",
+        "%vlocity_namespace%__InterfaceFieldAPIName__c": "EmployeeGroup",
+        "%vlocity_namespace%__IsDisabled__c": false,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__MapId__c": "PostEmployeeClassCustom4213",
+        "%vlocity_namespace%__UpsertKey__c": false,
+        "Name": "PostEmployeeClass",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    },
+    {
+        "%vlocity_namespace%__DomainObjectAPIName__c": "Employee_Class__c",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 1,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "Id",
+        "%vlocity_namespace%__InterfaceFieldAPIName__c": "EmployeeClassStep:EditEmployeeBlock:EmployeeClassId",
+        "%vlocity_namespace%__IsDisabled__c": false,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__MapId__c": "PostEmployeeClassCustom3614",
+        "%vlocity_namespace%__UpsertKey__c": false,
+        "Name": "PostEmployeeClass",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    },
+    {
+        "%vlocity_namespace%__ConfigurationValue__c": "FAKEMAPPING",
+        "%vlocity_namespace%__DomainObjectAPIName__c": "Employee_Class__c",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 1,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "Id",
+        "%vlocity_namespace%__FilterOperator__c": "=",
+        "%vlocity_namespace%__IsDisabled__c": true,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__MapId__c": "PostEmployeeClassCustom9570",
+        "%vlocity_namespace%__UpsertKey__c": false,
+        "Name": "PostEmployeeClass",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    }
+]

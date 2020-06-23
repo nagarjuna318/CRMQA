@@ -1,0 +1,69 @@
+<div class='nds-size_1-of-1' ng-controller="NumberController">
+
+    <ng-form name='loopform'
+             class='nds-form-element nds-m-bottom_large nds-p-around_small nds-input__tooltip'
+             ng-repeat='control in child.eleArray'>
+        <label for="{{::control.name}}">
+                {{::control.propSetMap.label}}
+                <span class='nds-required'
+                    ng-if='control.req'>*
+                </span>
+            </label>
+
+        <div class="margin-top-5px nds-form-element__control nds-form-element__control-animated-label nds-grid" ng-init="test(bpTree, control)">
+
+            <input id='{{::control.name}}'
+                type='tel'
+                ng-disabled='control.ro'
+                ng-required='control.req'
+                name='loopname'
+                ng-model='control.response'
+                ng-blur='aggregate(this, control.index, control.indexInParent, true, -1)'
+                ng-model-options="{ updateOn: 'default focusout blur', debounce: { 'default': control.propSetMap.debounceValue, 'focusout': 0, 'blur': 0 } }"
+                class='select-border nds-input form-control'
+                via-mask='::control.propSetMap.mask'
+                vlc-slds-ng-pattern='{{::control.propSetMap.pattern}}'
+                vlc-slds-num-val-checker="response"
+                vlc-slds-only-numeric="response"
+                vlc-slds-attr="placeholder" />
+            <div class="nds-tooltip_container" ng-if="control.propSetMap.help">
+                <!-- ng-include="'vlcNewportTooltip.html'" -->
+                <div class="nds-nonfocused_control nds-inline-help-text">
+                    <!-- <slds-svg-icon aria-hidden="true"
+                          sprite="'utility'"
+                             icon="'info'"
+                            size="'small'">
+                  </slds-svg-icon>  -->
+
+                  <svg aria-hidden="true" class="slds-icon slds-icon--small nds-icon nds-icon_small " xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet" sprite="'utility'" icon="'info'" size="'small'" fill="black" viewBox="0 0 52 52" alt="info">
+                        <path fill="#54698d" xmlns="http://www.w3.org/2000/svg" d="m26 2c-13.3 0-24 10.7-24 24s10.7 24 24 24 24-10.7 24-24-10.7-24-24-24z m0 12.1c1.7 0 3 1.3 3 3s-1.3 3-3 3-3-1.3-3-3 1.3-3 3-3z m5 21c0 0.5-0.4 0.9-1 0.9h-8c-0.5 0-1-0.3-1-0.9v-2c0-0.5 0.4-1.1 1-1.1 0.5 0 1-0.3 1-0.9v-4c0-0.5-0.4-1.1-1-1.1-0.5 0-1-0.3-1-0.9v-2c0-0.5 0.4-1.1 1-1.1h6c0.5 0 1 0.5 1 1.1v8c0 0.5 0.4 0.9 1 0.9 0.5 0 1 0.5 1 1.1v2z"></path>
+                </svg>
+                      <div class="nds-is-absolute" style="top: -8rem;">
+                             <div class="nds-popover nds-popover_tooltip nds-nubbin_bottom-right" role="tooltip" style="top: -1.10rem !important; width: 500px;">
+                             <div class="nds-popover__body" style="white-space: normal !important;">{{control.propSetMap.helpText}}</div>
+                            </div>
+                    </div>
+                     <!-- <div class="nds-is-absolute" ng-if="::control.name === 'QLD-Upsell'" style="top: -9rem;">
+                             <div class="nds-popover nds-popover_tooltip nds-nubbin_bottom-right" role="tooltip" style="top: -1.10rem !important; width: 500px;">
+                             <div class="nds-popover__body" style="white-space: normal !important;">{{control.propSetMap.helpText}}</div>
+                            </div>
+                    </div>
+
+                     <div class="nds-is-absolute" ng-if="::control.name !== 'QLD-Upsell'">
+                             <div class="nds-popover nds-popover_tooltip nds-nubbin_bottom-right" role="tooltip" style="top: -1.10rem !important; width: 500px;">
+                             <div class="nds-popover__body" style="white-space: normal !important;">{{control.propSetMap.helpText}}</div>
+                            </div>
+                    </div> -->
+                </div>
+            </div>
+            
+            <div vlc-slds-include="vlcLabelController.html"></div>
+
+        </div>
+        <!-- <div class="nds-form-element__control-help" ng-if="control.propSetMap.help">{{control.propSetMap.helpText}}</div> -->
+         
+        <div ng-include="::errHTMLId"></div>
+
+    </ng-form>
+
+</div>

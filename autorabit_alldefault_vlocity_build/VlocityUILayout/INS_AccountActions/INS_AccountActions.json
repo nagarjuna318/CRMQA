@@ -1,0 +1,60 @@
+{
+    "Cards": [
+        "Account Actions GRS",
+        "Account_Actions",
+        "Account Actions LG Customer",
+        "Account Actions LG Prospect",
+        "Account Actions Customer",
+        "LG Brokerage",
+        "ANA Brokerage",
+        "Account Actions Confidential",
+        "Account Actions ACE Brokerages",
+        "Account Actions SP",
+        "Account Actions Admin"
+    ],
+    "dataSource": {
+        "contextVariables": [
+            {
+                "name": "params.id",
+                "val": "0010r00000AVtsBAAT"
+            }
+        ],
+        "type": "Query",
+        "value": {
+            "jsonMap": "{\"params.id || params.Id\":\"{{params.id || params.Id}}\"}"
+        }
+    },
+    "previewType": "runTime",
+    "templates": {
+        "0": {
+            "templateUrl": "card-canvas-1x-slds-nosearch"
+        }
+    },
+    "workspace": [
+        null,
+        "Account Actions GRS/Anthem Commercial 2.0/1/1570557728291",
+        "Account_Actions/Anthem Commercial 2.0/null/1513958350828",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        "Account Actions LG Customer/Anthem Commercial 2.0/null/1526042678730",
+        "Account Actions LG Prospect/Anthem Commercial 2.0/null/1526042678730",
+        "Account Actions Customer/Anthem Commercial 2.0/null/1534737865333",
+        "Account Actions Customer/Anthem Commercial 2.0/1/1534737946750",
+        "LG Brokerage/Anthem Commercial 2.0/null/1539458936860",
+        "ANA Brokerage/Anthem Commercial 2.0/null/1539797801961",
+        "Account Actions Confidential/Anthem Commercial 2.0/null/1543520896600",
+        "Account Actions ACE Brokerages/Anthem Commercial 2.0/null/1550166504217",
+        "Account Actions SP/Anthem Commercial 2.0/1/1570473776694",
+        "Account Actions Admin/Anthem Commercial 2.0/1/1571152744771"
+    ]
+}

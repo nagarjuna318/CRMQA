@@ -1,0 +1,113 @@
+{
+    "AccountId": "0015B00000SvcvDQAR",
+    "ClientBillingCity": "Chicago",
+    "ClientBillingCountry": "USA",
+    "ClientBillingPostalCode": "60606",
+    "ClientBillingState": "IL",
+    "ClientBillingStreet": "123 Main St",
+    "ContextId": "0Q05B000000EkWGSA0",
+    "ContextIdTest": "0Q05B000000EkWGSA0",
+    "CustomerBenefits": {
+        "ASHEligibleMembers": "Employees Only",
+        "ASHEligibleMembersFM": "",
+        "ASHGymReimbursementBuyup": "No",
+        "ASHProgramName": "Gym Reimbursement",
+        "ASHProgramNameFM": "",
+        "ActivityNutritionSleepPrograms": "Yes",
+        "AnthemHealthGuide": "Yes",
+        "AnthemHealthRewards": "Yes",
+        "BioIQ": "Yes",
+        "LiveHealthOnlineOffering": null,
+        "MyHealthAdvantage": "Yes",
+        "WebMDHRAProgram": "Yes"
+    },
+    "DRId_Engage_Scoping_And_Engage_Standard__c": "a7r5B0000008TC9QAM",
+    "ESPCountNumber": 2,
+    "EmployerPrograms": {
+        "AddEmployeePrograms": false,
+        "EmployeeProgramBlock": [
+            {
+                "EmployerProgramAvailabilityDate": "2018-07-27",
+                "EmployerProgramEligibleMembers": "Employees + Dependents",
+                "EmployerProgramEmail": null,
+                "EmployerProgramId": "a7w5B0000008YceQAE",
+                "EmployerProgramName": "3rd Party Telehealth",
+                "EmployerProgramPhoneNumber": "4444444444",
+                "EmployerProgramWebsite": null,
+                "GroupSuffixNumber": null,
+                "IfOtherEmployerProgramName": null
+            },
+            {
+                "EmployerProgramAvailabilityDate": null,
+                "EmployerProgramEligibleMembers": "Employees Only",
+                "EmployerProgramEmail": null,
+                "EmployerProgramId": "a7w5B0000008YcZQAU",
+                "EmployerProgramName": "Onsite Clinic",
+                "EmployerProgramPhoneNumber": "3333333333",
+                "EmployerProgramWebsite": null,
+                "GroupSuffixNumber": null,
+                "IfOtherEmployerProgramName": null
+            }
+        ],
+        "EmployerProgramAddBlock": {
+            "EmployerProgramAvailabilityDateAdd": null,
+            "EmployerProgramEligibleMembersAdd": null,
+            "EmployerProgramEmailAdd": null,
+            "EmployerProgramNameAdd": null,
+            "EmployerProgramPhoneNumberAdd": null,
+            "EmployerProgramWebsiteAdd": null,
+            "GroupSuffixNumberAdd": null,
+            "IfOtherEmployerProgramNameAdd": null
+        }
+    },
+    "EngageStandardGeneralInfo": {
+        "AccountExcutiveManager": "Kristin Chung",
+        "AccountImplementationLead": "Indra Lugina",
+        "AccountLegalName": "KC Test",
+        "AccountRenewalOrNewSale": "New Sale",
+        "AnthemControlState": "NY New York",
+        "ClaimSystem": "NASCO",
+        "ClientMarket": "National Accounts",
+        "EndDateOfCustomerContract": "2018-07-19",
+        "EstReceiptDateOfFirstProdEligFile": "2018-07-31",
+        "EstReceiptDateOfFirstProdOEFile": null,
+        "GroupName": "2019 New Business KC Test NASCO",
+        "GroupNumber": "NASCO 012",
+        "MemberSupportHoursOfAvailability": "3",
+        "MemberSupportPhoneNumber": "3333333333",
+        "OpportunityName": "2019 New Business-KC Test",
+        "OpportunityType": "New Business",
+        "StartDateOfCustomerContract": "2018-07-19"
+    },
+    "ExpectedIntegrations": {
+        "HealthAccountsBlocks": {
+            "SpecifyAccountTypeAndVendorDetails": "2019 New Business KC Test NASCO"
+        }
+    },
+    "ImplementerId": "0055B000001O1xCQAS",
+    "QuoteId": "0Q05B000000EkWGSA0",
+    "RecordId": "a7r5B0000008TC9QAM",
+    "RecordTypeName": "Engage Standard",
+    "id": "a3C5B000000A8LGUA0",
+    "layout": "lightning",
+    "testContextId": "0Q05B000000EkWGSA0",
+    "timeStamp": "2018-08-06T01:45:51.389Z",
+    "userCurrencyCode": "USD",
+    "userId": "0055B000001O1xCQAS",
+    "userName": "ilugina@anthem.com2.iceconfig",
+    "userProfile": "System Administrator",
+    "userTimeZone": null,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "ASHProgramNameDefaultValue": 31,
+        "CustomerBenefits": 9754,
+        "DRE_ENGAGE_ExtractESS": 1858,
+        "DRE_ENGAGE_ExtractQuoteAccount": 2023,
+        "EmployerPrograms": 54610,
+        "EngageStandardGeneralInfo": 3027,
+        "OmniScriptSessionToken": "53d248f1-3067-4ebc-ac6a-0c70edafefbd",
+        "PostSetValues": 13,
+        "PreSetValues": 128
+    }
+}

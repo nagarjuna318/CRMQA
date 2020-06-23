@@ -1,0 +1,205 @@
+{
+    "QLIs": [
+        {
+            "ProductCategory": "Product",
+            "ProductName": "Choice Dental",
+            "ProductStage": "Sold",
+            "ProductType": "Dental"
+        },
+        {
+            "ProductCategory": "Product",
+            "ProductName": "Consumer Choice PPO",
+            "ProductStage": "Sold",
+            "ProductType": "Dental"
+        },
+        {
+            "ProductCategory": "Product",
+            "ProductName": "Consumer Choice PPO",
+            "ProductStage": "Sold",
+            "ProductType": "Dental"
+        },
+        {
+            "ProductCategory": "Product",
+            "ProductName": "Blue View Vision",
+            "ProductStage": "Sold",
+            "ProductType": "Vision"
+        },
+        {
+            "ProductCategory": "Product",
+            "ProductName": "Blue View Vision",
+            "ProductStage": "Sold",
+            "ProductType": "Vision"
+        },
+        {
+            "ProductCategory": "Product",
+            "ProductName": "Basic AD&D",
+            "ProductStage": "Sold",
+            "ProductType": "Life"
+        },
+        {
+            "ProductCategory": "Product",
+            "ProductName": "Basic AD&D",
+            "ProductStage": "Sold",
+            "ProductType": "Life"
+        },
+        {
+            "ProductCategory": "Product",
+            "ProductName": "EAP",
+            "ProductStage": "Sold",
+            "ProductType": "EAP"
+        },
+        {
+            "ProductCategory": "Product",
+            "ProductName": "EAP",
+            "ProductStage": "Sold",
+            "ProductType": "EAP"
+        },
+        {
+            "ProductCategory": "Product",
+            "ProductName": "Flexible Spending Account",
+            "ProductStage": "Sold",
+            "ProductType": "FSA"
+        },
+        {
+            "ProductCategory": "Product",
+            "ProductName": "Long Term Disability",
+            "ProductStage": "Sold",
+            "ProductType": "Disability"
+        },
+        {
+            "ProductCategory": "Product",
+            "ProductName": "Short Term Disability",
+            "ProductStage": "Sold",
+            "ProductType": "Disability"
+        },
+        {
+            "ProductCategory": "Product",
+            "ProductName": "Life - Voluntary Life and ADD Bundle",
+            "ProductStage": "Sold",
+            "ProductType": "Life"
+        },
+        {
+            "ProductCategory": "Product",
+            "ProductName": "Life - Voluntary Life",
+            "ProductStage": "Sold",
+            "ProductType": "Life"
+        },
+        {
+            "ProductCategory": "Product",
+            "ProductName": "Life - Voluntary Life and ADD Bundle",
+            "ProductStage": "Sold",
+            "ProductType": "Life"
+        },
+        {
+            "ProductCategory": "Product",
+            "ProductName": "Long Term Disability",
+            "ProductStage": "Sold",
+            "ProductType": "Disability"
+        },
+        {
+            "ProductCategory": "Product",
+            "ProductName": "Short Term Disability",
+            "ProductStage": "Sold",
+            "ProductType": "Disability"
+        },
+        {
+            "ProductCategory": "Product",
+            "ProductName": "Long Term Disability",
+            "ProductStage": "Sold",
+            "ProductType": "Disability"
+        },
+        {
+            "ProductCategory": "Product",
+            "ProductName": "Short Term Disability",
+            "ProductStage": "Sold",
+            "ProductType": "Disability"
+        },
+        {
+            "ProductCategory": "Product",
+            "ProductName": "Voluntary Long Term Disability",
+            "ProductStage": "Sold",
+            "ProductType": "Disability"
+        },
+        {
+            "ProductCategory": "Product",
+            "ProductName": "Voluntary Short Term Disability",
+            "ProductStage": "Sold",
+            "ProductType": "Disability"
+        },
+        {
+            "ProductCategory": "Product",
+            "ProductName": "Voluntary STD - Employer Specific Leaves",
+            "ProductStage": "Sold",
+            "ProductType": "Disability"
+        },
+        {
+            "ProductCategory": "Product",
+            "ProductName": "Voluntary STD - Family Medical Leave Act (FMLA)",
+            "ProductStage": "Sold",
+            "ProductType": "Disability"
+        },
+        {
+            "ProductCategory": "Product",
+            "ProductName": "Voluntary STD - Incidental Absence",
+            "ProductStage": "Sold",
+            "ProductType": "Disability"
+        },
+        {
+            "ProductCategory": "Product",
+            "ProductName": "Voluntary STD - PTO Vacation/Sick-time",
+            "ProductStage": "Sold",
+            "ProductType": "Disability"
+        },
+        {
+            "ProductCategory": "Plan",
+            "ProductContractCodes": "5ACZ",
+            "ProductName": "BlueClassic PPO 5 20-1000/3500-80% $15/50/70/30% Essential Rx",
+            "ProductStage": "IGAP Sold",
+            "ProductType": "Medical"
+        },
+        {
+            "ProductCategory": "Product",
+            "ProductName": "Medical -  HIA",
+            "ProductStage": "IGAP Sold",
+            "ProductType": "Medical"
+        },
+        {
+            "ParentQuoteLineItem": "Medical -  HIA",
+            "ProductCategory": "Product",
+            "ProductContractCode": "AB12",
+            "ProductContractCodes": "CC 23",
+            "ProductName": "Medical - ACO",
+            "ProductStage": "Sold",
+            "ProductType": "Medical"
+        },
+        {
+            "ParentQuoteLineItem": "Medical -  HIA",
+            "ProductCategory": "Plan",
+            "ProductContractCodes": "42AR",
+            "ProductName": "Anthem HSA 1400NE/10%/3575",
+            "ProductStage": "Sold",
+            "ProductType": "Medical"
+        },
+        {
+            "ProductCategory": "Plan",
+            "ProductContractCodes": "42AQ",
+            "ProductName": "Anthem HealthKeepers HSA 1400NE/10%/3577",
+            "ProductStage": "Sold",
+            "ProductType": "Medical"
+        },
+        {
+            "ParentQuoteLineItem": "Anthem HealthKeepers HSA 1400NE/10%/3577",
+            "ProductCategory": "Plan",
+            "ProductContractCodes": "3FXY",
+            "ProductName": "Well Priority Blue Priority - WI POS HIA Plus Option E-CSV with Rx Option C2",
+            "ProductStage": "Sold",
+            "ProductType": "Medical"
+        },
+        {
+            "ProductCategory": "Product",
+            "ProductName": "Flexible Spending Account",
+            "ProductStage": "Sold",
+            "ProductType": "FSA"
+        }
+    ]
+}

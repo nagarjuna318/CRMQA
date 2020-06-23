@@ -1,0 +1,269 @@
+{
+    "%vlocity_namespace%__Active__c": true,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "OpptyCreation",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/ANA Library/OS-CreateOpportunity/English",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__ParentElementId__c": {
+        "%vlocity_namespace%__OmniScriptId__c": {
+            "Name": "OpptyCreation",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/ANA Library/OS-CreateOpportunity/English",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+        },
+        "Name": "BCK20",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/ANA Library/OS-CreateOpportunity/English/BCK20",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c"
+    },
+    "%vlocity_namespace%__ParentElementName__c": "BCK20",
+    "%vlocity_namespace%__ParentElementType__c": "Block",
+    "%vlocity_namespace%__PropertySet__c": {
+        "HTMLTemplateId": "",
+        "accessibleInFutureSteps": false,
+        "conditionType": "Hide if False",
+        "controlWidth": 12,
+        "controllingField": {
+            "element": "NB-RecordType",
+            "source": "Opportunity.OppType__c",
+            "type": "SObject"
+        },
+        "dateFormat": "MM-dd-yyyy",
+        "defaultValue": null,
+        "disOnTplt": false,
+        "help": false,
+        "helpText": "",
+        "hide": false,
+        "hideGroupSep": false,
+        "inputWidth": 12,
+        "label": "Stage Reason",
+        "optionSource": {
+            "source": "Opportunity.Stage_Reason__c",
+            "type": ""
+        },
+        "options": [
+            {
+                "name": "Account/Sales Team",
+                "value": "Account/Sales Team"
+            },
+            {
+                "name": "Bankruptcy/Client Went Out of Business",
+                "value": "Bankruptcy/Client Went Out of Business"
+            },
+            {
+                "name": "Behavioral Health Product Options",
+                "value": "Behavioral Health Product Options"
+            },
+            {
+                "name": "Brand",
+                "value": "Brand"
+            },
+            {
+                "name": "Billing Issues",
+                "value": "Billing Issues"
+            },
+            {
+                "name": "Cede",
+                "value": "Cede"
+            },
+            {
+                "name": "Client Withdrew/No Further Inquiry",
+                "value": "Client Withdrew/No Further Inquiry"
+            },
+            {
+                "name": "Clinical Value",
+                "value": "Clinical Value"
+            },
+            {
+                "name": "Dead",
+                "value": "Dead"
+            },
+            {
+                "name": "Discount Value",
+                "value": "Discount Value"
+            },
+            {
+                "name": "Does not meet Requirements",
+                "value": "Does not meet Requirements"
+            },
+            {
+                "name": "Employee Customer Service",
+                "value": "Employee Customer Service"
+            },
+            {
+                "name": "Fees",
+                "value": "Fees"
+            },
+            {
+                "name": "Funding Type Change",
+                "value": "Funding Type Change"
+            },
+            {
+                "name": "Group Number Change",
+                "value": "Group Number Change"
+            },
+            {
+                "name": "Guarantees",
+                "value": "Guarantees"
+            },
+            {
+                "name": "Inconvenient to Change Carriers",
+                "value": "Inconvenient to Change Carriers"
+            },
+            {
+                "name": "Medical Products - CDHP",
+                "value": "Medical Products - CDHP"
+            },
+            {
+                "name": "Medical Products - Standard Options",
+                "value": "Medical Products - Standard Options"
+            },
+            {
+                "name": "Network",
+                "value": "Network"
+            },
+            {
+                "name": "Non-Payment",
+                "value": "Non-Payment"
+            },
+            {
+                "name": "No Longer Offers Insurance/Product",
+                "value": "No Longer Offers Insurance/Product"
+            },
+            {
+                "name": "Ongoing Medical Risk",
+                "value": "Ongoing Medical Risk"
+            },
+            {
+                "name": "Other-Indicate reason in Opportunity Comments",
+                "value": "Other-Indicate reason in Opportunity Comments"
+            },
+            {
+                "name": "Outlier",
+                "value": "Outlier"
+            },
+            {
+                "name": "Pharmacy Product Options",
+                "value": "Pharmacy Product Options"
+            },
+            {
+                "name": "Product Change",
+                "value": "Product Change"
+            },
+            {
+                "name": "Rates",
+                "value": "Rates"
+            },
+            {
+                "name": "Rx Guarantees",
+                "value": "Rx Guarantees"
+            },
+            {
+                "name": "Rx Pricing",
+                "value": "Rx Pricing"
+            },
+            {
+                "name": "Rx Rebates",
+                "value": "Rx Rebates"
+            },
+            {
+                "name": "Rx Service",
+                "value": "Rx Service"
+            },
+            {
+                "name": "Specialty Product Options (Dental, Vision, L&D, etc.)",
+                "value": "Specialty Product Options (Dental, Vision, L&D, etc.)"
+            },
+            {
+                "name": "System Migration",
+                "value": "System Migration"
+            },
+            {
+                "name": "TAX ID/Name Change",
+                "value": "TAX ID/Name Change"
+            },
+            {
+                "name": "TPA Transfer",
+                "value": "TPA Transfer"
+            },
+            {
+                "name": "Transfer/Direct to Trust",
+                "value": "Transfer/Direct to Trust"
+            },
+            {
+                "name": "Transfer for Other Reasons",
+                "value": "Transfer for Other Reasons"
+            },
+            {
+                "name": "Transfer from ASO/FI to MCS/JAA",
+                "value": "Transfer from ASO/FI to MCS/JAA"
+            },
+            {
+                "name": "Transfer from MCS/JAA to FI/ASO",
+                "value": "Transfer from MCS/JAA to FI/ASO"
+            },
+            {
+                "name": "Transfer from JAA to MCS",
+                "value": "Transfer from JAA to MCS"
+            },
+            {
+                "name": "Transfer from MCS to JAA",
+                "value": "Transfer from MCS to JAA"
+            },
+            {
+                "name": "Transfer from BCBS National Plan",
+                "value": "Transfer from BCBS National Plan"
+            },
+            {
+                "name": "Transfer from Small Group",
+                "value": "Transfer from Small Group"
+            },
+            {
+                "name": "Transfer to Small Group",
+                "value": "Transfer to Small Group"
+            },
+            {
+                "name": "Transfer to Trust",
+                "value": "Transfer to Trust"
+            },
+            {
+                "name": "Transfer Other",
+                "value": "Transfer Other"
+            },
+            {
+                "name": "Transfer to BCBS National Plan",
+                "value": "Transfer to BCBS National Plan"
+            },
+            {
+                "name": "WAVE Initiative",
+                "value": "WAVE Initiative"
+            }
+        ],
+        "readOnly": false,
+        "repeat": false,
+        "repeatClone": false,
+        "repeatLimit": null,
+        "required": false,
+        "show": {
+            "group": {
+                "operator": "AND",
+                "rules": [
+                    {
+                        "condition": "=",
+                        "data": "Local",
+                        "field": "UserGroup"
+                    }
+                ]
+            }
+        },
+        "showInputWidth": false
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": false,
+    "%vlocity_namespace%__Type__c": "Select",
+    "Name": "RDN-StageReason_LG",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/ANA Library/OS-CreateOpportunity/English/RDN-StageReason_LG"
+}

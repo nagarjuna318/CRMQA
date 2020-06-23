@@ -1,0 +1,48 @@
+{
+    "%vlocity_namespace%__Active__c": true,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "BillingEntity",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/IMPCase Library/IC-BillingEntity/English",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__PropertySet__c": {
+        "HTMLTemplateId": "",
+        "controlWidth": 12,
+        "disOnTplt": false,
+        "elementValueMap": {
+            "BillFrequency": "=\"1 MONTHLY\"",
+            "BillSequence": "=\"1 LAST NAME\"",
+            "BillingSpecifics": "=\"If variations exist between multiple entities, please make your selections below for each one, otherwise just complete Entity 1\"",
+            "CycleCode": "=\"28 MONTHLY CYCLE ON THE TWENTY EIGHTH OF THE MONTH\"",
+            "EntityType": "=\"Consolidated\"",
+            "FundingTypeCode": "=IF(EQUALS(%BillingType%,'Billing'), 'None','H -- ASO/ASC: New/Existing clients with Admin Svc Contract (most common)')",
+            "GraceDays": "=IF(EQUALS(%BillingType%,'Billing'), 60,90)",
+            "PayTypeCode": "=\"Wire Transfer\"",
+            "RateMethodCode": "=IF(EQUALS(%BillingType%,'Billing'), 'F -- EXP RTD NONREF','1 -- ASO BUSINESS')",
+            "ToleranceLevel": "=INTEGER('80')",
+            "WashCode1": "='WASHOUT CODE = 01 All Events: Dates of events occurring on the 1st - 31st, reflected in premium 1st of the following month.'",
+            "WashCode16": "='WASHOUT CODE = 16 Enrollment: Enrollment 1st- 15th, Premium due on 1st of the same month. Enrollment 16th-31st, premium due from 1st of next month. Contract Change: Date of events 1st- 15th, Premium due from 1st of the same month. Date of events 16th-31st, premium due from 1st of next month. Terminations: Benefits terminated 1st- 15th, Premium due on 1st of the same month. Terminated 16th-31st, premium credited from 1st of next month.'",
+            "WashCode2": "='WASHOUT CODE = 02 Enrollment: Enrollment on 1st, Premium due on 1st of the same month. Enrollment on 2nd-31st, premium due from 1st of next month. Contract Change: Dates of events occurring on the 1st, premium for new contract type due from the 1st of same month. 2nd-31st, due next month. Terminations: Benefits terminated on 1st, premium credited from the 1st of same month. 2nd-31st, credited next month.'",
+            "WashCode31": "='WASHOUT CODE = 31 Enrollment: Enrollment 1st- 31st, Premium due from 1st of the same month. Contract Change: Dates of event occurring 1st- 31st, Premium due on 1st of the current month. Terminations: Benefits terminated 1st- 31st, Premium credited from the 1st of the same month.'",
+            "WashoutCode": "=\"Code 16\""
+        },
+        "label": null,
+        "message": {
+        },
+        "show": null,
+        "showPersistentComponent": [
+            false,
+            false
+        ],
+        "ssm": false,
+        "validationRequired": "None",
+        "wpm": false
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": true,
+    "%vlocity_namespace%__Type__c": "Set Values",
+    "Name": "SV-DefaultValues",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/IMPCase Library/IC-BillingEntity/English/SV-DefaultValues"
+}

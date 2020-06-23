@@ -1,0 +1,43 @@
+{
+    "dataSource": {
+        "type": null,
+        "value": {
+        }
+    },
+    "filter": {
+        "['ActionDisplay__c']": "Local",
+        "['ProfileName__c']": "Local"
+    },
+    "states": [
+        {
+            "actionCtxId": "['Id']",
+            "conditions": {
+                "group": [
+                    {
+                        "field": "$scope.data.status",
+                        "operator": "===",
+                        "type": "system",
+                        "value": "'active'"
+                    }
+                ]
+            },
+            "definedActions": {
+                "actions": [
+                    {
+                        "collapse": true,
+                        "hasExtraParams": false,
+                        "id": "Update Pending Corrections",
+                        "isCustomAction": false,
+                        "type": "Vlocity Action"
+                    }
+                ]
+            },
+            "fields": [
+            ],
+            "name": "PendingCorrectionsCards",
+            "sObjectType": "Pending_Correction__c",
+            "templateUrl": "ActionCardsTemplate"
+        }
+    ],
+    "title": "PendingCorrectionsCards"
+}

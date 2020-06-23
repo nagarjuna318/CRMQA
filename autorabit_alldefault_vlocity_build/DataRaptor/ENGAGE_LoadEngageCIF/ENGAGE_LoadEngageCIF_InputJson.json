@@ -1,0 +1,72 @@
+{
+    "AccountId": "001W000000i1MsRIAU",
+    "CIFGeneralInformation": {
+        "AccountLegalName": "Kevin Test 4-20",
+        "CIFSelectMessage": true,
+        "ClaimSystem": "WGS 2.0",
+        "ClientTermination": true,
+        "ClientTerminationEffectiveDate": "2018-06-07",
+        "ExistingClientEffectiveDate": "2018-06-06",
+        "ExistingClientImplementation": true,
+        "NewClientEffective Date": "2018-06-05",
+        "NewClientImplementation": true,
+        "OpportunityEffectiveDate": "2019-01-01",
+        "OpportunityRecordType": "New Business",
+        "OpportunityStage": "Closed Won",
+        "QuoteName": "2019 New Business-Kevin Test 4-20",
+        "TermingCastlightLegacyForEngage": "No"
+    },
+    "ContextId": "0Q0W0000000BRTx",
+    "EngageOptions": {
+        "AnthemDental": true,
+        "AnthemDentalBlock": {
+            "AnthemDentalEligiblePopulation": "All Groups",
+            "ClientQualifiedAnthemDental": true
+        },
+        "EngageElevate": true,
+        "EngageElevateBlock": {
+            "CastlightBehavioralHealthBuyup": "BH Carve-in and EAP Carve-in (EE)",
+            "EngageElevateEligiblePopulation": "All Groups"
+        },
+        "EngageElite": true,
+        "EngageEliteBlock": {
+            "ClientWithAnthemRXCheck": true,
+            "EngageEliteEligiblePopulation": "All Groups"
+        },
+        "EngageEssential": true,
+        "EngageEssentialBlock": {
+            "ClientCareCostFinder": true,
+            "ClientEstimateYourCost": true,
+            "EngageEssentialEligiblePopulation": "All Groups"
+        },
+        "ReferenceBasedBenefit": true,
+        "ReferenceBasedBenefitBlock": {
+            "ReferenceBasedBenefitEligiblePopulation": "All Groups"
+        }
+    },
+    "NonEngageCastlightOption": {
+        "TradionalLegacyMdeicalBuyup": true,
+        "TraditionalLegacyBlock": {
+            "MedicalBuyupEligiblePopulation": "All Groups"
+        }
+    },
+    "QuoteId": "0Q0W0000000BRTxKAO",
+    "RecordId": "a7mW00000009phYIAQ",
+    "id": "a3CW00000014CFxMAM",
+    "layout": "lightning",
+    "timeStamp": "2018-06-14T02:27:53.873Z",
+    "userCurrencyCode": "USD",
+    "userId": "005W0000002nEcaIAE",
+    "userName": "ilugina@vlocity.com.prod.nal1b.dev",
+    "userProfile": "System Administrator",
+    "userTimeZone": -240,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "CIFGeneralInformation": 9977,
+        "DRE-EngageCIF": 3729,
+        "EngageOptions": 7934,
+        "OmniScriptSessionToken": "0553d802-b94d-4b8b-b7ee-b9fb9cb00435",
+        "PreSetValues": 608
+    }
+}

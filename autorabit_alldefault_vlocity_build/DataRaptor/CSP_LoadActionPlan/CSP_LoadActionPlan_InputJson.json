@@ -1,0 +1,264 @@
+{
+    "AccountId": "0011F000008YAymQAG",
+    "ActionPlan": {
+        "ActionPlanBlock": {
+            "ActionPlanAnalytics": null,
+            "ActionPlanConsumerExperience": null,
+            "ActionPlanHealthActivation": null,
+            "ActionPlanIdentifiedGap": null,
+            "ActionPlanObjective": null,
+            "ActionPlanObjectiveId": null,
+            "ActionPlanProviderOptimization": null
+        }
+    },
+    "BenefitObjectiveType": "Benefit Objective",
+    "BenefitObjectives": {
+        "BenefitObjectiveBOBlock": [
+            {
+                "BenefitObjectiveBODesc": "Client is intending to acquire new companies.",
+                "BenefitObjectiveBOType": "Corporate"
+            },
+            {
+                "BenefitObjectiveBODesc": "Client plans to add 5000 new employees",
+                "BenefitObjectiveBOType": "Workforce"
+            },
+            {
+                "BenefitObjectiveBODesc": "Client wants to do full replacement CDHP to take the company to a new direction.",
+                "BenefitObjectiveBOType": "Total Rewards"
+            },
+            {
+                "BenefitObjectiveBODesc": "Client wants to add plans in the United Kingdom.",
+                "BenefitObjectiveBOType": "Total Rewards"
+            }
+        ],
+        "BusinessObjectiveSelectCount": 0,
+        "ObjectiveSelect": null
+    },
+    "ClientObjectives": {
+        "ClientObjective": [
+            {
+                "ClientObjectActive": true,
+                "ClientObjectiveDescription": "Client is intending to acquire new companies.",
+                "ClientObjectiveId": "a6i1F000000DL8gQAG",
+                "ClientObjectiveType": "Corporate"
+            },
+            {
+                "ClientObjectActive": true,
+                "ClientObjectiveDescription": "Client plans to add 5000 new employees",
+                "ClientObjectiveId": "a6i1F000000DL8hQAG",
+                "ClientObjectiveType": "Workforce"
+            },
+            {
+                "ClientObjectActive": true,
+                "ClientObjectiveDescription": "Client wants to do full replacement CDHP to take the company to a new direction.",
+                "ClientObjectiveId": "a6i1F000000DL8iQAG",
+                "ClientObjectiveType": "Total Rewards"
+            },
+            {
+                "ClientObjectActive": true,
+                "ClientObjectiveDescription": "Client wants to add plans in the United Kingdom.",
+                "ClientObjectiveId": "a6i1F000000DL8jQAG",
+                "ClientObjectiveType": "Total Rewards"
+            }
+        ],
+        "ClientObjectiveCount": 4,
+        "ClientObjectiveMsgMax": true
+    },
+    "ContextId": "0011F000008YAymQAG",
+    "DRId_Account_Plan__c": "a6l1F0000004LmAQAU",
+    "DefineBenefitObjectives": {
+        "BenefitObjectiveBlock": [
+            {
+                "BenefitObjectiveComment": "This is very important to this client.",
+                "BenefitObjectiveDesc": "Achieve More Predictable Healthcare expenses",
+                "BenefitObjectiveId": "a6i1F000000DL8lQAG",
+                "BenefitObjectiveLookup": "a6i1F000000DL8iQAG",
+                "BenefitObjectiveLookupId": "a6i1F000000DL8iQAG",
+                "BenefitObjectiveRank": "5"
+            },
+            {
+                "BenefitObjectiveComment": null,
+                "BenefitObjectiveDesc": "Deliver a world-class service experience",
+                "BenefitObjectiveId": "a6i1F000000DL8vQAG",
+                "BenefitObjectiveLookup": null,
+                "BenefitObjectiveLookupId": null,
+                "BenefitObjectiveRank": "2"
+            },
+            {
+                "BenefitObjectiveComment": null,
+                "BenefitObjectiveDesc": "Drive digitization of the member experience",
+                "BenefitObjectiveId": "a6i1F000000DLAhQAO",
+                "BenefitObjectiveLookup": null,
+                "BenefitObjectiveLookupId": null,
+                "BenefitObjectiveRank": null
+            },
+            {
+                "BenefitObjectiveComment": null,
+                "BenefitObjectiveDesc": "Ensure competitive carrier arrangements",
+                "BenefitObjectiveId": "a6i1F000000DLArQAO",
+                "BenefitObjectiveLookup": {
+                    "name": "a6i1F000000DL8iQAG",
+                    "value": "Client wants to do full replacement CDHP to take the company to a new direction."
+                },
+                "BenefitObjectiveLookupId": "a6i1F000000DL8iQAG",
+                "BenefitObjectiveRank": "3"
+            },
+            {
+                "BenefitObjectiveComment": null,
+                "BenefitObjectiveDesc": "Ensure competitive carrier arrangements",
+                "BenefitObjectiveId": "a6i1F000000DLAmQAO",
+                "BenefitObjectiveLookup": {
+                    "name": "a6i1F000000DL8iQAG",
+                    "value": "Client wants to do full replacement CDHP to take the company to a new direction."
+                },
+                "BenefitObjectiveLookupId": "a6i1F000000DL8iQAG",
+                "BenefitObjectiveRank": "3"
+            },
+            {
+                "BenefitObjectiveComment": null,
+                "BenefitObjectiveDesc": "Ensure high quality administration/compliance",
+                "BenefitObjectiveId": "a6i1F000000DLAwQAO",
+                "BenefitObjectiveLookup": {
+                    "name": "a6i1F000000DL8iQAG",
+                    "value": "Client wants to do full replacement CDHP to take the company to a new direction."
+                },
+                "BenefitObjectiveLookupId": "a6i1F000000DL8iQAG",
+                "BenefitObjectiveRank": "3"
+            },
+            {
+                "BenefitObjectiveComment": null,
+                "BenefitObjectiveDesc": "Help employees become better consumers of healthcare",
+                "BenefitObjectiveId": "a6i1F000000DLB6QAO",
+                "BenefitObjectiveLookup": {
+                    "name": "a6i1F000000DL8iQAG",
+                    "value": "Client wants to do full replacement CDHP to take the company to a new direction."
+                },
+                "BenefitObjectiveLookupId": "a6i1F000000DL8iQAG",
+                "BenefitObjectiveRank": "3"
+            },
+            {
+                "BenefitObjectiveComment": null,
+                "BenefitObjectiveDesc": "Implement CDH/Increase Enrollment",
+                "BenefitObjectiveId": "a6i1F000000DL8mQAG",
+                "BenefitObjectiveLookup": {
+                    "name": "a6i1F000000DL8iQAG",
+                    "value": "Client wants to do full replacement CDHP to take the company to a new direction."
+                },
+                "BenefitObjectiveLookupId": "a6i1F000000DL8iQAG",
+                "BenefitObjectiveRank": "3"
+            },
+            {
+                "BenefitObjectiveComment": null,
+                "BenefitObjectiveDesc": "Improve population health/well-being",
+                "BenefitObjectiveId": "a6i1F000000DL8nQAG",
+                "BenefitObjectiveLookup": "a6i1F000000DL8hQAG",
+                "BenefitObjectiveLookupId": "a6i1F000000DL8hQAG",
+                "BenefitObjectiveRank": "5"
+            },
+            {
+                "BenefitObjectiveComment": null,
+                "BenefitObjectiveDesc": "Offer high quality cost effective clinical programs",
+                "BenefitObjectiveId": "a6i1F000000DL8oQAG",
+                "BenefitObjectiveLookup": "a6i1F000000DL8jQAG",
+                "BenefitObjectiveLookupId": "a6i1F000000DL8jQAG",
+                "BenefitObjectiveRank": "4"
+            }
+        ]
+    },
+    "Name": "Cheryl's Test Account",
+    "PlanDetails": {
+        "AccountId": "0011F000008YAymQAG",
+        "AccountName": "Cheryl's Test Account",
+        "Id": "a6l1F0000004LmAQAU",
+        "Name": "CSP-0000007"
+    },
+    "PlanDetailsId": "a6l1F0000004LmAQAU",
+    "SWT": {
+        "SWTSI": null
+    },
+    "StrategicOpportunity": {
+        "StrategicOpportunityBlock": [
+            {
+                "StrategicOpportunityBenefitObjective": "Achieve More Predictable Healthcare expenses",
+                "StrategicOpportunityId": "a6i1F000000DL8lQAG",
+                "StrategicOpportunitySelect": "Innovative Solution"
+            },
+            {
+                "StrategicOpportunityBenefitObjective": "Deliver a world-class service experience",
+                "StrategicOpportunityId": "a6i1F000000DL8vQAG",
+                "StrategicOpportunitySelect": "New Product/Program;Relationship Building"
+            },
+            {
+                "StrategicOpportunityBenefitObjective": "Drive digitization of the member experience",
+                "StrategicOpportunityId": "a6i1F000000DLAhQAO",
+                "StrategicOpportunitySelect": "New Product/Program;Relationship Building"
+            },
+            {
+                "StrategicOpportunityBenefitObjective": "Ensure competitive carrier arrangements",
+                "StrategicOpportunityId": "a6i1F000000DLArQAO",
+                "StrategicOpportunitySelect": "Relationship Building"
+            },
+            {
+                "StrategicOpportunityBenefitObjective": "Ensure competitive carrier arrangements",
+                "StrategicOpportunityId": "a6i1F000000DLAmQAO",
+                "StrategicOpportunitySelect": "Relationship Building"
+            },
+            {
+                "StrategicOpportunityBenefitObjective": "Ensure high quality administration/compliance",
+                "StrategicOpportunityId": "a6i1F000000DLAwQAO",
+                "StrategicOpportunitySelect": null
+            },
+            {
+                "StrategicOpportunityBenefitObjective": "Help employees become better consumers of healthcare",
+                "StrategicOpportunityId": "a6i1F000000DLB6QAO",
+                "StrategicOpportunitySelect": null
+            },
+            {
+                "StrategicOpportunityBenefitObjective": "Implement CDH/Increase Enrollment",
+                "StrategicOpportunityId": "a6i1F000000DL8mQAG",
+                "StrategicOpportunitySelect": "Relationship Building"
+            },
+            {
+                "StrategicOpportunityBenefitObjective": "Improve population health/well-being",
+                "StrategicOpportunityId": "a6i1F000000DL8nQAG",
+                "StrategicOpportunitySelect": "Core Service Execution"
+            },
+            {
+                "StrategicOpportunityBenefitObjective": "Offer high quality cost effective clinical programs",
+                "StrategicOpportunityId": "a6i1F000000DL8oQAG",
+                "StrategicOpportunitySelect": null
+            }
+        ]
+    },
+    "error": "OK",
+    "id": "a3C1F0000001aKkUAI",
+    "layout": "lightning",
+    "timeStamp": "2018-07-24T16:42:03.526Z",
+    "userCurrencyCode": "USD",
+    "userId": "0051F000001e386QAA",
+    "userName": "ilugina@vlocity.com2.configdev",
+    "userProfile": "System Administrator",
+    "userTimeZone": -240,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "BenefitObjectives": 3184,
+        "ClientObjectives": 15327,
+        "DR_ExtractAccountPlan": 3374,
+        "DR_ExtractAccountPlanReload": 2854,
+        "DR_ExtractBusinessObjective": 4434,
+        "DR_ExtractReviewBO": 1371,
+        "DR_ExtractStrategicOpportunity": 4927,
+        "DR_LoadAccountPlan": 1259,
+        "DR_LoadBusinessObjectiveRank": 1572,
+        "DR_LoadClientObjective": 894,
+        "DefineBenefitObjectives": 6174,
+        "OmniScriptSessionToken": "bd244ece-c60c-4f5f-9b4b-a7709cc395ad",
+        "PreSetValue": 1952,
+        "RA_ExtractObjectives": 533,
+        "RA_LoadSWT": 373778,
+        "RA_RetrieveSWT": 1202,
+        "SWT": 2276515,
+        "StrategicOpportunity": 75863
+    }
+}

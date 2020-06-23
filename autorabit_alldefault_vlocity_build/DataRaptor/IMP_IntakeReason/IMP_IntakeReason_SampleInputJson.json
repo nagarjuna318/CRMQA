@@ -1,0 +1,37 @@
+{
+    "ContextId": "801W0000000lnfC",
+    "IntakeReason": {
+        "Block1": [
+            {
+                "Reason": "Documents not attached",
+                "Tx1": "Test intake reason mapping"
+            },
+            {
+                "Reason": "Mismatch effective date",
+                "Tx1": "Test Intake reason mapping 2"
+            }
+        ]
+    },
+    "IntakeReturnStage": "Pending AM Action",
+    "Submit": {
+        "SubmitIntReturn": "Yes"
+    },
+    "id": "a3CW0000000AlHgMAK",
+    "layout": "lightning",
+    "timeStamp": "2018-01-04T18:19:27.046Z",
+    "userCurrencyCode": "USD",
+    "userId": "005W0000002XquzIAC",
+    "userName": "shravani@chadda@eaglecrk.com.prod.nal1b.dev",
+    "userProfile": "System Administrator",
+    "userTimeZone": -300,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "End": 1392,
+        "IntakeReason": 34364,
+        "OmniScriptSessionToken": "716b7cac-8df5-42e3-823e-3b4c6220495b",
+        "SV-ContextId": 41,
+        "SetValues2": 14,
+        "Submit": 2720
+    }
+}

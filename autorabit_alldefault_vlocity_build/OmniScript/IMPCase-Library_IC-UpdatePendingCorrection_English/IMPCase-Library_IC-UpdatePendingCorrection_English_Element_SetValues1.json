@@ -1,0 +1,39 @@
+{
+    "%vlocity_namespace%__Active__c": true,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "UpdatePendingCorrection",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/IMPCase Library/IC-UpdatePendingCorrection/English",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__PropertySet__c": {
+        "HTMLTemplateId": "",
+        "controlWidth": 12,
+        "disOnTplt": false,
+        "elementValueMap": {
+            "ContextId": "='a8H540000000IpZEAU'",
+            "Id": "%PendingCorrection|1:Id%",
+            "InitiatorComments": "%PendingCorrection|1:InitiatorComments%",
+            "PendingCorrectionsStage": "%PendingCorrection|1:PendingCorrectionsStage%",
+            "Profile": "=IF(OR(CONTAINS(%userProfile%,'SME'),CONTAINS(%userProfile%,'Underwriting'),CONTAINS(%userProfile%,'Underwriting Dual'),CONTAINS(%userProfile%,'System')),'SME', IF(CONTAINS(%userProfile%,'Local'),'Local','Other'))",
+            "Reason": "%PendingCorrection|1:Reason%"
+        },
+        "label": "SetValues1",
+        "message": {
+        },
+        "show": null,
+        "showPersistentComponent": [
+            false,
+            false
+        ],
+        "ssm": false,
+        "validationRequired": "None",
+        "wpm": false
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": false,
+    "%vlocity_namespace%__Type__c": "Set Values",
+    "Name": "SetValues1",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/IMPCase Library/IC-UpdatePendingCorrection/English/SetValues1"
+}

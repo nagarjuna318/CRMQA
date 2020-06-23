@@ -1,0 +1,25 @@
+<div class="item-card" ng-controller="anthemCommissionPaidProductsController">
+<table>
+<thead ng-show="{{data.cardIndex}} == 0">
+<th ng-show="key != 'attributes'" style="background-color:LightGray;font-family:verdana;color:blue" > 
+    <b>Details For {{obj | getter: data.fields[5]}} </b>
+</th>
+</thead>
+</table>
+<table style="table-layout:fixed;" border="1" >
+<thead style="background-color:LightGray;font-family:verdana;color:blue" ng-show="{{data.cardIndex}} == 0"> 
+    <th width="25px" ng-show="key != 'attributes'" >{{data.fields[1].label}}</th>
+    <th width="25px" ng-show="key != 'attributes'" >{{data.fields[2].label}}</th>
+    <th width="15px" style="text-align:center;white-space: normal;"  ng-show="key != 'attributes'" >{{data.fields[3].label}}</th>
+    <th width="15px" style="text-align:center;white-space: normal;" ng-show="key != 'attributes'" >{{data.fields[4].label}}</th>
+</thead>
+<tbody>
+<tr>
+<td width="25px"style="text-align:left;white-space: normal;"><a ng-href="/{{obj.Id}}" ng-data-url="/{{obj.Id}}" target="_parent">{{obj | getter: data.fields[1]}}</a></td>
+<td  width="25px">{{obj | getter: data.fields[2]}}</td>
+<td width="15px" style="text-align:center">{{obj | getter: data.fields[3]}}</td>
+<td width="15px" style="text-align:right">{{obj | getter: data.fields[4]}}</td>         
+</tr>
+</tbody>
+</table>
+</div>

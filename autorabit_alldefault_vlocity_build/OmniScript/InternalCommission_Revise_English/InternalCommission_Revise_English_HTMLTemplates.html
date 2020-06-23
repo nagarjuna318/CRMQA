@@ -1,0 +1,163 @@
+<!-- ------------------------------------------------------------------- -->
+<!-- Start of vlcQuoteSelection.html Template.  Created at 2018-03-29 18:50:22 UTC -->
+<!-- ------------------------------------------------------------------- -->
+<style>
+#ApprovalReviewBlock .vlc-slds-control-action__container span{
+    display: none;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 5px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: rgb(216, 221, 230);; 
+    border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #b30000; 
+}
+</style>
+<script type="text/ng-template" id="vlcQuoteSelection.html">
+ <div class="panel panel-default" style="width:100%">
+  <table class="table slds-table slds-table--bordered slds-table--cell-buffer" style="table-layout: auto;" width="100%">
+   <thead>
+    <tr>
+     <!-- Header for checkbox -->
+     <th class="slds-cell-shrink">Select </th>     
+     <th class="slds-cell-shrink" >Product Name</th>    
+     <th class="slds-cell-shrink" style="text-align:center">Group<br/>Number</th>    
+     <th class="slds-cell-shrink" style="text-align:center">Product<br/> Stage</th>    
+     <th class="slds-cell-shrink"  style="text-align:center">QLI Members<br/>Estimated</th>    
+     <th class="slds-cell-shrink"  style="text-align:center">Renew With<br/> Growth</th>    
+     <th class="slds-cell-shrink"  style="text-align:center">Estimated Renew <br/>With Growth Members</th>    
+    </tr>
+   </thead>
+   <tbody class='ins' ng-if="control.vlcSI[control.itemsKey].length > 0">
+    <tr ng-repeat='p in control.vlcSI[control.itemsKey]' ng-class="{ 'vlc-selectableitem-selected' : true}"  ng-init="onSelectItem(control, p, $index, this, true)" >
+     <th class="slds-cell-shrink">
+        <label class="slds-checkbox" style="">
+          <input type="checkbox" ng-model="p.vlcSelected"   ng-change='onSelectItem(control, p, $index, this,true);'  ng-init='onSelectItem(control, p, $index, this,true);' />
+          <span class="slds-checkbox--faux"></span>
+        </label>
+     </th>
+
+     <td style="width:500px;overflow-x: hidden; overflow-y: scroll,auto;text-overflow:ellipsis;height:64px;white-space: initial;">{{p.QLIProductName}}</td>
+     <td style="text-align:center">{{p.QLIGroupNumber}}</td>
+     <td style="text-align:center">{{p.QLIProductStage}}</td>
+     <td style="text-align:center">{{p.QLIMembers}}</td>
+     <td style="text-align:center">
+        <div ng-if="p.QLIProductStage == 'Renewed'" >
+        <label class="slds-checkbox">
+          <input id="renewWithGrowth" type="checkbox" ng-model='p.QLIRenewWithGrowth;' />
+          <span class="slds-checkbox--faux"></span>
+        </label>     
+        </div>
+     </td>
+     <td >
+            <div class="slds-form-element"  ng-if="p.QLIProductStage == 'Renewed' && p.QLIRenewWithGrowth == true">
+               <div class="slds-form-element__control">
+                  <input id="otherId" type="text" ng-model='p.QLIEstimatedRenew'  class="slds-input" ng-required="true" style="border:1px solid #ff0000"/>
+               </div>
+            </div> 
+     </td>
+      </tr>
+   </tbody>
+  </table>
+ </div>
+ <p> </p>
+</script>
+<!-- ----------------------------- -->
+<!-- End of vlcQuoteSelection.html  Template. -->
+
+<!-- ------------------------------------------------------------------- -->
+<!-- Start of vlcQuoteSelectionNotSold.html Template.  Created at 2018-03-29 18:50:22 UTC -->
+<!-- ------------------------------------------------------------------- -->
+<script type="text/ng-template" id="vlcQuoteSelectionNotSold.html">
+ <div class="panel panel-default" style="flex-wrap:wrap">
+  <table class="table slds-table slds-table--bordered slds-table--cell-buffer" style="table-layout: auto;" width="100%">
+   <thead>
+    <tr>
+     <!-- Header for checkbox -->
+     <th class="slds-cell-shrink" width="30%">Product Name</th>    
+     <th class="slds-cell-shrink" width="30%" style="text-align:center">Group Number</th>    
+     <th class="slds-cell-shrink" width="30%" style="text-align:center">Product Stage</th>    
+    </tr>
+   </thead>
+   <tbody class='ins' ng-if="control.vlcSI[control.itemsKey].length > 0">
+    <tr ng-repeat='p in control.vlcSI[control.itemsKey]' ng-class="{ 'vlc-selectableitem-selected' : p.vlcSelected }"  ng-init="p.vlcSelected=false">
+     <td >{{p.QLIProductName}}</td>
+     <td style="text-align:center">{{p.QLIGroupNumber}}</td>
+     <td style="text-align:center">{{p.QLIProductStage}}</td>
+      </tr>
+   </tbody>
+  </table>
+ </div>
+ <p> </p>
+</script>
+<!-- ----------------------------- -->
+<!-- End of vlcQuoteSelectionNotSold.html  Template. -->
+
+<!-- ------------------------------------------------------------------- -->
+<!-- Start of vlcQuoteSelectionPharmacy.html Template.  Created at 2018-03-29 18:50:22 UTC -->
+<!-- ------------------------------------------------------------------- -->
+<script type="text/ng-template" id="vlcQuoteSelectionPharmacy.html">
+ <div class="panel panel-default" style="width:100%">
+  <table class="table slds-table slds-table--bordered slds-table--cell-buffer" style="table-layout: auto;" width="100%">
+   <thead>
+    <tr>
+     <!-- Header for checkbox -->
+     <th class="slds-cell-shrink">Select </th>     
+     <th class="slds-cell-shrink" >Product Name</th>    
+     <th class="slds-cell-shrink" style="text-align:center">Group<br/>Number</th>    
+     <th class="slds-cell-shrink"  style="text-align:center">Duration<br/> Of Guarantee</th>    
+     <th class="slds-cell-shrink"  style="text-align:center">Current<br/> Year Of Guarantee</th>    
+    </tr>
+   </thead>
+   <tbody class='ins' ng-if="control.vlcSI[control.itemsKey].length > 0">
+    <tr ng-repeat='p in control.vlcSI[control.itemsKey]' ng-class="{ 'vlc-selectableitem-selected' : true}"  ng-init="onSelectItem(control, p, $index, this, true)" >
+     <th class="slds-cell-shrink">
+        <label class="slds-checkbox" style="">
+          <input type="checkbox" ng-model="p.vlcSelected"   ng-change='onSelectItem(control, p, $index, this,true);'  ng-init='onSelectItem(control, p, $index, this,true);' />
+          <span class="slds-checkbox--faux"></span>
+        </label>
+     </th>
+
+     <td style="width:500px;overflow-x: hidden; overflow-y: scroll,auto;text-overflow:ellipsis;height:64px;white-space: initial;">{{p.QLIProductName}}</td>
+     <td style="text-align:center">{{p.QLIGroupNumber}}</td>
+     <td style="text-align:center">
+          <div class="slds-form-element__control">
+            <select name="QLIDurationGuarantee" id="QLIDurationGuaranteeId" class="slds-select ng-pristine ng-empty ng-valid ng-valid-required ng-touched" ng-required="true"
+                 style="font-size:12px;font-weight:bold;max-width:100%;border:1px solid #ff0000;text-align-last: center;" 
+                 ng-model="p.QLIDurationGuarantee" >              
+                <option ng-repeat="option in bpTree.response['GuaranteeValues']" value="{{option}}">     {{option}}</option>
+            </select>       
+          </div>
+     </td>
+     <td style="text-align:center">
+          <div class="slds-form-element__control">
+            <select name="QLICurrentYearGuarantee" id="QLICurrentYearGuaranteeId" class="slds-select ng-pristine ng-empty ng-valid ng-valid-required ng-touched" ng-required="true"
+                 style="font-size:12px;font-weight:bold;max-width:100%;border:1px solid #ff0000;text-align-last: center;" 
+                 ng-model="p.QLICurrentYearGuarantee" >              
+                <option ng-repeat="option in bpTree.response['GuaranteeValues']" value="{{option}}">     {{option}}</option>
+            </select>       
+          </div>
+     </td>
+     </tr>
+   </tbody>
+  </table>
+ </div>
+ <p> </p>
+</script>
+<!-- ----------------------------- -->
+<!-- End of vlcQuoteSelectionPharmacy.html  Template. -->

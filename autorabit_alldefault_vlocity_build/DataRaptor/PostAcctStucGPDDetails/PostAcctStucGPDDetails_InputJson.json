@@ -1,0 +1,37 @@
+{
+    "ContextId": null,
+    "GroupPlanDesign&amp;EmpClassStatusinfo": {
+        "EmployeeClassDetails": {
+            "EmpClass": {
+                "EmployeeClassDescription": null,
+                "EmployeeClassType": null,
+                "Id": null,
+                "QLItems": {
+                    "ContractCode": null,
+                    "Funding": null,
+                    "GroupPlanDescription": null,
+                    "LineOfBusiness": null,
+                    "PlanName": null,
+                    "ProductStage": null,
+                    "Select": null
+                }
+            }
+        },
+        "WhatAreEmployeeClassesBlock": {
+        }
+    },
+    "timeStamp": null,
+    "userId": null,
+    "userName": null,
+    "userProfile": null,
+    "userTimeZone": null,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "DoneAction1": null,
+        "EmployeeClassQLIExtraction": null,
+        "EmployeeClassQLITransformer": null,
+        "GroupPlanDesign&amp;EmpClassStatusinfo": null,
+        "PostEmpStatus": null
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "%vlocity_namespace%__Author__c": "Anthem Commercial 2.0",
+    "%vlocity_namespace%__Datasource__c": "",
+    "%vlocity_namespace%__Definition__c": "Account-Actions-LG-Customer.json",
+    "%vlocity_namespace%__GlobalKey__c": "Account Actions LG Customer/Anthem Commercial 2.0/null/1526042678730",
+    "%vlocity_namespace%__ParentID__c": "",
+    "%vlocity_namespace%__Type__c": "",
+    "%vlocity_namespace%__Version__c": "",
+    "Name": "Account Actions LG Customer",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__VlocityCard__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__VlocityCard__c/Account Actions LG Customer"
+}

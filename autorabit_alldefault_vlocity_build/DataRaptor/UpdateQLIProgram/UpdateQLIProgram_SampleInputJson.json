@@ -1,0 +1,29 @@
+{
+    "ConfigureProgram": {
+        "CPLCodesFormula": null,
+        "Configure Program": {
+            "Competitor": null,
+            "CompetitorStatus": null,
+            "Probability": null,
+            "ProductStage": null,
+            "Reason": null,
+            "TermDate": null,
+            "TermSelection": null
+        },
+        "DateMessage": null,
+        "OppTypeFormula": null,
+        "ParentQuoteLineItemFormula": null,
+        "ProductName": null
+    },
+    "ContextId": null,
+    "timeStamp": null,
+    "userId": null,
+    "userName": null,
+    "userProfile": null,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "ConfigureProgram": null,
+        "DataRaptor Extract Action 1": null
+    }
+}

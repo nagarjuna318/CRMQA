@@ -1,0 +1,46 @@
+<div role="dialog" tabindex="-1" aria-labelledby="header43" class="slds-modal slds-fade-in-open nds-modal nds-fade-in-open vloc-ins-product-details-compare-modal" ng-controller="insOsPlanCompareModalCtrl_vision">
+        <div class="slds-modal__container nds-modal__container vloc-ins-product-details-compare-modal-container" ng-init="initCompareModal(modalRecords)" ng-class="{'single-product': formattedContent.topRow.length === 1}">
+            <div class="slds-modal__header nds-modal__header vloc-ins-product-details-compare-modal-header compare-header">
+                <button class="slds-button nds-button vloc-ins-product-details-compare-modal-close-btn svg-button-no-outline" title="Close" ng-click="$slideHide()">
+                    <slds-button-svg-icon sprite="'utility'" icon="'close'" size="'large'"></slds-button-svg-icon>
+                    <span class="slds-assistive-text nds-assistive-text">Close</span>
+                </button>
+                <h2 id="header43" class="slds-text-heading--medium nds-text-heading--medium" ng-bind="title"></h2>
+            </div>
+            <div class="slds-modal__content nds-modal__content vloc-ins-product-details-compare-modal-content-container padding-container-fix">
+                <div class="slds-grid nds-grid vloc-ins-product-details-compare-modal-top">
+                    <div class="slds-large-size--2-of-{{formattedContent.topRow.length + 2}} slds-large-show nds-large-size--2-of-{{formattedContent.topRow.length + 2}} nds-large-show"></div>
+                    <div class="slds-p-horizontal--xx-small nds-p-horizontal--xx-small vloc-ins-product-details-compare-modal-product-container" ng-class="decideHtmlClasses()" ng-repeat="product in formattedContent.topRow">
+
+                        <h3 class="vloc-ins-product-details-compare-modal-product-name nds-truncate slds-truncate plan-title-fix">{{product.Name}}</h3>
+                        <!-- <div class="text-align-left nds-m-bottom_small">
+                             <button ng-if="isSelectable" class="nds-button vloc-plan-select-button" ng-class="{'select-cta' : !product.productData.selected, 'deselect-cta': product.productData.selected}" ng-click="toggleModalPlan(product.productData, control)">
+                                <span>{{product.productData.selected ? 'Deselect' : 'Select'}}</span>
+                            </button>
+                        </div>
+                        <div class="text-align-left nds-m-bottom_small" ng-if="isSelectable">
+                            <p class="plan-attribute remove-link" ng-click = "removeCompare(product, control)">Remove from Comparison</p>
+                        </div> -->
+                    </div>
+                </div>
+                <div class="vloc-ins-product-details-compare-modal-attr-rows-container" ng-repeat="(category, list) in formattedContent.categorized_list">
+                    
+                    <div class="nds-size--1-of-1 nds-truncate vloc-ins-product-details-compare-modal-attribute-label section-title">{{category}}</div>
+                    
+
+
+                    <div class="nds-grid nds-wrap vloc-ins-product-details-compare-modal-attr-row content-padding-fix" ng-repeat="attribute in formattedContent.categorized_list[category]" ng-if="attribute.inputType !== 'equalizer'" ng-hide="attribute.hideRow">
+                        
+                        <div class="slds-large-size--2-of-{{formattedContent.topRow.length + 2}} slds-size--1-of-1 slds-truncate nds-large-size--2-of-{{formattedContent.topRow.length + 2}} nds-size--1-of-1 nds-truncate vloc-ins-product-details-compare-modal-attribute-label">{{attribute.label}}</div>
+                        
+                        <div class="vloc-ins-product-details-compare-modal-attribute-value" ng-class="decideHtmlClasses()" ng-if="!attribute.hidden" ng-repeat="attr_val in attribute.attributeValues">
+                            <p class="vloc-ins-coverages-attribute-readonly">{{attr_val.userValues}}</p>    
+                        </div>
+                        
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>

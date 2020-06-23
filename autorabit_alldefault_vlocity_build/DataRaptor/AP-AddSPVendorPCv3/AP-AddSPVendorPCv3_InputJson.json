@@ -1,0 +1,118 @@
+{
+    "AccountId": "0014B00000KMhYhQAL",
+    "CompletionMarker": "Validate Product Line Details",
+    "ContextId": "",
+    "CreatedById": "0054B000000u3A2QAI",
+    "CreatedByName": "Juan Carlos",
+    "DRId_AlternateNetwork__c": "a5c4B0000004aLoQAI",
+    "DRId_QuoteLineItem": "0QL4B0000005vtuWAA",
+    "DRId_ServiceProviderRelationship__c": "a5K4B0000000sUcUAI",
+    "FinancingDependent": "Not Applicable",
+    "LastModifiedById": "005410000022AKBAA2",
+    "LastModifiedByName": "Lisa Svenningsen",
+    "LineItemNumber": "00000925",
+    "PLComplete": true,
+    "ProductName": "Medical - HMO",
+    "ProductStageDependent": "IGAP Lost",
+    "QLIid": "0QL4B0000005vtuWAA",
+    "QuoteId": "0Q04B000000AFR8SAO",
+    "RTMedical": {
+        "CDHP": {
+            "DidClientPurchaseQUE": null,
+            "HRABalanceTransfer": null,
+            "HRAHIAAdministration": null,
+            "HSABankingPartner": null,
+            "IfHSADidClientPurchaseHSAPlus": null,
+            "QuarterlyHealthStatements": null
+        },
+        "CompletionMarkerFormula": "Validate Product Line Details",
+        "DateMessage": true,
+        "MultipleProviderTiering": {
+            "DoesMultipleProviderTieringApply": null
+        },
+        "NetworkBlock": {
+            "AlternativeNetwork": null,
+            "Network": null,
+            "Prefix": null
+        },
+        "OppTypeFormula": "In Group Add Product",
+        "PLComplete1": true,
+        "PLCompleteX": true,
+        "Pharmacy": {
+            "MedicalCDHPandMedicalCDHPWCIC": {
+                "PBMIntegrationType": null,
+                "PharmacyIDCardDetails": null
+            },
+            "MedicalandMedicalWCIC": {
+                "MedicalRXAccumulation": null,
+                "RXVendors": null
+            }
+        },
+        "ProductNameFormula": "Medical - HMO",
+        "QLD-NotInVendorList": true,
+        "QLD-Vendor": null,
+        "QLD-VendorAccountTA-Block": {
+            "QLD-VendorAccountTA": "Proposal Dept Only(DO NOT USE)",
+            "VendorAccountId": "0014B00000ONJBiQAP"
+        },
+        "QLD-VendorTA-Block": {
+            "QLD-VendorTA": "e",
+            "VendorId": null
+        },
+        "QuoteLineDetails": {
+            "Competitor Status": "Unknown",
+            "Financing": "Not Applicable",
+            "Funding": "N/A",
+            "InitMedicalRateInc": null,
+            "Members": 300,
+            "OppType": "In Group Add Product",
+            "Probability": "25%",
+            "ProductStage": "IGAP Lost",
+            "Reason": "Brand",
+            "ReceivedDate": null,
+            "RecordType": "Medical",
+            "Subscribers": 75,
+            "TermDate": null,
+            "TermSelection": "Ok"
+        },
+        "RecordTypeFormula": "Medical",
+        "SetPLComplete": null,
+        "WellPriorityMedicalCDHPWCICandMedicalWCIC": {
+            "CMDMCarvedIntoAurora": null
+        }
+    },
+    "ReasonDependent": "Brand",
+    "SelectServiceProvider": {
+        "Account_Id": "0014B00000KMhYhQAL",
+        "CompetitorId": "0014B00000ONJ7aQAH",
+        "NotInCompetitorList": true,
+        "ServiceProviderTypeAhead-Block": {
+            "CompetitorAccountId": null,
+            "ServiceProviderId": null,
+            "ServiceProviderTypeAhead": ""
+        },
+        "TypeAheadAccount-Block": {
+            "ServiceProviderAccountId": "0014B00000ONJ7aQAH",
+            "TypeAheadAccount": "Health Net"
+        }
+    },
+    "StepAlternateNetworks": {
+        "AltNetworks": {
+            "ALT": null,
+            "ALTid": null,
+            "ANTermDate": null,
+            "CorrespondingPackageCodeContractCode": null,
+            "CorrespondingPrefix": null,
+            "EffectiveDate": null
+        }
+    },
+    "id": "a3B4B0000002x2cUAA",
+    "layout": "lightning",
+    "testContextId": "0QL4B0000005vtu",
+    "timeStamp": "2017-06-12T00:49:09.342Z",
+    "userId": "0054B000000oxn3QAA",
+    "userName": "lisa.svenningsen@anthem.com.config",
+    "userProfile": "System Administrator",
+    "vlcPersistentComponent": {
+    }
+}

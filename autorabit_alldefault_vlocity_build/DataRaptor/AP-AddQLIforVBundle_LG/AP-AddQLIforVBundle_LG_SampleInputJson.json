@@ -1,0 +1,168 @@
+{
+    "AP-BundleId": "01t4B000001Wpv6",
+    "AP-BundleSelection": {
+        "BundleList": [
+            {
+                "Family": "None",
+                "Id": "01t4B000001WqXlQAK",
+                "IsActive": true,
+                "LOB": "VR",
+                "Name": "24/7 Nurseline",
+                "QLIRecordType__c": "Default",
+                "vlcBundleStage": "In Progress",
+                "vlcSelected": true
+            },
+            {
+                "Id": "01t4B000001WqYAQA0",
+                "IsActive": true,
+                "LOB": "VR",
+                "Name": "Anthem Health Rewards: Direct Outcomes & Claims",
+                "QLIRecordType__c": "Default",
+                "vlcBundleStage": "Renewed",
+                "vlcSelected": true
+            },
+            {
+                "Id": "01t4B000001WqYFQA0",
+                "IsActive": true,
+                "LOB": "VR",
+                "Name": "Anthem Health Rewards: Direct Package",
+                "QLIRecordType__c": "Default",
+                "vlcBundleStage": "IGAP In Progress",
+                "vlcSelected": true
+            },
+            {
+                "Id": "01t4B000001WqYUQA0",
+                "IsActive": true,
+                "Name": "Blue Care Consultant (NY)",
+                "QLIRecordType__c": "Default",
+                "vlcBundleStage": "IGAP Dead",
+                "vlcSelected": true
+            }
+        ]
+    },
+    "AP-FamilySelection": {
+        "AP-CatSelection": "Health and Wellness",
+        "AP-OpptyType": "Renewal"
+    },
+    "AP-FixDeselection": {
+        "FixList": [
+            {
+                "Family": "None",
+                "Id": "01t4B000001WqXlQAK",
+                "IsActive": true,
+                "LOB": "VR",
+                "Name": "24/7 Nurseline",
+                "QLIRecordType__c": "Default",
+                "vlcSelected": true
+            },
+            {
+                "Id": "01t4B000001WqY0QAK",
+                "IsActive": true,
+                "LOB": "VR",
+                "Name": "Anthem Health Rewards: Direct Claims Based",
+                "QLIRecordType__c": "Default",
+                "vlcSelected": true
+            },
+            {
+                "Id": "01t4B000001WqY5QAK",
+                "IsActive": true,
+                "LOB": "VR",
+                "Name": "Anthem Health Rewards: Direct Outcome Based",
+                "QLIRecordType__c": "Default",
+                "vlcSelected": true
+            },
+            {
+                "Id": "01t4B000001WqYAQA0",
+                "IsActive": true,
+                "LOB": "VR",
+                "Name": "Anthem Health Rewards: Direct Outcomes & Claims",
+                "QLIRecordType__c": "Default",
+                "vlcSelected": true
+            },
+            {
+                "Id": "01t4B000001WqYFQA0",
+                "IsActive": true,
+                "LOB": "VR",
+                "Name": "Anthem Health Rewards: Direct Package",
+                "QLIRecordType__c": "Default",
+                "vlcSelected": true
+            },
+            {
+                "Id": "01t4B000001WqYKQA0",
+                "IsActive": true,
+                "LOB": "VR",
+                "Name": "Anthem Healthy Actions (Rx VBBD)",
+                "QLIRecordType__c": "Default",
+                "vlcSelected": true
+            },
+            {
+                "Id": "01t4B000001WqYPQA0",
+                "IsActive": true,
+                "LOB": "VR",
+                "Name": "Behavioral Health Resource",
+                "QLIRecordType__c": "Default",
+                "vlcSelected": true
+            }
+        ]
+    },
+    "AP-ProductSelection": {
+        "AP-ProdSelected": true,
+        "ProdList": [
+            {
+                "Bundle": "Variable",
+                "Id": "01t4B000001Wpv6QAC",
+                "Name": "Health and Wellness: A La Carte",
+                "QLIRecordType__c": "AIM:Integrated Imaging with a Penalty (RQI+)",
+                "RecordTypeId": "0124B0000008rwzQAA",
+                "vlcSelected": false
+            }
+        ]
+    },
+    "ContextId": "0Q04B000000ADLS",
+    "QLD": {
+        "AP-BundleType": "Variable",
+        "AP-ParentId": "01t4B000001WptYQAS",
+        "QLD-Block": {
+            "QLD-Financing": "Administrative Services Only",
+            "QLD-Funding": "ASO",
+            "QLD-Members": 10,
+            "QLD-Probability": null,
+            "QLD-ProdStage": "In Progress",
+            "QLD-Reason": null,
+            "QLD-Subscribers": 10,
+            "QLD-TermDate": null,
+            "QLD-TermSelection": "Ok"
+        },
+        "QLD-CmpttrTAB-Block": null,
+        "QLD-DayMsg": true
+    },
+    "QuoteDetails": {
+        "EffectiveDate": "2017-04-01",
+        "GroupNumber": "a5P4B0000002JdNUAU",
+        "OpptyRecType": "Renewal",
+        "OpptyStage": "Renewal Finalized",
+        "PriceBookId": "01s4B00000050EYQAY"
+    },
+    "Source": "Oppty",
+    "id": "a3B4B0000001OJeUAM",
+    "layout": "lightning",
+    "timeStamp": "2017-05-24T14:28:50.996Z",
+    "userId": "0054B000000op45QAA",
+    "userName": "jcarrero@anthem.com2.config",
+    "userProfile": "System Administrator",
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "AP-BundleSelection": 17685,
+        "AP-END": 14456,
+        "AP-FamilySelection": 3785,
+        "AP-FixDeselection": 2091,
+        "AP-ProductSelection": 2961,
+        "DR-BundleRetrieval": 573,
+        "DR-ProductRetrieval": 390,
+        "DR-QuoteDetails": 1210,
+        "OmniScriptSessionToken": "d5e1581e-ab0f-44ac-bc87-f3aca742ce46",
+        "QLD": 11845,
+        "Set Constants": 13
+    }
+}

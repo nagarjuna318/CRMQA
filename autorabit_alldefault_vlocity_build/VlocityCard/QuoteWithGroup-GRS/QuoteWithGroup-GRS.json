@@ -1,0 +1,145 @@
+{
+    "dataSource": {
+        "type": null,
+        "value": {
+        }
+    },
+    "filter": {
+        "['IsGNExist__c']": "Yes",
+        "['Is_GRS_Profile_With_Correct_Record_Type__c']": "GRS"
+    },
+    "sessionVars": [
+    ],
+    "states": [
+        {
+            "actionCtxId": "['Id']",
+            "blankStateCheck": false,
+            "collapse": false,
+            "conditions": {
+                "group": [
+                    {
+                        "field": "$scope.data.status",
+                        "operator": "===",
+                        "type": "system",
+                        "value": "'active'"
+                    }
+                ]
+            },
+            "definedActions": {
+                "actions": [
+                    {
+                        "collapse": true,
+                        "hasExtraParams": false,
+                        "id": "Add_GRS_Product",
+                        "isCustomAction": false,
+                        "type": "Vlocity Action"
+                    }
+                ]
+            },
+            "fields": [
+                {
+                    "collapse": true,
+                    "displayLabel": "['GroupNumber__c']",
+                    "editing": false,
+                    "fieldType": "standard",
+                    "group": "Custom Properties",
+                    "label": "",
+                    "name": "['GroupNumber__c']",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "displayLabel": "['GroupNumber__r']['Name']",
+                    "editing": false,
+                    "group": "Custom Properties",
+                    "label": "Group Number",
+                    "name": "['GroupNumber__r']['Name']",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "displayLabel": "['DivisionName__c']",
+                    "editing": false,
+                    "fieldType": "standard",
+                    "group": "Custom Properties",
+                    "label": "Division Name",
+                    "name": "['DivisionName__c']",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "displayLabel": "['Name']",
+                    "fieldType": "standard",
+                    "group": "Custom Properties",
+                    "label": "Name",
+                    "name": "['Name']",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "displayLabel": "['GroupNumber__r']['ClaimServiceCenter__c']",
+                    "editing": false,
+                    "group": "Custom Properties",
+                    "label": "Claim Service Center",
+                    "name": "['GroupNumber__r']['ClaimServiceCenter__c']",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "displayLabel": "['GroupNumber__r']['ClaimSystem__c']",
+                    "editing": false,
+                    "group": "Custom Properties",
+                    "label": "Claim System",
+                    "name": "['GroupNumber__r']['ClaimSystem__c']",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "displayLabel": "['TotalSubscribers__c']",
+                    "editing": false,
+                    "fieldType": "standard",
+                    "group": "Custom Properties",
+                    "label": "Total Subscribers",
+                    "name": "['TotalSubscribers__c']",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "displayLabel": "['GroupNumber__r']['CallServiceCenter__c']",
+                    "editing": false,
+                    "group": "Custom Properties",
+                    "label": "Call Service Center",
+                    "name": "['GroupNumber__r']['CallServiceCenter__c']",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "displayLabel": "['GroupNumber__r']['DeliveryChannel__c']",
+                    "editing": false,
+                    "group": "Custom Properties",
+                    "label": "Delivery Channel",
+                    "name": "['GroupNumber__r']['DeliveryChannel__c']",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "displayLabel": "['TotalMembers__c']",
+                    "editing": false,
+                    "fieldType": "standard",
+                    "group": "Custom Properties",
+                    "label": "Total Members",
+                    "name": "['TotalMembers__c']",
+                    "type": "string"
+                }
+            ],
+            "filter": "$scope.data.status === 'active'",
+            "flyout": {
+                "layout": "QuoteCardFlyout"
+            },
+            "name": "active-quote-card",
+            "sObjectType": "Quote",
+            "templateUrl": "Admin-anthem-quote-card-horiz-slds"
+        }
+    ],
+    "title": "QuoteWithGroup GRS"
+}

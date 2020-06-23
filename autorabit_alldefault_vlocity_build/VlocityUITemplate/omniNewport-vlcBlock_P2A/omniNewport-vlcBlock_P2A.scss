@@ -1,0 +1,30 @@
+$light-gray: #dddbda;
+$background-blue: #f7fbfe;
+
+.form-outline{
+    border: solid 1px $light-gray !important;
+    border-radius: 3px !important;
+    padding-top: 0 !important;
+    margin-top: 24px !important;
+}
+
+.margin-top-none{
+    margin-top: 0 !important;
+    padding: 0 !important;
+}
+
+.no-toggle-padding{
+    padding: 0.75rem;
+}
+
+.label-blue-background{
+    background-color: $background-blue !important;
+}
+            
+.label-fix{
+    font-size: .9rem !important;
+    color: #00396b !important;
+    font-weight: 300 !important;
+    // padding: 0 0 3px 0;
+    padding: 12px;
+}

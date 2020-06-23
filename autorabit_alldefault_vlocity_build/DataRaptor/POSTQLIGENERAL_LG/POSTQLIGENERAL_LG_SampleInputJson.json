@@ -1,0 +1,466 @@
+{
+    "AccountId": "0012h00000ChiQKAAZ",
+    "AccountName": "Test_Visionstories_0320_ruat",
+    "AdminIntegration": false,
+    "ApprovalStatus_LG": "Not started",
+    "Auto Quote": false,
+    "Benefit_Period": "",
+    "ClaimsGraceDaysCheck": false,
+    "ClonedFromRenewalCheck": false,
+    "CommuterCount": 0,
+    "CompletionMarker": "Configured",
+    "ContextId": "0QL2h000000Dj9P",
+    "CreatedBy": "0052h000000OavsAAC",
+    "CreatedById": "0052h000000OavsAAC",
+    "CreatedByName": "Sanjeev Yadav",
+    "EmployeeAssistanceProgramCheck": true,
+    "EmployerPaid": false,
+    "EyeMedBenefitLevel1Check": false,
+    "EyeMedBenefitLevel2Check": false,
+    "EyeMedBenefitLevel3Check": true,
+    "EyeMedBenefitLevel4Check": true,
+    "EyeMedBenefitPlanCodeCheck": false,
+    "FSACount": 0,
+    "FinancingDependent": "Fully Insured",
+    "HasSPP": false,
+    "IDCardDesignCheck": true,
+    "IHMProductLineReadyforApproval": false,
+    "ISSpecialty": false,
+    "IsEyemedEditable": true,
+    "IsLocalSales": false,
+    "LastModifiedBy": "0052h000000OavsAAC",
+    "LastModifiedById": "0052h000000OavsAAC",
+    "LastModifiedByName": "Sanjeev Yadav",
+    "LineItemNumber": "01137946",
+    "Market": "GA",
+    "MedicalManagementPlatformMSPh": "",
+    "NationalLocalMerged": "",
+    "OpptyEffectiveDate": "2020-01-01",
+    "OpptyId": "0062h000006LH9LAAW",
+    "PharmacyBenefitIdentifierCheck": true,
+    "PharmacyCarvedOut": false,
+    "PlanCount": 0,
+    "Product": "01t1K000005zf7UQAQ",
+    "ProductFamily": "Blue View Vision",
+    "ProductLOB": "Vision",
+    "ProductMarket": "GA",
+    "ProductName": "Blue View Vision",
+    "ProductStage": "In Progress",
+    "ProductType": "Vision",
+    "Profilex": "System Administrator",
+    "QLICompId1": "",
+    "QLICompId2": "",
+    "QLICompId3": "",
+    "QLINOUFlagExtract": true,
+    "QLIid": "0QL2h000000Dj9PGAS",
+    "QuoteId": "0Q02h000000D9fKCAS",
+    "RTGeneral": {
+        "AIM": {
+            "AIMNewToClient": null,
+            "AccountMigratingtoAnotherPlatform": null,
+            "DoesAccountHaveMedicareSuppPlans": null,
+            "DoesAcctHaveRBBForMRICT": null,
+            "IfNoApprovedNumber": null,
+            "IfYesProvidePkgCCTiedtoMedicare": null,
+            "IsThereAnAIMROIGuarantee": null,
+            "MedicalManagementPlatformAIM": null,
+            "MemberPenaltyAmount": null,
+            "PrecertVendor": null,
+            "StandardNationalAIMNumOnIDCard": null
+        },
+        "Accident": {
+            "AccidentCovType": null
+        },
+        "AnthemEngageSilverBlock": {
+            "ElevateBH": false,
+            "RBB": false
+        },
+        "AnthemFLexHourMedicalPlanOptions": {
+            "BasicComprehensiveMedicalPlan": false,
+            "EnhancedComprehensiveMedicalPlan": false,
+            "MECPlusMedicalPlan": false
+        },
+        "AnthemFlexhourCommentsBlock": {
+            "AnthemFlexHourComments": null
+        },
+        "AnthemFlexhourSupplimentalPlanOptions": {
+            "AccidentPlan": false,
+            "CriticalCarePlan": false,
+            "HighDeductibleGapPaymentPlan": false,
+            "HospitalOnlyFixedCashBenefitsPlan": false,
+            "HospitalPlusFixedCashBenefitsPlan": false,
+            "LimitedDurationMedicalPlan": false
+        },
+        "BenefitsAdmin": {
+            "ActivationCode": null,
+            "IdentityTheftEffectiveDate": null,
+            "IntegratedHRAFSA": null,
+            "ServicedByBA": null,
+            "ServicedByBAFSA": null,
+            "TermDateRO": null,
+            "Vendors": null
+        },
+        "Block49": {
+            "EyeMedDetails": {
+                "Block54": {
+                    "VisionExamCopay": 10,
+                    "VisionLensCopay": 10
+                },
+                "ClaimsGraceDays": "31",
+                "EmployeeAssistanceProgram": false,
+                "EyeMedBenefitLevel1": "t45",
+                "EyeMedBenefitLevel2": "T78",
+                "EyeMedBenefitLevel3": "100",
+                "EyeMedBenefitLevel4": "100",
+                "EyeMedBenefitPlanCode": "e456",
+                "IDCardDesign": null,
+                "PharmacyBenefitIdentifier": "100",
+                "RateStructure": "AB - ONLY A,B - 1 Tier (Emp Only)",
+                "VisionAdultCoMingle": false,
+                "VisionChildCoMingle": false
+            }
+        },
+        "CI": {
+            "CIEmpCovAmount": null,
+            "CISkinCancer": null,
+            "CITobaccoRatingOption": null
+        },
+        "CastLightDetails": {
+            "RelationshipType1": null
+        },
+        "ClearOrDontClearVendor": "DontClear",
+        "ClonedFromRenewalValidationComplete": null,
+        "ClonedToRenewalFalse": false,
+        "CommClinicalBlock": null,
+        "CommentsBlock": {
+            "Comments": null
+        },
+        "CompletionMarkerFormula": "Configured",
+        "DPPDetails": null,
+        "DPPVendor": null,
+        "DateMessage": true,
+        "EngageEssentialEliteBlock": {
+            "ExpectedCloseDate": null
+        },
+        "FSACommuterBlock": {
+            "AddCommuterProduct": null,
+            "AddFSAProduct": null
+        },
+        "FinalVendorID": "",
+        "FinancingFormula": "Fully Insured",
+        "Formula44": 0,
+        "HRA_HSA_Product": "",
+        "HasSPPFormula": false,
+        "HospitalIndemnity": {
+            "HospIndPlanOptions": null
+        },
+        "OpportunityTypeFormula": "New Business Local",
+        "PLCompleteFormula": true,
+        "PLCompleteX": true,
+        "PharmacyDetail": {
+            "AnthemPrescriptionDrugPlan": false,
+            "DoesRXApplyToAllPackages": null,
+            "EssentialFormulary": false,
+            "ExclusiveSpecialtyPharmacyServices": false,
+            "IfNoPleaseProvideDetailsHere": null,
+            "MailOrder": null,
+            "RXChoiceTieredNetwork": false,
+            "Retail": null,
+            "SplitGenericTier": false,
+            "SplitSpecialtyTier": false
+        },
+        "ProdStage5-95ProbMessage": true,
+        "ProductFamilyValue": "Blue View Vision",
+        "ProductNameFormula": "Blue View Vision",
+        "ProductReadOnlyVendorBlock": {
+            "UpdateVendor": false,
+            "VendorNameReadOnly": null
+        },
+        "ProductTypeValue": "Vision",
+        "ProductVendorBlock-Block": null,
+        "ProductivitySolutionsBlock": {
+            "ProductivitySolutions": null
+        },
+        "ProfileReadOnly": "Edit",
+        "QLD-AccountId": "0012h00000ChiQKAAZ",
+        "QLD-Vendor": null,
+        "QuoteLineDetails": {
+            "ASH": false,
+            "AdminIntegration": false,
+            "BenefitPeriod_RenderBlock": {
+                "Benefit_Period_NonVision": "Calendar Year"
+            },
+            "BenefitYearplanDate_Render": {
+                "BenefitYearReadOnly": {
+                    "Benefit_Year_Plan_Date": null
+                }
+            },
+            "Benefit_Period": "Calendar Year",
+            "Benefit_Period_Vision": "Calendar Year",
+            "Block50": null,
+            "Block52": {
+                "Participation Type": "Non-Voluntary"
+            },
+            "Block53": {
+                "Claims_Route_Code": "C678"
+            },
+            "CEP Indicator": "No",
+            "CheckboxBlk": {
+                "AutoQuote": false,
+                "ClinicalIntegration": false
+            },
+            "CompSourceAction": false,
+            "Competitor Details 1": {
+                "CompetitorReadOnly": "Competitor None or Unknown",
+                "CompetitorStatusReadOnly": null,
+                "Involvement_Type": null,
+                "Line_of_Business": null,
+                "Multi_Employer": false,
+                "Name_of_the_Employers": null
+            },
+            "Competitor Details 2": {
+                "Competitor2ReadOnly": null,
+                "CompetitorStatus2ReadOnly": null,
+                "Involvement_Type2": null,
+                "Line_of_Business2": null,
+                "Multi_Employer2": false,
+                "Name_of_the_Employers2": null
+            },
+            "Competitor Details 3": {
+                "Competitor3ReadOnly": null,
+                "CompetitorStatus3ReadOnly": null,
+                "Involvement_Type3": null,
+                "Line_of_Business3": null,
+                "Multi_Employer3": false,
+                "Name_of_the_Employers3": null
+            },
+            "CompetitorReadOnlyFormula": "Competitor None or Unknown",
+            "CompetitorReadOnlyFormula_2": null,
+            "CompetitorReadOnlyFormula_3": null,
+            "CompetitorRequired": "Yes",
+            "Dental_JAA_MCS": "N",
+            "Discount": null,
+            "DiscountVariance": null,
+            "Discountsharing": null,
+            "Do Not Auto Pick PCP": false,
+            "EPHCEnhPersHealthCare": null,
+            "Employer Contribution for the Employee": null,
+            "Employer Contribution for the dependent": null,
+            "EstimatedAnnualizedPremium": null,
+            "EyemedCollaboration_Render": {
+                "EyemedCollaboration": "No"
+            },
+            "FSABlock": {
+                "FSA_Benefit_Period": null,
+                "FSA_Plan_Option": null
+            },
+            "Final Rate": null,
+            "Financing": "Fully Insured",
+            "FormCaptPlan": "No",
+            "Funding": "FI",
+            "HSABankingPartner_Render": {
+                "HSA_Banking_Partner": null
+            },
+            "HSA_adminFee_Render": {
+                "Who_Pays_Bank_Fee": null
+            },
+            "Med_Call": null,
+            "MedicalHRAPaymentType_Render": {
+                "HRA Payment Type": null
+            },
+            "Members": 56,
+            "Messaging19": true,
+            "Messaging9": true,
+            "Network": "Blue View Vision Access",
+            "Network_RenderBlock": {
+                "Network_NonVision": "Blue View Vision Access"
+            },
+            "Network_Vision": "Blue View Vision Access",
+            "No Sales Credit": null,
+            "OppType": "New Business Local",
+            "Original Rate Adjustment": null,
+            "Ortho_TravelBenefit_Render": {
+                "Orthopedic_Travel_Benefits": null
+            },
+            "Out_Of_State_RenderBlock": {
+                "Out_Of_State": null
+            },
+            "Pharmacy Section": {
+                "Formulary": null,
+                "Formulary Disruption Completed": null,
+                "Home Delivery": null,
+                "Pricing Guarantee": null,
+                "Rebate": null,
+                "Retail Maintenance Network": null,
+                "Retail Network": null,
+                "Specialty Network": null
+            },
+            "Prefix": null,
+            "ProbBlock": {
+                "Probability": "10%"
+            },
+            "ProbabilityFixedFormula": "10%",
+            "ProbabilityNOT0": true,
+            "ProbabilityNOT100": true,
+            "ProductTermYearsLeft": null,
+            "ProductTypeFormula": "Vision",
+            "QLD_Reason_Chk": true,
+            "QLD_Stage_Chk": "No",
+            "QLI_For_EBF_Groups_Mandates_Render": {
+                "QLI_For_EBF_Groups_Mandates": null
+            },
+            "QLI_Resource_Advisor": true,
+            "QLI_Travel_Assist": true,
+            "RTBSpecialty": null,
+            "RX/Accumulation_Render": {
+                "RX/Accumulation": null
+            },
+            "RXHRAPayment_Render": {
+                "Rx_HRA_Payment_Type": null
+            },
+            "RX_Vendors_Render": {
+                "RX_Vendors": null
+            },
+            "Rate Differential": null,
+            "Rate Differential Type": null,
+            "Rate Guaranteed Through": "2020",
+            "RateRelief": null,
+            "Reason": null,
+            "Received Date": null,
+            "RecordType": "LocalType",
+            "RenewedWithChanges": null,
+            "SenttoUWDate": null,
+            "SetValuesToDropDown": {
+                "ConfigurableProgramSetValueTriggers": "In Progress",
+                "ConfigureProgramSetValues": null
+            },
+            "Subscribers": 56,
+            "TermDate": null,
+            "TermSelection": "Ok",
+            "UWCompletedDate": null,
+            "UWDateComparison": "No",
+            "UpdateCompetitor": false,
+            "Upsell": null,
+            "statemendated_Render": {
+                "State_Mandated_Benefits": null
+            }
+        },
+        "ReasonRequiredValidation": "Yes",
+        "RecordTypeFormula": "LocalType",
+        "SetPLComplete": {
+            "PLComplete": true,
+            "RequiredBlockHRA": null,
+            "RequiredBlockHSA": null,
+            "RequiredBlockLTD": null,
+            "RequiredBlockLife": null,
+            "RequiredBlockMedical": null,
+            "RequiredBlockSTD": null,
+            "RequiredBlockVision": true
+        },
+        "TermDateNullFormula": false,
+        "TermDateNullMessage": true,
+        "VendorReadOnlyFormula": null,
+        "VirtualSecondOpinion": {
+            "VendorName": null
+        },
+        "VisionParticipation": {
+            "NonVoluntaryParticipation": false,
+            "VoluntaryParticipation": false
+        }
+    },
+    "RXVendors": "",
+    "RateRelief": "",
+    "RateStructureCheck": false,
+    "SelectServiceProvider": {
+        "Account_Id": null,
+        "AddComp2": false,
+        "AddComp3": false,
+        "CompIdCalc2": null,
+        "CompIdCalc3": null,
+        "CompStatusCalc2": null,
+        "CompStatusCalc3": null,
+        "CompetitorId": null,
+        "CompetitorStatus": null,
+        "CompetitorStatus1_LG": null,
+        "CompetitorStatusFormula": null,
+        "InvTypeCalc1": null,
+        "InvTypeCalc2": null,
+        "InvTypeCalc3": null,
+        "InvolvementType": null,
+        "InvolvementType2": null,
+        "InvolvementType3": null,
+        "LOBCalc1": null,
+        "LOBCalc2": null,
+        "LOBCalc3": null,
+        "LineOfBusiness": null,
+        "LineOfBusiness2": null,
+        "LineOfBusiness3": null,
+        "Membership1": null,
+        "Membership2": null,
+        "Membership3": null,
+        "Multi-Employer": false,
+        "Multi-Employer2": false,
+        "Multi-Employer3": null,
+        "MultiEmpCalc1": null,
+        "MultiEmpCalc2": null,
+        "MultiEmpCalc3": null,
+        "NA-WarnMembership": null,
+        "NOUFlag": false,
+        "NameOfEmployers": null,
+        "NameOfEmployers2": null,
+        "NameOfEmployers3": null,
+        "NoEmpCalc1": null,
+        "NoEmpCalc2": null,
+        "NoEmpCalc3": null,
+        "ReqComFlds": null,
+        "SP-CompStatus2": null,
+        "SP-CompStatus2_LG": null,
+        "SP-CompStatus3": null,
+        "SP-CompStatus3_LG": null,
+        "SPTD-Msg": null,
+        "SPTermDate": null,
+        "SPTermDateDay": null,
+        "SPTermDateIn": null,
+        "SSP-Msg": null,
+        "SSPMsg-Flg": null,
+        "TACompetitor2-Block": null,
+        "TACompetitor2_NA-Block": null,
+        "TACompetitor3-Block": null,
+        "TACompetitor3_NA-Block": null,
+        "TypeAheadAccount-Block": null,
+        "TypeAheadAccount_NA-Block": null,
+        "conditionSet": null
+    },
+    "Situs_State_Abbrev": "GA",
+    "SpecialtyDrugsCarvedOutToRX": "",
+    "UserArea": "Local",
+    "UserGroup": "Local",
+    "UserProfileId": "00e41000001fYPTAA2",
+    "UserRoleId": "00E41000000mZUZEA2",
+    "VendorIdExtract": "",
+    "VisionAdultCoMingleCheck": true,
+    "VisionChildCoMingleCheck": true,
+    "VisionChildCoMingleMedical": false,
+    "VisionExamCopayCheck": true,
+    "VisionLensCopayCheck": true,
+    "VoluntaryParticipationLG": false,
+    "id": "a3C2h000000CgcfEAC",
+    "layout": "lightning",
+    "timeStamp": "2020-04-09T09:11:09.954Z",
+    "userCurrencyCode": "USD",
+    "userId": "00541000006Ejf8AAC",
+    "userName": "anthem-lg-devops@autorabit.com.iceprod.ruat",
+    "userProfile": "System Administrator",
+    "userTimeZone": -240,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "ExtractQLI": 10031,
+        "GlobalSetValues": 34,
+        "OmniScriptSessionToken": "28da24bc-a122-48fc-b199-59f84604d83c",
+        "SetDependentFields": 113,
+        "SetValues18": 79,
+        "SetValues19": 113,
+        "UserGroup_Retieval": 2267
+    }
+}

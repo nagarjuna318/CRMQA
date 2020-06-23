@@ -1,0 +1,257 @@
+{
+    "Account": {
+        "Active_Renewal_Date": "2017-07-01",
+        "Id": "0014B00000KMhYhQAL",
+        "MultipleOppty": false,
+        "Name": "Stark Industries",
+        "RecordTypeId": "0124B0000000QWNQA2"
+    },
+    "AccountId": "0014B00000KMhYh",
+    "CR-UREffectiveDate": "2019-01-01",
+    "ContextId": "0014B00000KMhYh",
+    "CurrentOppty": {
+        "EffectiveDate": "2018-01-01",
+        "EffectiveMonth": 1,
+        "EffectiveYear": "2018",
+        "Id": "0064B000009s7THQAY",
+        "IsRenewalStage": true,
+        "Name": "Clone - 2018 Opportunity Renewal-Stark Industries",
+        "Pricebook2Id": "01s41000007wBCZAA2",
+        "Stage": "Renewal Finalized"
+    },
+    "CurrentOpptyId": "0064B000009s7THQAY",
+    "Customer": "0014B00000KMhYh",
+    "IG-CurrentRenewalProduct": {
+        "B91": {
+            "IG-LabelFormula": "Which of the following existing medical product is losing members ? ",
+            "IG-QtyFormula": "How many members are being lost from this product ? "
+        },
+        "B95": {
+            "IG-NumMem": 20,
+            "IG-NumMemMsg": true,
+            "IG-NumSubs": 10,
+            "IG-NumSubsMsg": true,
+            "IG-ProdSelected": true,
+            "QLIProdList": [
+                {
+                    "Financing__c": "Cost Plus",
+                    "Funding__c": "ASO",
+                    "Id": "0QL4B000000BDpLWAW",
+                    "LOB": "Medical",
+                    "Members__c": 1000,
+                    "Name": "Medical - POS",
+                    "PricebookEntryId": "01u4B000008SVcOQAW",
+                    "Product2Id": "01t4B000001XE1rQAG",
+                    "ProductStage": "Renewed",
+                    "ProductType__c": "Medical",
+                    "RecordType__c": "Medical",
+                    "Subscribers__c": 500,
+                    "cumMembers": 980,
+                    "cumSubscribers": 490,
+                    "memChange": 20,
+                    "subsChange": 10,
+                    "vlcSelected": true
+                }
+            ],
+            "memTotal": 20,
+            "subsTotal": 10
+        }
+    },
+    "IG-GroupNumber": {
+        "IG-Controler": "PartialNew",
+        "IG-GrPUpNumLKUP": "0Q04B0000006OvLSAU",
+        "QuoteDetails": [
+            {
+                "DivisionName": "West Manufacturing Division",
+                "GroupId": "a5P4B0000002JkYUAU",
+                "GrpNumber": "003320023",
+                "Id": "0Q04B0000006OvLSAU",
+                "vlcSelected": true
+            }
+        ]
+    },
+    "IG-NewProduct": {
+        "B100": {
+            "IG-MemAllDistribution": "Allow",
+            "IG-MemAllMsg": true,
+            "IG-RcvAllProdSelected": true,
+            "IG-SubsAllDistribution": "Allow",
+            "IG-SubsAllMsg": true,
+            "QLIRcvAllProdList": [
+                {
+                    "Family": "Medical",
+                    "Name": "Medical - EPO",
+                    "Product2Id": "01t4B000001XE1nQAG",
+                    "QLIRecordType": "Medical",
+                    "Type": "Medical",
+                    "cumMembers": 20,
+                    "cumSubscribers": 10,
+                    "memChange": 20,
+                    "subsChange": 10,
+                    "vlcSelected": true
+                }
+            ],
+            "memRcvAllTotal": 20,
+            "subsRcvAllTotal": 10
+        },
+        "B49": {
+            "IG-3erLabelFormula": "What new product is being added ?"
+        }
+    },
+    "IGAP2-Comments": {
+        "B99": {
+            "IGAP2-OpptyComments": "HOLA"
+        }
+    },
+    "IGAP2-Details": {
+        "B97": {
+            "IGAP2-AccountName": "Stark Industries",
+            "IGAP2-ConfEffDate": null,
+            "IGAP2-DaySelection": "Ok",
+            "IGAP2-EffectiveDate": "2019-01-01T06:00:00.000Z",
+            "IGAP2-EffectiveDateCalc": "2019-01-01",
+            "IGAP2-OpptyName": "2019 Opportunity In Group Add Product-Stark Industries",
+            "IGAP2-Probability": 100,
+            "IGAP2-ProbabilityFlg": "Allow",
+            "IGAP2-RFPStatus": null,
+            "IGAP2-RFPStatusFlg": "Allow",
+            "IGAP2-ReceivedDate": null,
+            "IGAP2-ReceivedDateCalc": "--",
+            "IGAP2-RecordType": "In Group Add Product",
+            "IGAP2-StageName": "Closed Won",
+            "IGAP2-StageReason": "Account/Sales Team",
+            "IGAP2-StageReasonFlg": "Allow"
+        },
+        "B98": {
+            "IGAP2-OwnerName": "Juan Carlos"
+        },
+        "IGAP2-DayMsg": true,
+        "IGAP2-NOUFlag": true,
+        "IGAP2-ProbConv": "100%",
+        "IGAP2-ProbabilityMsg": true,
+        "IGAP2-StageConv": "IGAP Sold",
+        "IGAP2-StageReasonMsg": true,
+        "IGAP2-StatusFlg": true,
+        "IGAP2-Type": "OPPTY_TYPE",
+        "IGAP2-Value": "In Group Add Product"
+    },
+    "IGAP2-ExecComments": "",
+    "IGAP2-SpecialtyComments": "",
+    "IGC-Comments": {
+        "B44": {
+            "IGC-OpptyComments": "HOLA"
+        }
+    },
+    "IGC-Details": {
+        "B42": {
+            "IGC-AccountName": "Stark Industries",
+            "IGC-AddLose": "Lose Lives",
+            "IGC-ConfEffDate": null,
+            "IGC-DaySelection": "Ok",
+            "IGC-EffectiveDate": "2019-01-01T06:00:00.000Z",
+            "IGC-EffectiveDateCalc": "2019-01-01",
+            "IGC-OpptyName": "2018 Opportunity In Group Change-Stark Industries",
+            "IGC-Probability": 100,
+            "IGC-ProbabilityFlg": "Allow",
+            "IGC-RFPStatus": null,
+            "IGC-RFPStatusFlg": "Allow",
+            "IGC-ReceivedDate": null,
+            "IGC-ReceivedDateCalc": "--",
+            "IGC-RecordType": "In Group Change",
+            "IGC-StageName": "Change Confirmed",
+            "IGC-StageReason": "Account/Sales Team",
+            "IGC-StageReasonFlg": "Allow"
+        },
+        "B43": {
+            "IGC-OwnerName": "Juan Carlos"
+        },
+        "IGC-DayMsg": true,
+        "IGC-ProbConv": "0%",
+        "IGC-ProbabilityMsg": true,
+        "IGC-StageConv": "Lost",
+        "IGC-StageReasonMsg": true,
+        "IGC-StatusFlg": true,
+        "IGC-Type": "OPPTY_TYPE",
+        "IGC-Value": "In Group Change"
+    },
+    "IGC-Next": {
+        "IGC-NextOppty": "IGAP"
+    },
+    "MultiOppty": "0014B00000P3maj",
+    "OwnerName": "Juan Carlos",
+    "Prospect": "0014B00000KMWAp",
+    "RC-Interview": {
+        "RC-ActualOffCycle": null,
+        "RC-CYRB1": {
+            "RC-CYR": null
+        },
+        "RC-DayMsg": null,
+        "RC-EffectiveDate": null,
+        "RC-FullPartial/NewExistingMovement": {
+            "RC-NEMP": "New",
+            "RC-PFM": "Partial",
+            "RC-S6Flg": "PartialNew"
+        },
+        "RC-ImpacttoMembership": null,
+        "RC-OffCycleL1": null,
+        "RC-OnCycleL2": {
+            "RC-YYFN": "FullNew",
+            "RCMinM": "Yes",
+            "RCPtoG": "Yes"
+        },
+        "RC-OpptyName": "2018 Opportunity Renewal-Stark Industries",
+        "RC-PotentialGrowLoseMembers": null,
+        "RC-UREffectiveDate": "2019-01-01T06:00:00.000Z",
+        "RC-UREffectiveDateCalc": "2019-01-01",
+        "RC-YNEffectiveDate": "Yes"
+    },
+    "RC-LeapYears": "2016,2020,2024,2028,2032,2036,2040,2044,2048,2052,2056,2060,2064,2068,2072,2076,2080,2084,2088,2092,2096,2104",
+    "RC-UREffectiveYear": 2018,
+    "RecordType": {
+        "Type": "Customer"
+    },
+    "SingleOppty": {
+        "EffectiveDate": "2018-01-01",
+        "Id": "0064B000009s7THQAY",
+        "IsRenewalStage": true,
+        "Name": "Clone - 2018 Opportunity Renewal-Stark Industries",
+        "Pricebook2Id": "01s41000007wBCZAA2",
+        "RecordType": "Renewal",
+        "Stage": "Renewal Finalized"
+    },
+    "id": "a3B4B000000ILSFUA4",
+    "timeStamp": "2017-09-22T03:21:26.612Z",
+    "userId": "0054B000000op45QAA",
+    "userName": "jcarrero@anthem.com2.config",
+    "userProfile": "System Administrator",
+    "verticalmode": true,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "DR-AllMedicalProducyts": 446,
+        "DR-CurrentOppty": 376,
+        "DR-GroupDetails": 332,
+        "DR-QuoteProducts": 642,
+        "DR-SingleOppty": 570,
+        "DR-UserName": 267,
+        "Get Account Data DR": 666,
+        "IG-CurrentRenewalProduct": 6175,
+        "IG-GroupNumber": 3008,
+        "IG-NewProduct": 7784,
+        "IGAP2-Comments": 3126,
+        "IGAP2-Details": 41907,
+        "IGAP2-SettingValues": 5,
+        "IGC-Comments": 4736,
+        "IGC-Details": 7388,
+        "IGC-Next": 1675,
+        "IGC-SettingValues": 3,
+        "OmniScriptSessionToken": "b2b965f0-2485-4845-bc40-7ff67675277c",
+        "RC-Interview": 15342,
+        "RC-SetAccountId": 0,
+        "RC-SetConsts": 8,
+        "RC-SetURD": 5,
+        "RC-SetURD2": 7,
+        "RC-SetYear": 3,
+        "SingleToCurrent": 2
+    }
+}

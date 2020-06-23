@@ -1,0 +1,30 @@
+{
+    "Cards": [
+        "LG-ImplementationCases"
+    ],
+    "dataSource": {
+        "contextVariables": [
+            {
+                "name": "params.id",
+                "val": "0015600000Gi61aAAB"
+            }
+        ],
+        "orderBy": {
+            "isReverse": "true",
+            "name": "Implementation_Effective_Date__c"
+        },
+        "type": "Query",
+        "value": {
+            "jsonMap": "{\"params.id\":\"{{params.id}}\"}"
+        }
+    },
+    "previewType": "runTime",
+    "templates": {
+        "0": {
+            "templateUrl": "card-canvas-3x-slds"
+        }
+    },
+    "workspace": [
+        "LG-ImplementationCases/Anthem Commercial 2.0/1/1563922028267"
+    ]
+}

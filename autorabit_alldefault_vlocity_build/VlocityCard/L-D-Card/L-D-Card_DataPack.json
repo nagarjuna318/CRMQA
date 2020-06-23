@@ -1,0 +1,13 @@
+{
+    "%vlocity_namespace%__Author__c": "Anthem Commercial 2.0",
+    "%vlocity_namespace%__Datasource__c": "",
+    "%vlocity_namespace%__Definition__c": "L-D-Card.json",
+    "%vlocity_namespace%__GlobalKey__c": "L&D Card/Anthem Commercial 2.0/1/1540562644379",
+    "%vlocity_namespace%__ParentID__c": "DentalCard/Anthem Commercial 2.0/1/1534473427163",
+    "%vlocity_namespace%__Type__c": "",
+    "%vlocity_namespace%__Version__c": 1,
+    "Name": "L&D Card",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__VlocityCard__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__VlocityCard__c/L&D Card"
+}

@@ -1,0 +1,110 @@
+{
+    "AccountId": "001W000000azxPmIAI",
+    "AccountName": "Hunter Douglas Inc.",
+    "COBRADetails": {
+        "CD-Block": {
+            "ClientAllowsSamesexSpousesCoveredWSG": null,
+            "Doesthisinformationapplytoallgroups": "Yes",
+            "IfNopleasespecify_WGS": null,
+            "Ifyesindicateprobationaryperiod_WGS": null,
+            "IsthereaWaitingPeriodforNewHires": null,
+            "NotesCOBRA": null,
+            "PremPaidforEachSubDepperMonth": null,
+            "PremPaidforEachSubperMonth": null
+        },
+        "COBRAAppliestoDomesticPartner?NASCO": null,
+        "ClientAllowsSamesexSpousesCovered": null
+    },
+    "Cal-Cobra": {
+        "Cal-CobraEligibleParticipants?": null,
+        "WhowillhandleCalCOBRAbilling?": null
+    },
+    "CaseName": "2018: Renewal-Hunter Douglas Inc.",
+    "ChildMaxAgeLimit": {
+        "AgeandRuleDetails": null,
+        "ApplytoAllPackages/Suffixe": "Yes",
+        "ChildMaxAgeLimit_Child": "End of Birthday Month",
+        "DefineAgeandRuleperPackage/Suffix": "26"
+    },
+    "ContextId": "801W0000000pjCoIAI",
+    "DisabledVerification": {
+        "ResponsibleforDisabledVerification?": "Anthem - Letters go to the Account"
+    },
+    "EligibilityDetails": {
+        "ED-Block": {
+            "Doesthisinformationapplytoallgroup": null,
+            "IfNopleasespecify": null,
+            "Ifyesindicateprobationaryperiod": null,
+            "IsthereaWaitingPeriodforNewHires?": null,
+            "Notes": null
+        },
+        "EDW-WGS-Block": {
+            "AdditionalDomPartnerDetail(WestOnly)": "STP;STPC;STD",
+            "COBRAAppliestoDomesticPartner?": null,
+            "ExclusionsApply": null
+        },
+        "Enrollment&BillingImpacted": "Yes",
+        "Enrollment&BillingImpacted?": "Yes"
+    },
+    "EmployerEligibilityLocal": {
+        "EmployerEligibility": {
+            "EmployeeReinstatementDateEligibility": "First Day After Probation",
+            "EmployeeReinstatementProbationaryPeriod": "40 Days",
+            "MembershipComments": "Test",
+            "NewHireCoverageEffDateEligibility": "First Day After Probation",
+            "NewHireProbationaryPeriod": "30 Days"
+        }
+    },
+    "Finish": {
+        "F-Message": " creating an Eligibility record for: Hunter Douglas Inc."
+    },
+    "GroupClaimSystem": "WGS 2.0",
+    "GroupId": "a5IW00000000m7PMAQ",
+    "Id": "801W0000000pjCoIAI",
+    "ImpCase": {
+        "FRM-AccountName1": "Hunter Douglas Inc.",
+        "FRM-ClaimSystem": "WGS 2.0",
+        "FRM-EligibilityName": null,
+        "FRM-Id1": "00000611",
+        "FRM-Name1": "2018: Renewal-Hunter Douglas Inc."
+    },
+    "ImplementationNumber": "00000611",
+    "ImplementationType": "Renewal",
+    "RecordId": "",
+    "RecordType": "EligibilityWGS",
+    "StudentMaxAgeLimitEligibility": {
+        "AgeandRuleDetailsStudents": null,
+        "ApplytoAllPackages/Suffixes": "Yes",
+        "DefineAgeandRuleperPackage/Suffixforstudent": "26",
+        "IfDepreachesmaxageautoterminate?": "No",
+        "OveragedeptermItrsbemailedtosub?": "Yes",
+        "ResponsesReceivedby?": "Anthem",
+        "ResponsibleforStudentCertification?": "Anthem - Letters go to the Account",
+        "StudentMaxAgeLimit": "Birthday"
+    },
+    "id": "a3CW00000013NYgMAM",
+    "layout": "lightning",
+    "timeStamp": "2018-03-13T14:54:48.941Z",
+    "userCurrencyCode": "USD",
+    "userId": "005W0000002XPj6IAG",
+    "userName": "jcarrero@vlocity.com.prod.nal1b.dev",
+    "userProfile": "System Administrator",
+    "userTimeZone": -240,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "COBRADetails": 4446,
+        "Cal-Cobra": 2081,
+        "ChildMaxAgeLimit": 4841,
+        "DRE-EligibilityDetailsToUpdate": 815,
+        "DRE-ICE": 1249,
+        "DisabledVerification": 3061,
+        "EligibilityDetails": 5951,
+        "ImpCase": 15807,
+        "OmniScriptSessionToken": "5e7a77ff-485b-47b8-9125-241631b63d4c",
+        "SV-ChildMaxAgeDefineAge": 67,
+        "SV-ContextId": 91,
+        "SV-Eligibility": 36,
+        "StudentMaxAgeLimitEligibility": 10112
+    }
+}

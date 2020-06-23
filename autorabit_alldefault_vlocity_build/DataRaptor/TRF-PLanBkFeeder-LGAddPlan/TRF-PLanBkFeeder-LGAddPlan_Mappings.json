@@ -1,0 +1,93 @@
+[
+    {
+        "%vlocity_namespace%__DomainObjectAPIName__c": "json",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 1,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "QLD:QLD-Block:BCK-PlanType:ContractCodes",
+        "%vlocity_namespace%__InterfaceFieldAPIName__c": "undefined:selectedPlans:Contract_Code__c",
+        "%vlocity_namespace%__IsDisabled__c": false,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__MapId__c": "TRF-PLanBkFeeder-LGAddPlanCustoma268A000000FRdxQAGItem0",
+        "%vlocity_namespace%__UpsertKey__c": false,
+        "Name": "TRF-PLanBkFeeder-LGAddPlan",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    },
+    {
+        "%vlocity_namespace%__DomainObjectAPIName__c": "json",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 1,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "QLD:QLD-Block:BCK-PlanType:PTHPCC_Code",
+        "%vlocity_namespace%__InterfaceFieldAPIName__c": "undefined:selectedPlans:HPCC_Code__c",
+        "%vlocity_namespace%__IsDisabled__c": false,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__MapId__c": "TRF-PLanBkFeeder-LGAddPlanCustoma268A000000FRdxQAGItem1",
+        "%vlocity_namespace%__UpsertKey__c": false,
+        "Name": "TRF-PLanBkFeeder-LGAddPlan",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    },
+    {
+        "%vlocity_namespace%__DomainObjectAPIName__c": "json",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 1,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "QLD:QLD-Block:BCK-PlanType:PTNetwork",
+        "%vlocity_namespace%__InterfaceFieldAPIName__c": "undefined:selectedPlans:Network__c",
+        "%vlocity_namespace%__IsDisabled__c": false,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__MapId__c": "TRF-PLanBkFeeder-LGAddPlanCustoma268A000000FRdxQAGItem3",
+        "%vlocity_namespace%__UpsertKey__c": false,
+        "Name": "TRF-PLanBkFeeder-LGAddPlan",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    },
+    {
+        "%vlocity_namespace%__DomainObjectAPIName__c": "json",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 1,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "QLD:QLD-Block:BCK-PlanType:PTParentProdId",
+        "%vlocity_namespace%__InterfaceFieldAPIName__c": "undefined:selectedPlans:ParentProduct__c",
+        "%vlocity_namespace%__IsDisabled__c": false,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__MapId__c": "TRF-PLanBkFeeder-LGAddPlanCustoma268A000000FRdxQAGItem4",
+        "%vlocity_namespace%__UpsertKey__c": false,
+        "Name": "TRF-PLanBkFeeder-LGAddPlan",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    },
+    {
+        "%vlocity_namespace%__DomainObjectAPIName__c": "json",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 1,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "QLD:QLD-Block:BCK-PlanType:PTPlanName",
+        "%vlocity_namespace%__InterfaceFieldAPIName__c": "undefined:selectedPlans:Name",
+        "%vlocity_namespace%__IsDisabled__c": false,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__MapId__c": "TRF-PLanBkFeeder-LGAddPlanCustoma268A000000FRdxQAGItem2",
+        "%vlocity_namespace%__UpsertKey__c": false,
+        "Name": "TRF-PLanBkFeeder-LGAddPlan",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    },
+    {
+        "%vlocity_namespace%__DomainObjectAPIName__c": "json",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 1,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "QLD:QLD-Block:BCK-PlanType:PTProductId",
+        "%vlocity_namespace%__InterfaceFieldAPIName__c": "undefined:selectedPlans:productId",
+        "%vlocity_namespace%__IsDisabled__c": false,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__MapId__c": "TRF-PLanBkFeeder-LGAddPlanCustoma268A000000FRdxQAGItem5",
+        "%vlocity_namespace%__UpsertKey__c": false,
+        "Name": "TRF-PLanBkFeeder-LGAddPlan",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    },
+    {
+        "%vlocity_namespace%__DomainObjectAPIName__c": "json",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 1,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "QLD:QLD-Block:BCK-PlanType:PTRecordType",
+        "%vlocity_namespace%__InterfaceFieldAPIName__c": "undefined:selectedPlans:QLIRecordType__c",
+        "%vlocity_namespace%__IsDisabled__c": false,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__MapId__c": "TRF-PLanBkFeeder-LGAddPlanCustoma268A000000FRdxQAGItem6",
+        "%vlocity_namespace%__UpsertKey__c": false,
+        "Name": "TRF-PLanBkFeeder-LGAddPlan",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    }
+]

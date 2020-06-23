@@ -1,0 +1,32 @@
+{
+    "CapturePendingCorrectionReasons": {
+        "CorrectionDepartment": null,
+        "PendingCorrection": {
+            "InitiatorComments": null,
+            "Reason": null
+        },
+        "PendingCorrectionType": null,
+        "RateType": null,
+        "Stage": null
+    },
+    "ContextId": null,
+    "Submit": {
+        "SubmitPendcorrection": null
+    },
+    "timeStamp": null,
+    "userId": null,
+    "userName": null,
+    "userProfile": null,
+    "userTimeZone": null,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "CapturePendingCorrectionReasons": null,
+        "DataRaptorExtractAction2": null,
+        "DataRaptorExtractAction3": null,
+        "DataRaptorPostAction1": null,
+        "DataRaptorPostAction2": null,
+        "SV-ContextId": null,
+        "Submit": null
+    }
+}

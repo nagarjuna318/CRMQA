@@ -1,0 +1,56 @@
+[
+    {
+        "%vlocity_namespace%__DomainObjectAPIName__c": "IntakeReturn__c",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 1,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "Id",
+        "%vlocity_namespace%__InterfaceFieldAPIName__c": "IntakeReturnId",
+        "%vlocity_namespace%__IsDisabled__c": false,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__MapId__c": "IMP_IntakeRetStageUpdate_LGCustoma2654000000DfkbAACItem1",
+        "%vlocity_namespace%__UpsertKey__c": true,
+        "Name": "IMP_IntakeRetStageUpdate_LG",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    },
+    {
+        "%vlocity_namespace%__DomainObjectAPIName__c": "IntakeReturn__c",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 1,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "OrderId__c",
+        "%vlocity_namespace%__InterfaceFieldAPIName__c": "ContextId",
+        "%vlocity_namespace%__IsDisabled__c": false,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__MapId__c": "IMP_IntakeRetStageUpdate_LGCustoma2654000000DfkbAACItem0",
+        "%vlocity_namespace%__UpsertKey__c": false,
+        "Name": "IMP_IntakeRetStageUpdate_LG",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    },
+    {
+        "%vlocity_namespace%__DomainObjectAPIName__c": "IntakeReturn__c",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 1,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "ReSubmission_Date__c",
+        "%vlocity_namespace%__InterfaceFieldAPIName__c": "Review:SetResubmitDate",
+        "%vlocity_namespace%__IsDisabled__c": false,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__MapId__c": "IMP_IntakeRetStageUpdate_LGCustoma2654000000DfkbAACItem3",
+        "%vlocity_namespace%__UpsertKey__c": false,
+        "Name": "IMP_IntakeRetStageUpdate_LG",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    },
+    {
+        "%vlocity_namespace%__DefaultValue__c": "Ready for Imps",
+        "%vlocity_namespace%__DomainObjectAPIName__c": "IntakeReturn__c",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 1,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "Stage__c",
+        "%vlocity_namespace%__DomainObjectFieldType__c": "String",
+        "%vlocity_namespace%__InterfaceFieldAPIName__c": "OrderStatus",
+        "%vlocity_namespace%__IsDisabled__c": false,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__MapId__c": "IMP_IntakeRetStageUpdate_LGCustoma2654000000DfkbAACItem2",
+        "%vlocity_namespace%__UpsertKey__c": false,
+        "Name": "IMP_IntakeRetStageUpdate_LG",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    }
+]

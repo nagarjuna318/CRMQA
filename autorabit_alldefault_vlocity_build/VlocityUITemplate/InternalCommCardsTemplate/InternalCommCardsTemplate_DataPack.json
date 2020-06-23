@@ -1,0 +1,18 @@
+{
+    "%vlocity_namespace%__Author__c": "Anthem",
+    "%vlocity_namespace%__CustomJavascript__c": "InternalCommCardsTemplate.js",
+    "%vlocity_namespace%__Definition__c": "",
+    "%vlocity_namespace%__Description__c": "",
+    "%vlocity_namespace%__DisplayOn__c": "",
+    "%vlocity_namespace%__ExternalID__c": "InternalCommCardsTemplate/1.0/Anthem/1548166385429",
+    "%vlocity_namespace%__HTML__c": "InternalCommCardsTemplate.html",
+    "%vlocity_namespace%__ParentID__c": "",
+    "%vlocity_namespace%__SampleJson__c": "",
+    "%vlocity_namespace%__Sass__c": "InternalCommCardsTemplate.scss",
+    "%vlocity_namespace%__Type__c": "InternalCommCardsTemplate",
+    "%vlocity_namespace%__Version__c": 1,
+    "Name": "InternalCommCardsTemplate",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__VlocityUITemplate__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__VlocityUITemplate__c/InternalCommCardsTemplate"
+}

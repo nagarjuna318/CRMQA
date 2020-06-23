@@ -1,0 +1,148 @@
+{
+    "AccountId": "001S000000yCvSGIA0",
+    "AccountName": "Test ABC",
+    "AddtlDomPartnerDR": "STAT;STAC",
+    "COBRAAdminDR": "Yes",
+    "CalCOBRAEligibileParticipantsDR": "No",
+    "CaseName": "2020: New Business-Test ABC",
+    "ClientAllowsDomesticPartnersCoveredDR": "No",
+    "ClientAllowsSamsexDR": "Yes",
+    "ContextId": "801S0000000HyDNIA0",
+    "DoesThisInformationApplyToAllGroupDR": "Yes",
+    "DomesticPartnerApplyToAllGroupDR": "Yes",
+    "DomesticPartnerIndicatorDR": "N (No Domestic Partner)",
+    "EligibilityInformation": {
+        "ImplemenationCaseDetails": {
+            "ClaimSystem": "WGS 2.0"
+        }
+    },
+    "EligibilityName": "ELIG-00286",
+    "EligibilityRecordId": "a7HS0000000GT1vMAG",
+    "EligibilityRecordType": "EligibilityWGS",
+    "EmployeeClass": "",
+    "EmployeeExcludedCodeDR": "16 (Central)",
+    "EmployeeReinstatementDateEligibilityDR": "First Day After Probation",
+    "EmployeeReinstatementProbationaryPeriodDR": "40 Days",
+    "FContactName": "003S0000017DmCnIAK",
+    "FundingInformation": {
+        "COBRAWest": {
+            "COBRABillGo": "Group",
+            "COBRABillToGo": "Group",
+            "COBRAPremium": "Group",
+            "COBRAPremiumPaid": "Group",
+            "COBRATPA": "Yes",
+            "COBRATPAUsingNonBC": "Yes"
+        },
+        "FundingDetails": {
+            "DifferentContactsAtSuffixLevel": "No",
+            "IfYesPlzExplain": "dsadasds",
+            "IfYesPlzExpln": null,
+            "IncludeHCIDNumberOnTheInvoice": null,
+            "MoreThanOneBillEntity": "No",
+            "PremiumRecdFromMoreThanOneSource": null,
+            "SelfFundedWithReinsurance": "dasdsa",
+            "SelfFundedwithReinsurance": null
+        },
+        "FundingImplementationCaseDetails": {
+            "FRM-AccountName2": "Test ABC",
+            "FRM-ClaimSystem1": "WGS 2.0",
+            "FRM-FundingName": "FUND-000222"
+        },
+        "TPAContactInformation": {
+            "FormulaBlock": {
+                "FR-TPACity": "Cleveland",
+                "FR-TPAPhone": "1111111111",
+                "FR-TPAState": "OH",
+                "FR-TPAStreetAddress": "100 Lakeside Ave E",
+                "FR-TPAZipCode": "44144"
+            },
+            "PHONE": "1111118888465565564545",
+            "TPAContactName-Block": {
+                "TPAContactId": "003S0000017QHpGIAW",
+                "TPAContactName": "OhioPrimaryFirst OhioPrimaryLast - primaryohio@gmail.com -",
+                "TPAContactNameFM": "OhioPrimaryFirst OhioPrimaryLast - primaryohio@gmail.com -"
+            },
+            "TextBlock": {
+                "City": "Minneapolis",
+                "Phone": "1111118888465565564545",
+                "State": "MN",
+                "StreetAddress": "333 South 7th Street",
+                "ZipCode": "55402"
+            }
+        }
+    },
+    "FundingName": "FUND-000222",
+    "FundingRecordId": "a7LS0000000D9kjMAC",
+    "GroupClaimSystem": "WGS 2.0",
+    "GroupContractCode": "",
+    "GroupID": "a5IS0000000ERdLMAW",
+    "GroupId": "a5IS0000000ERdLMAW",
+    "GroupPlanDesign&EmpClassStatusinfo": {
+        "EmployeeClassDetails": {
+            "EmployeeClass": {
+                "EmployeeClassDescription": null,
+                "EmployeeClassType": null,
+                "QLItems": {
+                    "ContractCode": null,
+                    "Funding": null,
+                    "GroupPlanDescription": null,
+                    "LineOfBusiness": null,
+                    "PlanName": null,
+                    "ProductStage": null,
+                    "Select": false
+                }
+            }
+        },
+        "WhatAreEmployeeClassesBlock": null
+    },
+    "Id": "801S0000000HyDNIA0",
+    "IfNoPleaseSpecifyDR": "WQWQWQ",
+    "IfNoSpecifyGroupsForDomesticPartDR": "SADADADADA",
+    "IfYesIndicateProbPeriodDR": "16 = First of Month following 9 Months",
+    "ImplCase": {
+        "AccountId": "001S000000yCvSGIA0",
+        "AreThereChangesToEligibility": "",
+        "ChangesToFundingOrBillingEntity": "",
+        "GroupId": "a5IS0000000ERdLMAW",
+        "Id": "801S0000000HyDNIA0",
+        "ImplementationType": "New Business",
+        "LatestEligibility": "a7HS0000000GT1vMAG",
+        "LatestFunding": "a7LS0000000D9kjMAC"
+    },
+    "ImplementationNumber": "IMPL-2795",
+    "ImplementationType": "New Business",
+    "IncludeHCIDNumberOnTheInvoiceDR": "Yes",
+    "IsThereaWaitingPeriodDR": "No",
+    "MembershipCommentsDR": "SASASASA",
+    "NewHireCoverageEffDateEligibilityDR": "First of the Month Following Date of Hire",
+    "NewHireProbationaryPeriodDR": "60 Days",
+    "NotesDR": "SASASASSA",
+    "PremPaidForEachSubDepPerMonthDR": 6,
+    "PremPaidForEachSubPerMonthDR": 7,
+    "PremiumRecdFromMoreThanOneSourceDR": "No",
+    "StatusDescription": "",
+    "TPAContactName-Block": {
+        "TPAMailingCity": "Cleveland",
+        "TPAMailingState": "OH",
+        "TPAMailingStreet": "100 Lakeside Ave E",
+        "TPAMailingZipCode": "44144",
+        "TPAPhone": "1111111111"
+    },
+    "WhoWilHandleCalCOBRABillingDR": "Vendor",
+    "groupname": "",
+    "id": "a3CS0000000GMNjMAO",
+    "isdtp": "p1",
+    "layout": "lightning",
+    "qlirecord": "",
+    "sfdcIFrameHost": "web",
+    "sfdcIFrameOrigin": "https://commercial--icerapt--vlocity-ins.cs1.visual.force.com",
+    "testContextId": "801S0000000HyDNIA0",
+    "timeStamp": "2019-08-30T10:21:41.929Z",
+    "userCurrencyCode": "USD",
+    "userId": "005S000000FtiOkIAJ",
+    "userName": "ayan.a.mukherjee@accenture.com.icerapt",
+    "userProfile": "System Administrator",
+    "userTimeZone": -240,
+    "vlcPersistentComponent": {
+    }
+}

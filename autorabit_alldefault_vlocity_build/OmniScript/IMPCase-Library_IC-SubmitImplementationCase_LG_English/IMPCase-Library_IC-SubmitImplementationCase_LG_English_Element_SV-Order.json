@@ -1,0 +1,64 @@
+{
+    "%vlocity_namespace%__Active__c": true,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "IMPCase Library/IC-SubmitImplementationCase_LG",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/IMPCase Library/IC-SubmitImplementationCase_LG/English",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__PropertySet__c": {
+        "HTMLTemplateId": "",
+        "controlWidth": 12,
+        "disOnTplt": false,
+        "elementValueMap": {
+            "AccountAnthemEntity": "=%AccountAnthemEntity%",
+            "BHealthCountFailed": "='NA'",
+            "BHealthCountPassed": "='NA'",
+            "BHealthFailedText": "='NA'",
+            "BHealthSuccessText": "='NA'",
+            "BillingCountFailed": "='NA'",
+            "BillingCountPassed": "='NA'",
+            "BillingFailedText": "='NA'",
+            "BillingSucessText": "='NA'",
+            "COBCountFailed": "=IF(OR(EQUALS(%ImplementationCaseType%,'Renewal'),EQUALS(%ImplementationCaseType%,'Change Request Off Cycle')) && EQUALS(%ImplementationCaseCOB%,'NA') && EQUALS(%ImplementationCaseCOBChange%,'Yes'),'Failed','NA')",
+            "COBCountPassed": "=IF(OR(EQUALS(%ImplementationCaseType%,'Renewal'),EQUALS(%ImplementationCaseType%,'Change Request Off Cycle')) &&  EQUALS(%ImplementationCaseCOBChange%,'Yes') && %ImplementationCaseCOB%!='NA','Passed','NA')",
+            "COBFailedText": "=IF(OR(EQUALS(%ImplementationCaseType%,'Renewal'),EQUALS(%ImplementationCaseType%,'Change Request Off Cycle')) && EQUALS(%ImplementationCaseCOBChange%,'Yes') && %ImplementationCaseCOB%='NA',\"Rule: Since the field “Are There Changes To The COB” = Yes, you must complete the “Indicate COB Record” field : \",'NA')",
+            "COBSuccessText": "=IF(OR(EQUALS(%ImplementationCaseType%,'Renewal'),EQUALS(%ImplementationCaseType%,'Change Request Off Cycle')) && EQUALS(%ImplementationCaseCOBChange%,'Yes') && %ImplementationCaseCOB%!='NA',\"Rule: Since the field “Are There Changes To The COB” = Yes, you must complete the “Indicate COB Record” field : \",'NA')",
+            "EligibilityCountFailed": "=IF(OR(EQUALS(%ImplementationCaseType%,'Renewal'),EQUALS(%ImplementationCaseType%,'Change Request Off Cycle')) && EQUALS(%ImplementationCaseEligibilityChange%,'Yes') && EQUALS(%ImplementationCaseEligibility%,'NA'),'Failed','NA')",
+            "EligibilityCountPassed": "=IF(OR(EQUALS(%ImplementationCaseType%,'Renewal'),EQUALS(%ImplementationCaseType%,'Change Request Off Cycle')) && EQUALS(%ImplementationCaseEligibilityChange%,'Yes') && %ImplementationCaseEligibility%!='NA','Passed','NA')",
+            "EligibilityFailedText": "=IF(OR(EQUALS(%ImplementationCaseType%,'Renewal'),EQUALS(%ImplementationCaseType%,'Change Request Off Cycle'))&& EQUALS(%ImplementationCaseEligibilityChange%,'Yes') && %ImplementationCaseEligibility%='NA',\"Rule: Since the field “Are There Changes To Eligibility” = Yes, you must complete the “Indicate Eligibility Record” field :  \",'NA')",
+            "EligibilitySuccessText": "=IF(OR(EQUALS(%ImplementationCaseType%,'Renewal'),EQUALS(%ImplementationCaseType%,'Change Request Off Cycle')) && EQUALS(%ImplementationCaseEligibilityChange%,'Yes') && %ImplementationCaseEligibility%!='NA',\"Rule: Since the field “Are There Changes To Eligibility” = Yes, you must complete the “Indicate Eligibility Record” field : \",'NA')",
+            "FundingCountFailed": "='NA'",
+            "FundingCountPassed": "='NA'",
+            "FundingFailedText": "='NA'",
+            "FundingSuccessText": "='NA'",
+            "Implementercheck": "=IF(EQUALS(%ProfileName%, null),'Y',IF(AND(CONTAINS(%AccountAnthemEntity%,'National Accounts'),OR(EQUALS(%ProfileName%, 'National Implementations'),EQUALS(%ProfileName%, 'National Implementations Dual'))),'Y', IF(AND(EQUALS(%AccountAnthemEntity%,'Local/Large Group'),OR(EQUALS(%ProfileName%, 'Local Implementations'),EQUALS(%ProfileName%, 'Local Implementations Dual'),EQUALS(%ProfileName%, 'Specialty'),EQUALS(%ProfileName%, 'Specialty Post Sales'))),'Y','N')))",
+            "IntakeReturnValidation": "='NA'",
+            "OptyDateSignedPWrkFailed": "=IF(EQUALS(%DateSignedPWOpty%,null),'Failed', 'NA')",
+            "OptyDateSignedPWrkFailureTxt": "=IF(EQUALS(%DateSignedPWOpty%,null),\"The Date Signed Paperwork Rec'd field on the Opportunity needs to have a date before submitting the case to Implementations.\", 'NA')",
+            "OptyDateSignedPWrkPassed": "=IF(!EQUALS(%DateSignedPWOpty%,null),'Passed', 'NA')",
+            "OptyDateSignedPWrkSuccessTxt": "=IF(!EQUALS(%DateSignedPWOpty%,null),'', 'NA')",
+            "SignedDoc": "='Draft'",
+            "WGSRateSheet": "='No'",
+            "userProfilelocal": "=IF(OR(EQUALS(%userProfile%,'Local Sales'),EQUALS(%userProfile%,'Local Sales Dual'),EQUALS(%userProfile%,'Specialty'),EQUALS(%userProfile%,'Specialty Dual'),EQUALS(%userProfile%,'Specialty Post Sales')),'Y','N')"
+        },
+        "label": null,
+        "message": {
+        },
+        "pubsub": false,
+        "show": null,
+        "showPersistentComponent": [
+            false,
+            false
+        ],
+        "ssm": false,
+        "validationRequired": "None",
+        "wpm": false
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": false,
+    "%vlocity_namespace%__Type__c": "Set Values",
+    "Name": "SV-Order",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/IMPCase Library/IC-SubmitImplementationCase_LG/English/SV-Order"
+}

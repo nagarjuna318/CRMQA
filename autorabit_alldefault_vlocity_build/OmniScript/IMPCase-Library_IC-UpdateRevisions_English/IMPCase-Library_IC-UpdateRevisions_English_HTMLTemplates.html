@@ -1,0 +1,28 @@
+<style>
+.via-slds .slds-checkbox [type=checkbox]:checked+.slds-checkbox--faux:before, .via-slds .slds-checkbox [type=checkbox]:checked+.slds-checkbox__label .slds-checkbox--faux:before, .via-slds .slds-checkbox [type=checkbox]:checked~.slds-checkbox--faux:before{
+   content:'';
+   position:absolute;
+   width:15px;
+   height:15px;
+   background:#1589ee;
+}
+
+.via-slds .slds-checkbox [type=checkbox]:checked+.slds-checkbox--faux:after, .via-slds .slds-checkbox [type=checkbox]:checked+.slds-checkbox__label .slds-checkbox--faux:after, .via-slds .slds-checkbox [type=checkbox]:checked~.slds-checkbox--faux:after{
+   display:block;
+   content:'';
+   height:.25rem;
+   width:.5rem;
+   position:absolute;
+   top:50%;
+   left:50%;
+   transform:translate3d(-50%,-50%,0) rotate(-45deg);
+    border-bottom: 2px solid #fff;
+    border-left: 2px solid #fff;
+}
+
+#CurrentRevisionsReasons #RevisionReason .vlc-slds-control-action__container span{
+    display: none;
+}
+
+</style>
+<script type="text/ng-template" id="YourIdName.html">  <div ng-if="control.rootIndex === activeIndex" ng-init="stepIsActive()"></div>  </script>

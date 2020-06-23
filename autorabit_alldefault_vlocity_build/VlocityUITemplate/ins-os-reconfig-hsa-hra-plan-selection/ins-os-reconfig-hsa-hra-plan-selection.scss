@@ -1,0 +1,27 @@
+.via-slds .slds-table td, .via-slds .slds-table th{
+       
+       font-size: 20px !important;
+       white-space: normal;
+}
+.via-slds .slds-table td, .via-slds .slds-table th{
+       
+       font-size: 20px !important;
+       white-space: normal;
+}
+input .inputChkDisabled {
+        background-color: #FFFFFF;
+}
+input .inputChkDisabled[disabled] {
+        background-color: #FFFFFF;
+}
+input[type=checkbox] {
+        content: " ";
+        background-color: #FFFFFF;
+        display: inline-block;
+        visibility: visible;
+}
+input[type=checkbox]:checked:after {
+        content: "\2714";
+        background-color: #FFFFFF;
+        display: inline-block;
+}

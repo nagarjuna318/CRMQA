@@ -1,0 +1,18 @@
+{
+    "%vlocity_namespace%__Author__c": "Anthem Commercial 2.0",
+    "%vlocity_namespace%__CustomJavascript__c": "ImplementationCaseCardsTemplate.js",
+    "%vlocity_namespace%__Definition__c": "",
+    "%vlocity_namespace%__Description__c": "PRDCRM-28938- Added Specialty Profile and Anthem Entity Condition for COB, Eligibility, funding, Behavioural Health to make them visible for Specialty local users.",
+    "%vlocity_namespace%__DisplayOn__c": "",
+    "%vlocity_namespace%__ExternalID__c": "ImplementationCaseCardsTemplate/22/Anthem Commercial 2.0/1581349661723",
+    "%vlocity_namespace%__HTML__c": "ImplementationCaseCardsTemplate.html",
+    "%vlocity_namespace%__ParentID__c": "",
+    "%vlocity_namespace%__SampleJson__c": "ImplementationCaseCardsTemplate_Sample.json",
+    "%vlocity_namespace%__Sass__c": "ImplementationCaseCardsTemplate.scss",
+    "%vlocity_namespace%__Type__c": "Cards",
+    "%vlocity_namespace%__Version__c": 22,
+    "Name": "ImplementationCaseCardsTemplate",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__VlocityUITemplate__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__VlocityUITemplate__c/ImplementationCaseCardsTemplate"
+}

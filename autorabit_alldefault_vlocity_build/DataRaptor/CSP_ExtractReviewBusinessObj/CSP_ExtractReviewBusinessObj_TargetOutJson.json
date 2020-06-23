@@ -1,0 +1,90 @@
+{
+    "AccountId": "0011F000008YAymQAG",
+    "ActionPlan": {
+        "ActionPlanBlock": {
+            "ActionPlanAnalytics": null,
+            "ActionPlanConsumerExperience": null,
+            "ActionPlanHealthActivation": null,
+            "ActionPlanIdentifiedGap": null,
+            "ActionPlanObjective": null,
+            "ActionPlanObjectiveId": null,
+            "ActionPlanProviderOptimization": null
+        }
+    },
+    "BenefitObjectiveType": "Benefit Objective",
+    "BenefitObjectives": {
+        "BenefitObjectiveBOBlock": {
+            "BenefitObjectiveBODesc": null,
+            "BenefitObjectiveBOType": null
+        },
+        "BusinessObjectiveSelectCount": null,
+        "ObjectiveSelect": null
+    },
+    "ClientObjectives": {
+        "ClientObjective": [
+            {
+                "ClientObjectActive": true,
+                "ClientObjectiveDescription": "Client is intending to acquire new companies.",
+                "ClientObjectiveId": "a6i1F000000DL8gQAG",
+                "ClientObjectiveType": "Corporate"
+            },
+            {
+                "ClientObjectActive": true,
+                "ClientObjectiveDescription": "Client plans to add 5000 new employees",
+                "ClientObjectiveId": "a6i1F000000DL8hQAG",
+                "ClientObjectiveType": "Workforce"
+            },
+            {
+                "ClientObjectActive": true,
+                "ClientObjectiveDescription": "Client wants to do full replacement CDHP to take the company to a new direction.",
+                "ClientObjectiveId": "a6i1F000000DL8iQAG",
+                "ClientObjectiveType": "Total Rewards"
+            },
+            {
+                "ClientObjectActive": true,
+                "ClientObjectiveDescription": "Client wants to add plans in the United Kingdom.",
+                "ClientObjectiveId": "a6i1F000000DL8jQAG",
+                "ClientObjectiveType": "Total Rewards"
+            }
+        ],
+        "ClientObjectiveCount": 4,
+        "ClientObjectiveMsgMax": true
+    },
+    "ContextId": "0011F000008YAymQAG",
+    "DRId_Account_Plan__c": "a6l1F0000004LmAQAU",
+    "DefineBenefitObjectives": {
+        "BenefitObjectiveBlock": {
+            "BenefitObjectiveComment": null,
+            "BenefitObjectiveDesc": null,
+            "BenefitObjectiveId": null,
+            "BenefitObjectiveLookup": null,
+            "BenefitObjectiveLookupId": null,
+            "BenefitObjectiveRank": null,
+            "BenefitObjectiveStrategicOpp": null
+        }
+    },
+    "Name": "Cheryl's Test Account",
+    "PlanDetails": {
+        "AccountId": "0011F000008YAymQAG",
+        "AccountName": "Cheryl's Test Account",
+        "Id": "a6l1F0000004LmAQAU",
+        "Name": "CSP-0000007"
+    },
+    "PlanDetailsId": "a6l1F0000004LmAQAU",
+    "id": "a3C1F0000001ZYJUA2",
+    "layout": "lightning",
+    "timeStamp": "2018-07-23T16:33:58.789Z",
+    "userCurrencyCode": "USD",
+    "userId": "0051F000001e386QAA",
+    "userName": "ilugina@vlocity.com2.configdev",
+    "userProfile": "System Administrator",
+    "userTimeZone": -240,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "DR_ExtractAccountPlan": 2846,
+        "DR_LoadAccountPlan": 590,
+        "OmniScriptSessionToken": "974014f3-d546-4dcf-979e-7fd89ed8e15f",
+        "PreSetValue": 1228
+    }
+}

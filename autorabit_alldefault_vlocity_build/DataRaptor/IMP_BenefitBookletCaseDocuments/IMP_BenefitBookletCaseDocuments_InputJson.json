@@ -1,0 +1,90 @@
+{
+    "ABCDecisions": "",
+    "ABCRelease": "",
+    "BBDocAttach": "Allow",
+    "BenefitBookletDetails": {
+        "BenefitBookletAttachments": [
+            {
+                "$$hashKey": "object:350",
+                "data": "1e111c15-0265-421b-afa1-35d35d7be2b2",
+                "filename": "Flow for ASF sections 12152017.xlsx",
+                "size": 21797
+            }
+        ],
+        "ModExistBooklet": "Yes",
+        "ProBenBooklet": "Yes",
+        "ReqBenBooklet": "Yes"
+    },
+    "CapturePreCertificationDetails": {
+        "CustomPreCertDetails": null,
+        "FinalPrecertificationRules": null,
+        "MSG-PreCertList": true,
+        "MSG-PreRules": true
+    },
+    "ChangeReq": "801W0000000lqZC",
+    "DRId_Order": "801W0000000lqZC",
+    "EffectiveDate": "False",
+    "ExisitingOrder": "Allow",
+    "ICDetails": {
+        "Custom_Pre_Cert_Details": "Anthem",
+        "Does_Anthem_Produce_Benefit_Booklets": "Yes",
+        "Does_this_require_a_new_Benefit_Booklet": "Yes",
+        "EffectiveDate": "2018-01-01",
+        "Final_Pre_Certification_Rules": "Custom Pre-Cert List",
+        "HQState": "NY",
+        "Implementation_Case_Name": "2018: Change Request Off Cycle-Hunter Douglas Inc.",
+        "Implementation_Record_ID": "IMPL-000112",
+        "Implementation_Status": "Initiated",
+        "Implementation_Type": "Change Request Off Cycle",
+        "Intake_Type_Existing_Shift_to_PEX": false,
+        "Intake_Type_Group_Term": true,
+        "Intake_Type_Migration": false,
+        "Intake_Type_Retro": true,
+        "Intake_Type_Spin_Off": false,
+        "Intake_Type_Transfer_Market_Segment": false,
+        "Modification_to_existing_booklet": "Yes",
+        "Pre_Implementation_Audit": false,
+        "QuoteId": "0Q0W0000000HIwyKAG",
+        "Status": "Draft",
+        "User_Group": "National In Group Change"
+    },
+    "LocalCA": "801W0000000lplMIAQ",
+    "ModExistBooklet": "Yes",
+    "National": "801W0000000lnPx",
+    "PreRuleValidation": "N",
+    "PreWork": [
+        "Engage Product",
+        "New Eligibility Vendor Setup",
+        "Data Interface New Vendor Build",
+        "SSCR Build for Client Customization",
+        "SBC"
+    ],
+    "ProBenBooklet": "Yes",
+    "ReqBenBooklet": "Yes",
+    "SBCDocAttach": "NotAllow",
+    "Status": "'Initiated'",
+    "UserArea": "National",
+    "UserGroup": "National ",
+    "id": "a3CW0000000Aj2XMAS",
+    "layout": "lightning",
+    "timeStamp": "2017-12-19T19:55:33.225Z",
+    "userId": "005W0000002XPj6IAG",
+    "userName": "jcarrero@vlocity.com.prod.nal1b.dev",
+    "userProfile": "System Administrator",
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "BenefitBookletDetails": 17136,
+        "CapturePreCertificationDetails": 4008,
+        "DR-BenefitBookletDocs": 1787,
+        "DR-CaseUpdate": 2214,
+        "DRE-IMPCapture": 617,
+        "DRE-UserGroup": 1645,
+        "Finish": 25269,
+        "OmniScriptSessionToken": "1b0ddf63-02ad-42c0-9d22-45d3c8d99330",
+        "ST-PreRulesValidation": 17,
+        "ST-ValValues": 24,
+        "SV-ContextId": 62,
+        "UserGroupValidation": 18
+    }
+}

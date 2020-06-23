@@ -1,0 +1,28 @@
+{
+    "data": {
+        "actions": [
+            {
+                "Name": "Capture HCR Details",
+                "displayName": "Capture HCR Details",
+                "vlocityIcon": "icon-v-heart"
+            }
+        ],
+        "fields": [
+            {
+                "label": "Description",
+                "name": "description"
+            },
+            {
+                "label": "Cost",
+                "name": "cost",
+                "type": "currency"
+            }
+        ],
+        "title": "Card Title"
+    },
+    "obj": {
+        "Id": "123456",
+        "LoggedInUserProfile__c": "National Sales",
+        "Name": "Object Name"
+    }
+}

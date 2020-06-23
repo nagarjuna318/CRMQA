@@ -1,0 +1,23 @@
+{
+    "%vlocity_namespace%__AdditionalInformation__c": "Submit Castlight status",
+    "%vlocity_namespace%__ElementTypeToHTMLTemplateList__c": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "%vlocity_namespace%__Element__c": [
+        "EngageForm_CSSUpdate_English_Element_DRExtractEngageScopingStandard.json",
+        "EngageForm_CSSUpdate_English_Element_CastlightStatusUpdate.json",
+        "EngageForm_CSSUpdate_English_Element_CastlightStatusCalculation.json",
+        "EngageForm_CSSUpdate_English_Element_LineBreak1.json",
+        "EngageForm_CSSUpdate_English_Element_TextCastlightStatus.json",
+        "EngageForm_CSSUpdate_English_Element_DRPostEngageScopingAndStandard.json",
+        "EngageForm_CSSUpdate_English_Element_DoneAction.json"
+    ],
+    "%vlocity_namespace%__IsProcedure__c": false,
+    "%vlocity_namespace%__IsReusable__c": false,
+    "%vlocity_namespace%__Language__c": "English",
+    "%vlocity_namespace%__PropertySet__c": "EngageForm_CSSUpdate_English_PropertySet.json",
+    "%vlocity_namespace%__SubType__c": "CSSUpdate",
+    "%vlocity_namespace%__Type__c": "EngageForm",
+    "Name": "CSUpdate",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__OmniScript__c/EngageForm/CSSUpdate/English"
+}

@@ -1,0 +1,71 @@
+{
+    "ContextId": "a8H540000000IpZEAU",
+    "CurrentPendingCorrections": {
+        "AddPendingCorrection": false,
+        "CorrectionDepartment": null,
+        "ImpStage": "N",
+        "ImplementerComment": null,
+        "ImplementerComment_NonSME": null,
+        "ImplementerComment_SME": null,
+        "LoggedinProfile": "Other",
+        "PendingCorrection": [
+            {
+                "CorrectionComments": null,
+                "Formula1": false,
+                "Formula2": true,
+                "Id": "a8G540000004uZaEAI",
+                "InitiatorComments": "test1",
+                "MsgStgComments": true,
+                "MsgStgtoOther": true,
+                "PendingCorrectionsStage": "Pending Correction Action",
+                "Reason": "Benefit booklets on draft"
+            },
+            {
+                "CorrectionComments": null,
+                "Formula1": false,
+                "Formula2": true,
+                "Id": "a8G540000004uZbEAI",
+                "InitiatorComments": "test2",
+                "MsgStgComments": true,
+                "MsgStgtoOther": true,
+                "PendingCorrectionsStage": "Pending Correction Action",
+                "Reason": "Contracts Internal Only"
+            }
+        ],
+        "PendingCorrectionType": null,
+        "RateType": null,
+        "SMEComment": null,
+        "SMEComment_NonSME": null,
+        "SMEComment_SME": null,
+        "SMEComment_SME_Declined": null,
+        "SMEStage": "N",
+        "Stage": null,
+        "SubmitDateext": null
+    },
+    "Profile": "SME",
+    "ProfileText": "Other",
+    "SpecialtyPostSalesAsSME": "N",
+    "SpecialtyPostSalesAsSME1": "IF(AND(EQUALS(,'Ready for SMEs'),OR(EQUALS(System Administrator,'Specialty Post Sales'),EQUALS(System Administrator,'Specialty Post Sales Dual'))),'Y','N')",
+    "Submit": {
+        "SubmitDate": null,
+        "SubmitPendCorrection": null
+    },
+    "id": "a3C54000000InQ9EAK",
+    "layout": "lightning",
+    "timeStamp": "2019-10-16T06:36:54.407Z",
+    "userCurrencyCode": "USD",
+    "userId": "00541000006Y54QAAS",
+    "userName": "veramesh@deloitte.com.icegld",
+    "userProfile": "System Administrator",
+    "userTimeZone": -420,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "DR-ExtractPenCorrectionReason": 2731,
+        "DR-ExtractPencorrection": 2561,
+        "OmniScriptSessionToken": "ed92eaa8-c1ca-443c-afda-bc97b347eae0",
+        "SetValues1": 847,
+        "SetValues3": 195,
+        "SetValues4": 59
+    }
+}

@@ -1,0 +1,104 @@
+.via-slds .via-slds-card--active {
+    
+    .via-slds-card__body {
+        overflow: hidden;
+    }
+    
+    .via-slds-card__header {
+        background-clip: padding-box;
+        background-color: #f4f6f9;
+        border-bottom: 2px solid #d8dde6;
+        margin-bottom: 0;
+        cursor: pointer;
+    }
+    
+    .via-slds-card__header.header-red {
+        background-color: #ea5555;
+    }
+    
+    .via-slds-card__header.header-blue {
+        background-color: #abd6ff;
+    }
+    
+    .via-slds-card__header.header-green {
+        background-color: #99ff9c;
+    }
+    
+    .via-slds-card__header.header-yellow {
+        background-color: #fffa99;
+    }
+    
+    .via-slds-card__header.header-pink {
+        background-color: #ffe5e5;
+    }
+    
+    .via-slds-card__header.header-default {
+        background-color: #f4f6f9;
+    }
+    
+    .via-slds-card__header.header-closed {
+        background-color: #e34f5d;
+    }
+    .via-slds-card__header.header-customerTermed {
+        background-color: #dcae1d;
+    }
+    .via-slds-card__header.header-jeopardy {
+        background-color: #f6923e;
+    }
+    .via-slds-card__header.header-p0to20 {
+        background-color: #e6f1df;
+    }
+    .via-slds-card__header.header-p21to40 {
+        background-color: #d0e5c4;
+    }
+    .via-slds-card__header.header-p41to60 {
+        background-color: #bbd9a9;
+    }
+    .via-slds-card__header.header-p61to80 {
+        background-color: #a5cd8e;
+    }
+    .via-slds-card__header.header-p81to99 {
+        background-color: #90c173;
+    }
+    .via-slds-card__header.header-p100 {
+        background-color: #7ab557;
+    }
+    
+    .slds-icon-action-new_opportunity {
+        background-color: #FCB95B;
+    }
+    .slds-icon-action-clone {
+        background-color: #6CB2E9;
+    }
+    .slds-icon-action-share_poll {
+        background-color: #699BFF;
+    }
+    .slds-icon-action-new_child_case {
+        background-color: #FA975C;
+    }
+    
+    .via-slds-card__footer {
+        border-top: 1px solid #d8dde6;
+        margin-top: 0;
+        text-align: left;
+    }
+    
+    .via-slds-flyout-grid > :not(:empty) {
+        width: 100%;
+    }
+    
+    .via-action-icon:before {
+        font-size: 200%;
+    }
+
+    .via-action-link:hover,
+    .via-action-link:focus,
+    .via-action-link:active {
+        color: #0070d2;
+        text-decoration: underline;
+    }
+    
+    svg.via-action-icon {
+        margin: 0 8px;
+    }
+}

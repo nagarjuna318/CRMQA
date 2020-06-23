@@ -1,0 +1,18 @@
+{
+    "%vlocity_namespace%__Author__c": "Anthem Commercial 2.0",
+    "%vlocity_namespace%__CustomJavascript__c": "ins-os-product-selection-screen_single_select_HW.js",
+    "%vlocity_namespace%__Definition__c": "",
+    "%vlocity_namespace%__Description__c": "",
+    "%vlocity_namespace%__DisplayOn__c": "",
+    "%vlocity_namespace%__ExternalID__c": "ins-os-product-selection-screen_single_select_HW/1/Anthem Commercial 2.0/1565724701019",
+    "%vlocity_namespace%__HTML__c": "ins-os-product-selection-screen_single_select_HW.html",
+    "%vlocity_namespace%__ParentID__c": "ins-os-product-selection-screen_HW/5/Anthem Commercial 2.0/1563201107073",
+    "%vlocity_namespace%__SampleJson__c": "ins-os-product-selection-screen_single_select_HW_Sample.json",
+    "%vlocity_namespace%__Sass__c": "ins-os-product-selection-screen_single_select_HW.scss",
+    "%vlocity_namespace%__Type__c": "OmniScript Selectable Items",
+    "%vlocity_namespace%__Version__c": 1,
+    "Name": "ins-os-product-selection-screen_single_select_HW",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__VlocityUITemplate__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__VlocityUITemplate__c/ins-os-product-selection-screen_single_select_HW"
+}

@@ -1,0 +1,29 @@
+{
+    "Cards": [
+        "Group Card Standard",
+        "Group Card Standard - Local"
+    ],
+    "dataSource": {
+        "contextVariables": [
+            {
+                "name": "params.Id",
+                "val": "a5I2a00000057OBEAY"
+            }
+        ],
+        "type": "Query",
+        "value": {
+            "jsonMap": "{\"params.id || params.Id\":\"{{params.id || params.Id}}\"}"
+        }
+    },
+    "previewType": "runTime",
+    "templates": {
+        "0": {
+            "templateUrl": "card-canvas-1x-slds-nosearch"
+        }
+    },
+    "workspace": [
+        "Group Card Standard/Anthem Commercial 2.0/1/1520971943535",
+        "Group Card Standard/Anthem Commercial 2.0/1/1521150730475",
+        "Group Card Standard - Local/Anthem Commercial 2.0/1/1549019555854"
+    ]
+}

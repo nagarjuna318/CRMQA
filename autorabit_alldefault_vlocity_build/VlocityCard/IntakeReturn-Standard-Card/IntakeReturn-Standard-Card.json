@@ -1,0 +1,43 @@
+{
+    "dataSource": {
+        "type": null,
+        "value": {
+        }
+    },
+    "filter": {
+        "['ActionDisplay__c']": "Implementations",
+        "['Profile_Group_Name__c']": "Implementations"
+    },
+    "states": [
+        {
+            "actionCtxId": "['Id']",
+            "conditions": {
+                "group": [
+                    {
+                        "field": "$scope.data.status",
+                        "operator": "===",
+                        "type": "system",
+                        "value": "'active'"
+                    }
+                ]
+            },
+            "definedActions": {
+                "actions": [
+                    {
+                        "collapse": true,
+                        "hasExtraParams": false,
+                        "id": "Intake Return Update",
+                        "isCustomAction": false,
+                        "type": "Vlocity Action"
+                    }
+                ]
+            },
+            "fields": [
+            ],
+            "name": "RequestCondition",
+            "sObjectType": "IntakeReturn__c",
+            "templateUrl": "ActionCardsTemplate"
+        }
+    ],
+    "title": "IntakeReturn Standard Card"
+}

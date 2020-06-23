@@ -1,0 +1,127 @@
+{
+    "%vlocity_namespace%__Active__c": false,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "Account Structure Questionnaire",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/AccountStructureQuestionnaire/Order/English",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__ParentElementId__c": {
+        "%vlocity_namespace%__OmniScriptId__c": {
+            "Name": "Account Structure Questionnaire",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/AccountStructureQuestionnaire/Order/English",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+        },
+        "Name": "Invoices",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/AccountStructureQuestionnaire/Order/English/Invoices",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c"
+    },
+    "%vlocity_namespace%__ParentElementName__c": "Invoices",
+    "%vlocity_namespace%__ParentElementType__c": "Edit Block",
+    "%vlocity_namespace%__PropertySet__c": {
+        "HTMLTemplateId": "",
+        "accessibleInFutureSteps": false,
+        "conditionType": "Hide if False",
+        "controlWidth": 3,
+        "controllingField": {
+            "element": "",
+            "source": "",
+            "type": ""
+        },
+        "defaultValue": "30 days",
+        "disOnTplt": false,
+        "help": false,
+        "helpText": "",
+        "hide": false,
+        "inputWidth": 12,
+        "label": "Claim Grace Days",
+        "optionSource": {
+            "source": "",
+            "type": ""
+        },
+        "options": [
+            {
+                "name": "30 days",
+                "value": "30 days"
+            },
+            {
+                "name": "31 days",
+                "value": "31 days"
+            },
+            {
+                "name": "60 days",
+                "value": "60 days"
+            },
+            {
+                "name": "90 days",
+                "value": "90 days"
+            }
+        ],
+        "readOnly": false,
+        "repeat": false,
+        "repeatClone": false,
+        "repeatLimit": null,
+        "required": false,
+        "show": {
+            "group": {
+                "operator": "OR",
+                "rules": [
+                    {
+                        "condition": "=",
+                        "data": "California",
+                        "field": "SitusStateValue"
+                    },
+                    {
+                        "condition": "=",
+                        "data": "Colorado",
+                        "field": "SitusStateValue"
+                    },
+                    {
+                        "condition": "=",
+                        "data": "Connecticut",
+                        "field": "SitusStateValue"
+                    },
+                    {
+                        "condition": "=",
+                        "data": "Kentucky",
+                        "field": "SitusStateValue"
+                    },
+                    {
+                        "condition": "=",
+                        "data": "Maine",
+                        "field": "SitusStateValue"
+                    },
+                    {
+                        "condition": "=",
+                        "data": "Missouri",
+                        "field": "SitusStateValue"
+                    },
+                    {
+                        "condition": "=",
+                        "data": "New Hampshire",
+                        "field": "SitusStateValue"
+                    },
+                    {
+                        "condition": "=",
+                        "data": "Nevada",
+                        "field": "SitusStateValue"
+                    },
+                    {
+                        "condition": "=",
+                        "data": "Ohio",
+                        "field": "SitusStateValue"
+                    }
+                ]
+            }
+        },
+        "showInputWidth": true
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": false,
+    "%vlocity_namespace%__Type__c": "Select",
+    "Name": "ClaimGraceDays1",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/AccountStructureQuestionnaire/Order/English/ClaimGraceDays1"
+}

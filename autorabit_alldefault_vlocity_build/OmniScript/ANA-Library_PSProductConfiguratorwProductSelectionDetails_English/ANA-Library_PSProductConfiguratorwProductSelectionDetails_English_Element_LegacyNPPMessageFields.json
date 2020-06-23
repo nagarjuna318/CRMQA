@@ -1,0 +1,65 @@
+{
+    "%vlocity_namespace%__Active__c": true,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "ProductConfiguratorWProductSelectionObjectDetails",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/ANA Library/PSProductConfiguratorwProductSelectionDetails/English",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__ParentElementId__c": {
+        "%vlocity_namespace%__OmniScriptId__c": {
+            "Name": "ProductConfiguratorWProductSelectionObjectDetails",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/ANA Library/PSProductConfiguratorwProductSelectionDetails/English",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+        },
+        "Name": "NPP",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/ANA Library/PSProductConfiguratorwProductSelectionDetails/English/NPP",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c"
+    },
+    "%vlocity_namespace%__ParentElementName__c": "NPP",
+    "%vlocity_namespace%__ParentElementType__c": "Block",
+    "%vlocity_namespace%__PropertySet__c": {
+        "HTMLTemplateId": "",
+        "controlWidth": 12,
+        "dataJSON": false,
+        "label": null,
+        "show": {
+            "group": {
+                "operator": "AND",
+                "rules": [
+                    {
+                        "condition": "<>",
+                        "data": "isnull",
+                        "field": "LegacyFieldFormula|n"
+                    },
+                    {
+                        "group": {
+                            "operator": "OR",
+                            "rules": [
+                                {
+                                    "condition": "=",
+                                    "data": null,
+                                    "field": "OONRapProviders|n"
+                                },
+                                {
+                                    "condition": "=",
+                                    "data": null,
+                                    "field": "NonParProfessionalPricing|n"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        },
+        "text": "<p><em><span style=\"color: #ff0000;\">Please view the legacy information below carried over from the old SF org. &nbsp;Please update the new fields below with the appropriate information by Product Type.&nbsp;</span></em></p>\n<p><em><span style=\"color: #ff0000;\">&nbsp; &nbsp;&nbsp;</span></em></p>\n<p style=\"padding-left: 60px;\"><span style=\"color: #000000;\"><em><strong>Non-Par Professional Pricing:</strong> &nbsp;%NPP:LegacyNonParProfessionalPricingQLI%</em></span></p>\n<p style=\"padding-left: 60px;\"><span style=\"color: #000000;\"><em><strong>OON RAP Providers:</strong> &nbsp;%NPP:LegacyOONRapProvidersQLI%</em></span></p>\n<p style=\"padding-left: 60px;\"><span style=\"color: #333333;\"><em>&nbsp; &nbsp;</em></span></p>"
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": false,
+    "%vlocity_namespace%__Type__c": "Text Block",
+    "Name": "LegacyNPPMessageFields",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/ANA Library/PSProductConfiguratorwProductSelectionDetails/English/LegacyNPPMessageFields"
+}

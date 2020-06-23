@@ -1,0 +1,107 @@
+{
+    "ContextId": "801W0000000q0DHIAY",
+    "ImplCase": {
+        "ImpCaseId": "801W0000000q0DHIAY",
+        "SME_Act_Wise_CDH": true,
+        "SME_Act_Wise_FSA": true,
+        "SME_Anthem_Flex_Hour": true,
+        "SME_Anthem_Health_Guide": true,
+        "SME_Benefit_Booklets_Contracts": true,
+        "SME_Blue_Exchange_BX": true,
+        "SME_Bold": true,
+        "SME_CCMU": true,
+        "SME_Claims": true,
+        "SME_Claims_Retro": true,
+        "SME_Coordinated_Care_Model": true,
+        "SME_Data_Interface_Team_DIT": true,
+        "SME_DeCare": true,
+        "SME_Dental": true,
+        "SME_EAP": false,
+        "SME_Enrollment_and_Billing_E_B": false
+    },
+    "SMEPendingStatus": "Pending SME Review",
+    "STManualDepartment": {
+        "SIManualDepartment": [
+            {
+                "$$hashKey": "object:131",
+                "Name": "Medical Benefits",
+                "Omni_Script_Help_Text": "Revision - Re-engage SME Dept. if previously flagged or if now impacted by revision.  (Pre-renewal CIP for Engage product will include medical benefits.  If there is a revision to the Engage pre-cip the medical benefits area may be retagged to review.",
+                "vlcSelected": true
+            },
+            {
+                "$$hashKey": "object:132",
+                "Name": "Act Wise FSA",
+                "Omni_Script_Help_Text": null,
+                "vlcSelected": true
+            },
+            {
+                "$$hashKey": "object:133",
+                "Name": "Benefit Booklets/Contracts",
+                "Omni_Script_Help_Text": "West Region is Exempt (see auditing guidelines for exemption) \nEngage Benefit Booklets for \" Associated Materials Group Number 174030-West Region Account\"\n*  Exception Accounts Engage Contracts instead of Benefit Booklets:\n1: LDI, LTD Group 213024 \n\nRevis",
+                "vlcSelected": true
+            },
+            {
+                "$$hashKey": "object:134",
+                "Name": "Pharmacy",
+                "Omni_Script_Help_Text": "Revision - Re-engage/tag SME dept if description of request states there is a change that impacts Anthem Pharmacy.",
+                "vlcSelected": true
+            },
+            {
+                "$$hashKey": "object:135",
+                "Name": "Claims Retro",
+                "Omni_Script_Help_Text": null,
+                "vlcSelected": true
+            },
+            {
+                "$$hashKey": "object:136",
+                "Name": "Act Wise CDH",
+                "Omni_Script_Help_Text": null,
+                "vlcSelected": true
+            },
+            {
+                "$$hashKey": "object:137",
+                "Name": "ID Cards",
+                "Omni_Script_Help_Text": "Revision - Re-engage SME Dept. if previously flagged or if now impacted by revision.",
+                "vlcSelected": true
+            },
+            {
+                "$$hashKey": "object:138",
+                "Name": "IHM",
+                "Omni_Script_Help_Text": "Revision - Re-engage/tag SME dept if description of request states there is a change that impacts IHM Medical Management model or if group is terminating all or part of IHM.",
+                "vlcSelected": true
+            },
+            {
+                "$$hashKey": "object:139",
+                "Name": "Implementations",
+                "Omni_Script_Help_Text": "Revision - Re-engage SME Dept. if previously flagged or if now impacted by revision.",
+                "vlcSelected": true
+            },
+            {
+                "$$hashKey": "object:140",
+                "Name": "Anthem Flex Hour",
+                "Omni_Script_Help_Text": null,
+                "vlcSelected": true
+            }
+        ]
+    },
+    "error": "OK",
+    "id": "a3CW00000013X9oMAE",
+    "isActive": true,
+    "layout": "lightning",
+    "timeStamp": "2018-04-03T23:33:05.913Z",
+    "userCurrencyCode": "USD",
+    "userId": "005W0000002XPj6IAG",
+    "userName": "jcarrero@vlocity.com.prod.nal1b.dev",
+    "userProfile": "System Administrator",
+    "userTimeZone": -240,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "DR-ExtractICSMEFlags": 4291,
+        "OmniScriptSessionToken": "4a364fb2-92ee-45b3-8a71-f8db4deb336e",
+        "RemoteAction1": 2542,
+        "RemoteAction2": 3956,
+        "STManualDepartment": 25119,
+        "SV-ContextId": 218
+    }
+}

@@ -1,0 +1,124 @@
+{
+    "HTMLTemplateId": "",
+    "allowCancel": true,
+    "allowSaveForLater": false,
+    "autoFocus": false,
+    "autoSaveOnStepNext": false,
+    "bLK": false,
+    "bundle": "",
+    "cancelRedirectPageName": "OmniScriptCancelled",
+    "cancelRedirectTemplateUrl": "vlcCancelled.html",
+    "cancelSource": "%ContextId%",
+    "cancelType": "SObject",
+    "consoleTabIcon": "custom:custom18",
+    "consoleTabLabel": "New",
+    "consoleTabTitle": null,
+    "controlWidth": 12,
+    "currencyCode": "",
+    "currencySymbol": "$",
+    "dataRaptor Input Parameters": [
+    ],
+    "dataType": null,
+    "dateFormat": "MM-dd-yyyy",
+    "disableUnloadWarn": false,
+    "elementTypeToHTMLTemplateMapping": {
+    },
+    "enableKnowledge": false,
+    "errorMessage": {
+        "custom": [
+        ]
+    },
+    "expression": "",
+    "failureAbortLabel": "Abort",
+    "failureAbortMessage": "Are you sure?",
+    "failureNextLabel": "Continue",
+    "hide": false,
+    "hideGroupSep": false,
+    "hideStepChart": false,
+    "inProgressMessage": "In Progress",
+    "knowledgeArticleTypeQueryFieldsMap": {
+    },
+    "label": null,
+    "lkObjName": null,
+    "mask": null,
+    "message": {
+    },
+    "persistentComponent": [
+        {
+            "id": "vlcCart",
+            "itemsKey": "cartItems",
+            "label": "",
+            "modalConfigurationSetting": {
+                "modalController": "ModalProductCtrl",
+                "modalHTMLTemplateId": "vlcProductConfig.html",
+                "modalSize": "lg"
+            },
+            "postTransformBundle": "",
+            "preTransformBundle": "",
+            "remoteClass": "",
+            "remoteMethod": "",
+            "remoteOptions": {
+                "postTransformBundle": "",
+                "preTransformBundle": ""
+            },
+            "remoteTimeout": 30000,
+            "render": false,
+            "responseJSONNode": "",
+            "responseJSONPath": "",
+            "sendJSONNode": "",
+            "sendJSONPath": ""
+        },
+        {
+            "id": "vlcKnowledge",
+            "itemsKey": "knowledgeItems",
+            "label": "",
+            "modalConfigurationSetting": {
+                "modalController": "",
+                "modalHTMLTemplateId": "",
+                "modalSize": "lg"
+            },
+            "postTransformBundle": "",
+            "preTransformBundle": "",
+            "remoteClass": "",
+            "remoteMethod": "",
+            "remoteOptions": {
+                "postTransformBundle": "",
+                "preTransformBundle": ""
+            },
+            "remoteTimeout": 30000,
+            "render": false
+        }
+    ],
+    "postMessage": "Done",
+    "redirectNextLabel": "Next",
+    "redirectNextWidth": 3,
+    "redirectPageName": "",
+    "redirectPreviousLabel": "Previous",
+    "redirectPreviousWidth": 3,
+    "redirectTemplateUrl": "vlcAcknowledge.html",
+    "remoteTimeout": 30000,
+    "responseJSONNode": "",
+    "responseJSONPath": "",
+    "rtpSeed": false,
+    "saveContentEncoded": false,
+    "saveExpireInDays": null,
+    "saveForLaterRedirectPageName": "sflRedirect",
+    "saveForLaterRedirectTemplateUrl": "vlcSaveForLaterAcknowledge.html",
+    "saveNameTemplate": null,
+    "saveObjectId": "%ContextId%",
+    "saveURLPatterns": {
+    },
+    "seedDataJSON": {
+        "OutboundCampaignAHG": "No"
+    },
+    "show": null,
+    "showInputWidth": true,
+    "ssm": false,
+    "timeTracking": true,
+    "trackingCustomData": {
+    },
+    "validationRequired": "Step",
+    "visualforcePagesAvailableInPreview": {
+    },
+    "wpm": false
+}

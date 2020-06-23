@@ -1,0 +1,2646 @@
+{
+    "AP-Family": "",
+    "AP-FamilySelection": {
+        "AP-CatSelection": "Medical",
+        "AP-MarketSelection": "KY",
+        "AP-MarketSelectionFinalvlaue": "KY",
+        "AP-NALGMergeValue": "No",
+        "AP-OpptyType": null,
+        "AP-Plan_Message": true,
+        "AP-TypeRequiredMessaging": null,
+        "Aggregate1": null,
+        "AnthemEntity_Abbrev": "Local/Large Group",
+        "Medical_ProductType": null,
+        "Non_Medical_Product_Type": null,
+        "SetProdStage": "No",
+        "Situs_State_Abbrev": "KY"
+    },
+    "AP-HasSPP": "No",
+    "AP-ParentId": "",
+    "AP-PlanSelection": {
+        "PlanList": null,
+        "PlanSelectionMessage": true,
+        "Skip_Plan_Selection": false
+    },
+    "AP-ProductFamily": {
+        "AP-ProductFamilySelection": null,
+        "AP-ProductFamilySelectionValidation": null
+    },
+    "AP-ProductFamilySelected": "",
+    "AP-ProductName": "Anthem Blue Preferred HMO Option CSV with Rx Option E2",
+    "AP-ProductSelection": {
+        "AP-ProdSelected": null,
+        "AP-Selected": null,
+        "APParentCount": null,
+        "HelpText_FSA_Actwise": null,
+        "HelpText_Medical_CDHP": null,
+        "Messaging13": null,
+        "ProdList": null
+    },
+    "AP-Selected": false,
+    "AP-Stages": [
+        "Dead",
+        "In Progress",
+        "Lost",
+        "Sold",
+        "Declined to Quote"
+    ],
+    "AccountDetails": {
+        "Situs_State_Abbrev": "KY"
+    },
+    "AccountId": "001S0000012CyhuIAC",
+    "AnthemEntity": "Local/Large Group",
+    "Category": "Product",
+    "ClinicalProductSelected": "",
+    "CompetitorCheck": 0,
+    "ContextId": "0Q0S0000000MV46KAG",
+    "DeleteComp1_Final": "",
+    "DeleteComp2_Final": "",
+    "DeleteComp3_Final": "",
+    "DynamicFilters": {
+        "EntityFilter": [
+            {
+                "Id": "a2O1K000002F69NUAS",
+                "Index": "0",
+                "Name": "Year",
+                "Type": "Qualification"
+            },
+            {
+                "Id": "a2O1K000002F69SUAS",
+                "Index": "0",
+                "Name": "Plan Type",
+                "Type": "Qualification"
+            },
+            {
+                "FieldType": "Select",
+                "Id": "a2O1K000002F69XUAS",
+                "Index": "0",
+                "Name": "Network Type1",
+                "Type": "Qualification"
+            },
+            {
+                "FieldType": "Select",
+                "Id": "a2O1K000002F69cUAC",
+                "Index": "0",
+                "Name": "Network Type2",
+                "Type": "Qualification"
+            },
+            {
+                "FieldType": "Select",
+                "Id": "a2O1K000002F6AfUAK",
+                "Index": "0",
+                "Name": "Deductible Type",
+                "Type": "Qualification"
+            }
+        ],
+        "EntityFilterCondition": [
+            {
+                "$$hashKey": "object:1141",
+                "EntityFilterId": "a2O1K000002F69XUAS",
+                "FieldName": "Network__c",
+                "FieldType": "string",
+                "Index": 0,
+                "IsNot": false,
+                "Operator": "=",
+                "Type": "Field",
+                "Value": "KeyCare",
+                "is_checked": false
+            },
+            {
+                "EntityFilterId": "a2O1K000002F69NUAS",
+                "FieldName": "Portfolio_Year__c",
+                "FieldType": "picklist",
+                "Index": 0,
+                "IsNot": false,
+                "Operator": "=",
+                "Type": "Field",
+                "Value": "Current",
+                "is_checked": false
+            },
+            {
+                "$$hashKey": "object:1132",
+                "EntityFilterId": "a2O1K000002F69SUAS",
+                "FieldName": "Product_Family__c",
+                "FieldType": "picklist",
+                "Index": 0,
+                "IsNot": false,
+                "Operator": "=",
+                "Type": "Field",
+                "Value": "PPO",
+                "is_checked": false
+            },
+            {
+                "$$hashKey": "object:1142",
+                "EntityFilterId": "a2O1K000002F69XUAS",
+                "FieldName": "Network__c",
+                "FieldType": "string",
+                "Index": 0,
+                "IsNot": false,
+                "Operator": "=",
+                "Type": "Field",
+                "Value": "Blue Preferred - POS",
+                "is_checked": false
+            },
+            {
+                "$$hashKey": "object:1169",
+                "EntityFilterId": "a2O1K000002F6AfUAK",
+                "FieldName": "OTHER_cdhProductType",
+                "FieldType": "anyType",
+                "Index": 0,
+                "IsNot": false,
+                "Operator": "=",
+                "Type": "Attribute",
+                "Value": "HRA-DF",
+                "is_checked": false
+            },
+            {
+                "$$hashKey": "object:1143",
+                "EntityFilterId": "a2O1K000002F69XUAS",
+                "FieldName": "Network__c",
+                "FieldType": "string",
+                "Index": 1,
+                "IsNot": false,
+                "Operator": "=",
+                "Type": "Field",
+                "Value": "HealthKeepers",
+                "is_checked": false
+            },
+            {
+                "EntityFilterId": "a2O1K000002F69NUAS",
+                "FieldName": "Portfolio_Year__c",
+                "FieldType": "picklist",
+                "Index": 1,
+                "IsNot": false,
+                "Operator": "=",
+                "Type": "Field",
+                "Value": "Next",
+                "is_checked": false
+            },
+            {
+                "$$hashKey": "object:1133",
+                "EntityFilterId": "a2O1K000002F69SUAS",
+                "FieldName": "Product_Family__c",
+                "FieldType": "picklist",
+                "Index": 1,
+                "IsNot": false,
+                "Operator": "=",
+                "Type": "Field",
+                "Value": "POS",
+                "is_checked": false
+            },
+            {
+                "$$hashKey": "object:1144",
+                "EntityFilterId": "a2O1K000002F69XUAS",
+                "FieldName": "Network__c",
+                "FieldType": "string",
+                "Index": 1,
+                "IsNot": false,
+                "Operator": "=",
+                "Type": "Field",
+                "Value": "Blue Preferred HMO",
+                "is_checked": false
+            },
+            {
+                "$$hashKey": "object:1170",
+                "EntityFilterId": "a2O1K000002F6AfUAK",
+                "FieldName": "OTHER_cdhProductType",
+                "FieldType": "anyType",
+                "Index": 1,
+                "IsNot": false,
+                "Operator": "=",
+                "Type": "Attribute",
+                "Value": "HRA",
+                "is_checked": false
+            },
+            {
+                "$$hashKey": "object:1134",
+                "EntityFilterId": "a2O1K000002F69SUAS",
+                "FieldName": "Product_Family__c",
+                "FieldType": "picklist",
+                "Index": 2,
+                "IsNot": false,
+                "Operator": "=",
+                "Type": "Field",
+                "Value": "HMO",
+                "is_checked": false
+            },
+            {
+                "$$hashKey": "object:1145",
+                "EntityFilterId": "a2O1K000002F69XUAS",
+                "FieldName": "Network__c",
+                "FieldType": "string",
+                "Index": 2,
+                "IsNot": false,
+                "Operator": "=",
+                "Type": "Field",
+                "Value": "Blue Preferred EPO",
+                "is_checked": false
+            },
+            {
+                "$$hashKey": "object:1146",
+                "EntityFilterId": "a2O1K000002F69XUAS",
+                "FieldName": "Network__c",
+                "FieldType": "string",
+                "Index": 2,
+                "IsNot": false,
+                "Operator": "=",
+                "Type": "Field",
+                "Value": "Blue Access",
+                "is_checked": false
+            },
+            {
+                "$$hashKey": "object:1171",
+                "EntityFilterId": "a2O1K000002F6AfUAK",
+                "FieldName": "OTHER_cdhProductType",
+                "FieldType": "anyType",
+                "Index": 2,
+                "IsNot": false,
+                "Operator": "=",
+                "Type": "Attribute",
+                "Value": "HSA",
+                "is_checked": false
+            },
+            {
+                "$$hashKey": "object:1135",
+                "EntityFilterId": "a2O1K000002F69SUAS",
+                "FieldName": "Product_Family__c",
+                "FieldType": "picklist",
+                "Index": 3,
+                "IsNot": false,
+                "Operator": "=",
+                "Type": "Field",
+                "Value": "EPO",
+                "is_checked": false
+            },
+            {
+                "$$hashKey": "object:1147",
+                "EntityFilterId": "a2O1K000002F69XUAS",
+                "FieldName": "Network__c",
+                "FieldType": "string",
+                "Index": 3,
+                "IsNot": false,
+                "Operator": "=",
+                "Type": "Field",
+                "Value": "Blue Priority - WI",
+                "is_checked": false
+            },
+            {
+                "$$hashKey": "object:1148",
+                "EntityFilterId": "a2O1K000002F69XUAS",
+                "FieldName": "Network__c",
+                "FieldType": "string",
+                "Index": 3,
+                "IsNot": false,
+                "Operator": "=",
+                "Type": "Field",
+                "Value": "Blue Access OH I",
+                "is_checked": false
+            },
+            {
+                "$$hashKey": "object:1172",
+                "EntityFilterId": "a2O1K000002F6AfUAK",
+                "FieldName": "OTHER_cdhProductType",
+                "FieldType": "anyType",
+                "Index": 3,
+                "IsNot": false,
+                "Operator": "=",
+                "Type": "Attribute",
+                "Value": "HIA Plus",
+                "is_checked": false
+            },
+            {
+                "$$hashKey": "object:1149",
+                "EntityFilterId": "a2O1K000002F69XUAS",
+                "FieldName": "Network__c",
+                "FieldType": "string",
+                "Index": 4,
+                "IsNot": false,
+                "Operator": "=",
+                "Type": "Field",
+                "Value": "Blue Preferred Plus",
+                "is_checked": false
+            },
+            {
+                "$$hashKey": "object:1150",
+                "EntityFilterId": "a2O1K000002F69XUAS",
+                "FieldName": "Network__c",
+                "FieldType": "string",
+                "Index": 4,
+                "IsNot": false,
+                "Operator": "=",
+                "Type": "Field",
+                "Value": "Anthem HealthSync",
+                "is_checked": false
+            },
+            {
+                "$$hashKey": "object:1173",
+                "EntityFilterId": "a2O1K000002F6AfUAK",
+                "FieldName": "OTHER_cdhProductType",
+                "FieldType": "anyType",
+                "Index": 4,
+                "IsNot": false,
+                "Operator": "=",
+                "Type": "Attribute",
+                "Value": "None",
+                "is_checked": false
+            },
+            {
+                "$$hashKey": "object:1151",
+                "EntityFilterId": "a2O1K000002F69XUAS",
+                "FieldName": "Network__c",
+                "FieldType": "string",
+                "Index": 5,
+                "IsNot": false,
+                "Operator": "=",
+                "Type": "Field",
+                "Value": "Anthem Alliance EPO",
+                "is_checked": false
+            },
+            {
+                "$$hashKey": "object:1152",
+                "EntityFilterId": "a2O1K000002F69XUAS",
+                "FieldName": "Network__c",
+                "FieldType": "string",
+                "Index": 5,
+                "IsNot": false,
+                "Operator": "=",
+                "Type": "Field",
+                "Value": "Blue Access Choice",
+                "is_checked": false
+            },
+            {
+                "$$hashKey": "object:1153",
+                "EntityFilterId": "a2O1K000002F69XUAS",
+                "FieldName": "Network__c",
+                "FieldType": "string",
+                "Index": 6,
+                "IsNot": false,
+                "Operator": "=",
+                "Type": "Field",
+                "Value": "Blue Preferred",
+                "is_checked": false
+            },
+            {
+                "$$hashKey": "object:1154",
+                "EntityFilterId": "a2O1K000002F69XUAS",
+                "FieldName": "Network__c",
+                "FieldType": "string",
+                "Index": 7,
+                "IsNot": false,
+                "Operator": "=",
+                "Type": "Field",
+                "Value": "Blue Preferred – HMO",
+                "is_checked": false
+            }
+        ]
+    },
+    "FinalComp1Id": "",
+    "FinalComp1Stat": "",
+    "FinalComp2Id": "",
+    "FinalComp2Stat": "",
+    "FinalComp3Id": "",
+    "FinalComp3Stat": "",
+    "FinalOpptyRecType": "New Business Local",
+    "HPCCCodeVal": "",
+    "HPCCVal_Count": "",
+    "IGAP": "0Q04B000000AFao",
+    "InvType1": "",
+    "InvType2": "",
+    "InvType3": "",
+    "LOB1": "",
+    "LOB2": "",
+    "LOB3": "",
+    "MultiEmp1": "",
+    "MultiEmp1ReadOnly": "",
+    "MultiEmp2": "",
+    "MultiEmp2ReadOnly": "",
+    "MultiEmp3": "",
+    "MultiEmp3ReadOnly": "",
+    "NOEmp1": "",
+    "NOEmp1ReadOnly": "",
+    "NOEmp2": "",
+    "NOEmp2ReadOnly": "",
+    "NOEmp3": "",
+    "NOEmp3ReadOnly": "",
+    "NOUFlagEditStep": "",
+    "NewBusiness": "0Q04B000000AJiN",
+    "OpptyDetails": {
+        "AnthemEntity": "Local/Large Group",
+        "OpportunityEffectiveDate": "2020-01-01",
+        "StageName": "Quoting"
+    },
+    "OpptyEffectiveDateYear": 2020,
+    "OpptyType": "New Business Local",
+    "Opptystage": "Quoting",
+    "PlanListInit": 0.43438002320306657,
+    "PlanType": "Standard",
+    "PlanTypeValNp": "",
+    "QLD": {
+        "AP-BundleType": "",
+        "PharmacyCarvedOut": false,
+        "QLD-AccountId": "001S0000012CyhuIAC",
+        "QLD-Block": {
+            "BenefitPeriodDetails": {
+                "Benefit_Period": "Calendar Year"
+            },
+            "Block13": null,
+            "Block8": {
+                "QLD-ParticipationType": null
+            },
+            "OpptyEffectiveDate": "2020-01-01",
+            "Pharmacy Section": null,
+            "Probability": "10%",
+            "ProductStage": "In Progress",
+            "QLD-AdminIntegration": false,
+            "QLD-AutoQuote": false,
+            "QLD-CEPIndicator": null,
+            "QLD-ClinicalIntegration": false,
+            "QLD-DayMsg": true,
+            "QLD-Discount": null,
+            "QLD-Discountsharing": null,
+            "QLD-DoNotAutoPickPCP": false,
+            "QLD-EPHCEnhPersHealthCare": null,
+            "QLD-EmplyrContDepend": null,
+            "QLD-EmplyrContEmp": null,
+            "QLD-EstimAnnualPrem": null,
+            "QLD-EyemedCollaboration": null,
+            "QLD-Final_Rate": null,
+            "QLD-Financing": "Cost Plus Alternate Funded",
+            "QLD-Funding": "FI",
+            "QLD-GroupSize": "500 - 999",
+            "QLD-Members": 10,
+            "QLD-Network": null,
+            "QLD-NoSalesCredit": null,
+            "QLD-Original_Rate_Adjustment": null,
+            "QLD-Probability": "10%",
+            "QLD-ProdStage": "In Progress",
+            "QLD-ProductStageMsg": true,
+            "QLD-ProductTermYearsLeft": null,
+            "QLD-RX Vendors": null,
+            "QLD-RateGuarThr": null,
+            "QLD-Rate_Differential": null,
+            "QLD-Rate_Differential_Type": null,
+            "QLD-Rate_Relief": null,
+            "QLD-Reason": null,
+            "QLD-ReasonCalc": null,
+            "QLD-ReasonPck": null,
+            "QLD-Subscribers": 10,
+            "QLD-TermDate": null,
+            "QLD-TermDateIn": null,
+            "QLD-TermSelection": "Ok",
+            "QLD-Upsell": null,
+            "QLD_Reason_Chk": true,
+            "QLD_Stage_Chk": "No"
+        },
+        "QLD-ReqCompetitor": "No",
+        "QLD-TermReqFlds": "Yes",
+        "QLD-Vendor": null
+    },
+    "QLD-NoSalesCredit": "No",
+    "QuoteDetails": {
+        "AccountId": "001S0000012CyhuIAC",
+        "EffectiveDate": "2020-01-01",
+        "GNReqStatus": "Requested",
+        "GroupId": "KY2269",
+        "GroupName": "KY2269",
+        "GroupNumber": "a5IS0000002qULzMAM",
+        "Id": "0Q0S0000000MV46KAG",
+        "OpptyId": "006S000000DYyJZIA1",
+        "OpptyRecType": "New Business Local",
+        "OpptyStage": "Quoting",
+        "Pricebook2Id": "01s41000007wBCZAA2",
+        "UserGroup": "Local"
+    },
+    "QuoteId": "0Q0S0000000MV46KAG",
+    "QuoteLineItem_RecordType": "LocalType",
+    "QuotedStatus": "Internal Only",
+    "Renewals": "0Q04B000000AKWwSAO",
+    "SelectServiceProvider": {
+        "Account_Id": "001S0000012CyhuIAC",
+        "AddComp2": false,
+        "AddComp3": null,
+        "CompIdCalc2": null,
+        "CompIdCalc3": null,
+        "CompStatusCalc2": null,
+        "CompStatusCalc3": null,
+        "CompetitorId": null,
+        "CompetitorStatus": null,
+        "CompetitorStatus1_LG": null,
+        "CompetitorStatusFormula": null,
+        "InvTypeCalc1": null,
+        "InvTypeCalc2": null,
+        "InvTypeCalc3": null,
+        "InvolvementType": null,
+        "InvolvementType2": null,
+        "InvolvementType3": null,
+        "LOBCalc1": null,
+        "LOBCalc2": null,
+        "LOBCalc3": null,
+        "LineOfBusiness": null,
+        "LineOfBusiness2": null,
+        "LineOfBusiness3": null,
+        "Membership1": null,
+        "Membership2": null,
+        "Membership3": null,
+        "Multi-Employer": false,
+        "Multi-Employer2": null,
+        "Multi-Employer3": null,
+        "MultiEmpCalc1": null,
+        "MultiEmpCalc2": false,
+        "MultiEmpCalc3": false,
+        "NA-WarnMembership": null,
+        "NOUFlag": true,
+        "NameOfEmployers": null,
+        "NameOfEmployers2": null,
+        "NameOfEmployers3": null,
+        "NoEmpCalc1": null,
+        "NoEmpCalc2": null,
+        "NoEmpCalc3": null,
+        "ReqComFlds": "Yes",
+        "SP-CompStatus2": null,
+        "SP-CompStatus2_LG": null,
+        "SP-CompStatus3": null,
+        "SP-CompStatus3_LG": null,
+        "SPTD-Msg": null,
+        "SPTermDate": null,
+        "SPTermDateDay": null,
+        "SPTermDateIn": null,
+        "SSP-Msg": true,
+        "SSPMsg-Flg": "No",
+        "TACompetitor2-Block": null,
+        "TACompetitor2_NA-Block": null,
+        "TACompetitor3-Block": null,
+        "TACompetitor3_NA-Block": null,
+        "TypeAheadAccount-Block": {
+            "ServiceProviderAccountId_LG": null,
+            "TypeAheadAccount": null
+        },
+        "TypeAheadAccount_NA-Block": null
+    },
+    "Select_Deductible_Amount_and_Coinsurance_Rate": {
+        "Coinsurance_Rate": "10-19",
+        "Coinsurance_Rate_Calc": "TenP",
+        "Deductible_Amount": "$0-$1000",
+        "Deductible_Amount_Calc": "OneK"
+    },
+    "Situs_State": "KY",
+    "UserArea": "Local",
+    "UserGroup": "Local",
+    "effectiveDate": "2020-01-01",
+    "id": "a3CS0000000Fw8oMAC",
+    "insSgpsCartInit": 0.8808989238650704,
+    "isLocalSales": false,
+    "layout": "newport",
+    "timeStamp": "2019-07-23T06:46:01.419Z",
+    "undefined": {
+        "PlanListInit": 0.43438002320306657,
+        "cartCompareSelectMap": {
+        },
+        "cartPlans": [
+            {
+                "$$hashKey": "object:1294",
+                "Contract_Code__c": "4YBQ",
+                "HPCC_Code__c": "HJ5U",
+                "Id": "01tS0000005x35VIAQ",
+                "IsConfigurable__c": false,
+                "IsRecommended__c": false,
+                "MarketSegment__c": "Large Group",
+                "Name": "Anthem Blue Preferred HMO Option CSV with Rx Option E2",
+                "Network__c": "Blue Preferred HMO",
+                "ParentProduct__c": "01t1K00000670PB",
+                "Portfolio_Year__c": "2020",
+                "Price": "",
+                "ProductCode": "PMT-4YBQ",
+                "Product_Family__c": "HMO",
+                "QLIRecordType__c": "LocalType",
+                "RecordTypeName__c": "Product",
+                "Term__c": "Annual",
+                "attributeCategories": {
+                    "records": [
+                        {
+                            "$$hashKey": "object:1193",
+                            "Code__c": "inn",
+                            "Name": "In Network",
+                            "displaySequence": 1000,
+                            "id": "a1L1K000007LFrlUAG",
+                            "productAttributes": {
+                                "records": [
+                                    {
+                                        "$$hashKey": "object:1207",
+                                        "attributeGroupType": "In-Network",
+                                        "attributeId": "a1M1K0000082KcOUAU",
+                                        "cloneable": true,
+                                        "code": "inn_defaultCoinsurance_inn",
+                                        "dataType": "percent",
+                                        "disabled": true,
+                                        "displaySequence": 1,
+                                        "filterable": true,
+                                        "formattedValues": [
+                                            10
+                                        ],
+                                        "hasRules": false,
+                                        "hidden": false,
+                                        "inputType": "text",
+                                        "isNotTranslatable": false,
+                                        "label": "In Network Coinsurance",
+                                        "multiselect": false,
+                                        "readonly": true,
+                                        "required": false,
+                                        "userValues": 10,
+                                        "values": [
+                                            {
+                                                "disabled": true,
+                                                "readonly": true
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "$$hashKey": "object:1208",
+                                        "attributeGroupType": "In-Network",
+                                        "attributeId": "a1M1K0000082KcQUAU",
+                                        "cloneable": true,
+                                        "code": "inn_deductibleSingle_inn",
+                                        "dataType": "currency",
+                                        "disabled": true,
+                                        "displaySequence": 2,
+                                        "filterable": true,
+                                        "formattedValues": [
+                                            500
+                                        ],
+                                        "hasRules": false,
+                                        "hidden": false,
+                                        "inputType": "text",
+                                        "isNotTranslatable": false,
+                                        "label": "In Network Deductible Single",
+                                        "multiselect": false,
+                                        "readonly": true,
+                                        "required": false,
+                                        "userValues": 500,
+                                        "values": [
+                                            {
+                                                "disabled": true,
+                                                "readonly": true
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "attributeGroupType": "In-Network",
+                                        "attributeId": "a1M1K0000082KcPUAU",
+                                        "cloneable": true,
+                                        "code": "inn_deductibleFamily_inn",
+                                        "dataType": "currency",
+                                        "disabled": true,
+                                        "displaySequence": 3,
+                                        "filterable": true,
+                                        "formattedValues": [
+                                            1000
+                                        ],
+                                        "hasRules": false,
+                                        "hidden": false,
+                                        "inputType": "text",
+                                        "isNotTranslatable": false,
+                                        "label": "In Network Deductible Family",
+                                        "multiselect": false,
+                                        "readonly": true,
+                                        "required": false,
+                                        "userValues": 1000,
+                                        "values": [
+                                            {
+                                                "disabled": true,
+                                                "readonly": true
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "$$hashKey": "object:1209",
+                                        "attributeGroupType": "In-Network",
+                                        "attributeId": "a1M1K0000082KcRUAU",
+                                        "cloneable": true,
+                                        "code": "inn_outOfPocketSingle_inn",
+                                        "dataType": "currency",
+                                        "disabled": true,
+                                        "displaySequence": 4,
+                                        "filterable": true,
+                                        "formattedValues": [
+                                            2500
+                                        ],
+                                        "hasRules": false,
+                                        "hidden": false,
+                                        "inputType": "text",
+                                        "isNotTranslatable": false,
+                                        "label": "In Network Out of Pocket Max Single",
+                                        "multiselect": false,
+                                        "readonly": true,
+                                        "required": false,
+                                        "userValues": 2500,
+                                        "values": [
+                                            {
+                                                "disabled": true,
+                                                "readonly": true
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "attributeGroupType": "In-Network",
+                                        "attributeId": "a1M1K0000082KcSUAU",
+                                        "cloneable": true,
+                                        "code": "inn_outOfPocketFamily_inn",
+                                        "dataType": "currency",
+                                        "disabled": true,
+                                        "displaySequence": 5,
+                                        "filterable": true,
+                                        "formattedValues": [
+                                            5000
+                                        ],
+                                        "hasRules": false,
+                                        "hidden": false,
+                                        "inputType": "text",
+                                        "isNotTranslatable": false,
+                                        "label": "In Network Out of Pocket Max Family",
+                                        "multiselect": false,
+                                        "readonly": true,
+                                        "required": false,
+                                        "userValues": 5000,
+                                        "values": [
+                                            {
+                                                "disabled": true,
+                                                "readonly": true
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "totalSize": 5
+                            }
+                        },
+                        {
+                            "$$hashKey": "object:1194",
+                            "Code__c": "SCP",
+                            "Name": "Specialty Care Provider",
+                            "displaySequence": 1015,
+                            "id": "a1L1K000007LFroUAG",
+                            "productAttributes": {
+                                "records": [
+                                    {
+                                        "attributeGroupType": "In-Network",
+                                        "attributeId": "a1M1K0000082KcdUAE",
+                                        "cloneable": true,
+                                        "code": "SCP_copayAmount_12_inn",
+                                        "dataType": "text",
+                                        "disabled": true,
+                                        "displaySequence": 1,
+                                        "filterable": true,
+                                        "formattedValues": [
+                                        ],
+                                        "hasRules": false,
+                                        "hidden": false,
+                                        "inputType": "text",
+                                        "isNotTranslatable": false,
+                                        "label": "Co Pay - Specialty Care Provider (INN)",
+                                        "multiselect": false,
+                                        "readonly": true,
+                                        "required": false,
+                                        "userValues": "40.00",
+                                        "values": [
+                                            {
+                                                "disabled": true,
+                                                "readonly": true
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "totalSize": 1
+                            }
+                        },
+                        {
+                            "$$hashKey": "object:1195",
+                            "Code__c": "PCP",
+                            "Name": "Primary Care Provider",
+                            "displaySequence": 1020,
+                            "id": "a1L1K000007LFrpUAG",
+                            "productAttributes": {
+                                "records": [
+                                    {
+                                        "$$hashKey": "object:1216",
+                                        "attributeGroupType": "In-Network",
+                                        "attributeId": "a1M1K0000082KcjUAE",
+                                        "cloneable": true,
+                                        "code": "PCP_copayAmount_2_inn",
+                                        "dataType": "currency",
+                                        "disabled": true,
+                                        "displaySequence": 1,
+                                        "filterable": true,
+                                        "formattedValues": [
+                                            20
+                                        ],
+                                        "hasRules": false,
+                                        "hidden": false,
+                                        "inputType": "text",
+                                        "isNotTranslatable": false,
+                                        "label": "Co Pay - Primary Care Provider (INN)",
+                                        "multiselect": false,
+                                        "readonly": true,
+                                        "required": false,
+                                        "userValues": 20,
+                                        "values": [
+                                            {
+                                                "disabled": true,
+                                                "readonly": true
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "totalSize": 1
+                            }
+                        },
+                        {
+                            "$$hashKey": "object:1196",
+                            "Code__c": "EMRM",
+                            "Name": "Emergency Room",
+                            "displaySequence": 1025,
+                            "id": "a1L1K000007LFrqUAG",
+                            "productAttributes": {
+                                "records": [
+                                    {
+                                        "attributeGroupType": "In-Network",
+                                        "attributeId": "a1M1K0000082KcpUAE",
+                                        "cloneable": true,
+                                        "code": "EMRM_copayAmount_43_inn",
+                                        "dataType": "text",
+                                        "disabled": true,
+                                        "displaySequence": 1,
+                                        "filterable": true,
+                                        "formattedValues": [
+                                        ],
+                                        "hasRules": false,
+                                        "hidden": false,
+                                        "inputType": "text",
+                                        "isNotTranslatable": false,
+                                        "label": "Co Pay - Emergency Room (INN)",
+                                        "multiselect": false,
+                                        "readonly": true,
+                                        "required": false,
+                                        "userValues": "250.00",
+                                        "values": [
+                                            {
+                                                "disabled": true,
+                                                "readonly": true
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "attributeGroupType": "In-Network",
+                                        "attributeId": "a1M1K0000082KcsUAE",
+                                        "cloneable": true,
+                                        "code": "EMRM_coinsurancePercentage_43_inn",
+                                        "dataType": "percent",
+                                        "disabled": true,
+                                        "displaySequence": 4,
+                                        "filterable": true,
+                                        "formattedValues": [
+                                            10
+                                        ],
+                                        "hasRules": false,
+                                        "hidden": false,
+                                        "inputType": "text",
+                                        "isNotTranslatable": false,
+                                        "label": "Co Ins - Emergency Room (INN)",
+                                        "multiselect": false,
+                                        "readonly": true,
+                                        "required": false,
+                                        "userValues": 10,
+                                        "values": [
+                                            {
+                                                "disabled": true,
+                                                "readonly": true
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "totalSize": 2
+                            }
+                        },
+                        {
+                            "$$hashKey": "object:1197",
+                            "Code__c": "UCARE",
+                            "Name": "Urgent Care",
+                            "displaySequence": 1030,
+                            "id": "a1L1K000007LFrrUAG",
+                            "productAttributes": {
+                                "records": [
+                                    {
+                                        "attributeGroupType": "In-Network",
+                                        "attributeId": "a1M1K0000082KcvUAE",
+                                        "cloneable": true,
+                                        "code": "UCARE_copayAmount_33_inn",
+                                        "dataType": "text",
+                                        "disabled": true,
+                                        "displaySequence": 1,
+                                        "filterable": true,
+                                        "formattedValues": [
+                                        ],
+                                        "hasRules": false,
+                                        "hidden": false,
+                                        "inputType": "text",
+                                        "isNotTranslatable": false,
+                                        "label": "Co Pay - Urgent Care (INN)",
+                                        "multiselect": false,
+                                        "readonly": true,
+                                        "required": false,
+                                        "userValues": "75.00",
+                                        "values": [
+                                            {
+                                                "disabled": true,
+                                                "readonly": true
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "totalSize": 1
+                            }
+                        },
+                        {
+                            "$$hashKey": "object:1198",
+                            "Code__c": "RXPLAN",
+                            "Name": "Pharmacy Plan",
+                            "displaySequence": 1035,
+                            "id": "a1L1K000007LFrsUAG",
+                            "productAttributes": {
+                                "records": [
+                                    {
+                                        "attributeId": "a1M1K0000082Kd1UAE",
+                                        "cloneable": true,
+                                        "code": "RXPLAN_rxPlanName",
+                                        "dataType": "text",
+                                        "disabled": true,
+                                        "displaySequence": 1,
+                                        "filterable": true,
+                                        "formattedValues": [
+                                        ],
+                                        "hasRules": false,
+                                        "hidden": false,
+                                        "inputType": "text",
+                                        "isNotTranslatable": false,
+                                        "label": "Rx Plan Name",
+                                        "multiselect": false,
+                                        "readonly": true,
+                                        "required": false,
+                                        "userValues": "KY-LG-RX E2",
+                                        "values": [
+                                            {
+                                                "disabled": true,
+                                                "readonly": true
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "totalSize": 1
+                            }
+                        },
+                        {
+                            "$$hashKey": "object:1199",
+                            "Code__c": "OTHER",
+                            "Name": "Other Plan Details",
+                            "displaySequence": 1100,
+                            "id": "a1L1K000007LFruUAG",
+                            "productAttributes": {
+                                "records": [
+                                    {
+                                        "attributeId": "a1M1K0000082Kd3UAE",
+                                        "cloneable": true,
+                                        "code": "OTHER_masterBrand",
+                                        "dataType": "text",
+                                        "disabled": true,
+                                        "displaySequence": 1,
+                                        "filterable": true,
+                                        "formattedValues": [
+                                        ],
+                                        "hasRules": false,
+                                        "hidden": false,
+                                        "inputType": "text",
+                                        "isNotTranslatable": false,
+                                        "label": "Master  Branding",
+                                        "multiselect": false,
+                                        "readonly": true,
+                                        "required": false,
+                                        "userValues": "Anthem",
+                                        "values": [
+                                            {
+                                                "disabled": true,
+                                                "readonly": true
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "attributeId": "a1M1K0000082Kd4UAE",
+                                        "cloneable": true,
+                                        "code": "OTHER_branding",
+                                        "dataType": "text",
+                                        "disabled": true,
+                                        "displaySequence": 2,
+                                        "filterable": true,
+                                        "formattedValues": [
+                                        ],
+                                        "hasRules": false,
+                                        "hidden": false,
+                                        "inputType": "text",
+                                        "isNotTranslatable": false,
+                                        "label": "Branding",
+                                        "multiselect": false,
+                                        "readonly": true,
+                                        "required": false,
+                                        "userValues": "LG 100+",
+                                        "values": [
+                                            {
+                                                "disabled": true,
+                                                "readonly": true
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "attributeId": "a1M1K0000082Kd5UAE",
+                                        "cloneable": true,
+                                        "code": "OTHER_legalEntity",
+                                        "dataType": "text",
+                                        "disabled": true,
+                                        "displaySequence": 3,
+                                        "filterable": true,
+                                        "formattedValues": [
+                                        ],
+                                        "hasRules": false,
+                                        "hidden": false,
+                                        "inputType": "text",
+                                        "isNotTranslatable": false,
+                                        "label": "Legal Entity",
+                                        "multiselect": false,
+                                        "readonly": true,
+                                        "required": false,
+                                        "userValues": "Anthem Health Plans of Kentucky, Inc.",
+                                        "values": [
+                                            {
+                                                "disabled": true,
+                                                "readonly": true
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "totalSize": 3
+                            }
+                        }
+                    ],
+                    "totalSize": 7
+                },
+                "displaySequence": -1,
+                "originalIndex": 0,
+                "productId": "01tS0000005x35VIAQ",
+                "rider_list": [
+                ],
+                "selected": true,
+                "visible": true
+            }
+        ],
+        "displayedCartPlans": [
+            {
+                "$$hashKey": "object:1294",
+                "Contract_Code__c": "4YBQ",
+                "HPCC_Code__c": "HJ5U",
+                "Id": "01tS0000005x35VIAQ",
+                "IsConfigurable__c": false,
+                "IsRecommended__c": false,
+                "MarketSegment__c": "Large Group",
+                "Name": "Anthem Blue Preferred HMO Option CSV with Rx Option E2",
+                "Network__c": "Blue Preferred HMO",
+                "ParentProduct__c": "01t1K00000670PB",
+                "Portfolio_Year__c": "2020",
+                "Price": "",
+                "ProductCode": "PMT-4YBQ",
+                "Product_Family__c": "HMO",
+                "QLIRecordType__c": "LocalType",
+                "RecordTypeName__c": "Product",
+                "Term__c": "Annual",
+                "attributeCategories": {
+                    "records": [
+                        {
+                            "$$hashKey": "object:1193",
+                            "Code__c": "inn",
+                            "Name": "In Network",
+                            "displaySequence": 1000,
+                            "id": "a1L1K000007LFrlUAG",
+                            "productAttributes": {
+                                "records": [
+                                    {
+                                        "$$hashKey": "object:1207",
+                                        "attributeGroupType": "In-Network",
+                                        "attributeId": "a1M1K0000082KcOUAU",
+                                        "cloneable": true,
+                                        "code": "inn_defaultCoinsurance_inn",
+                                        "dataType": "percent",
+                                        "disabled": true,
+                                        "displaySequence": 1,
+                                        "filterable": true,
+                                        "formattedValues": [
+                                            10
+                                        ],
+                                        "hasRules": false,
+                                        "hidden": false,
+                                        "inputType": "text",
+                                        "isNotTranslatable": false,
+                                        "label": "In Network Coinsurance",
+                                        "multiselect": false,
+                                        "readonly": true,
+                                        "required": false,
+                                        "userValues": 10,
+                                        "values": [
+                                            {
+                                                "disabled": true,
+                                                "readonly": true
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "$$hashKey": "object:1208",
+                                        "attributeGroupType": "In-Network",
+                                        "attributeId": "a1M1K0000082KcQUAU",
+                                        "cloneable": true,
+                                        "code": "inn_deductibleSingle_inn",
+                                        "dataType": "currency",
+                                        "disabled": true,
+                                        "displaySequence": 2,
+                                        "filterable": true,
+                                        "formattedValues": [
+                                            500
+                                        ],
+                                        "hasRules": false,
+                                        "hidden": false,
+                                        "inputType": "text",
+                                        "isNotTranslatable": false,
+                                        "label": "In Network Deductible Single",
+                                        "multiselect": false,
+                                        "readonly": true,
+                                        "required": false,
+                                        "userValues": 500,
+                                        "values": [
+                                            {
+                                                "disabled": true,
+                                                "readonly": true
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "attributeGroupType": "In-Network",
+                                        "attributeId": "a1M1K0000082KcPUAU",
+                                        "cloneable": true,
+                                        "code": "inn_deductibleFamily_inn",
+                                        "dataType": "currency",
+                                        "disabled": true,
+                                        "displaySequence": 3,
+                                        "filterable": true,
+                                        "formattedValues": [
+                                            1000
+                                        ],
+                                        "hasRules": false,
+                                        "hidden": false,
+                                        "inputType": "text",
+                                        "isNotTranslatable": false,
+                                        "label": "In Network Deductible Family",
+                                        "multiselect": false,
+                                        "readonly": true,
+                                        "required": false,
+                                        "userValues": 1000,
+                                        "values": [
+                                            {
+                                                "disabled": true,
+                                                "readonly": true
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "$$hashKey": "object:1209",
+                                        "attributeGroupType": "In-Network",
+                                        "attributeId": "a1M1K0000082KcRUAU",
+                                        "cloneable": true,
+                                        "code": "inn_outOfPocketSingle_inn",
+                                        "dataType": "currency",
+                                        "disabled": true,
+                                        "displaySequence": 4,
+                                        "filterable": true,
+                                        "formattedValues": [
+                                            2500
+                                        ],
+                                        "hasRules": false,
+                                        "hidden": false,
+                                        "inputType": "text",
+                                        "isNotTranslatable": false,
+                                        "label": "In Network Out of Pocket Max Single",
+                                        "multiselect": false,
+                                        "readonly": true,
+                                        "required": false,
+                                        "userValues": 2500,
+                                        "values": [
+                                            {
+                                                "disabled": true,
+                                                "readonly": true
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "attributeGroupType": "In-Network",
+                                        "attributeId": "a1M1K0000082KcSUAU",
+                                        "cloneable": true,
+                                        "code": "inn_outOfPocketFamily_inn",
+                                        "dataType": "currency",
+                                        "disabled": true,
+                                        "displaySequence": 5,
+                                        "filterable": true,
+                                        "formattedValues": [
+                                            5000
+                                        ],
+                                        "hasRules": false,
+                                        "hidden": false,
+                                        "inputType": "text",
+                                        "isNotTranslatable": false,
+                                        "label": "In Network Out of Pocket Max Family",
+                                        "multiselect": false,
+                                        "readonly": true,
+                                        "required": false,
+                                        "userValues": 5000,
+                                        "values": [
+                                            {
+                                                "disabled": true,
+                                                "readonly": true
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "totalSize": 5
+                            }
+                        },
+                        {
+                            "$$hashKey": "object:1194",
+                            "Code__c": "SCP",
+                            "Name": "Specialty Care Provider",
+                            "displaySequence": 1015,
+                            "id": "a1L1K000007LFroUAG",
+                            "productAttributes": {
+                                "records": [
+                                    {
+                                        "attributeGroupType": "In-Network",
+                                        "attributeId": "a1M1K0000082KcdUAE",
+                                        "cloneable": true,
+                                        "code": "SCP_copayAmount_12_inn",
+                                        "dataType": "text",
+                                        "disabled": true,
+                                        "displaySequence": 1,
+                                        "filterable": true,
+                                        "formattedValues": [
+                                        ],
+                                        "hasRules": false,
+                                        "hidden": false,
+                                        "inputType": "text",
+                                        "isNotTranslatable": false,
+                                        "label": "Co Pay - Specialty Care Provider (INN)",
+                                        "multiselect": false,
+                                        "readonly": true,
+                                        "required": false,
+                                        "userValues": "40.00",
+                                        "values": [
+                                            {
+                                                "disabled": true,
+                                                "readonly": true
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "totalSize": 1
+                            }
+                        },
+                        {
+                            "$$hashKey": "object:1195",
+                            "Code__c": "PCP",
+                            "Name": "Primary Care Provider",
+                            "displaySequence": 1020,
+                            "id": "a1L1K000007LFrpUAG",
+                            "productAttributes": {
+                                "records": [
+                                    {
+                                        "$$hashKey": "object:1216",
+                                        "attributeGroupType": "In-Network",
+                                        "attributeId": "a1M1K0000082KcjUAE",
+                                        "cloneable": true,
+                                        "code": "PCP_copayAmount_2_inn",
+                                        "dataType": "currency",
+                                        "disabled": true,
+                                        "displaySequence": 1,
+                                        "filterable": true,
+                                        "formattedValues": [
+                                            20
+                                        ],
+                                        "hasRules": false,
+                                        "hidden": false,
+                                        "inputType": "text",
+                                        "isNotTranslatable": false,
+                                        "label": "Co Pay - Primary Care Provider (INN)",
+                                        "multiselect": false,
+                                        "readonly": true,
+                                        "required": false,
+                                        "userValues": 20,
+                                        "values": [
+                                            {
+                                                "disabled": true,
+                                                "readonly": true
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "totalSize": 1
+                            }
+                        },
+                        {
+                            "$$hashKey": "object:1196",
+                            "Code__c": "EMRM",
+                            "Name": "Emergency Room",
+                            "displaySequence": 1025,
+                            "id": "a1L1K000007LFrqUAG",
+                            "productAttributes": {
+                                "records": [
+                                    {
+                                        "attributeGroupType": "In-Network",
+                                        "attributeId": "a1M1K0000082KcpUAE",
+                                        "cloneable": true,
+                                        "code": "EMRM_copayAmount_43_inn",
+                                        "dataType": "text",
+                                        "disabled": true,
+                                        "displaySequence": 1,
+                                        "filterable": true,
+                                        "formattedValues": [
+                                        ],
+                                        "hasRules": false,
+                                        "hidden": false,
+                                        "inputType": "text",
+                                        "isNotTranslatable": false,
+                                        "label": "Co Pay - Emergency Room (INN)",
+                                        "multiselect": false,
+                                        "readonly": true,
+                                        "required": false,
+                                        "userValues": "250.00",
+                                        "values": [
+                                            {
+                                                "disabled": true,
+                                                "readonly": true
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "attributeGroupType": "In-Network",
+                                        "attributeId": "a1M1K0000082KcsUAE",
+                                        "cloneable": true,
+                                        "code": "EMRM_coinsurancePercentage_43_inn",
+                                        "dataType": "percent",
+                                        "disabled": true,
+                                        "displaySequence": 4,
+                                        "filterable": true,
+                                        "formattedValues": [
+                                            10
+                                        ],
+                                        "hasRules": false,
+                                        "hidden": false,
+                                        "inputType": "text",
+                                        "isNotTranslatable": false,
+                                        "label": "Co Ins - Emergency Room (INN)",
+                                        "multiselect": false,
+                                        "readonly": true,
+                                        "required": false,
+                                        "userValues": 10,
+                                        "values": [
+                                            {
+                                                "disabled": true,
+                                                "readonly": true
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "totalSize": 2
+                            }
+                        },
+                        {
+                            "$$hashKey": "object:1197",
+                            "Code__c": "UCARE",
+                            "Name": "Urgent Care",
+                            "displaySequence": 1030,
+                            "id": "a1L1K000007LFrrUAG",
+                            "productAttributes": {
+                                "records": [
+                                    {
+                                        "attributeGroupType": "In-Network",
+                                        "attributeId": "a1M1K0000082KcvUAE",
+                                        "cloneable": true,
+                                        "code": "UCARE_copayAmount_33_inn",
+                                        "dataType": "text",
+                                        "disabled": true,
+                                        "displaySequence": 1,
+                                        "filterable": true,
+                                        "formattedValues": [
+                                        ],
+                                        "hasRules": false,
+                                        "hidden": false,
+                                        "inputType": "text",
+                                        "isNotTranslatable": false,
+                                        "label": "Co Pay - Urgent Care (INN)",
+                                        "multiselect": false,
+                                        "readonly": true,
+                                        "required": false,
+                                        "userValues": "75.00",
+                                        "values": [
+                                            {
+                                                "disabled": true,
+                                                "readonly": true
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "totalSize": 1
+                            }
+                        },
+                        {
+                            "$$hashKey": "object:1198",
+                            "Code__c": "RXPLAN",
+                            "Name": "Pharmacy Plan",
+                            "displaySequence": 1035,
+                            "id": "a1L1K000007LFrsUAG",
+                            "productAttributes": {
+                                "records": [
+                                    {
+                                        "attributeId": "a1M1K0000082Kd1UAE",
+                                        "cloneable": true,
+                                        "code": "RXPLAN_rxPlanName",
+                                        "dataType": "text",
+                                        "disabled": true,
+                                        "displaySequence": 1,
+                                        "filterable": true,
+                                        "formattedValues": [
+                                        ],
+                                        "hasRules": false,
+                                        "hidden": false,
+                                        "inputType": "text",
+                                        "isNotTranslatable": false,
+                                        "label": "Rx Plan Name",
+                                        "multiselect": false,
+                                        "readonly": true,
+                                        "required": false,
+                                        "userValues": "KY-LG-RX E2",
+                                        "values": [
+                                            {
+                                                "disabled": true,
+                                                "readonly": true
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "totalSize": 1
+                            }
+                        },
+                        {
+                            "$$hashKey": "object:1199",
+                            "Code__c": "OTHER",
+                            "Name": "Other Plan Details",
+                            "displaySequence": 1100,
+                            "id": "a1L1K000007LFruUAG",
+                            "productAttributes": {
+                                "records": [
+                                    {
+                                        "attributeId": "a1M1K0000082Kd3UAE",
+                                        "cloneable": true,
+                                        "code": "OTHER_masterBrand",
+                                        "dataType": "text",
+                                        "disabled": true,
+                                        "displaySequence": 1,
+                                        "filterable": true,
+                                        "formattedValues": [
+                                        ],
+                                        "hasRules": false,
+                                        "hidden": false,
+                                        "inputType": "text",
+                                        "isNotTranslatable": false,
+                                        "label": "Master  Branding",
+                                        "multiselect": false,
+                                        "readonly": true,
+                                        "required": false,
+                                        "userValues": "Anthem",
+                                        "values": [
+                                            {
+                                                "disabled": true,
+                                                "readonly": true
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "attributeId": "a1M1K0000082Kd4UAE",
+                                        "cloneable": true,
+                                        "code": "OTHER_branding",
+                                        "dataType": "text",
+                                        "disabled": true,
+                                        "displaySequence": 2,
+                                        "filterable": true,
+                                        "formattedValues": [
+                                        ],
+                                        "hasRules": false,
+                                        "hidden": false,
+                                        "inputType": "text",
+                                        "isNotTranslatable": false,
+                                        "label": "Branding",
+                                        "multiselect": false,
+                                        "readonly": true,
+                                        "required": false,
+                                        "userValues": "LG 100+",
+                                        "values": [
+                                            {
+                                                "disabled": true,
+                                                "readonly": true
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "attributeId": "a1M1K0000082Kd5UAE",
+                                        "cloneable": true,
+                                        "code": "OTHER_legalEntity",
+                                        "dataType": "text",
+                                        "disabled": true,
+                                        "displaySequence": 3,
+                                        "filterable": true,
+                                        "formattedValues": [
+                                        ],
+                                        "hasRules": false,
+                                        "hidden": false,
+                                        "inputType": "text",
+                                        "isNotTranslatable": false,
+                                        "label": "Legal Entity",
+                                        "multiselect": false,
+                                        "readonly": true,
+                                        "required": false,
+                                        "userValues": "Anthem Health Plans of Kentucky, Inc.",
+                                        "values": [
+                                            {
+                                                "disabled": true,
+                                                "readonly": true
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "totalSize": 3
+                            }
+                        }
+                    ],
+                    "totalSize": 7
+                },
+                "displaySequence": -1,
+                "originalIndex": 0,
+                "productId": "01tS0000005x35VIAQ",
+                "rider_list": [
+                ],
+                "selected": true,
+                "visible": true
+            }
+        ],
+        "nextDisabled": true,
+        "prevDisabled": true,
+        "selectedPlans": [
+            {
+                "$$hashKey": "object:1294",
+                "Contract_Code__c": "4YBQ",
+                "HPCC_Code__c": "HJ5U",
+                "Id": "01tS0000005x35VIAQ",
+                "IsConfigurable__c": false,
+                "IsRecommended__c": false,
+                "MarketSegment__c": "Large Group",
+                "Name": "Anthem Blue Preferred HMO Option CSV with Rx Option E2",
+                "Network__c": "Blue Preferred HMO",
+                "ParentProduct__c": "01t1K00000670PB",
+                "Portfolio_Year__c": "2020",
+                "Price": "",
+                "ProductCode": "PMT-4YBQ",
+                "Product_Family__c": "HMO",
+                "QLIRecordType__c": "LocalType",
+                "RecordTypeName__c": "Product",
+                "Term__c": "Annual",
+                "attributeCategories": {
+                    "records": [
+                        {
+                            "$$hashKey": "object:1193",
+                            "Code__c": "inn",
+                            "Name": "In Network",
+                            "displaySequence": 1000,
+                            "id": "a1L1K000007LFrlUAG",
+                            "productAttributes": {
+                                "records": [
+                                    {
+                                        "$$hashKey": "object:1207",
+                                        "attributeGroupType": "In-Network",
+                                        "attributeId": "a1M1K0000082KcOUAU",
+                                        "cloneable": true,
+                                        "code": "inn_defaultCoinsurance_inn",
+                                        "dataType": "percent",
+                                        "disabled": true,
+                                        "displaySequence": 1,
+                                        "filterable": true,
+                                        "formattedValues": [
+                                            10
+                                        ],
+                                        "hasRules": false,
+                                        "hidden": false,
+                                        "inputType": "text",
+                                        "isNotTranslatable": false,
+                                        "label": "In Network Coinsurance",
+                                        "multiselect": false,
+                                        "readonly": true,
+                                        "required": false,
+                                        "userValues": 10,
+                                        "values": [
+                                            {
+                                                "disabled": true,
+                                                "readonly": true
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "$$hashKey": "object:1208",
+                                        "attributeGroupType": "In-Network",
+                                        "attributeId": "a1M1K0000082KcQUAU",
+                                        "cloneable": true,
+                                        "code": "inn_deductibleSingle_inn",
+                                        "dataType": "currency",
+                                        "disabled": true,
+                                        "displaySequence": 2,
+                                        "filterable": true,
+                                        "formattedValues": [
+                                            500
+                                        ],
+                                        "hasRules": false,
+                                        "hidden": false,
+                                        "inputType": "text",
+                                        "isNotTranslatable": false,
+                                        "label": "In Network Deductible Single",
+                                        "multiselect": false,
+                                        "readonly": true,
+                                        "required": false,
+                                        "userValues": 500,
+                                        "values": [
+                                            {
+                                                "disabled": true,
+                                                "readonly": true
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "attributeGroupType": "In-Network",
+                                        "attributeId": "a1M1K0000082KcPUAU",
+                                        "cloneable": true,
+                                        "code": "inn_deductibleFamily_inn",
+                                        "dataType": "currency",
+                                        "disabled": true,
+                                        "displaySequence": 3,
+                                        "filterable": true,
+                                        "formattedValues": [
+                                            1000
+                                        ],
+                                        "hasRules": false,
+                                        "hidden": false,
+                                        "inputType": "text",
+                                        "isNotTranslatable": false,
+                                        "label": "In Network Deductible Family",
+                                        "multiselect": false,
+                                        "readonly": true,
+                                        "required": false,
+                                        "userValues": 1000,
+                                        "values": [
+                                            {
+                                                "disabled": true,
+                                                "readonly": true
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "$$hashKey": "object:1209",
+                                        "attributeGroupType": "In-Network",
+                                        "attributeId": "a1M1K0000082KcRUAU",
+                                        "cloneable": true,
+                                        "code": "inn_outOfPocketSingle_inn",
+                                        "dataType": "currency",
+                                        "disabled": true,
+                                        "displaySequence": 4,
+                                        "filterable": true,
+                                        "formattedValues": [
+                                            2500
+                                        ],
+                                        "hasRules": false,
+                                        "hidden": false,
+                                        "inputType": "text",
+                                        "isNotTranslatable": false,
+                                        "label": "In Network Out of Pocket Max Single",
+                                        "multiselect": false,
+                                        "readonly": true,
+                                        "required": false,
+                                        "userValues": 2500,
+                                        "values": [
+                                            {
+                                                "disabled": true,
+                                                "readonly": true
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "attributeGroupType": "In-Network",
+                                        "attributeId": "a1M1K0000082KcSUAU",
+                                        "cloneable": true,
+                                        "code": "inn_outOfPocketFamily_inn",
+                                        "dataType": "currency",
+                                        "disabled": true,
+                                        "displaySequence": 5,
+                                        "filterable": true,
+                                        "formattedValues": [
+                                            5000
+                                        ],
+                                        "hasRules": false,
+                                        "hidden": false,
+                                        "inputType": "text",
+                                        "isNotTranslatable": false,
+                                        "label": "In Network Out of Pocket Max Family",
+                                        "multiselect": false,
+                                        "readonly": true,
+                                        "required": false,
+                                        "userValues": 5000,
+                                        "values": [
+                                            {
+                                                "disabled": true,
+                                                "readonly": true
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "totalSize": 5
+                            }
+                        },
+                        {
+                            "$$hashKey": "object:1194",
+                            "Code__c": "SCP",
+                            "Name": "Specialty Care Provider",
+                            "displaySequence": 1015,
+                            "id": "a1L1K000007LFroUAG",
+                            "productAttributes": {
+                                "records": [
+                                    {
+                                        "attributeGroupType": "In-Network",
+                                        "attributeId": "a1M1K0000082KcdUAE",
+                                        "cloneable": true,
+                                        "code": "SCP_copayAmount_12_inn",
+                                        "dataType": "text",
+                                        "disabled": true,
+                                        "displaySequence": 1,
+                                        "filterable": true,
+                                        "formattedValues": [
+                                        ],
+                                        "hasRules": false,
+                                        "hidden": false,
+                                        "inputType": "text",
+                                        "isNotTranslatable": false,
+                                        "label": "Co Pay - Specialty Care Provider (INN)",
+                                        "multiselect": false,
+                                        "readonly": true,
+                                        "required": false,
+                                        "userValues": "40.00",
+                                        "values": [
+                                            {
+                                                "disabled": true,
+                                                "readonly": true
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "totalSize": 1
+                            }
+                        },
+                        {
+                            "$$hashKey": "object:1195",
+                            "Code__c": "PCP",
+                            "Name": "Primary Care Provider",
+                            "displaySequence": 1020,
+                            "id": "a1L1K000007LFrpUAG",
+                            "productAttributes": {
+                                "records": [
+                                    {
+                                        "$$hashKey": "object:1216",
+                                        "attributeGroupType": "In-Network",
+                                        "attributeId": "a1M1K0000082KcjUAE",
+                                        "cloneable": true,
+                                        "code": "PCP_copayAmount_2_inn",
+                                        "dataType": "currency",
+                                        "disabled": true,
+                                        "displaySequence": 1,
+                                        "filterable": true,
+                                        "formattedValues": [
+                                            20
+                                        ],
+                                        "hasRules": false,
+                                        "hidden": false,
+                                        "inputType": "text",
+                                        "isNotTranslatable": false,
+                                        "label": "Co Pay - Primary Care Provider (INN)",
+                                        "multiselect": false,
+                                        "readonly": true,
+                                        "required": false,
+                                        "userValues": 20,
+                                        "values": [
+                                            {
+                                                "disabled": true,
+                                                "readonly": true
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "totalSize": 1
+                            }
+                        },
+                        {
+                            "$$hashKey": "object:1196",
+                            "Code__c": "EMRM",
+                            "Name": "Emergency Room",
+                            "displaySequence": 1025,
+                            "id": "a1L1K000007LFrqUAG",
+                            "productAttributes": {
+                                "records": [
+                                    {
+                                        "attributeGroupType": "In-Network",
+                                        "attributeId": "a1M1K0000082KcpUAE",
+                                        "cloneable": true,
+                                        "code": "EMRM_copayAmount_43_inn",
+                                        "dataType": "text",
+                                        "disabled": true,
+                                        "displaySequence": 1,
+                                        "filterable": true,
+                                        "formattedValues": [
+                                        ],
+                                        "hasRules": false,
+                                        "hidden": false,
+                                        "inputType": "text",
+                                        "isNotTranslatable": false,
+                                        "label": "Co Pay - Emergency Room (INN)",
+                                        "multiselect": false,
+                                        "readonly": true,
+                                        "required": false,
+                                        "userValues": "250.00",
+                                        "values": [
+                                            {
+                                                "disabled": true,
+                                                "readonly": true
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "attributeGroupType": "In-Network",
+                                        "attributeId": "a1M1K0000082KcsUAE",
+                                        "cloneable": true,
+                                        "code": "EMRM_coinsurancePercentage_43_inn",
+                                        "dataType": "percent",
+                                        "disabled": true,
+                                        "displaySequence": 4,
+                                        "filterable": true,
+                                        "formattedValues": [
+                                            10
+                                        ],
+                                        "hasRules": false,
+                                        "hidden": false,
+                                        "inputType": "text",
+                                        "isNotTranslatable": false,
+                                        "label": "Co Ins - Emergency Room (INN)",
+                                        "multiselect": false,
+                                        "readonly": true,
+                                        "required": false,
+                                        "userValues": 10,
+                                        "values": [
+                                            {
+                                                "disabled": true,
+                                                "readonly": true
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "totalSize": 2
+                            }
+                        },
+                        {
+                            "$$hashKey": "object:1197",
+                            "Code__c": "UCARE",
+                            "Name": "Urgent Care",
+                            "displaySequence": 1030,
+                            "id": "a1L1K000007LFrrUAG",
+                            "productAttributes": {
+                                "records": [
+                                    {
+                                        "attributeGroupType": "In-Network",
+                                        "attributeId": "a1M1K0000082KcvUAE",
+                                        "cloneable": true,
+                                        "code": "UCARE_copayAmount_33_inn",
+                                        "dataType": "text",
+                                        "disabled": true,
+                                        "displaySequence": 1,
+                                        "filterable": true,
+                                        "formattedValues": [
+                                        ],
+                                        "hasRules": false,
+                                        "hidden": false,
+                                        "inputType": "text",
+                                        "isNotTranslatable": false,
+                                        "label": "Co Pay - Urgent Care (INN)",
+                                        "multiselect": false,
+                                        "readonly": true,
+                                        "required": false,
+                                        "userValues": "75.00",
+                                        "values": [
+                                            {
+                                                "disabled": true,
+                                                "readonly": true
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "totalSize": 1
+                            }
+                        },
+                        {
+                            "$$hashKey": "object:1198",
+                            "Code__c": "RXPLAN",
+                            "Name": "Pharmacy Plan",
+                            "displaySequence": 1035,
+                            "id": "a1L1K000007LFrsUAG",
+                            "productAttributes": {
+                                "records": [
+                                    {
+                                        "attributeId": "a1M1K0000082Kd1UAE",
+                                        "cloneable": true,
+                                        "code": "RXPLAN_rxPlanName",
+                                        "dataType": "text",
+                                        "disabled": true,
+                                        "displaySequence": 1,
+                                        "filterable": true,
+                                        "formattedValues": [
+                                        ],
+                                        "hasRules": false,
+                                        "hidden": false,
+                                        "inputType": "text",
+                                        "isNotTranslatable": false,
+                                        "label": "Rx Plan Name",
+                                        "multiselect": false,
+                                        "readonly": true,
+                                        "required": false,
+                                        "userValues": "KY-LG-RX E2",
+                                        "values": [
+                                            {
+                                                "disabled": true,
+                                                "readonly": true
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "totalSize": 1
+                            }
+                        },
+                        {
+                            "$$hashKey": "object:1199",
+                            "Code__c": "OTHER",
+                            "Name": "Other Plan Details",
+                            "displaySequence": 1100,
+                            "id": "a1L1K000007LFruUAG",
+                            "productAttributes": {
+                                "records": [
+                                    {
+                                        "attributeId": "a1M1K0000082Kd3UAE",
+                                        "cloneable": true,
+                                        "code": "OTHER_masterBrand",
+                                        "dataType": "text",
+                                        "disabled": true,
+                                        "displaySequence": 1,
+                                        "filterable": true,
+                                        "formattedValues": [
+                                        ],
+                                        "hasRules": false,
+                                        "hidden": false,
+                                        "inputType": "text",
+                                        "isNotTranslatable": false,
+                                        "label": "Master  Branding",
+                                        "multiselect": false,
+                                        "readonly": true,
+                                        "required": false,
+                                        "userValues": "Anthem",
+                                        "values": [
+                                            {
+                                                "disabled": true,
+                                                "readonly": true
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "attributeId": "a1M1K0000082Kd4UAE",
+                                        "cloneable": true,
+                                        "code": "OTHER_branding",
+                                        "dataType": "text",
+                                        "disabled": true,
+                                        "displaySequence": 2,
+                                        "filterable": true,
+                                        "formattedValues": [
+                                        ],
+                                        "hasRules": false,
+                                        "hidden": false,
+                                        "inputType": "text",
+                                        "isNotTranslatable": false,
+                                        "label": "Branding",
+                                        "multiselect": false,
+                                        "readonly": true,
+                                        "required": false,
+                                        "userValues": "LG 100+",
+                                        "values": [
+                                            {
+                                                "disabled": true,
+                                                "readonly": true
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "attributeId": "a1M1K0000082Kd5UAE",
+                                        "cloneable": true,
+                                        "code": "OTHER_legalEntity",
+                                        "dataType": "text",
+                                        "disabled": true,
+                                        "displaySequence": 3,
+                                        "filterable": true,
+                                        "formattedValues": [
+                                        ],
+                                        "hasRules": false,
+                                        "hidden": false,
+                                        "inputType": "text",
+                                        "isNotTranslatable": false,
+                                        "label": "Legal Entity",
+                                        "multiselect": false,
+                                        "readonly": true,
+                                        "required": false,
+                                        "userValues": "Anthem Health Plans of Kentucky, Inc.",
+                                        "values": [
+                                            {
+                                                "disabled": true,
+                                                "readonly": true
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "totalSize": 3
+                            }
+                        }
+                    ],
+                    "totalSize": 7
+                },
+                "displaySequence": -1,
+                "originalIndex": 0,
+                "productId": "01tS0000005x35VIAQ",
+                "rider_list": [
+                ],
+                "selected": true,
+                "visible": true
+            }
+        ],
+        "selectedPlansMap": {
+            "01tS0000005x35VIAQ": {
+                "$$hashKey": "object:1294",
+                "Contract_Code__c": "4YBQ",
+                "HPCC_Code__c": "HJ5U",
+                "Id": "01tS0000005x35VIAQ",
+                "IsConfigurable__c": false,
+                "IsRecommended__c": false,
+                "MarketSegment__c": "Large Group",
+                "Name": "Anthem Blue Preferred HMO Option CSV with Rx Option E2",
+                "Network__c": "Blue Preferred HMO",
+                "ParentProduct__c": "01t1K00000670PB",
+                "Portfolio_Year__c": "2020",
+                "Price": "",
+                "ProductCode": "PMT-4YBQ",
+                "Product_Family__c": "HMO",
+                "QLIRecordType__c": "LocalType",
+                "RecordTypeName__c": "Product",
+                "Term__c": "Annual",
+                "attributeCategories": {
+                    "records": [
+                        {
+                            "$$hashKey": "object:1193",
+                            "Code__c": "inn",
+                            "Name": "In Network",
+                            "displaySequence": 1000,
+                            "id": "a1L1K000007LFrlUAG",
+                            "productAttributes": {
+                                "records": [
+                                    {
+                                        "$$hashKey": "object:1207",
+                                        "attributeGroupType": "In-Network",
+                                        "attributeId": "a1M1K0000082KcOUAU",
+                                        "cloneable": true,
+                                        "code": "inn_defaultCoinsurance_inn",
+                                        "dataType": "percent",
+                                        "disabled": true,
+                                        "displaySequence": 1,
+                                        "filterable": true,
+                                        "formattedValues": [
+                                            10
+                                        ],
+                                        "hasRules": false,
+                                        "hidden": false,
+                                        "inputType": "text",
+                                        "isNotTranslatable": false,
+                                        "label": "In Network Coinsurance",
+                                        "multiselect": false,
+                                        "readonly": true,
+                                        "required": false,
+                                        "userValues": 10,
+                                        "values": [
+                                            {
+                                                "disabled": true,
+                                                "readonly": true
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "$$hashKey": "object:1208",
+                                        "attributeGroupType": "In-Network",
+                                        "attributeId": "a1M1K0000082KcQUAU",
+                                        "cloneable": true,
+                                        "code": "inn_deductibleSingle_inn",
+                                        "dataType": "currency",
+                                        "disabled": true,
+                                        "displaySequence": 2,
+                                        "filterable": true,
+                                        "formattedValues": [
+                                            500
+                                        ],
+                                        "hasRules": false,
+                                        "hidden": false,
+                                        "inputType": "text",
+                                        "isNotTranslatable": false,
+                                        "label": "In Network Deductible Single",
+                                        "multiselect": false,
+                                        "readonly": true,
+                                        "required": false,
+                                        "userValues": 500,
+                                        "values": [
+                                            {
+                                                "disabled": true,
+                                                "readonly": true
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "attributeGroupType": "In-Network",
+                                        "attributeId": "a1M1K0000082KcPUAU",
+                                        "cloneable": true,
+                                        "code": "inn_deductibleFamily_inn",
+                                        "dataType": "currency",
+                                        "disabled": true,
+                                        "displaySequence": 3,
+                                        "filterable": true,
+                                        "formattedValues": [
+                                            1000
+                                        ],
+                                        "hasRules": false,
+                                        "hidden": false,
+                                        "inputType": "text",
+                                        "isNotTranslatable": false,
+                                        "label": "In Network Deductible Family",
+                                        "multiselect": false,
+                                        "readonly": true,
+                                        "required": false,
+                                        "userValues": 1000,
+                                        "values": [
+                                            {
+                                                "disabled": true,
+                                                "readonly": true
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "$$hashKey": "object:1209",
+                                        "attributeGroupType": "In-Network",
+                                        "attributeId": "a1M1K0000082KcRUAU",
+                                        "cloneable": true,
+                                        "code": "inn_outOfPocketSingle_inn",
+                                        "dataType": "currency",
+                                        "disabled": true,
+                                        "displaySequence": 4,
+                                        "filterable": true,
+                                        "formattedValues": [
+                                            2500
+                                        ],
+                                        "hasRules": false,
+                                        "hidden": false,
+                                        "inputType": "text",
+                                        "isNotTranslatable": false,
+                                        "label": "In Network Out of Pocket Max Single",
+                                        "multiselect": false,
+                                        "readonly": true,
+                                        "required": false,
+                                        "userValues": 2500,
+                                        "values": [
+                                            {
+                                                "disabled": true,
+                                                "readonly": true
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "attributeGroupType": "In-Network",
+                                        "attributeId": "a1M1K0000082KcSUAU",
+                                        "cloneable": true,
+                                        "code": "inn_outOfPocketFamily_inn",
+                                        "dataType": "currency",
+                                        "disabled": true,
+                                        "displaySequence": 5,
+                                        "filterable": true,
+                                        "formattedValues": [
+                                            5000
+                                        ],
+                                        "hasRules": false,
+                                        "hidden": false,
+                                        "inputType": "text",
+                                        "isNotTranslatable": false,
+                                        "label": "In Network Out of Pocket Max Family",
+                                        "multiselect": false,
+                                        "readonly": true,
+                                        "required": false,
+                                        "userValues": 5000,
+                                        "values": [
+                                            {
+                                                "disabled": true,
+                                                "readonly": true
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "totalSize": 5
+                            }
+                        },
+                        {
+                            "$$hashKey": "object:1194",
+                            "Code__c": "SCP",
+                            "Name": "Specialty Care Provider",
+                            "displaySequence": 1015,
+                            "id": "a1L1K000007LFroUAG",
+                            "productAttributes": {
+                                "records": [
+                                    {
+                                        "attributeGroupType": "In-Network",
+                                        "attributeId": "a1M1K0000082KcdUAE",
+                                        "cloneable": true,
+                                        "code": "SCP_copayAmount_12_inn",
+                                        "dataType": "text",
+                                        "disabled": true,
+                                        "displaySequence": 1,
+                                        "filterable": true,
+                                        "formattedValues": [
+                                        ],
+                                        "hasRules": false,
+                                        "hidden": false,
+                                        "inputType": "text",
+                                        "isNotTranslatable": false,
+                                        "label": "Co Pay - Specialty Care Provider (INN)",
+                                        "multiselect": false,
+                                        "readonly": true,
+                                        "required": false,
+                                        "userValues": "40.00",
+                                        "values": [
+                                            {
+                                                "disabled": true,
+                                                "readonly": true
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "totalSize": 1
+                            }
+                        },
+                        {
+                            "$$hashKey": "object:1195",
+                            "Code__c": "PCP",
+                            "Name": "Primary Care Provider",
+                            "displaySequence": 1020,
+                            "id": "a1L1K000007LFrpUAG",
+                            "productAttributes": {
+                                "records": [
+                                    {
+                                        "$$hashKey": "object:1216",
+                                        "attributeGroupType": "In-Network",
+                                        "attributeId": "a1M1K0000082KcjUAE",
+                                        "cloneable": true,
+                                        "code": "PCP_copayAmount_2_inn",
+                                        "dataType": "currency",
+                                        "disabled": true,
+                                        "displaySequence": 1,
+                                        "filterable": true,
+                                        "formattedValues": [
+                                            20
+                                        ],
+                                        "hasRules": false,
+                                        "hidden": false,
+                                        "inputType": "text",
+                                        "isNotTranslatable": false,
+                                        "label": "Co Pay - Primary Care Provider (INN)",
+                                        "multiselect": false,
+                                        "readonly": true,
+                                        "required": false,
+                                        "userValues": 20,
+                                        "values": [
+                                            {
+                                                "disabled": true,
+                                                "readonly": true
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "totalSize": 1
+                            }
+                        },
+                        {
+                            "$$hashKey": "object:1196",
+                            "Code__c": "EMRM",
+                            "Name": "Emergency Room",
+                            "displaySequence": 1025,
+                            "id": "a1L1K000007LFrqUAG",
+                            "productAttributes": {
+                                "records": [
+                                    {
+                                        "attributeGroupType": "In-Network",
+                                        "attributeId": "a1M1K0000082KcpUAE",
+                                        "cloneable": true,
+                                        "code": "EMRM_copayAmount_43_inn",
+                                        "dataType": "text",
+                                        "disabled": true,
+                                        "displaySequence": 1,
+                                        "filterable": true,
+                                        "formattedValues": [
+                                        ],
+                                        "hasRules": false,
+                                        "hidden": false,
+                                        "inputType": "text",
+                                        "isNotTranslatable": false,
+                                        "label": "Co Pay - Emergency Room (INN)",
+                                        "multiselect": false,
+                                        "readonly": true,
+                                        "required": false,
+                                        "userValues": "250.00",
+                                        "values": [
+                                            {
+                                                "disabled": true,
+                                                "readonly": true
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "attributeGroupType": "In-Network",
+                                        "attributeId": "a1M1K0000082KcsUAE",
+                                        "cloneable": true,
+                                        "code": "EMRM_coinsurancePercentage_43_inn",
+                                        "dataType": "percent",
+                                        "disabled": true,
+                                        "displaySequence": 4,
+                                        "filterable": true,
+                                        "formattedValues": [
+                                            10
+                                        ],
+                                        "hasRules": false,
+                                        "hidden": false,
+                                        "inputType": "text",
+                                        "isNotTranslatable": false,
+                                        "label": "Co Ins - Emergency Room (INN)",
+                                        "multiselect": false,
+                                        "readonly": true,
+                                        "required": false,
+                                        "userValues": 10,
+                                        "values": [
+                                            {
+                                                "disabled": true,
+                                                "readonly": true
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "totalSize": 2
+                            }
+                        },
+                        {
+                            "$$hashKey": "object:1197",
+                            "Code__c": "UCARE",
+                            "Name": "Urgent Care",
+                            "displaySequence": 1030,
+                            "id": "a1L1K000007LFrrUAG",
+                            "productAttributes": {
+                                "records": [
+                                    {
+                                        "attributeGroupType": "In-Network",
+                                        "attributeId": "a1M1K0000082KcvUAE",
+                                        "cloneable": true,
+                                        "code": "UCARE_copayAmount_33_inn",
+                                        "dataType": "text",
+                                        "disabled": true,
+                                        "displaySequence": 1,
+                                        "filterable": true,
+                                        "formattedValues": [
+                                        ],
+                                        "hasRules": false,
+                                        "hidden": false,
+                                        "inputType": "text",
+                                        "isNotTranslatable": false,
+                                        "label": "Co Pay - Urgent Care (INN)",
+                                        "multiselect": false,
+                                        "readonly": true,
+                                        "required": false,
+                                        "userValues": "75.00",
+                                        "values": [
+                                            {
+                                                "disabled": true,
+                                                "readonly": true
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "totalSize": 1
+                            }
+                        },
+                        {
+                            "$$hashKey": "object:1198",
+                            "Code__c": "RXPLAN",
+                            "Name": "Pharmacy Plan",
+                            "displaySequence": 1035,
+                            "id": "a1L1K000007LFrsUAG",
+                            "productAttributes": {
+                                "records": [
+                                    {
+                                        "attributeId": "a1M1K0000082Kd1UAE",
+                                        "cloneable": true,
+                                        "code": "RXPLAN_rxPlanName",
+                                        "dataType": "text",
+                                        "disabled": true,
+                                        "displaySequence": 1,
+                                        "filterable": true,
+                                        "formattedValues": [
+                                        ],
+                                        "hasRules": false,
+                                        "hidden": false,
+                                        "inputType": "text",
+                                        "isNotTranslatable": false,
+                                        "label": "Rx Plan Name",
+                                        "multiselect": false,
+                                        "readonly": true,
+                                        "required": false,
+                                        "userValues": "KY-LG-RX E2",
+                                        "values": [
+                                            {
+                                                "disabled": true,
+                                                "readonly": true
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "totalSize": 1
+                            }
+                        },
+                        {
+                            "$$hashKey": "object:1199",
+                            "Code__c": "OTHER",
+                            "Name": "Other Plan Details",
+                            "displaySequence": 1100,
+                            "id": "a1L1K000007LFruUAG",
+                            "productAttributes": {
+                                "records": [
+                                    {
+                                        "attributeId": "a1M1K0000082Kd3UAE",
+                                        "cloneable": true,
+                                        "code": "OTHER_masterBrand",
+                                        "dataType": "text",
+                                        "disabled": true,
+                                        "displaySequence": 1,
+                                        "filterable": true,
+                                        "formattedValues": [
+                                        ],
+                                        "hasRules": false,
+                                        "hidden": false,
+                                        "inputType": "text",
+                                        "isNotTranslatable": false,
+                                        "label": "Master  Branding",
+                                        "multiselect": false,
+                                        "readonly": true,
+                                        "required": false,
+                                        "userValues": "Anthem",
+                                        "values": [
+                                            {
+                                                "disabled": true,
+                                                "readonly": true
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "attributeId": "a1M1K0000082Kd4UAE",
+                                        "cloneable": true,
+                                        "code": "OTHER_branding",
+                                        "dataType": "text",
+                                        "disabled": true,
+                                        "displaySequence": 2,
+                                        "filterable": true,
+                                        "formattedValues": [
+                                        ],
+                                        "hasRules": false,
+                                        "hidden": false,
+                                        "inputType": "text",
+                                        "isNotTranslatable": false,
+                                        "label": "Branding",
+                                        "multiselect": false,
+                                        "readonly": true,
+                                        "required": false,
+                                        "userValues": "LG 100+",
+                                        "values": [
+                                            {
+                                                "disabled": true,
+                                                "readonly": true
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "attributeId": "a1M1K0000082Kd5UAE",
+                                        "cloneable": true,
+                                        "code": "OTHER_legalEntity",
+                                        "dataType": "text",
+                                        "disabled": true,
+                                        "displaySequence": 3,
+                                        "filterable": true,
+                                        "formattedValues": [
+                                        ],
+                                        "hasRules": false,
+                                        "hidden": false,
+                                        "inputType": "text",
+                                        "isNotTranslatable": false,
+                                        "label": "Legal Entity",
+                                        "multiselect": false,
+                                        "readonly": true,
+                                        "required": false,
+                                        "userValues": "Anthem Health Plans of Kentucky, Inc.",
+                                        "values": [
+                                            {
+                                                "disabled": true,
+                                                "readonly": true
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "totalSize": 3
+                            }
+                        }
+                    ],
+                    "totalSize": 7
+                },
+                "displaySequence": -1,
+                "originalIndex": 0,
+                "productId": "01tS0000005x35VIAQ",
+                "rider_list": [
+                ],
+                "selected": true,
+                "visible": true
+            }
+        }
+    },
+    "userCurrencyCode": "USD",
+    "userId": "0051K000008dXgiQAE",
+    "userName": "veramesh@deloitte.com.com2.iceqa",
+    "userProfile": "System Administrator",
+    "userTimeZone": -240,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "AP-FamilySelection": 29293,
+        "AP-PlanSelection": 10807,
+        "AP-PlanSelectionConfirmation": 8672,
+        "AP-SetProductFamilyValues": 13,
+        "AP-SetValues": 20,
+        "AP-SetVariableBundleStageValues": 79,
+        "ClinicalProductSelected": 34,
+        "CountHPCCVal": 15,
+        "DR-ExtractQuote": 682,
+        "DR-HPCCCodeRetrieval": 669,
+        "DR-ProductFamilyRetrieval": 792,
+        "DR-QuoteDetails": 1200,
+        "DR-SitusState": 1245,
+        "ExtractAccountId": 1100,
+        "GetDynamicFilters": 843,
+        "GlobalSetValues": 17,
+        "HPCCSetValues": 12,
+        "OmniScriptSessionToken": "ed7e44fe-fae8-484d-ab85-aa3f18ed5c94",
+        "QLD": 21391,
+        "SVinsSgpsCartInit": 54,
+        "SelectServiceProvider": 7708,
+        "Select_Deductible_Amount_and_Coinsurance_Rate": 2939,
+        "SetAccountId": 18,
+        "SetConstants": 148,
+        "SetPlanList": 90,
+        "SetValues4": 34,
+        "SetValues5": 60
+    }
+}

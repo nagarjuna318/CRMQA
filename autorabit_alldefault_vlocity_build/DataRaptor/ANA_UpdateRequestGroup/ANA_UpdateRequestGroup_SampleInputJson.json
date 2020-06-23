@@ -1,0 +1,46 @@
+{
+    "ContextId": "",
+    "RequestGroupNumberStep": {
+        "Comments": null,
+        "GroupFundingType": null,
+        "IsPartOfAMigration?": null
+    },
+    "RequiredInformation": {
+        "Additional Information": {
+            "Branding": null,
+            "CheckSuppression": null,
+            "DoesNYHCRAApply": null,
+            "EligibleEmployees": null,
+            "GroupSize": null,
+            "HQState": null,
+            "IsthisGroupsubjecttoERISA": null,
+            "NASCOContractingSitusState": null,
+            "TotalEmployees": null,
+            "WGSContractingSitusState": null
+        },
+        "Block 3": {
+            "AnthemEntity": null,
+            "OriginalEffectiveDate": null,
+            "ReceivedDate": null,
+            "Region": null
+        },
+        "RenewalInformation": {
+            "ActiveRenewalDate": null,
+            "ClientRenewalsOccur": null,
+            "MonthUnderwriterstartsrenewalprocess": null,
+            "RenewalMonth": null
+        }
+    },
+    "id": "a3B4B0000000dWKUAY",
+    "layout": "lightning",
+    "timeStamp": "2017-04-26T08:27:33.555Z",
+    "userId": "0054B000000orR1QAI",
+    "userName": "keerthi.thoutireddy@anthem.com2.config",
+    "userProfile": "System Administrator",
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "AccountDetailsForGroupNumber": 2692,
+        "OmniScriptSessionToken": "a9b3e687-7200-4e37-83e5-5e89b1413f43"
+    }
+}

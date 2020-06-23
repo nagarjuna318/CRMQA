@@ -1,0 +1,424 @@
+{
+    "AccTeamMemId": "01M2h000001kNOuEAM",
+    "AccountExecutiveLatest": "99",
+    "AccountManagerLatest": "99",
+    "AccountManagerTest": "Patricia Knapp",
+    "AccountUpdateId": "0012h00000CxOlqAAF",
+    "AccounteExecutiveTest": "Scott Perrin",
+    "AddNewDepartmentCodes": false,
+    "AddNewEmployeeClassDivision": false,
+    "AddNewProductMedicalSpecialtyOnly": false,
+    "AddNewProductSupplemental": false,
+    "BrokerInformation": {
+        "BORandCOR": null,
+        "BrokerageConsultantInformation": {
+            "BCId": null,
+            "BOR": false,
+            "BrokerageEffectiveDate": null,
+            "BrokerageEndDate": null,
+            "BrokerageName-Block": {
+                "BrokerageId": null,
+                "BrokerageName": null
+            },
+            "COR": false,
+            "ConsultantEffectiveDate": null,
+            "ConsultantEndDate": null,
+            "ConsultantName-Block": {
+                "ConsultantId": null,
+                "ConsultantName": null
+            }
+        },
+        "Messaging18": null
+    },
+    "CaseInformation": {
+        "ASONewbornOptOutIndicator": "Y",
+        "CaseInformation1": {
+            "ASONewbornOptOutIndicator": "N",
+            "AccountId": "0012h00000CxOlqAAF",
+            "AcountAccessLevel": "Read",
+            "ActiveRenewalDate": "2021-04-01",
+            "AdditionalComments": null,
+            "BenefitRenewalAnniversaryDate": "2021-04-01",
+            "CancelDate": null,
+            "CertofCreditableCoverageSuppression": "N",
+            "ConversionLetterSuppression": "Y",
+            "DelinquencyCancellationLttrSuppression": "Y",
+            "Formula10": "2020-04-01",
+            "IDCardsSentToInitially": "Group",
+            "ImplementationCaseStatus": "Pending SME Review",
+            "ImplementationEffectiveDate": "2020-04-01",
+            "MBSCode": null,
+            "MaintenanceCardsSentTo": "Subscribers",
+            "MonthUnderwriterStartsRenewalProcess": "April",
+            "NonHmoBlock": {
+                "NonHMOIDCards": "AL",
+                "NonHMOIDCards1": "AL",
+                "NonHmoFormula": "AL"
+            },
+            "OpenEffectiveDate1": "2020-04-01",
+            "OpenEnrollmentStartDate": "2020-04-01",
+            "OppOwner-Block": {
+                "OppOwner": "Brigette Mora",
+                "OpportunityOwner": null
+            },
+            "OpportunityOwnerAnthemFederationID": "AG44271",
+            "OppurtunityEffectiveDate": "2020-04-01",
+            "RecId": "aAR2h000000CcZSGA0",
+            "SpecialtySalesExecutive": null,
+            "TerminatedReservelessMPPFunding": null,
+            "TerminationLetterSuppression": "N",
+            "UnderwriterAnthemFederationID": "AB73189",
+            "UnderwriterName": "Steven Bassett",
+            "WGSMBUCode": "GKG00000"
+        },
+        "DeleteDependentCode": "1N",
+        "OngoingEnrollmentSubmissionType": "Census"
+    },
+    "ChangeAccountName": false,
+    "ChangeAccountPhoneNumber": false,
+    "ChangeAccountPhysicalOrMailingAddress": false,
+    "ChangeAnniversaryMonth": false,
+    "ChangeBenefitDesignOnAtLeastOneProduct": false,
+    "ChangeContactBillingInvoice": false,
+    "ChangeContactNonBilling": false,
+    "ChangeFundingTypeOnAtLeastOneProduct": false,
+    "ChangeNewHireProbationaryPeriod": false,
+    "ChangeProducts": false,
+    "CompanyInformation1": {
+        "CompanyInformation": {
+            "AccontTeam": {
+                "AccountExecutiveBlock": {
+                    "AccountExecutive": "Scott Perrin"
+                },
+                "AccountManagerBlock": {
+                    "AccountManager": "Patricia Knapp"
+                },
+                "SalesAccountRepAcctMgmtBlock": {
+                    "SalesAccountRepAcctMgmt": "Leslie Getman"
+                },
+                "SpecialtySalesExecutiveTeamBlock": {
+                    "SpecialtySalesExecutiveTeam": null
+                }
+            },
+            "AccountLegalName": "Georgia Corn Bread Factory",
+            "AccountNameDBA": "Corn Bread Factory",
+            "AccountStatus": "Active",
+            "AnthemEntity": "Local/Large Group",
+            "ClaimSystem": "WGS 2.0",
+            "CompanySizeGroupSize": "100 - 249",
+            "EOCPaperlessOptionIndicator": null,
+            "ERISAStatus": "ERISA",
+            "EmployerTaxID": "234123657",
+            "GroupNumber": "L03621",
+            "HIPAALetterExclusion": "(Y) Exclude the Generation of HIPAA Add and Term Letters Due To HCR",
+            "HQState": "GA",
+            "LegalEntity": "CO = Corporation",
+            "Phone1": "3330404678",
+            "PhysicalAndMailingAddress": {
+                "MalingConditionBlock": {
+                    "MailingBlock": {
+                        "MailingCity": "Atlanta",
+                        "MailingCountry": "United States",
+                        "MailingCounty": "fulton",
+                        "MailingState": "GA",
+                        "MailingStreet": "123 Main Street",
+                        "MailingZipCode": "30309"
+                    },
+                    "MailingFormula": null
+                },
+                "PhysicalCorrectlevel": {
+                    "Physicalblock": {
+                        "PhysicaZiPCode": "30309",
+                        "PhysicalCity": "Atlanta",
+                        "PhysicalCountry": "United States",
+                        "PhysicalCounty": "fulton",
+                        "PhysicalState": "GA",
+                        "PhysicalStreet": "123 Main Street"
+                    }
+                }
+            },
+            "SalesOfficeLocation": "99",
+            "ShippingAddressissameAsMailingAddress": false,
+            "SicCodeTypeAhead-Block": {
+                "SICCodeName": null,
+                "SICId": null,
+                "SicCodeTypeAhead": "5812 - Restaurant"
+            },
+            "SitusState": "Georgia",
+            "VendorReferral": "N",
+            "WorkLocation": "N024"
+        }
+    },
+    "ContactBillParent": "0032h00000CefUlAAJ",
+    "ContactGroupParent": "0032h00000CefUlAAJ",
+    "ContactInformation": {
+        "BillingContactEmail": "billing@gmail.com",
+        "BillingContactName": "Brigette Mora",
+        "BillingContactPhone": "2228228888",
+        "GroupAdministratorContactEmail": "billing@gmail.com",
+        "GroupAdministratorContactName": "Brigette Mora",
+        "GroupAdministratorContactPhone": "2228228888"
+    },
+    "ContactRelatBillID": "a5F2h000000Cgm9EAC",
+    "ContactTypeB": "Billing Contact;Group Administrator",
+    "ContactTypeG": "Billing Contact;Group Administrator",
+    "ContctrelatGroupId": "a5F2h000000Cgm9EAC",
+    "ContextId": "8012h000000M5SIAA0",
+    "CounterValue": false,
+    "CustomerMasterAccount": false,
+    "DRId_Account": "0012h00000CxOlqAAF",
+    "DataRaptorExtractAction6Status": true,
+    "DataRaptorExtractAction7Status": true,
+    "EligbleId": "a7H2h000000CalIEAS",
+    "Formula11": false,
+    "FundingId": "a7L2h000000CacsEAC",
+    "GroupInformation": {
+        "AccountPreferenceWashoutCode": null,
+        "COBRAAdministrationServices": "Y",
+        "CancelReason": null,
+        "ClaimsSavingsVendor": "NC8",
+        "DeleteDependentCode": "1N",
+        "DoesAnthemGenerateHCID": "G",
+        "DomesticPartnerIndicator": "N",
+        "DuplicateSupplementalCoverageAllowed": "N",
+        "EmployeeAssistanceProgram": false,
+        "EmployeeExcludedCode": "00 (GA)",
+        "GroupType": "A (ACTIVE)",
+        "IncludeHCIDOnTheInvoice": "No",
+        "IndicateProbationaryPeriod": null,
+        "OADAutoDelete": "N",
+        "OptOutofLHOURLonIDCards": null,
+        "PremPaidForEachSubDepPerMonth": 100,
+        "PremPaidForEachSubPerMonth": 100,
+        "RetroEnrollmentMaintenanceElectronic": "60",
+        "RetroEnrollmentMaintenanceOnline": "60"
+    },
+    "GroupNumbervalidation": "Pending SME Review",
+    "GroupSubmissionCounter": "",
+    "GroupUpdateID": "a5I2h000000Ck4rEAC",
+    "ID": "a5I2h000000Ck4rEAC",
+    "ImplCase": {
+        "ImplementationType": "New Business"
+    },
+    "ImplementaionTrackingID": "a7X2h000000CbybEAC",
+    "ImplementationType": "New Business",
+    "IsLoadGroupSubmitted": false,
+    "LoadGroupStatus": "",
+    "LoadGroupStep": {
+        "CaseInformation": {
+            "ImplementationCaseStatus": "Pending SME Review"
+        }
+    },
+    "LoadGroupSubmissionTimestamp": "",
+    "MailingAddress": "123 Main Street, Atlanta, GA, 30309, United States",
+    "OpportunityEffectiveDate": "2020-04-01",
+    "OrderId": "8012h000000M5SIAA0",
+    "OrderNumber": "IMPL-8554",
+    "PEOAndAddingNewCompanyThatRequiresNewSuffixes": false,
+    "PhysicalAddress": "123 Main Street, Atlanta, GA, 30309, United States",
+    "ProductAndCoverageTypeInformation": {
+        "DentalQLIs": {
+            "DentalQLIAddReasonCode": null,
+            "DentalQLIBenefitPeriod": null,
+            "DentalQLIClaimsRouteCode": null,
+            "DentalQLIProdName": null
+        },
+        "EAPQLIs": {
+            "EAPQLIAddReasonCode": null,
+            "EAPQLIBenefitPeriod": null,
+            "EAPQLIClaimsRouteCode": null,
+            "EAPQLIProdName": null
+        },
+        "FSAQLIs": {
+            "FSAQLIAddReasonCode": null,
+            "FSAQLIBenefitPeriod": null,
+            "FSAQLIClaimsRouteCode": null,
+            "FSAQLIProdName": null
+        },
+        "LifeAndDisabilityQLIBlk": {
+            "LifeDisabilityQLIAddReasonCode": null,
+            "LifeDisabilityQLIBenefitPeriod": null,
+            "LifeDisabilityQLIClaimsRouteCode": null,
+            "LifeDisabilityQLIProdName": null
+        },
+        "Pharmacy1": {
+            "Block52": {
+                "ContractCodePharma": null,
+                "CustomContractCodePharma": null,
+                "PharmacyBenefitIdentifier1": null,
+                "PlanNamePharma": null,
+                "PlanTypePharma": null,
+                "ProductTypePharma": null
+            }
+        },
+        "ProductMedicalBlk": {
+            "MedicalProduct": {
+                "MedProdQLIProdCat": null,
+                "MedProdQLIProdName": null,
+                "MedProdQLIProductContractCode": null,
+                "MedProdQLIProductPrefix": null
+            },
+            "PlanMedicalBlk": {
+                "MedPlanQLIAddReasonCode": null,
+                "MedPlanQLIBenefitPeriod": null,
+                "MedPlanQLIClaimsRouteCode": null,
+                "MedPlanQLIContractCode": null,
+                "MedPlanQLIHSABankingPartner": null,
+                "MedPlanQLIParentQLI": null,
+                "MedPlanQLIPlanCat": null,
+                "MedPlanQLIPlanName": null
+            }
+        },
+        "VisionQLIBlk": {
+            "VisionQLIAddReasonCode": null,
+            "VisionQLIBenefitPeriod": null,
+            "VisionQLIClaimsRouteCode": null,
+            "VisionQLIProdName": null
+        }
+    },
+    "ProductWithPercent": "%",
+    "QuoteupdateID": "0Q02h000000D09rCAC",
+    "RateAdjustmentDueToInternalError": false,
+    "RecFetch": false,
+    "RecordTypeName": "Renewal Unlock",
+    "ResponseAction2Status": true,
+    "SalesAccountRepAccMgmtTest": "Leslie Getman",
+    "SalesOfficeLocationAccountExecutive": "99",
+    "SalesOfficeLocationAccountManager": "99",
+    "SetCustomerMaster": "",
+    "SitusStateValue": "Georgia",
+    "SpecalitySalesExecutiveTest": "",
+    "formula12": false,
+    "formula13": true,
+    "formula14": false,
+    "id": "a3C2h000000CgSAEA0",
+    "isdtp": "p1",
+    "layout": "lightning",
+    "opportunityupdateID": "0062h000006ilOXAAY",
+    "options": {
+        "chainable": false,
+        "postTransformBundle": "",
+        "preTransformBundle": "",
+        "useContinuation": false,
+        "useFuture": false,
+        "vlcClass": "%vlocity_namespace%.IntegrationProcedureService"
+    },
+    "response": {
+        "AccTeamMemId": "01M2h000001kNOuEAM",
+        "AccountUpdateId": "0012h00000CxOlqAAF",
+        "CaseInformation": {
+            "CaseInformation1": {
+                "ASONewbornOptOutIndicator": "N",
+                "AccountId": "0012h00000CxOlqAAF",
+                "AcountAccessLevel": "Read",
+                "ActiveRenewalDate": "2021-04-01",
+                "BenefitRenewalAnniversaryDate": "2021-04-01",
+                "CertofCreditableCoverageSuppression": "N",
+                "ConversionLetterSuppression": "N",
+                "DelinquencyCancellationLttrSuppression": "N",
+                "IDCardsSentToInitially": "Group",
+                "ImplementationCaseStatus": "Pending SME Review",
+                "ImplementationEffectiveDate": "2020-04-01",
+                "MaintenanceCardsSentTo": "Subscribers",
+                "MonthUnderwriterStartsRenewalProcess": "April",
+                "NonHmoBlock": {
+                    "NonHMOIDCards": "AL",
+                    "NonHMOIDCards1": "AL"
+                },
+                "OpenEnrollmentStartDate": "2020-04-01",
+                "OppOwner-Block": {
+                    "OppOwner": "Brigette Mora"
+                },
+                "OpportunityOwnerAnthemFederationID": "AG44271",
+                "RecId": "aAR2h000000CcZSGA0",
+                "TerminationLetterSuppression": "N",
+                "UnderwriterAnthemFederationID": "AB73189",
+                "UnderwriterName": "Steven Bassett",
+                "WGSMBUCode": "GKG00000"
+            }
+        },
+        "CompanyInformation1": {
+            "CompanyInformation": {
+                "AccountLegalName": "Georgia Corn Bread Factory",
+                "AccountNameDBA": "Corn Bread Factory",
+                "AccountStatus": "Active",
+                "AnthemEntity": "Local/Large Group",
+                "ClaimSystem": "WGS 2.0",
+                "CompanySizeGroupSize": "100 - 249",
+                "ERISAStatus": "ERISA",
+                "EmployerTaxID": "234123657",
+                "GroupNumber": "L03621",
+                "HIPAALetterExclusion": "(Y) Exclude the Generation of HIPAA Add and Term Letters Due To HCR",
+                "HQState": "GA",
+                "LegalEntity": "CO = Corporation",
+                "Phone1": "3330404678",
+                "PhysicalAndMailingAddress": {
+                    "MalingConditionBlock": {
+                        "MailingBlock": {
+                            "MailingCity": "Atlanta",
+                            "MailingCountry": "United States",
+                            "MailingCounty": "fulton",
+                            "MailingState": "GA",
+                            "MailingStreet": "123 Main Street",
+                            "MailingZipCode": "30309"
+                        }
+                    },
+                    "PhysicalCorrectlevel": {
+                        "Physicalblock": {
+                            "PhysicaZiPCode": "30309",
+                            "PhysicalCity": "Atlanta",
+                            "PhysicalCountry": "United States",
+                            "PhysicalCounty": "fulton",
+                            "PhysicalState": "GA",
+                            "PhysicalStreet": "123 Main Street"
+                        }
+                    }
+                },
+                "SalesOfficeLocation": "99",
+                "ShippingAddressissameAsMailingAddress": false,
+                "SicCodeTypeAhead-Block": {
+                    "SicCodeTypeAhead": "5812 - Restaurant"
+                },
+                "SitusState": "Georgia",
+                "VendorReferral": "N",
+                "WorkLocation": "N024"
+            }
+        },
+        "GroupInformation": {
+            "ClaimsSavingsVendor": "NC8",
+            "DoesAnthemGenerateHCID": "G",
+            "DuplicateSupplementalCoverageAllowed": "N",
+            "EmployeeAssistanceProgram": false,
+            "GroupType": "A (ACTIVE)",
+            "OADAutoDelete": "N",
+            "RetroEnrollmentMaintenanceElectronic": "60",
+            "RetroEnrollmentMaintenanceOnline": "60"
+        },
+        "GroupNumbervalidation": "Pending SME Review",
+        "GroupUpdateID": "a5I2h000000Ck4rEAC",
+        "MailingAddress": "123 Main Street, Atlanta, GA, 30309, United States",
+        "OpenEnrollmentStartDate": "04/01/2020",
+        "OpportunityEffectiveDate": "2020-04-01",
+        "OrderId": "8012h000000M5SIAA0",
+        "PhysicalAddress": "123 Main Street, Atlanta, GA, 30309, United States",
+        "QuoteupdateID": "0Q02h000000D09rCAC",
+        "RecordTypeName": "Renewal Unlock",
+        "SitusStateValue": "Georgia",
+        "opportunityupdateID": "0062h000006ilOXAAY"
+    },
+    "sfdcIFrameHost": "web",
+    "sfdcIFrameOrigin": "https://commercial--ruat--vlocity-ins.visualforce.com",
+    "st1": "Pending SME Review",
+    "st2": false,
+    "st3": true,
+    "stImplementationType": "New Business",
+    "testContextId": "8012h000000M5SIAA0",
+    "timeStamp": "2020-04-03T22:39:51.113Z",
+    "userCurrencyCode": "USD",
+    "userId": "0051K00000955swQAA",
+    "userName": "yan.zhenyu@anthem.com2.ruat",
+    "userProfile": "System Administrator",
+    "userTimeZone": -420,
+    "vlcPersistentComponent": {
+    }
+}

@@ -1,0 +1,47 @@
+{
+    "%vlocity_namespace%__Active__c": true,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "CapturePlanBenefits_LG",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/ANA Library/PSCapturePlanBenefits_LG/English",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__PropertySet__c": {
+        "HTMLTemplateId": "",
+        "controlWidth": 12,
+        "disOnTplt": false,
+        "elementValueMap": {
+            "SV-ClaimsGraceDaysSME": "=IF((%userProfile% == \"SME\" || %userProfile% == \"SME Dual\"), %ClaimsGraceDaysSME%,%ClaimsGraceDays%)",
+            "SV-EmployeeAssistanceProgramSME": "=IF((%userProfile% == \"SME\" || %userProfile% == \"SME Dual\"),IF(EmployeeAssistanceProgramSME!=null, %EmployeeAssistanceProgramSME%,false)IF(EmployeeAssistanceProgram!=null,%EmployeeAssistanceProgram%,false))",
+            "SV-EyeMedBenefitLevel1SME": "=IF((%userProfile% == \"SME\" || %userProfile% == \"SME Dual\"), %EyeMedBenefitLevel1SME%,%EyeMedBenefitLevel1%)",
+            "SV-EyeMedBenefitLevel2SME": "=IF((%userProfile% == \"SME\" || %userProfile% == \"SME Dual\"), %EyeMedBenefitLevel2SME%,%EyeMedBenefitLevel2%)",
+            "SV-EyeMedBenefitLevel3SME": "=IF((%userProfile% == \"SME\" || %userProfile% == \"SME Dual\"), %EyeMedBenefitLevel3SME%,%EyeMedBenefitLevel3%)",
+            "SV-EyeMedBenefitLevel4SME": "=IF((%userProfile% == \"SME\" || %userProfile% == \"SME Dual\"), %EyeMedBenefitLevel4SME%,%EyeMedBenefitLevel4%)",
+            "SV-EyeMedBenefitPlanCodeSME": "=IF((%userProfile% == \"SME\" || %userProfile% == \"SME Dual\"), %EyeMedBenefitPlanCodeSME%,%EyeMedBenefitPlanCode%)",
+            "SV-IDCardDesignSME": "=IF((%userProfile% == \"SME\" || %userProfile% == \"SME Dual\"), %IDCardDesignSME%,%IDCardDesign%)",
+            "SV-PharmacyBenefitIdentifierSME": "=IF((%userProfile% == \"SME\" || %userProfile% == \"SME Dual\"), %PharmacyBenefitIdentifierSME%,%PharmacyBenefitIdentifier%)",
+            "SV-RateStructureSME": "=IF((%userProfile% == \"SME\" || %userProfile% == \"SME Dual\"), %RateStructureSME%,%RateStructure%)",
+            "SV-VisionAdultCoMingleSME": "=IF((%userProfile% == \"SME\" || %userProfile% == \"SME Dual\"), %VisionAdultCoMingleSME%,%VisionAdultCoMingle%)",
+            "SV-VisionChildCoMingleSME": "=IF((%userProfile% == \"SME\" || %userProfile% == \"SME Dual\"), %VisionChildCoMingleSME%,%VisionChildCoMingle%)",
+            "SV-VisionExamCopaySME": "=IF((%userProfile% == \"SME\" || %userProfile% == \"SME Dual\"), %VisionExamCopaySME%,%VisionExamCopay%)",
+            "SV-VisionLensCopaySME": "=IF((%userProfile% == \"SME\" || %userProfile% == \"SME Dual\"), %VisionLensCopaySME%,%VisionLensCopay%)"
+        },
+        "label": null,
+        "message": {
+        },
+        "show": null,
+        "showPersistentComponent": [
+            false,
+            false
+        ],
+        "ssm": false,
+        "validationRequired": "Step",
+        "wpm": false
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": false,
+    "%vlocity_namespace%__Type__c": "Set Values",
+    "Name": "SetValues-SME",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/ANA Library/PSCapturePlanBenefits_LG/English/SetValues-SME"
+}

@@ -1,0 +1,27 @@
+{
+    "Cards": [
+        "FirstImpressionCard"
+    ],
+    "dataSource": {
+        "contextVariables": [
+            {
+                "name": "params.Id",
+                "val": "a862a0000008kzUAAQ"
+            }
+        ],
+        "type": "Query",
+        "value": {
+            "jsonMap": "{\"params.id || params.Id\":\"{{params.id || params.Id}}\"}"
+        }
+    },
+    "previewType": "runTime",
+    "templates": {
+        "0": {
+            "templateUrl": "anthem-card-canvas-1x-slds-nosearch"
+        }
+    },
+    "workspace": [
+        "VisionCard/Anthem Commercial 2.0/1/1533679043212",
+        "FirstImpressionCard/Anthem Commercial 2.0/1/1551094208120"
+    ]
+}

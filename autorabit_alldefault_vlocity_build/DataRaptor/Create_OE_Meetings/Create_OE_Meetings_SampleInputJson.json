@@ -1,0 +1,134 @@
+{
+    "AccountId": "0013I0000053tV6QAI",
+    "AccountName": "Test account_XMen",
+    "ContextId": "a9I3I00000001LUUAY",
+    "DRId_SFDC_Volunteer_Event__c": "",
+    "MeetingGroupName": "Test account_XMen-2020",
+    "OE": {
+        "LocalUser": "Local",
+        "MeetingEntry": {
+            "Address": {
+                "MeetingAddressValidation": false,
+                "MeetingCity": "Atlanta",
+                "MeetingContact": "asdfasdfas",
+                "MeetingContactEmail": "steven.hosler@anthem.com",
+                "MeetingContactPhone": "3124389817",
+                "MeetingShippingValidation": false,
+                "MeetingState": "GA",
+                "MeetingStreet": "600 Peachtree Street NE",
+                "MeetingZip": "30308",
+                "Messaging14": true,
+                "SameAddress": true,
+                "ShippingCity": null,
+                "ShippingCityF": "Atlanta",
+                "ShippingContact": null,
+                "ShippingContactF": "asdfasdfas",
+                "ShippingContactPhone": null,
+                "ShippingContactPhoneF": "3124389817",
+                "ShippingContactType": "Broker",
+                "ShippingState": null,
+                "ShippingStateF": "GA",
+                "ShippingStreet": null,
+                "ShippingStreetF": "600 Peachtree Street NE",
+                "ShippingZip": null,
+                "ShippingZipF": "30308"
+            },
+            "CalculateRecordType": "0123J0000004IDVQA2",
+            "MeetingAddressMessage": true,
+            "MeetingFaciliBlock": {
+                "AEAttending": "No",
+                "AMAttending": "No",
+                "AmTravel": "Mileage Only",
+                "Bilingual": "No",
+                "CESARAttending": "No",
+                "FacilitatorNeeds": null,
+                "OAAttending": "No",
+                "SARAttending": "No"
+            },
+            "MeetingInfoBlock": {
+                "CalculateMeetingtype": "OE Kit",
+                "DatesFlexible": false,
+                "MeetingDate": "2020-03-28",
+                "MeetingDateFormula": false,
+                "MeetingDateMessaging": true,
+                "MeetingGroup": "Test account_XMen-2020",
+                "MeetingNameLoad": "Test account_XMen-undefined-2020-03-28-Atlanta,GA",
+                "MeetingStage": "DRAFT",
+                "MeetingStatus": "NEW REQUEST",
+                "MeetingType": null,
+                "MeetingTypeOEKitMessage": true,
+                "MeetingTypeOEKitValue": "OE Kit"
+            },
+            "MeetingMaterialsBlock": {
+                "CalculateMaterialsNeeded": "OE Kit",
+                "EmpNeededValidation": false,
+                "ExpectedAttendees": "2342342",
+                "MaterialNeededBlcok": {
+                    "MaterialsNeeded": null
+                },
+                "MaterialsNeededMessaging": null,
+                "MaterialsNeededOEKit": "OE Kit",
+                "MaterialsNeededRequired": false,
+                "MaterialsNeededValidation": false,
+                "MeetingComments": "asdfasdfsad",
+                "ShippingAddressValidaton": false,
+                "Submit": true,
+                "SubmitDateValidaton": false,
+                "SubmitEmpValidaton": false,
+                "SubmitFacValidaton": true,
+                "SubmitMeetingAddressValidaton": false,
+                "SubmitQAValidaton": false,
+                "SubmitSessionValidaton": true,
+                "SubmitSupValidaton": false,
+                "SubmitValidaton": true,
+                "SubmitValidaton2": false,
+                "SubmitWebValidaton": false
+            },
+            "MeetingSessions": {
+                "TimeBlock": {
+                    "SessionStart": null,
+                    "SessionStop": null
+                }
+            },
+            "MeetingSessionsMessage": true,
+            "MeetingSessionsValidation": false,
+            "OEKitRequestInformation": {
+                "EffectiveRenewalDate": "2020-03-25",
+                "OEKitEscalatedRequest": "No",
+                "QtyOfKitsRequested": "23423",
+                "RequestNeededBy": "2020-03-26",
+                "SoldPlanNames": "asdfasdf"
+            },
+            "OEkit": true,
+            "ShippingAddressMessage": true,
+            "StepNextValidation": false,
+            "TimeBlockLoad": null
+        },
+        "StepValidation": null,
+        "StepValidationMessage": null
+    },
+    "OERecTypeID": "0123J0000004IDVQA2",
+    "OpenRecTypeID": "0123J0000004IKqQAM",
+    "UserProfile": "System Administrator",
+    "id": "a3C2g0000005SzjEAE",
+    "isdtp": "p1",
+    "sfdcIFrameHost": "web",
+    "sfdcIFrameOrigin": "https://commercial--c2kumar--vlocity-ins.visualforce.com",
+    "testContextId": "a9I3I00000001LUUAY",
+    "timeStamp": "2020-03-13T08:34:20.688Z",
+    "userCurrencyCode": "USD",
+    "userId": "0051K000008WMc7QAG",
+    "userName": "dhiraj.kumar@legatohealth.com.c2kumar",
+    "userProfile": "System Administrator",
+    "userTimeZone": -240,
+    "verticalmode": true,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "DRE_ExtractMeetingGroups": 1286,
+        "DR_LoadOE": 2723,
+        "End": 114959,
+        "OE": 3137282,
+        "OmniScriptSessionToken": "e19ce29f-66e7-451b-9046-e8bb060c36dc"
+    }
+}

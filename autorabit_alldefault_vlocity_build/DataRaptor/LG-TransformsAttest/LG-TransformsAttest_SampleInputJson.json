@@ -1,0 +1,30 @@
+{
+    "Confirm": {
+    },
+    "ContextId": null,
+    "StageInformation": {
+        "Brokers": null,
+        "Group": null,
+        "GroupContact": null,
+        "LeadUW": null,
+        "NumSelections": null,
+        "Validation": null
+    },
+    "TextBlock2": null,
+    "timeStamp": null,
+    "userId": null,
+    "userName": null,
+    "userProfile": null,
+    "userTimeZone": null,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "Confirm": null,
+        "DR_Base": null,
+        "DR_Extend": null,
+        "DataRaptorTransformAction1": null,
+        "DoneAction1": null,
+        "SetValues1": null,
+        "StageInformation": null
+    }
+}

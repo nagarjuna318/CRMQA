@@ -1,0 +1,62 @@
+{
+    "ContextId": null,
+    "FileAttachment": {
+        "File": [
+            {
+                "data": null,
+                "filename": null,
+                "size": null
+            }
+        ],
+        "FileCount": null
+    },
+    "Finish": {
+    },
+    "Revision": {
+        "FRM-AccountName": null,
+        "FRM-ImplementationCase": null,
+        "FRM-ImplementationCaseStatus": null,
+        "FRM-RecordType": null
+    },
+    "RevisionsReasons": {
+        "InputBlock1": null,
+        "Messaging2": null,
+        "RevisionBlock": {
+            "AttachmentFormula": null,
+            "DescriptionNBPW": null,
+            "DoesChangeImpactBenefitBooklets": null,
+            "DoesChangeImpactSBCs": null,
+            "ImpactedPackagesDetailsBlock": {
+                "Description": null,
+                "ImpactedPackages/Suffixes/Sections": null
+            },
+            "RevisionReason": null,
+            "RevisionType": null
+        },
+        "Text1": null
+    },
+    "Submission": {
+        "SubmitRevision": null
+    },
+    "timeStamp": null,
+    "userId": null,
+    "userName": null,
+    "userProfile": null,
+    "userTimeZone": null,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "DR-FileUpload": null,
+        "DataRaptorPostAction1": null,
+        "DoneAction1": null,
+        "FileAttachment": null,
+        "Finish": null,
+        "IMPCaseExtract": null,
+        "Revision": null,
+        "RevisionsReasons": null,
+        "SV-AttachmentFormula": null,
+        "SV-ContextId": null,
+        "SetValues2": null,
+        "Submission": null
+    }
+}

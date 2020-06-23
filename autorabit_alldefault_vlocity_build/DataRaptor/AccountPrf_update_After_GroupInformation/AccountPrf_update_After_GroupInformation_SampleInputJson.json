@@ -1,0 +1,483 @@
+{
+    "AccTeamMemId": "01M23000007utzQEAQ",
+    "AccountExecutiveLatest": "",
+    "AccountManagerLatest": "",
+    "AccountManagerTest": "Bharath Kumar",
+    "AccountPreferences": {
+        "ASONewbornOptOutIndicator": "Y",
+        "CertofCreditableCoverageSuppression": "Y",
+        "ConversionLetterSuppression": "Y",
+        "DelinquencyCancellationLttrSuppression": "Y",
+        "DoesAnthemGenerateHCID": "C",
+        "ProrationRule": "M",
+        "TerminationLetterSuppression1": "Y",
+        "TerminationLetterSuppression2": "Y"
+    },
+    "AccountUpdateId": "0012300000Tz4OFAAZ",
+    "AccounteExecutiveTest": "Sai dheeraj",
+    "AddNewDepartmentCodes": false,
+    "AddNewEmployeeClassDivision": false,
+    "AddNewProductMedicalSpecialtyOnly": false,
+    "AddNewProductSupplemental": false,
+    "BrokerInformation": {
+        "BrokerageConsultantInformation": {
+            "BCId": "a6h230000008om6AAA",
+            "BOR": false,
+            "BrokerageEffectiveDate": "2020-06-23",
+            "BrokerageName-Block": {
+                "BrokerageId": null,
+                "BrokerageName": "Brokerage Acc"
+            },
+            "COR": false,
+            "ConsultantName-Block": {
+                "ConsultantId": null,
+                "ConsultantName": null
+            }
+        }
+    },
+    "CaseInformation": {
+        "ASONewbornOptOutIndicator": "N",
+        "CaseInformation1": {
+            "AccountId": "0012300000Tz4OFAAZ",
+            "AcountAccessLevel": "Read",
+            "AdditionalComments": null,
+            "AssignedPrefix": "545",
+            "BenefitRenewalAnniversaryDate": "2022-05-07T18:30:00.000Z",
+            "CancelDate": null,
+            "CertofCreditableCoverageSuppression": "N",
+            "ConversionLetterSuppression": "N",
+            "DelinquencyCancellationLttrSuppression": "N",
+            "IDCardsSentTo": "Group",
+            "ImplementationCaseStatus": "Pending SME Review",
+            "ImplementationEffectiveDate": "2021-05-30T18:30:00.000Z",
+            "MBSCode": null,
+            "OppOwner-Block": {
+                "OppOwner": "Sai dheeraj",
+                "OpportunityOwner": null
+            },
+            "OpportunityOwnerAnthemFederationID": "123456",
+            "RecId": "aAZ2300000003hcGAA",
+            "SpecialtySalesExecutive": null,
+            "TerminationLetterSuppression": "N",
+            "UnderwriterAnthemFederationID": null,
+            "UnderwriterName": null,
+            "WGSMBUCode": "66200000"
+        }
+    },
+    "ChangeAccountName": false,
+    "ChangeAccountPhoneNumber": false,
+    "ChangeAccountPhysicalOrMailingAddress": false,
+    "ChangeAnniversaryMonth": false,
+    "ChangeBenefitDesignOnAtLeastOneProduct": false,
+    "ChangeContactBillingInvoice": false,
+    "ChangeContactNonBilling": false,
+    "ChangeFundingTypeOnAtLeastOneProduct": false,
+    "ChangeNewHireProbationaryPeriod": false,
+    "ChangeProducts": false,
+    "CompanyInformation1": {
+        "CompanyInformation": {
+            "AccontTeam": {
+                "AccountExecutiveBlock": {
+                    "AccountExecutive": "Sai dheeraj"
+                },
+                "AccountManagerBlock": {
+                    "AccountManager": "Bharath Kumar"
+                },
+                "SalesAccountRepAcctMgmtBlock": {
+                    "SalesAccountRepAcctMgmt": "Prabir Mohanty"
+                },
+                "SpecialtySalesExecutiveTeamBlock": {
+                    "SpecialtySalesExecutiveTeam": null
+                },
+                "UnderwriterBlock": {
+                    "Underwriter": "amit kumar"
+                }
+            },
+            "AccountLegalName": "Test Account 58154",
+            "AccountNameDBA": "test",
+            "AccountStatusCROC": "Active",
+            "AccountStatusFormula": "Active",
+            "AccountStatusNB": "Active",
+            "AnthemEntity": "Local/Large Group",
+            "CompanySizeGroupSize": "1 - 50",
+            "EOCPaperlessOptionIndicator": "Y",
+            "ERISAStatus": "Non-ERISA",
+            "EmployerTaxID": "234432234",
+            "HIPAALetterExclusion": "(Y) Exclude the Generation of HIPAA Add and Term Letters Due To HCR",
+            "HQState": "CA",
+            "LegalEntity": "CO = Corporation",
+            "Phone1": "8888888888",
+            "PhysicalAndMailingAddress": {
+                "MalingConditionBlock": {
+                    "MailingBlock": {
+                        "MailingCity": "fgf",
+                        "MailingCountry": "CA",
+                        "MailingCounty": "CA",
+                        "MailingState": "CA",
+                        "MailingStreet": "dsgfsdf",
+                        "MailingZipCode": "90001"
+                    },
+                    "MailingFormula": {
+                        "MailingCityFormula": "fgf",
+                        "MailingCountryFormula": "CA",
+                        "MailingCountyFormula": "CA",
+                        "MailingStateFormula": "CA",
+                        "MailingStreetFormula": "dsgfsdf",
+                        "MailingZipCodeFormula": "90001"
+                    }
+                },
+                "PhysicalCorrectlevel": {
+                    "Physicalblock": {
+                        "PhysicaZiPCode": "90001",
+                        "PhysicalCity": "fgf",
+                        "PhysicalCountry": "CA",
+                        "PhysicalCounty": "CA",
+                        "PhysicalState": "CA",
+                        "PhysicalStreet": "dsgfsdf"
+                    }
+                },
+                "ShippingAddressissameAsMailingAddress": true
+            },
+            "SicCodeTypeAhead-Block": {
+                "SicCodeTypeAhead": "test acc industry"
+            },
+            "SitusState": "California",
+            "VendorReferral": "N",
+            "WorkLocation": "9090"
+        }
+    },
+    "ContactBillParent": "0032300000OVnfmAAD",
+    "ContactGroupParent": "0032300000OVnfmAAD",
+    "ContactInformation": {
+        "BillingContactContactType": "Billing Contact;Group Administrator",
+        "BillingContactEmail": "amit@1.com",
+        "BillingContactFirstName": "Amit",
+        "BillingContactLastName": "Kumar1",
+        "BillingContactMailingCity": "city1",
+        "BillingContactMailingState": "state1",
+        "BillingContactMailingStreet": "Sydney",
+        "BillingContactMailingZipCode": "25874",
+        "BillingContactName": "Amit Kumar1",
+        "BillingContactPhone": "1478523698",
+        "GroupAdministratorContactEmail": "amit@1.com",
+        "GroupAdministratorContactName": null,
+        "GroupAdministratorContactPhone": "1478523698",
+        "GroupAdministratorContactType": "Billing Contact;Group Administrator",
+        "GroupAdministratorFirstName": "Amit",
+        "GroupAdministratorLastName": "Kumar1",
+        "GroupAdministratorMailingCity": "city1",
+        "GroupAdministratorMailingState": "state1",
+        "GroupAdministratorMailingStreet": "Sydney",
+        "GroupAdministratorMailingZipCode": "25874"
+    },
+    "ContactRelatBillID": "a5F23000001HlpYEAS",
+    "ContactTypeB": "Billing Contact;Group Administrator",
+    "ContactTypeGB": "Billing Contact;Group Administrator",
+    "ContctrelatGroupId": "a5F23000001HlpYEAS",
+    "ContextId": "80123000000sUJlAAM",
+    "CounterValue": false,
+    "CustomerMasterAccount": false,
+    "DRId_Account": "0012300000Tz4OFAAZ",
+    "DRId_Account_Preferences__c": "aAZ2300000003hcGAA",
+    "DRId_Group__c": "a5I230000006fP9EAI",
+    "DRId_Order": "80123000000sUJlAAM",
+    "DRId_Quote": "0Q023000000O2BhCAK",
+    "DataRaptorExtractAction6Status": true,
+    "DataRaptorExtractAction7Status": true,
+    "EligbleId": "a7H230000009gZZEAY",
+    "EligibilityInformation": {
+        "COBRAAdministrationServices": "N",
+        "DeleteDependentCode": "1N",
+        "DomesticPartnerIndicator": "N",
+        "EmployeeExcludedCode": "16 (CA)",
+        "Over65Code": "2",
+        "OverageDepTermLettersMailedtoSub": "G",
+        "PremPaidForEachSubDepPerMonth": 100,
+        "PremPaidForEachSubPerMonth": 100
+    },
+    "Formula11": false,
+    "FundingId": "a7L230000005VNiEAM",
+    "GroupInformation": {
+        "CancelReason": null,
+        "ClaimSystem": "WGS 2.0",
+        "ClaimsDetails": {
+            "ClaimsSavingsVendor": "AB2",
+            "Non-ContractedSavingsProgram": "Yes",
+            "TerminatedReservelessMPPFunding": "C"
+        },
+        "DuplicateSupplementalCoverageAllowed": "N",
+        "EmployeeAssistanceProgram": false,
+        "EnrollmentDetails": {
+            "OngoingEnrollmentSubmissionType": "Census",
+            "OpenEnrollmentStartDate": "2020-06-22T18:30:00.000Z",
+            "RetroEnrollmentMaintenanceElectronic": "120",
+            "RetroEnrollmentMaintenanceOnline": "120"
+        },
+        "GroupNumber": "GRP1122",
+        "GroupType": "A (ACTIVE)",
+        "IDCardsDetails": {
+            "IDCardsSentToInitially": "Group",
+            "MaintenanceCardsSentTo": "Subscribers",
+            "NonHmoBlock": {
+                "NonHMOIDCards": "S3",
+                "NonHMOIDCards1": "AL",
+                "NonHmoFormula": "S3"
+            },
+            "OptOutofLHOURLonIDCards": "N"
+        },
+        "IndicateProbationaryPeriod": null,
+        "OADAutoDelete": "Y",
+        "OpportunityEffectiveDate": "2021-05-30T18:30:00.000Z",
+        "RenewalDetails": {
+            "ActiveRenewalDate": "2021-06-23T18:30:00.000Z",
+            "MonthUnderwriterStartsRenewalProcess": "January"
+        }
+    },
+    "GroupNumbervalidation": "Pending SME Review",
+    "GroupSubmissionCounter": "",
+    "GroupUpdateID": "a5I230000006fP9EAI",
+    "ID": "a5I230000006fP9EAI",
+    "ImplCase": {
+        "ImplementationType": "New Business"
+    },
+    "ImplementaionTrackingID": "a7X230000008zBTEAY",
+    "ImplementationType": "New Business",
+    "IsLoadGroupSubmitted": false,
+    "LoadGroupStatus": "",
+    "LoadGroupStep": {
+        "CaseInformation": {
+            "ImplementationCaseStatus": "Pending SME Review"
+        }
+    },
+    "LoadGroupSubmissionTimestamp": "",
+    "MailingAddress": "dsgfsdf, fgf, CA, 90001, CA",
+    "OpenEffectiveDate1": "2021-05-30T18:30:00.000Z",
+    "OpportunityId": "0062300000CF5tlAAD",
+    "OppurtunityEffectiveDate": "2021-05-30T18:30:00.000Z",
+    "OrderId": "80123000000sUJlAAM",
+    "OrderNumber": "IMPL-32140",
+    "PEOAndAddingNewCompanyThatRequiresNewSuffixes": false,
+    "PhysicalAddress": "dsgfsdf, fgf, CA, 90001, CA",
+    "ProductAndCoverageTypeInformation": {
+        "DentalQLIs": {
+            "DentalQLIAddReasonCode": null,
+            "DentalQLIBenefitPeriod": null,
+            "DentalQLIClaimsRouteCode": null,
+            "DentalQLIProdName": null
+        },
+        "EAPQLIs": {
+            "EAPQLIAddReasonCode": null,
+            "EAPQLIBenefitPeriod": null,
+            "EAPQLIClaimsRouteCode": null,
+            "EAPQLIProdName": null
+        },
+        "FSAQLIs": {
+            "FSAQLIAddReasonCode": null,
+            "FSAQLIBenefitPeriod": null,
+            "FSAQLIClaimsRouteCode": null,
+            "FSAQLIProdName": null
+        },
+        "LifeAndDisabilityQLIBlk": {
+            "LifeDisabilityQLIAddReasonCode": null,
+            "LifeDisabilityQLIBenefitPeriod": null,
+            "LifeDisabilityQLIClaimsRouteCode": null,
+            "LifeDisabilityQLIProdName": null
+        },
+        "Pharmacy1": {
+            "Block52": {
+                "ContractCodePharma": null,
+                "CustomContractCodePharma": null,
+                "PharmacyBenefitIdentifier1": null,
+                "PlanNamePharma": null,
+                "PlanTypePharma": null,
+                "ProductTypePharma": null
+            }
+        },
+        "ProductMedicalBlk": {
+            "MedicalProduct": {
+                "MedProdQLIProdCat": null,
+                "MedProdQLIProdName": null,
+                "MedProdQLIProductContractCode": null,
+                "MedProdQLIProductPrefix": null
+            },
+            "PlanMedicalBlk": {
+                "MedPlanQLIAddReasonCode": null,
+                "MedPlanQLIBenefitPeriod": null,
+                "MedPlanQLIClaimsRouteCode": null,
+                "MedPlanQLIContractCode": null,
+                "MedPlanQLIHSABankingPartner": null,
+                "MedPlanQLIParentQLI": null,
+                "MedPlanQLIPlanCat": null,
+                "MedPlanQLIPlanName": null
+            }
+        },
+        "VisionQLIBlk": {
+            "VisionQLIAddReasonCode": null,
+            "VisionQLIBenefitPeriod": null,
+            "VisionQLIClaimsRouteCode": null,
+            "VisionQLIProdName": null
+        }
+    },
+    "ProductWithPercent": "%",
+    "QuoteupdateID": "0Q023000000O2BhCAK",
+    "RateAdjustmentDueToInternalError": false,
+    "RecFetch": false,
+    "RecordTypeName": "Renewal Unlock",
+    "ResponseAction2Status": true,
+    "SalesAccountRepAccMgmtTest": "Prabir Mohanty",
+    "SetCustomerMaster": "",
+    "SitusStateNB": "California",
+    "SitusStateValue": "California",
+    "SpecalitySalesExecutiveTest": "",
+    "SpecialtySalesExecutive": "",
+    "UnderwriterTest": "",
+    "formula12": false,
+    "formula13": true,
+    "formula14": false,
+    "formula15": true,
+    "id": "a3C23000000I7oSEAS",
+    "isdtp": "p1",
+    "layout": "lightning",
+    "opportunityupdateID": "0062300000CF5tlAAD",
+    "options": {
+        "chainable": false,
+        "postTransformBundle": "",
+        "preTransformBundle": "",
+        "useContinuation": false,
+        "useFuture": false,
+        "vlcClass": "%vlocity_namespace%.IntegrationProcedureService"
+    },
+    "response": {
+        "AccTeamMemId": "01M23000007utzQEAQ",
+        "AccountPreferences": {
+            "ASONewbornOptOutIndicator": "Y",
+            "CertofCreditableCoverageSuppression": "Y",
+            "ConversionLetterSuppression": "Y",
+            "DelinquencyCancellationLttrSuppression": "Y",
+            "DoesAnthemGenerateHCID": "C",
+            "ProrationRule": "M",
+            "TerminationLetterSuppression1": "Y",
+            "TerminationLetterSuppression2": "Y"
+        },
+        "AccountUpdateId": "0012300000Tz4OFAAZ",
+        "CaseInformation": {
+            "CaseInformation1": {
+                "AccountId": "0012300000Tz4OFAAZ",
+                "AcountAccessLevel": "Read",
+                "BenefitRenewalAnniversaryDate": "2022-05-08",
+                "ImplementationCaseStatus": "Pending SME Review",
+                "ImplementationEffectiveDate": "2021-05-31",
+                "OppOwner-Block": {
+                    "OppOwner": "Sai dheeraj"
+                },
+                "OpportunityOwnerAnthemFederationID": "123456",
+                "RecId": "aAZ2300000003hcGAA",
+                "UnderwriterName": "amit kumar",
+                "WGSMBUCode": "66200000"
+            }
+        },
+        "CompanyInformation1": {
+            "CompanyInformation": {
+                "AccountLegalName": "Test Account 58154",
+                "AccountNameDBA": "test",
+                "AccountStatusCROC": "Active",
+                "AccountStatusNB": "Active",
+                "AnthemEntity": "Local/Large Group",
+                "CompanySizeGroupSize": "1 - 50",
+                "EOCPaperlessOptionIndicator": "Y",
+                "ERISAStatus": "Non-ERISA",
+                "EmployerTaxID": "234432234",
+                "HIPAALetterExclusion": "(Y) Exclude the Generation of HIPAA Add and Term Letters Due To HCR",
+                "HQState": "CA",
+                "LegalEntity": "CO = Corporation",
+                "Phone1": "8888888888",
+                "PhysicalAndMailingAddress": {
+                    "MalingConditionBlock": {
+                        "MailingBlock": {
+                            "MailingCity": "fgf",
+                            "MailingCountry": "CA",
+                            "MailingCounty": "CA",
+                            "MailingState": "CA",
+                            "MailingStreet": "dsgfsdf",
+                            "MailingZipCode": "90001"
+                        }
+                    },
+                    "PhysicalCorrectlevel": {
+                        "Physicalblock": {
+                            "PhysicaZiPCode": "90001",
+                            "PhysicalCity": "fgf",
+                            "PhysicalCountry": "CA",
+                            "PhysicalCounty": "CA",
+                            "PhysicalState": "CA",
+                            "PhysicalStreet": "dsgfsdf"
+                        }
+                    },
+                    "ShippingAddressissameAsMailingAddress": true
+                },
+                "SicCodeTypeAhead-Block": {
+                    "SicCodeTypeAhead": "test acc industry"
+                },
+                "SitusState": "California",
+                "VendorReferral": "N",
+                "WorkLocation": "9090"
+            }
+        },
+        "GroupInformation": {
+            "ClaimSystem": "WGS 2.0",
+            "ClaimsDetails": {
+                "ClaimsSavingsVendor": "AB2",
+                "Non-ContractedSavingsProgram": "Yes",
+                "TerminatedReservelessMPPFunding": "C"
+            },
+            "DuplicateSupplementalCoverageAllowed": "N",
+            "EmployeeAssistanceProgram": false,
+            "EnrollmentDetails": {
+                "OpenEnrollmentStartDate": "2020-06-23",
+                "RetroEnrollmentMaintenanceElectronic": "120",
+                "RetroEnrollmentMaintenanceOnline": "120"
+            },
+            "GroupNumber": "GRP1122",
+            "GroupType": "A (ACTIVE)",
+            "IDCardsDetails": {
+                "IDCardsSentToInitially": "Group",
+                "MaintenanceCardsSentTo": "Subscribers",
+                "NonHmoBlock": {
+                    "NonHMOIDCards": "SS",
+                    "NonHMOIDCards1": "AL"
+                },
+                "OptOutofLHOURLonIDCards": "N"
+            },
+            "OADAutoDelete": "Y",
+            "OpportunityEffectiveDate": "2021-05-31",
+            "RenewalDetails": {
+                "ActiveRenewalDate": "06/24/2021",
+                "MonthUnderwriterStartsRenewalProcess": "January"
+            }
+        },
+        "GroupNumbervalidation": "Pending SME Review",
+        "GroupUpdateID": "a5I230000006fP9EAI",
+        "MailingAddress": "dsgfsdf, fgf, CA, 90001, CA",
+        "OpenEnrollmentStartDate": "06/23/2020",
+        "OrderId": "80123000000sUJlAAM",
+        "PhysicalAddress": "dsgfsdf, fgf, CA, 90001, CA",
+        "QuoteupdateID": "0Q023000000O2BhCAK",
+        "RecordTypeName": "Renewal Unlock",
+        "SitusStateValue": "California",
+        "opportunityupdateID": "0062300000CF5tlAAD"
+    },
+    "sfdcIFrameHost": "web",
+    "sfdcIFrameOrigin": "https://commercial--raptors--vlocity-ins.visualforce.com",
+    "st1": "Pending SME Review",
+    "st2": false,
+    "st3": true,
+    "stImplementationType": "New Business",
+    "testContextId": "80123000000sUJlAAM",
+    "timeStamp": "2020-06-05T10:20:45.927Z",
+    "userCurrencyCode": "USD",
+    "userId": "0052i000001IzhoAAC",
+    "userName": "bharath.kumar.talari@accenture.com.raptors",
+    "userProfile": "System Administrator",
+    "userTimeZone": -240,
+    "vlcPersistentComponent": {
+    }
+}

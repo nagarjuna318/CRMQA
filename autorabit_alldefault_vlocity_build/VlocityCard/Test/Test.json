@@ -1,0 +1,104 @@
+{
+    "dataSource": {
+        "contextVariables": [
+            {
+                "name": "parent.obj.Id",
+                "val": "a8m1b0000008WQbAAM"
+            }
+        ],
+        "type": null,
+        "value": {
+            "jsonMap": "{\"parent.obj.Id\":\"{{parent.obj.Id}}\"}"
+        }
+    },
+    "filter": {
+    },
+    "states": [
+        {
+            "actionCtxId": "['Id']",
+            "conditions": {
+                "group": [
+                    {
+                        "field": "$scope.data.status",
+                        "operator": "===",
+                        "type": "system",
+                        "value": "active"
+                    }
+                ]
+            },
+            "definedActions": {
+                "actions": [
+                ]
+            },
+            "disableAddCondition": false,
+            "editMode": false,
+            "fields": [
+                {
+                    "collapse": true,
+                    "displayLabel": "<<Custom Field>>",
+                    "editing": false,
+                    "fieldType": "custom",
+                    "label": "Commission Paid Products",
+                    "name": "['Name']",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "displayLabel": "['Product_Name__c']",
+                    "editing": false,
+                    "fieldType": "standard",
+                    "group": "Custom Properties",
+                    "label": "Product Name",
+                    "name": "['Product_Name__c']",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "displayLabel": "['QLI_Product_Stage__c']",
+                    "editing": false,
+                    "fieldType": "standard",
+                    "group": "Custom Properties",
+                    "label": "Product Stage",
+                    "name": "['QLI_Product_Stage__c']",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "displayLabel": "['Total_Comp_Amount_For_Product__c']",
+                    "editing": false,
+                    "fieldType": "standard",
+                    "group": "Custom Properties",
+                    "label": "Total Comp Amount For Product",
+                    "name": "['Total_Comp_Amount_For_Product__c']",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "displayLabel": "<<Custom Field>>",
+                    "editing": false,
+                    "fieldType": "custom",
+                    "label": "QLI Members Validated",
+                    "name": "['QLI_Members_Validated__c']",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "displayLabel": "<<Custom Field>>",
+                    "editing": false,
+                    "fieldType": "custom",
+                    "label": "",
+                    "name": "['Paid_People_Owner_Name__c']",
+                    "type": "string"
+                }
+            ],
+            "filter": "$scope.data.status === 'active'",
+            "flyout": {
+                "layout": null
+            },
+            "name": "active-commission-paidproducts-card-flyout-card",
+            "sObjectType": "Commission_Paid_Products__c",
+            "templateUrl": "anthem-Commission-PaidProducts-flyout-card-horiz-sldsv2"
+        }
+    ],
+    "title": "CommissionPaidProductsFlyoutCard"
+}

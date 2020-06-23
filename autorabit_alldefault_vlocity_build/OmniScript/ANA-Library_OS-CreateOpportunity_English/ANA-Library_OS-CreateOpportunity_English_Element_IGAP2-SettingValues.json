@@ -1,0 +1,57 @@
+{
+    "%vlocity_namespace%__Active__c": true,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "OpptyCreation",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/ANA Library/OS-CreateOpportunity/English",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__PropertySet__c": {
+        "HTMLTemplateId": "",
+        "controlWidth": 12,
+        "elementValueMap": {
+            "IGAP2-EffectiveDate": "=IF(EQUALS(%RC-S6Flg%,'PartialNew'),%IGC-EffectiveDate%,IF(%RC-EffectiveDate%=NULL,%RC-UREffectiveDate%,%RC-EffectiveDate%))",
+            "IGAP2-ExecComments": "=IF(EQUALS(%RC-S6Flg%,'PartialNew'),%IGC-ExecComments%,NULL)",
+            "IGAP2-OpptyComments": "=IF(EQUALS(%RC-S6Flg%,'PartialNew'),%IGC-OpptyComments%,NULL)",
+            "IGAP2-OpptyName": "=IF(%RC-EffectiveDate%=NULL,CONCATENATE(YEAR(%RC-UREffectiveDate%),' Opportunity In Group Add Product-',%Account:Name%),CONCATENATE(YEAR(%RC-EffectiveDate%),' Opportunity In Group Add Product-',%Account:Name%))",
+            "IGAP2-RFPStatus": "=%CurrentOppty:RFP_Status%",
+            "IGAP2-ReceivedDate": "=IF(EQUALS(%RC-S6Flg%,'PartialNew'),%IGC-ReceivedDate%,NULL)",
+            "IGAP2-SpecialtyComments": "=IF(EQUALS(%RC-S6Flg%,'PartialNew'),%IGC-SpecialtyComments%,NULL)",
+            "IGAP2-StageName": "=IF(EQUALS(%RC-S6Flg%,'PartialNew') && EQUALS(%IGC-StageName%,'Change Confirmed'),'Closed Won',NULL)",
+            "IGAP2-StageReason": "=IF(EQUALS(%RC-S6Flg%,'PartialNew'),%IGC-StageReason%,NULL)"
+        },
+        "label": "OpportunityName",
+        "message": {
+        },
+        "show": {
+            "group": {
+                "operator": "OR",
+                "rules": [
+                    {
+                        "condition": "=",
+                        "data": "FullNew",
+                        "field": "RC-S6Flg"
+                    },
+                    {
+                        "condition": "=",
+                        "data": "PartialNew",
+                        "field": "RC-S6Flg"
+                    }
+                ]
+            }
+        },
+        "showPersistentComponent": [
+            false,
+            false
+        ],
+        "ssm": false,
+        "validationRequired": "None",
+        "wpm": false
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": false,
+    "%vlocity_namespace%__Type__c": "Set Values",
+    "Name": "IGAP2-SettingValues",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/ANA Library/OS-CreateOpportunity/English/IGAP2-SettingValues"
+}

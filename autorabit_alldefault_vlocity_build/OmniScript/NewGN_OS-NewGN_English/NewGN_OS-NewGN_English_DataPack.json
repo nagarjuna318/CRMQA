@@ -1,0 +1,31 @@
+{
+    "%vlocity_namespace%__AdditionalInformation__c": "User gives a new Group Number for created group record.",
+    "%vlocity_namespace%__Element__c": [
+        "NewGN_OS-NewGN_English_Element_GroupExtractAction.json",
+        "NewGN_OS-NewGN_English_Element_Step1.json",
+        "NewGN_OS-NewGN_English_Element_Eligible.json",
+        "NewGN_OS-NewGN_English_Element_Details.json",
+        "NewGN_OS-NewGN_English_Element_GroupDetails.json",
+        "NewGN_OS-NewGN_English_Element_EligibleYes.json",
+        "NewGN_OS-NewGN_English_Element_NewGroupNumber.json",
+        "NewGN_OS-NewGN_English_Element_EligibleYesMsg.json",
+        "NewGN_OS-NewGN_English_Element_YesMessage.json",
+        "NewGN_OS-NewGN_English_Element_EligibleNo.json",
+        "NewGN_OS-NewGN_English_Element_NotesHeadline.json",
+        "NewGN_OS-NewGN_English_Element_NotesDetails.json",
+        "NewGN_OS-NewGN_English_Element_EligibleNoMsg.json",
+        "NewGN_OS-NewGN_English_Element_NoMsg.json",
+        "NewGN_OS-NewGN_English_Element_SaveGroupNumber.json",
+        "NewGN_OS-NewGN_English_Element_DoneAction.json"
+    ],
+    "%vlocity_namespace%__IsProcedure__c": false,
+    "%vlocity_namespace%__IsReusable__c": false,
+    "%vlocity_namespace%__Language__c": "English",
+    "%vlocity_namespace%__PropertySet__c": "NewGN_OS-NewGN_English_PropertySet.json",
+    "%vlocity_namespace%__SubType__c": "OS-NewGN",
+    "%vlocity_namespace%__Type__c": "NewGN",
+    "Name": "ANA_NewGroupNumber",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__OmniScript__c/NewGN/OS-NewGN/English"
+}

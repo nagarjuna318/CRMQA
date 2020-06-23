@@ -1,0 +1,151 @@
+{
+    "%vlocity_namespace%__Active__c": true,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "ImplementationCase",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/IMPCase Library/IC-ImplementationCase/English",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__ParentElementId__c": {
+        "%vlocity_namespace%__OmniScriptId__c": {
+            "Name": "ImplementationCase",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/IMPCase Library/IC-ImplementationCase/English",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+        },
+        "Name": "GroupTermBlock",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/IMPCase Library/IC-ImplementationCase/English/GroupTermBlock",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c"
+    },
+    "%vlocity_namespace%__ParentElementName__c": "GroupTermBlock",
+    "%vlocity_namespace%__ParentElementType__c": "Block",
+    "%vlocity_namespace%__PropertySet__c": {
+        "HTMLTemplateId": "",
+        "accessibleInFutureSteps": true,
+        "conditionType": "Hide if False",
+        "controlWidth": 6,
+        "controllingField": {
+            "element": "",
+            "source": "",
+            "type": ""
+        },
+        "disOnTplt": false,
+        "help": false,
+        "helpText": "",
+        "hide": false,
+        "inputWidth": 12,
+        "label": "Reason for Cancellation",
+        "optionSource": {
+            "source": "order.Reason_for_Cancellation__c",
+            "type": ""
+        },
+        "options": [
+            {
+                "name": "3rd Party Advocacy",
+                "value": "3rd Party Advocacy"
+            },
+            {
+                "name": "B2B",
+                "value": "B2B"
+            },
+            {
+                "name": "Bankruptcy/Client Went Out of Business",
+                "value": "Bankruptcy/Client Went Out of Business"
+            },
+            {
+                "name": "Cede Issue",
+                "value": "Cede Issue"
+            },
+            {
+                "name": "Client Withdrew/No Further Inquiry",
+                "value": "Client Withdrew/No Further Inquiry"
+            },
+            {
+                "name": "COVID19",
+                "value": "COVID19"
+            },
+            {
+                "name": "Dead",
+                "value": "Dead"
+            },
+            {
+                "name": "Digital and Consumer Engagement",
+                "value": "Digital and Consumer Engagement"
+            },
+            {
+                "name": "Exchange – Moving To/From",
+                "value": "Exchange – Moving To/From"
+            },
+            {
+                "name": "Exchange – No Participation/ New Participant",
+                "value": "Exchange – No Participation/ New Participant"
+            },
+            {
+                "name": "Financial/Discount Value",
+                "value": "Financial/Discount Value"
+            },
+            {
+                "name": "Funding Type Change",
+                "value": "Funding Type Change"
+            },
+            {
+                "name": "Group Number Change",
+                "value": "Group Number Change"
+            },
+            {
+                "name": "Guarantees",
+                "value": "Guarantees"
+            },
+            {
+                "name": "Inconvenient to Change Carriers",
+                "value": "Inconvenient to Change Carriers"
+            },
+            {
+                "name": "Merger/Acquisition, Divestiture",
+                "value": "Merger/Acquisition, Divestiture"
+            },
+            {
+                "name": "Migration To/From National Account",
+                "value": "Migration To/From National Account"
+            },
+            {
+                "name": "Migration to Local",
+                "value": "Migration to Local"
+            },
+            {
+                "name": "Migration to National Accounts",
+                "value": "Migration to National Accounts"
+            },
+            {
+                "name": "OE Membership Changes",
+                "value": "OE Membership Changes"
+            },
+            {
+                "name": "Product Change",
+                "value": "Product Change"
+            },
+            {
+                "name": "System Migration",
+                "value": "System Migration"
+            },
+            {
+                "name": "Voluntary Retirement Program",
+                "value": "Voluntary Retirement Program"
+            }
+        ],
+        "padding": 0,
+        "readOnly": false,
+        "repeat": false,
+        "repeatClone": false,
+        "required": false,
+        "show": null,
+        "showInputWidth": true
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": false,
+    "%vlocity_namespace%__Type__c": "Select",
+    "Name": "ReasonforCancellation",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/IMPCase Library/IC-ImplementationCase/English/ReasonforCancellation"
+}

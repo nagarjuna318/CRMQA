@@ -1,0 +1,219 @@
+{
+    "BundleData": [
+        {
+            "BundleName": "AIM: A La Carte",
+            "DisplayOrder": "A",
+            "OppType": "Renewal",
+            "ProgramName": "Anthem Cancer Care Quality Program",
+            "ProgramStatus": "In Progress",
+            "QLId": "0QLW0000000VrjmOAC"
+        },
+        {
+            "BundleName": "AIM: A La Carte",
+            "DisplayOrder": "A",
+            "OppType": "Renewal",
+            "ProgramName": "Anthem Surgical Shopper",
+            "ProgramStatus": "In Progress",
+            "QLId": "0QLW0000000VrjnOAC"
+        },
+        {
+            "BundleName": "AIM: A La Carte",
+            "DisplayOrder": "A",
+            "OppType": "Renewal",
+            "ProgramName": "Cardiology RQI Model",
+            "ProgramStatus": "In Progress",
+            "QLId": "0QLW0000000VrjoOAC"
+        },
+        {
+            "BundleName": "AIM: A La Carte",
+            "DisplayOrder": "B",
+            "OppType": "Renewal",
+            "ProgramName": "Radiology Benefit Management RQI Model",
+            "ProgramStatus": "Jeopardy",
+            "QLId": "0QLW0000000VrjpOAC"
+        },
+        {
+            "BundleName": "AIM: A La Carte",
+            "DisplayOrder": "B",
+            "OppType": "Renewal",
+            "ProgramName": "Radiology Benefit Management UM Model",
+            "ProgramStatus": "IGAP Sold",
+            "QLId": "0QLW0000000VrjqOAC"
+        }
+    ],
+    "ContextId": "0Q0W0000000HJ5l",
+    "IMP-ProgramStages": [
+        "In Progress",
+        "IGAP Dead",
+        "IGAP In Progress",
+        "IGAP Lost",
+        "IGAP Sold",
+        "Jeopardy",
+        "Renewed",
+        "Termed"
+    ],
+    "InProgressCount": false,
+    "OppDetails": {
+        "Frm-ImpType": "",
+        "Frm-OpportunityName": "2018 Opportunity Renewal-Hunter Douglas Inc.",
+        "Frm-OpportunityType": "Renewal"
+    },
+    "OpportunityDetails": {
+        "OpportunityName": "2018 Opportunity Renewal-Hunter Douglas Inc.",
+        "OpportunityType": "Renewal"
+    },
+    "ProductsInprogress": {
+        "QuoteDetails": null
+    },
+    "ProductsRenewal": {
+        "QuoteDetailsRenewal": [
+            {
+                "$$hashKey": "object:518",
+                "Changes": "Yes",
+                "Id": "0QLW0000000VrjtOAC",
+                "Probability": "false",
+                "ProductName": "Medical - POS",
+                "ProductStage": "Renewed",
+                "vlcBundleStage": "Renewed",
+                "vlcSelected": true,
+                "vlcproductrenewal": "Yes"
+            },
+            {
+                "$$hashKey": "object:519",
+                "Id": "0QLW0000000VrjfOAC",
+                "ProductName": "Pharmacy - Anthem Pharmacy Services",
+                "ProductStage": "Renewed",
+                "vlcBundleStage": "Renewed",
+                "vlcSelected": true
+            },
+            {
+                "$$hashKey": "object:520",
+                "Id": "0QLW0000000VrjgOAC",
+                "ProductName": "Medicare - Group Medicare Advantage (LPPO)",
+                "ProductStage": "Renewed",
+                "vlcBundleStage": "Renewed",
+                "vlcSelected": true
+            },
+            {
+                "$$hashKey": "object:521",
+                "Id": "0QLW0000000VrjiOAC",
+                "Probability": "false",
+                "ProductName": "Onsite Clinics",
+                "ProductStage": "Renewed",
+                "vlcBundleStage": "Renewed",
+                "vlcSelected": true
+            }
+        ]
+    },
+    "QuoteData": [
+        {
+            "Area": true,
+            "Id": "0QLW0000000VrjkOAC",
+            "ProductName": "Health and Wellness - MyIncentives Account",
+            "ProductStage": "Jeopardy"
+        },
+        {
+            "Area": true,
+            "Id": "0QLW0000000VrjlOAC",
+            "ProductName": "AIM: A La Carte",
+            "ProductStage": "IGAP In Progress"
+        },
+        {
+            "Area": true,
+            "Id": "0QLW0000000VvCKOA0",
+            "ProductName": "Medical - EPO",
+            "ProductStage": "IGAP In Progress"
+        },
+        {
+            "Area": true,
+            "Id": "0QLW0000000VvCLOA0",
+            "ProductName": "Medical - POS",
+            "ProductStage": "IGAP In Progress"
+        },
+        {
+            "Area": true,
+            "Id": "0QLW0000000VvCFOA0",
+            "ProductName": "Disability - Long Term Disability",
+            "ProductStage": "Jeopardy"
+        }
+    ],
+    "QuoteDetailsSold": {
+        "ProductStage": "IGAP Sold"
+    },
+    "QuoteOther": [
+        {
+            "Area": true,
+            "Id": "0QLW0000000VrjrOAC",
+            "ProductName": "Anthem FlexHour Vision Plan",
+            "ProductStage": "IGAP Dead"
+        },
+        {
+            "Area": true,
+            "Id": "0QLW0000000VrjsOAC",
+            "ProductName": "Medical - EPO",
+            "ProductStage": "Termed"
+        },
+        {
+            "Area": true,
+            "Id": "0QLW0000000VrjjOAC",
+            "ProductName": "Health and Wellness - Live Health Online",
+            "ProductStage": "IGAP Dead"
+        }
+    ],
+    "QuoteRenewal": [
+        {
+            "Changes": "Yes",
+            "Id": "0QLW0000000VrjtOAC",
+            "ProductName": "Medical - POS",
+            "ProductStage": "Renewed"
+        },
+        {
+            "Id": "0QLW0000000VrjfOAC",
+            "ProductName": "Pharmacy - Anthem Pharmacy Services",
+            "ProductStage": "Renewed"
+        },
+        {
+            "Id": "0QLW0000000VrjgOAC",
+            "ProductName": "Medicare - Group Medicare Advantage (LPPO)",
+            "ProductStage": "Renewed"
+        },
+        {
+            "Id": "0QLW0000000VrjiOAC",
+            "ProductName": "Onsite Clinics",
+            "ProductStage": "Renewed"
+        }
+    ],
+    "QuoteSold": {
+        "Area": true,
+        "Id": "0QLW0000000VrjhOAC",
+        "ProductName": "Mobile Health Consumer (Core Plus)"
+    },
+    "Stage": "",
+    "Test1": "0Q0W0000000HJ5l",
+    "id": "a3CW0000000Aj81MAC",
+    "timeStamp": "2018-01-22T19:01:34.215Z",
+    "userCurrencyCode": "USD",
+    "userId": "005W0000002XquzIAC",
+    "userName": "shravani@chadda@eaglecrk.com.prod.nal1b.dev",
+    "userProfile": "System Administrator",
+    "userTimeZone": -300,
+    "verticalmode": true,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "DRE-Bundles": 438,
+        "DRE-InProgress": 467,
+        "DRE-OpportunityDetails": 596,
+        "DRE-Others": 498,
+        "DRE-ProductExtract": 410,
+        "DRE-ProductsRenewed": 400,
+        "DRE-Renewal": 416,
+        "DRE-Sold": 452,
+        "OmniScriptSessionToken": "37c39428-107a-4732-9ad9-73c206c8707b",
+        "OppDetails": 2406,
+        "ProductsInprogress": 2964,
+        "SV-ContextId": 19,
+        "SV-InProgressCount": 117,
+        "SV-ProgramStages": 14
+    }
+}

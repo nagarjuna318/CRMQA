@@ -1,0 +1,50 @@
+{
+    "AccountId": "0015B00000SfdfZQAR",
+    "AccountName": "test dev",
+    "AssignImpID": "0055B000001OZM3QAO",
+    "BPD": {
+        "BPDStatus": "Initiated In Implementations Review",
+        "BenefitPlanDesignName": null,
+        "Formula1": "a7X5B0000004TaF",
+        "ImplementationTrackingID": "TRACK-000017",
+        "PleaseUploadYourBenefitPlanDesign": [
+            {
+                "$$hashKey": "object:233",
+                "data": "c6fcb969-8329-431d-bb26-7450524af0e4",
+                "filename": "US17052.json",
+                "size": 69084
+            }
+        ]
+    },
+    "ClaimSystem": "WGS 2.0",
+    "ContextId": "a782a0000004WjhAAE",
+    "DRId_BPD__c": "a785B0000004H2mQAE",
+    "IMPCaseID": "8015B000000Xzv1QAC",
+    "IMPName": "2019: New Business-test dev",
+    "IMPOwner": "0055B000001OZM3QAO",
+    "IMPTClaimSystem": "WGS 2.0",
+    "IMPTName": "TRACK-000017",
+    "Id": "8015B000000Xzv1QAC",
+    "id": "a3C5B000000A1DeUAK",
+    "layout": "lightning",
+    "timeStamp": "2018-08-15T14:42:24.820Z",
+    "userCurrencyCode": "USD",
+    "userId": "0055B000001O1uwQAC",
+    "userName": "schadda@anthem.com2.iceconfig",
+    "userProfile": "System Administrator",
+    "userTimeZone": -240,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "BPD": 13193,
+        "BPDFileUpload": 39376,
+        "DR-IMPCaseExtract": 1433,
+        "DR-IMPTrackingExtract": 1088,
+        "DR_AMAssignment": 562,
+        "IMP_GenerateBPD": 1469,
+        "OmniScriptSessionToken": "605ac8ed-dfff-4258-b2cf-30aea27c1162",
+        "SV-Context": 88,
+        "SV-Default": 34,
+        "Step2": 3371
+    }
+}

@@ -1,0 +1,121 @@
+{
+    "dataSource": {
+        "type": null,
+        "value": {
+        }
+    },
+    "filter": {
+        "['AnthemEntityTransform__c']": "Local",
+        "['GroupNumberRequestStatus__c']": "Not Requested",
+        "['IsGroupExist__c']": "Exist",
+        "['Is_GRS_Profile_With_Correct_Record_Type__c']": "Others"
+    },
+    "states": [
+        {
+            "actionCtxId": "['Id']",
+            "blankStateCheck": false,
+            "conditions": {
+                "group": [
+                    {
+                        "field": "$scope.data.status",
+                        "operator": "===",
+                        "type": "system",
+                        "value": "'active'"
+                    }
+                ]
+            },
+            "definedActions": {
+                "actions": [
+                    {
+                        "collapse": true,
+                        "hasExtraParams": false,
+                        "id": "AddProduct_LG",
+                        "isCustomAction": false,
+                        "type": "Vlocity Action"
+                    },
+                    {
+                        "collapse": true,
+                        "hasExtraParams": false,
+                        "id": "AddPlanProductLG_P2A",
+                        "isCustomAction": false,
+                        "type": "Vlocity Action"
+                    },
+                    {
+                        "collapse": true,
+                        "hasExtraParams": false,
+                        "id": "Capture Group Information",
+                        "isCustomAction": false,
+                        "type": "Vlocity Action"
+                    },
+                    {
+                        "collapse": true,
+                        "hasExtraParams": false,
+                        "id": "Mass Update - Needs Update_LG",
+                        "isCustomAction": false,
+                        "type": "Vlocity Action"
+                    },
+                    {
+                        "collapse": true,
+                        "hasExtraParams": false,
+                        "id": "Split_Quote_LG",
+                        "isCustomAction": false,
+                        "type": "Vlocity Action"
+                    },
+                    {
+                        "collapse": true,
+                        "hasExtraParams": false,
+                        "id": "Generate Implementation Case LG",
+                        "isCustomAction": false,
+                        "type": "Vlocity Action"
+                    },
+                    {
+                        "collapse": true,
+                        "hasExtraParams": false,
+                        "id": "CollabToolApplication",
+                        "isCustomAction": false,
+                        "type": "Vlocity Action"
+                    },
+                    {
+                        "collapse": true,
+                        "hasExtraParams": false,
+                        "id": "Engage Scoping And Engage Standard",
+                        "isCustomAction": false,
+                        "type": "Vlocity Action"
+                    },
+                    {
+                        "collapse": true,
+                        "hasExtraParams": false,
+                        "id": "Create CEP Case",
+                        "isCustomAction": false,
+                        "type": "Vlocity Action"
+                    },
+                    {
+                        "collapse": true,
+                        "conditions": {
+                            "group": [
+                                {
+                                    "field": "['Anthem_Entity__c']",
+                                    "operator": "!=",
+                                    "type": "custom",
+                                    "value": "Labor and Trust"
+                                }
+                            ]
+                        },
+                        "disableAddCondition": false,
+                        "filter": "$scope.obj['Anthem_Entity__c'] != 'Labor and Trust'",
+                        "hasExtraParams": true,
+                        "id": "Plan Update",
+                        "isCustomAction": false,
+                        "type": "Vlocity Action"
+                    }
+                ]
+            },
+            "fields": [
+            ],
+            "name": "RequestCondition",
+            "sObjectType": "Quote",
+            "templateUrl": "ActionCardsTemplate_LG"
+        }
+    ],
+    "title": "Quote Card with Requested status on GN"
+}

@@ -1,0 +1,71 @@
+{
+    "ClaimSystem": "WGS 2.0",
+    "ContextId": "801W0000000pjCoIAI",
+    "CoordinationofBenifits": {
+        "BLK-NASCO": {
+            "CB-COBMethodApplytoallPackagesSuffix": null,
+            "CB-IfnospecifyCOBmethodperpackage": null
+        },
+        "CB-AnthemMonthtoSolicitCOB": "October",
+        "CB-CaseorSuffixforAnnualCOBSolicit": null,
+        "CB-Comments": "czcz",
+        "CB-CoordinationofBenefits": "Pay and Pursue",
+        "CB-OptionE": false,
+        "CB-PayandPursue": null,
+        "CB-PursueandPay": "Option C"
+    },
+    "DRId_COB__c": "",
+    "Finish": {
+        "F-Message": " creating a Coordination Of Benefits record for: Hunter Douglas Inc."
+    },
+    "GroupId": "a5IW00000000m7PMAQ",
+    "ImpCase": {
+        "FRM-AccountName1": "Hunter Douglas Inc.",
+        "FRM-COBName": null,
+        "FRM-ClaimSystem": "WGS 2.0",
+        "FRM-Id1": "00000611",
+        "FRM-Name1": "2018: Renewal-Hunter Douglas Inc."
+    },
+    "ImpDetails": {
+        "AccountName": "Hunter Douglas Inc.",
+        "CaseName": "2018: Renewal-Hunter Douglas Inc.",
+        "GroupClaimSystem": "WGS 2.0",
+        "Id": "801W0000000pjCoIAI",
+        "ImpNumber": "00000611"
+    },
+    "IntRecordType": "COBWGS",
+    "MedicareCOB": {
+        "ME-ChangeMedicarePartDRxto": "Creditable Coverage",
+        "ME-DoesthisApplytoAllSubgroups": "Yes",
+        "ME-ExcludefromMedicareCrossover": null,
+        "ME-IfNopleaseexplain": null,
+        "ME-Medicare-COB": "Yes",
+        "ME-MedicareCOBComments": null,
+        "ME-MedicareCOBOptions": "Waiver;Carve-Out",
+        "ME-WillMedicarePartDBenefitsbeOffered": null
+    },
+    "RecordCount": "No",
+    "id": "a3CW00000013PCjMAM",
+    "layout": "lightning",
+    "timeStamp": "2018-03-13T18:11:41.749Z",
+    "userCurrencyCode": "USD",
+    "userId": "005W0000002XquzIAC",
+    "userName": "shravani@chadda@eaglecrk.com.prod.nal1b.dev",
+    "userProfile": "System Administrator",
+    "userTimeZone": -240,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "CoordinationofBenifits": 19859,
+        "DRE-GettingCOB": 623,
+        "DRE-ICProfile": 1279,
+        "DRP-COB": 8687,
+        "Finish": 3171,
+        "ImpCase": 3261,
+        "MedicareCOB": 22151,
+        "OmniScriptSessionToken": "b8535938-ce63-4ae8-b389-092f4558d1ea",
+        "SV-COB": 27,
+        "SV-ContextId": 39,
+        "SetClaimSystem": 10
+    }
+}

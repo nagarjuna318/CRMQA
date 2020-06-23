@@ -1,0 +1,64 @@
+{
+    "AccountName": "<a href=\"001W000000eVmH9\" target=\"_blank\">AJ</a>",
+    "ContextId": "a6PW0000000EEAB",
+    "CreatedUser": "Others",
+    "CreatedUserProfile": "Others",
+    "CurrentRevisionsReasons": {
+        "AddRevisionreasons": null,
+        "RRFormula": true,
+        "RRFormulaDD": "Yes",
+        "RevisionReason": {
+            "Description": "juihgigfujhtest 321",
+            "DoesChangeImpactBenefitBooklets": false,
+            "DoesChangeImpactSBCs": false,
+            "Id": "a7FW00000009BByMAM",
+            "ImpactedPackages/Suffixes/Sections": null,
+            "ImpactedPackagesSuffixesSectionRo": null,
+            "RRevisionReasons": "Project",
+            "RevisionReasonType": "Project"
+        },
+        "RevisionReasonProject": {
+            "DescriptionProject": "juihgigfujhtest 321",
+            "DoesChangeImpactBenefitBookletsProject": false,
+            "DoesChangeImpactSBCsProject": false,
+            "IdProject": "a7FW00000009BByMAM",
+            "ImpactedPackages/Suffixes/SectionsProject": null,
+            "RevisionReasonTypeProject": "Project",
+            "RevisionReasonsProject": "Project"
+        },
+        "UserProfileStage": "OthersInitiated/In Progress"
+    },
+    "IMPCaseStatus": "Initiated",
+    "ImpCaseStatus": "Initiated",
+    "ImplCaseId": "801W0000000qDDsIAM",
+    "ImplementationType": "Project",
+    "LoggedinProfile": "System Administrator",
+    "NewBusiness": "a6PW0000000EEDJMA4",
+    "Profile": "Imps",
+    "Project": "a6PW0000000EEAB",
+    "RecordType": "Project",
+    "RevisionName": "REV-0136",
+    "RevisionRecordStatus": "Initiated/In Progress",
+    "RevisionRecordStatuss": "Initiated/In Progress",
+    "Submit": {
+        "SubmitRevision": null
+    },
+    "id": "a3CW00000013k9SMAQ",
+    "layout": "lightning",
+    "timeStamp": "2018-04-25T20:24:54.192Z",
+    "userCurrencyCode": "USD",
+    "userId": "005W0000002XquzIAC",
+    "userName": "shravani@chadda@eaglecrk.com.prod.nal1b.dev",
+    "userProfile": "System Administrator",
+    "userTimeZone": -240,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "DRE-RevisionDetails": 1024,
+        "DataRaptorExtractAction2": 1552,
+        "DataRaptorExtractAction3": 3304,
+        "OmniScriptSessionToken": "d646da4e-24c2-4695-9262-c28f23bef57e",
+        "SV-ContextId": 61,
+        "SetValues7": 920
+    }
+}

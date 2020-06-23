@@ -1,0 +1,32 @@
+{
+    "Cards": [
+        "Opportunity_Actions",
+        "Opportunity Actions Admin",
+        "Opportunity Actions GRS"
+    ],
+    "dataSource": {
+        "contextVariables": [
+            {
+                "name": "params.Id",
+                "val": "0060r000002XtOqAAK"
+            }
+        ],
+        "type": "Query",
+        "value": {
+            "jsonMap": "{\"params.id || params.Id\":\"{{params.id || params.Id}}\"}",
+            "timeout": null
+        }
+    },
+    "previewType": "runTime",
+    "templates": {
+        "0": {
+            "templateUrl": "card-canvas-1x-slds-nosearch"
+        }
+    },
+    "workspace": [
+        null,
+        "Opportunity_Actions/Anthem Commercial 2.0/null/1513958314947",
+        "Opportunity Actions Admin/Anthem Commercial 2.0/1/1571669758693",
+        "Opportunity Actions GRS/Anthem Commercial 2.0/1/1571669885396"
+    ]
+}

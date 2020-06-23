@@ -1,0 +1,88 @@
+<div class='slds-grid slds-wrap slds-p-around_small slds-element_text-font vlc-slds-edit-block--main-container slds-editblock_inline'controller="myController" >
+    {{set = ((child.eleArray[0].children.length === 0)?(child.eleArray[0].childrenC):(child.eleArray[0].children));""}}
+
+    <div class="slds-size_12-of-12 slds-medium-size_12-of-12 slds-large-size_12-of-12 slds-m-bottom_x-small">
+        <div style="font-weight: 300; font-size: 1rem;">
+            {{::child.eleArray[0].propSetMap.label}}
+        </div>
+        <div class="slds-m-around_xx-small slds-size_1-of-1 slds-medium_1-of-1 slds-large-size_{{action.propSetMap.controlWidth}}-of-12 slds-show_inline-block" 
+            ng-style="(action.propSetMap.svgSprite && ) ? {'width' : 'auto'}:''" 
+            ng-repeat="action in child.eleArray[0].propSetMap.gActions" ng-include="'vlcEditBlockGlobalBtn.html'">
+        </div>
+    </div>
+
+    <div class="slds-card slds-size_12-of-12 slds-medium-size_12-of-12 slds-large-size_12-of-12 slds-m-bottom_x-small"
+        id ='{{::control.name}}'
+        ng-repeat="control in child.eleArray"
+        ng-style="control.childrenC !== undefined && {'display':'none'}"
+        ng-if=   "set.length > 0" >
+
+        <div class="vlc-slds-edit-block--Long-cards" style="height: auto;">
+            <div  ng-click="openEditModal(control, null, this, 'edit', $index, $event, true)" style="height: 80px;">
+                <form name="vlcEditBlockFormMain_{{$index}}"
+                      ng-init="control.selectCheckBox = child.eleArray[0].propSetMap.selectCheckBox; initEditBlockControlLimit(control, 2);" 
+                      class="slds-grid slds-cont-wrapper" 
+                      style="height: inherit; padding: 100;">
+                    <div class="vlc-slds-edit-block--Long-cards_container">
+                        <div class="vlc-slds-edit-block--cards_controls-container" style="padding-left: 2rem; padding-bottom: 0.5rem;">
+                            <div ng-repeat='child in children = control.children' 
+                                    ng-if='child.eleArray[0].propSetMap.hide||(!child.eleArray[0].propSetMap.show || evaluateShow(child.eleArray[0], this))'
+                                    ng-hide='!child.displayInView'
+                                    ng-init="child.blockIndex = control.index">
+                                <!--<ng-form name="editblockform"
+                                    ng-include="'vlcEditBlockInnerForm.html'" style="display: block !important; padding-bottom: 0;">
+                                </ng-form>-->
+                                <!--Remove below code and uncomment ng-include code-->
+                                    <ng-form name="editblockform" style="display: block !important; padding-bottom: 0;">
+                                        <child class="slds-truncate vlc-slds-edit-block--child" noformattereb="true" style="display:none" ng-hide='child.eleArray[0].propSetMap.hide'></child>
+                                        <span ng-hide='!child.displayInView' ng-if="child.eleArray[0].type !== 'Password'">
+
+                                            <span ng-if="((child.eleArray[0].type === 'Currency') || ((child.eleArray[0].type === 'Formula' || child.eleArray[0].type === 'Aggregate') && (child.eleArray[0].propSetMap.dataType === 'Currency'))) && !(child.response===null || child.response==='')">
+                                                {{::(bpTree.oSCurrencySymbol || child.eleArray[0].propSetMap.currencySymbol)}}
+                                            </span>
+                                            <span ng-if="child.eleArray[0].name=='DepartmentName'">Department: </span>
+                                            <span ng-if="child.eleArray[0].name=='DepartmentCodeValue'">Department Code: </span>
+                                            {{editBlockDisplayValue(child, this)}}
+                                        </span>
+                                        <input type="password" class="vlc-slds-edit-block__form--password" ng-hide='!child.displayInView' ng-if="child.eleArray[0].type === 'Password'" value="{{child.response}}" readonly>
+                                        <span  ng-hide='!child.displayInView' ng-if="child.eleArray[0].type === 'Headline' || child.eleArray[0].type === 'Text Block'" ng-bind-html='child.eleArray[0].propSetMap.value'></span>
+                                        {{((child.eleArray[0].type === 'Checkbox' && child.eleArray[0].name == control.selectCheckBox)?set.checkboxInd=$index:null);""}}
+                                    </ng-form>
+                                <!-- ############################################ -->
+
+                            </div>
+                        </div>
+
+                        <div class="slds-edit-block_inline-action-container" ng-controller = "DeleteDepartmentCtrl">
+                            <span class="slds-required vlc-asterix icon-v-asterix vlc-editblock-asterix" ng-if="isEditBlockRecordInvalid($index, this)"></span>
+
+                            <slds-svg-icon sprite="'utility'"
+                                icon="'close'"
+                                extra-classes="'slds-editblock_delete'"
+                                size="'small'"
+                                ng-if="control.propSetMap.allowDelete"
+                                ng-click="deleteDepartment(bpTree.response.DepartmentCode.DepartmentBlockCode[$index].DepartmentId);removeItemEditBlock(child, $index, this); $event.stopPropagation();DeleteEmpClass();"></slds-svg-icon>
+                        </div>
+                    </div>
+                </form>    
+            </div>
+        </div>
+    </div>
+
+    <div class="slds-card slds-size_12-of-12 slds-medium-size_12-of-12 slds-large-size_12-of-12 slds-m-bottom_x-small">
+        
+        <div class="vlc-slds-edit-block--Long-cards" 
+                ng-init="ctrlLength=0; set.length > 3 ? ctrlLength = 3 :ctrlLength = ctrlLength=set.length"
+                ng-if='child.eleArray[0].propSetMap.allowNew && set.length > 0' ng-click="openEditModal(null, child, this, 'new', null, $event, true)" style="height: 80px; margin-bottom: 30px;">
+
+
+            <div class="vlc-slds-edit-block--Long-cards_container vlc-slds-item--addbutton-container_Long" ng-if='child.eleArray[0].propSetMap.allowNew && set.length > 0'>
+                
+                <div class="vlc-slds-item--addbutton-Long">
+                    <slds-button-svg-icon sprite="'utility'" size="'large'" icon="'add'"></slds-button-svg-icon>
+                    <span>{{::((child.eleArray[0].propSetMap.newAction) ? (child.eleArray[0].propSetMap.newAction.propSetMap.label) : (child.eleArray[0].propSetMap.newLabel))}}</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

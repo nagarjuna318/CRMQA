@@ -1,0 +1,61 @@
+{
+    "ContextId": null,
+    "MessageStep": {
+    },
+    "RequestGroupNumberStep": {
+        "AdditionalComments": {
+            "Comments": null,
+            "GroupFundingType": null,
+            "IsPartOfAMigration?": null
+        },
+        "CallServiceCenter": null,
+        "ClaimServiceCenter": null,
+        "ClaimSystem": null,
+        "DeliveryChannel": null
+    },
+    "RequiredInformation": {
+        "Additional Information": {
+            "Branding": null,
+            "CheckSuppression": null,
+            "DoesNYHCRAApply": null,
+            "EligibleEmployees": null,
+            "GroupSize": null,
+            "HQState": null,
+            "IsthisGroupsubjecttoERISA": null,
+            "NASCOContractingSitusState": null,
+            "TotalEmployees": null,
+            "WGSContractingSitusState": null
+        },
+        "Block3": {
+            "AnthemEntity": null,
+            "OriginalEffectiveDate": null,
+            "Region": null
+        },
+        "RenewalInformation": {
+            "ActiveRenewalDate": null,
+            "ClientRenewalsOccur": null,
+            "MonthUnderwriterstartsrenewalprocess": null,
+            "RenewalMonth": null
+        }
+    },
+    "timeStamp": null,
+    "userId": null,
+    "userName": null,
+    "userProfile": null,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "AccountDetailsForGroupNumber": null,
+        "CustomerACC": null,
+        "DRQuoteDetails": null,
+        "DoneAction": null,
+        "GetOpportunityOwner": null,
+        "MessageStep": null,
+        "OppOwnerEmail": null,
+        "ProspectAcc": null,
+        "RequestGroupNumberStep": null,
+        "RequiredInformation": null,
+        "UpdateAccount": null,
+        "constants": null
+    }
+}

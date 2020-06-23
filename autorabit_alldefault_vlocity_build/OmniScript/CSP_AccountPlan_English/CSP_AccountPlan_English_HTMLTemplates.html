@@ -1,0 +1,370 @@
+<style>
+#ActionPlanBlock  .vlc-slds-control-action__container span{
+    display: none;
+}
+#BenefitObjectiveBlock .vlc-slds-control-action__container span{
+    display: none;
+}
+#BenefitObjectiveBOBlock .vlc-slds-control-action__container span{
+    display: none;
+}
+#StrategicOpportunityBlock .vlc-slds-control-action__container span{
+    display: none;
+}
+</style>
+
+<!-- ------------------------------------------------------------------- -->
+<!-- Start of vlcObservationSelection.html Template.  Created at 2018-01-21 07:50:22 UTC -->
+<!-- ------------------------------------------------------------------- -->
+<script type="text/ng-template" id="vlcObservationSelection.html">
+ <div class="panel panel-default">
+  <table class="table slds-table slds-table--bordered slds-table--cell-buffer" style="table-layout: auto;">
+   <thead>
+    <tr>
+     <!-- Header for checkbox -->
+     <th class="slds-cell-shrink">Select</th>
+
+     <th>Observation</th>
+     <th>Strength, Weakness<br/> or Threat</th>
+     <th>Rank <br/>(1 through 5)</th>
+     <th>Evidence</th>
+     <th>Estimate of Impact</th>
+     <th>
+    </tr>
+   </thead>
+   <tr ng-repeat='p in control.vlcSI[control.itemsKey]' ng-class="{ 'vlc-selectableitem-selected' : p.vlcSelected }" >
+    <th class="slds-cell-shrink">
+       <label class="slds-checkbox">
+         <input type="checkbox" ng-model='p.vlcSelected' ng-change='onSelectItem(control, p, $index, this)'/>
+         <span class="slds-checkbox--faux"></span>
+       </label>
+    </th>
+     <td class='slds-cell-wrap'>{{p.Name}}</td>
+     <td>{{p.Type}}</td>
+     <td>
+    <div class="select-custom-element">
+      
+      <select name="loopname" ng-required="required" id="vlcRank" class="slds-select ng-pristine ng-empty ng-valid ng-valid-required ng-touched" style="font-size:12px;font-weight:bold;max-width:100%;" ng-model="vlcRank" ng-change="p.vlcRank = vlcRank" ng-disabled="!p.vlcSelected">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                  </select>
+           </div>                       
+     </td>
+    <td>
+      <textarea
+       ng-model="Evidence"
+       name="Evidence"
+       ng-minlength="0"
+       ng-maxlength="255"
+       rows='6'
+       ng-required="required" 
+       id="Evidence" 
+       class="slds-select ng-pristine ng-empty ng-valid ng-valid-required ng-touched" 
+       style="font-size:12px;font-weight:bold;max-width:300px;" 
+       
+       ng-change="p.Evidence = Evidence" ng-disabled="!p.vlcSelected">
+     </textarea>
+     </td>
+    <td>
+      <textarea
+         ng-model="Impact"
+         name="Impact"
+         ng-minlength="0"
+         ng-maxlength="255"
+         
+         ng-required="required" 
+         id="Evidence" 
+         class="slds-select ng-pristine ng-empty ng-valid ng-valid-required ng-touched" 
+         style="font-size:12px;font-weight:bold;max-width:300px;" 
+         
+         ng-change="p.Impact = Impact" ng-disabled="!p.vlcSelected">
+      </textarea>
+      </td>
+    </tr>
+   </tbody>
+  </table>
+ </div>
+
+
+ 
+ <p> </p>
+</script>
+<!-- ----------------------------- -->
+<!-- End of vlcObservationSelection.html  Template. -->
+<!-- ----------------------------- -->
+
+<!-- ------------------------------------------------------------------- -->
+<!-- Start of vlcSolutionSelection.html Template.  Created at 2018-01-31 07:50:22 UTC -->
+<!-- ------------------------------------------------------------------- -->
+<script type="text/ng-template" id="vlcSolutionSelection.html">
+ <div class="panel panel-default">
+  <table class="table slds-table slds-table--bordered slds-table--cell-buffer" style="table-layout: auto;">
+   <thead>
+    <tr>
+     <!-- Header for checkbox -->
+     <th class="slds-cell-shrink">Select</th>
+     <th>Solution</th>
+    </tr>
+   </thead>
+   <tbody class='ins' ng-if="control.vlcSI[control.itemsKey].length > 0">
+    <tr ng-repeat='p in control.vlcSI[control.itemsKey]' ng-class="{ 'vlc-selectableitem-selected' : p.vlcSelected }" >
+     <th class="slds-cell-shrink">
+        <label class="slds-checkbox">
+          <input type="checkbox" ng-model='p.vlcSelected' ng-change='onSelectItem(control, p, $index, this)'/>
+          <span class="slds-checkbox--faux"></span>
+        </label>
+     </th>
+     <td>{{p.Name}}</td>
+     
+    </tr>
+   </tbody>
+  </table>
+ </div>
+ <p> </p>
+</script>
+<!-- ----------------------------- -->
+<!-- End of vlcSolutionSelection.html  Template. -->
+<!-- ----------------------------- -->
+
+<!-- ------------------------------------------------------------------- -->
+<!-- Start of vlcObjectiveSelection.html Template.  Created at 2018-01-31 07:50:22 UTC -->
+<!-- ------------------------------------------------------------------- -->
+
+<script type="text/ng-template" id="vlcObjectiveSelection.html">
+ <div class="panel panel-default">
+  <table class="table slds-table slds-table--bordered slds-table--cell-buffer" style="table-layout: auto;">
+   <thead>
+    <tr>
+     <!-- Header for checkbox -->
+     <th class="slds-cell-shrink">Select</th>
+     <th>Objective</th>
+     <th>Source</th>
+     <th>Objective <br/>Start</th>
+     <th>Objective <br/>End</th>
+    </tr>
+   </thead>
+   <tbody class='ins' ng-if="control.vlcSI[control.itemsKey].length > 0">
+    <tr ng-repeat='p in control.vlcSI[control.itemsKey]' ng-class="{ 'vlc-selectableitem-selected' : p.vlcSelected }" ng-disabled="!p.vlcSelected">
+     <th class="slds-cell-shrink">
+        <label class="slds-checkbox">
+          <input type="checkbox" ng-model='p.vlcSelected' ng-change='onSelectItem(control, p, $index, this)'/>
+          <span class="slds-checkbox--faux"></span>
+        </label>
+     </th>
+     <td class='slds-cell-wrap'>{{p.ObjectiveName}}</td>
+  <td>
+         <select name="loopname" id="vlcSource" class="slds-select ng-pristine ng-empty ng-valid ng-valid-required ng-touched" style="font-size:12px;font-weight:bold;max-width:100%;" ng-model="vlcSource" ng-change="p.vlcSource = vlcSource" ng-disabled="!p.vlcSelected">
+                       <option value="Customer Meeting">Customer Meeting</option>
+                       <option value="Annual Report">Annual Report</option>
+                       <option value="Article">Article</option>
+                       <option value="Executive">Executive</option>
+                       <option value="Partner">Partner</option>
+                       <option value="Other">Other</option>
+                     </select>
+              </div>         
+            </td>
+            <td>
+              <input type="date" id="StartDate" class="slds-select ng-pristine ng-empty ng-valid ng-valid-required ng-touched" style="font-size:12px;font-weight:bold;max-width:100%;" ng-model="vlcStartDate" ng-change="p.vlcStartDate = vlcStartDate" ng-disabled="!p.vlcSelected"></td>
+            <td>
+              <input type="date" id="EndDate" class="slds-select ng-pristine ng-empty ng-valid ng-valid-required ng-touched" style="font-size:12px;font-weight:bold;max-width:100%;" ng-model="vlcEndDate" ng-change="p.vlcEndDate = vlcEndDate" ng-disabled="!p.vlcSelected"></td>
+  </td>
+    </tr>
+      
+    </tr>
+   </tbody>
+  </table>
+ </div>
+
+ <p> </p>
+</script>
+
+
+<!-- ----------------------------- -->
+<!-- End of vlcObjectiveSelection.html  Template. -->
+<!-- ----------------------------- -->
+
+<!-- ------------------------------------------------------------------- -->
+<!-- Start of vlcPlanSelection.html Template.  Created at 2018-01-31 07:50:22 UTC -->
+<!-- ------------------------------------------------------------------- -->
+<script type="text/ng-template" id="vlcPlanSelection.html">
+ <div class="panel panel-default">
+  <table class="table slds-table slds-table--bordered slds-table--cell-buffer" style="table-layout: auto;">
+   <thead>
+    <tr>
+     <!-- Header for checkbox -->
+     <th class="slds-cell-shrink">Select</th>
+     <th>Plan of Attack</th>
+     <th>Example</th>
+    </tr>
+   </thead>
+   <tbody class='ins' ng-if="control.vlcSI[control.itemsKey].length > 0">
+    <tr ng-repeat='p in control.vlcSI[control.itemsKey]' ng-class="{ 'vlc-selectableitem-selected' : p.vlcSelected }" >
+     <th class="slds-cell-shrink">
+        <label class="slds-checkbox">
+          <input type="checkbox" ng-model='p.vlcSelected' ng-change='onSelectItem(control, p, $index, this)'/>
+          <span class="slds-checkbox--faux"></span>
+        </label>
+     </th>
+     <td class='slds-cell-wrap'>{{p.Name}}</td>
+     <td class='slds-cell-wrap'>{{p.Example}}</td>
+    </tr>
+   </tbody>
+  </table>
+ </div>
+ <p> </p>
+</script>
+<!-- ----------------------------- -->
+<!-- End of vlcSolutionSelection.html  Template. -->
+<!-- ----------------------------- -->
+
+<!-- ------------------------------------------------------------------- -->
+<!-- Start of vlcCSPObjectiveSelection.html Template.  Created at 2018-01-31 07:50:22 UTC -->
+<!-- ------------------------------------------------------------------- -->
+
+<script type="text/ng-template" id="vlcCSPObjectiveSelection.html">
+ <div class="panel panel-default">
+  <table class="table slds-table slds-table--bordered slds-table--cell-buffer" style="table-layout: auto;">
+   <thead>
+    <tr>
+     <!-- Header for checkbox -->
+     <th class="slds-cell-shrink">Select</th>
+     <th>Objective</th>
+    </tr>
+   </thead>
+   <tbody class='ins' ng-if="control.vlcSI[control.itemsKey].length > 0">
+    <tr ng-repeat='p in control.vlcSI[control.itemsKey]' ng-class="{ 'vlc-selectableitem-selected' : p.vlcSelected }" ng-disabled="!p.vlcSelected">
+     <th class="slds-cell-shrink">
+        <label class="slds-checkbox">
+          <input type="checkbox" ng-model='p.vlcSelected' ng-change='onSelectItem(control, p, $index, this)'/>
+          <span class="slds-checkbox--faux"></span>
+        </label>
+     </th>
+     <td class='slds-cell-wrap'>{{p.ObjectiveName}}</td>
+    </tr>      
+    </tr>
+   </tbody>
+  </table>
+ </div>
+
+ <p> </p>
+</script>
+
+<!-- ----------------------------- -->
+<!-- End of vlcCSPObjectiveSelection.html  Template. -->
+<!-- ----------------------------- -->
+
+<!-- ------------------------------------------------------------------- -->
+<!-- Start of vlcCSPSWTSelection.html Template.  Created at 2018-07-20 12:48:22 UTC -->
+<!-- ------------------------------------------------------------------- -->
+<script type="text/ng-template" id="vlcCSPSWTSelection.html">
+ <div class="panel panel-default">
+  <table id="SWTTable" ng-repeat='p in control.vlcSI[control.itemsKey]' class="table slds-table slds-table--bordered slds-table--cell-buffer" style="table-layout: auto; margin-top:20px;" ng-class="{ 'vlc-selectableitem-selected' : p.vlcSelected }" ng-disabled="!p.vlcSelected">
+   <thead>
+    <tr>
+     <th class="slds-cell-shrink">
+     <label class="slds-checkbox">
+       <input type="checkbox" ng-model='p.vlcSelected'  ng-init="p.vlcSelected ? onSelectItem(control, p, $index, this) : ''" ng-change='onSelectItem(control, p, $index, this)'/>
+       <span class="slds-checkbox--faux"></span>
+       <strong>{{p.name}}</strong>
+     </label>
+     </th>
+    </tr>
+   </thead>
+   <tbody class='ins' ng-if="control.vlcSI[control.itemsKey].length > 0">
+    <tr>
+       <td ng-if="p.vlcSelected">
+          <table class="table slds-table slds-table--bordered slds-table--cell-buffer" style="table-layout: auto;">
+            <thead>
+              <tr>
+                <th>Observation Test</th>
+                <th>Strength</th>
+                <th>Weakness</th>
+                <th>Threat</th>
+                <th>Rank</th>
+                <th>Evidence/Impact</th>
+              </tr>
+            </thead>
+            <tbody class='ins'>
+              <tr ng-repeat='q in p.value'>
+                <td>{{q.Observation}}
+                    <br/>
+                    <input type="text" name="OtherObservation" id="OtherObservation" ng-model='q.OtherObservation'  ng-if="q.Observation == 'Other'"/>
+                </td>
+                <td style="text-align:center;">
+                 <label class="slds-checkbox">
+                  <input type="checkbox" name="Strength" id="Strength" ng-model='q.Strength'  ng-disabled="!p.vlcSelected"/>
+                   <span class="slds-checkbox--faux"></span>
+                 </label>
+                </td>
+                <td style="text-align:center;">
+                 <label class="slds-checkbox">
+                  <input type="checkbox" name="Threat" id="Threat" ng-model='q.Threat' ng-disabled="!p.vlcSelected"/>                
+                   <span class="slds-checkbox--faux"></span>
+                 </label>
+                </td>
+                <td style="text-align:center;">
+                 <label class="slds-checkbox">
+                  <input type="checkbox" name="Weakness" id="Weakness" ng-model='q.Weakness' ng-disabled="!p.vlcSelected"/>                
+                   <span class="slds-checkbox--faux"></span>
+                 </label>
+                </td>
+                <td>
+                  <div class="select-custom-element">
+                    <div class="slds-select_container">
+                        <select ng-required="required" id="vlcRank" class="slds-select" ng-model="q.vlcRank" ng-disabled="!p.vlcSelected" style="min-width: 40px;">
+                            <option value="">-</option>
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                        </select>
+                    </div>
+                    <!-- <select name="loopname" ng-required="required" id="vlcRank" class="slds-select ng-pristine ng-empty ng-valid ng-valid-required ng-touched" style="font-size:12px;font-weight:bold;min-width:20px;max-width:100%;" ng-model="vlcRank" ng-change="q.vlcRank = vlcRank" ng-disabled="!p.vlcSelected">
+                                  <option value="1">1</option>
+                                  <option value="2">2</option>
+                                  <option value="3">3</option>
+                                  <option value="4">4</option>
+                                  <option value="5">5</option>
+                    </select> -->
+                  </div>                       
+                </td>
+                <td>
+                  <textarea id="Evidence" name="Evidence" 
+                   class="slds-textarea" placeholder="{{::control.propSetMap.evidencePlaceholder}}" 
+                   rows="2" 
+                   ng-model="q.Evidence" 
+                   ng-minlength="0" 
+                   ng-maxlength="255" 
+                   ng-required="required" 
+                   ng-disabled="!p.vlcSelected">
+                 </textarea>                
+                </td>
+            </tbody>
+          </table>    
+
+       </td>
+    </tr>
+   </tbody>
+  </table>
+ </div>
+</script>
+<!-- ----------------------------- -->
+<!-- End of vlcCSPSWTSelection.html  Template. -->
+<!-- ----------------------------- -->
+
+<!-- ------------------------------------------------------------------- -->
+<!-- Start of vlcBehavioralHealthSaveNew.html Template.  Created at 2018-08-02 18:50:22 UTC -->
+<!-- ------------------------------------------------------------------- -->
+<script type="text/ng-template"  id="vlcBehavioralHealthSaveNew.html">
+<div> 
+    This is test for redirect
+ </div>
+
+</script>
+<!-- ----------------------------- -->
+<!-- End of vlcBehavioralHealthSaveNew.html  Template. -->
+<!-- ----------------------------- -->

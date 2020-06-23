@@ -1,0 +1,58 @@
+{
+    "%vlocity_namespace%__Active__c": false,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "AddProduct",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/ANA Library/PS-AddProduct/English",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__ParentElementId__c": {
+        "%vlocity_namespace%__OmniScriptId__c": {
+            "Name": "AddProduct",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/ANA Library/PS-AddProduct/English",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+        },
+        "Name": "QLD-Block",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/ANA Library/PS-AddProduct/English/QLD-Block",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c"
+    },
+    "%vlocity_namespace%__ParentElementName__c": "QLD-Block",
+    "%vlocity_namespace%__ParentElementType__c": "Block",
+    "%vlocity_namespace%__PropertySet__c": {
+        "HTMLTemplateId": "",
+        "controlWidth": 6,
+        "currencySymbol": "$",
+        "dataType": null,
+        "dateFormat": "MM-dd-yyyy",
+        "expression": "IF(EQUALS(%QLD-ProdStage%,'In Progress') || EQUALS(%QLD-ProdStage%,'IGAP In Progress'),'10%',IF(EQUALS(%QLD-ProdStage%,'Dead') || EQUALS(%QLD-ProdStage%,'Lost') || EQUALS(%QLD-ProdStage%,'IGAP Dead') || EQUALS(%QLD-ProdStage%,'IGAP Lost'),'0%',IF(EQUALS(%QLD-ProdStage%,'Sold') || EQUALS(%QLD-ProdStage%,'IGAP Sold') || EQUALS(%QLD-ProdStage%,'Renewed') || EQUALS(%QLD-ProdStage%,'Termed'),'100%','')))",
+        "hide": false,
+        "hideGroupSep": false,
+        "label": "Probability %",
+        "mask": null,
+        "show": {
+            "group": {
+                "operator": "AND",
+                "rules": [
+                    {
+                        "condition": "<>",
+                        "data": "In Progress",
+                        "field": "QLD-ProdStage"
+                    },
+                    {
+                        "condition": "<>",
+                        "data": "IGAP In Progress",
+                        "field": "QLD-ProdStage"
+                    }
+                ]
+            }
+        }
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": false,
+    "%vlocity_namespace%__Type__c": "Formula",
+    "Name": "QLD-ProbabilityFormula",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/ANA Library/PS-AddProduct/English/QLD-ProbabilityFormula"
+}

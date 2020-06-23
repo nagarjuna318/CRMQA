@@ -1,0 +1,25 @@
+{
+    "Cards": [
+        "MedicalBenefitsCard"
+    ],
+    "dataSource": {
+        "contextVariables": [
+            {
+                "name": "params.Id",
+                "val": "a7z5B0000004OK1"
+            }
+        ],
+        "type": "Query",
+        "value": {
+            "query": "Select Id,Name ,LoggedinProfile__c,PendingCorrectionAction__c  from Medical_Benefit__c WHERE Id = '{{params.id || params.Id}}'"
+        }
+    },
+    "templates": {
+        "0": {
+            "templateUrl": "anthem-card-canvas-1x-slds-nosearch"
+        }
+    },
+    "workspace": [
+        "MedicalBenefitsCard/Anthem Commercial 2.0/1/1534848945664"
+    ]
+}

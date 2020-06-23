@@ -1,0 +1,27 @@
+<div class="panel panel-default"> 
+  <table class="table slds-table slds-table--bordered slds-table--cell-buffer slds-p-top_none" >
+   <!--<thead>
+    <tr>
+     
+     <th class="slds-cell-shrink">&nbsp;&nbsp;</th>
+     <th class="slds-p-bottom_large" >Please Select Integrated Plans</th>
+    </tr>
+   </thead>-->
+   <tbody class='ins' ng-if="control.vlcSI[control.itemsKey].length > 0"  >
+    <tr ng-repeat='p in control.vlcSI[control.itemsKey]' ng-class="{ 'vlc-selectableitem-selected' : p.vlcSelected }" >
+    
+     <th class="slds-cell-shrink">
+        <label class="slds-checkbox">
+          <input id="manualDept" type="checkbox" ng-model='p.vlcSelected;' ng-init ='p.vlcSelected =(p.vlcSelected == "true"? true:false); onSelectItem(control, p, $index, this);' ng-change='onSelectItem(control, p, $index, this);showOTher=(p.Name == "Other" && p.vlcSelected ? true:false)'' />
+          <span class="slds-checkbox--faux"></span>
+        </label>
+        &nbsp;&nbsp;
+     </th>
+     <td class="slds-text-heading_large" >{{p.Name}}</td><br><br>
+   </tr>
+   
+   </tbody>
+  </table>
+  
+
+</div>

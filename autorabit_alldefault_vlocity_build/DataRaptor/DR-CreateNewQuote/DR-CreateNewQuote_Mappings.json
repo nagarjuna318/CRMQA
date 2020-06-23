@@ -1,0 +1,44 @@
+[
+    {
+        "%vlocity_namespace%__DefaultValue__c": "Manasa_test_2",
+        "%vlocity_namespace%__DomainObjectAPIName__c": "Quote",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 1,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "Name",
+        "%vlocity_namespace%__IsDisabled__c": false,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__MapId__c": "DR-CreateNewQuoteCustom8698",
+        "%vlocity_namespace%__UpsertKey__c": false,
+        "Name": "DR-CreateNewQuote",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    },
+    {
+        "%vlocity_namespace%__DomainObjectAPIName__c": "Quote",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 1,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "OpportunityId",
+        "%vlocity_namespace%__InterfaceFieldAPIName__c": "OpptyId",
+        "%vlocity_namespace%__IsDisabled__c": false,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__MapId__c": "DR-CreateNewQuoteCustom4303",
+        "%vlocity_namespace%__UpsertKey__c": false,
+        "Name": "DR-CreateNewQuote",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    },
+    {
+        "%vlocity_namespace%__DefaultValue__c": "Standard Price Book",
+        "%vlocity_namespace%__DomainObjectAPIName__c": "Quote",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 1,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "Pricebook2Id",
+        "%vlocity_namespace%__IsDisabled__c": false,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__LookupDomainObjectFieldName__c": "Name",
+        "%vlocity_namespace%__LookupDomainObjectName__c": "Pricebook2",
+        "%vlocity_namespace%__LookupDomainObjectRequestedFieldName__c": "Id",
+        "%vlocity_namespace%__MapId__c": "DR-CreateNewQuoteCustom31",
+        "%vlocity_namespace%__UpsertKey__c": false,
+        "Name": "DR-CreateNewQuote",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    }
+]

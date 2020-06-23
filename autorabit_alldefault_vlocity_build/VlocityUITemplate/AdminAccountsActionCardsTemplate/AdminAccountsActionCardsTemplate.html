@@ -1,0 +1,19 @@
+<div class="slds-panel slds-grid slds-grid--vertical slds-nowrap" ng-controller="anthemActionsController">
+  <div class="slds-form--stacked slds-grow slds-scrollable--y">
+    <div class="slds-panel__section padding-none" ng-show="!hideContents">
+        <div class="slds-grid slds-wrap via-slds-action-grid-card">
+            <div class="slds-size--1-of-2 slds-m-bottom--xx-small slds-m-top--xx-small slds-p-left--xx-small slds-p-right--xx-small slds-grid" ng-repeat="action in data.actions" ng-show="{{getDisplayAllActions(obj, action.Name)}}">
+                <a class="action-link-styles slds-button via-slds-button slds-button--neutral slds-size--1-of-1 slds-p-top--xx-small slds-p-bottom--xx-small slds-align--absolute-center slds-text-link--reset" href="javascript:void(0)" ng-click="performAction(action)" hotkey-card-action>
+                    <div class="display-table">
+                        <vloc-card-icon data="action" obj="obj" size="'small'" extra-classes="'big slds-icon-text-default via-action-icon'"></vloc-card-icon>
+                        <br/>
+                        <p title="{{action.displayName}}" class="action-display-name">{{action.displayName}}
+                        </p>
+                        <!-- <p ng-show="{{action.displayName.length<20 && display_because_national_profile}} "><br/></p> -->
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+  </div>
+</div>

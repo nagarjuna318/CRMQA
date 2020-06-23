@@ -1,0 +1,332 @@
+{
+    "Account": {
+        "Active_Renewal_Date": "",
+        "AnthemEntityTransform": "Local",
+        "Anthem_Entity": "Local/Large Group",
+        "ClaimsRepricingTool": "No",
+        "CustomSaving": 99.99999,
+        "Id": "0015400000LPj7rAAD",
+        "LoggedInUserProfile": "System Administrator",
+        "MPIComments": "test111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+        "Name": "Test-0903",
+        "ProgramSelectionDetails": "No",
+        "RecordType": "LG Prospect",
+        "RecordTypeId": "01241000001EdidAAC",
+        "SharedSavings": "Custom Saving %",
+        "SitusState": "California",
+        "Type": ""
+    },
+    "AccountGroupSizeFormula": "",
+    "AccountManager": "",
+    "AccountManagerId": "",
+    "AccountManagerUserName": "",
+    "AnthemEntity": "Local",
+    "ArethereChangestoBehavioralHealth": "No",
+    "CastlightProductCheck": false,
+    "Claim_System": "WGS 2.0",
+    "Comments": {
+        "AdditionalCommentsBlock": {
+            "AdditionalComments": null
+        },
+        "ImpactedPackagesSuffixesSectionsBlock": null
+    },
+    "ContextId": "0Q0540000005ReeCAE",
+    "EffectiveDate": "True",
+    "EngageAloneProductCheck": false,
+    "EngageProductCheck": false,
+    "ExisitingOrder": "NotAllow",
+    "ExistingOrder": {
+        "EffectiveDate": "2019-12-31",
+        "Id": "80154000000TVveAAG",
+        "Implementation_Status": "Initiated",
+        "Implementation_Type": "New Business",
+        "Status": "Draft"
+    },
+    "GroupId": "a5I54000000Y7aOEAS",
+    "GroupIdPresent": "Yes",
+    "GroupInformation": {
+        "AreBrokerCommissionsImpactedBlock": {
+            "AccumulatorHistoryLoadNB": null,
+            "AreBrokerCommissionsImpacted": null
+        },
+        "AreCustomIDCardsRequestedBlock": {
+            "AreCustomIDCardsRequested": null
+        },
+        "AreThereChangesToRatesBlock": {
+            "AreThereChangesToRates": null
+        },
+        "ArethereCustomIVRTelephonychangesCROCBlock": {
+            "ArethereCustomIVRTelephonychangesCROC": null
+        },
+        "ArethereCustomIVRTelephonychangesNewBlock": {
+            "ArethereCustomIVRTelephonychangesNew": null
+        },
+        "ArethereCustomIVRTelephonychangesRenewalBlock": {
+            "ArethereCustomIVRTelephonychangesRenewal": null
+        },
+        "AretherechangestoGroupStructureBlock": {
+            "AretherechangestoGroupStructure": null
+        },
+        "CPDVisibilityBlock": null,
+        "CarrierDedCreditAccumulation": {
+            "CreditAccumulation": null
+        },
+        "DiscoveryCallDesiredBlock": {
+            "DiscoveryCallDesired": null
+        },
+        "DoesapartialtermapplyBlock": {
+            "Doesapartialtermapply": null
+        },
+        "DoeschangereqimpactPreCertDetailsBlock": {
+            "DoeschangereqimpactPreCertDetails": null
+        },
+        "FPCRVisibilityBlock": {
+            "FinalPreCertificationRules": null
+        },
+        "FirstImpressionsNeeded": null,
+        "Formula23": null,
+        "IDCardChangesBlock": {
+            "IDCardChanges": null
+        },
+        "IDCardsLocalBlock": null,
+        "IfNoPleaseprovidedetailsBlock": null,
+        "IfYesPleaseExplaintheChangesMadeBlock": null,
+        "IfyespleaseexplainthechangesmadeBlock": null,
+        "IfyespleaseexplainupdatesmadeBlock": null,
+        "LocalLargeGroup": null,
+        "MPIdetails": {
+            "ClaimsRepricingTool": null,
+            "CustomSavings": null,
+            "CustomSavings_MPI": null,
+            "Empty_CustomSavings": null,
+            "IsValidPercentage": null,
+            "MPIComments": null,
+            "Messaging9": null,
+            "ProgramSelectionDetails": null,
+            "SharedSavings": null
+        },
+        "MandatorylegislativeupdatesforGroupBlock": {
+            "MandatorylegislativeupdatesforGroup": null
+        },
+        "OpenEnrollmentDateBlock": null,
+        "PreImplementation": {
+            "PreImplementationAudit": null
+        },
+        "ProvidePartialTermReasonBlock": null
+    },
+    "IC-OpptyRecordType": [
+        "Dead",
+        "Declined to Quote",
+        "In Progress",
+        "Lost",
+        "Sold"
+    ],
+    "IGAP": "0Q00r0000000AzICAU",
+    "IGC": "0Q00r0000000AzICAU",
+    "IT-Admin Change": false,
+    "IT-RenewalAsIs": false,
+    "JAAMCSFlag": "N",
+    "LnDProducts": false,
+    "NewBusiness": "0Q0540000000qD4CAI",
+    "OpptyRType": "New Business",
+    "PreWork": [
+        "Engage Product",
+        "New Eligibility Vendor Setup",
+        "Data Interface New Vendor Build",
+        "SSCR Build for Client Customization",
+        "SBC"
+    ],
+    "QuoteDetails": {
+        "AccountId": "0015400000LPj7rAAD",
+        "Account_Name": "Test-0903",
+        "AnthemEntityTransform": "Local",
+        "CastlightProductChk": false,
+        "EffectiveDate": "2020-01-01",
+        "EngageAloneProductChk": false,
+        "EngageProductChk": false,
+        "GNReqStatus": "Requested",
+        "GroupId": "a5I54000000Y7aOEAS",
+        "GroupName": "122",
+        "GroupNumber": "a5I54000000Y7aOEAS",
+        "Id": "0Q0540000005ReeCAE",
+        "OpptyId": "00654000008KFGnAAO",
+        "OpptyRecordType": "New Business Local",
+        "OpptyStage": "Initiated",
+        "PriceBookId": "01s41000007wBCZAA2"
+    },
+    "RENEWAL": "0Q00r0000000AzICAU",
+    "RateChanges": "No",
+    "SRAccountId": "0015400000LPj7rAAD",
+    "Select-IMPType": {
+        "AccountManager": {
+            "Name": "",
+            "Value": ""
+        },
+        "Formula22": false,
+        "Formula24": true,
+        "Formula39": "UnCheck",
+        "Formula40": "N",
+        "Formula41": "3",
+        "GroupNumberExist": null,
+        "GroupNumberExistInput": "",
+        "IC-EffectiveDateBlock": {
+            "IC-EffectiveDate": "2019-12-31T18:30:00.000Z",
+            "IC-EffectiveDateCalc": "2020-01-01"
+        },
+        "IMPTypeBlock": {
+            "IMPType": "New Business",
+            "Messaging14": true
+        },
+        "IMPTypeMsg": false,
+        "ImplementationCaseTopic": null,
+        "ImplementationCaseTopicFG": "Full Group Term",
+        "ImplementationCaseTopicNonFG": null,
+        "JAAMCSCROCCalc": "N",
+        "JAAMCSNBCalc": "N",
+        "JAAMCSRenewalsCalc": "N",
+        "Messaging16": null,
+        "Pre-WorkIMPType": {
+            "CastlightProducts": null,
+            "CastlightProductsMsg": null,
+            "DataInterfaceBlock": null,
+            "Formula11": null,
+            "Formula9": null,
+            "NewEligibility": {
+                "FileLayout": null,
+                "IfCombinationorOtherPleaseExplain": null,
+                "IfOtherExplainFileLayout": null,
+                "IfOtherListVendorName": null,
+                "IfOtherSpecifyProducts": null,
+                "Other": null,
+                "SpecifyApplicablePopulationForSetup": null,
+                "VendorContactEmail": null,
+                "VendorContactName": null,
+                "VendorName": null,
+                "VendorPhoneNumber": null,
+                "VendorTechnicalContactEmail": null,
+                "VendorTechnicalContactName": null,
+                "VendorTechnicalContactPhoneNumber": null,
+                "WhatProductsDoesThisImplApplyTo": null
+            },
+            "PreWorkIMPSelect": null,
+            "RFP": {
+                "IsAProjectPlanNeeded": null,
+                "IsaDecisionsDeliverablesListNeeded": null,
+                "ProposalContact": null,
+                "SendDocumentsTo": null
+            },
+            "SBC": null,
+            "SSCRBuild": {
+                "HaveYouBeenInformedASSCRIsRequired": null,
+                "NotateWhyYouFeelASSCRIsNeeded": null,
+                "WhatAreaDeptProvidedThatDirection": null,
+                "WhatIsYourCustomizationDescription": null
+            }
+        },
+        "RenewalStatus": null,
+        "RenewalStatusFormula": "",
+        "SelectIMP": {
+            "AcquisitionBlock": null,
+            "GroupTermBlock": {
+                "ClaimsHistoryTimeframeRequired": null,
+                "ClaimsRunOutApplied": null,
+                "ClaimsRunOutAppliedBlock": null,
+                "ComminglingRunOutDateF": null,
+                "ComminglingRunOutNumF": null,
+                "CurrentOutstandingClaimsFG": null,
+                "CustomIDCardsFGFormula": null,
+                "CustomIDCardsNonSales": null,
+                "CustomIDCardsSales": null,
+                "De-ImplementationType": null,
+                "De-ImplementationTypeFG": "Full",
+                "De-ImplementationTypeNonFG": "Partial",
+                "EstimatedCountOfContractsLost": null,
+                "FSARunOutDateF": null,
+                "FSARunOutNumF": null,
+                "HSAHRARunOutDateF": null,
+                "HSAHRARunOutNumF": null,
+                "IDCardsRequiredFG": null,
+                "IVRImpact": null,
+                "IfClaimsRunOutWhichClaimsPlatform": null,
+                "IfClientMigratingListNewPlatform": null,
+                "IfClientMigratingListNewPlatformFG": null,
+                "IfClientMigratingListNewPlatformNonFG": null,
+                "IfRecordTransfersRequiredExplain": null,
+                "IfYesPleaseExplainIDCardRequirementFG": null,
+                "IndicateAnySpecialDe-ImpAgreements": null,
+                "IndicateSpecialProcessingReq": null,
+                "IsAnAnthemClientAcquiringThisGroup": null,
+                "IsClientMigratingToAnotherPlatform": null,
+                "LastClaimDateFG": null,
+                "ListAllAccumulatorsToBeTransmitted": null,
+                "ListHistoryConversionRequirements": null,
+                "MedicalClaimsRunOutDateF": null,
+                "MedicalClaimsRunOutNumF": null,
+                "NewCarrierName": null,
+                "OtherDITRunOutDateF": null,
+                "OtherDITRunOutNumF": null,
+                "PaidToDateFG": null,
+                "PrefixesToBeCancelled": null,
+                "ReasonforCancellation": null,
+                "RecordTransfersRequired": null,
+                "WhatIsGroupNumberOfAcquiringGroup": null
+            },
+            "IT-Acquisition": null,
+            "IT-Admin Change": null,
+            "IT-ChangeToCurrentRenewal": null,
+            "IT-ExistingShifttoJAA": null,
+            "IT-GroupTerm": false,
+            "IT-Migration": null,
+            "IT-RenewalAsIs": null,
+            "IT-Retro": null,
+            "IT-SpinOff": null,
+            "IT-TransferMarketSegment": false,
+            "MigrationBlock": null,
+            "RetroBlock": {
+                "AdditionalReasonDetails": null,
+                "ApplyClaimsStop": null,
+                "IfEffectiveDateIsRetro": null,
+                "ReasonForRetro": null
+            },
+            "SpinOffBlock": null,
+            "TransferMarketBlock": {
+                "IfOtherIndicateComingFromSystem": null,
+                "MovingFrom": null,
+                "OTHER": null,
+                "ProvideSystemComingFrom": null
+            }
+        },
+        "ShortPlanYearNewBiz": "No",
+        "ShortPlanYearRenewal": "No",
+        "UserGroup": "Local New Business Local"
+    },
+    "UserArea": "Local",
+    "UserProfileId": "00e41000001fYPTAA2",
+    "UserProfileName": "PT1",
+    "UserRole": "Enterprise Role",
+    "UserRoleId": "00E41000000RxTOEA0",
+    "UsrName": "Rahul Gupta",
+    "id": "a3C54000000Iw4VEAS",
+    "timeStamp": "2019-11-20T07:00:12.409Z",
+    "userCurrencyCode": "USD",
+    "userId": "00554000002SjC1AAK",
+    "userName": "rahulgupta67@deloitte.com.icegld",
+    "userProfile": "System Administrator",
+    "userProfilelocal": "N",
+    "userTimeZone": -300,
+    "verticalmode": true,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "DRE-AccountDetails": 4710,
+        "DRE-ExistingOrder": 2920,
+        "DREQuoteDetails": 3434,
+        "DREUserGroup": 3220,
+        "DataRaptorExtractLnD": 8938,
+        "OmniScriptSessionToken": "2fcc0960-d9bf-45fc-842b-456c336b4f19",
+        "ST-RecordType": 66,
+        "ST-ValValues": 173,
+        "SVContextId": 428,
+        "UserGroupValidation": 47
+    }
+}

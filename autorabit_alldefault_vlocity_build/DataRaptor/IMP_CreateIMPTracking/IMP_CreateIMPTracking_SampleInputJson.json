@@ -1,0 +1,35 @@
+{
+    "ContextId": null,
+    "STAutoDepartment": {
+        "SIAutoDepartment": null
+    },
+    "STConfirmation": {
+        "FR-ProductEffectiveDate": null
+    },
+    "STManualDepartment": {
+        "RxFormula": null,
+        "SIManualDepartment": null,
+        "Vision": null
+    },
+    "timeStamp": null,
+    "userId": null,
+    "userName": null,
+    "userProfile": null,
+    "userTimeZone": null,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "CreateIMPTracking": null,
+        "DA-IMPLCase": null,
+        "DR-IMPLCaseExtract": null,
+        "DR-SMEApprovalLoad": null,
+        "RA-SMEApprovaLoad": null,
+        "RA-SMEApprovalExtract": null,
+        "RA-SMEApprovalForLocalSales": null,
+        "RemoteAction4": null,
+        "STAutoDepartment": null,
+        "STConfirmation": null,
+        "STManualDepartment": null,
+        "SV-PresetData": null
+    }
+}

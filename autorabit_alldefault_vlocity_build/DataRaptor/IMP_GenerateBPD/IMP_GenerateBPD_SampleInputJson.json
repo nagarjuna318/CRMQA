@@ -1,0 +1,42 @@
+{
+    "AccountId": "0014100001f0iqiAAA",
+    "AccountName": "Gibson 6/2 Test",
+    "AssignImpID": "0052a000001AOeZAAW",
+    "BPD": {
+        "BPDStatus": "Initiated In Implementations Review",
+        "BenefitPlanDesignName": null,
+        "Formula1": "a7X41000000Cjyh",
+        "ImplementationTrackingID": "TRACK-000012",
+        "PleaseUploadYourBenefitPlanDesign": null
+    },
+    "ClaimSystem": "WGS 2.0",
+    "ContextId": "a7X41000000Cjyh",
+    "DRId_BPD__c": "a782a0000008TtGAAU",
+    "IMPCaseID": "80141000005leUqAAI",
+    "IMPName": "2020: Renewal-Gibson 6/2 Test",
+    "IMPOwner": "0052a000001AOeZAAW",
+    "IMPTClaimSystem": "WGS 2.0",
+    "IMPTName": "TRACK-000012",
+    "Id": "80141000005leUqAAI",
+    "id": "a3C2a0000004djmEAA",
+    "layout": "lightning",
+    "timeStamp": "2018-07-10T12:38:26.578Z",
+    "userCurrencyCode": "USD",
+    "userId": "0052a000001AJtAAAW",
+    "userName": "sindhu.murarishetti@accenture.com2.iceqa",
+    "userProfile": "System Administrator",
+    "userTimeZone": null,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "BPD": 4569,
+        "DR-IMPCaseExtract": 769,
+        "DR-IMPTrackingExtract": 570,
+        "DR_AMAssignment": 509,
+        "IMP_GenerateBPD": 758,
+        "OmniScriptSessionToken": "6338c1b4-1f84-41ca-9fb6-61ce9b9dad0d",
+        "SV-Context": 65,
+        "SV-Default": 49,
+        "Step2": 1909
+    }
+}

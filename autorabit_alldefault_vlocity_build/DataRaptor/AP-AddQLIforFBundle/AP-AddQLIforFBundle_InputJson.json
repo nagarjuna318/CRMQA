@@ -1,0 +1,193 @@
+{
+    "AP-Family": "Dental",
+    "AP-FamilySelection": {
+        "AP-CatSelection": "Specialty",
+        "AP-OpptyType": "In Group Add Product",
+        "AP-SubType": {
+            "AP-SubTypeSelection": "Dental"
+        }
+    },
+    "AP-HasSPP": "No",
+    "AP-ParentId": "01t41000003bULFAA2",
+    "AP-ProductName": "Anthem FlexHour Dental Plan",
+    "AP-ProductSelection": {
+        "AP-ProdSelected": true,
+        "AP-Selected": false,
+        "ProdList": [
+            {
+                "$$hashKey": "object:1464",
+                "Family": "Dental",
+                "HasSPP": false,
+                "Id": "01t41000003bULFAA2",
+                "Name": "Anthem FlexHour Dental Plan",
+                "ProductSubtype": "Dental",
+                "ProductType": "Specialty",
+                "QLIRecordType__c": "Default",
+                "RecordTypeId": "01241000001IOWvAAO",
+                "vlcSelected": true
+            }
+        ],
+        "THTY1Formula": 0,
+        "THTY2Formula": 0
+    },
+    "AP-Stages": [
+        "IGAP Dead",
+        "IGAP In Progress",
+        "IGAP Lost",
+        "IGAP Sold"
+    ],
+    "AccountId": "0012200000GW0MsAAL",
+    "ContextId": "0Q041000000pHNdCAM",
+    "IGAP": "0Q04B000000AFao",
+    "NewBusiness": "0Q04B000000AJiN",
+    "OpptyType": "In Group Add Product",
+    "ProductStage": "IGAP In Progress",
+    "QLD": {
+        "AP-BundleType": "",
+        "QLD-AccountId": "0012200000GW0MsAAL",
+        "QLD-Block": {
+            "ProbBlock": {
+                "Probability": "10%"
+            },
+            "QLD-Financing": "Administrative Services Only",
+            "QLD-Funding": "ASO",
+            "QLD-Members": 2132,
+            "QLD-Probability": "10%",
+            "QLD-ProdStage": "IGAP In Progress",
+            "QLD-Reason": "Account/Sales Team",
+            "QLD-ReasonCalc": null,
+            "QLD-ReasonPck": "Account/Sales Team",
+            "QLD-Subscribers": 2131,
+            "QLD-TermDate": null,
+            "QLD-TermDateIn": null,
+            "QLD-TermSelection": "Ok",
+            "SetValuesToDropDown": {
+                "ConfigurableProgramSetValueTriggers": "IGAP In Progress",
+                "ConfigureProgramSetValues": null
+            }
+        },
+        "QLD-DayMsg": true,
+        "QLD-ProdStageBlankCheck": "No",
+        "QLD-ProdStageBlankMsg": true,
+        "QLD-ReqCompetitor": "Yes",
+        "QLD-TermReqFlds": "No",
+        "QLD-TermReqMsg": true,
+        "QLD-Vendor": null,
+        "ReqProductStage": true
+    },
+    "QuoteDetails": {
+        "AccountId": "0012200000GW0MsAAL",
+        "EffectiveDate": "2020-02-14",
+        "GNReqStatus": "Not Requested",
+        "Id": "0Q0220000000MePCAU",
+        "OpptyId": "00622000002bgC1AAI",
+        "OpptyRecType": "In Group Add Product",
+        "OpptyStage": "Initiated",
+        "UserGroup": "National"
+    },
+    "Renewals": "0Q04B000000AKWwSAO",
+    "SelectServiceProvider": {
+        "Account_Id": "0012200000GW0MsAAL",
+        "AddComp2": true,
+        "AddComp3": true,
+        "CompIdCalc2": "0012200000GWQjYAAX",
+        "CompIdCalc3": "0012200000GWQnQAAX",
+        "CompStatusCalc2": "Incumbent",
+        "CompStatusCalc3": "Not Incumbent",
+        "CompetitorId": "0012200000GWQjTAAX",
+        "CompetitorStatus": "Unknown",
+        "CompetitorStatus1_LG": null,
+        "CompetitorStatusFormula": "Unknown",
+        "InvTypeCalc1": null,
+        "InvTypeCalc2": null,
+        "InvTypeCalc3": null,
+        "InvolvementType": null,
+        "InvolvementType2": null,
+        "InvolvementType3": null,
+        "LOBCalc1": null,
+        "LOBCalc2": null,
+        "LOBCalc3": null,
+        "LineOfBusiness": null,
+        "LineOfBusiness2": null,
+        "LineOfBusiness3": null,
+        "Membership1": 1,
+        "Membership2": 2,
+        "Membership3": 3,
+        "Multi-Employer": null,
+        "Multi-Employer2": null,
+        "Multi-Employer3": null,
+        "MultiEmpCalc1": null,
+        "MultiEmpCalc2": null,
+        "MultiEmpCalc3": null,
+        "NA-WarnMembership": false,
+        "NOUFlag": false,
+        "NameOfEmployers": null,
+        "NameOfEmployers2": null,
+        "NameOfEmployers3": null,
+        "NoEmpCalc1": null,
+        "NoEmpCalc2": null,
+        "NoEmpCalc3": null,
+        "ReqComFlds": "No",
+        "SP-CompStatus2": "Incumbent",
+        "SP-CompStatus2_LG": null,
+        "SP-CompStatus3": "Not Incumbent",
+        "SP-CompStatus3_LG": null,
+        "SPTD-Msg": null,
+        "SPTermDate": null,
+        "SPTermDateDay": null,
+        "SPTermDateIn": null,
+        "SSP-Msg": true,
+        "SSPMsg-Flg": "No",
+        "TACompetitor2-Block": null,
+        "TACompetitor2_NA-Block": {
+            "SP-CompetitorId2": "0012200000GWQjYAAX",
+            "TACompetitor2_NA": "Testq0220 vendor legal name"
+        },
+        "TACompetitor3-Block": null,
+        "TACompetitor3_NA-Block": {
+            "SP-CompetitorId3": "0012200000GWQnQAAX",
+            "TACompetitor3_NA": "Test Competitor"
+        },
+        "TypeAheadAccount-Block": null,
+        "TypeAheadAccount_NA-Block": {
+            "ServiceProviderAccountId": "0012200000GWQjTAAX",
+            "TypeAheadAccount_NA": "testq0220 vendor b"
+        }
+    },
+    "TACompetitor2_NA-Block": {
+        "SPCompetitorId2EditStep": "0012200000GWQjYAAX"
+    },
+    "TACompetitor3_NA-Block": {
+        "SPCompetitorId3EditStep": "0012200000GWQnQAAX"
+    },
+    "TypeAheadAccount_NA-Block": {
+        "SPCompetitorId1EditStep": "0012200000GWQjTAAX"
+    },
+    "UserArea": "National",
+    "UserGroup": "National",
+    "id": "a3C22000000MFYcEAO",
+    "layout": "lightning",
+    "testContextId": "0Q0220000000MePCAU",
+    "timeStamp": "2019-02-21T17:36:11.177Z",
+    "userCurrencyCode": "USD",
+    "userId": "00541000006Y65yAAC",
+    "userName": "chanmin.hoo@anthem.com2.icelo",
+    "userProfile": "System Administrator",
+    "userTimeZone": -480,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "AP-FamilySelection": 10179,
+        "AP-ProductSelection": 11818,
+        "AP-SetValues": 56,
+        "DR-ExtractQuote": 426,
+        "DR-ProdSubTypeRetrieval": 1342,
+        "DR-QuoteDetails": 1806,
+        "ExtractAccountId": 351,
+        "GlobalSetValues": 10,
+        "OmniScriptSessionToken": "65154bd4-dd43-454c-b6c3-1209d5fe45af",
+        "QLD": 66450,
+        "Set AccountId": 22,
+        "Set Constants": 57
+    }
+}

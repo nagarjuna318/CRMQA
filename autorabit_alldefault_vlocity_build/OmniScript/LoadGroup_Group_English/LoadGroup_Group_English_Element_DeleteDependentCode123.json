@@ -1,0 +1,136 @@
+{
+    "%vlocity_namespace%__Active__c": false,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "Load Group_Order",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/LoadGroup/Group/English",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__ParentElementId__c": {
+        "%vlocity_namespace%__OmniScriptId__c": {
+            "Name": "Load Group_Order",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/LoadGroup/Group/English",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+        },
+        "Name": "GroupInformation",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/LoadGroup/Group/English/GroupInformation",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c"
+    },
+    "%vlocity_namespace%__ParentElementName__c": "GroupInformation",
+    "%vlocity_namespace%__ParentElementType__c": "Step",
+    "%vlocity_namespace%__PropertySet__c": {
+        "HTMLTemplateId": "",
+        "accessibleInFutureSteps": true,
+        "conditionType": "Hide if False",
+        "controlWidth": 6,
+        "controllingField": {
+            "element": "",
+            "source": "",
+            "type": ""
+        },
+        "defaultValue": "1N",
+        "disOnTplt": false,
+        "help": false,
+        "helpText": "",
+        "hide": false,
+        "inputWidth": 12,
+        "label": "Delete Dependent Code",
+        "optionSource": {
+            "source": "",
+            "type": ""
+        },
+        "options": [
+            {
+                "name": "1N",
+                "value": "(1N) Dependents remain CHD and termed 1st of the month following (FOMF) 26th birthday."
+            },
+            {
+                "name": "1U",
+                "value": "(1U) Dependents remain CHD until FOMF 19th birthday and if eligible; STU from age 19 and termed 1st of the month following (FOMF) 30th birthday."
+            },
+            {
+                "name": "1X",
+                "value": "(1X) Dependents remain CHD and termed 1st of the month following (FOMF) 30th birthday"
+            },
+            {
+                "name": "13",
+                "value": "(13) Dependents remain CHD and termed 1st of the month following (FOMF) 23rd birthday."
+            },
+            {
+                "name": "14",
+                "value": "(14) Dependents remain CHD and termed 1st of the month following (FOMF) 25th birthday."
+            },
+            {
+                "name": "15",
+                "value": "(15) Dependents remain CHD until 1st of the month following (FOMF) the 19th birthday and if eligible; STU from age 19 and termed 1st of the month (FOMF) the 23rd birthday."
+            },
+            {
+                "name": "18",
+                "value": "(18) Dependents remain CHD until 1st of the month (FOMF) 19th birthday and if eligible; STU from age 19 and termed 1st of the month (FOMF) 25th birthday."
+            },
+            {
+                "name": "3O",
+                "value": "(3O) Dependents remain CHD and termed 1st of the year (FOYF) following 27th birthday."
+            },
+            {
+                "name": "3U",
+                "value": "(3U) Dependents remain CHD until 1st of the Year Following (FOYF) the 19th birthday and if eligible; STU from age 19 and termed 1st of the year following (FOYF) the 30th birthday."
+            },
+            {
+                "name": "3X",
+                "value": "(3X) Dependents remain CHD and termed 1st of the year following (FOYF) the 30th birthday."
+            },
+            {
+                "name": "31",
+                "value": "(31) Dependents remain CHD and termed 1st of the year following (FOYF) 19th birthday."
+            },
+            {
+                "name": "35",
+                "value": "(35) Dependents remain CHD until 1st of the Year Following (FOYF) 19th birthday and if eligible; STU from age 19 and termed 1st of the Year Following (FOYF) 23rd birthday."
+            },
+            {
+                "name": "4H",
+                "value": "(4H) Dependents remain CHD until 1st of the month following the 26th birthday and if eligible; STU from age 26 and termed 1st of the month following 30th birthday."
+            },
+            {
+                "name": "6H",
+                "value": "(6H) Dependents remain CHD until 1st of the Year Following (FOYF) the 26th birthday and if eligible; STU from age 26 and termed 1st of the Year Following (FOYF) the 30th birthday."
+            },
+            {
+                "name": "7A",
+                "value": "(7A) Dependents remain CHD and termed 1 month greater than 1st of the month following 26th birthday Example: Birthdate: Dependent turns 26 on March 10 should be termed May 1."
+            },
+            {
+                "name": "7F",
+                "value": "(7F) Dependents remain CHD and termed 1st of the year following (FOYF) 25th birthday and if eligible; remain STU from age 25 and termed until 1st of the month following (FOMF) 26th birthday."
+            },
+            {
+                "name": "7C",
+                "value": "(7C) Dep remain CHD & term 1st of mo. after 26 bday. Gen. custom max age 26 ltr; Per NY Rider groups that OPT IN & request reinstatement for elig. dep under PARENT contract, remains STU from 26 & termed 1st of mo. after 30 bday. Gen. custom max age 30 ltr"
+            },
+            {
+                "name": "7D",
+                "value": "(7D) Dependents remain CHD and deleted 1st of the month following 26th birthday; if NY Right of Election is invoked beyond age 26 please see 7E. Custom Max Age 26 letter should be generated 1st of the month following 26th birthday."
+            },
+            {
+                "name": "7E",
+                "value": "(7E) If \"Over Age Dependent\" group is later added once an Age 26 Adult Dependent has invoked their right under NY Right of Election, dependent is eligible from age 26 and termed 1st of the month following 30th birthday. Generate Custom Max Age 30 letter."
+            }
+        ],
+        "readOnly": false,
+        "repeat": false,
+        "repeatClone": false,
+        "repeatLimit": null,
+        "required": true,
+        "show": null,
+        "showInputWidth": true
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": false,
+    "%vlocity_namespace%__Type__c": "Select",
+    "Name": "DeleteDependentCode123",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/LoadGroup/Group/English/DeleteDependentCode123"
+}

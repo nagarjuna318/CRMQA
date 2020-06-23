@@ -1,0 +1,391 @@
+{
+    "ArethereChangestoBehavioralHealth": "No",
+    "AttachSBCRequest": {
+        "ContractCodesPackagesCustomizationBlock": {
+            "ContractCodesPackagesCustomization": ""
+        },
+        "DoesthischangereqimpactSBCs": "",
+        "SBCVisibilityBlock": {
+            "DoesAnthemproduceSBCs": "",
+            "SBCcreatedbytheSBCteam": ""
+        }
+    },
+    "BBDBlock": {
+        "ProBenBooklet": "",
+        "ReqBenBooklet": ""
+    },
+    "BBDVisibilityBlock": {
+        "ModExistBooklet": ""
+    },
+    "BBDocAttach": "NotAllow",
+    "BenefitBookletDetails": {
+        "BBDBlock": {
+            "ProBenBooklet": "",
+            "ReqBenBooklet": ""
+        },
+        "BBDVisibilityBlock": {
+            "ModExistBooklet": ""
+        },
+        "BenefitBookletAttachments": null,
+        "DoeschangereqimpactBB": ""
+    },
+    "CastlightProductCheck": false,
+    "Comments": {
+        "AdditionalCommentsBlock": {
+            "AdditionalComments": null
+        },
+        "ImpactedPackagesSuffixesSectionsBlock": {
+            "ImpactedPackagesSuffixesSections": null
+        }
+    },
+    "ContextId": "0Q0W0000000BQJNKA4",
+    "DoeschangereqimpactBB": "",
+    "DoesthischangereqimpactSBCs": "",
+    "EffectiveDate": "True",
+    "EngageProductCheck": true,
+    "ExisitingOrder": "Allow",
+    "GroupId": "a5IW0000000AHEvMAO",
+    "GroupInformation": {
+        "AreBrokerCommissionsImpactedBlock": {
+            "AreBrokerCommissionsImpacted": ""
+        },
+        "AreBrokerCommissionstobepaidBlock": {
+            "AreBrokerCommissionstobepaid": ""
+        },
+        "AreCustomIDCardsRequestedBlock": {
+            "AreCustomIDCardsRequested": ""
+        },
+        "AreThereChangesToRatesBlock": {
+            "AreThereChangesToRates": null
+        },
+        "ArethereCustomIVRTelephonychangesCROCBlock": {
+            "ArethereCustomIVRTelephonychangesCROC": ""
+        },
+        "ArethereCustomIVRTelephonychangesNewBlock": {
+            "ArethereCustomIVRTelephonychangesNew": ""
+        },
+        "ArethereCustomIVRTelephonychangesRenewalBlock": {
+            "ArethereCustomIVRTelephonychangesRenewal": ""
+        },
+        "AretherechangestoBrokerCommissionsBlock": {
+            "AretherechangestoBrokerCommissions": ""
+        },
+        "AretherechangestoGroupStructureBlock": {
+            "AretherechangestoGroupStructure": ""
+        },
+        "AretherechangestoRatesBlock": {
+            "AretherechangestoRates": ""
+        },
+        "CPDVisibilityBlock": {
+            "CustomPreCertDetails": ""
+        },
+        "CarrierDedCreditAccumulation": {
+            "CreditAccumulation": null
+        },
+        "DiscoveryCallDesiredBlock": {
+            "DiscoveryCallDesired": "Yes"
+        },
+        "DoesapartialtermapplyBlock": {
+            "Doesapartialtermapply": ""
+        },
+        "DoeschangereqimpactPreCertDetailsBlock": {
+            "DoeschangereqimpactPreCertDetails": ""
+        },
+        "FPCRVisibilityBlock": {
+            "FinalPreCertificationRules": ""
+        },
+        "IDCardChangesBlock": {
+            "IDCardChanges": ""
+        },
+        "IfyespleaseexplainthechangesmadeBlock": {
+            "Ifyespleaseexplainthechangesmade": ""
+        },
+        "IfyespleaseexplainupdatesmadeBlock": {
+            "Ifyespleaseexplainupdatesmade": ""
+        },
+        "MandatorylegislativeupdatesforGroupBlock": {
+            "MandatorylegislativeupdatesforGroup": ""
+        },
+        "OpenEnrollmentDateBlock": {
+            "OpenEnrollmentDate": ""
+        },
+        "PreImplementation": {
+            "PreImplementationAudit": false
+        },
+        "ProvidePartialTermReasonBlock": {
+            "ProvidePartialTermReason": ""
+        }
+    },
+    "GroupSetupInformation": {
+        "MainGroupSetup": {
+            "ArethereChangestoBehavioralHealth": null,
+            "AretherechangestoCOB": "",
+            "AretherechangestoEligibility": "",
+            "AretherechangestoEnrollmentBilling": ""
+        },
+        "RequestincludebenefitchangesBlock": {
+            "Arehereanythirdpartyvendorrequir": "No",
+            "ChangestoEligVendororFileFeed": "",
+            "Requestincludebenefitchanges": ""
+        }
+    },
+    "HCR": {
+        "AddedplansorplanschangedHCRStatusBlock": {
+            "AddedplansorplanschangedHCRStatus": ""
+        },
+        "HCRformincludedinpriorsubmissionBlock": {
+            "HCRformincludedinpriorsubmission": ""
+        },
+        "IfsopleaselistImplementationRecordBlock": {
+            "IfsopleaselistImplementationRecord": ""
+        }
+    },
+    "HTMLTemplateId": "",
+    "IGAP": "0Q0W0000000H88p",
+    "IGC": "0Q0W0000000H88p",
+    "ImplementationName": "2018: Pre Work-Hubbell Incorporated",
+    "NewBusiness": "0Q0W0000000H88p",
+    "OpptyRType": "",
+    "OrderRecordType": "Pre Work",
+    "OrderRecordTypeTemp": "National CR Off Cycle",
+    "OrderRecordTypeV1": "National Pre Work",
+    "PreRuleValidation": "N",
+    "PreWork": [
+        "Engage Product",
+        "New Eligibility Vendor Setup",
+        "Data Interface New Vendor Build",
+        "SSCR Build for Client Customization",
+        "SBC",
+        "RFP"
+    ],
+    "QuoteDetails": {
+        "AccountId": "001W000000amKSwIAM",
+        "Account_Name": "Hubbell Incorporated",
+        "CastlightProductChk": false,
+        "EffectiveDate": "2018-05-02",
+        "EngageProductChk": true,
+        "GNReqStatus": "Not Requested",
+        "GroupId": "a5IW0000000AHEvMAO",
+        "GroupName": "TBD",
+        "GroupNumber": "a5IW0000000AHEvMAO",
+        "Id": "0Q0W0000000BQJNKA4",
+        "OpptyId": "006W000000Ccd94IAB",
+        "OpptyRecordType": "New Business",
+        "OpptyStage": "Closed Won"
+    },
+    "RENEWAL": "0Q0W0000000H88p",
+    "RateChanges": "No",
+    "SBCDocAttach": "NotAllow",
+    "SBCVisibilityBlock": {
+        "DoesAnthemproduceSBCs": "",
+        "SBCcreatedbytheSBCteam": ""
+    },
+    "Select-IMPType": {
+        "IC-EffectiveDateBlock": {
+            "IC-EffectiveDate": "2018-05-01T18:30:00.000Z"
+        },
+        "IMPTypeBlock": {
+            "IMPType": "Pre Work"
+        },
+        "IMPTypeMsg": null,
+        "ImplementationCaseTopicBlock": {
+            "ImplementationCaseTopic": null
+        },
+        "Pre-WorkIMPType": {
+            "CastlightProducts": {
+                "ClientInformationFormMessageElite": true,
+                "CompleteTheClientInformationFormElite": "Yes",
+                "CompleteTheClientScopingDocument": "Yes",
+                "CompleteTheClientScopingMessage": true,
+                "FileCount1": 1,
+                "FileCount2": 1,
+                "Formula14": true,
+                "Formula17": true,
+                "Formula18": true,
+                "IsTheProductSaleFinal": "Yes",
+                "IsTheProductSaleFinalMessage": true,
+                "UploadCasClientAttachment1": [
+                    {
+                        "$$hashKey": "object:3796",
+                        "data": "4c1c1779-bb9b-4711-80fb-12d6ba546055",
+                        "filename": "3.txt",
+                        "size": 3
+                    }
+                ],
+                "UploadClientScopeAttachment": [
+                    {
+                        "$$hashKey": "object:3702",
+                        "data": "0f8c73bf-5c32-4258-bfa3-33dafd732e50",
+                        "filename": "2.txt",
+                        "size": 8
+                    }
+                ]
+            },
+            "CastlightProductsMsg": true,
+            "DataInterfaceBlock": null,
+            "Formula11": true,
+            "Formula9": true,
+            "NewEligibility": {
+                "FileLayout": "",
+                "IfCombinationorOtherPleaseExplain": "",
+                "IfOtherExplainFileLayout": "",
+                "IfOtherListVendorName": "",
+                "IfOtherSpecifyProducts": "",
+                "Other": null,
+                "SpecifyApplicablePopulationForSetup": "",
+                "VendorContactEmail": "",
+                "VendorContactName": "",
+                "VendorName": "",
+                "VendorPhoneNumber": "",
+                "VendorTechnicalContactEmail": "",
+                "VendorTechnicalContactName": "",
+                "VendorTechnicalContactPhoneNumber": "",
+                "WhatProductsDoesThisImplApplyTo": ""
+            },
+            "PreWorkIMPSelect": "Castlight Products",
+            "RFP": {
+                "IsAProjectPlanNeeded": "",
+                "IsaDecisionsDeliverablesListNeeded": ""
+            },
+            "SBC": {
+                "ContractCodePackagesCustomization": "",
+                "DoesAnthemProduceSBCs": "",
+                "WantTheSBCCreatedByTheSBCTeam": ""
+            },
+            "SSCRBuild": {
+                "HaveYouBeenInformedASSCRIsRequired": "",
+                "NotateWhyYouFeelASSCRIsNeeded": "",
+                "WhatAreaDeptProvidedThatDirection": "",
+                "WhatIsYourCustomizationDescription": ""
+            }
+        },
+        "SelectIMP": {
+            "AcquisitionBlock": {
+                "CarryOverAccumulatorsDataFiles": "",
+                "GroupStructureImpacts": "",
+                "IsTheAcquisitionConfidential": "",
+                "IsTheSaleDateFinal": "",
+                "WhoIsPriorVendor": ""
+            },
+            "GroupTermBlock": {
+                "ClaimsHistoryTimeframeRequired": "",
+                "ClaimsRunOutApplied": "",
+                "De-ImplementationType": "",
+                "EstimatedCountOfContractsLost": "",
+                "IVRImpact": "",
+                "IfClaimsRunOutWhichClaimsPlatform": "",
+                "IfClientMigratingListNewPlatform": "",
+                "IfRecordTransfersRequiredExplain": "",
+                "IndicateAnySpecialDe-ImpAgreements": "",
+                "IndicateSpecialProcessingReq": "",
+                "IsAnAnthemClientAcquiringThisGroup": "",
+                "IsClientMigratingToAnotherPlatform": "",
+                "ListAllAccumulatorsToBeTransmitted": "",
+                "ListHistoryConversionRequirements": "",
+                "NewCarrierName": "",
+                "PrefixesToBeCancelled": "",
+                "ReasonforCancellation": "",
+                "RecordTransfersRequired": "",
+                "WhatIsGroupNumberOfAcquiringGroup": ""
+            },
+            "IT-Acquisition": null,
+            "IT-ExistingShifttoJAA": null,
+            "IT-GroupTerm": false,
+            "IT-Migration": null,
+            "IT-Retro": null,
+            "IT-SpinOff": null,
+            "IT-TransferMarketSegment": false,
+            "MigrationBlock": {
+                "IndicateSystemHere": "",
+                "ProvideSystemBeingMigratedFrom": ""
+            },
+            "Pre-WorkIMPType": {
+                "RFP": {
+                    "IsAProjectPlanNeeded": "",
+                    "IsaDecisionsDeliverablesListNeeded": ""
+                },
+                "SBC": {
+                    "ContractCodePackagesCustomization": "",
+                    "DoesAnthemProduceSBCs": "",
+                    "WantTheSBCCreatedByTheSBCTeam": ""
+                },
+                "SSCRBuild": {
+                    "HaveYouBeenInformedASSCRIsRequired": "",
+                    "NotateWhyYouFeelASSCRIsNeeded": "",
+                    "WhatAreaDeptProvidedThatDirection": "",
+                    "WhatIsYourCustomizationDescription": ""
+                }
+            },
+            "RetroBlock": {
+                "AdditionalReasonDetails": "",
+                "ApplyClaimsStop": "",
+                "IfEffectiveDateIsRetro": "",
+                "ReasonForRetro": ""
+            },
+            "SpinOffBlock": {
+                "CarryOverAccumulatorsOrDataFiles": "",
+                "IsTheSpinOffConfidential": "",
+                "IsTheSpinoffSaleDateFinal": "",
+                "WillTherebePortability": ""
+            },
+            "TransferMarketBlock": {
+                "IfOtherIndicateComingFromSystem": "",
+                "MovingFrom": "",
+                "OTHER": null,
+                "ProvideSystemComingFrom": ""
+            }
+        },
+        "UserGroup": "National New Business"
+    },
+    "Status": "Initiated",
+    "UserArea": "National",
+    "UserProfileId": "00e41000001fYPTAA2",
+    "UserRole": "System Administrator",
+    "UserRoleId": "00E41000000mZUZEA2",
+    "id": "a3CW00000013aqfMAA",
+    "layout": "lightning",
+    "message": {
+    },
+    "showPersistentComponent": {
+        "vlcCart": false,
+        "vlcKnowledge": false
+    },
+    "ssm": false,
+    "timeStamp": "2018-04-17T04:33:44.590Z",
+    "userCurrencyCode": "USD",
+    "userId": "005W0000002oXEFIA2",
+    "userName": "rama.k.gangavarapu@accenture.com.national1b",
+    "userProfile": "System Administrator",
+    "userTimeZone": -240,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "Comments": 1875,
+        "DRE-ExistingOrder": 1107,
+        "DREQuoteDetails": 1118,
+        "DREUserGroup": 1868,
+        "DataRaptorExtractAction8": 948,
+        "GroupInformation": 5664,
+        "GroupSetupInformation": 2751,
+        "OmniScriptSessionToken": "0f0fe060-bd3d-4fc1-a207-bea32caaa955",
+        "ST-OrderRT": 180,
+        "ST-RecordType": 104,
+        "ST-ValValues": 99,
+        "SVContextId": 285,
+        "Select-IMPType": 97431,
+        "SetValuesBBD": 18,
+        "SetValuesBBDReset": 25,
+        "SetValuesCommentsReset": 120,
+        "SetValuesGroupInfo": 30,
+        "SetValuesGroupInfoReset": 127,
+        "SetValuesGroupSetup": 206,
+        "SetValuesGroupSetupReset": 117,
+        "SetValuesHCRRet": 19,
+        "SetValuesIMPreset": 113,
+        "SetValuesIMPreset1": 42,
+        "SetValuesSBC": 22,
+        "SetValuesSBCReset": 25,
+        "UserGroupValidation": 194
+    },
+    "wpm": false
+}

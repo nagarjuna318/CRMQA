@@ -1,0 +1,48 @@
+<div class="nds-size_1-of-1">
+
+    <ng-form name='loopform'
+             class='nds-form-element nds-size_1-of-1 nds-p-around_small'
+             ng-repeat='control in child.eleArray'>
+
+        <div class="margin-top-none nds-form-element__control nds-form-element__control-animated-label nds-grid" ng-init="icon={'Success':'check','Warning':'warning', 'Comment':'chat', 'Requirement':'close'}">
+
+                <div class="display-flex-qli message description"
+                     ng-repeat='msg in ::control.propSetMap.messages'
+                     msg="{{msg.type}}"
+                     ng-if="msg.active === true && control.response !== null && control.response === msg.value">
+                     <span class="nds-icon_container nds-icon-utility-search nds-input__icon nds-input__icon_left">
+                             <svg class="nds-icon nds-icon nds-icon_x-small nds-icon-text-default" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="info" width="100%" height="100%">
+                                <path fill="#c23934"d="M12 .9C5.9.9.9 5.9.9 12s5 11.1 11.1 11.1 11.1-5 11.1-11.1S18.1.9 12 .9zm0 5.6c.8 0 1.4.6 1.4 1.4s-.6 1.4-1.4 1.4-1.4-.6-1.4-1.4.6-1.4 1.4-1.4zm2.3 9.7c0 .2-.2.4-.5.4h-3.6c-.3 0-.5-.1-.5-.4v-.9c0-.3.2-.5.5-.5.2 0 .4-.2.4-.4v-1.9c0-.2-.2-.5-.4-.5-.3 0-.5-.1-.5-.4v-.9c0-.3.2-.5.5-.5h2.7c.3 0 .5.2.5.5v3.7c0 .2.2.4.4.4.3 0 .5.2.5.5v.9z"></path>
+                            </svg>
+                            <!-- <svg class="nds-icon nds-icon nds-icon_x-small nds-icon-text-default search-icon-margin" aria-hidden="true">
+                                <use xlink:href="../resource/%vlocity_namespace%__slds/assets/icons/utility-sprite/svg/symbols.svg#info"></use>
+                            </svg> -->
+                    </span>
+
+                   
+                     <!-- <span class="nds-icon_container nds-icon_container_circle">
+                        <slds-svg-icon sprite="'utility'" icon="icon[msg.type]"  size="'small'"></slds-svg-icon>
+                     </span> -->
+                     <span class="nds-m-left_small font-color-dark-grey">
+                         {{control.displayMsg}}
+                     </span>
+                </div>
+
+                <input id='{{::control.name}}'
+                       type='text'
+                       name='loopname'
+                       ng-show='performValidate(this, control)'
+                       ng-model='control.response'
+                       class='nds-input'
+                       vlc-slds-val-checker="response"
+                       readonly />
+
+                <label ng-if='::!control.propSetMap.hideLabel' class='nds-form-element__label' style="top: 0">
+                    {{::control.propSetMap.label}}
+                </label>
+
+        </div>
+
+    </ng-form>
+
+</div>

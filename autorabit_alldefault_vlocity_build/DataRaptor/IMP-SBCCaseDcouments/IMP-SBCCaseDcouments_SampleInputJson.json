@@ -1,0 +1,108 @@
+{
+    "ABCDecisions": "NA = Not Applicable",
+    "ABCRelease": "2018-01-01T00:00:00.000Z",
+    "AttachSBCRequestInformation": {
+        "AttachSBCRequest Information": [
+            {
+                "$$hashKey": "object:371",
+                "data": "308ef9e9-7f76-47c7-b95e-a1b15a400251",
+                "filename": "1BSprint1_v1.1.json",
+                "size": 581201
+            },
+            {
+                "$$hashKey": "object:390",
+                "data": "dcb40fc7-fefa-4c9b-8d96-8e489bb5d19e",
+                "filename": "INS_QuoteActions.json",
+                "size": 34267
+            }
+        ],
+        "Messaging1": true
+    },
+    "BenefitBookletDetails": {
+        "ModExistBooklet": "Yes",
+        "ProBenBooklet": "Yes",
+        "ReqBenBooklet": "Yes"
+    },
+    "CaptureAnnualBenefitChange": {
+        "ABCDecisions": "CD = Client Declined",
+        "ABCRelease": "2017-12-08T06:00:00.000Z"
+    },
+    "CaptureEOCRequest": {
+        "PooledEOCnotorderedduetodelay": true,
+        "PooledEOCordered": true
+    },
+    "CapturePreCertificationDetails": {
+        "CustomPreCertDetails": "022 023 045",
+        "FinalPrecertificationRules": "CCMU"
+    },
+    "CaptureSBCRequestInformation": {
+        "ContractCodesPackagesCustomization": null,
+        "DoesAnthemproduceSBCs": "Yes",
+        "WanttheSBCcreatedbytheSBCteam": "Yes"
+    },
+    "ContextId": "801W0000000lplMIAQ",
+    "DRId_Order": "801W0000000lplMIAQ",
+    "EffectiveDate": "False",
+    "ExisitingOrder": "Allow",
+    "ICDetails": {
+        "ABC_Decisions": "NA = Not Applicable",
+        "ABC_Released_With": "2018-01-01",
+        "Does_Anthem_Produce_Benefit_Booklets": "Yes",
+        "Does_this_require_a_new_Benefit_Booklet": "Yes",
+        "EffectiveDate": "2017-12-16",
+        "HQState": "CA",
+        "Implementation_Record_ID": "IMPL-000106",
+        "Implementation_Status": "Initiated",
+        "Implementation_Type": "New Business",
+        "Intake_Type_Existing_Shift_to_PEX": false,
+        "Intake_Type_Group_Term": false,
+        "Intake_Type_Migration": false,
+        "Intake_Type_Retro": false,
+        "Intake_Type_Spin_Off": false,
+        "Intake_Type_Transfer_Market_Segment": false,
+        "Modification_to_existing_booklet": "Yes",
+        "Pre_Implementation_Audit": false,
+        "QuoteId": "0Q0W0000000HJ9YKAW",
+        "Status": "Draft",
+        "User_Group": "Local New Business"
+    },
+    "LocalCA": "801W0000000lplMIAQ",
+    "ModExistBooklet": "Yes",
+    "National": "801W0000000lnPx",
+    "PreRuleValidation": "Y",
+    "PreWork": [
+        "Engage Product",
+        "New Eligibility Vendor Setup",
+        "Data Interface New Vendor Build",
+        "SSCR Build for Client Customization",
+        "SBC"
+    ],
+    "ProBenBooklet": "Yes",
+    "ReqBenBooklet": "Yes",
+    "Status": "'Initiated'",
+    "UserArea": "Local",
+    "UserGroup": "Local ",
+    "id": "a3CW0000000Aj2XMAS",
+    "layout": "lightning",
+    "timeStamp": "2017-12-15T22:30:02.675Z",
+    "userId": "005W0000002XPj6IAG",
+    "userName": "jcarrero@vlocity.com.prod.nal1b.dev",
+    "userProfile": "System Administrator",
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "AttachSBCRequestInformation": 77100,
+        "CaptureAnnualBenefitChange": 5577,
+        "CaptureEOCRequest": 2983,
+        "CapturePreCertificationDetails": 12428,
+        "DR-CaseUpdate": 6672,
+        "DRE-IMPCapture": 473,
+        "DRE-UserGroup": 2097,
+        "Finish": 1912,
+        "OmniScriptSessionToken": "5b46d727-e183-468d-ae19-b5823444e2a3",
+        "ST-PreRulesValidation": 78,
+        "ST-ValValues": 13,
+        "SV-ContextId": 116,
+        "UserGroupValidation": 17
+    }
+}

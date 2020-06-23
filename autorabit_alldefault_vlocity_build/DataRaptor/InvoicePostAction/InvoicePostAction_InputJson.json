@@ -1,0 +1,171 @@
+{
+    "ContextId": null,
+    "EligibilityInformation": {
+        "CalCobLIT": {
+            "WhoWilHandleCalCOBRABilling": null
+        },
+        "CalCobSales": {
+            "CalCOBRAEligibileParticipants": null
+        },
+        "EligibilityDetail": {
+            "DomesticPartnerIndicator": null
+        },
+        "EmployerEligibility": {
+            "AddtlDomPartner": null,
+            "COBRAAdmin": null,
+            "ClientAllowsDomesticPartnersCovered": null,
+            "ClientAllowsSamsex": null,
+            "DoesThisInformationApplyToAllGroup": null,
+            "DomesticPartnerApplyToAllGroup": null,
+            "EmployeeExcludedCode": null,
+            "EmployeeReinstatementDateEligibility": null,
+            "EmployeeReinstatementProbationaryPeriod": null,
+            "IfNoPleaseSpecify": null,
+            "IfNoSpecifyGroupsForDomesticPart": null,
+            "IfYesIndicateProbPeriod": null,
+            "IsThereaWaitingPeriod": null,
+            "NewHireCoverageEffDateEligibility": null,
+            "NewHireProbationaryPeriod": null,
+            "Notes": null,
+            "PremPaidForEachSubDepPerMonth": null,
+            "PremPaidForEachSubPerMonth": null
+        },
+        "ImplemenationCaseDetails": {
+            "FRM-AccountName1": null,
+            "FRM-ClaimSystem": null,
+            "FRM-EligibilityName": null
+        },
+        "MembershipCom": {
+            "MembershipComments": null
+        }
+    },
+    "EligibilityandFundingValidations": {
+    },
+    "EmployeeClasseStatus": {
+        "EmployeeClassesseparate": {
+            "AccountLegalName": null,
+            "EmployeeClass": {
+                "EmployeeClassDescriptionStat": null,
+                "EmployeeClassTypeStat": null,
+                "EmployeeID": null
+            },
+            "EmployeeGroup": null
+        }
+    },
+    "FundingInformation": {
+        "COBRAWest": {
+            "COBRABillGo": null,
+            "COBRAPremium": null,
+            "COBRATPA": null
+        },
+        "FundingDetails": {
+            "DifferentContactsAtSuffixLevel": null,
+            "IfYesPlzExpln": null,
+            "IncludeHCIDNumberOnTheInvoice": null,
+            "MoreThanOneBillEntity": null,
+            "PremiumRecdFromMoreThanOneSource": null,
+            "SelfFundedwithReinsurance": null
+        },
+        "FundingImplementationCaseDetails": {
+            "FRM-AccountName2": null,
+            "FRM-ClaimSystem1": null,
+            "FRM-FundingName": null
+        },
+        "TPAContactInformation": {
+            "City": null,
+            "FR-TPACity": null,
+            "FR-TPAPhone": null,
+            "FR-TPAState": null,
+            "FR-TPAStreetAddress": null,
+            "FR-TPAZipCode": null,
+            "Phonee": null,
+            "State": null,
+            "StreetAddress": null,
+            "TPAContactName-Block": {
+                "TPAContactId": null,
+                "TPAContactName": null,
+                "TPAContactNameFM": null
+            },
+            "ZipCode": null
+        }
+    },
+    "GroupPlanDesignSuffix": {
+        "GroupPlanDesigns": null
+    },
+    "RecapandNextSteps": {
+        "NextBlock": {
+        },
+        "RecapBlock": {
+        }
+    },
+    "Step1": {
+        "Invoices": {
+            "BillingPreference": null,
+            "EBillingContactTitle": null,
+            "FaxDispl": null,
+            "FullName": null,
+            "InvoiceDescription": null,
+            "InvoiceFormat": null,
+            "InvoiceSortingOption": null,
+            "OtherInvoiceSortingOption": null,
+            "PhoneDisplay": null,
+            "SourceSystem": null,
+            "TARANameLookup-Block": {
+                "Fax": null,
+                "FirstName": null,
+                "Id": null,
+                "LastName": null,
+                "MailingCity": null,
+                "MailingPostalCode": null,
+                "MailingState": null,
+                "MailingStreet": null,
+                "Phone": null,
+                "TARANameLookup": null,
+                "Title": null,
+                "eMail": null
+            },
+            "eId": null,
+            "eMailDisp": null,
+            "eMailingCity": null,
+            "eMailingPostalCode": null,
+            "eMailingState": null,
+            "eMailingStreet": null
+        },
+        "WhatareInvoices": {
+        }
+    },
+    "timeStamp": null,
+    "userId": null,
+    "userName": null,
+    "userProfile": null,
+    "userTimeZone": null,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "DataRaptorPostAction6": null,
+        "DoneAction1": null,
+        "EligibilityDetailsSt": null,
+        "EligibilityInformation": null,
+        "EligibilityPost": null,
+        "EligibilityandFundingValidations": null,
+        "EligibilityrecordSt": null,
+        "EligibilityrecordSt193": null,
+        "EmployeeClassDataRaptor": null,
+        "EmployeeClassPostAction": null,
+        "EmployeeClassQLIExtraction": null,
+        "EmployeeClasseStatus": null,
+        "ExtractEligibilityFundingByImpleCaseDR": null,
+        "ExtractGPDDetails": null,
+        "FundingDetailsSt": null,
+        "FundingInformation": null,
+        "GroupPlanDesignSuffix": null,
+        "InvoiceExtractTypeaHead": null,
+        "PostEmpStatus": null,
+        "PostFundingByImplCaseDR": null,
+        "PostGPDDetails": null,
+        "RecapandNextSteps": null,
+        "SetValues6": null,
+        "SetValues7": null,
+        "Step1": null
+    }
+}

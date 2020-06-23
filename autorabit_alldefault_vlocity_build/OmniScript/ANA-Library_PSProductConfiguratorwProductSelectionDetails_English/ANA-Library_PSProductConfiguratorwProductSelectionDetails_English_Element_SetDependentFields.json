@@ -1,0 +1,55 @@
+{
+    "%vlocity_namespace%__Active__c": true,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "ProductConfiguratorWProductSelectionObjectDetails",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/ANA Library/PSProductConfiguratorwProductSelectionDetails/English",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__PropertySet__c": {
+        "HTMLTemplateId": "",
+        "controlWidth": 12,
+        "elementValueMap": {
+            "AnthemEntity": "%AnthemEntity%",
+            "BariatricTravelBenefits": "%BariatricTravelBenefitsDependent%",
+            "CardiacTravelBenefits": "%CardiacTravelBenefitsDependent%",
+            "DoesThisClientUtilizeFairHealth": "%DoesThisClientUtilizeFairHealthDependent%",
+            "FacilityPricing": "%FacilityPricingDependent%",
+            "Financing": "%FinancingDependent%",
+            "ForAsoBenefitsLoaded": "%ForAsoBenefitsLoadedDependent%",
+            "GroupHasANABHbutOptOutOfLHOBH": "%GroupHasANABHbutOptOutOfLHOBHDependent%",
+            "IfYesSelectPercentileHere": "%IfYesSelectPercentileHereDependent%",
+            "IsAccountMovingToPEX": "%IsAccountMovingToPEXDependent%",
+            "IsBHCarvedOutOrBenefitsExcluded": "%IsBHCarvedOutOrBenefitsExcludedDependent%",
+            "OrthopedicTravelBenefits": "%OrthopedicTravelBenefitsDependent%",
+            "ProductSelectionRecordCount": "%ProductSelectionRecordCount%",
+            "ProductTypeList": "%ProductTypeListDependent%",
+            "Profilex": "%Profilex%",
+            "QLICompId1": "%QLICompId1%",
+            "QLICompId2": "%QLICompId2%",
+            "QLICompId3": "%QLICompId3%",
+            "QLINOUFlagExtract": "%QLINOUFlagExtract%",
+            "Reason": "%ReasonDependent%",
+            "TelehealthVendorName": "%TelehealthVendorNameDependent%",
+            "VendorIdExtract": "%VendorIdExtract%",
+            "WillClaimsbeReferencedToNCN": "%WillClaimsbeReferencedToNCNDependent%"
+        },
+        "label": "Set Dependent Fields",
+        "message": {
+        },
+        "show": null,
+        "showPersistentComponent": [
+            false,
+            false
+        ],
+        "ssm": false,
+        "validationRequired": "None",
+        "wpm": false
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": false,
+    "%vlocity_namespace%__Type__c": "Set Values",
+    "Name": "SetDependentFields",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/ANA Library/PSProductConfiguratorwProductSelectionDetails/English/SetDependentFields"
+}

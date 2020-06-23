@@ -1,0 +1,67 @@
+{
+    "Account": {
+        "Name": "Test CA",
+        "Phone": "5555551212"
+    },
+    "AccountId": "001S00000155cqWIAQ",
+    "AccountManager": "Joseph Henzi",
+    "Confirm": {
+        "BrokerEmail": "joe@henzi.org",
+        "BrokerName": "Joseph Henzi",
+        "ClientEmail": "joe@henzi.org",
+        "ClientName": "Joseph Henzi",
+        "ClientTitle": null,
+        "SelectedUW": "Rick.Groves@anthem.com"
+    },
+    "ContextId": "006S000000FCkkxIAD",
+    "GroupNumber": "123141241",
+    "OppId": "006S000000FCkkxIAD",
+    "OppName": "2020 In Group Add Product Local-Test CA",
+    "Quotes": {
+        "GroupNumber__c": "a5IS00000005zfiMAA"
+    },
+    "StageInformation": {
+        "Brokers": [
+            {
+                "$$hashKey": "object:161",
+                "Email": "joe@henzi.org",
+                "Name": "Joseph Henzi",
+                "vlcSelected": true
+            }
+        ],
+        "Group": [
+            {
+                "$$hashKey": "object:157",
+                "Name": "123141241",
+                "vlcSelected": true
+            }
+        ],
+        "GroupContact": [
+            {
+                "$$hashKey": "object:159",
+                "AccountName": "Test CA",
+                "Email": "joe@henzi.org",
+                "Name": "Joseph Henzi",
+                "vlcSelected": true
+            }
+        ],
+        "LeadUW": "Rick.Groves@anthem.com",
+        "NumSelections": 3,
+        "Validation": true
+    },
+    "TextBlock2": "<h1 style=\"text-align: center;\"><strong>Email Status:</strong>&nbsp;<strong>&nbsp;<strong></strong></strong></h1>",
+    "id": "a3CS0000000HDSjMAO",
+    "isdtp": "p1",
+    "layout": "lightning",
+    "sfdcIFrameHost": "web",
+    "sfdcIFrameOrigin": "https://commercial--icelo2--vlocity-ins.cs1.visual.force.com",
+    "testContextId": "006S000000FCkkxIAD",
+    "timeStamp": "2019-10-23T15:50:53.823Z",
+    "userCurrencyCode": "USD",
+    "userId": "00541000002s17RAAQ",
+    "userName": "ad70229@anthem.com2.icelo2",
+    "userProfile": "System Administrator",
+    "userTimeZone": -300,
+    "vlcPersistentComponent": {
+    }
+}

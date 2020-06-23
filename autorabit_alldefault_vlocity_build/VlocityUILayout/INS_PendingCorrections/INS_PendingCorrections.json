@@ -1,0 +1,28 @@
+{
+    "Cards": [
+        "PendingCorrectionsCards",
+        "PendingCorrectionLocal"
+    ],
+    "dataSource": {
+        "contextVariables": [
+            {
+                "name": "params.Id",
+                "val": "''"
+            }
+        ],
+        "type": "Query",
+        "value": {
+            "jsonMap": "{\"params.id || params.Id\":\"{{params.id || params.Id}}\"}"
+        }
+    },
+    "previewType": "runTime",
+    "templates": {
+        "0": {
+            "templateUrl": "anthem-card-canvas-1x-slds-nosearch"
+        }
+    },
+    "workspace": [
+        "PendingCorrectionsCards/Anthem Commercial 2.0/1/1534473885661",
+        "PendingCorrectionLocal/Anthem Commercial 2.0/1/1535480135968"
+    ]
+}

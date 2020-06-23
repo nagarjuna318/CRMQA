@@ -1,0 +1,10 @@
+<div class="via-slds whitebg">
+  
+  <div class="slds-grid slds-m-around--small slds-wrap slds-grid--pull-padded cards-container">
+  
+      <div vloc-card ng-repeat="card in cards |orderBy:order|filter: searchFunc(card, searchTerm)" ctrl="{{ctrl}}" ng-model="card" data="card" records="records" index="{{$index}}" session-id="{{sessionId}}" contextId="{{attrs.contextId}}"
+ class="slds-p-around--small slds-size--1-of-1" use-existing-element-type style="padding-top:0px;padding-bottom:0px"></div>
+  
+  </div>
+
+</div>

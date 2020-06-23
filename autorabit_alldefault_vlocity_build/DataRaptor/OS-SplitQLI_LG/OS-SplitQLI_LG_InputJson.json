@@ -1,0 +1,109 @@
+{
+    "": "",
+    "AccountId": "0014B00000PMGLnQAP",
+    "ContextId": "",
+    "GroupDetails": {
+        "AccountId": "0014B00000PMGLnQAP",
+        "GroupId": "a514B0000000ZqWQAU",
+        "GroupNumber": "003327107",
+        "Id": "0Q04B000000APwTSAW",
+        "OpportunityId": "0064B000009CHgCQAW",
+        "Pricebook2Id": "01s41000007wBCZAA2",
+        "RTName": "Renewal",
+        "RecordTypeId": "0124B0000000Rk3QAE",
+        "TotalMembers": 25273
+    },
+    "IGAP": "0Q04B000000AFao",
+    "MURecordSelection": {
+        "QLI-ProdSelMsg": true,
+        "QLIProdList": [
+            {
+                "CompetitorStatus__c": "Not Incumbent",
+                "Financing__c": "Administrative Services Only",
+                "Funding__c": "ASO",
+                "Id": "0QL4B0000006JDiWAM",
+                "LOB": "Other",
+                "Members__c": 25273,
+                "Name": "Other-Anthem Health Guide",
+                "PricebookEntryId": "01u4B000008SVZQQA4",
+                "Probability__c": "30%",
+                "Product2Id": "01t4B000001XDyyQAG",
+                "ProductStage": "IGAP In Progress",
+                "ProductType__c": "NonMedical",
+                "Reason__c": "Clinical Programs",
+                "RecordType__c": "Anthem Health Guide",
+                "Subscribers__c": 12542,
+                "vlcSelected": true
+            }
+        ]
+    },
+    "MUSetFields": {
+        "DayMsg": true,
+        "FinMsg": true,
+        "QLD": {
+            "FFFormula": "NoMsg",
+            "Financing": null,
+            "Funding": null,
+            "Members": null,
+            "Probability": "100%",
+            "ProbabilityEdit": null,
+            "ProbabilityFormula": "100%",
+            "ProdStage": "IGAP Sold",
+            "RTName": "Renewal",
+            "ReqCompetitor": "Yes",
+            "StageReason": "Account/Sales Team",
+            "Subscribers": null,
+            "TermDate": "",
+            "TermDateIn": null,
+            "TermReqFlds": "No",
+            "TermSelection": "Ok"
+        },
+        "TermReqMsg": true
+    },
+    "NewBusiness": "0Q04B000000AJiN",
+    "RC-S6Flg2": "FullExisting",
+    "Renewals": "0Q04B000000AKWwSAO",
+    "SelectServiceProvider": {
+        "Account_Id": "0014B00000PMGLnQAP",
+        "CompetitorId": null,
+        "CompetitorStatus": null,
+        "CompetitorStatusFormula": null,
+        "NOUFlag": true,
+        "ReqComFlds": "Yes",
+        "SPTD-Msg": null,
+        "SPTermDate": null,
+        "SPTermDateDay": null,
+        "SPTermDateIn": null,
+        "SSP-Msg": true,
+        "SSPMsg-Flg": "No",
+        "StageReason": null,
+        "TypeAheadAccount-Block": {
+            "ServiceProviderAccountId": null,
+            "TypeAheadAccount": null
+        }
+    },
+    "id": "a3F4B000000BAwpUAG",
+    "layout": "lightning",
+    "timeStamp": "2017-09-14T16:40:13.590Z",
+    "userId": "0054B000000op4eQAA",
+    "userName": "jcarrero@anthem.com2.staging",
+    "userProfile": "System Administrator",
+    "verticalmode": true,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "DR-GroupInformation": 948,
+        "DR-RetrieveProducts": 1010,
+        "DR-Updating": 661,
+        "ExtractAccountId": 308,
+        "MU-End": 1731,
+        "MURecordSelection": 53135,
+        "MUSetFields": 47573,
+        "OmniScriptSessionToken": "7a37f7c7-ab28-4362-b028-5b0c450648b8",
+        "SelectServiceProvider": 3064,
+        "Set Values 2": 1,
+        "SetAccountId": 3,
+        "SetConstants": 7,
+        "SetConsts": 3
+    }
+}

@@ -1,0 +1,38 @@
+{
+    "%vlocity_namespace%__Active__c": true,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "AccountPlanning",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/CSP/AccountPlan/English",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__ParentElementId__c": {
+        "%vlocity_namespace%__OmniScriptId__c": {
+            "Name": "AccountPlanning",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/CSP/AccountPlan/English",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+        },
+        "Name": "ClientObjectMsgDtlBlock",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/CSP/AccountPlan/English/ClientObjectMsgDtlBlock",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c"
+    },
+    "%vlocity_namespace%__ParentElementName__c": "ClientObjectMsgDtlBlock",
+    "%vlocity_namespace%__ParentElementType__c": "Block",
+    "%vlocity_namespace%__PropertySet__c": {
+        "HTMLTemplateId": "",
+        "controlWidth": 12,
+        "dataJSON": false,
+        "disOnTplt": false,
+        "label": null,
+        "show": null,
+        "text": "<h3>The client&rsquo;s&nbsp;objectives can be summarized in the following categories:&nbsp; business, human resources and benefits objectives.&nbsp; The collection of this data can be captured through multiple channels such as the review of the client&rsquo;s annual report, listening to the earnings calls with investors or keeping up with articles on their business.&nbsp; Armed with this information, key client contacts can articulate how the client&rsquo;s business objectives impact the way they manage, grow/shrink, modify and/or support their workforce and what role the benefits program plays.</h3>\n<h5>&nbsp;</h5>\n<h3>As the conversation takes place with the key client contact, try to focus on understanding completely the client&rsquo;s objectives without introducing solutions into the discussion.&nbsp; Strategic Opportunities (Solutions) can be introduced at the point that there is full understanding of what the client is trying to achieve and how Anthem can meet their needs.&nbsp; Also, if the client has a consultant advisor, be sure to include the consultant&rsquo;s perspective and priorities with regard to this client. Identify any gaps in the client team&rsquo;s understanding of these objectives, also how the client will measure success in achieving the objectives and set action steps to address these gaps.&nbsp; It is important that we understand what our clients are trying to achieve, in their own words, and that the focus of any solutions are on helping the client achieve those objectives.&nbsp; This is the hardest part of the process, but when done right will be critical to the success of our partnership with the client.</h3>\n<h5>&nbsp;</h5>\n<h3>Identifying the objectives is the first step to your Account Plan journey.Please begin with indicating below the top 5 client objectives based on your knowledge of the client and/or the client&rsquo;s website.</h3>"
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": false,
+    "%vlocity_namespace%__Type__c": "Text Block",
+    "Name": "TextBlock9",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/CSP/AccountPlan/English/TextBlock9"
+}

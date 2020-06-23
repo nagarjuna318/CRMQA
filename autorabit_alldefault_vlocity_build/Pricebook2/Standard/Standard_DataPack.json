@@ -1,0 +1,12 @@
+{
+    "%vlocity_namespace%__IsDefault__c": false,
+    "AutorabitExtId__c": "",
+    "Description": "",
+    "IsActive": false,
+    "IsArchived": false,
+    "IsStandard": false,
+    "Name": "Standard",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "Pricebook2",
+    "VlocityRecordSourceKey": "Pricebook2/Standard"
+}

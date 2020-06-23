@@ -1,0 +1,114 @@
+{
+    "ContextId": "67E543F",
+    "ExemptStep": {
+        "ExemptBlock": {
+            "Exempt": "Yes"
+        }
+    },
+    "GZE": {
+        "GZE0Block": {
+            "GZE0": "Yes"
+        }
+    },
+    "GeneralHCRQuestion": {
+        "EffectiveDate": null,
+        "GQ2Block": {
+            "GQ2": "Yes"
+        },
+        "GQ3Block": {
+            "GQ3": "Yes"
+        },
+        "GQ4Block": {
+            "GQ4": "No"
+        },
+        "GQ5Block": {
+            "GQ5": "Yes"
+        }
+    },
+    "Grandfathered": {
+        "G0Block": {
+            "G0": "Yes"
+        },
+        "G1Block": {
+            "G1": "No"
+        },
+        "G2Block": {
+            "G2": "Yes"
+        },
+        "G3Block": {
+            "G3": "Yes"
+        },
+        "G4Block": {
+            "G4": "Yes"
+        },
+        "G5Block": {
+            "G5": "Yes"
+        },
+        "G6Block": {
+            "G6": "Yes"
+        },
+        "G7Block": {
+            "G7": "Yes"
+        },
+        "G8Block": {
+            "G8": "No"
+        }
+    },
+    "HCRExempt": "Yes",
+    "HCRG0": "Yes",
+    "HCRG1": "No",
+    "HCRG2": "Yes",
+    "HCRG3": "Yes",
+    "HCRG4": "Yes",
+    "HCRG5": "Yes",
+    "HCRG6": "Yes",
+    "HCRG7": "Yes",
+    "HCRG8": "No",
+    "HCRGQ0new": "Yes",
+    "HCRGQ2": "Yes",
+    "HCRGQ3": "Yes",
+    "HCRGQ4": "No",
+    "HCRGQ5": "Yes",
+    "HCRGZE0": "Yes",
+    "HCRId": "a6sW00000007NCvIAM",
+    "HCRNG0": "Yes",
+    "HCRNG1": "Yes",
+    "HCRNG2": "No",
+    "NonGrandfathered": {
+        "NG0Block": {
+            "NG0": "Yes"
+        },
+        "NG1Block": {
+            "NG1": "Yes"
+        },
+        "NG2Block": {
+            "NG2": "No"
+        }
+    },
+    "id": "a3CW00000013NN4MAM",
+    "layout": "lightning",
+    "timeStamp": "2018-03-12T19:22:09.394Z",
+    "userCurrencyCode": "USD",
+    "userId": "005W0000002ndMIIAY",
+    "userName": "tlu@vlocity.com.prod.nal1b.dev",
+    "userProfile": "System Administrator",
+    "userTimeZone": -240,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "DREGroupHCR": 2278,
+        "ExemptStep": 1677,
+        "GZE": 3041,
+        "GeneralHCRQuestion": 16971,
+        "Grandfathered": 8277,
+        "NonGrandfathered": 6879,
+        "OmniScriptSessionToken": "15d2f237-fec7-4905-9c3b-7ad8fb57020c",
+        "SetValues1": 1685,
+        "SetValuesExempt": 141,
+        "SetValuesG": 367,
+        "SetValuesGQ": 406,
+        "SetValuesGReset": 271,
+        "SetValuesNG": 253,
+        "SetValuesrNGReset": 166
+    }
+}

@@ -1,0 +1,37 @@
+{
+    "BPD": {
+        "BPDStatus": null,
+        "BenefitPlanDesignName": null,
+        "Formula1": null,
+        "ImplementationTrackingID": null,
+        "PleaseUploadYourBenefitPlanDesign": [
+            {
+                "data": null,
+                "filename": null,
+                "size": null
+            }
+        ]
+    },
+    "ContextId": null,
+    "Step2": {
+    },
+    "timeStamp": null,
+    "userId": null,
+    "userName": null,
+    "userProfile": null,
+    "userTimeZone": null,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "BPD": null,
+        "DR-IMPCaseExtract": null,
+        "DR-IMPTrackingExtract": null,
+        "DR_AMAssignment": null,
+        "DataRaptorPostAction2": null,
+        "DoneAction1": null,
+        "IMP_GenerateBPD": null,
+        "SV-Context": null,
+        "SV-Default": null,
+        "Step2": null
+    }
+}

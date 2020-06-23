@@ -1,0 +1,79 @@
+{
+    "AnthemEntity": "Labor and Trust",
+    "ContextId": "801S0000000Ut1eIAC",
+    "ContextIdShravani": "801W0000000lqobIAA",
+    "Id": "a7aS0000000DmZoIAK",
+    "IntakeReason": {
+        "Block1": [
+            {
+                "Reason": "Need finalized benefits",
+                "Reason_ImpComments": "Need finalized benefitstest1",
+                "Reason_Local": "Need finalized benefits",
+                "Reason_Nat": null,
+                "Tx1": "test1"
+            },
+            {
+                "Reason": "Need finalized benefits",
+                "Reason_ImpComments": "Need finalized benefitstest2",
+                "Reason_Local": "Need finalized benefits",
+                "Reason_Nat": null,
+                "Tx1": "test2"
+            }
+        ]
+    },
+    "IntakeReasonStage": "Pending AM Action",
+    "IntakeReturn": {
+        "Stage": "Accepted"
+    },
+    "IntakeReturnStage": "Pending Response from Sales/ Account Management",
+    "InvalidReason": "Y",
+    "Submission_Date": "2020-01-29",
+    "Submit": {
+        "SubmitDate": "2020-01-29T23:34:15.000Z",
+        "SubmitIntReturn": "Yes"
+    },
+    "SubmitDate": "",
+    "UserName": "Manasa Shankar",
+    "XYZ": [
+        {
+            "Reason": "Need finalized benefits",
+            "Reason_ImpComments": "Need finalized benefitstest1",
+            "Reason_Local": "Need finalized benefits",
+            "Reason_Nat": null,
+            "Tx1": "test1"
+        },
+        {
+            "Reason": "Need finalized benefits",
+            "Reason_ImpComments": "Need finalized benefitstest2",
+            "Reason_Local": "Need finalized benefits",
+            "Reason_Nat": null,
+            "Tx1": "test2"
+        }
+    ],
+    "error": "OK",
+    "id": "a3CS0000000I81HMAS",
+    "isdtp": "p1",
+    "layout": "lightning",
+    "sfdcIFrameHost": "web",
+    "sfdcIFrameOrigin": "https://commercial--iceqa--vlocity-ins.cs1.visual.force.com",
+    "timeStamp": "2020-01-29T23:34:00.435Z",
+    "userCurrencyCode": "USD",
+    "userId": "00541000006Y54PAAS",
+    "userName": "mshankarbangalore@deloitte.com2.iceqa",
+    "userProfile": "System Administrator",
+    "userTimeZone": -480,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "DRE-IntakereturnStage": 1016,
+        "IntakeReason": 8832,
+        "LoggedInUserName": 1179,
+        "OmniScriptSessionToken": "82ba8291-6846-41bc-b212-3a62c5a4b552",
+        "RA_ValidateIntakeReason": 263,
+        "SV-ContextId": 21,
+        "SetValues2": 11,
+        "SetValues6": 13,
+        "Submit": 2659,
+        "UserName-SV": 13
+    }
+}

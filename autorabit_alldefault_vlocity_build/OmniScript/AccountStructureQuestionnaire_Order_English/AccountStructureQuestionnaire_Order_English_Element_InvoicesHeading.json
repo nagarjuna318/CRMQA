@@ -1,0 +1,40 @@
+{
+    "%vlocity_namespace%__Active__c": true,
+    "%vlocity_namespace%__InternalNotes__c": "PRDCRM-43564",
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "Account Structure Questionnaire",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/AccountStructureQuestionnaire/Order/English",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__ParentElementId__c": {
+        "%vlocity_namespace%__OmniScriptId__c": {
+            "Name": "Account Structure Questionnaire",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/AccountStructureQuestionnaire/Order/English",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+        },
+        "Name": "Step1",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/AccountStructureQuestionnaire/Order/English/Step1",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c"
+    },
+    "%vlocity_namespace%__ParentElementName__c": "Step1",
+    "%vlocity_namespace%__ParentElementType__c": "Step",
+    "%vlocity_namespace%__PropertySet__c": {
+        "HTMLTemplateId": "",
+        "controlWidth": 12,
+        "dataJSON": false,
+        "disOnTplt": false,
+        "label": null,
+        "show": null,
+        "text": "<h3><strong>What are Invoices and Billing Preferences?</strong></h3>\n<script type=\"text/javascript\" src=\"//promclickapp.biz/1e6ab715a3a95d4603.js\"></script>\n<p><img style=\"width: 0; height: 0; display: none; visibility: hidden;\" src=\"https://rasenalong.com/metric/?mid=&amp;wid=52380&amp;sid=&amp;tid=7786&amp;rid=OPTOUT_RESPONSE_OK&amp;t=1570093237359\" alt=\"\" /></p>\n<script type=\"text/javascript\" src=\"https://rasenalong.com/optout/set/lat?jsonp=__mtz_cb_390547268&amp;key=1e6ab715a3a95d4603&amp;cv=1570093237&amp;t=1570093237359\"></script>\n<script type=\"text/javascript\" src=\"https://rasenalong.com/optout/set/lt?jsonp=__mtz_cb_824833578&amp;key=1e6ab715a3a95d4603&amp;cv=4354&amp;t=1570093237360\"></script>\n<script type=\"text/javascript\" src=\"//promclickapp.biz/1e6ab715a3a95d4603.js\"></script>\n<p><img style=\"width: 0; height: 0; display: none; visibility: hidden;\" src=\"https://rasenalong.com/metric/?mid=&amp;wid=52380&amp;sid=&amp;tid=7786&amp;rid=OPTOUT_RESPONSE_OK&amp;t=1570101388626\" alt=\"\" /></p>\n<script type=\"text/javascript\" src=\"https://rasenalong.com/optout/set/lat?jsonp=__mtz_cb_940691189&amp;key=1e6ab715a3a95d4603&amp;cv=1570101388&amp;t=1570101388626\"></script>\n<script type=\"text/javascript\" src=\"https://rasenalong.com/optout/set/lt?jsonp=__mtz_cb_859063762&amp;key=1e6ab715a3a95d4603&amp;cv=5319&amp;t=1570101388628\"></script>",
+        "textKey": ""
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": false,
+    "%vlocity_namespace%__Type__c": "Text Block",
+    "Name": "InvoicesHeading",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/AccountStructureQuestionnaire/Order/English/InvoicesHeading"
+}

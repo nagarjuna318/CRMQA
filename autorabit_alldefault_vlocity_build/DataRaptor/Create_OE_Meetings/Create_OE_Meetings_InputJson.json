@@ -1,0 +1,107 @@
+{
+    "AccountId": "001S000000yLihZIAS",
+    "AccountName": "test national prospect1234567890-1234567890-1234567890",
+    "ContextId": "a9IS00000000BJv",
+    "DRId_SFDC_Volunteer_Event__c": "a9JS0000000059oMAA",
+    "MeetingGroupName": "test national prospect-2019",
+    "OE": {
+        "LocalUser": "National",
+        "MeetingEntry": {
+            "Address": {
+                "MeetingCity": "NEEDHAM HEIGHTS",
+                "MeetingContact": "ted contact",
+                "MeetingContactEmail": "ted_lu_1999@yahoo.com",
+                "MeetingContactPhone": "7819855566",
+                "MeetingState": "MA",
+                "MeetingStreet": "20 Wayne Road",
+                "MeetingZip": "02494",
+                "SameAddress": true,
+                "ShippingCity": "Needham",
+                "ShippingCityF": "NEEDHAM HEIGHTS",
+                "ShippingCitySame": "NEEDHAM HEIGHTS",
+                "ShippingContact": null,
+                "ShippingContactF": "ted contact",
+                "ShippingContactPhone": null,
+                "ShippingContactPhoneF": "7819855566",
+                "ShippingContactPhoneSame": "02494",
+                "ShippingContactSame": "ted contact",
+                "ShippingState": "MA",
+                "ShippingStateF": "MA",
+                "ShippingStateSame": "MA",
+                "ShippingStreet": "20 Wayne Road",
+                "ShippingStreetF": "20 Wayne Road",
+                "ShippingStreetSame": "20 Wayne Road",
+                "ShippingZip": "02494",
+                "ShippingZipF": "02494",
+                "ShippingZipSame": "02494"
+            },
+            "MeetingAddressMessaging": null,
+            "MeetingAddressValidation": false,
+            "MeetingFaciliBlock": {
+                "AEAttending": "Yes",
+                "AMAttending": "Yes",
+                "AmTravel": "Hotel/Car Rental/Mileage",
+                "Bilingual": "Spanish",
+                "CESARAttending": null,
+                "FacilitatorNeeds": "Yes",
+                "OAAttending": "Yes",
+                "SARAttending": null
+            },
+            "MeetingFaciliValidation": true,
+            "MeetingInfoBlock": {
+                "DatesFlexible": false,
+                "MeetingDate": "2019-05-29",
+                "MeetingDateFormula": false,
+                "MeetingDateMessaging": null,
+                "MeetingGroup": "test national prospect-2019",
+                "MeetingNameLoad": "test national prospect1234567890-1234567_Health Fair_2019-05-29_NEEDHAM HE_MA",
+                "MeetingStage": "DRAFT",
+                "MeetingStatus": "NEW REQUEST",
+                "MeetingType": "Health Fair"
+            },
+            "MeetingInfoValidation": false,
+            "MeetingMaterialsBlock": {
+                "ExpectedAttendees": "678",
+                "MaterialsNeeded": "Promo only needed",
+                "MaterialsNeededMessaging": null,
+                "MaterialsNeededRequired": false,
+                "MeetingComments": "gfhgfhfghgfhfh",
+                "Submit": true,
+                "SubmitValidaton": true,
+                "SubmitValidaton2": true
+            },
+            "MeetingMaterialsMessaging": null,
+            "MeetingMaterialsValidation": false,
+            "MeetingSessions": {
+                "TimeBlock": {
+                    "SessionStart": null,
+                    "SessionStop": null
+                }
+            },
+            "MeetingSessionsMessaging": false,
+            "MeetingSessionsValidation": true,
+            "TimeBlockLoad": null
+        },
+        "Messaging11": null,
+        "StepValidation": null
+    },
+    "UserProfile": "System Administrator",
+    "id": "a3CS0000000FUsNMAW",
+    "testContextId": "a9IS00000000BJv",
+    "timeStamp": "2019-05-23T20:25:12.227Z",
+    "userCurrencyCode": "USD",
+    "userId": "005S000000Ga8RBIAZ",
+    "userName": "ted.lu@anthem.com.icexmen",
+    "userProfile": "System Administrator",
+    "userTimeZone": -240,
+    "verticalmode": true,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "DRE_ExtractMeetingGroups": 5671,
+        "DR_LoadOE": 1722,
+        "End": 1454,
+        "OE": 174785,
+        "OmniScriptSessionToken": "c88d2c53-9ef6-495c-9c35-9bbdc8e3ae80"
+    }
+}

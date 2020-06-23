@@ -1,0 +1,458 @@
+{
+    "bundleName": "IMP_QLIStageUpdates",
+    "filesMap": {
+    },
+    "objectList": {
+        "Account": {
+            "Anthem_Entity": "Local/Large Group",
+            "Id": "0014C00000JgA19QAF",
+            "Name": "Test Prav",
+            "RecordType": "LG Customer",
+            "RecordTypeId": "01241000001EdicAAC"
+        },
+        "AccountGroupSizeFormula": "",
+        "AccountManagerId": "00541000004RYC8AAO",
+        "AccountManagerUserName": "Manasa Shankar Shankar Bangalore",
+        "AccountRecordType": "LG Customer",
+        "ArethereChangestoBehavioralHealth": "No",
+        "AttachSBCRequest": {
+            "ContractCodesPackagesCustomizationBlock": null,
+            "DoesthischangereqimpactSBCs": null,
+            "SBCAttachments": null,
+            "SBCVisibilityBlock": {
+                "DoesAnthemproduceSBCs": null,
+                "SBCcreatedbytheSBCteam": null
+            }
+        },
+        "BundleCount": true,
+        "BundleCount1": false,
+        "BundleDetails": {
+            "DisplayOrder": "A",
+            "Probability": "10%",
+            "ProgramName": "Anthem Balanced Funding",
+            "ProgramStatus": "IGAP In Progress",
+            "QLId": "0QL4C000000LW29WAG"
+        },
+        "CastlightProductCheck": false,
+        "Comments": {
+            "AdditionalCommentsBlock": {
+                "AdditionalComments": null
+            },
+            "ImpactedPackagesSuffixesSectionsBlock": null
+        },
+        "ContextId": "0Q04C000000LX2RSAW",
+        "EffectiveDate": "True",
+        "EngageAloneProductCheck": false,
+        "EngageProductCheck": false,
+        "ExisitingOrder": "Allow",
+        "GroupInformation": {
+            "AccumulatorHistoryLoadBlock": {
+                "AccumulatorHistoryLoadNB": null
+            },
+            "AreBrokerCommissionsImpactedBlock": null,
+            "AreBrokerCommissionstobepaidBlock": null,
+            "AreCustomIDCardsRequestedBlock": {
+                "AreCustomIDCardsRequested": null
+            },
+            "AreThereChangesToRatesBlock": {
+                "AreThereChangesToRates": null
+            },
+            "ArethereCustomIVRTelephonychangesCROCBlock": {
+                "ArethereCustomIVRTelephonychangesCROC": null
+            },
+            "ArethereCustomIVRTelephonychangesNewBlock": {
+                "ArethereCustomIVRTelephonychangesNew": null
+            },
+            "ArethereCustomIVRTelephonychangesRenewalBlock": {
+                "ArethereCustomIVRTelephonychangesRenewal": null
+            },
+            "AretherechangestoBrokerCommissionsBlock": {
+                "AretherechangestoBrokerCommissions": null
+            },
+            "AretherechangestoGroupStructureBlock": {
+                "AretherechangestoGroupStructure": null
+            },
+            "CPDVisibilityBlock": null,
+            "CarrierDedCreditAccumulation": {
+                "CreditAccumulation": null
+            },
+            "DiscoveryCallDesiredBlock": {
+                "DiscoveryCallDesired": null
+            },
+            "DoesapartialtermapplyBlock": {
+                "Doesapartialtermapply": null
+            },
+            "DoeschangereqimpactPreCertDetailsBlock": {
+                "DoeschangereqimpactPreCertDetails": null
+            },
+            "FPCRVisibilityBlock": {
+                "FinalPreCertificationRules": null
+            },
+            "FirstImpressionsNeeded": null,
+            "Formula23": null,
+            "IDCardChangesBlock": {
+                "IDCardChanges": null
+            },
+            "IDCardsLocalBlock": null,
+            "IfyespleaseexplainthechangesmadeBlock": null,
+            "IfyespleaseexplainupdatesmadeBlock": null,
+            "LocalLargeGroup": null,
+            "MandatorylegislativeupdatesforGroupBlock": {
+                "MandatorylegislativeupdatesforGroup": null
+            },
+            "OpenEnrollmentDateBlock": null,
+            "PreImplementation": {
+                "PreImplementationAudit": null
+            },
+            "ProvidePartialTermReasonBlock": null
+        },
+        "GroupSetupInformation": {
+            "MainGroupSetup": {
+                "ArethereChangestoBehavioralHealth": null,
+                "AretherechangestoCOB": null,
+                "AretherechangestoEligibility": null,
+                "AretherechangestoEnrollmentBilling": null,
+                "Formula21": null
+            },
+            "RequestincludebenefitchangesBlock": {
+                "AccumulatorHistoryLoad": null,
+                "Arehereanythirdpartyvendorrequir": null,
+                "ChangestoEligVendororFileFeed": null,
+                "Requestincludebenefitchanges": null
+            }
+        },
+        "HCR": {
+            "AddedplansorplanschangedHCRStatusBlock": null,
+            "HCRDetailsEffectiveDateBlock": {
+                "HCRDetailsEffectiveDate": null
+            },
+            "HCRMessageNB": null,
+            "HCRMessagingCROCYes": null,
+            "HCRMessagingRenewalNo": null,
+            "HCRMessagingRenewalYes": null,
+            "IndicateHCRDetails": null,
+            "IndicateHCRDetailsEffective": null,
+            "IndicateHCRDetailsNoEffective": null
+        },
+        "HTMLTemplateId": "",
+        "IC-OpptyRecordType": [
+            "In Progress",
+            "IGAP Dead",
+            "IGAP In Progress",
+            "IGAP Lost",
+            "IGAP Sold",
+            "Jeopardy",
+            "Not renewing in Current Period",
+            "Renewed",
+            "Termed"
+        ],
+        "IGAP": "0Q05B000000ElsySAC",
+        "IGC": "0Q05B000000ElsySAC",
+        "IMP-ProgramStages": [
+            "In Progress",
+            "IGAP Dead",
+            "IGAP In Progress",
+            "IGAP Lost",
+            "IGAP Sold",
+            "Jeopardy",
+            "Not renewing in Current Period",
+            "Renewed",
+            "Termed"
+        ],
+        "InProgressCount": false,
+        "InProgressCount1": true,
+        "NewBusiness": "0Q05B000000ElsySAC",
+        "OppDetails": {
+            "Frm-ImpType": "Change Request Off Cycle",
+            "Frm-OpportunityName": "2020 Renewal Local-Test Prav",
+            "Frm-OpportunityType": "Renewal Local",
+            "OpptyRecordType": false
+        },
+        "OpportunityDetails": {
+            "OpportunityName": "2020 Renewal Local-Test Prav",
+            "OpportunityType": "Renewal Local"
+        },
+        "OpptyRType": "Renewal",
+        "OtherCount": false,
+        "OtherCount1": false,
+        "PreWork": [
+            "Engage Product",
+            "New Eligibility Vendor Setup",
+            "Data Interface New Vendor Build",
+            "SSCR Build for Client Customization",
+            "SBC"
+        ],
+        "ProductsInprogress": {
+            "QuoteDetailsQLI": null
+        },
+        "ProductsSold": {
+            "QuoteDetailsSold": null
+        },
+        "QuoteData": {
+            "Area": true,
+            "Id": "0QL4C000000LW29WAG",
+            "ProductName": "Anthem Balanced Funding",
+            "ProductStage": "IGAP In Progress"
+        },
+        "QuoteDetails": {
+            "AccountId": "0014C00000JgA19QAF",
+            "Account_Name": "Test Prav",
+            "CastlightProductChk": false,
+            "EffectiveDate": "2020-01-02",
+            "EngageAloneProductChk": false,
+            "EngageProductChk": false,
+            "GNReqStatus": "Not Requested",
+            "Id": "0Q04C000000LX2RSAW",
+            "OpptyId": "0064C000005bWf9QAE",
+            "OpptyRecordType": "Renewal Local",
+            "OpptyStage": "Initiated",
+            "PriceBookId": "01s41000007wBCZAA2"
+        },
+        "QuoteSold": {
+            "Area": true,
+            "Id": "0QL4C000000LUo6WAG",
+            "ProductName": "Lumenos Deductible First PPO HRA",
+            "ProductStage": "Sold"
+        },
+        "RENEWAL": "0Q05B000000ElsySAC",
+        "RateChanges": "No",
+        "RenewedCount": false,
+        "RenewedCount1": false,
+        "RenewedCount2": false,
+        "Select-IMPType": {
+            "AccountManager": "Manasa Shankar Shankar Bangalore",
+            "Formula22": false,
+            "Formula24": true,
+            "IC-EffectiveDateBlock": {
+                "IC-EffectiveDate": "2020-01-01T18:30:00.000Z",
+                "IC-EffectiveDateCalc": "2020-01-02"
+            },
+            "IMPTypeBlock": {
+                "IMPType": "Change Request Off Cycle",
+                "Messaging14": true
+            },
+            "IMPTypeMsg": null,
+            "ImplementationCaseTopic": null,
+            "Messaging16": null,
+            "Pre-WorkIMPType": {
+                "CastlightProducts": {
+                    "CompleteTheClientInformationFormElite": "",
+                    "CompleteTheClientScopingDocument": "",
+                    "IsTheProductSaleFinal": "",
+                    "UploadCasClientAttachment1": "",
+                    "UploadClientScopeAttachment": ""
+                },
+                "CastlightProductsMsg": null,
+                "DataInterfaceBlock": null,
+                "Formula11": null,
+                "Formula9": null,
+                "NewEligibility": {
+                    "FileLayout": "",
+                    "IfCombinationorOtherPleaseExplain": "",
+                    "IfOtherExplainFileLayout": "",
+                    "IfOtherListVendorName": "",
+                    "IfOtherSpecifyProducts": "",
+                    "Other": null,
+                    "SpecifyApplicablePopulationForSetup": "",
+                    "VendorContactEmail": "",
+                    "VendorContactName": "",
+                    "VendorName": "",
+                    "VendorPhoneNumber": "",
+                    "VendorTechnicalContactEmail": "",
+                    "VendorTechnicalContactName": "",
+                    "VendorTechnicalContactPhoneNumber": "",
+                    "WhatProductsDoesThisImplApplyTo": ""
+                },
+                "PreWorkIMPSelect": null,
+                "RFP": {
+                    "IsAProjectPlanNeeded": "",
+                    "IsaDecisionsDeliverablesListNeeded": "",
+                    "ProposalContact": "",
+                    "SendDocumentsTo": ""
+                },
+                "SBC": {
+                    "ContractCodePackagesCustomization": "",
+                    "DoesAnthemProduceSBCs": "",
+                    "WantTheSBCCreatedByTheSBCTeam": ""
+                },
+                "SSCRBuild": {
+                    "HaveYouBeenInformedASSCRIsRequired": "",
+                    "NotateWhyYouFeelASSCRIsNeeded": "",
+                    "WhatAreaDeptProvidedThatDirection": "",
+                    "WhatIsYourCustomizationDescription": ""
+                }
+            },
+            "RenewalStatus": null,
+            "RenewalStatusFormula": "",
+            "SelectIMP": {
+                "AcquisitionBlock": {
+                    "CarryOverAccumulatorsDataFiles": "",
+                    "GroupStructureImpacts": "",
+                    "IsTheAcquisitionConfidential": "",
+                    "IsTheSaleDateFinal": "",
+                    "WhoIsPriorVendor": ""
+                },
+                "GroupTermBlock": {
+                    "ClaimsHistoryTimeframeRequired": "",
+                    "ClaimsRunOutApplied": "",
+                    "ClaimsRunOutAppliedBlock": null,
+                    "ComminglingRunOutDateF": null,
+                    "ComminglingRunOutNumF": null,
+                    "De-ImplementationType": "",
+                    "EstimatedCountOfContractsLost": "",
+                    "FSARunOutDateF": null,
+                    "FSARunOutNumF": null,
+                    "HSAHRARunOutDateF": null,
+                    "HSAHRARunOutNumF": null,
+                    "IVRImpact": "",
+                    "IfClaimsRunOutWhichClaimsPlatform": "",
+                    "IfClientMigratingListNewPlatform": "",
+                    "IfRecordTransfersRequiredExplain": "",
+                    "IndicateAnySpecialDe-ImpAgreements": "",
+                    "IndicateSpecialProcessingReq": "",
+                    "IsAnAnthemClientAcquiringThisGroup": "",
+                    "IsClientMigratingToAnotherPlatform": "",
+                    "ListAllAccumulatorsToBeTransmitted": "",
+                    "ListHistoryConversionRequirements": "",
+                    "MedicalClaimsRunOutDateF": null,
+                    "MedicalClaimsRunOutNumF": null,
+                    "NewCarrierName": "",
+                    "OtherDITRunOutDateF": null,
+                    "OtherDITRunOutNumF": null,
+                    "PrefixesToBeCancelled": "",
+                    "ReasonforCancellation": "",
+                    "RecordTransfersRequired": "",
+                    "WhatIsGroupNumberOfAcquiringGroup": ""
+                },
+                "IT-Acquisition": false,
+                "IT-ExistingShifttoJAA": null,
+                "IT-GroupTerm": false,
+                "IT-Migration": null,
+                "IT-Retro": false,
+                "IT-SpinOff": false,
+                "IT-TransferMarketSegment": false,
+                "MigrationBlock": {
+                    "IndicateSystemHere": "",
+                    "ProvideSystemBeingMigratedFrom": "",
+                    "RenewBasedOnCustomerIntent": "",
+                    "RenewFinalPaperworkAttached": "",
+                    "RenewWithChangesPost-MBCLockdown": "",
+                    "RenewedAsMapped": ""
+                },
+                "Pre-WorkIMPType": {
+                    "RFP": {
+                        "IsAProjectPlanNeeded": "",
+                        "IsaDecisionsDeliverablesListNeeded": ""
+                    },
+                    "SBC": {
+                        "ContractCodePackagesCustomization": "",
+                        "DoesAnthemProduceSBCs": "",
+                        "WantTheSBCCreatedByTheSBCTeam": ""
+                    },
+                    "SSCRBuild": {
+                        "HaveYouBeenInformedASSCRIsRequired": "",
+                        "NotateWhyYouFeelASSCRIsNeeded": "",
+                        "WhatAreaDeptProvidedThatDirection": "",
+                        "WhatIsYourCustomizationDescription": ""
+                    }
+                },
+                "RetroBlock": {
+                    "AdditionalReasonDetails": "",
+                    "ApplyClaimsStop": "",
+                    "IfEffectiveDateIsRetro": "",
+                    "ReasonForRetro": ""
+                },
+                "SpinOffBlock": {
+                    "CarryOverAccumulatorsOrDataFiles": "",
+                    "IsTheSpinOffConfidential": "",
+                    "IsTheSpinoffSaleDateFinal": "",
+                    "WillTherebePortability": ""
+                },
+                "TransferMarketBlock": {
+                    "IfOtherIndicateComingFromSystem": "",
+                    "MovingFrom": "",
+                    "OTHER": null,
+                    "ProvideSystemComingFrom": ""
+                }
+            },
+            "ShortPlanYearNewBiz": "No",
+            "ShortPlanYearRenewal": "No",
+            "UserGroup": "Local Renewal Local"
+        },
+        "SoldCount": false,
+        "SoldCount1": true,
+        "Stage": "",
+        "Test1": "0Q0W0000000HJ5l",
+        "UserArea": "Local",
+        "UserProfileId": "00e41000001fYPTAA2",
+        "UserProfileName": "PT1",
+        "UserRole": "System Administrator",
+        "UserRoleId": "00E41000000mZUZEA2",
+        "UsrName": "Praveen Singh",
+        "contextId": "0Q04C000000LX2RSAW",
+        "id": "a3C4C000000LSuQUAW",
+        "layout": "lightning",
+        "message": {
+        },
+        "showPersistentComponent": {
+            "vlcCart": false,
+            "vlcKnowledge": false
+        },
+        "ssm": false,
+        "testContextId": "0Q04C000000LSHSSA4",
+        "timeStamp": "2018-10-08T09:26:36.582Z",
+        "userCurrencyCode": "USD",
+        "userId": "00541000006Y55AAAS",
+        "userName": "praveen.singh@anthem.com2.icepraveen",
+        "userProfile": "System Administrator",
+        "userTimeZone": -420,
+        "verticalmode": true,
+        "vlcPersistentComponent": {
+        },
+        "vlcTimeTracking": {
+            "DRE-AccountDetails": 15164,
+            "DRE-Bundles": 7550,
+            "DRE-ExistingOrder": 5330,
+            "DRE-InProgress": 9909,
+            "DRE-OpportunityDetails": 4794,
+            "DRE-Others": 6523,
+            "DRE-ProdcutsSold": 6356,
+            "DRE-ProductExtract": 7706,
+            "DRE-ProductsOthers": 5592,
+            "DRE-ProductsRenewed": 5442,
+            "DRE-Renewal": 6408,
+            "DRE-Sold": 5950,
+            "DRE-VariableBundles": 6274,
+            "DREQuoteDetails": 10185,
+            "DREUserGroup": 4989,
+            "DataRaptorExtractAction8": 2200,
+            "HCR": 2388,
+            "OmniScriptSessionToken": "5d9f109d-17f5-487b-b607-650de64e406c",
+            "OppDetails": 6977,
+            "ProductsInprogress": 14134,
+            "ProductsSold": 28892,
+            "QLIUpdates": 11148,
+            "ST-RecordType": 98,
+            "ST-ValValues": 147,
+            "SV-Bundle": 33,
+            "SV-BundleCount1": 33,
+            "SV-ContextId": 28,
+            "SV-InProgressCount": 43,
+            "SV-InProgressCount1": 161,
+            "SV-Other": 30,
+            "SV-OtherCount1": 25,
+            "SV-ProgramStagesLocal": 67,
+            "SV-RenewedCount": 31,
+            "SV-RenewedCount1": 42,
+            "SV-RenewedCount2": 16,
+            "SV-SoldCount": 63,
+            "SV-SoldCount1": 40,
+            "SVContextId": 1535,
+            "Select-IMPType": 18023,
+            "SetValuesIMPreset": 193,
+            "SetValuesIMPreset1": 108,
+            "UserGroupValidation": 157
+        },
+        "wpm": false
+    }
+}

@@ -1,0 +1,23 @@
+$light-gray: #dddbda;
+
+.select-border{
+    border-radius: 4px !important;
+    border: 1px solid $light-gray !important;
+    padding-left: 0.5rem !important;
+}
+
+.margin-top-5px{
+    margin-top: 5px !important;
+}
+
+svg{
+    margin-top: 0 !important;
+}
+
+.input-error{
+    border: 5px solid red;
+}
+
+.top-upsell-fix{
+    top: -9rem;
+}

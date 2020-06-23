@@ -1,0 +1,157 @@
+{
+    "BillArrList": [
+        {
+            "$$hashKey": "object:281",
+            "BAId": "aANS00000008bf2OAA",
+            "BARecordId": "BARR-000010",
+            "InvDescription": "Test inv 2",
+            "InvOtherSortingOption1": null,
+            "InvSortingOption1": "Geographic Location",
+            "InvSortingOption2": "Other",
+            "InvoiceRecordId": "INV-000577"
+        },
+        {
+            "$$hashKey": "object:282",
+            "BAId": "aANS00000008c3EOAQ",
+            "BARecordId": "BARR-000013",
+            "InvDescription": "Test inv 2",
+            "InvOtherSortingOption1": null,
+            "InvSortingOption1": "Geographic Location",
+            "InvSortingOption2": "Other",
+            "InvoiceRecordId": "INV-000577"
+        }
+    ],
+    "ContextId": "801S0000000O1bxIAC",
+    "InvoiceGPDMappingStep": {
+        "BillingArrangements": [
+            {
+                "BAId": "aANS00000008bf2OAA",
+                "BARecordId": "BARR-000010",
+                "InvDescription": "Test inv 2",
+                "InvOtherSortingOption1": null,
+                "InvSortingOption1": "Geographic Location",
+                "InvSortingOption2": "Other",
+                "InvoiceRecordId": "INV-000577"
+            },
+            {
+                "BAId": "aANS00000008c3EOAQ",
+                "BARecordId": "BARR-000013",
+                "InvDescription": "Test inv 2",
+                "InvOtherSortingOption1": null,
+                "InvSortingOption1": "Geographic Location",
+                "InvSortingOption2": "Other",
+                "InvoiceRecordId": "INV-000577"
+            }
+        ],
+        "GPD": [
+            {
+                "BillingId": "aANS00000008c3EOAQ",
+                "BlankInvoice": null,
+                "CancelDate": "",
+                "ContractCode": "UDVT771",
+                "EffectiveDate": "12/30/2022",
+                "EmpCategory": "COBRA",
+                "EmpClassName": "test",
+                "GPDId": "a9FS0000000GrJwMAK",
+                "GPDInvId": "",
+                "GPDRecordId": "GPD-030892",
+                "GroupPlanDescription": "",
+                "LineOfBusiness": "FSA",
+                "Members": 85,
+                "PlanName": "Flexible Spending Account",
+                "QLIId": "0QLS0000000W2DiOAK"
+            },
+            {
+                "BillingId": "aANS00000008c3EOAQ",
+                "BlankInvoice": null,
+                "CancelDate": "",
+                "ContractCode": "46521X",
+                "EffectiveDate": "12/30/2022",
+                "EmpCategory": "COBRA",
+                "EmpClassName": "test",
+                "GPDId": "a9FS0000000GrJvMAK",
+                "GPDInvId": "",
+                "GPDRecordId": "GPD-030891",
+                "GroupPlanDescription": "",
+                "LineOfBusiness": "Vision",
+                "Members": 82,
+                "PlanName": "Blue View Vision",
+                "QLIId": "0QLS0000000W2DTOA0"
+            },
+            {
+                "BillingId": "aANS00000008c3EOAQ",
+                "BlankInvoice": null,
+                "CancelDate": "",
+                "ContractCode": "2EDD2R4",
+                "EffectiveDate": "12/30/2022",
+                "EmpCategory": "COBRA",
+                "EmpClassName": "test",
+                "GPDId": "a9FS0000000GrJxMAK",
+                "GPDInvId": "",
+                "GPDRecordId": "GPD-030893",
+                "GroupPlanDescription": "",
+                "LineOfBusiness": "Disability",
+                "Members": 94,
+                "PlanName": "Short Term Disability",
+                "QLIId": "0QLS0000000W2DxOAK"
+            }
+        ]
+    },
+    "ListInvoice": [
+        {
+            "InvId": "aA7S00000009eBdKAI",
+            "InvoiceBilingFrequency": "",
+            "InvoiceOtherSortingOption1": "",
+            "InvoiceOtherSortingOption2": "test other sorting option 2",
+            "InvoiceRecordId": "INV-000577",
+            "InvoiceSortingOption_1": "Geographic Location",
+            "InvoiceSortingOption_2": "Other",
+            "Invoice_Description": "Test inv 2"
+        },
+        {
+            "InvId": "aA7S00000009eBmKAI",
+            "InvoiceBilingFrequency": "Monthly",
+            "InvoiceOtherSortingOption1": "",
+            "InvoiceOtherSortingOption2": "",
+            "InvoiceRecordId": "INV-000578",
+            "InvoiceSortingOption_1": "Salary Class",
+            "InvoiceSortingOption_2": "",
+            "Invoice_Description": ""
+        },
+        {
+            "InvId": "aA7S00000009eC1KAI",
+            "InvoiceBilingFrequency": "Monthly",
+            "InvoiceOtherSortingOption1": "",
+            "InvoiceOtherSortingOption2": "",
+            "InvoiceRecordId": "INV-000581",
+            "InvoiceSortingOption_1": "Payroll Location",
+            "InvoiceSortingOption_2": "",
+            "Invoice_Description": ""
+        }
+    ],
+    "Submit": {
+        "ASQS": null,
+        "CustomerRequestedGroupNumber": null,
+        "SubmitThisAccountStructure": null,
+        "TrackAccountStructure": null
+    },
+    "id": "a3CS0000000HuuOMAS",
+    "isdtp": "p1",
+    "sfdcIFrameHost": "web",
+    "sfdcIFrameOrigin": "https://commercial--icerapt--vlocity-ins.cs1.visual.force.com",
+    "testContextId": "801S0000000O1bxIAC",
+    "timeStamp": "2019-12-23T11:10:38.881Z",
+    "userCurrencyCode": "USD",
+    "userId": "005S000000FtbtJIAR",
+    "userName": "paramita.roy.halder@accenture.com.icerapt",
+    "userProfile": "System Administrator",
+    "userTimeZone": -300,
+    "verticalmode": true,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "ExtractBillingArrangementsAndGPDs": 2722,
+        "OmniScriptSessionToken": "cb57fc58-1104-40dd-8d37-8e136c2cb0f3",
+        "SetBillingArrangementsValues": 54
+    }
+}

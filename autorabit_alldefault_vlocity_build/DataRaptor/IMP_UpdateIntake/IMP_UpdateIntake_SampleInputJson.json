@@ -1,0 +1,49 @@
+{
+    "ContextId": "a6YW00000000eTaMAI",
+    "IntakeReturn": {
+        "Id": "a6YW00000000eTaMAI"
+    },
+    "IntakeReturnStage": "Pending Response from Sales/ Account Management",
+    "IntakereasonId": [
+        "a6ZW00000000ZFlMAM",
+        "a6ZW00000000ZH3MAM"
+    ],
+    "SalesReturnDetails": {
+        "IntakeReasons": [
+            {
+                "Id": "a6ZW00000000ZFlMAM",
+                "ImpComments": null,
+                "IntakeReasonStage": null,
+                "Reason": "Need finalized benefits",
+                "SalesComments": "test"
+            },
+            {
+                "Id": "a6ZW00000000ZH3MAM",
+                "ImpComments": null,
+                "IntakeReasonStage": null,
+                "Reason": "Benefit discrepancies",
+                "SalesComments": "Test add button"
+            }
+        ]
+    },
+    "Test1": "a6YW00000000eHnMAI",
+    "Test2": "a6YW00000000eICMAY",
+    "id": "a3CW0000000AmLjMAK",
+    "layout": "lightning",
+    "timeStamp": "2018-01-11T21:08:13.377Z",
+    "userCurrencyCode": "USD",
+    "userId": "005W0000002XquzIAC",
+    "userName": "shravani@chadda@eaglecrk.com.prod.nal1b.dev",
+    "userProfile": "System Administrator",
+    "userTimeZone": -300,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "DRE-ExistingIntakeReturn": 1626,
+        "DRE-IntakeReason": 1832,
+        "OmniScriptSessionToken": "7bfb84f9-7180-4e79-ab04-aad3d2e5ced4",
+        "SV-ContextId": 287,
+        "SV-UserGroup": 36,
+        "SetValues2": 74
+    }
+}

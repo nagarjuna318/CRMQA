@@ -1,0 +1,26 @@
+{
+    "%vlocity_namespace%__ElementTypeToHTMLTemplateList__c": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "%vlocity_namespace%__Element__c": [
+        "QuoteLineItem_QuoteLineItemApproval_English_Element_DataRaptor-Extract-Action-1.json",
+        "QuoteLineItem_QuoteLineItemApproval_English_Element_SetValues.json",
+        "QuoteLineItem_QuoteLineItemApproval_English_Element_Confirmation.json",
+        "QuoteLineItem_QuoteLineItemApproval_English_Element_ConfirmMsg.json",
+        "QuoteLineItem_QuoteLineItemApproval_English_Element_CheckEntryCriteria.json",
+        "QuoteLineItem_QuoteLineItemApproval_English_Element_NotMeetingCriteria.json",
+        "QuoteLineItem_QuoteLineItemApproval_English_Element_CreateQuoteLineItemApproval.json",
+        "QuoteLineItem_QuoteLineItemApproval_English_Element_ApprovalRemoteAction.json",
+        "QuoteLineItem_QuoteLineItemApproval_English_Element_SubmitApproval.json",
+        "QuoteLineItem_QuoteLineItemApproval_English_Element_SuccessMsg.json",
+        "QuoteLineItem_QuoteLineItemApproval_English_Element_DoneAction.json"
+    ],
+    "%vlocity_namespace%__IsProcedure__c": false,
+    "%vlocity_namespace%__IsReusable__c": true,
+    "%vlocity_namespace%__Language__c": "English",
+    "%vlocity_namespace%__PropertySet__c": "QuoteLineItem_QuoteLineItemApproval_English_PropertySet.json",
+    "%vlocity_namespace%__SubType__c": "QuoteLineItemApproval",
+    "%vlocity_namespace%__Type__c": "QuoteLineItem",
+    "Name": "QuoteLineItemApproval",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__OmniScript__c/QuoteLineItem/QuoteLineItemApproval/English"
+}

@@ -1,0 +1,58 @@
+{
+    "%vlocity_namespace%__Active__c": true,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "ImplementationCase_LG",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/IMPCase Library/IC-ImplementationCase_LG/English",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__PropertySet__c": {
+        "HTMLTemplateId": "",
+        "controlWidth": 12,
+        "elementValueMap": {
+            "AccountGroupSizeFormula": "=%QuoteDetails:AccountGroupSize%",
+            "AccountManager": "=IF(COUNT(%AccountManagerId%) = 1, %AccountManagerUserName%,'')",
+            "AnthemEntity": "=%QuoteDetails:AnthemEntityTransform%",
+            "ArethereChangestoBehavioralHealth": "='No'",
+            "CastlightProductCheck": "=%QuoteDetails:CastlightProductChk%",
+            "CheckOSName": "=IF(%OpptyRType%= 'Renewal','GenerateICR','GroupNumberRequest')",
+            "EffectiveDate": "=IF(DATE(%QuoteDetails:EffectiveDate%)>TODAY(),'True','False')",
+            "EngageAloneProductCheck": "=%QuoteDetails:EngageAloneProductChk%",
+            "EngageProductCheck": "=%QuoteDetails:EngageProductChk%",
+            "ExisitingOrder": "=IF(AND(NUMBER(COUNT(%ExistingOrder%))>0,%ExistingOrder|1:Implementation_Status%!='Withdrawn'), 'NotAllow', 'Allow')",
+            "GroupIdPresent": "=IF(%GroupId%,'Yes','No')",
+            "IC-EffectiveDate": "=%QuoteDetails:EffectiveDate%",
+            "IC-OpptyRecordType": "=IF(EQUALS(%QuoteDetails:OpptyRecordType%,'In Group Change'),ARRAY(['Dead', 'In Progress', 'Lost', 'Sold']),IF(EQUALS(%QuoteDetails:OpptyRecordType%,'New Business'),ARRAY(['Dead', 'In Progress', 'Lost', 'Sold']),IF(EQUALS(%QuoteDetails:OpptyRecordType%,'In Group Add Product'),ARRAY(['IGAP Dead', 'IGAP In Progress', 'IGAP Lost', 'IGAP Sold']),IF(EQUALS(%QuoteDetails:OpptyRecordType%,'Renewal'),ARRAY(['In Progress', 'IGAP Dead', 'IGAP In Progress', 'IGAP Lost', 'IGAP Sold', 'Jeopardy', 'Renewed', 'Termed']),IF(EQUALS(%QuoteDetails:OpptyRecordType%,'In Group Change Local'),ARRAY(['Dead', 'In Progress', 'Lost', 'Sold']),IF(EQUALS(%QuoteDetails:OpptyRecordType%,'New Business Local'),ARRAY(['Dead', 'Declined to Quote', 'In Progress', 'Lost', 'Sold']),IF(EQUALS(%QuoteDetails:OpptyRecordType%,'In Group Add Product Local'),ARRAY(['Declined to Quote','IGAP Dead', 'IGAP In Progress', 'IGAP Lost', 'IGAP Sold']),IF(EQUALS(%QuoteDetails:OpptyRecordType%,'Renewal Local'),ARRAY(['In Progress', 'IGAP Dead', 'IGAP In Progress', 'IGAP Lost', 'IGAP Sold', 'Jeopardy', 'Not renewing in Current Period', 'Renewed', 'Termed']),''))))))))",
+            "IT-Admin Change": "=IF(EQUALS(%AnthemEntity%,'National'),false,false)",
+            "IT-RenewalAsIs": "=IF(EQUALS(%AnthemEntity%,'National'),false,false)",
+            "JAAMCSFlag": "=IF(COUNT(%JAAMCSQLI:DentalId%) =1,'Y','N')",
+            "LnDProducts": "=IF(OR(EQUALS(%ProductLOB%,'Life'),EQUALS(%ProductLOB%,'LIFE'),EQUALS(%ProductLOB%,'LTD'),EQUALS(%ProductLOB%,'STD')),true,false)",
+            "LnT_Identifier": "=IF(AND(EQUALS(%Account:Anthem_Entity%,'Labor and Trust'),OR(EQUALS(%userProfile%,'Local Sales'),EQUALS(%userProfile%,'Local Sales Dual'))),'Yes','No')",
+            "OpportunityTeamMemberUserId": "=IF(COUNT(%JAAMCSQLI:DentalId%) =1 &&  COUNT(%OpportunityTeamMember%)>0 , %OpportunityTeamMember:UserID%, null)",
+            "PreWork": "=IF(EQUALS(%UserArea%,'National'),ARRAY(['Engage Product', 'New Eligibility Vendor Setup', 'Data Interface New Vendor Build',  'SSCR Build for Client Customization', 'SBC','RFP']),ARRAY(['Engage Product', 'New Eligibility Vendor Setup', 'Data Interface New Vendor Build', 'SSCR Build for Client Customization', 'SBC']))",
+            "QLIGroupId": "=IF(%QLI%,'Yes','No')",
+            "RateChanges": "='No'",
+            "ShortPlanYearNewBiz": "='No'",
+            "ShortPlanYearRenewal": "='No'",
+            "userProfilelocal": "=IF(OR(EQUALS(%userProfile%,'Local Sales'),EQUALS(%userProfile%,'Local Sales Dual'),EQUALS(%userProfile%,'Specialty'),EQUALS(%userProfile%,'Specialty Dual'),EQUALS(%userProfile%,'Specialty Post Sales'),EQUALS(%userProfile%,'Specialty Post Sales Dual')),'Y','N')"
+        },
+        "label": null,
+        "message": {
+        },
+        "pubsub": false,
+        "show": null,
+        "showPersistentComponent": [
+            false,
+            false
+        ],
+        "ssm": false,
+        "validationRequired": "None",
+        "wpm": false
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": false,
+    "%vlocity_namespace%__Type__c": "Set Values",
+    "Name": "ST-ValValues",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/IMPCase Library/IC-ImplementationCase_LG/English/ST-ValValues"
+}

@@ -1,0 +1,20 @@
+{
+    "ContextId": "0062f000001vYfjAAE",
+    "StageInformation": {
+        "AccountName": null
+    },
+    "id": "a3C2f0000008tjEEAQ",
+    "isdtp": "p1",
+    "layout": "lightning",
+    "sfdcIFrameHost": "web",
+    "sfdcIFrameOrigin": "https://commercial--icelo--vlocity-ins.cs34.visual.force.com",
+    "testContextId": "0062f000001vYfjAAE",
+    "timeStamp": "2019-08-15T21:10:04.608Z",
+    "userCurrencyCode": "USD",
+    "userId": "00541000002s17RAAQ",
+    "userName": "ad70229@anthem.com2.icelo",
+    "userProfile": "System Administrator",
+    "userTimeZone": -300,
+    "vlcPersistentComponent": {
+    }
+}

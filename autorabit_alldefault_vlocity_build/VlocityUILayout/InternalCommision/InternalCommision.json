@@ -1,0 +1,19 @@
+{
+    "Cards": [
+        "Internal Commission Card"
+    ],
+    "dataSource": {
+        "type": "Query",
+        "value": {
+            "query": "Select Id,Commissions_Approval_Status__c,\tLoggedinProfile__c from Internal_Commission__c WHERE Id = '{{params.id || params.Id}}'"
+        }
+    },
+    "templates": {
+        "0": {
+            "templateUrl": "card-canvas-1x-slds-nosearch"
+        }
+    },
+    "workspace": [
+        "Internal Commission Card/Anthem Commercial 2.0/1/1547570476248"
+    ]
+}

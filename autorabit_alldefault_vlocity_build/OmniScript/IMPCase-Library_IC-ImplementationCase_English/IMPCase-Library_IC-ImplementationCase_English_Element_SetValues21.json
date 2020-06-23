@@ -1,0 +1,59 @@
+{
+    "%vlocity_namespace%__Active__c": true,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "ImplementationCase",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/IMPCase Library/IC-ImplementationCase/English",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__PropertySet__c": {
+        "cancelLabel": "Cancel",
+        "cancelMessage": "Are you sure?",
+        "completeLabel": "Complete",
+        "completeMessage": "Are you sure you want to complete the script?",
+        "conditionType": "Hide if False",
+        "controlWidth": 12,
+        "disOnTplt": false,
+        "elementValueMap": {
+            "AreCustomIDCardsRequested_Val": "=IF(EQUALS(%AnthemEntity%,'Local') && %IT-RenewalAsIs%,'No',%AreCustomIDCardsRequested%)",
+            "AretherechangestoGroupStructure_Val": "=IF(EQUALS(%AnthemEntity%,'Local') && (%IT-RenewalAsIs% || %IT-Admin Change%),'No',%AretherechangestoGroupStructure%)",
+            "DiscoveryCallDesired_Val": "=IF(EQUALS(%AnthemEntity%,'Local') && (%IT-RenewalAsIs% || %IT-Admin Change%),'No',%DiscoveryCallDesired%)",
+            "Doesapartialtermapply_Val": "=IF(EQUALS(%AnthemEntity%,'Local') && (%IT-RenewalAsIs% || %IT-Admin Change%),'No',%Doesapartialtermapply%)",
+            "DoeschangereqimpactPreCertDetails_Val": "=IF(EQUALS(%AnthemEntity%,'Local') && (%IT-RenewalAsIs% || %IT-Admin Change%),'No',%DoeschangereqimpactPreCertDetails%)",
+            "FinalPreCertificationRules_Val": "=IF(EQUALS(%AnthemEntity%,'Local') && %IT-RenewalAsIs%,'Not Applicable',IF(EQUALS(%IMPType%,'Pre Work'),'Not Applicable',%FinalPreCertificationRules%))"
+        },
+        "knowledgeOptions": {
+            "dataCategoryCriteria": "",
+            "keyword": "",
+            "language": "English",
+            "publishStatus": "Online",
+            "remoteTimeout": 30000
+        },
+        "label": "SetValues21",
+        "message": {
+        },
+        "nextLabel": "Next",
+        "nextWidth": 3,
+        "previousLabel": "Previous",
+        "previousWidth": 3,
+        "remoteOptions": {
+        },
+        "remoteTimeout": 30000,
+        "saveLabel": "Save for later",
+        "saveMessage": "Are you sure you want to save it for later?",
+        "show": null,
+        "showPersistentComponent": [
+            false,
+            false
+        ],
+        "ssm": false,
+        "validationRequired": "<p>None</p>",
+        "wpm": false
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": false,
+    "%vlocity_namespace%__Type__c": "Set Values",
+    "Name": "SetValues21",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/IMPCase Library/IC-ImplementationCase/English/SetValues21"
+}

@@ -1,0 +1,38 @@
+{
+    "%vlocity_namespace%__Active__c": true,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "GL-CaptureHCRDetails",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/GroupLibrary/CaptureHCRDetails/English",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__ParentElementId__c": {
+        "%vlocity_namespace%__OmniScriptId__c": {
+            "Name": "GL-CaptureHCRDetails",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/GroupLibrary/CaptureHCRDetails/English",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+        },
+        "Name": "GeneralHCRQuestion",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/GroupLibrary/CaptureHCRDetails/English/GeneralHCRQuestion",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c"
+    },
+    "%vlocity_namespace%__ParentElementName__c": "GeneralHCRQuestion",
+    "%vlocity_namespace%__ParentElementType__c": "Step",
+    "%vlocity_namespace%__PropertySet__c": {
+        "HTMLTemplateId": "",
+        "controlWidth": 12,
+        "dataJSON": false,
+        "disOnTplt": false,
+        "label": null,
+        "show": null,
+        "text": "<p style=\"text-align: center;\"><strong>Reference Note A: Essential Health Benefit Grid</strong></p>\n<p>Note: LARGE GROUPS DO NOT HAVE TO COVER ESSENTIAL HEALTH BENEFITS (EHB). If a Large Group provides coverage for an EHB, it cannot have any annual or lifetime dollar maximums. If a group wants to include a benefit limit, they should be encouraged to consider a limit other than an annual or lifetime dollar limit (for example, occurrence limits or dollar limits that are not annual or lifetime). If they insist on an annual or lifetime dollar limit, then they must determine that the benefit they are limiting is not an EHB, using any of the EHB definitions authorized by HHS. They may use any authorized EHB definition for any state, DC, PR or US Territory; they are not limited to the state where they are headquartered or where the contract is signed. They will have to consider the full EHB definition to determine which benefits are or are not EHBs, and will be able to apply annual or lifetime dollar limits only to those benefits that are not EHBs within the selected definition.<br /><br /><strong>For EHBS, the Annual/Lifetime Limits applies to IN-NETWORK and OUT-OF-NETWORK services for NGF and GF plans.&nbsp;</strong><br /><br style=\"line-height: 15px;\" />NOTE: LARGE GROUPS ARE RESPONSIBLE FOR CHOOSING A STATES EHB LIST AND CONFIRMING THEY ARE IN COMPLIANCE. We should not ask the group for any documentation or proof that they can do so. We need to let the group know that if they want to include an annual or lifetime dollar limit on any services, that they need to ensure they can point to an approved definition of EHB that shows those services to be non-EHBs. For ASO groups that notify us of the state they have chosen, we should notify them we accept their determination at face value and will not validate the groups determination for accuracy.<br /><br /><strong>EHB doc with state list for FI reference</strong>&nbsp; and&nbsp;<strong>CMS EHB by State website&nbsp;</strong></p>"
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": false,
+    "%vlocity_namespace%__Type__c": "Text Block",
+    "Name": "GQReferenceA",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/GroupLibrary/CaptureHCRDetails/English/GQReferenceA"
+}

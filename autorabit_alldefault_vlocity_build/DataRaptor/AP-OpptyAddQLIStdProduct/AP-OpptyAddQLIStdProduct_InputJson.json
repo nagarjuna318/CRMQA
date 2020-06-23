@@ -1,0 +1,152 @@
+{
+    "AP-Family": "Behavioral Health Solution",
+    "AP-FamilySelection": {
+        "AP-CatSelection": "Clinical",
+        "AP-OpptyType": "In Group Add Product",
+        "AP-SubType": null
+    },
+    "AP-FixDeselection": {
+        "AP-FixSelected": null,
+        "FixList": null
+    },
+    "AP-HasSPP": "No",
+    "AP-ParentId": "01t4B000001XE0FQAW",
+    "AP-ProductName": "MultiSelection",
+    "AP-ProductSelection": {
+        "AP-ProdSelected": true,
+        "AP-Selected": true,
+        "ProdList": [
+            {
+                "Bundle": "Fixed",
+                "Family": "Behavioral Health Solution",
+                "HasSPP": false,
+                "Id": "01t4B000001XE0FQAW",
+                "Name": "Behavioral Health Solution",
+                "ProductType": "Clinical",
+                "QLIRecordType__c": "Behavioral Health Solution",
+                "RecordTypeId": "0124B0000008rwzQAA",
+                "vlcSelected": true
+            },
+            {
+                "Bundle": "Fixed",
+                "Family": "BOLD",
+                "HasSPP": false,
+                "Id": "01t4B000001XE0MQAW",
+                "Name": "BOLD",
+                "ProductType": "Clinical",
+                "QLIRecordType__c": "Bold",
+                "RecordTypeId": "0124B0000008rwzQAA",
+                "vlcSelected": true
+            },
+            {
+                "Family": "Health and Wellness",
+                "HasSPP": false,
+                "Id": "01t4B000001XE1KQAW",
+                "Name": "Health and Wellness - MyIncentives Account",
+                "ProductType": "Clinical",
+                "QLIRecordType__c": "Default",
+                "RecordTypeId": "0124B0000008rwzQAA",
+                "vlcSelected": true
+            },
+            {
+                "Bundle": "Fixed",
+                "Family": "Health and Wellness",
+                "HasSPP": false,
+                "Id": "01t4B000001XE1fQAG",
+                "Name": "Health and Wellness: Custom Care Management Unit (CCMU)",
+                "ProductType": "Clinical",
+                "QLIRecordType__c": "CCMU/Maternity Solution",
+                "RecordTypeId": "0124B0000008rwzQAA",
+                "vlcSelected": true
+            }
+        ]
+    },
+    "AP-Stages": [
+        "IGAP Dead",
+        "IGAP In Progress",
+        "IGAP Lost",
+        "IGAP Sold"
+    ],
+    "AccountId": "0014B00000KMhYhQAL",
+    "ContextId": "0064B000009scXt",
+    "IGAP": "0064B000007p3pJ",
+    "NewBusiness": "0064B000007oLSJ",
+    "QLD": {
+        "AP-BundleType": "Fixed,Fixed,Fixed",
+        "QLD-AccountId": [
+            "0014B00000KMhYhQAL",
+            "0014B00000KMhYhQAL"
+        ],
+        "QLD-Block": {
+            "QLD-Financing": "Administrative Services Only",
+            "QLD-Funding": "ASO",
+            "QLD-Probability": "0%",
+            "QLD-ProbabilityEdit": null,
+            "QLD-ProbabilityFormula": "0%",
+            "QLD-ProdStage": "IGAP Dead",
+            "QLD-Reason": "Dead",
+            "QLD-ReasonCalc": "Stage Reason: Dead",
+            "QLD-ReasonPck": null,
+            "QLD-TermDate": null,
+            "QLD-TermDateIn": null,
+            "QLD-TermSelection": "Ok"
+        },
+        "QLD-DayMsg": true,
+        "QLD-ReqCompetitor": "No",
+        "QLD-TermReqFlds": "No",
+        "QLD-TermReqMsg": null,
+        "QLD-Vendor": null
+    },
+    "QuoteDetails": [
+        {
+            "AccountId": "0014B00000KMhYhQAL",
+            "EffectiveDate": "2019-01-01",
+            "GNReqStatus": "Not Requested",
+            "GroupId": "a5P4B0000002JhPUAU",
+            "GroupName": "000CBF834",
+            "GroupNumber": "a5P4B0000002JhPUAU",
+            "Id": "0Q04B0000006V2jSAE",
+            "Members": 100,
+            "OpptyId": "0064B000009scXtQAI",
+            "OpptyRecType": "In Group Add Product",
+            "OpptyStage": "Initiated",
+            "PriceBookId": "01s41000007wBCZAA2",
+            "Subscribers": 85
+        },
+        {
+            "AccountId": "0014B00000KMhYhQAL",
+            "EffectiveDate": "2019-01-01",
+            "GNReqStatus": "Not Requested",
+            "GroupId": "a5P4B0000002JkYUAU",
+            "GroupName": "003320023",
+            "GroupNumber": "a5P4B0000002JkYUAU",
+            "Id": "0Q04B0000006V2kSAE",
+            "Members": 120,
+            "OpptyId": "0064B000009scXtQAI",
+            "OpptyRecType": "In Group Add Product",
+            "OpptyStage": "Initiated",
+            "PriceBookId": "01s41000007wBCZAA2",
+            "Subscribers": 90
+        }
+    ],
+    "Renewals": "0064B000009scXt",
+    "id": "a3B4B0000004oYvUAI",
+    "layout": "lightning",
+    "timeStamp": "2017-09-22T19:59:02.101Z",
+    "userId": "0054B000000op45QAA",
+    "userName": "jcarrero@anthem.com2.config",
+    "userProfile": "System Administrator",
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "AP-FamilySelection": 2775,
+        "AP-ProductSelection": 7510,
+        "AP-SetValues": 5,
+        "DR-ProductRetrieval": 588,
+        "DR-QuoteDetails": 736,
+        "OmniScriptSessionToken": "62df8db4-82c3-4617-94df-1fc64a0ce05d",
+        "QLD": 8713,
+        "Set AccountId": 1,
+        "Set Constants": 9
+    }
+}

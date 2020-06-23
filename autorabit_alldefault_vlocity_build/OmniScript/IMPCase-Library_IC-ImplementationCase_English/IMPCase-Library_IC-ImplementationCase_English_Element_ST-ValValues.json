@@ -1,0 +1,50 @@
+{
+    "%vlocity_namespace%__Active__c": true,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "ImplementationCase",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/IMPCase Library/IC-ImplementationCase/English",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__PropertySet__c": {
+        "HTMLTemplateId": "",
+        "controlWidth": 12,
+        "elementValueMap": {
+            "AccountGroupSizeFormula": "=%QuoteDetails:AccountGroupSize%",
+            "AccountManager": "=IF(COUNT(%AccountManagerId%) = 1, %AccountManagerUserName%,'')",
+            "AnthemEntity": "=%OpptyDetails:AnthemEntityTransform%",
+            "ArethereChangestoBehavioralHealth": "='No'",
+            "CastlightProductCheck": "=%QuoteDetails:CastlightProductChk%",
+            "EffectiveDate": "=IF(DATE(%QuoteDetails:EffectiveDate%)>TODAY(),'True','False')",
+            "EngageAloneProductCheck": "=%QuoteDetails:EngageAloneProductChk%",
+            "EngageProductCheck": "=%QuoteDetails:EngageProductChk%",
+            "ExisitingOrder": "=IF(AND(NUMBER(COUNT(%ExistingOrder%))>0,   !( OR( (%ExistingOrder|1:Implementation_Status%=='Withdrawn'), (%ExistingOrder|1:Implementation_Status%=='Canceled') ))    ), 'NotAllow', 'Allow')",
+            "GroupIdPresent": "=IF(%GroupId%,'Yes','No')",
+            "IC-EffectiveDate": "=%QuoteDetails:EffectiveDate%",
+            "IC-OpptyRecordType": "=IF(EQUALS(%QuoteDetails:OpptyRecordType%,'In Group Change'),ARRAY(['Dead', 'In Progress', 'Lost', 'Sold']),IF(EQUALS(%QuoteDetails:OpptyRecordType%,'New Business'),ARRAY(['Dead', 'In Progress', 'Lost', 'Sold']),IF(EQUALS(%QuoteDetails:OpptyRecordType%,'In Group Add Product'),ARRAY(['IGAP Dead', 'IGAP In Progress', 'IGAP Lost', 'IGAP Sold']),IF(EQUALS(%QuoteDetails:OpptyRecordType%,'Renewal'),ARRAY(['In Progress', 'IGAP Dead', 'IGAP In Progress', 'IGAP Lost', 'IGAP Sold', 'Jeopardy', 'Renewed', 'Termed']),IF(EQUALS(%QuoteDetails:OpptyRecordType%,'In Group Change Local'),ARRAY(['Dead', 'In Progress', 'Lost', 'Sold']),IF(EQUALS(%QuoteDetails:OpptyRecordType%,'New Business Local'),ARRAY(['Dead', 'Declined to Quote', 'In Progress', 'Lost', 'Sold']),IF(EQUALS(%QuoteDetails:OpptyRecordType%,'In Group Add Product Local'),ARRAY(['Declined to Quote','IGAP Dead', 'IGAP In Progress', 'IGAP Lost', 'IGAP Sold']),IF(EQUALS(%QuoteDetails:OpptyRecordType%,'Renewal Local'),ARRAY(['In Progress', 'IGAP Dead', 'IGAP In Progress', 'IGAP Lost', 'IGAP Sold', 'Jeopardy', 'Not renewing in Current Period', 'Renewed', 'Termed']),''))))))))",
+            "IT-Admin Change": "=IF(EQUALS(%AnthemEntity%,'National'),false,false)",
+            "IT-RenewalAsIs": "=IF(EQUALS(%AnthemEntity%,'National'),false,false)",
+            "PreWork": "=IF(EQUALS(%UserArea%,'National'),ARRAY(['Engage Product', 'New Eligibility Vendor Setup', 'Data Interface New Vendor Build',  'SSCR Build for Client Customization', 'SBC','RFP']),ARRAY(['Engage Product', 'New Eligibility Vendor Setup', 'Data Interface New Vendor Build', 'SSCR Build for Client Customization', 'SBC']))",
+            "RateChanges": "='No'",
+            "ShortPlanYearNewBiz": "='No'",
+            "ShortPlanYearRenewal": "='No'"
+        },
+        "label": null,
+        "message": {
+        },
+        "show": null,
+        "showPersistentComponent": [
+            false,
+            false
+        ],
+        "ssm": false,
+        "validationRequired": "None",
+        "wpm": false
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": false,
+    "%vlocity_namespace%__Type__c": "Set Values",
+    "Name": "ST-ValValues",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/IMPCase Library/IC-ImplementationCase/English/ST-ValValues"
+}

@@ -1,0 +1,15 @@
+[
+    {
+        "%vlocity_namespace%__DomainObjectAPIName__c": "json",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 1,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "QLIs",
+        "%vlocity_namespace%__InterfaceFieldAPIName__c": "ExtractQLIsByProductStageImplCaseDR:QLIs",
+        "%vlocity_namespace%__IsDisabled__c": false,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__MapId__c": "TransformBuildingQLIListCustom1595",
+        "%vlocity_namespace%__UpsertKey__c": false,
+        "Name": "TransformBuildingQLIList",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    }
+]

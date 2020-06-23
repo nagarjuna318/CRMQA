@@ -1,0 +1,56 @@
+{
+    "AccountRecordType": "LG Customer",
+    "ContextId": "0Q05400000011Kt",
+    "IC-OpptyRecordType": [
+        "Declined to Quote",
+        "IGAP Dead",
+        "IGAP In Progress",
+        "IGAP Lost",
+        "IGAP Sold"
+    ],
+    "IMP-ProgramStages": [
+        "Declined to Quote",
+        "IGAP Dead",
+        "IGAP In Progress",
+        "IGAP Lost",
+        "IGAP Sold"
+    ],
+    "OpportunityDetails": {
+        "OpportunityName": "2019 In Group Add Product Local-Test-Eligibility",
+        "OpportunityType": "In Group Add Product Local"
+    },
+    "ProductsInprogress": {
+        "QuoteDetailsQLI": [
+            {
+                "$$hashKey": "object:91",
+                "Area": false,
+                "Id": "0QL540000001bHcGAI",
+                "ImpactedProducts": true,
+                "Probability": "100%",
+                "ProductName": "GOLDEN WEST",
+                "ProductStage": "IGAP Sold",
+                "ProductType": "Dental",
+                "vlcBundleStage": "IGAP Sold",
+                "vlcSelected": true
+            }
+        ]
+    },
+    "Stage": "",
+    "id": "a3C54000000OUmoEAG",
+    "timeStamp": "2019-06-19T10:24:47.180Z",
+    "userCurrencyCode": "USD",
+    "userId": "00541000006Y54QAAS",
+    "userName": "veramesh@deloitte.com.icegld",
+    "userProfile": "System Administrator",
+    "userTimeZone": -420,
+    "verticalmode": true,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "DRE-OpportunityDetails": 3135,
+        "DRE-ProductExtract": 3369,
+        "OmniScriptSessionToken": "f4b4cd4a-6922-4a16-bd65-041f98dc8611",
+        "SV-ContextId": 43,
+        "SV-ProgramStagesLocal": 32
+    }
+}

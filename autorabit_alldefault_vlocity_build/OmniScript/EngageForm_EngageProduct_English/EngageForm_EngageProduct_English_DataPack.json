@@ -1,0 +1,23 @@
+{
+    "%vlocity_namespace%__AdditionalInformation__c": "US-11489 Engage Scoping: Capture Detail in Guided Flow (Page 1/4)",
+    "%vlocity_namespace%__Element__c": [
+        "EngageForm_EngageProduct_English_Element_PreSetValues.json",
+        "EngageForm_EngageProduct_English_Element_ExtractEngageScopingStandard.json",
+        "EngageForm_EngageProduct_English_Element_PostSetValues.json",
+        "EngageForm_EngageProduct_English_Element_SelectEngageForm.json",
+        "EngageForm_EngageProduct_English_Element_SelectEngageFormRadio.json",
+        "EngageForm_EngageProduct_English_Element_SelectEngageFormTextBlock.json",
+        "EngageForm_EngageProduct_English_Element_DoneStandard.json",
+        "EngageForm_EngageProduct_English_Element_DoneScoping.json"
+    ],
+    "%vlocity_namespace%__IsProcedure__c": false,
+    "%vlocity_namespace%__IsReusable__c": false,
+    "%vlocity_namespace%__Language__c": "English",
+    "%vlocity_namespace%__PropertySet__c": "EngageForm_EngageProduct_English_PropertySet.json",
+    "%vlocity_namespace%__SubType__c": "EngageProduct",
+    "%vlocity_namespace%__Type__c": "EngageForm",
+    "Name": "Engage Product Detail",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__OmniScript__c/EngageForm/EngageProduct/English"
+}

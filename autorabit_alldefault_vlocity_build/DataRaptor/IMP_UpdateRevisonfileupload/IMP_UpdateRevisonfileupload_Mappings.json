@@ -1,0 +1,82 @@
+[
+    {
+        "%vlocity_namespace%__DomainObjectAPIName__c": "Impl_Revision__c",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 1,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "Id",
+        "%vlocity_namespace%__InterfaceFieldAPIName__c": "ContextId",
+        "%vlocity_namespace%__IsDisabled__c": false,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__MapId__c": "IMP_UpdateRevisonfileuploadCustom9889",
+        "%vlocity_namespace%__UpsertKey__c": false,
+        "Name": "IMP_UpdateRevisonfileupload",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    },
+    {
+        "%vlocity_namespace%__ConfigurationValue__c": "FAKEMAPPING",
+        "%vlocity_namespace%__DomainObjectAPIName__c": "Impl_Revision__c",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 1,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "Id",
+        "%vlocity_namespace%__FilterOperator__c": "=",
+        "%vlocity_namespace%__IsDisabled__c": true,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__MapId__c": "IMP_UpdateRevisonfileuploadCustom2644",
+        "%vlocity_namespace%__UpsertKey__c": false,
+        "Name": "IMP_UpdateRevisonfileupload",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    },
+    {
+        "%vlocity_namespace%__DomainObjectAPIName__c": "Attachment",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 2,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "Body",
+        "%vlocity_namespace%__InterfaceFieldAPIName__c": "FileAttachment:UploadAttachment:data",
+        "%vlocity_namespace%__IsDisabled__c": false,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__MapId__c": "IMP_UpdateRevisonfileuploadCustom8245",
+        "%vlocity_namespace%__UpsertKey__c": false,
+        "Name": "IMP_UpdateRevisonfileupload",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    },
+    {
+        "%vlocity_namespace%__ConfigurationValue__c": "FAKEMAPPING",
+        "%vlocity_namespace%__DomainObjectAPIName__c": "Attachment",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 2,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "Id",
+        "%vlocity_namespace%__FilterOperator__c": "=",
+        "%vlocity_namespace%__IsDisabled__c": true,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__MapId__c": "IMP_UpdateRevisonfileuploadCustom4751",
+        "%vlocity_namespace%__UpsertKey__c": false,
+        "Name": "IMP_UpdateRevisonfileupload",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    },
+    {
+        "%vlocity_namespace%__DomainObjectAPIName__c": "Attachment",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 2,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "Name",
+        "%vlocity_namespace%__InterfaceFieldAPIName__c": "FileAttachment:UploadAttachment:filename",
+        "%vlocity_namespace%__IsDisabled__c": false,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__MapId__c": "IMP_UpdateRevisonfileuploadCustom958",
+        "%vlocity_namespace%__UpsertKey__c": false,
+        "Name": "IMP_UpdateRevisonfileupload",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    },
+    {
+        "%vlocity_namespace%__DomainObjectAPIName__c": "Attachment",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 2,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "ParentId",
+        "%vlocity_namespace%__InterfaceFieldAPIName__c": "ContextId",
+        "%vlocity_namespace%__IsDisabled__c": false,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__MapId__c": "IMP_UpdateRevisonfileuploadCustom4597",
+        "%vlocity_namespace%__UpsertKey__c": false,
+        "Name": "IMP_UpdateRevisonfileupload",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    }
+]

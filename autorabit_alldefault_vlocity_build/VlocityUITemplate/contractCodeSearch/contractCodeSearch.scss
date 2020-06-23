@@ -1,0 +1,54 @@
+#contractSearch {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+#contractSearch:focus {
+  outline: #9e9a9a auto 1px;
+}
+
+#contractSearch:disabled {
+  background-color: #e2e2e2;
+  cursor: not-allowed;
+}
+
+.search-container {
+  margin-top: 2.5%;
+  color: #706E6B;
+}
+
+#new_account {
+  background-color: #7F8DE1;
+  padding: 2px;
+  border-radius: 3px;
+}
+
+.selected-ccs {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 3px 10px;
+  margin: 1px 5px 1px 0;
+}
+
+.selected-ccs-container {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 3px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.contract-code-name {
+  padding: 0 8px;
+}
+
+.close-button {
+  background: inherit;
+  border: 0;
+  padding: 0;
+}

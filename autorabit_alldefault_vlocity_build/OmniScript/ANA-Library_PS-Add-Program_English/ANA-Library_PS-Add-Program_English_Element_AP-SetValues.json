@@ -1,0 +1,33 @@
+{
+    "%vlocity_namespace%__Active__c": true,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "Add Program",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/ANA Library/PS-Add Program/English",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__PropertySet__c": {
+        "HTMLTemplateId": "",
+        "controlWidth": 12,
+        "elementValueMap": {
+            "AP-Stages": "=IF(EQUALS(%QuoteDetails:OpptyRecType%,'In Group Change'),ARRAY(['Dead', 'In Progress', 'Lost', 'Sold']),IF(EQUALS(%QuoteDetails:OpptyRecType%,'New Business'),ARRAY(['Dead', 'In Progress', 'Lost', 'Sold']),IF(EQUALS(%QuoteDetails:OpptyRecType%,'In Group Add Product'),ARRAY(['IGAP Dead', 'IGAP In Progress', 'IGAP Lost', 'IGAP Sold']),IF(EQUALS(%QuoteDetails:OpptyRecType%,'Renewal'),ARRAY(['In Progress', 'IGAP Dead', 'IGAP In Progress', 'IGAP Lost', 'IGAP Sold', 'Jeopardy', 'Renewed', 'Termed']),IF(EQUALS(%QuoteDetails:OpptyRecType%,'In Group Change Local'),ARRAY(['Dead', 'In Progress', 'Lost', 'Sold']),IF(EQUALS(%QuoteDetails:OpptyRecType%,'New Business Local'),ARRAY(['Dead', 'In Progress', 'Lost', 'Sold']),IF(EQUALS(%QuoteDetails:OpptyRecType%,'In Group Add Product Local'),ARRAY(['IGAP Dead', 'IGAP In Progress', 'IGAP Lost', 'IGAP Sold']),IF(EQUALS(%QuoteDetails:OpptyRecType%,'Renewal Local'),ARRAY(['In Progress', 'IGAP Dead', 'IGAP In Progress', 'IGAP Lost', 'IGAP Sold', 'Jeopardy', 'Renewed', 'Termed']),''))))))))"
+        },
+        "label": null,
+        "message": {
+        },
+        "show": null,
+        "showPersistentComponent": [
+            false,
+            false
+        ],
+        "ssm": false,
+        "validationRequired": "None",
+        "wpm": false
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": false,
+    "%vlocity_namespace%__Type__c": "Set Values",
+    "Name": "AP-SetValues",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/ANA Library/PS-Add Program/English/AP-SetValues"
+}

@@ -1,0 +1,86 @@
+{
+    "AddIntakeReasons": {
+        "AddIntakeReturn": {
+            "ErrorReasonMessage": false,
+            "ImpReasons": "Opportunity updates required",
+            "ImplementerComments": "test oppor"
+        },
+        "BenefitDiscrepanciesFM": "Benefit discrepancies",
+        "DocumentsNotAttachedFM": "Documents not attached",
+        "MismatchDocumentsFM": "",
+        "MismatchEffectiveDateFM": "",
+        "NeedAdditionalPaperworkFM": "",
+        "NeedFinalizedBenefitsFM": "Need finalized benefits",
+        "OpportunityUpdateFM": "",
+        "RateClarificationFM": "",
+        "ReturnRequestedBySalesFM": ""
+    },
+    "ContextId": "a6YW00000000eZuMAI",
+    "DRId_IntakeReturn__c": "a6YW00000000eZuMAI",
+    "IntakeReturn": {
+        "Id": "a6YW00000000eZuMAI",
+        "ProfileGroup": "Others"
+    },
+    "IntakeReturnStage": "Pending Response from Sales/ Account Management",
+    "ProfileGroup": "Others",
+    "SalesReturnDetails": {
+        "AddIntakereasons": true,
+        "IntakeReasons": [
+            {
+                "Id": "a6ZW00000000ZKvMAM",
+                "ImpComments": "test",
+                "ImplementerImpComments": "test",
+                "Reason": "Need finalized benefits",
+                "SalesComments": "test sales comments",
+                "Stage": "Pending AM Action"
+            },
+            {
+                "Id": "a6ZW00000000ZKwMAM",
+                "ImpComments": "test 2",
+                "ImplementerImpComments": "test 2",
+                "Reason": "Benefit discrepancies",
+                "SalesComments": null,
+                "Stage": "Pending AM Action"
+            },
+            {
+                "Id": "a6ZW00000000ZL5MAM",
+                "ImpComments": "test1",
+                "ImplementerImpComments": "test1",
+                "Reason": "Documents not attached",
+                "SalesComments": null,
+                "Stage": "Pending AM Action"
+            }
+        ]
+    },
+    "Submit": {
+        "SubmitDate": null,
+        "SubmitIntReturn": "Yes"
+    },
+    "SubmitDate": "",
+    "Test1": "a6YW00000000eHnMAI",
+    "Test2": "a6YW00000000eICMAY",
+    "id": "a3CW0000000AmLjMAK",
+    "layout": "lightning",
+    "testContextId": "a6YW00000000eZuMAI",
+    "timeStamp": "2018-01-15T22:28:56.143Z",
+    "userCurrencyCode": "USD",
+    "userId": "005W0000002XquzIAC",
+    "userName": "shravani@chadda@eaglecrk.com.prod.nal1b.dev",
+    "userProfile": "System Administrator",
+    "userTimeZone": -300,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "AddIntakeReasons": 14021,
+        "DRE-ExistingIntakeReturn": 524,
+        "DRE-IntakeReason": 667,
+        "DataRaptorPostAction2": 667,
+        "OmniScriptSessionToken": "af7091fd-b1dd-433e-94c5-0745d23cba56",
+        "SV-ContextId": 27,
+        "SV-UserGroup": 6,
+        "SalesReturnDetails": 8001,
+        "SetValues2": 14,
+        "SetValues5": 16,
+        "Submit": 4350
+    }
+}

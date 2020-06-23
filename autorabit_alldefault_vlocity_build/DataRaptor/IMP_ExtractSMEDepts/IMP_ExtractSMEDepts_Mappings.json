@@ -1,0 +1,72 @@
+[
+    {
+        "%vlocity_namespace%__DomainObjectAPIName__c": "json",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 0,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "SIManualDepartment",
+        "%vlocity_namespace%__FilterGroup__c": 0,
+        "%vlocity_namespace%__FilterOperator__c": "=",
+        "%vlocity_namespace%__FilterValue__c": "'False'",
+        "%vlocity_namespace%__InterfaceFieldAPIName__c": "Active__c",
+        "%vlocity_namespace%__InterfaceObjectLookupOrder__c": 1,
+        "%vlocity_namespace%__InterfaceObjectName__c": "SMEDepartment__c",
+        "%vlocity_namespace%__IsDisabled__c": false,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__MapId__c": "IMP_ExtractSMEDeptsCustom3796",
+        "%vlocity_namespace%__UpsertKey__c": false,
+        "Name": "IMP_ExtractSMEDepts",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    },
+    {
+        "%vlocity_namespace%__DomainObjectAPIName__c": "json",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 1,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "SIManualDepartment:Department_Name",
+        "%vlocity_namespace%__InterfaceFieldAPIName__c": "SIManualDepartment:Name",
+        "%vlocity_namespace%__IsDisabled__c": false,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__MapId__c": "IMP_ExtractSMEDeptsCustom4228",
+        "%vlocity_namespace%__UpsertKey__c": false,
+        "Name": "IMP_ExtractSMEDepts",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    },
+    {
+        "%vlocity_namespace%__DomainObjectAPIName__c": "json",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 1,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "SIManualDepartment:Name",
+        "%vlocity_namespace%__InterfaceFieldAPIName__c": "SIManualDepartment:Department_Name__c",
+        "%vlocity_namespace%__IsDisabled__c": false,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__MapId__c": "IMP_ExtractSMEDeptsCustom3801",
+        "%vlocity_namespace%__UpsertKey__c": false,
+        "Name": "IMP_ExtractSMEDepts",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    },
+    {
+        "%vlocity_namespace%__DomainObjectAPIName__c": "json",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 1,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "SIManualDepartment:Omni_Script_Help_Text",
+        "%vlocity_namespace%__InterfaceFieldAPIName__c": "SIManualDepartment:Omni_Script_Help_Text__c",
+        "%vlocity_namespace%__IsDisabled__c": false,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__MapId__c": "IMP_ExtractSMEDeptsCustom2259",
+        "%vlocity_namespace%__UpsertKey__c": false,
+        "Name": "IMP_ExtractSMEDepts",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    },
+    {
+        "%vlocity_namespace%__DomainObjectAPIName__c": "json",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 1,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "SIManualDepartment:SME_Department_Code",
+        "%vlocity_namespace%__InterfaceFieldAPIName__c": "SIManualDepartment:SME_Department_Code__c",
+        "%vlocity_namespace%__IsDisabled__c": false,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__MapId__c": "IMP_ExtractSMEDeptsCustom3203",
+        "%vlocity_namespace%__UpsertKey__c": false,
+        "Name": "IMP_ExtractSMEDepts",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    }
+]

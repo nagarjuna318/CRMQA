@@ -1,0 +1,33 @@
+{
+    "EmployeeClasseStatus": {
+        "EmployeeClasses": [
+            {
+                "EmployeeClassId": "aAMS00000001lFxOAI",
+                "EmployeeClassName": "EmpClass5****************",
+                "EmployeeClassType": "State",
+                "LastModifiedBy": "005S000000FtbtJIAR"
+            },
+            {
+                "EmployeeClassId": "aAMS00000001lFyOAI",
+                "EmployeeClassName": "EmpClass2",
+                "EmployeeClassType": "Geographic Location",
+                "LastModifiedBy": "005S000000FtbtJIAR"
+            },
+            {
+                "EmployeeClassId": "aAMS00000001lG2OAI",
+                "EmployeeClassName": "EmpClass3",
+                "EmployeeClassType": "Payroll Location",
+                "LastModifiedBy": "005S000000FtbtJIAR"
+            },
+            {
+                "EmployeeClassId": null,
+                "EmployeeClassName": "test -----------",
+                "EmployeeClassType": "Payroll Location",
+                "LastModifiedBy": null
+            }
+        ],
+        "EmployeeClassesseparate": {
+            "EmployeeGroup": "a5IS0000002qWOTMA2"
+        }
+    }
+}

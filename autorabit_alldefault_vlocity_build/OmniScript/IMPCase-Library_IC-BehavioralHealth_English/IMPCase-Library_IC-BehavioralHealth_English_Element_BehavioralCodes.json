@@ -1,0 +1,38 @@
+{
+    "%vlocity_namespace%__Active__c": true,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "Behavioral Health",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/IMPCase Library/IC-BehavioralHealth/English",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__ParentElementId__c": {
+        "%vlocity_namespace%__OmniScriptId__c": {
+            "Name": "Behavioral Health",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/IMPCase Library/IC-BehavioralHealth/English",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+        },
+        "Name": "ST-ProductDetail",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/IMPCase Library/IC-BehavioralHealth/English/ST-ProductDetail",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c"
+    },
+    "%vlocity_namespace%__ParentElementName__c": "ST-ProductDetail",
+    "%vlocity_namespace%__ParentElementType__c": "Step",
+    "%vlocity_namespace%__PropertySet__c": {
+        "HTMLTemplateId": "",
+        "controlWidth": 12,
+        "dataJSON": false,
+        "disOnTplt": false,
+        "label": "Behavioral Codes",
+        "show": null,
+        "text": "<p><strong>Click This&nbsp;<span style=\"text-decoration: underline;\"><em><a href=\"https://share.antheminc.com/sites/EnterMbrRptng/Shared Documents/Forms/AllItems.aspx?RootFolder=/sites/EnterMbrRptng/Shared Documents/Business Specific Reporting/Behavior Health Reporting/BH MH SA Service Level Indicator Code&amp;FolderCTID=0x0120008098BF9FFEAAE74197EDAB159B3BDFCB&amp;View={B125C27F-1615-4ACD-BB21-7519BE290EF3}&amp;InitialTabId=Ribbon.Read&amp;VisibilityContext=WSSTabPersistence\" target=\"_blank\" title=\"Behavioral Code\">Link</a></em></span>&nbsp;<strong>To Access The SharePoint File With The Latest Details/Descriptions Of Available Behavioral Health Codes</strong></strong></p>"
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": false,
+    "%vlocity_namespace%__Type__c": "Text Block",
+    "Name": "BehavioralCodes",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/IMPCase Library/IC-BehavioralHealth/English/BehavioralCodes"
+}

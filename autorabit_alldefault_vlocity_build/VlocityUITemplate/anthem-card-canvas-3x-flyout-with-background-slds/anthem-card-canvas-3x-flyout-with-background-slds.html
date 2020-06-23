@@ -1,0 +1,27 @@
+<div class="via-slds via-slds-card--program" ng-controller="flyoutController">
+    <div class="via-slds-card--program-bg">
+        <div class="slds-grid slds-wrap slds-m-around--small slds-m-bottom_x-small slds-grid--pull-padded">
+            <div vloc-card ng-repeat="card in cards |orderBy:order|filter: searchFunc(card) | filter : {zone: 'top'} : true" ctrl="{{ctrl}}" ng-model="card" data="card" records="records" index="{{$index}}" session-id="{{sessionId}}"
+                class="slds-p-around--small slds-size--1-of-1 slds-medium-size--6-of-6 slds-large-size--12-of-12" use-existing-element-type></div>
+        </div>
+        <!-- Condition: Renewal Local && Category__c is Plan  for shorter card width -->
+        <div ng-show="checkForProgram(cards)">
+            <div class="slds-grid slds-m-around--small slds-wrap slds-m-bottom_x-small slds-grid--pull-padded">
+                <div ng-repeat="card in cards |orderBy:order|filter: searchFunc(card, searchTerm) | filter : {zone: 'bottom'} : true" vloc-card ctrl="{{ctrl}}" ng-model="card" data="card" records="records" index="{{$index}}" session-id="{{sessionId}}"
+                    class="slds-p-around--small slds-size--1-of-1 slds-medium-size--6-of-6 slds-large-size--12-of-12" use-existing-element-type>
+                </div>
+            </div>
+        </div>
+
+        <div ng-show="!checkForProgram(cards)">
+            <div class="slds-grid slds-m-around--small slds-wrap slds-m-bottom_x-small slds-grid--pull-padded">
+                <div ng-repeat="card in cards |orderBy:order|filter: searchFunc(card, searchTerm) | filter : {zone: 'bottom'} : true" vloc-card ctrl="{{ctrl}}" ng-model="card" data="card" records="records" index="{{$index}}" session-id="{{sessionId}}"
+                    class="slds-p-around--small slds-size--1-of-1 slds-medium-size--3-of-6 slds-large-size--6-of-12" use-existing-element-type>
+                </div>
+            </div>
+        </div>
+
+        
+        
+    </div>
+</div>

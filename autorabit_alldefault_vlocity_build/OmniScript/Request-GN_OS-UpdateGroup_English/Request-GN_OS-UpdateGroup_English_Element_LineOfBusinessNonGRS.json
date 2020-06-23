@@ -1,0 +1,121 @@
+{
+    "%vlocity_namespace%__Active__c": true,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "ANA_Capture Group Information",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/Request GN/OS-UpdateGroup/English",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__ParentElementId__c": {
+        "%vlocity_namespace%__OmniScriptId__c": {
+            "Name": "ANA_Capture Group Information",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/Request GN/OS-UpdateGroup/English",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+        },
+        "Name": "RequestGroupNumberStep",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/Request GN/OS-UpdateGroup/English/RequestGroupNumberStep",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c"
+    },
+    "%vlocity_namespace%__ParentElementName__c": "RequestGroupNumberStep",
+    "%vlocity_namespace%__ParentElementType__c": "Step",
+    "%vlocity_namespace%__PropertySet__c": {
+        "HTMLTemplateId": "",
+        "accessibleInFutureSteps": false,
+        "conditionType": "Hide if False",
+        "controlWidth": 12,
+        "controllingField": {
+            "element": "",
+            "source": "",
+            "type": ""
+        },
+        "disOnTplt": false,
+        "enableCaption": true,
+        "help": false,
+        "helpText": "",
+        "hide": false,
+        "horizontalMode": "image",
+        "imageCountInRow": 3,
+        "label": "Line of business",
+        "optionHeight": 100,
+        "optionSource": {
+            "source": "",
+            "type": ""
+        },
+        "optionWidth": 100,
+        "options": [
+            {
+                "name": "Medical",
+                "value": "Medical"
+            },
+            {
+                "name": "Dental",
+                "value": "Dental"
+            },
+            {
+                "name": "Life",
+                "value": "Life"
+            },
+            {
+                "name": "STD",
+                "value": "STD"
+            },
+            {
+                "name": "LTD",
+                "value": "LTD"
+            },
+            {
+                "name": "EAP",
+                "value": "EAP"
+            },
+            {
+                "name": "Vision",
+                "value": "Vision"
+            },
+            {
+                "name": "Accident",
+                "value": "Accident"
+            },
+            {
+                "name": "Critical Illness",
+                "value": "Critical Illness"
+            },
+            {
+                "name": "Hospital Indemnity",
+                "value": "Hospital Indemnity"
+            },
+            {
+                "name": "All",
+                "value": "All"
+            }
+        ],
+        "readOnly": false,
+        "repeat": false,
+        "repeatClone": false,
+        "required": false,
+        "show": {
+            "group": {
+                "operator": "AND",
+                "rules": [
+                    {
+                        "condition": "=",
+                        "data": "Local",
+                        "field": "UserGroup"
+                    },
+                    {
+                        "condition": "=",
+                        "data": "No",
+                        "field": "IsGRSOptyRecordTypes"
+                    }
+                ]
+            }
+        }
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": false,
+    "%vlocity_namespace%__Type__c": "Multi-select",
+    "Name": "LineOfBusinessNonGRS",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/Request GN/OS-UpdateGroup/English/LineOfBusinessNonGRS"
+}

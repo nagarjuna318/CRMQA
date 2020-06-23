@@ -1,0 +1,29 @@
+{
+    "%vlocity_namespace%__Author__c": "Anthem Commercial 2.0",
+    "%vlocity_namespace%__Datasource__c": {
+        "contextVariables": [
+            {
+                "name": "parent.obj.Id",
+                "val": "0QL4B000000BPvi"
+            }
+        ],
+        "type": "Query",
+        "value": {
+            "body": "{\n        \"Id\": \"0QL4B000000H30gWAC\",\n        \"RecordType__c\": \"AIM\",\n            \"records\": [\n                {\n                    \"CPLCodes__c\":\"A\",\n                    \"Product2\": {\n                        \"Name\": \"A Product\"\n                     }\n               },\n                {\n                    \"CPLCodes__c\":\"B\",\n                    \"Product2\": {\n                        \"Name\": \"B Product\"\n                     }\n               },\n                {\n                    \"CPLCodes__c\":\"C\",\n                    \"Product2\": {\n                        \"Name\": \"C Product\"\n                     }\n               }\n            ]\n        }",
+            "bundle": "",
+            "ctxId": "",
+            "query": "Select Id,QuoteId, InitialMembers__c, \tInitialSubscribers__c, RecordType__c, TermDate__c, Competitor__r.Name, CompetitorStatus__c, Group_Number__c, Pooled_Non_Pooled__c,Package_has_been_attached__c, CompletionMarker__c, PLComplete__c, Contract_Codes__c, product2.Product_Family__c, product2.Network__c, HPCC_Code__c,Product2.Deductible_Amount__c, Product2.Coinsurance__c,(Select Id, Product2Id, ProductName__c, Product2.Name, Product2.%vlocity_namespace%__AttributeDefaultValues__c, Contract_Codes__c, product2.Product_Family__c, product2.Network__c, HPCC_Code__c, Product2.Deductible_Amount__c, Product2.Coinsurance__c,  OpportunityEffectiveDate__c, Opportunity_Type__c, IsPartOfAMigration__c, Date_Migrated_to_WGS__c, Situs_State_Abbrev__c, ProductStage__c, Probability__c, Is_HSA_Selected_Plan__c, CPLCodes__c, ClaimsPlatform__c,  ParentQuoteLineItem__r.Product2.Name,  ParentQuoteLineItem__r.Product2.Bundle__c, ParentQuoteLineItem__r.Quote.IsGroupNumberExist__c, LoggedInUserProfile__c, Market__c, LG_Plan_Config_Exception__c, Product2.Category__c, AnthemEntityTransform__c, Product2.RecordType.Name, Cards_Product_Config_Action_Name__c, Pooled_Non_Pooled__c, Package_has_been_attached__c, CompletionMarker__c, ActWiseChildQuote__c, ActWiseChildQuote__r.IC_ProductStage__c, ActWiseChildQuote__r.CompletionMarker__c, ActWiseChildQuote__r.PLComplete__c, %vlocity_namespace%__ContractCode__c, Plan_Type__c, HW_Package_Name__c,Single_INN_provider_co_pay__c from Quote_Line_Items__r Order By ProductName__c ASC) From QuoteLineItem Where Id= '{{parent.obj.Id}}'",
+            "resultVar": ""
+        }
+    },
+    "%vlocity_namespace%__Definition__c": "QuoteLineItemFlyoutCard.json",
+    "%vlocity_namespace%__Description__c": "",
+    "%vlocity_namespace%__GlobalKey__c": "QuoteLineItemFlyoutCard/9/Anthem Commercial 2.0/1588059793798",
+    "%vlocity_namespace%__ParentID__c": "",
+    "%vlocity_namespace%__Type__c": "Flyout",
+    "%vlocity_namespace%__Version__c": 9,
+    "Name": "QuoteLineItemFlyoutCard",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__VlocityUILayout__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__VlocityUILayout__c/QuoteLineItemFlyoutCard"
+}

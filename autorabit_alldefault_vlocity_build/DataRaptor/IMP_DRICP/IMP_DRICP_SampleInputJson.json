@@ -1,0 +1,82 @@
+{
+    "COBDetails": {
+        "COBMethodApplytoallPackagesSuffix": "Yes",
+        "Comments": "COBS",
+        "CoordinationofBenefits": "Pay and Purse",
+        "IfnospecifyCOBmethodperpackage": "PACKAGE",
+        "OptionE": true,
+        "PayandPursue": "Option A",
+        "PursueandPay": "Option D"
+    },
+    "COBId": "a6XW00000000An2MAE",
+    "COBName": "COB-000109",
+    "ContextId": "801W0000000mjsF",
+    "CoordinationofBenifits": {
+        "BLK-NASCO": {
+            "CB-COBMethodApplytoallPackagesSuffix": "Yes",
+            "CB-IfnospecifyCOBmethodperpackage": "PACKAGE"
+        },
+        "CB-AnthemMonthtoSolicitCOB": null,
+        "CB-CaseorSuffixforAnnualCOBSolicit": null,
+        "CB-Comments": "COBS",
+        "CB-CoordinationofBenefits": "Pay and Purse",
+        "CB-OptionE": false,
+        "CB-PayandPursue": "Option A",
+        "CB-PursueandPay": "Option D"
+    },
+    "Finish": {
+        "F-Message": " updating COB-000109 Coordination Of Benefits record for: NASCO"
+    },
+    "ImpCase": {
+        "FRM-AccountName1": "Hunter Douglas Inc.",
+        "FRM-COBName": "COB-000109",
+        "FRM-ClaimSystem": "NASCO",
+        "FRM-Id1": "801W0000000mjsFIAQ",
+        "FRM-Name1": "2018: Renewal-Hunter Douglas Inc."
+    },
+    "ImpDetails": {
+        "AccountName": "Hunter Douglas Inc.",
+        "CaseName": "2018: Renewal-Hunter Douglas Inc.",
+        "GroupClaimSystem": "NASCO",
+        "Id": "801W0000000mjsFIAQ"
+    },
+    "IntRecordType": "COBNASCO",
+    "MeToo": {
+        "MT-DoesMeTooselectionapplytoallpkgs": "Yes",
+        "MT-IfnospecifyMETooperpackage": "package",
+        "MT-MeTooIndicator": "1 Higher R+C"
+    },
+    "MedicareCOB": {
+        "ME-ChangeMedicarePartDRxto": "Creditable Coverage",
+        "ME-DoesthisApplytoAllSubgroups": "Yes",
+        "ME-ExcludefromMedicareCrossover": "Yes",
+        "ME-IfNopleaseexplain": "EXPLAIN",
+        "ME-Medicare-COB": "Yes",
+        "ME-MedicareCOBComments": "MEDICARE",
+        "ME-MedicareCOBOptions": "Wrap;Waiver;Other (Please Explain)",
+        "ME-WillMedicarePartDBenefitsbeOffered": "Yes"
+    },
+    "RecordCount": "Yes",
+    "id": "a3CW0000000An8dMAC",
+    "layout": "lightning",
+    "timeStamp": "2018-01-14T20:46:06.496Z",
+    "userCurrencyCode": "USD",
+    "userId": "005W0000002XPj6IAG",
+    "userName": "jcarrero@vlocity.com.prod.nal1b.dev",
+    "userProfile": "System Administrator",
+    "userTimeZone": -300,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "CoordinationofBenifits": 3646,
+        "DRE-GettingCOB": 1755,
+        "DRE-ICProfile": 1492,
+        "Finish": 1498,
+        "ImpCase": 3322,
+        "MeToo": 7229,
+        "MedicareCOB": 1731,
+        "OmniScriptSessionToken": "ab9218d2-24f7-43d1-bab5-18354cd3b81d",
+        "SV-COB": 58,
+        "SV-ContextId": 166
+    }
+}

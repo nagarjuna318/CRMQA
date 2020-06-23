@@ -1,0 +1,25 @@
+{
+    "Cards": [
+        "IMPTracking_Cards"
+    ],
+    "dataSource": {
+        "contextVariables": [
+            {
+                "name": "params.id",
+                "val": "a6pW00000007ZIQ"
+            }
+        ],
+        "type": "Query",
+        "value": {
+            "query": "SELECT Id, Name,LoggedInUserProfile__c, Permission_set__c,EBA_Permission_Set__c, QLIFinJAA__c FROM Implementation_Tracking__c WHERE Id = '{{params.id || params.Id}}'"
+        }
+    },
+    "templates": {
+        "0": {
+            "templateUrl": "card-canvas-1x-slds-nosearch"
+        }
+    },
+    "workspace": [
+        "IMPTracking_Cards/Anthem Commercial 2.0/1/1524257299036"
+    ]
+}

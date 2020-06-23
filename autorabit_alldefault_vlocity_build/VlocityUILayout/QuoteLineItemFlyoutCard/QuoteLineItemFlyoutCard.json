@@ -1,0 +1,41 @@
+{
+    "Cards": [
+        "QLIAdditionalFields",
+        "QLIFlyoutCard_LG",
+        "QLIFlyoutCard"
+    ],
+    "dataSource": {
+        "contextVariables": [
+            {
+                "name": "parent.obj.Id",
+                "val": "0QL2h0000005J6KGAU"
+            }
+        ],
+        "type": "Query",
+        "value": {
+            "body": "{\n        \"Id\": \"0QL4B000000H30gWAC\",\n        \"RecordType__c\": \"AIM\",\n            \"records\": [\n                {\n                    \"CPLCodes__c\":\"A\",\n                    \"Product2\": {\n                        \"Name\": \"A Product\"\n                     }\n               },\n                {\n                    \"CPLCodes__c\":\"B\",\n                    \"Product2\": {\n                        \"Name\": \"B Product\"\n                     }\n               },\n                {\n                    \"CPLCodes__c\":\"C\",\n                    \"Product2\": {\n                        \"Name\": \"C Product\"\n                     }\n               }\n            ]\n        }",
+            "bundle": "",
+            "ctxId": "",
+            "jsonMap": "{\"parent.obj.Id\":\"{{parent.obj.Id}}\"}",
+            "resultVar": ""
+        }
+    },
+    "previewType": "runTime",
+    "sessionVars": [
+        {
+            "name": "Id",
+            "val": "parent.obj.Id"
+        }
+    ],
+    "templates": {
+        "0": {
+            "templateUrl": "anthem-card-canvas-3x-flyout-with-background-slds"
+        }
+    },
+    "workspace": [
+        null,
+        "QLIAdditionalFields/Anthem Commercial 2.0/null/1513958019196",
+        "QLIFlyoutCard_LG/Anthem Commercial 2.0/1/1551933796536",
+        "QLIFlyoutCard/Anthem Commercial 2.0/null/1513958024341"
+    ]
+}

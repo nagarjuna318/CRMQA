@@ -1,0 +1,178 @@
+<!-- ------------------------------------------------------------------- -->
+<!-- Start of vlcANALightningProductSelection.html Template.             -->
+<!-- ------------------------------------------------------------------- -->
+<script type="text/ng-template" id="vlcANALightningProductSelection.html">
+<style>
+.tooltip {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    width: 100%;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    color: #000;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    font-size: 12px;
+    background: beige;
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    top: 20px;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+
+
+.via-slds.via-omni .vlc-slds-items--container.vlc-slds-insurance-selectableItem, .via-slds.via-omni .vlc-slds-items_container.vlc-slds-insurance-selectableItem {
+    border: solid !important;
+}
+
+.via-slds.via-omni .vlc-slds-items--container.vlc-slds-insurance-selectableItem, .via-slds.via-omni .vlc-slds-items_container.vlc-slds-insurance-selectableItem {
+    padding: 1rem;
+    position: relative;
+    background: #f4f6f9;
+    border: 2px solid #f4f6f9;
+    border-radius: 5px;
+}
+
+@media (min-width: 48em)
+.via-slds.via-omni .vlc-slds-items--container, .via-slds.via-omni .vlc-slds-items_container {
+    background: #fff;
+    margin-bottom: 0;
+    padding: 5px;
+    padding-top: 0;
+    position: static;
+}
+
+.via-slds.via-omni .vlc-slds-items--container, .via-slds.via-omni .vlc-slds-items_container {
+    display: block;
+    border: none;
+    background: #d8dde6;
+    border-radius: .25rem;
+    margin: 1rem;
+    height: auto;
+    padding: 0;
+    padding-top: 1rem;
+    position: relative;
+}
+
+.via-slds .slds-grid {
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.via-slds.via-omni span.slds-icon_container {
+    background: #50e3c2;
+}
+
+.via-slds .slds-icon__container--circle, .via-slds .slds-icon__container_circle, .via-slds .slds-icon_container--circle, .via-slds .slds-icon_container_circle {
+    padding: .5rem;
+    border-radius: 50%;
+}
+
+.via-slds.via-omni .vlc-slds-items--container div.vlc-slds-selectableItem>div.vls-slds-item--action:last-child, .via-slds.via-omni .vlc-slds-items--container div.vlc-slds-selectableItem>div.vls-slds-item_action:last-child, .via-slds.via-omni .vlc-slds-items_container div.vlc-slds-selectableItem>div.vls-slds-item--action:last-child, .via-slds.via-omni .vlc-slds-items_container div.vlc-slds-selectableItem>div.vls-slds-item_action:last-child {
+    display: none;
+}
+.via-nds input {
+	height: 2.5rem;
+	border: 1px solid rgb(221, 219, 218);
+	border-radius: 0.3rem;
+	width: 100%;
+	transition-duration: 0.1s, 0.1s;
+	transition-timing-function: linear, linear;
+	transition-property: border, background-color;
+	display: inline-block;
+	line-height: 1.875rem;
+	min-height: calc(1.875rem + 2px);
+}
+
+@media (min-width: 30em)
+.via-nds .nds-small-size--12-of-12, .via-nds .nds-small-size_12-of-12 {
+    width: 100%;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+    display: none;
+}
+</style>
+
+<div class="search-container" style="width:100%; margin-bottom:20px;">
+        <div class="slds-size--1-of-1 slds-medium--1-of-1 slds-large-size--6-of-12">
+            <div class="slds-col--padded slds-size--1-of-1">
+                <div class="slds-form-element__control">
+                    <div class="vlc-control-wrapper">
+                        <input id="searchvariablefield" type="text" class="slds-input form-control" ng-model="searchvariablefield"/>
+                        <!-- 
+							<label for="searchvariablefield" class="slds-form-element__label ng-binding">Search for Products</label>
+						-->
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+
+  <div class="slds-scrollable_x">
+    <div class="slds-grid slds-grid--horizontal" style="flex-wrap:wrap">
+<div style="display:none">{{control.vlcSI['recSet']}}</div>
+      <div class="vlc-slds-items--container vlc-slds-insurance-selectableItem"
+        ng-repeat="p in control.vlcSI['recSet'] | filter:searchvariablefield"  ng-init='onSelectItem(control, p, $index, this)'>
+
+          <div class="slds-box vlc-slds-selectableItem" style="width:200px">
+
+            <div class="vlc-slds-selectableItem__name">
+              <div class="vlc-slds-item--details">
+              
+              <div class="tooltip">
+                  <label class="slds-form__element__label" style="font-size:12px;font-weight:bold;max-width:150%;text-align:center;">
+                       {{p.Name}}
+                  </label>
+                  <span class="tooltiptext" ng-if="p.HelpText != undefined">{{p.HelpText}}</span>
+             </div>
+              </div>			  
+              <div class='vlc-slds-item-selectableItem-link' ng-init="p.vlcSelected=false" ng-class="{'vlc-selectableitem-selected' : p.vlcSelected || p.vlcSelected == undefined }">
+                  <button
+                      class="btn btn-default btn-block"
+                      ng-click="onSelectItem(control, p, $index, this, true)">
+                        <span ng-hide="p.vlcSelected">Select Product</span>
+                        <span ng-show="p.vlcSelected" class="selected"><i class="icon icon-v-check"></i>Selected</span>
+                  </button>
+              </div>
+            </div>
+            <div class="vls-slds-item--action" vlc-slds-added="{{ p.vlcSelected }}" >
+                <span class="slds-icon_container slds-icon-action-approval slds-icon_container--circle">
+                    <div class="slds-icon slds-icon--small">
+                       <img src="/resource/1491332014000/%vlocity_namespace%__slds/assets/icons/action/approval.svg" align="middle" width="25" height="15">
+                    </div>
+                </span>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+</script>
+<!-- -------------------------------------------------------- -->
+<!-- End of vlcANALightningProductSelection.html Template.    -->
+<!-- -------------------------------------------------------- -->
+
+<!-- ------------------------------------------------------------------- -->
+<!-- Start of vlcSkipPlanSelection.html Template.             -->
+<!-- ------------------------------------------------------------------- -->
+<script type="text/ng-template" id="vlcSkipPlanSelection.html">
+ <button class="nds-button nds-button_brand nds-p-around_xx-small nds-size_1-of-1 nds-medium-size_3-of-12" type="button" ng-show="child.bHasNext && child.propSetMap.nextWidth > 0" id="AP-FamilySelection_nextBtn" ng-click="nextRepeater(child.nextIndex, child.indexInParent)" ng-disabled="checkValidity(this, child.index, child.indexInParent, "Step", null, true)" vlc-animation-slider="test" aria-hidden="false">
+                                    Next
+                            </button></script>

@@ -1,0 +1,44 @@
+{
+    "dataSource": {
+        "type": null
+    },
+    "filter": {
+        "['RecordType']['Name']": "Brokerage"
+    },
+    "states": [
+        {
+            "actionCtxId": "['Id']",
+            "blankCardState": false,
+            "blankStateCheck": false,
+            "collapse": false,
+            "conditions": {
+                "group": [
+                    {
+                        "field": "$scope.data.status",
+                        "operator": "===",
+                        "type": "system",
+                        "value": "'active'"
+                    }
+                ]
+            },
+            "definedActions": {
+                "actions": [
+                    {
+                        "collapse": true,
+                        "hasExtraParams": false,
+                        "id": "Add Contact",
+                        "isCustomAction": false,
+                        "type": "Vlocity Action"
+                    }
+                ]
+            },
+            "fields": [
+            ],
+            "filter": "$scope.data.status === 'active'",
+            "name": "open-actions",
+            "sObjectType": "Account",
+            "templateUrl": "AccountsActionCardsTemplate"
+        }
+    ],
+    "title": "Account Actions Brokerage"
+}

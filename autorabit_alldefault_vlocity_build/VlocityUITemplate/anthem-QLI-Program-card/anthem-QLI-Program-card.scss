@@ -1,0 +1,45 @@
+.via-slds .via-slds-card--program-flyout {
+    
+    .via-slds-card__body {
+        overflow: hidden;
+        min-width: 300px;
+    }
+    
+    .via-slds-card__minwidth {
+        min-width: 300px;
+    }
+    
+    .via-slds-flyout-card__header {
+        background-clip: padding-box;
+        background-color: #0070D2;
+        border-bottom: 2px solid #d8dde6;
+        margin-bottom: 0;
+        cursor: pointer;
+        min-width: 300px;
+        max-height: 30px;
+        color: white;
+    }
+    
+    .via-slds-flyout-grid > :not(:empty) {
+        width: 100%;
+    }
+    
+    .via-action-icon:before {
+        font-size: 200%;
+    }
+
+    .via-action-link:hover,
+    .via-action-link:focus,
+    .via-action-link:active {
+        color: #0070d2;
+        text-decoration: underline;
+    }
+    
+    svg.via-action-icon {
+        margin: 0 8px;
+    }
+    .slds-button.slds-button_neutral {
+        border-width: 0px;
+        line-height: 1.75em;
+    }
+}

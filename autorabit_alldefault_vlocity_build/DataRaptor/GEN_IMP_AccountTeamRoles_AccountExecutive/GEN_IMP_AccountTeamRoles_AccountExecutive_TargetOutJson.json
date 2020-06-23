@@ -1,0 +1,19 @@
+{
+    "AccountExecutive": {
+        "AccountAccessLevel": "Text",
+        "AccountId": "Text",
+        "CaseAccessLevel": "Text",
+        "ContactAccessLevel": "Text",
+        "Id": "Text",
+        "OpportunityAccessLevel": "Text",
+        "PhotoURL": "Text",
+        "TeamMemberRole": "Text",
+        "Title": "Text"
+    },
+    "CompanyInformation": {
+        "AccountManager": "Text",
+        "AccountTeamMembers": {
+            "AccountManagerTypeAhead": "Text"
+        }
+    }
+}

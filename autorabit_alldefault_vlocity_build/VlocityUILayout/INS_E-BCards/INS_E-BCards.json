@@ -1,0 +1,27 @@
+{
+    "Cards": [
+        "E&BCard"
+    ],
+    "bypassSave": true,
+    "dataSource": {
+        "contextVariables": [
+            {
+                "name": "params.Id",
+                "val": "a7b1K000000D6WLQA0"
+            }
+        ],
+        "type": "Query",
+        "value": {
+            "jsonMap": "{\"params.id || params.Id\":\"{{params.id || params.Id}}\"}"
+        }
+    },
+    "previewType": "runTime",
+    "templates": {
+        "0": {
+            "templateUrl": "anthem-card-canvas-1x-slds-nosearch"
+        }
+    },
+    "workspace": [
+        "E&BCard/Anthem Commercial 2.0/1/1534846944615"
+    ]
+}

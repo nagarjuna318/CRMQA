@@ -1,0 +1,53 @@
+{
+    "ContextId": null,
+    "STAutoDepartment": {
+        "SIAutoDepartment": null
+    },
+    "STConfirmation": {
+        "FR-ProductEffectiveDate": null
+    },
+    "STManualDepartment": {
+        "ContractFormula": null,
+        "DentalFormula": null,
+        "EnrollmentandBillingFormula": null,
+        "IDCardsFormula": null,
+        "InterplanFormula": null,
+        "MedicalBenefitsFormula": null,
+        "RxFormula": null,
+        "SBCFormula": null,
+        "SIManualDepartment": null,
+        "UnderwritingFormula": null,
+        "VisionFormula": null
+    },
+    "timeStamp": null,
+    "userId": null,
+    "userName": null,
+    "userProfile": null,
+    "userTimeZone": null,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "CreateContracts": null,
+        "CreateDental": null,
+        "CreateEnrollmentbilling": null,
+        "CreateIDcards": null,
+        "CreateIMPTracking": null,
+        "CreateInterplan": null,
+        "CreateMedicalBenifits": null,
+        "CreateRX": null,
+        "CreateSBC": null,
+        "CreateUnderwriting": null,
+        "CreateVision": null,
+        "DA-IMPLCase": null,
+        "DR-IMPLCaseExtract": null,
+        "DR-SMEApprovalLoad": null,
+        "RA-SMEApprovaLoad": null,
+        "RA-SMEApprovalExtract": null,
+        "RA-SMEApprovalForLocalSales": null,
+        "RemoteAction4": null,
+        "STAutoDepartment": null,
+        "STConfirmation": null,
+        "STManualDepartment": null,
+        "SV-PresetData": null
+    }
+}

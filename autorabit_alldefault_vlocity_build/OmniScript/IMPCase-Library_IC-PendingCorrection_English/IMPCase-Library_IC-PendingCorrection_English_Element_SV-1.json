@@ -1,0 +1,42 @@
+{
+    "%vlocity_namespace%__Active__c": true,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "PendingCorrection",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/IMPCase Library/IC-PendingCorrection/English",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__PropertySet__c": {
+        "HTMLTemplateId": "",
+        "controlWidth": 12,
+        "disOnTplt": false,
+        "elementValueMap": {
+            "L_PendingCorrectionType": "=IF((%SME_Permission%),'E & B Local','')",
+            "L_Stage": "='Not Started'",
+            "Local_E&B_IC": "=IF(AND(EQUALS(%AnthemEntity%,'Local'), OR(EQUALS(%IntObjName%,'Issue_Control'),EQUALS(%IntObjName%,'Enrollment_and_Billing'))),'Y','N')",
+            "OwnerEmail": "=%OwnerEmail%",
+            "OwnerIsUser": "=IF(%AnthemEntity% = 'Local',IF(SUBSTRING(%OwnerId%, 0, 3) = '005', 'Y', 'N'),'Y')",
+            "PendingCorrectionType": "=IF((%SME_Permission%),'E & B Local','')",
+            "RateType": "=IF(EQUALS(%AnthemEntity%,'National'),'Disability')",
+            "RecordTypeName": "=IF(CONTAINS(%Name%,'UW'),'Underwriting',IF(CONTAINS(%Name%,'VIS'),'Vision',IF(CONTAINS(%Name%,'DENTAL'),'Dental Complete',IF(CONTAINS(%Name%,'SBC'),'SBC',IF(CONTAINS(%Name%,'IDCARD'),'ID Cards',IF(CONTAINS(%Name%,'CONTRACTS'),'Contract',IF(CONTAINS(%Name%,'MEMBERSHIP'),'Enrollment and Billing',IF(CONTAINS(%Name%,'RX'),'RX',IF(CONTAINS(%Name%,'IPT'),'Interplan',IF(CONTAINS(%Name%,'CASINS'),'Issue Control',IF(CONTAINS(%Name%,'MEDBEN'),'Medical Benefits',IF(CONTAINS(%Name%,'LD'),'Life & Disability',IF(CONTAINS(%Name%,'FI'),'First Impressions','Test')))))))))))))",
+            "Stage": "='Not Started'"
+        },
+        "label": null,
+        "message": {
+        },
+        "show": null,
+        "showPersistentComponent": [
+            false,
+            false
+        ],
+        "ssm": false,
+        "validationRequired": "None",
+        "wpm": false
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": false,
+    "%vlocity_namespace%__Type__c": "Set Values",
+    "Name": "SV-1",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/IMPCase Library/IC-PendingCorrection/English/SV-1"
+}

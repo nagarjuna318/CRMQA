@@ -1,0 +1,56 @@
+{
+    "%vlocity_namespace%__Active__c": false,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "Load Group_Order",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/LoadGroup/Group/English",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__PropertySet__c": {
+        "HTMLTemplateId": "",
+        "controlWidth": 12,
+        "disOnTplt": false,
+        "elementValueMap": {
+            "DentalCount": "=COUNT(%ImpactedProducts:Dental:ProductDetail:quoteId%)",
+            "EAPCount": "=COUNT(%ImpactedProducts:EAP:ProductDetail:quoteId%)",
+            "FSACount": "=COUNT(%ImpactedProducts:FSA:ProductDetail:quoteId%)",
+            "LifeAndDisabilityCount": "=COUNT(%ImpactedProducts:LifeAndDisability:ProductDetail:quoteId%)",
+            "MedicalPlanCount": "=COUNT(%ImpactedProducts:MedicalPlan:ProductDetail:quoteId%)",
+            "MedicalProductCount": "=COUNT(%ImpactedProducts:MedicalProduct:ProductDetail:quoteId%)",
+            "VisionCount": "=COUNT(%ImpactedProducts:Vision:ProductDetail:quoteId%)"
+        },
+        "label": "impactedProductTypeCount",
+        "message": {
+        },
+        "show": {
+            "group": {
+                "operator": "AND",
+                "rules": [
+                    {
+                        "condition": "=",
+                        "data": "true",
+                        "field": "st3"
+                    },
+                    {
+                        "condition": "=",
+                        "data": "Change Request Off Cycle",
+                        "field": "stImplementationType"
+                    }
+                ]
+            }
+        },
+        "showPersistentComponent": [
+            false,
+            false
+        ],
+        "ssm": false,
+        "validationRequired": "Step",
+        "wpm": false
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": false,
+    "%vlocity_namespace%__Type__c": "Set Values",
+    "Name": "impactedProductTypeCountSt",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/LoadGroup/Group/English/impactedProductTypeCountSt"
+}

@@ -1,0 +1,84 @@
+{
+    "AccountId": "0015B00000SvcvDQAR",
+    "CIFGeneralInformation": {
+        "AccountLegalName": "KC Test",
+        "CIFSelectMessage": true,
+        "ClaimSystem": "WGS 2.0",
+        "ClientTermination": false,
+        "ClientTerminationEffectiveDate": "2018-09-20",
+        "ExistingClientEffectiveDate": "2018-09-13",
+        "ExistingClientImplementation": false,
+        "GroupNumber": "WGS 011",
+        "NewClientEffective Date": "2018-08-01",
+        "NewClientImplementation": true,
+        "OpportunityEffectiveDate": "2019-01-09",
+        "OpportunityRecordType": "New Business",
+        "OpportunityStage": "Closed Won",
+        "QuoteName": "2019 New Business-KC Test",
+        "TermingCastlightLegacyForEngage": "Yes"
+    },
+    "ContextId": "0Q05B000000Ej94SAC",
+    "DRId_Castlight_Engage_Client_Information_Form__c": "a7q5B0000004LBzQAM",
+    "EngageOptions": {
+        "AnthemDental": true,
+        "AnthemDentalBlock": {
+            "AnthemDentalEligiblePopulation": "1000",
+            "ClientQualifiedAnthemDental": true
+        },
+        "EngageElevate": true,
+        "EngageElevateBlock": {
+            "CastlightBehavioralHealthBuyup": "BH Carve in and EAP Carve in (EE)",
+            "EngageElevateEligiblePopulation": "2000"
+        },
+        "EngageElite": true,
+        "EngageEliteBlock": {
+            "ClientWithAnthemRXCheck": true,
+            "EngageEliteEligiblePopulation": "1000"
+        },
+        "EngageEliteBlockPlus": {
+            "ClientwithAnthemRXElitePlus": true,
+            "EngageElitePlusEligiblePopulation": "1000"
+        },
+        "EngageElitePlus": true,
+        "EngageEssential": true,
+        "EngageEssentialBlock": {
+            "ClientCareCostFinder": true,
+            "ClientEstimateYourCost": false,
+            "EngageEssentialEligiblePopulation": "1000"
+        },
+        "EngageEssentialBlockPlus": {
+            "ClientCurrentlyUsingCCFPlus": true,
+            "ClientCurrentlyUsingEYCandFADPlus": true,
+            "EngageEssentialsPlusEligiblePopulation": "1000"
+        },
+        "EngageEssentialPlus": true,
+        "ReferenceBasedBenefit": true,
+        "ReferenceBasedBenefitBlock": {
+            "ReferenceBasedBenefitEligiblePopulation": "1000"
+        }
+    },
+    "NonEngageCastlightOption": {
+        "TradionalLegacyMdeicalBuyup": true,
+        "TraditionalLegacyBlock": {
+            "MedicalBuyupEligiblePopulation": "1000"
+        }
+    },
+    "QuoteId": "0Q05B000000Ej94SAC",
+    "RecordId": "a7q5B0000004LBzQAM",
+    "id": "a3C5B00000064XPUAY",
+    "layout": "lightning",
+    "timeStamp": "2018-09-12T03:21:37.422Z",
+    "userCurrencyCode": "USD",
+    "userId": "0055B000001O1xCQAS",
+    "userName": "ilugina@anthem.com2.iceconfig",
+    "userProfile": "System Administrator",
+    "userTimeZone": null,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "CIFGeneralInformation": 596599,
+        "DRE-EngageCIF": 1362,
+        "OmniScriptSessionToken": "aa701992-fb61-4780-95d1-85c30d07f991",
+        "PreSetValues": 201
+    }
+}

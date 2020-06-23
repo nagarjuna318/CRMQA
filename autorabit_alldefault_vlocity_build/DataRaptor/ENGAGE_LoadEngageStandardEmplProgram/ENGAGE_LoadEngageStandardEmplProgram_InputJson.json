@@ -1,0 +1,112 @@
+{
+    "AccountId": "0015B00000SvcvDQAR",
+    "ClientBillingCity": "Chicago",
+    "ClientBillingCountry": "USA",
+    "ClientBillingPostalCode": "60606",
+    "ClientBillingState": "IL",
+    "ClientBillingStreet": "123 Main St",
+    "ContextId": "0Q05B000000Ej94",
+    "CustomerBenefits": {
+        "ASHEligibleMembers": "Employees Only",
+        "ASHGymReimbursementBuyup": "Yes",
+        "ASHProgramName": "333",
+        "ActivityNutritionSleepPrograms": "Yes",
+        "AnthemHealthGuide": "Yes",
+        "AnthemHealthRewards": "Yes",
+        "BioIQ": "No",
+        "LiveHealthOnlineOffering": "No",
+        "MyHealthAdvantage": "No",
+        "WebMDHRAProgram": "No"
+    },
+    "DRId_Engage_Scoping_And_Engage_Standard__c": "a7r5B0000008SsHQAU",
+    "EmployerPrograms": {
+        "AddEmployeePrograms": true,
+        "EmployeeProgramBlock": [
+            {
+                "EmployerProgramAvailabilityDate": "2018-07-31",
+                "EmployerProgramEligibleMembers": "Employees Only",
+                "EmployerProgramEmail": "test@est.com",
+                "EmployerProgramId": "a7w5B0000008YUQQA2",
+                "EmployerProgramName": "Other",
+                "EmployerProgramPhoneNumber": "3333333333",
+                "EmployerProgramWebsite": "http://www.test.com",
+                "IfOtherEmployerProgramName": "test"
+            },
+            {
+                "EmployerProgramAvailabilityDate": "2018-07-31",
+                "EmployerProgramEligibleMembers": "Employees Only",
+                "EmployerProgramEmail": "test@est.com",
+                "EmployerProgramId": "a7w5B0000008YULQA2",
+                "EmployerProgramName": "Onsite Clinic",
+                "EmployerProgramPhoneNumber": "3333333333",
+                "EmployerProgramWebsite": "http://www.test.com",
+                "IfOtherEmployerProgramName": null
+            },
+            {
+                "EmployerProgramAvailabilityDate": "2018-07-20",
+                "EmployerProgramEligibleMembers": "Employees Only",
+                "EmployerProgramEmail": "esr@test.com",
+                "EmployerProgramId": "a7w5B0000008YUMQA2",
+                "EmployerProgramName": "3rd Party Telehealth",
+                "EmployerProgramPhoneNumber": "3333333333",
+                "EmployerProgramWebsite": "http://www.test.com",
+                "IfOtherEmployerProgramName": null
+            }
+        ],
+        "EmployerProgramAddBlock": {
+            "EmployerProgramAvailabilityDateAdd": "2018-07-31",
+            "EmployerProgramEligibleMembersAdd": "Employees Only",
+            "EmployerProgramEmailAdd": "test@test.com",
+            "EmployerProgramNameAdd": "Other",
+            "EmployerProgramPhoneNumberAdd": "3333333333",
+            "EmployerProgramWebsiteAdd": "http://www.test.com",
+            "IfOtherEmployerProgramNameAdd": "test22"
+        }
+    },
+    "EngageStandardGeneralInfo": {
+        "AccountExcutiveManager": "Kristin Chung",
+        "AccountImplementationLead": "Indra Lugina",
+        "AccountLegalName": "KC Test",
+        "AccountRenewalOrNewSale": "New Sale",
+        "AnthemControlState": "NY New York",
+        "ClaimSystem": "WGS 2.0",
+        "ClientMarket": "National Accounts",
+        "EndDateOfCustomerContract": "2018-07-20",
+        "EstReceiptDateOfFirstProdEligFile": "2018-07-31",
+        "Group Name": null,
+        "GroupNumber": "WGS 011",
+        "MemberSupportHoursOfAvailability": "33",
+        "MemberSupportPhoneNumber": "3333333333",
+        "OpportunityName": "2019 New Business-KC Test",
+        "OpportunityType": "New Business",
+        "QuoteName": "2019 New Business-KC Test",
+        "SourceSystemCode": "333",
+        "StartDateOfCustomerContract": "2018-07-20"
+    },
+    "ImplementerId": "0055B000001O1xCQAS",
+    "ReadyToSubmitForm": {
+        "FR-FinishMessage": " Updating Engage Standard Record For: KC Test"
+    },
+    "RecordId": "a7r5B0000008SsHQAU",
+    "RecordTypeName": "Engage Standard",
+    "id": "a3C5B000000A0dHUAS",
+    "layout": "lightning",
+    "timeStamp": "2018-07-05T00:53:17.800Z",
+    "userCurrencyCode": "USD",
+    "userId": "0055B000001O1xCQAS",
+    "userName": "ilugina@anthem.com2.iceconfig",
+    "userProfile": "System Administrator",
+    "userTimeZone": -240,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "CustomerBenefits": 1654,
+        "DRE_ENGAGE_ExtractESS": 2260,
+        "DRE_ENGAGE_ExtractQuoteAccount": 3225,
+        "EmployerPrograms": 39821,
+        "EngageStandardGeneralInfo": 76807,
+        "OmniScriptSessionToken": "2424ba24-5e3b-41fd-8600-d16d77501256",
+        "PostSetValues": 82,
+        "PreSetValues": 532
+    }
+}

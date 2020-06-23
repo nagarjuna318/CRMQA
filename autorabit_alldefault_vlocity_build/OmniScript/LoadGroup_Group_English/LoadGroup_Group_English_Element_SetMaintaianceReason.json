@@ -1,0 +1,44 @@
+{
+    "%vlocity_namespace%__Active__c": true,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "Load Group_Order",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/LoadGroup/Group/English",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__ParentElementId__c": {
+        "%vlocity_namespace%__OmniScriptId__c": {
+            "Name": "Load Group_Order",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/LoadGroup/Group/English",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+        },
+        "Name": "ChangeRequestOffCycleICR",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/LoadGroup/Group/English/ChangeRequestOffCycleICR",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c"
+    },
+    "%vlocity_namespace%__ParentElementName__c": "ChangeRequestOffCycleICR",
+    "%vlocity_namespace%__ParentElementType__c": "Step",
+    "%vlocity_namespace%__PropertySet__c": {
+        "HTMLTemplateId": "",
+        "controlWidth": 12,
+        "dataType": null,
+        "dateFormat": "MM-dd-yyyy",
+        "disOnTplt": false,
+        "expression": "CONCATENATE(IF(%AddNewProductMedicalSpecialtyOnly% = true, \"Add new Product (Medical/Specialty only);\", null) , \nIF(%RateAdjustmentDueToInternalError% = true, \"Rate adjustment due to internal error;\", null) ,\nIF(%ChangeAccountName% = true, \"Change Account Name;\", null),\nIF(%ChangeAccountPhysicalOrMailingAddress% = true, \"Change Account Physical or Mailing Address;\", null) ,\nIF(%ChangeAccountPhoneNumber% = true, \"Change Account Phone Number;\", null),\nIF(%ChangeContactNonBilling% = true, \"Change Contact (Non Billing);\", null) ,\nIF(%ChangeContactBillingInvoice% = true, \"Change Contact (Billing/Invoice);\", null),\nIF(%ChangeAnniversaryMonth% = true, \"Change Anniversary Month;\", null) ,\nIF(%ChangeNewHireProbationaryPeriod% = true, \"Change New Hire Probationary Period;\", null),\nIF(%AddNewProductSupplemental% = true, \"Add new Product (Supplemental);\" ,null) ,\nIF(%ChangeProducts% = true, \"Change Products;\", null),\nIF(%ChangeFundingTypeOnAtLeastOneProduct% = true, \"Change Funding Type on at least one Product;\" ,null),IF(%ChangeBenefitDesignOnAtLeastOneProduct% = true, \"Change Benefit Design on at least one Product;\", null),\nIF(%PEOAndAddingNewCompanyThatRequiresNewSuffixes% = true, \"PEO and adding new Company that requires new suffixes;\", null) ,\nIF(%AddNewEmployeeClassDivision% = true, \"Add new Employee Class (Division);\", null),\nIF(%AddNewDepartmentCodes% = true, \"Add new Department Codes;\", null)  )",
+        "hide": true,
+        "hideGroupSep": false,
+        "inputWidth": 12,
+        "label": null,
+        "mask": null,
+        "show": null,
+        "showInputWidth": true
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": false,
+    "%vlocity_namespace%__Type__c": "Formula",
+    "Name": "SetMaintaianceReason",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/LoadGroup/Group/English/SetMaintaianceReason"
+}

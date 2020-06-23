@@ -1,0 +1,91 @@
+{
+    "AccountName": "Hunter Douglas Inc.",
+    "COBRADetails": {
+        "CD-Block": {
+            "ClientAllowsSamesexSpousesCoveredWSG": "Yes",
+            "Doesthisinformationapplytoallgroups": "Yes",
+            "IfNopleasespecify_WGS": "TEST",
+            "Ifyesindicateprobationaryperiod_WGS": "DH=DateHired",
+            "IsthereaWaitingPeriodforNewHires": "Yes",
+            "NotesCOBRA": "TEST",
+            "PremPaidforEachSubDepperMonth": 11,
+            "PremPaidforEachSubperMonth": 11
+        },
+        "COBRAAppliestoDomesticPartner?NASCO": null,
+        "ClientAllowsSamesexSpousesCovered": null
+    },
+    "Cal-Cobra": {
+        "Cal-CobraEligibleParticipants?": "Yes",
+        "WhowillhandleCalCOBRAbilling?": "Anthem"
+    },
+    "CaseName": "2018: Pre Work-Hunter Douglas Inc.",
+    "ChildMaxAgeLimit": {
+        "AgeandRuleDetails": "TEST",
+        "ApplytoAllPackages/Suffixe": "Yes",
+        "ChildMaxAgeLimit_Child": "End of Birthday Month",
+        "DefineAgeandRuleperPackage/Suffix": "26"
+    },
+    "ContextId": "801W0000000mgMoIAI",
+    "DisabledVerification": {
+        "ResponsibleforDisabledVerification?": "Anthem - Letters go to the Account"
+    },
+    "EligibilityDetails": {
+        "ED-Block": {
+            "Doesthisinformationapplytoallgroup": null,
+            "IfNopleasespecify": null,
+            "Ifyesindicateprobationaryperiod": null,
+            "IsthereaWaitingPeriodforNewHires?": null,
+            "Notes": null
+        },
+        "EDW-WGS-Block": {
+            "AdditionalDomPartnerDetail(WestOnly)": "STAT;STAC",
+            "COBRAAppliestoDomesticPartner?": "Yes",
+            "ExclusionsApply": "TEST"
+        },
+        "Enrollment&BillingImpacted?": "Yes"
+    },
+    "GroupClaimSystem": "WGS 2.0",
+    "Id": "801W0000000mgMoIAI",
+    "ImpCase": {
+        "FRM-AccountName1": "Hunter Douglas Inc.",
+        "FRM-Id1": "801W0000000mgMoIAI",
+        "FRM-Name1": "2018: Pre Work-Hunter Douglas Inc."
+    },
+    "RecordType": "EligibilityWGS",
+    "StudentMaxAgeLimitEligibility": {
+        "AgeandRuleDetailsStudents": "TEST",
+        "ApplytoAllPackages/Suffixes": "Yes",
+        "DefineAgeandRuleperPackage/Suffixforstudent": "26",
+        "IfDepreachesmaxageautoterminate?": "Yes",
+        "OveragedeptermItrsbemailedtosub?": "Yes",
+        "ResponsesReceivedby?": "Anthem",
+        "ResponsibleforStudentCertification?": "Anthem - Letters go to the Subscriber",
+        "StudentMaxAgeLimit": "Close"
+    },
+    "id": "a3CW0000000AnSRMA0",
+    "layout": "lightning",
+    "testContextId": "801W0000000mgMoIAI",
+    "timeStamp": "2018-01-14T06:14:03.126Z",
+    "userCurrencyCode": "USD",
+    "userId": "005W0000002nEcaIAE",
+    "userName": "ilugina@vlocity.com.prod.nal1b.dev",
+    "userProfile": "System Administrator",
+    "userTimeZone": null,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "COBRADetails": 14010,
+        "Cal-Cobra": 3695,
+        "ChildMaxAgeLimit": 6622,
+        "DRE-EligibilityDetailsToUpdate": 576,
+        "DRE-ICE": 547,
+        "DRP-Eligibility": 926,
+        "DisabledVerification": 2633,
+        "EligibilityDetails": 8545,
+        "Finish": 5425,
+        "ImpCase": 1831,
+        "OmniScriptSessionToken": "003d209c-4680-41e5-84b1-721d0ac0c9fe",
+        "SV-Eligibility": 6,
+        "StudentMaxAgeLimitEligibility": 12408
+    }
+}

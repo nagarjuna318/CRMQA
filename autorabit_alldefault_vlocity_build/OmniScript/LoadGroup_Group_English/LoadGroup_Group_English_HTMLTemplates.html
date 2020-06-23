@@ -1,0 +1,108 @@
+<style>
+.via-slds.via-omni .vlc-slds-block .vlc-slds-control-action__container[vlc-bubble-canceller]>span:last-child {
+    display: none;
+}
+.via-slds.via-omni .slds-col--padded.slds-size--1-of-1.alt-vlc-slds--control ng-form>label[for].slds-form-element__label:first-child>svg {
+  display:none;
+}
+
+.via-slds.via-omni .slds-form-element>.vlc-slds-control-action__container:first-child svg {
+    display: none;
+}
+.via-slds.via-omni .slds-form-element__control>div.vlc-control-wrapper>input, .via-slds.via-omni .slds-form-element__control>div.vlc-control-wrapper>textarea {
+    resize : none;
+    text-align : start;
+   
+    vertical-align : left;
+}
+
+.via-slds.via-omni .vlc-slds-block div[vlc-slds-toggle-elem=visible]>.vlc-slds-control-action__container {
+    display : none;
+}
+
+#MedicalPlans > div > div > div.vlc-slds-control-action__container.ng-scope{
+	display: none;
+}
+#DentalPlans > div > div > div.vlc-slds-control-action__container.ng-scope{
+display: none;
+}
+#VisionPlans > div > div > div.vlc-slds-control-action__container.ng-scope{
+display: none;
+}
+#a3Z3B0000009ckXUAQ-2 > div.slds-col--padded.slds-size--1-of-1.slds-m-top--medium.slds-m-bottom--medium > div > div.vlc-slds--tertiary-container > div
+{
+display: none;
+}
+</style>
+
+<script type="text/ng-template" id="vlcUpdateSave.html">
+      <div class="slds-grid slds-wrap slds-grid--pull-padded">
+	  <div class="slds-col--padded slds-large-size--2-of-12">
+            <button class="slds-button slds-button_brand slds-align_absolute-left" confirmed-click="cancel()" ng-confirm-click="Are you sure?"  style="background-color: #00609A;width: 117px;color: white;">Cancel</button>
+        </div>
+		<div class="slds-col--padded slds-large-size--1-of-12"></div>
+<div class="slds-col--padded slds-large-size--2-of-12">
+            <button class="slds-button slds-button_brand slds-align_absolute-left" ng-click="nextRepeater(bpTree.children[bpTree.asIndex].nextIndex,
+			bpTree.children[bpTree.asIndex].indexInParent,null,null,false);" confirmed-click="cancel()" ng-confirm-click="Are you sure?"
+			style="background-color: #00609A;width: 117px;color: white;">Save</button>
+        </div>
+<div class="slds-col--padded slds-large-size--1-of-12"></div>
+<div class="slds-col--padded slds-large-size--6-of-12">
+            <button class="slds-button slds-button_brand slds-align_absolute-right" ng-click="nextRepeater(bpTree.children[bpTree.asIndex].nextIndex,
+			bpTree.children[bpTree.asIndex].indexInParent,null,null,false);"confirmed-click="cancel()" ng-confirm-click="Are you sure?" 
+			style="background-color: #00609A;width: 350px;color: white;">Submit Group Load</button>
+        </div>   
+</div>   
+    </script>
+	</script>
+	<script type="text/ng-template" id="vlcUpdateSave1.html">
+      <div class="slds-grid slds-wrap slds-grid--pull-padded">
+	  <div class="slds-col--padded slds-large-size--2-of-12">
+            <button class="slds-button slds-button_brand slds-align_absolute-left" confirmed-click="cancel()" ng-confirm-click="Are you sure?"  style="background-color: #00609A;width: 117px;color: white;">Cancel</button>
+        </div>
+		<div class="slds-col--padded slds-large-size--1-of-12"></div>
+	
+<div class="slds-col--padded slds-large-size--2-of-12">
+            <button class="slds-button slds-button_brand slds-align_absolute-left" ng-click="nextRepeater(bpTree.children[bpTree.asIndex].nextIndex, bpTree.children[bpTree.asIndex].indexInParent,null,null,false);" style="background-color: #00609A;width: 117px;color: white;">save</button>
+        </div>
+		
+		
+	 
+	 <div class="slds-col--padded slds-large-size--1-of-12"></div>
+<div class="slds-col--padded slds-large-size--6-of-12">
+            <button class="slds-button slds-button_brand slds-align_absolute-right" ng-click="nextRepeater(bpTree.children[bpTree.asIndex].nextIndex, bpTree.children[bpTree.asIndex].indexInParent,null,null,false);" style="background-color: #00609A;width: 340px;color: white;">Submit Group Load</button>
+        </div>
+		 
+		 <div class="slds-col--padded slds-large-size--1-of-12"></div>
+<div class="slds-col--padded slds-large-size--6-of-12">
+            <button class="slds-button slds-button_brand slds-align_absolute-right" ng-click="saveForLater(bpTree.children[bpTree.asIndex], true);" style="background-color: #00609A;align:"center";width: 220px;color: white;">save for later</button>
+        </div>
+
+    </script>
+	<script type="text/ng-template" id="vlcUpdateSave2.html">
+      <div class="slds-grid slds-wrap slds-grid--pull-padded">
+	  		
+	 
+	 <div class="slds-col--padded slds-large-size--7-of-12"></div>
+<div class="slds-col--padded slds-large-size--5-of-12" align="center">
+            <button class="slds-button slds-button_brand slds-align_absolute-" ng-click="nextRepeater(bpTree.children[bpTree.asIndex].nextIndex, bpTree.children[bpTree.asIndex].indexInParent,null,null,false);" style="background-color: #00609A;width: 340px;color: white;">Submit Group Load</button>
+        </div>
+		 
+		 
+
+    </script>
+<apex:includeScript value="/support/console/26.0/integration.js"/>
+<script type="text/ng-template" id="closetab.html">
+	sforce.console.getEnclosingTabId(closeSubtab);
+
+	var closeSubtab = function closeSubtab(result) {
+       
+            //Now that we have the tab ID, we can close it
+            var tabId = result.id;
+            sforce.console.closeSubTab(tabId);
+           
+        };
+   
+                   
+        
+</script>

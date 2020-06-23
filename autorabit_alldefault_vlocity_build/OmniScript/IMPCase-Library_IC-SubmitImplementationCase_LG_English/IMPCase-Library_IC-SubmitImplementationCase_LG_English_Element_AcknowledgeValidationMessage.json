@@ -1,0 +1,121 @@
+{
+    "%vlocity_namespace%__Active__c": true,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "IMPCase Library/IC-SubmitImplementationCase_LG",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/IMPCase Library/IC-SubmitImplementationCase_LG/English",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__ParentElementId__c": {
+        "%vlocity_namespace%__OmniScriptId__c": {
+            "Name": "IMPCase Library/IC-SubmitImplementationCase_LG",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/IMPCase Library/IC-SubmitImplementationCase_LG/English",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+        },
+        "Name": "SubmitImplementationCaseLocal",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/IMPCase Library/IC-SubmitImplementationCase_LG/English/SubmitImplementationCaseLocal",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c"
+    },
+    "%vlocity_namespace%__ParentElementName__c": "SubmitImplementationCaseLocal",
+    "%vlocity_namespace%__ParentElementType__c": "Step",
+    "%vlocity_namespace%__PropertySet__c": {
+        "HTMLTemplateId": "",
+        "controlWidth": 12,
+        "disOnTplt": false,
+        "hideLabel": true,
+        "label": "AcknowledgeValidationMessage",
+        "messages": [
+            {
+                "active": false,
+                "text": "",
+                "type": "Success",
+                "value": true
+            },
+            {
+                "active": true,
+                "text": "QA has not been completed, and you have not acknowledged you are bypassing the process. Please acknowledge you are bypassing the QA Process or cancel the ICR submission and complete the QA Process before proceeding",
+                "type": "Requirement",
+                "value": false
+            }
+        ],
+        "show": {
+            "group": {
+                "operator": "AND",
+                "rules": [
+                    {
+                        "condition": "=",
+                        "data": null,
+                        "field": "QACompletedDate"
+                    },
+                    {
+                        "group": {
+                            "operator": "OR",
+                            "rules": [
+                                {
+                                    "condition": "=",
+                                    "data": "LG_New_Business",
+                                    "field": "ImplementationCaseRecordType"
+                                },
+                                {
+                                    "condition": "=",
+                                    "data": "LG_New_Business_Lock",
+                                    "field": "ImplementationCaseRecordType"
+                                },
+                                {
+                                    "condition": "=",
+                                    "data": "LG_New_Business_ReadOnly",
+                                    "field": "ImplementationCaseRecordType"
+                                },
+                                {
+                                    "condition": "=",
+                                    "data": "LG_New_Business_Unlock",
+                                    "field": "ImplementationCaseRecordType"
+                                },
+                                {
+                                    "condition": "=",
+                                    "data": "LG_Renewals",
+                                    "field": "ImplementationCaseRecordType"
+                                },
+                                {
+                                    "condition": "=",
+                                    "data": "LG_Renewal_Lock",
+                                    "field": "ImplementationCaseRecordType"
+                                },
+                                {
+                                    "condition": "=",
+                                    "data": "LG_Renwal_Unlock",
+                                    "field": "ImplementationCaseRecordType"
+                                },
+                                {
+                                    "condition": "=",
+                                    "data": "LG_Local_and_National_Renewals_ReadOnly",
+                                    "field": "ImplementationCaseRecordType"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        },
+        "validateExpression": {
+            "group": {
+                "operator": "AND",
+                "rules": [
+                    {
+                        "condition": "=",
+                        "data": "true",
+                        "field": "AcknowledgeQABypass"
+                    }
+                ]
+            }
+        }
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": false,
+    "%vlocity_namespace%__Type__c": "Validation",
+    "Name": "AcknowledgeValidationMessage",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/IMPCase Library/IC-SubmitImplementationCase_LG/English/AcknowledgeValidationMessage"
+}

@@ -1,0 +1,117 @@
+{
+    "ContextId": "0Q0W0000000HCJMKA4",
+    "IMP-ProgramStages": [
+        "Dead",
+        "In Progress",
+        "Lost",
+        "Sold"
+    ],
+    "OppDetails": {
+        "Frm-ImpType": null,
+        "Frm-OpportunityName": "2018 New Business-Hunter Douglas Inc.",
+        "Frm-OpportunityType": "New Business"
+    },
+    "OpportunityDetails": {
+        "OpportunityName": "2018 New Business-Hunter Douglas Inc.",
+        "OpportunityType": "New Business"
+    },
+    "Products Inprogress": {
+        "QuoteDetails": [
+            {
+                "$$hashKey": "object:344",
+                "Id": "0QLW0000000VWkbOAG",
+                "ProductName": "Health and Wellness - Telehealth - Other Vendor",
+                "ProductStage": "In Progress",
+                "vlcBundleStage": "Dead",
+                "vlcSelected": true
+            },
+            {
+                "$$hashKey": "object:345",
+                "Id": "0QLW0000000VWkcOAG",
+                "ProductName": "Mobile Health Consumer (Core Plus)",
+                "ProductStage": "In Progress",
+                "vlcBundleStage": "Sold",
+                "vlcSelected": true
+            }
+        ]
+    },
+    "Products Lost": {
+        "QuoteDetailsLost": [
+            {
+                "$$hashKey": "object:425",
+                "Id": "0QLW0000000VWklOAG",
+                "ProductName": "Medicare - Dental",
+                "ProductStage": "Lost",
+                "vlcBundleStage": "Sold",
+                "vlcSelected": true
+            },
+            {
+                "$$hashKey": "object:428",
+                "Id": "0QLW0000000VWkWOAW",
+                "ProductName": "Anthem FlexHour Medical",
+                "ProductStage": "Dead",
+                "vlcBundleStage": "In Progress",
+                "vlcSelected": true
+            }
+        ]
+    },
+    "Products Sold": {
+        "QuoteDetailsSold": [
+            {
+                "$$hashKey": "object:407",
+                "Id": "0QLW0000000VWkvOAG",
+                "ProductName": "Pharmacy - Anthem Pharmacy Services",
+                "ProductStage": "Sold",
+                "vlcBundleStage": "In Progress",
+                "vlcSelected": true
+            }
+        ]
+    },
+    "Stage": "",
+    "VariableBundles": {
+        "BundleDetails": [
+            {
+                "$$hashKey": "object:515",
+                "BundleName": "AIM: A La Carte",
+                "OppType": "New Business",
+                "ProgramName": "Anthem Cancer Care Quality Program",
+                "ProgramStatus": "In Progress",
+                "QLId": "0QLW0000000VWlBOAW",
+                "vlcBundleStage": "Dead",
+                "vlcSelected": true
+            },
+            {
+                "$$hashKey": "object:521",
+                "BundleName": "AIM: A La Carte",
+                "OppType": "New Business",
+                "ProgramName": "Cardiology UM Model",
+                "ProgramStatus": "Lost",
+                "QLId": "0QLW0000000VWlHOAW",
+                "vlcBundleStage": "In Progress",
+                "vlcSelected": true
+            }
+        ]
+    },
+    "id": "a3CW0000000Ahm3MAC",
+    "layout": "lightning",
+    "timeStamp": "2017-12-12T16:16:19.560Z",
+    "userId": "005W0000002XquzIAC",
+    "userName": "shravani@chadda@eaglecrk.com.prod.nal1b.dev",
+    "userProfile": "System Administrator",
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "DRE-OpportunityDetails": 739,
+        "DRE-ProdcutsSold": 2159,
+        "DRE-ProductExtract": 1884,
+        "DRE-ProductsOthers": 2036,
+        "DRE-VariableBundles": 2584,
+        "OmniScriptSessionToken": "a380d8aa-a6bd-4b3c-80b6-7cdaed5e716d",
+        "OppDetails": 6340,
+        "Products Inprogress": 43731,
+        "Products Lost": 25774,
+        "Products Sold": 15609,
+        "ProgramStages": 12,
+        "SV-ContextId": 32
+    }
+}

@@ -1,0 +1,28 @@
+<div class="nds-size_1-of-1">
+    
+    <ng-form name='loopform'
+             class='nds-form-element nds-size_1-of-1 nds-m-bottom_large nds-p-around_small nds-rich-text-editor__output'
+             ng-repeat='control in child.eleArray' id='{{::control.name}}'>
+
+             <label for="{{::control.name}}" style="visibility:hidden">
+                    {{::control.propSetMap.label}}
+                    <span class='nds-required'
+                        ng-if='control.req'>*
+                    </span>
+                </label>
+
+        <div class="margin-top-10px nds-form-element__control" style="display: flex;">
+            <label for="{{::control.name}}">
+                    {{::control.propSetMap.label}}
+                    <span class='nds-required'
+                        ng-if='control.req'>*
+                    </span>
+                </label>
+            
+
+            <p vlc-bind-html='::control.propSetMap.value' class="effectiveDate_label"></p>
+        </div>
+
+    </ng-form>
+
+</div>

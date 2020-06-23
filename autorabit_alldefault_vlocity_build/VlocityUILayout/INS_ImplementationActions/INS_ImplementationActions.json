@@ -1,0 +1,33 @@
+{
+    "Cards": [
+        "Order Card Universal",
+        "Order Card Universal - Local"
+    ],
+    "dataSource": {
+        "contextVariables": [
+            {
+                "name": "params.id",
+                "val": "801S0000000UzxHIAS"
+            }
+        ],
+        "type": "Query",
+        "value": {
+            "jsonMap": "{\"params.id || params.Id\":\"{{params.id || params.Id}}\"}"
+        }
+    },
+    "metatagVars": [
+    ],
+    "previewType": "runTime",
+    "sessionVars": [
+    ],
+    "templates": {
+        "0": {
+            "templateUrl": "card-canvas-1x-slds-nosearch"
+        }
+    },
+    "workspace": [
+        "Order Card Universal/Anthem Commercial 2.0/null/1518116700843",
+        "IC Actions/Anthem Commercial 2.0/null/1518186113073",
+        "Order Card Universal - Local/Anthem Commercial 2.0/1/1559556215846"
+    ]
+}

@@ -1,0 +1,62 @@
+{
+    "AddRevisionReasons": {
+        "AddDescription": null,
+        "AddDoesChangeImpactBenefitBooklets": null,
+        "AddDoesChangeImpactSBCs": null,
+        "AddImpactedPackages/Suffixes/Sections": null,
+        "RevisionReasons": null,
+        "RevisionType": null
+    },
+    "ContextId": null,
+    "CurrentRevisionsReasons": {
+        "AddRevisionreasons": null,
+        "RevisionReason": {
+            "Description": null,
+            "DoesChangeImpactBenefitBooklets": null,
+            "DoesChangeImpactSBCs": null,
+            "ImpactedPackages/Suffixes/Sections": null,
+            "RRevisionReasons": null,
+            "RevisionReasonType": null
+        }
+    },
+    "End": {
+    },
+    "FileAttachment": {
+        "UploadAttachment": [
+            {
+                "data": null,
+                "filename": null,
+                "size": null
+            }
+        ]
+    },
+    "Revision": {
+        "Comments": null,
+        "ReturnReason": null,
+        "RevisionRecordStatus": null
+    },
+    "Submit": {
+        "SubmitRevision": null
+    },
+    "timeStamp": null,
+    "userId": null,
+    "userName": null,
+    "userProfile": null,
+    "userTimeZone": null,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "AddRevisionReasons": null,
+        "CurrentRevisionsReasons": null,
+        "DA-End": null,
+        "DR-RevisionUpadate": null,
+        "DRE-FileAttachment": null,
+        "DRE-RevisionDetails": null,
+        "End": null,
+        "FileAttachment": null,
+        "Revision": null,
+        "SV-ContextId": null,
+        "SV-RevisionDetails": null,
+        "Submit": null
+    }
+}

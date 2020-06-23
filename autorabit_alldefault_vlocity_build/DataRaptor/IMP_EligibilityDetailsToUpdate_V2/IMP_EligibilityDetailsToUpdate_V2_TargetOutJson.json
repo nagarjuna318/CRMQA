@@ -1,0 +1,92 @@
+{
+    "COBRADetails": {
+        "CD-Block": {
+            "ClientAllowsSamesexSpousesCoveredWSG": null,
+            "Doesthisinformationapplytoallgroups": null,
+            "IfNopleasespecify_WGS": null,
+            "Ifyesindicateprobationaryperiod_WGS": null,
+            "IsthereaWaitingPeriodforNewHires": null,
+            "NotesCOBRA": null,
+            "PremPaidforEachSubDepperMonth": null,
+            "PremPaidforEachSubperMonth": null
+        },
+        "COBRAAppliestoDomesticPartner?NASCO": null,
+        "ClientAllowsSamesexSpousesCovered": null
+    },
+    "Cal-Cobra": {
+        "Cal-CobraEligibleParticipants?": null,
+        "WhowillhandleCalCOBRAbilling?": null
+    },
+    "ChildMaxAgeLimit": {
+        "AgeandRuleDetails": null,
+        "ApplytoAllPackages/Suffixe": null,
+        "ChildMaxAgeLimit_Child": null,
+        "DefineAgeandRuleperPackage/Suffix": null
+    },
+    "ContextId": null,
+    "DisabledVerification": {
+        "ResponsibleforDisabledVerification?": null
+    },
+    "EligibilityDetails": {
+        "ED-Block": {
+            "Doesthisinformationapplytoallgroup": null,
+            "IfNopleasespecify": null,
+            "Ifyesindicateprobationaryperiod": null,
+            "IsthereaWaitingPeriodforNewHires?": null,
+            "Notes": null
+        },
+        "EDW-WGS-Block": {
+            "AdditionalDomPartnerDetail(WestOnly)": null,
+            "COBRAAppliestoDomesticPartner?": null,
+            "ExclusionsApply": null
+        },
+        "Enrollment&amp;BillingImpacted": null,
+        "Enrollment&amp;BillingImpacted?": null
+    },
+    "Finish": {
+    },
+    "IDCards": {
+        "AtwhatlevelwillIDcardsbegenerated": null,
+        "Variancesbypackagespecifyhere": null
+    },
+    "ImpCase": {
+        "FRM-AccountName1": null,
+        "FRM-ClaimSystem": null,
+        "FRM-EligibilityName": null,
+        "FRM-Id1": null,
+        "FRM-Name1": null
+    },
+    "StudentMaxAgeLimitEligibility": {
+        "AgeandRuleDetailsStudents": null,
+        "ApplytoAllPackages/Suffixes": null,
+        "DefineAgeandRuleperPackage/Suffixforstudent": null,
+        "IfDepreachesmaxageautoterminate?": null,
+        "OveragedeptermItrsbemailedtosub?": null,
+        "ResponsesReceivedby?": null,
+        "ResponsibleforStudentCertification?": null,
+        "StudentMaxAgeLimit": null
+    },
+    "timeStamp": null,
+    "userId": null,
+    "userName": null,
+    "userProfile": null,
+    "userTimeZone": null,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "COBRADetails": null,
+        "Cal-Cobra": null,
+        "ChildMaxAgeLimit": null,
+        "DA-Eligibility": null,
+        "DRE-EligibilityDetailsToUpdate": null,
+        "DRE-ICE": null,
+        "DRP-Eligibility": null,
+        "DisabledVerification": null,
+        "EligibilityDetails": null,
+        "Finish": null,
+        "IDCards": null,
+        "ImpCase": null,
+        "SV-Eligibility": null,
+        "StudentMaxAgeLimitEligibility": null
+    }
+}

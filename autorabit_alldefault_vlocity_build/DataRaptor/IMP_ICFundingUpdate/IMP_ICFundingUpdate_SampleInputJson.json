@@ -1,0 +1,82 @@
+{
+    "BillingContactsEntityLevel": {
+        "DifferentContactsAt suffix level?": null,
+        "IfYesPleaseExplain": null
+    },
+    "CobraWestOnly": {
+        "CobraBillGoToGroupOrCobraTPA": null,
+        "CobraPremiumPaidByGroupOrTPA": null,
+        "CobraTPAUsingNonBCEnrollmentForm": null
+    },
+    "ContextId": null,
+    "Finish": {
+        "FR-FinishMessage": null
+    },
+    "Funding": {
+        "IncludeHCIDNumberOnTheInvoice": null,
+        "MoreThanOneBillEntity": null,
+        "PremiumRecdFromMoreThanOneSource": null
+    },
+    "ImplementationCase": {
+        "FR-AccountId": null,
+        "FR-AccountName": null,
+        "FR-FundingName": null
+    },
+    "StopLossCarrierNameContactInformation": {
+        "ChangeToAnAlternativeFundingAccount": null,
+        "CommunicationAllowanceForMarketing": null,
+        "SL-AdditionalComments": null,
+        "SL-City": null,
+        "SL-ContactName": null,
+        "SL-Phone": null,
+        "SL-State": null,
+        "SL-StreetAddress": null,
+        "SL-ZipCode": null,
+        "StopLossPlanDescription": null,
+        "StoppLossCarrierName": null
+    },
+    "TPAContactInformation": {
+        "FR-TPACity": null,
+        "FR-TPAPhone": null,
+        "FR-TPAState": null,
+        "FR-TPAStreetAddress": null,
+        "FR-TPAZipCode": null,
+        "TPAContactName-Block": {
+            "TPAContactName": null
+        }
+    },
+    "TypeofFunding": {
+        "ReinsuranceCarrierName": null,
+        "ReinsuranceContactName": null,
+        "SelfFundedWithReinsurance": null,
+        "TOF-AdditionalComments": null,
+        "TOF-City": null,
+        "TOF-Phone": null,
+        "TOF-State": null,
+        "TOF-StreetAddress": null,
+        "TOF-ZipCode": null
+    },
+    "timeStamp": null,
+    "userId": null,
+    "userName": null,
+    "userProfile": null,
+    "userTimeZone": null,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "BillingContactsEntityLevel": null,
+        "CobraWestOnly": null,
+        "DA-Funding": null,
+        "DR-FundingDetailExtract": null,
+        "DR-FundingLoad": null,
+        "DR-ImplentationCaseExtract": null,
+        "DataRaptorPostAction2": null,
+        "Finish": null,
+        "Funding": null,
+        "ImplementationCase": null,
+        "SV-PresetData": null,
+        "StopLossCarrierNameContactInformation": null,
+        "TPAContactInformation": null,
+        "TypeofFunding": null
+    }
+}

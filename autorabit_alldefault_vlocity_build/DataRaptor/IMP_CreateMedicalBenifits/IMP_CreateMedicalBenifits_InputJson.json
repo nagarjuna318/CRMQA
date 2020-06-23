@@ -1,0 +1,85 @@
+{
+    "AccountName": "0015B00000T0fMQQAZ",
+    "AcntGroup": "51 - 99",
+    "ApprovedByOut": false,
+    "ContextId": "8015B000000Y3lEQAS",
+    "DRId_Implementation_Tracking__c": "a7X5B0000004ZYPUA2",
+    "DRId_Order": "8015B000000Y3lEQAS",
+    "DoesAnthemProdBenefitSME": "Yes",
+    "DoesAnthemProdSME": "Yes",
+    "DoesThisRequireANewBenefitSME": "Yes",
+    "FilteredAutoDepts": [
+    ],
+    "IMPTrackingRecordType": "Local NASCO and WGS",
+    "ImplementationCaseId": "8015B000000Y3lEQAS",
+    "ImplementationType": "New Business",
+    "IntakeGroupTerm": false,
+    "IntakeRetro": "false",
+    "ProductEffectiveDate": "2019-01-01",
+    "QLI": [
+        {
+            "Financing": "JAA (Jointly Administered Arrangement)",
+            "Funding": "FI",
+            "QuoteLineItemId": "0QL5B000000kNI4WAM",
+            "QuoteLineItemProductName": "Engage Elite"
+        },
+        {
+            "Financing": "Percent of Savings",
+            "Funding": "ASO",
+            "QuoteLineItemId": "0QL5B000000kNHvWAM",
+            "QuoteLineItemProductName": "Engage Elite"
+        }
+    ],
+    "Quoteidforlineitem": "0Q05B000000EkCjSAK",
+    "STAutoDepartment": {
+        "SIAutoDepartment": null
+    },
+    "STConfirmation": {
+        "FR-ProductEffectiveDate": "2019-01-01"
+    },
+    "STManualDepartment": {
+        "ContractFormula": 0,
+        "DentalFormula": 0,
+        "EnrollmentandBillingFormula": 0,
+        "Formula13": "51 - 99",
+        "IDCardsFormula": 0,
+        "InterplanFormula": 0,
+        "IssueControlFormula": 0,
+        "MedicalBenefitsFormula": 0,
+        "RxFormula": 0,
+        "SBCFormula": 0,
+        "SIManualDepartment": null,
+        "UnderwritingFormula": 0,
+        "VisionFormula": 0
+    },
+    "SelectionReport": "No",
+    "UsrProfile": "PT1",
+    "WantTheSBCCreatedBySME": "No",
+    "claimSystem": "WGS 2.0",
+    "error": "OK",
+    "existingShiftJaa": "false",
+    "id": "a3C5B000000A4pmUAC",
+    "testContextId": "8015B000000Y3lEQAS",
+    "timeStamp": "2018-08-03T02:13:51.380Z",
+    "userCurrencyCode": "USD",
+    "userId": "0055B000001O1uwQAC",
+    "userName": "schadda@anthem.com2.iceconfig",
+    "userProfile": "System Administrator",
+    "userTimeZone": -240,
+    "verticalmode": true,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "CreateIMPTracking": 620,
+        "DR-IMPLCaseExtract": 8590,
+        "DR-SMEApprovalLoad": 5879,
+        "OmniScriptSessionToken": "91b3def8-54f1-4c8f-9a24-ed4487603828",
+        "RA-SMEApprovaLoad": 5849,
+        "RA-SMEApprovalExtract": 1510,
+        "STAutoDepartment": 17333,
+        "STConfirmation": 1444,
+        "STManualDepartment": 18017,
+        "SV-Department": 30,
+        "SV-PresetData": 86
+    }
+}

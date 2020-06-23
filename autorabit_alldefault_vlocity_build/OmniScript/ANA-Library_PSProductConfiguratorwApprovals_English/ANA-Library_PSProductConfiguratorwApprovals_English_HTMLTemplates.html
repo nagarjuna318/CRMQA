@@ -1,0 +1,328 @@
+<style>
+.via-slds .slds-checkbox [type=checkbox]:checked+.slds-checkbox--faux:before, .via-slds .slds-checkbox [type=checkbox]:checked+.slds-checkbox__label .slds-checkbox--faux:before, .via-slds .slds-checkbox [type=checkbox]:checked~.slds-checkbox--faux:before{
+   content:'';
+   position:absolute;
+   width:15px;
+   height:15px;
+   background:#1589ee;
+}
+
+.via-slds .slds-checkbox [type=checkbox]:checked+.slds-checkbox--faux:after, .via-slds .slds-checkbox [type=checkbox]:checked+.slds-checkbox__label .slds-checkbox--faux:after, .via-slds .slds-checkbox [type=checkbox]:checked~.slds-checkbox--faux:after{
+   display:block;
+   content:'';
+   height:.25rem;
+   width:.5rem;
+   position:absolute;
+   top:50%;
+   left:50%;
+   transform:translate3d(-50%,-50%,0) rotate(-45deg);
+    border-bottom: 2px solid #fff;
+    border-left: 2px solid #fff;
+}
+</style>
+
+<style>
+#ConfigureProgramSetValues {
+    display: none !important;
+    border: 1px solid #d8dde6;
+    border-radius: 5px;
+    margin-top: -8px;
+}
+#ConfigureProgramSetValues child {
+    width: 100%;
+}
+#ConfigureProgramSetValues .vlc-slds-remote-action--button .vlc-control-wrapper .slds-box {
+    background-color: transparent;
+    padding: 9px;
+}
+#ConfigureProgramSetValues .vlc-slds-remote-action--button .vlc-control-wrapper .slds-box p {
+    color: #00396b;
+    text-align: left;
+}
+#vlcSetValueTextBox input{
+    background-color: #fff;
+    color: #16325c !important;
+    border: 1px solid #d8dde6 !important;
+    border-radius: .25rem;
+    width: 100%;
+    transition: border .1s linear,background-color .1s linear;
+    height: calc(1.875rem + (1px * 2));
+}
+#vlcSetValueDropdownBlock {
+    position: absolute;
+    background-color: #fff;
+    z-index: 10;
+}
+</style>
+
+<script type="text/ng-template" id="vlcSetValueDropdownBlock.html">
+  <div class="slds-col--padded slds-size--1-of-1" onclick="hideSetValues()"  id="vlcSetValueDropdownBlock">
+
+      <ng-form name='loopform'
+               class='slds-form-element vlc-flex slds-clearfix vlc-slds-block'
+               id ='{{::control.name}}'
+               ng-repeat='control in child.eleArray' >
+
+          <div class="slds-form-element__control">
+
+              <!-- add block label -->
+              <label vlc-slds-toggle="toggle"
+                     class="slds-form-element__label slds-clearfix" ng-if="::control.propSetMap.label">
+
+                  <slds-svg-icon aria-hidden="true"
+                                 sprite="'utility'"
+                                 icon="'chevrondown'"
+                                 size="'small'"
+                                 extra-classes="'vlc-slds-collapse slds-button__icon slds-button__icon--large'">
+                  </slds-svg-icon>
+
+                  <slds-svg-icon aria-hidden="true"
+                                 sprite="'utility'"
+                                 icon="'chevronup'"
+                                 size="'small'"
+                                 extra-classes="'vlc-slds-expand slds-button__icon slds-button__icon--large'">
+                  </slds-svg-icon>
+
+
+                  <div class="slds-form-element__label--toggleText">
+                      {{::control.propSetMap.label}}
+                      <span ng-if='!( $first && $last )'>{{control.index+1}}</span>
+                  </div>
+                  
+                  <div class="vlc-slds-control-action__container" vlc-bubble-canceller="testing">
+
+                      <span ng-if='::control.propSetMap.repeat'
+                            ng-click='baseCtrl.addItem(this, child, $index)'
+                            aria-hidden="true">
+                          {{::customLabels.OmniAdd}}
+                      </span>
+
+                      <span ng-if='child.eleArray.length > 1'
+                            ng-click='removeDomElement(this, child, $index)'
+                            vlc-slds-remove-item="ng-form.vlc-slds-block"
+                            aria-hidden="true">
+                          {{::customLabels.OmniDelete}}
+                      </span>
+
+                  </div>
+
+              </label>
+
+              
+              <!-- block withing the main grid  ng-hide hides hthe block by default-->
+              <div class='slds-size--1-of-1 ng-hide'
+                   vlc-slds-toggle-elem='visible'>
+
+                  <div class="vlc-slds-control-action__container" vlc-bubble-canceller="test" ng-if="::!control.propSetMap.label">
+
+                      <span ng-if='::control.propSetMap.repeat'
+                            ng-click='baseCtrl.addItem(this, child, $index)'
+                            aria-hidden="true">
+                          {{::customLabels.OmniAdd}}
+                      </span>
+
+                      <span ng-if='child.eleArray.length > 1'
+                            ng-click='removeDomElement(this, child, $index)'
+                            vlc-slds-remove-item="ng-form.vlc-slds-block"
+                            aria-hidden="true">
+                          {{::customLabels.OmniDelete}}
+                      </span>
+
+                  </div>
+
+                  <div  class="slds-grid slds-wrap slds-grid--pull-padded">
+                      <child class="slds-size--1-of-1 slds-medium--1-of-1 slds-large-size--{{child.eleArray[0].propSetMap.controlWidth}}-of-12"
+                             ng-repeat='child in ::children = control.children'
+                             ng-show='::!child.eleArray[0].propSetMap.hide'
+                             ng-if='child.eleArray[0].propSetMap.hide||(!child.eleArray[0].propSetMap.show || evaluateShow(child.eleArray[0], this))'>
+                      </child>
+                  </div>
+              </div>
+
+          </div>
+
+      </ng-form>
+
+  </div>
+</script>
+
+<script type="text/ng-template" id="vlcSetValueDropdownBlock.html">
+  <div class="slds-col--padded slds-size--1-of-1" onclick="hideSetValues()"  id="vlcSetValueDropdownBlock">
+
+      <ng-form name='loopform'
+               class='slds-form-element vlc-flex slds-clearfix vlc-slds-block'
+               id ='{{::control.name}}'
+               ng-repeat='control in child.eleArray' >
+
+          <div class="slds-form-element__control">
+
+              <!-- add block label -->
+              <label vlc-slds-toggle="toggle"
+                     class="slds-form-element__label slds-clearfix" ng-if="::control.propSetMap.label">
+
+                  <slds-svg-icon aria-hidden="true"
+                                 sprite="'utility'"
+                                 icon="'chevrondown'"
+                                 size="'small'"
+                                 extra-classes="'vlc-slds-collapse slds-button__icon slds-button__icon--large'">
+                  </slds-svg-icon>
+
+                  <slds-svg-icon aria-hidden="true"
+                                 sprite="'utility'"
+                                 icon="'chevronup'"
+                                 size="'small'"
+                                 extra-classes="'vlc-slds-expand slds-button__icon slds-button__icon--large'">
+                  </slds-svg-icon>
+
+
+                  <div class="slds-form-element__label--toggleText">
+                      {{::control.propSetMap.label}}
+                      <span ng-if='!( $first && $last )'>{{control.index+1}}</span>
+                  </div>
+                  
+                  <div class="vlc-slds-control-action__container" vlc-bubble-canceller="testing">
+
+                      <span ng-if='::control.propSetMap.repeat'
+                            ng-click='baseCtrl.addItem(this, child, $index)'
+                            aria-hidden="true">
+                          {{::customLabels.OmniAdd}}
+                      </span>
+
+                      <span ng-if='child.eleArray.length > 1'
+                            ng-click='removeDomElement(this, child, $index)'
+                            vlc-slds-remove-item="ng-form.vlc-slds-block"
+                            aria-hidden="true">
+                          {{::customLabels.OmniDelete}}
+                      </span>
+
+                  </div>
+
+              </label>
+
+              
+              <!-- block withing the main grid  ng-hide hides hthe block by default-->
+              <div class='slds-size--1-of-1 ng-hide'
+                   vlc-slds-toggle-elem='visible'>
+
+                  <div class="vlc-slds-control-action__container" vlc-bubble-canceller="test" ng-if="::!control.propSetMap.label">
+
+                      <span ng-if='::control.propSetMap.repeat'
+                            ng-click='baseCtrl.addItem(this, child, $index)'
+                            aria-hidden="true">
+                          {{::customLabels.OmniAdd}}
+                      </span>
+
+                      <span ng-if='child.eleArray.length > 1'
+                            ng-click='removeDomElement(this, child, $index)'
+                            vlc-slds-remove-item="ng-form.vlc-slds-block"
+                            aria-hidden="true">
+                          {{::customLabels.OmniDelete}}
+                      </span>
+
+                  </div>
+
+                  <div  class="slds-grid slds-wrap slds-grid--pull-padded">
+                      <child class="slds-size--1-of-1 slds-medium--1-of-1 slds-large-size--{{child.eleArray[0].propSetMap.controlWidth}}-of-12"
+                             ng-repeat='child in ::children = control.children'
+                             ng-show='::!child.eleArray[0].propSetMap.hide'
+                             ng-if='child.eleArray[0].propSetMap.hide||(!child.eleArray[0].propSetMap.show || evaluateShow(child.eleArray[0], this))'>
+                      </child>
+                  </div>
+              </div>
+
+          </div>
+
+      </ng-form>
+
+  </div>
+</script>
+
+<script type="text/ng-template" id="vlcSetValueTextBox.html">
+
+    <div class="slds-col--padded slds-size--1-of-1" onclick="showSetValues()" id="vlcSetValueTextBox">
+
+        <ng-form name='loopform'
+                 class='slds-form-element vlc-slds-formula'
+                 ng-repeat='control in child.eleArray'>
+
+            <div class="slds-col" ng-hide="::control.propSetMap.hide">
+
+                <div vlc-slds-include="vlcLabelController.html"></div>
+
+                <div class="slds-form-element__control slds-input-has-icon slds-has-input-has-icon--right">
+                    <div class="vlc-control-wrapper">
+
+                        <input id='{{::control.name}}'
+                               type='text'
+                               name='loopname'
+                               ng-model='control.response'
+                               class='slds-input'
+                               ng-if="control.propSetMap.dataType != 'Number' && 
+                                      control.propSetMap.dataType != 'Date' && 
+                                      control.propSetMap.dataType != 'Currency' &&
+                                      performCalculation(this, control)"
+                               vlc-slds-readonly="test" />
+
+                        <input id='{{::control.name}}'
+                               type='text'
+                               name='loopname'
+                               ng-if="control.propSetMap.dataType == 'Currency' && performCalculation(this, control)"
+                               ng-model='control.response'
+                               class='slds-input vlc-slds-currency'
+                               via-mask='::control.propSetMap.mask'
+                               vlc-slds-readonly="test"
+                               autocomplete="off" />
+
+                        <input id='{{::control.name}}'
+                               type='text'
+                               ng-if="control.propSetMap.dataType == 'Date' && performCalculation(this, control)"
+                               class='slds-input'
+                               ng-model='control.response'
+                               name='loopname'
+                               name='date'
+                               vlc-slds-date-picker="bottom left"
+                               vlc-date-format ="{{::control.propSetMap.dateFormat}}"
+                               vlc-slds-date-picker="test"
+                               vlc-slds-readonly="test"
+                               vlc-disable-auto-complete="off" />
+
+                        <input id='{{::control.name}}'
+                               type='text'
+                               name='loopname'
+                               ng-model='control.response'
+                               class='slds-input'
+                               ng-if="control.propSetMap.dataType == 'Number' && performCalculation(this, control)"
+                               via-mask='::control.propSetMap.mask'
+                               vlc-slds-readonly="test"
+                               autocomplete="off" />
+
+                        
+                        <label class='slds-form-element__label'>{{::control.propSetMap.label}}
+                            <span class='vlc-asterix icon-v-asterix'
+                                  ng-if='control.req'>
+                            </span>
+                        </label>
+
+    		   <!--<p class='vlc-slds-currency-symbol'>{{::control.propSetMap.currencySymbol}}</p>-->
+
+                        <small class='helpText description'>
+                            {{::control.propSetMap.helpText}}
+                        </small>
+
+                    </div>
+
+                    <svg aria-hidden="true" class="slds-icon slds-icon--small slds-button__icon slds-button__icon--large" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet" sprite="'utility'" icon="'down'" size="'small'" extra-classes="'slds-button__icon slds-button__icon--large'" viewBox="0 0 52 52">
+<path fill="inherit" xmlns="http://www.w3.org/2000/svg" d="m8.3 14h35.4c1 0 1.7 1.3 0.9 2.2l-17.3 21.2c-0.6 0.8-1.9 0.8-2.5 0l-17.5-21.2c-0.7-0.9-0.1-2.2 1-2.2z"></path>
+</svg>
+
+                    <!-- this is the error block -->
+                    <div ng-include="::errHTMLId"></div>
+
+                </div>
+            </div>
+
+        </ng-form>
+
+    </div>
+
+</script>

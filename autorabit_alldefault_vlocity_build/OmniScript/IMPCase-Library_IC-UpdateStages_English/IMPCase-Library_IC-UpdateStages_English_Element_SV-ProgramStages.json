@@ -1,0 +1,46 @@
+{
+    "%vlocity_namespace%__Active__c": true,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "UpdateStages",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/IMPCase Library/IC-UpdateStages/English",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__PropertySet__c": {
+        "HTMLTemplateId": "",
+        "controlWidth": 12,
+        "elementValueMap": {
+            "IC-OpptyRecordType": "=IF(EQUALS(%OpportunityDetails:OpportunityType%,'In Group Change'),ARRAY(['Dead', 'In Progress', 'Lost', 'Sold']),IF(EQUALS(%OpportunityDetails:OpportunityType%,'New Business'),ARRAY(['Dead', 'In Progress', 'Lost', 'Sold']),IF(EQUALS(%OpportunityDetails:OpportunityType%,'In Group Add Product'),ARRAY(['IGAP Dead', 'IGAP In Progress', 'IGAP Lost', 'IGAP Sold']),IF(EQUALS(%OpportunityDetails:OpportunityType%,'Renewal'),ARRAY(['In Progress', 'IGAP Dead', 'IGAP In Progress', 'IGAP Lost', 'IGAP Sold', 'Jeopardy', 'Renewed', 'Termed']),''))))",
+            "IMP-ProgramStages": "=IF(EQUALS(%OpportunityDetails:OpportunityType%,'In Group Change'),ARRAY(['Dead', 'In Progress', 'Lost', 'Sold']),IF(EQUALS(%OpportunityDetails:OpportunityType%,'New Business'),ARRAY(['Dead', 'In Progress', 'Lost', 'Sold']),IF(EQUALS(%OpportunityDetails:OpportunityType%,'In Group Add Product'),ARRAY(['IGAP Dead', 'IGAP In Progress', 'IGAP Lost', 'IGAP Sold']),IF(EQUALS(%OpportunityDetails:OpportunityType%,'Renewal'),ARRAY(['In Progress', 'IGAP Dead', 'IGAP In Progress', 'IGAP Lost', 'IGAP Sold', 'Jeopardy', 'Renewed', 'Termed']),''))))",
+            "Stage": "=%QuoteLineItem:ProductStage__c%"
+        },
+        "label": null,
+        "message": {
+        },
+        "show": {
+            "group": {
+                "operator": "AND",
+                "rules": [
+                    {
+                        "condition": "=",
+                        "data": "Customer",
+                        "field": "AccountRecordType"
+                    }
+                ]
+            }
+        },
+        "showPersistentComponent": [
+            false,
+            false
+        ],
+        "ssm": false,
+        "validationRequired": null,
+        "wpm": false
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": true,
+    "%vlocity_namespace%__Type__c": "Set Values",
+    "Name": "SV-ProgramStages",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/IMPCase Library/IC-UpdateStages/English/SV-ProgramStages"
+}

@@ -1,0 +1,25 @@
+{
+    "Cards": [
+        "RelationshipMap_Account2-account-contact-list"
+    ],
+    "dataSource": {
+        "contextVariables": [
+            {
+                "name": "params.id",
+                "val": "0014B00000PMGKvQAP"
+            }
+        ],
+        "type": "DataRaptor",
+        "value": {
+            "body": "[\n  {\n    \"id\": \"8bafe499-705d-4195-b392-c7fa80c5dbcc\",\n    \"name\": \"Dory Previn\",\n    \"email\": \"míchel_salgado@close.net\",\n    \"bio\": \"The fossa is unique within its family for the shape of its genitalia, which share traits with those of cats and hyenas.\",\n    \"age\": -72,\n    \"avatar\": \"http://hhhhold.com/s?14332770\"\n  },\n  {\n    \"id\": \"8bfa5898-c951-4942-86bb-c96658485721\",\n    \"name\": \"Peter Reading\",\n    \"email\": \"zac_hanson@force.net\",\n    \"bio\": \"2 km) away, near the village of Fence.\",\n    \"age\": -40,\n    \"avatar\": \"http://hhhhold.com/s?14620885\"\n  },\n  {\n    \"id\": \"06443f30-4211-4397-a9e4-baff60166431\",\n    \"name\": \"Mauro Giuliani\",\n    \"email\": \"allan_simmons@at.net\",\n    \"bio\": \"In Ambato alone, 75 percent of the homes still standing had to be demolished.\",\n    \"age\": 35,\n    \"avatar\": \"http://hhhhold.com/s?16739887\"\n  },\n  {\n    \"id\": \"d06d7332-70da-4711-b9bc-ca52e33c88c8\",\n    \"name\": \"Justin Fashanu\",\n    \"email\": \"george_n._leighton@position.com\",\n    \"bio\": \"The second-tallest building in Vancouver is the Private Residences at Hotel Georgia, at 156 metres (512 feet).\",\n    \"age\": 93,\n    \"avatar\": \"http://hhhhold.com/s?10563478\"\n  },\n  {\n    \"id\": \"127401b3-5eac-4220-b80b-d6df461d9864\",\n    \"name\": \"Tahir-ul-Qadri\",\n    \"email\": \"geoffrey_de_havilland@marry.xxx\",\n    \"bio\": \"In the beginning of 1686 two papers were found in Charles II's strong box and his closet, in his own hand, stating the arguments for Catholicism over Protestantism.\",\n    \"age\": 19,\n    \"avatar\": \"http://hhhhold.com/s?7104348\"\n  },\n  {\n    \"id\": \"f5aa6c36-bda8-4ab8-a41d-ddeaf4a38381\",\n    \"name\": \"C. Z. Guest\",\n    \"email\": \"fern_persons@abdul-jabbar.xxx\",\n    \"bio\": \"The unmistakable breeding plumaged male has a chocolate-brown head and white breast with a white stripe extending up the side of the neck.\",\n    \"age\": 28,\n    \"avatar\": \"http://hhhhold.com/s?8589428\"\n  }\n]",
+            "bundle": "ANA_dataRaptor_card_contact_relationships",
+            "ctxId": "params.id",
+            "query": "SELECT  Id,\n FROM"
+        }
+    },
+    "templates": {
+        "0": {
+            "templateUrl": "card-canvas-1x-slds-nosearch"
+        }
+    }
+}

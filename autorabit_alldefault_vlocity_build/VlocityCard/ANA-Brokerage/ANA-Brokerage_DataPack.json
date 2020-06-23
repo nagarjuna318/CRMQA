@@ -1,0 +1,13 @@
+{
+    "%vlocity_namespace%__Author__c": "Anthem Commercial 2.0",
+    "%vlocity_namespace%__Datasource__c": "",
+    "%vlocity_namespace%__Definition__c": "ANA-Brokerage.json",
+    "%vlocity_namespace%__GlobalKey__c": "ANA Brokerage/Anthem Commercial 2.0/null/1539797801961",
+    "%vlocity_namespace%__ParentID__c": "LG Brokerage/Anthem Commercial 2.0/null/1539458936860",
+    "%vlocity_namespace%__Type__c": "",
+    "%vlocity_namespace%__Version__c": "",
+    "Name": "ANA Brokerage",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__VlocityCard__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__VlocityCard__c/ANA Brokerage"
+}

@@ -1,0 +1,19 @@
+$background-blue: #f7fbfe;
+
+.margin-bottom-fix{
+    margin-bottom: 0 !important;
+}
+
+.display-flex{
+    display: flex !important;
+}
+
+.title-blue-background{
+    background-color: $background-blue !important;
+    display: flex !important;
+}
+
+.title-color-final{
+    color: black !important;
+    margin-left: 9px !important;
+}

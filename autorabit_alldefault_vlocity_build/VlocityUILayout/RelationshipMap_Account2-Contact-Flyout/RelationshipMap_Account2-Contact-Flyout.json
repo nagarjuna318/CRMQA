@@ -1,0 +1,29 @@
+{
+    "Cards": [
+        "RelationshipMap_Account2-contact-contact-list"
+    ],
+    "dataSource": {
+        "contextVariables": [
+            {
+                "name": "attrs.contextId",
+                "val": "0034B00000OsufVQAR"
+            }
+        ],
+        "type": "DataRaptor",
+        "value": {
+            "body": "[\n  {\n    \"id\": \"f3f7ac95-e191-498c-a137-f5e40879303e\",\n    \"name\": \"Marta Vieira da Silva\",\n    \"email\": \"marta_vieira_da_silva@mccarthy.com\",\n    \"bio\": \"The claim was denied by Louise's friends, who asserted her effort and independence.\",\n    \"age\": -82,\n    \"group\": \"Group 1\"\n  },\n  {\n    \"id\": \"a6e9105d-068a-40e4-9aaa-31461619f2aa\",\n    \"name\": \"Henri Germain\",\n    \"email\": \"danielle_bunten_berry@and.net\",\n    \"bio\": \"There are several modern buildings in the downtown area, including the Harbour Centre, the Vancouver Law Courts and surrounding plaza known as Robson Square (designed by Arthur Erickson) and the Vancouver Library Square (designed by Moshe Safdie), reminiscent of the Colosseum in Rome, and the recently completed Woodward's building Redevelopment (designed by Gregory Henriquez).\",\n    \"age\": -84,\n    \"group\": \"Group 1\"\n  },\n  {\n    \"id\": \"8be07217-4db8-47d5-b9ed-cbad518a11d0\",\n    \"name\": \"Émilie Gamelin\",\n    \"email\": \"andy_powell@the.edu\",\n    \"bio\": \"The POR mentions that members are required to pay a membership subscription fee, which is in line with WOSM regulation.\",\n    \"age\": -86,\n    \"group\": \"Group 2\"\n  },\n  {\n    \"id\": \"c1382d23-7adc-4165-b4ed-eeb2b457a72a\",\n    \"name\": \"Lou Klein\",\n    \"email\": \"zlatko_sirotić@two.xxx\",\n    \"bio\": \"Kingdom of EnglandItalian alliesThe Battle of Aljubarrota (Portuguese pronunciation: [aɫʒuβɐˈʁotɐ]) was a battle fought between the Kingdom of Portugal and the Crown of Castile on 14 August 1385.\",\n    \"age\": 5,\n    \"group\": \"Group 1\"\n  },\n  {\n    \"id\": \"b13de356-ebb4-4ee7-96e9-3d77b2144e8b\",\n    \"name\": \"Jaan Kross\",\n    \"email\": \"josef_priller@substantive.com\",\n    \"bio\": \"Medieval drinks that have survived to this day include prunellé from wild plums (modern-day slivovitz), mulberry gin and blackberry wine.\",\n    \"age\": 57,\n    \"group\": \"Anthem\"\n  },\n  {\n    \"id\": \"f07e9ecc-9be2-40e8-90c8-ac911002dd0a\",\n    \"name\": \"Jonty Rhodes\",\n    \"email\": \"denis_davydov@in.com\",\n    \"bio\": \"was born to Earvin Sr.\",\n    \"age\": 62,\n    \"group\": \"Group 3\"\n  }\n]",
+            "bundle": "ANA_dataRaptor_card_contact_contact",
+            "inputMap": {
+                "Id": "{{attrs.contextId}}"
+            }
+        }
+    },
+    "templates": {
+        "0": {
+            "templateUrl": "card-canvas-1x-slds-nosearch"
+        }
+    },
+    "workspace": [
+        "RelationshipMap_Account2-contact-contact-list/Anthem Commercial 2.0/null/1525482252683"
+    ]
+}

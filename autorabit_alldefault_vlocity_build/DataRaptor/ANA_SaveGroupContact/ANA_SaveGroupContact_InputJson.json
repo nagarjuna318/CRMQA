@@ -1,0 +1,35 @@
+{
+    "AccountID": "",
+    "ContextId": "",
+    "Ctcid": "",
+    "GroupContact": {
+        "AESurvey": false,
+        "AMSurvey": false,
+        "CAGCallParticipationOnly": false,
+        "ClientNewsletter": false,
+        "ClientSurvey": false,
+        "ContactNameGC": null,
+        "ContactTypeGC": null,
+        "Description": null,
+        "TypeAheadAccountGC-Block": {
+            "TypeAheadAccountGC": null
+        },
+        "WinLossSurvey": false
+    },
+    "RelationshipToConatct": {
+        "ContactRelationships": "Group Contact"
+    },
+    "TypeAheadAccountGC-Block": {
+        "AccountId": ""
+    },
+    "id": "a3B4B0000000fgkUAA",
+    "layout": "lightning",
+    "timeStamp": "2017-05-02T10:53:40.403Z",
+    "userId": "0054B000000orR1QAI",
+    "userName": "keerthi.thoutireddy@anthem.com2.config",
+    "userProfile": "System Administrator",
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+    }
+}

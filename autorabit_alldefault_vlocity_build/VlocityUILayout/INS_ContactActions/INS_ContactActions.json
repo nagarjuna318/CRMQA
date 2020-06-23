@@ -1,0 +1,22 @@
+{
+    "Cards": [
+        "Contact_Actions"
+    ],
+    "dataSource": {
+        "contextVariables": [
+            {
+                "name": "params.Id",
+                "val": "0034B00000FZiAt"
+            }
+        ],
+        "type": "Query",
+        "value": {
+            "query": "SELECT Id, Name, LoggedInUserProfile__c, RecordType.Name FROM Contact WHERE Id = '{{params.id || params.Id}}'"
+        }
+    },
+    "templates": {
+        "0": {
+            "templateUrl": "card-canvas-1x-slds-nosearch"
+        }
+    }
+}

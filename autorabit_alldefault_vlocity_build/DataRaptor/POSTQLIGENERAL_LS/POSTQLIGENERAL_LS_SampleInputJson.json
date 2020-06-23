@@ -1,0 +1,312 @@
+{
+    " ContextId": "0QLW0000000cmN3OAI",
+    "AIPercentage": 30,
+    "AccountId": "001W000000amKZGIA2",
+    "AccountName": "Prospect Acc as on 27th Sep 17",
+    "ApprovalStatus": "Not started",
+    "ApprovalStatusPI": "",
+    "ClonedFromRenewalCheck": false,
+    "CompletionMarker": "Not Complete",
+    "CreatedBy": "005W0000002nEcaIAE",
+    "CreatedById": "005W0000002nEcaIAE",
+    "CreatedByName": "Indra Lugina",
+    "FinancingDependent": "Cost Plus",
+    "HasSPP": false,
+    "IHMProductLineReadyforApproval": false,
+    "LastModifiedBy": "005W0000002nEcaIAE",
+    "LastModifiedById": "005W0000002nEcaIAE",
+    "LastModifiedByName": "Indra Lugina",
+    "LineItemNumber": "00049516",
+    "MedicalManagementPlatformAIMDependent": "HRS/WMDS",
+    "MedicalManagementPlatformMSPhDependent": "HRS/WMDS",
+    "OpptyId": "006W000000CcdJ5IAJ",
+    "Product": "01t41000003bURIAA2",
+    "ProductName": "Specialty Pharmacy - Voluntary Site of Care Redirection",
+    "Profilex": "System Administrator",
+    "QLICompId1": "",
+    "QLICompId2": "",
+    "QLICompId3": "",
+    "QLINOUFlagExtract": false,
+    "QLIid": "0QLS0000000QsGDOA0",
+    "QuoteId": "0Q0S0000000MvEuKAK",
+    "RTGeneral": {
+        "ANAPaymentIntegrity": {
+            "ApprovalStatus": null,
+            "BaseFeeReduction": null,
+            "FullOptOut": null,
+            "FullOptOutComments": null,
+            "FullOptOutMsg": null,
+            "NEBaseFee": null,
+            "NotEligible": null,
+            "NotEligibleComments": null,
+            "OPRecoveryandClaimsPrepaymentAnalysis": 25,
+            "SubroCarvedOut": null,
+            "SubroCarvedOutComments": null,
+            "SubroMsg": null,
+            "Subrogation": 25
+        },
+        "AlignedIncentivesOptions": {
+            "AIPercentage": 30,
+            "AIProducts": null,
+            "AIType": null
+        },
+        "AnthemEngageSilverBlock": {
+            "ElevateBH": false,
+            "RBB": false
+        },
+        "AnthemFLexHourMedicalPlanOptions": {
+            "BasicComprehensiveMedicalPlan": false,
+            "EnhancedComprehensiveMedicalPlan": false,
+            "MECPlusMedicalPlan": false
+        },
+        "AnthemFlexhourCommentsBlock": {
+            "AnthemFlexHourComments": null
+        },
+        "AnthemFlexhourSupplimentalPlanOptions": {
+            "AccidentPlan": false,
+            "CriticalCarePlan": false,
+            "HighDeductibleGapPaymentPlan": false,
+            "HospitalOnlyFixedCashBenefitsPlan": false,
+            "HospitalPlusFixedCashBenefitsPlan": false,
+            "LimitedDurationMedicalPlan": false
+        },
+        "BenefitsAdmin": {
+            "ActivationCode": null,
+            "IdentityTheftEffectiveDate": null,
+            "IntegratedHRAFSA": null,
+            "ServicedByBA": null,
+            "ServicedByBAFSA": null,
+            "TermDateRO": null,
+            "Vendors": null
+        },
+        "CastLightDetails": {
+            "RelationshipType1": null
+        },
+        "ClearOrDontClearVendor": "DontClear",
+        "ClonedFromRenewalValidationComplete": null,
+        "ClonedToRenewalFalse": false,
+        "CommentsBlock": {
+            "AIM": {
+                "AIMNewToClient": null,
+                "AccountMigratingtoAnotherPlatform": null,
+                "DoesAccountHaveMedicareSuppPlans": null,
+                "DoesAcctHaveRBBForMRICT": null,
+                "IfNoApprovedNumber": null,
+                "IfYesProvidePkgCCTiedtoMedicare": null,
+                "IsThereAnAIMROIGuarantee": null,
+                "MedicalManagementPlatformAIM": "HRS/WMDS",
+                "MemberPenaltyAmount": null,
+                "PrecertVendor": null,
+                "StandardNationalAIMNumOnIDCard": null
+            },
+            "Comments": null
+        },
+        "CompletionMarkerFormula": "Not Complete",
+        "DDPAccountManager": "null",
+        "DDPAccountManagerF": "null",
+        "DDPConatctIdF": null,
+        "DDPConatctTypeAhead-Block": {
+            "ContactId": null,
+            "DDPConatctTypeAhead": null
+        },
+        "DDPMarketingOutreach": null,
+        "DDPMarketingOutreachF": null,
+        "DDPOtherNotes": null,
+        "DDPOtherNotesF": null,
+        "DPPDetails": {
+            "DPPVendor": "null"
+        },
+        "DateMessage": true,
+        "DentalParticipationNetwork": {
+            "DentalCPLCode": null,
+            "DentalNetwork": null,
+            "DentalNonVoluntaryParticipation": false,
+            "DentalVoluntaryMsg": null,
+            "DentalVoluntaryParticipation": false
+        },
+        "EngageEssentialEliteBlock": {
+            "ExpectedCloseDate": null
+        },
+        "FinalVendorID": "",
+        "HasSPPFormula": false,
+        "NonVoluntaryOutput": false,
+        "OmadaCaseNumbers": null,
+        "OmadaCaseNumbersF": null,
+        "OmadaCoveredPopulationSize": null,
+        "OmadaCoveredPopulationSizeF": null,
+        "OpportunityTypeFormula": null,
+        "PLCompleteFormula": false,
+        "PLCompleteX": false,
+        "PharmacyDetail": {
+            "AnthemPrescriptionDrugPlan": false,
+            "DoesRXApplyToAllPackages": null,
+            "EssentialFormulary": false,
+            "ExclusiveSpecialtyPharmacyServices": false,
+            "IfNoPleaseProvideDetailsHere": null,
+            "MailOrder": null,
+            "RXChoiceTieredNetwork": false,
+            "Retail": null,
+            "SplitGenericTier": false,
+            "SplitSpecialtyTier": false
+        },
+        "ProdStage5-95ProbMessage": true,
+        "ProductNameFormula": "Specialty Pharmacy - Voluntary Site of Care Redirection",
+        "ProductReadOnlyVendorBlock": {
+            "UpdateVendor": false,
+            "VendorNameReadOnly": null
+        },
+        "ProductVendorBlock-Block": null,
+        "ProductivitySolutionsBlock": {
+            "ProductivitySolutions": null
+        },
+        "ProfileReadOnly": "Edit",
+        "QLD-AccountId": "001W000000amKZGIA2",
+        "QLD-Vendor": null,
+        "QuoteLineDetails": {
+            "CompSourceAction": true,
+            "Competitor2ReadOnly": null,
+            "Competitor3ReadOnly": null,
+            "CompetitorReadOnly": null,
+            "CompetitorReadOnlyFormula": null,
+            "CompetitorRequired": "No",
+            "CompetitorStatus2ReadOnly": null,
+            "CompetitorStatus3ReadOnly": null,
+            "CompetitorStatusReadOnly": null,
+            "Financing": "Cost Plus",
+            "Funding": "ASO",
+            "Members": 33,
+            "MembershipSplitBetweenMHAandNon-MHA": null,
+            "OppType": null,
+            "ProbBlock": {
+                "Probability": null
+            },
+            "ProbabilityFixedFormula": null,
+            "ProbabilityNOT0": null,
+            "ProbabilityNOT100": null,
+            "Reason": null,
+            "RecordType": "Medical - Specialty Pharmacy - A La Carte",
+            "SetValuesToDropDown": null,
+            "Subscribers": 33,
+            "TermDate": null,
+            "TermSelection": "Ok",
+            "UpdateCompetitor": false
+        },
+        "ReasonRequiredMessage": null,
+        "ReasonRequiredValidation": "Yes",
+        "RecordTypeFormula": "Medical - Specialty Pharmacy - A La Carte",
+        "RightDrugRightChannel": {
+            "BNGroupNoClaim": null,
+            "RDRCSpecialRequirements": null
+        },
+        "SetPLComplete": {
+            "PLComplete": false
+        },
+        "SpecialtyPharmacy": {
+            "CommentsBlockForSpecialityPharmacy": {
+                "CommentsForSpecialityPharmacy": "ted test comments"
+            },
+            "MedicalManagementPlatformMSPh": "HRS/WMDS",
+            "RXVendors": "Anthem Rx",
+            "SpecialtyDrugsCarvedOutToRX": null
+        },
+        "TermDateNullFormula": false,
+        "TermDateNullMessage": true,
+        "VendorReadOnlyFormula": null,
+        "VirtualSecondOpinion": {
+            "VendorName": null
+        },
+        "VisionParticipation": {
+            "NonVoluntaryParticipation": false,
+            "VoluntaryParticipation": false
+        },
+        "VoluntaryOutput": false,
+        "VoluntarySiteOfCare": {
+            "AnthemBCBSState": "Colorado;Missouri",
+            "AnthemBCBSStateRequired": true,
+            "ClientSignatoryDate": null,
+            "ClientSignatoryName": "test",
+            "ClientSignatoryTitle": null,
+            "DidClientSignoff": "Yes",
+            "DoesClientHaveAnthemHealthGuide": "Yes",
+            "DoesClientHaveIHMTeam": "Yes",
+            "DoesClientHaveMHATeam": "Yes",
+            "HomePlanAndMemberLetterVersion": "Anthem Blue Cross",
+            "RequireLanguageTranslationServices": null,
+            "VSOCComments": null,
+            "VSOCConfigurationComplete": false
+        }
+    },
+    "RXVendorsDependent": "Anthem Rx",
+    "SelectServiceProvider": {
+        "Account_Id": null,
+        "AddComp2": null,
+        "AddComp3": null,
+        "CompIdCalc2": null,
+        "CompIdCalc3": null,
+        "CompStatusCalc2": null,
+        "CompStatusCalc3": null,
+        "CompetitorId": null,
+        "CompetitorStatus": null,
+        "CompetitorStatus1_LG": null,
+        "CompetitorStatusFormula": null,
+        "InvTypeCalc1": null,
+        "InvTypeCalc2": null,
+        "InvTypeCalc3": null,
+        "InvolvementType": null,
+        "InvolvementType2": null,
+        "InvolvementType3": null,
+        "LOBCalc1": null,
+        "LOBCalc2": null,
+        "LOBCalc3": null,
+        "LineOfBusiness": null,
+        "LineOfBusiness2": null,
+        "LineOfBusiness3": null,
+        "Multi-Employer": null,
+        "Multi-Employer2": null,
+        "Multi-Employer3": null,
+        "MultiEmpCalc1": null,
+        "MultiEmpCalc2": null,
+        "MultiEmpCalc3": null,
+        "NOUFlag": false,
+        "NameOfEmployers": null,
+        "NameOfEmployers2": null,
+        "NameOfEmployers3": null,
+        "NoEmpCalc1": null,
+        "NoEmpCalc2": null,
+        "NoEmpCalc3": null,
+        "ReqComFlds": null,
+        "SP-CompStatus2": null,
+        "SP-CompStatus2_LG": null,
+        "SP-CompStatus3": null,
+        "SP-CompStatus3_LG": null,
+        "SPTD-Msg": null,
+        "SPTermDate": null,
+        "SPTermDateDay": null,
+        "SPTermDateIn": null,
+        "SSP-Msg": null,
+        "SSPMsg-Flg": null,
+        "TACompetitor2-Block": null,
+        "TACompetitor2_NA-Block": null,
+        "TACompetitor3-Block": null,
+        "TACompetitor3_NA-Block": null,
+        "TypeAheadAccount-Block": null,
+        "TypeAheadAccount_NA-Block": null
+    },
+    "VendorIdExtract": "",
+    "id": "a3CW000000148zuMAA",
+    "layout": "lightning",
+    "timeStamp": "2018-06-07T00:53:28.603Z",
+    "userCurrencyCode": "USD",
+    "userId": "005W0000002nEcaIAE",
+    "userName": "ilugina@vlocity.com.prod.nal1b.dev",
+    "userProfile": "System Administrator",
+    "userTimeZone": -240,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "ExtractQLI": 2223,
+        "OmniScriptSessionToken": "3a120ece-52aa-479c-94b5-c5c5a4e8da68",
+        "SetDependentFields": 119,
+        "SetValues14": 211
+    }
+}

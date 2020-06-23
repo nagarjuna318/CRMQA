@@ -1,0 +1,45 @@
+{
+    "dataSource": {
+        "contextVariables": [
+        ],
+        "type": null,
+        "value": {
+            "query": "Select Id,UpdateRevisionAction__c  from Impl_revision__c,WHERE Id = '{{params.id || params.Id}}'"
+        }
+    },
+    "filter": {
+        "UpdateRevisionAction__c": "Yes"
+    },
+    "states": [
+        {
+            "actionCtxId": "Id",
+            "conditions": {
+                "group": [
+                    {
+                        "field": "$scope.data.status",
+                        "operator": "===",
+                        "type": "system",
+                        "value": "'active'"
+                    }
+                ]
+            },
+            "definedActions": {
+                "actions": [
+                    {
+                        "collapse": true,
+                        "hasExtraParams": false,
+                        "id": "Update Revision",
+                        "isCustomAction": false,
+                        "type": "Vlocity Action"
+                    }
+                ]
+            },
+            "fields": [
+            ],
+            "name": "RequestCondition",
+            "sObjectType": "Impl_Revision__c",
+            "templateUrl": "ActionCardsTemplate"
+        }
+    ],
+    "title": "Revision Reasons Card"
+}

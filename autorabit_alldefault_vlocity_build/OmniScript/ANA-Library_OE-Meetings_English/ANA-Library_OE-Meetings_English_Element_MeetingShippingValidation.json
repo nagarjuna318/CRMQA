@@ -1,0 +1,44 @@
+{
+    "%vlocity_namespace%__Active__c": true,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "Open Enrollments",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/ANA Library/OE-Meetings/English",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__ParentElementId__c": {
+        "%vlocity_namespace%__OmniScriptId__c": {
+            "Name": "Open Enrollments",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/ANA Library/OE-Meetings/English",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+        },
+        "Name": "Address",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/ANA Library/OE-Meetings/English/Address",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c"
+    },
+    "%vlocity_namespace%__ParentElementName__c": "Address",
+    "%vlocity_namespace%__ParentElementType__c": "Block",
+    "%vlocity_namespace%__PropertySet__c": {
+        "HTMLTemplateId": "",
+        "controlWidth": 0,
+        "dataType": null,
+        "dateFormat": "MM-dd-yyyy",
+        "disOnTplt": false,
+        "expression": "IF(AND(%OE:MeetingEntry|n:MeetingInfoBlock:MeetingType%='Supplies Only',\n   OR(%OE:MeetingEntry|n:Address:MeetingStreet%=null,\n   %OE:MeetingEntry|n:Address:MeetingStreet%='',\n   %OE:MeetingEntry|n:Address:MeetingCity%=null,\n   %OE:MeetingEntry|n:Address:MeetingCity%='',\n   %OE:MeetingEntry|n:Address:MeetingState%=null,\n   %OE:MeetingEntry|n:Address:MeetingZip%=null,\n   %OE:MeetingEntry|n:Address:MeetingZip%='',\n   %OE:MeetingEntry|n:Address:MeetingContact%=null,\n   %OE:MeetingEntry|n:Address:MeetingContact%='',\n   %OE:MeetingEntry|n:Address:MeetingContactPhone%=null,\n   %OE:MeetingEntry|n:Address:MeetingContactPhone%='',\n   %OE:MeetingEntry|n:Address:ShippingStreetF%=null,\n   %OE:MeetingEntry|n:Address:ShippingStreetF%='',\n   %OE:MeetingEntry|n:Address:ShippingCityF%=null,\n   %OE:MeetingEntry|n:Address:ShippingCityF%='',\n   %OE:MeetingEntry|n:Address:ShippingStateF%=null,\n   %OE:MeetingEntry|n:Address:ShippingZipF%=null,\n   %OE:MeetingEntry|n:Address:ShippingZipF%='')), true, false)",
+        "hide": true,
+        "hideGroupSep": false,
+        "inputWidth": 12,
+        "label": null,
+        "mask": null,
+        "show": null,
+        "showInputWidth": false
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": false,
+    "%vlocity_namespace%__Type__c": "Formula",
+    "Name": "MeetingShippingValidation",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/ANA Library/OE-Meetings/English/MeetingShippingValidation"
+}

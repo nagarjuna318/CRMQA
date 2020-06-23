@@ -1,0 +1,44 @@
+{
+    "Cards": [
+        "QuoteWithNoGroup",
+        "QuoteWithGroup",
+        "QuoteWithGroup_NA",
+        "QuoteWithNoGroup_LG",
+        "QuoteWithNoGroup GRS",
+        "QuoteWithGroup GRS",
+        "QuoteWithNoGroup Admin",
+        "QuoteWithGroup Admin"
+    ],
+    "dataSource": {
+        "contextVariables": [
+            {
+                "name": "params.id",
+                "val": "006R000000VSz27IAD"
+            }
+        ],
+        "type": "Query",
+        "value": {
+            "jsonMap": "{\"params.id\":\"{{params.id}}\"}"
+        }
+    },
+    "previewType": "runTime",
+    "templates": {
+        "0": {
+            "templateUrl": "anthem-card-canvas-1x-slds-nosearch"
+        }
+    },
+    "workspace": [
+        null,
+        "QuoteWithNoGroup/Anthem Commercial 2.0/null/1513958071772",
+        "QuoteWithGroup/Anthem Commercial 2.0/null/1513958080329",
+        "QuoteWithGroup_NA/Anthem Commercial 2.0/null/1518430222595",
+        null,
+        null,
+        null,
+        "QuoteWithNoGroup_LG/Anthem Commercial 2.0/null/1523378639185",
+        "QuoteWithNoGroup GRS/Anthem Commercial 2.0/1/1571345247883",
+        "QuoteWithGroup GRS/Anthem Commercial 2.0/1/1571345635012",
+        "QuoteWithNoGroup Admin/Anthem Commercial 2.0/1/1571346047253",
+        "QuoteWithGroup Admin/Anthem Commercial 2.0/1/1571346124308"
+    ]
+}

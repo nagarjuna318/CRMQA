@@ -1,0 +1,160 @@
+{
+    "dataSource": {
+        "contextVariables": [
+            {
+                "name": "params.id",
+                "val": "006W000000DQwIHIA1"
+            }
+        ],
+        "type": null,
+        "value": {
+            "query": "Select Id, AccountId, OpportunityId, Name, GroupNumber__c, DivisionName__c, GroupNumber__r.Name, IsGroupNumberExist__c, GroupNumber__r.ClaimServiceCenter__c, GroupNumber__r.CallServiceCenter__c, GroupNumber__r.DeliveryChannel__c, GroupNumber__r.ClaimSystem__c, TotalSubscribers__c, TotalMembers__c, Opportunity.Probability, LoggedInUserProfile__c From Quote Where OpportunityId = '{{params.id}}' Order By CreatedDate Desc"
+        }
+    },
+    "filter": {
+        "['AnthemEntityTransform__c']": "National",
+        "['IsGNExist__c']": "No",
+        "['Is_GRS_Profile_With_Correct_Record_Type__c']": "Others"
+    },
+    "sessionVars": [
+    ],
+    "states": [
+        {
+            "actionCtxId": "['Id']",
+            "blankStateCheck": false,
+            "collapse": false,
+            "conditions": {
+                "group": [
+                    {
+                        "field": "$scope.data.status",
+                        "operator": "===",
+                        "type": "system",
+                        "value": "'active'"
+                    }
+                ]
+            },
+            "definedActions": {
+                "actions": [
+                    {
+                        "collapse": true,
+                        "hasExtraParams": false,
+                        "id": "AddProduct",
+                        "isCustomAction": false,
+                        "type": "Vlocity Action"
+                    },
+                    {
+                        "collapse": true,
+                        "hasExtraParams": false,
+                        "id": "Mass Update - Needs Update",
+                        "isCustomAction": false,
+                        "type": "Vlocity Action"
+                    }
+                ]
+            },
+            "fields": [
+                {
+                    "collapse": true,
+                    "displayLabel": "['GroupNumber__c']",
+                    "editing": false,
+                    "fieldType": "standard",
+                    "group": "Custom Properties",
+                    "label": "",
+                    "name": "['GroupNumber__c']",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "displayLabel": "['GroupNumber__r']['Name']",
+                    "editing": false,
+                    "group": "Custom Properties",
+                    "label": "Group Number",
+                    "name": "['GroupNumber__r']['Name']",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "displayLabel": "['DivisionName__c']",
+                    "editing": false,
+                    "fieldType": "standard",
+                    "group": "Custom Properties",
+                    "label": "Division Name",
+                    "name": "['DivisionName__c']",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "displayLabel": "['Name']",
+                    "fieldType": "standard",
+                    "group": "Custom Properties",
+                    "label": "Name",
+                    "name": "['Name']",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "displayLabel": "['GroupNumber__r']['ClaimServiceCenter__c']",
+                    "editing": false,
+                    "group": "Custom Properties",
+                    "label": "Claim Service Center",
+                    "name": "['GroupNumber__r']['ClaimServiceCenter__c']",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "displayLabel": "['GroupNumber__r']['ClaimSystem__c']",
+                    "editing": false,
+                    "group": "Custom Properties",
+                    "label": "Claim System",
+                    "name": "['GroupNumber__r']['ClaimSystem__c']",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "displayLabel": "['TotalSubscribers__c']",
+                    "editing": false,
+                    "fieldType": "standard",
+                    "group": "Custom Properties",
+                    "label": "Total Subscribers",
+                    "name": "['TotalSubscribers__c']",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "displayLabel": "['GroupNumber__r']['CallServiceCenter__c']",
+                    "editing": false,
+                    "group": "Custom Properties",
+                    "label": "Call Service Center",
+                    "name": "['GroupNumber__r']['CallServiceCenter__c']",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "displayLabel": "['GroupNumber__r']['DeliveryChannel__c']",
+                    "editing": false,
+                    "group": "Custom Properties",
+                    "label": "Delivery Channel",
+                    "name": "['GroupNumber__r']['DeliveryChannel__c']",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "displayLabel": "['TotalMembers__c']",
+                    "editing": false,
+                    "fieldType": "standard",
+                    "group": "Custom Properties",
+                    "label": "Total Members",
+                    "name": "['TotalMembers__c']",
+                    "type": "string"
+                }
+            ],
+            "filter": "$scope.data.status === 'active'",
+            "flyout": {
+                "layout": "QuoteCardFlyout"
+            },
+            "name": "active-quote-card",
+            "sObjectType": "Quote",
+            "templateUrl": "anthem-quote-card-horiz-slds"
+        }
+    ],
+    "title": "QuoteWithNoGroup_NA"
+}

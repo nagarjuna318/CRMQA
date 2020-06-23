@@ -1,0 +1,33 @@
+{
+    "Cards": [
+        "Test"
+    ],
+    "customPreviewPages": [
+        {
+            "group": "Custom Pages",
+            "label": "CommissionFlyout",
+            "page": "CommissionFlyout"
+        }
+    ],
+    "dataSource": {
+        "contextVariables": [
+            {
+                "name": "parent.obj.Id",
+                "val": "a8m1b0000008WQbAAM"
+            }
+        ],
+        "type": "Query",
+        "value": {
+            "jsonMap": "{\"parent.obj.Id\":\"{{parent.obj.Id}}\"}"
+        }
+    },
+    "previewType": "runTime",
+    "templates": {
+        "0": {
+            "templateUrl": "anthem-card-canvas-1x-slds-nosearch-commission"
+        }
+    },
+    "workspace": [
+        "Test/Anthem Commercial 2.0/1/1550170220085"
+    ]
+}

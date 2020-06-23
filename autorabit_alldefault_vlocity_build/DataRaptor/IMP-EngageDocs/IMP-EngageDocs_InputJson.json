@@ -1,0 +1,243 @@
+{
+    "AttachSBCRequest": {
+        "ContractCodesPackagesCustomizationBlock": null,
+        "DoesthischangereqimpactSBCs": null,
+        "SBCAttachments": null,
+        "SBCVisibilityBlock": {
+            "DoesAnthemproduceSBCs": null,
+            "SBCcreatedbytheSBCteam": null
+        }
+    },
+    "BenefitBookletDetails": {
+        "BBDBlock": {
+            "ProBenBooklet": null,
+            "ReqBenBooklet": null
+        },
+        "BBDVisibilityBlock": {
+            "ModExistBooklet": null
+        },
+        "BenefitBookletAttachments": null,
+        "DoeschangereqimpactBB": null
+    },
+    "Comments": {
+        "AdditionalCommentsBlock": {
+            "AdditionalComments": null
+        },
+        "ImpactedPackagesSuffixesSectionsBlock": null
+    },
+    "ContextId": "0Q02F0000009Wyi",
+    "DRId_Order": "801W0000000mykaIAA",
+    "EffectiveDate": "False",
+    "ExisitingOrder": "Allow",
+    "GroupInformation": {
+        "AreBrokerCommissionsImpactedBlock": null,
+        "AreBrokerCommissionstobepaidBlock": null,
+        "AreCustomIDCardsRequestedBlock": {
+            "AreCustomIDCardsRequested": null
+        },
+        "AreThereChangesToRatesBlock": {
+            "AreThereChangesToRates": null
+        },
+        "ArethereCustomIVRTelephonychangesCROCBlock": {
+            "ArethereCustomIVRTelephonychangesCROC": null
+        },
+        "ArethereCustomIVRTelephonychangesNewBlock": {
+            "ArethereCustomIVRTelephonychangesNew": null
+        },
+        "ArethereCustomIVRTelephonychangesRenewalBlock": {
+            "ArethereCustomIVRTelephonychangesRenewal": null
+        },
+        "AretherechangestoBrokerCommissionsBlock": {
+            "AretherechangestoBrokerCommissions": null
+        },
+        "AretherechangestoGroupStructureBlock": {
+            "AretherechangestoGroupStructure": null
+        },
+        "CPDVisibilityBlock": null,
+        "CarrierDedCreditAccumulation": {
+            "CreditAccumulation": null
+        },
+        "DiscoveryCallDesiredBlock": {
+            "DiscoveryCallDesired": null
+        },
+        "DoesapartialtermapplyBlock": {
+            "Doesapartialtermapply": null
+        },
+        "DoeschangereqimpactPreCertDetailsBlock": {
+            "DoeschangereqimpactPreCertDetails": null
+        },
+        "FPCRVisibilityBlock": {
+            "FinalPreCertificationRules": null
+        },
+        "IDCardChangesBlock": {
+            "IDCardChanges": null
+        },
+        "IfyespleaseexplainthechangesmadeBlock": null,
+        "IfyespleaseexplainupdatesmadeBlock": null,
+        "MandatorylegislativeupdatesforGroupBlock": {
+            "MandatorylegislativeupdatesforGroup": null
+        },
+        "OpenEnrollmentDateBlock": null,
+        "PreImplementation": {
+            "PreImplementationAudit": false
+        },
+        "ProvidePartialTermReasonBlock": null
+    },
+    "GroupSetupInformation": {
+        "MainGroupSetup": {
+            "ArethereChangestoBehavioralHealth": null,
+            "AretherechangestoCOB": "No",
+            "AretherechangestoEligibility": "No",
+            "AretherechangestoEnrollmentBilling": "No"
+        },
+        "RequestincludebenefitchangesBlock": {
+            "Arehereanythirdpartyvendorrequir": "No",
+            "ChangestoEligVendororFileFeed": "No",
+            "Requestincludebenefitchanges": "No"
+        }
+    },
+    "HCR": {
+        "AddedplansorplanschangedHCRStatusBlock": {
+            "AddedplansorplanschangedHCRStatus": "Yes"
+        },
+        "IndicateHCRDetails": {
+            "IndicateHCRRecords": "a6sW00000007NhZIAU"
+        }
+    },
+    "IGAP": "0Q0W0000000HIx8",
+    "IGC": "0Q0W0000000HIwy",
+    "NewBusiness": "0Q0W0000000HCJM",
+    "NewVendorId": "001W000000gTWKhIAO",
+    "OpptyRType": "",
+    "PreWork": [
+        "Engage Product",
+        "New Eligibility Vendor Setup",
+        "Data Interface New Vendor Build",
+        "SSCR Build for Client Customization",
+        "SBC",
+        "RFP"
+    ],
+    "QuoteDetails": {
+        "AccountId": "001W000000cr3R5IAI",
+        "Account_Name": "SampleAccount",
+        "EffectiveDate": "2018-02-09",
+        "GNReqStatus": "Not Requested",
+        "GroupId": "a5IW00000000nY4MAI",
+        "GroupName": "TBD Customer1",
+        "GroupNumber": "a5IW00000000nY4MAI",
+        "Id": "0Q0W0000000HMCuKAO",
+        "OpptyId": "006W000000DF17TIAT",
+        "OpptyRecordType": "New Business",
+        "OpptyStage": "Quoting"
+    },
+    "RENEWAL": "0Q0W0000000HJ5l",
+    "RateChanges": "No",
+    "Select-IMPType": {
+        "IC-EffectiveDateBlock": {
+            "IC-EffectiveDate": "2018-03-05T05:00:00.000Z"
+        },
+        "IMPTypeBlock": {
+            "IMPType": null
+        },
+        "IMPTypeMsg": null,
+        "ImplementationCaseTopicBlock": {
+            "ImplementationCaseTopic": null
+        },
+        "Pre-WorkIMPType": {
+            "CastlightProducts": {
+                "ClientInformationFormMessageElite": true,
+                "CompleteTheClientInformationFormElite": "Yes",
+                "CompleteTheClientScopingDocument": "Yes",
+                "CompleteTheClientScopingMessage": true,
+                "FileCount1": 1,
+                "FileCount2": 1,
+                "Formula14": true,
+                "Formula17": true,
+                "Formula18": true,
+                "IsTheProductSaleFinal": "Yes",
+                "IsTheProductSaleFinalMessage": true,
+                "UploadCasClientAttachment1": [
+                    {
+                        "$$hashKey": "object:3796",
+                        "data": "4c1c1779-bb9b-4711-80fb-12d6ba546055",
+                        "filename": "3.txt",
+                        "size": 3
+                    }
+                ],
+                "UploadClientScopeAttachment": [
+                    {
+                        "$$hashKey": "object:3702",
+                        "data": "0f8c73bf-5c32-4258-bfa3-33dafd732e50",
+                        "filename": "2.txt",
+                        "size": 8
+                    }
+                ]
+            },
+            "PreWorkIMPSelect": "SSCR Build for Client Customization",
+            "RFP": {
+                "IsAProjectPlanNeeded": "Yes",
+                "IsaDecisionsDeliverablesListNeeded": null
+            },
+            "SBC": {
+                "DoesAnthemProduceSBCs": false,
+                "WantTheSBCCreatedByTheSBCTeam": null
+            },
+            "SSCRBuild": {
+                "HaveYouBeenInformedASSCRIsRequired": "Yes",
+                "NotateWhyYouFeelASSCRIsNeeded": "sscr",
+                "WhatAreaDeptProvidedThatDirection": "Data Interface Team (DIT)",
+                "WhatIsYourCustomizationDescription": "tst"
+            }
+        },
+        "SelectIMP": {
+            "AcquisitionBlock": {
+                "CarryOverAccumulatorsDataFiles": "Yes",
+                "GroupStructureImpacts": "Absorbed Into Existing Group Structure",
+                "IsTheAcquisitionConfidential": "Yes",
+                "IsTheSaleDateFinal": "Yes",
+                "WhoIsPriorVendor": "VendorAcq"
+            },
+            "IT-Acquisition": true,
+            "IT-ExistingShifttoJAA": false,
+            "IT-ExistingShifttoPEX": false,
+            "IT-GroupTerm": false,
+            "IT-Migration": true,
+            "IT-Retro": null,
+            "IT-SpinOff": true,
+            "IT-TransferMarketSegment": false,
+            "MigrationBlock": {
+                "IndicateSystemHere": "Other Values",
+                "ProvideSystemBeingMigratedFrom": "Other"
+            },
+            "SpinOffBlock": {
+                "WillTherebePortability": "Yes"
+            }
+        },
+        "UserGroup": null
+    },
+    "Status": "Initiated",
+    "UserArea": "National",
+    "UserProfileId": "00e41000001fYPTAA2",
+    "UserRole": "System Administrator",
+    "UserRoleId": "00E41000000mZUZEA2",
+    "id": "a3CW00000013MduMAE",
+    "layout": "lightning",
+    "timeStamp": "2018-03-05T21:05:55.542Z",
+    "userCurrencyCode": "USD",
+    "userId": "005W0000002XquzIAC",
+    "userName": "shravani@chadda@eaglecrk.com.prod.nal1b.dev",
+    "userProfile": "System Administrator",
+    "userTimeZone": null,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "DRE-ExistingOrder": 618,
+        "DREQuoteDetails": 1082,
+        "DREUserGroup": 1641,
+        "OmniScriptSessionToken": "bf454cc2-77b6-4e30-aef8-0b25f851c944",
+        "ST-RecordType": 26,
+        "ST-ValValues": 23,
+        "SVContextId": 172,
+        "UserGroupValidation": 11
+    }
+}

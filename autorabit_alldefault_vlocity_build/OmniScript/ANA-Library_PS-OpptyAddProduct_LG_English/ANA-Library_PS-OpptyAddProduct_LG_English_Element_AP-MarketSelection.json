@@ -1,0 +1,106 @@
+{
+    "%vlocity_namespace%__Active__c": true,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "OpptyAddProduct_LG",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/ANA Library/PS-OpptyAddProduct_LG/English",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__ParentElementId__c": {
+        "%vlocity_namespace%__OmniScriptId__c": {
+            "Name": "OpptyAddProduct_LG",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/ANA Library/PS-OpptyAddProduct_LG/English",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+        },
+        "Name": "AP-FamilySelection",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/ANA Library/PS-OpptyAddProduct_LG/English/AP-FamilySelection",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c"
+    },
+    "%vlocity_namespace%__ParentElementName__c": "AP-FamilySelection",
+    "%vlocity_namespace%__ParentElementType__c": "Step",
+    "%vlocity_namespace%__PropertySet__c": {
+        "HTMLTemplateId": "",
+        "accessibleInFutureSteps": false,
+        "conditionType": "Hide if False",
+        "controlWidth": 12,
+        "controllingField": {
+            "element": "AP-CatSelection",
+            "source": "Product2.Product_Type__c",
+            "type": "SObject"
+        },
+        "disOnTplt": false,
+        "enableCaption": true,
+        "help": false,
+        "helpText": "",
+        "hide": false,
+        "horizontalMode": "image",
+        "imageCountInRow": 3,
+        "label": "Select the \"Market\" of the product to add:",
+        "optionHeight": 100,
+        "optionSource": {
+            "source": "Product2.Market__c",
+            "type": "SObject"
+        },
+        "optionWidth": 100,
+        "options": [
+            {
+                "name": "",
+                "value": ""
+            }
+        ],
+        "readOnly": false,
+        "repeat": false,
+        "repeatClone": false,
+        "required": true,
+        "show": {
+            "group": {
+                "operator": "AND",
+                "rules": [
+                    {
+                        "condition": "<>",
+                        "data": "Commercial AIM",
+                        "field": "AP-CatSelection"
+                    },
+                    {
+                        "condition": "<>",
+                        "data": "Commercial Subrogation",
+                        "field": "AP-CatSelection"
+                    },
+                    {
+                        "condition": "<>",
+                        "data": "Commercial FSA/HSA",
+                        "field": "AP-CatSelection"
+                    },
+                    {
+                        "condition": "<>",
+                        "data": "Commercial Engage",
+                        "field": "AP-CatSelection"
+                    },
+                    {
+                        "condition": "<>",
+                        "data": "Commercial Act Wise",
+                        "field": "AP-CatSelection"
+                    },
+                    {
+                        "condition": "<>",
+                        "data": "Commercial Buy-Ups",
+                        "field": "AP-CatSelection"
+                    },
+                    {
+                        "condition": "<>",
+                        "data": "Commercial Blue Distinction",
+                        "field": "AP-CatSelection"
+                    }
+                ]
+            }
+        }
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": false,
+    "%vlocity_namespace%__Type__c": "Radio",
+    "Name": "AP-MarketSelection",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/ANA Library/PS-OpptyAddProduct_LG/English/AP-MarketSelection"
+}

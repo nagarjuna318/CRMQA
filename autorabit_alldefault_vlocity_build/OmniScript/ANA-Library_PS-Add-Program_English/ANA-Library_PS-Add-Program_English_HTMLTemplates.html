@@ -1,0 +1,174 @@
+<script type="text/ng-template" id="vlcANALightningVarBundle.html">
+	<style>
+	.tooltip {
+		position: relative;
+		display: inline-block;
+		cursor: pointer;
+		text-align: center;
+		width: 100%;
+	}
+
+	.tooltip .tooltiptext {
+		visibility: hidden;
+		width: 120px;
+		color: #000;
+		text-align: center;
+		border-radius: 6px;
+		padding: 5px 0;
+		position: absolute;
+		z-index: 1;
+		font-size: 12px;
+		background: beige;
+		width: 100%;
+
+		/* Position the tooltip */
+		position: absolute;
+		z-index: 1;
+	}
+
+	.tooltip:hover .tooltiptext {
+		visibility: visible;
+	}
+	</style>
+
+	  <div class="slds-scrollable_x">
+		<div class="slds-grid slds-grid--horizontal" style="flex-wrap:wrap">
+		  <div style="display:none">{{control.vlcSI}}</div>
+				   <div class="search-container" style="width:100%; margin-bottom:20px;">
+			<div class="slds-size--1-of-1 slds-medium--1-of-1 slds-large-size--6-of-12">
+				<div class="slds-col--padded slds-size--1-of-1">
+					<div class="slds-form-element__control">
+						<div class="vlc-control-wrapper">
+							<input id="searchvariablefield" type="text" class="slds-input form-control" ng-model="searchvariablefield"/>
+							<label for="searchvariablefield" class="slds-form-element__label ng-binding">Search for Products</label>
+						</div>
+					</div>
+				</div>
+			</div>
+		  </div>
+			 <div class="vlc-slds-items--container vlc-slds-insurance-selectableItem"
+			ng-repeat="p in control.vlcSI['recSet'] | filter:searchvariablefield" ng-init='onSelectItem(control, p, $index, this)'>
+
+				<div class="slds-box vlc-slds-selectableItem" style="width:200px">
+
+				<div class="vlc-slds-selectableItem__name">
+				 <div class="vlc-slds-item--details">
+				  
+				 <div class="tooltip">
+					  <label class="slds-form__element__label" style="font-size:12px;font-weight:bold;max-width:150%;text-align:center;">
+						   {{p.Name}}
+					  </label>
+					  <span class="tooltiptext" ng-if="p.Description != undefined">{{p.Description}}</span>
+				 </div>
+				 </div>
+
+				 <div class="select-custom-element">
+						<select name="loopname" id="vlcBundleStage" class="slds-select ng-pristine ng-empty ng-valid ng-valid-required ng-touched" style="font-size:12px;font-weight:bold;max-width:100%;" ng-model="vlcBundleStage" ng-change="p.vlcBundleStage = vlcBundleStage">
+			<option ng-repeat="option in bpTree.response['AP-Stages']" value="{{option}}">{{option}}</option>       
+						</select>
+				 </div>
+				  
+				  <div class='vlc-slds-item-selectableItem-link' ng-init="p.vlcSelected=false" ng-class="{'vlc-selectableitem-selected' : p.vlcSelected || p.vlcSelected == undefined }">
+					  <button
+						  class="btn btn-default btn-block"
+						  ng-click="onSelectItem(control, p, $index, this, true);p.vlcBundleStage=(p.vlcSelected?bpTree.response['ProdStage']:p.vlcBundleStage);vlcBundleStage=(p.vlcSelected?p.vlcBundleStage:'');">
+							<span ng-hide="p.vlcSelected">Select Program</span>
+							<span ng-show="p.vlcSelected" class="selected"><i class="icon icon-v-check"></i>Selected</span>
+					  </button>
+				  </div>
+				</div>
+				<div class="vls-slds-item--action" vlc-slds-added="{{ p.vlcSelected }}" >
+					<span class="slds-icon_container slds-icon-action-approval slds-icon_container--circle">
+						<div class="slds-icon slds-icon--small">
+						   <img src="/resource/1491332014000/%vlocity_namespace%__slds/assets/icons/action/approval.svg" align="middle" width="25" height="15">
+						</div>
+					</span>
+				</div>
+
+			  </div>
+
+			</div>
+		  </div>
+		</div>
+	</script>
+
+	<!--For Fixed Bundles -->
+	<script type="text/ng-template" id="vlcANALightningFixBundle.html">
+	<style>
+	.tooltip {
+		position: relative;
+		display: inline-block;
+		cursor: pointer;
+		text-align: center;
+		width: 100%;
+	}
+
+	.tooltip .tooltiptext {
+		visibility: hidden;
+		width: 120px;
+		color: #000;
+		text-align: center;
+		border-radius: 6px;
+		padding: 5px 0;
+		position: absolute;
+		z-index: 1;
+		font-size: 12px;
+		background: beige;
+		width: 100%;
+
+		/* Position the tooltip */
+		position: absolute;
+		z-index: 1;
+	}
+
+	.tooltip:hover .tooltiptext {
+		visibility: visible;
+	}
+	</style>
+
+	  <div class="slds-scrollable_x">
+		<div class="slds-grid slds-grid--horizontal" style="flex-wrap:wrap">
+		  <div style="display:none">{{control.vlcSI}}</div>
+			 <div class="vlc-slds-items--container vlc-slds-insurance-selectableItem"
+			ng-repeat="p in control.vlcSI['recSet'] track by $index" ng-init='onSelectItem(control, p, $index, this)'>
+
+				<div class="slds-box vlc-slds-selectableItem" style="width:200px">
+
+				<div class="vlc-slds-selectableItem__name">
+				 <div class="vlc-slds-item--details">
+				  
+				 <div class="tooltip">
+					  <label class="slds-form__element__label" style="font-size:12px;font-weight:bold;max-width:150%;text-align:center;">
+						   {{p.Name}}
+					  </label>
+					  <span class="tooltiptext" ng-if="p.Description != undefined">{{p.Description}}</span>
+				 </div>
+				 </div> 
+
+	<div  align="center" class="btn btn-default btn-block" style="font-size:12px;font-weight:bold;max-width:100%;color:#1A5276;">
+	<span >{{p.prodStage}}</span>
+	</div>          
+				  
+				  <div class='vlc-slds-item-selectableItem-link' ng-init="p.vlcSelected=false" ng-class="{'vlc-selectableitem-selected' : p.vlcSelected || p.vlcSelected == undefined }">
+					  <button
+						  class="btn btn-default btn-block"
+						  ng-click="onSelectItem(control, p, $index, this, true);">
+							<span ng-hide="p.vlcSelected">Select Program</span>
+							<span ng-show="p.vlcSelected" class="selected"><i class="icon icon-v-check"></i>Selected</span>
+					  </button>
+				  </div>
+				</div>
+				<div class="vls-slds-item--action" vlc-slds-added="{{ p.vlcSelected }}" >
+					<span class="slds-icon_container slds-icon-action-approval slds-icon_container--circle">
+						<div class="slds-icon slds-icon--small">
+						   <img src="/resource/1491332014000/%vlocity_namespace%__slds/assets/icons/action/approval.svg" align="middle" width="25" height="15">
+						</div>
+					</span>
+				</div>
+
+			  </div>
+
+			</div>
+		  </div>
+		</div>
+	</script>

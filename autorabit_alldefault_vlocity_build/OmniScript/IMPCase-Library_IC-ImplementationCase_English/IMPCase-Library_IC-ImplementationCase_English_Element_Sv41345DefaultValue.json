@@ -1,0 +1,38 @@
+{
+    "%vlocity_namespace%__Active__c": true,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "ImplementationCase",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/IMPCase Library/IC-ImplementationCase/English",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__PropertySet__c": {
+        "HTMLTemplateId": "",
+        "controlWidth": 12,
+        "disOnTplt": false,
+        "elementValueMap": {
+            "ArethereChangestoBehavioralHealth_Val": "=IF(%is41345%,'Yes - See Behavioral Health Related List For Changes', %GroupSetupInformation:MainGroupSetup:ArethereChangestoBehavioralHealth%)",
+            "AretherechangestoCOB_Val": "=IF(%is41345%,'Yes', %AretherechangestoCOB_Val%)",
+            "AretherechangestoEligibility_Val": "=IF(%is41345%,'Yes', %AretherechangestoEligibility_Val%)",
+            "AretherechangestoEnrollmentBilling_Val": "=IF(%is41345%,'Yes', %AretherechangestoEnrollmentBilling_Val%)"
+        },
+        "label": null,
+        "message": {
+        },
+        "pubsub": false,
+        "show": null,
+        "showPersistentComponent": [
+            false,
+            false
+        ],
+        "ssm": false,
+        "validationRequired": "Step",
+        "wpm": false
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": false,
+    "%vlocity_namespace%__Type__c": "Set Values",
+    "Name": "Sv41345DefaultValue",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/IMPCase Library/IC-ImplementationCase/English/Sv41345DefaultValue"
+}

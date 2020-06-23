@@ -1,0 +1,16 @@
+{
+    "CompanyInformation": {
+        "AccountExecutiveTypeAhead": "Text"
+    },
+    "SpecialtyExecutive": {
+        "AccountAccessLevel": "Text",
+        "AccountId": "Text",
+        "CaseAccessLevel": "Text",
+        "ContactAccessLevel": "Text",
+        "Id": "Text",
+        "OpportunityAccessLevel": "Text",
+        "PhotoURL": "Text",
+        "TeamMemberRole": "Text",
+        "Title": "Text"
+    }
+}

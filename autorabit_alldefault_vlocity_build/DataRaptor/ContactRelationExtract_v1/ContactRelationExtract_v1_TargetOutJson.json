@@ -1,0 +1,129 @@
+{
+    "AccountUpdateId": "001S000000yiU8uIAE",
+    "ApplicationProductAndCoverageTypeInformation": {
+        "Dental": {
+            "dentalProductName": null
+        },
+        "EAP": {
+            "EAPProductName": null
+        },
+        "FSA": {
+            "FSAProductName": null
+        },
+        "LifeAndDisability": {
+            "LifeDisabilityProductName": null
+        },
+        "Medical": {
+            "ImpactedMedicalPlans": {
+                "MedicalPlanContractCode": null,
+                "MedicalPlanParentQuoteLineItem": null,
+                "MedicalPlanProductCategory": null,
+                "MedicalPlanProductName": null
+            },
+            "ImpactedMedicalProducts": {
+                "MedicalProductCategory": null,
+                "MedicalProductContractCode": null,
+                "MedicalProductName": null
+            }
+        },
+        "Vision": {
+            "visionProductName": null
+        }
+    },
+    "CaseInformation": {
+        "CaseInformation1": {
+            "BenefitRenewalAnniversaryDate": null,
+            "CancelDate": null,
+            "ImplementationCaseStatus": "Revision Pending Implementations Review",
+            "ImplementationEffectiveDate": "2019-07-16",
+            "MBSCode": null,
+            "MonthUnderwriterStartsRenewalProcess": "January",
+            "OpenEnrollmentStartDate": null,
+            "OppOwner-Block": {
+                "OppOwner": null,
+                "OpportunityOwner": null
+            },
+            "OpportunityOwnerAnthemFederationID": null,
+            "OppurtunityEffectiveDate": null,
+            "UnderwriterAnthemFederationID": null,
+            "UnderwriterName": null
+        }
+    },
+    "CompanyInformation1": {
+        "CompanyInformation": {
+            "AccountLegalName": "Kevin Test Tax ID Create Oppty error National  - DO NOT USE NATIONAL RECORD TYPE",
+            "AnthemEntity": "National Accounts",
+            "ClaimSystem": "WGS 2.0",
+            "CompanySizeGroupSize": "2001 - 3000",
+            "ERISAStatus": "No",
+            "GroupNumber": "123321",
+            "HQState": "AK",
+            "SicCodeTypeAhead-Block": {
+                "SicCodeTypeAhead": "Test Industry"
+            },
+            "SitusState": "ANA"
+        }
+    },
+    "ContactCreatedDate": "2019-07-25T14:52:56.000Z",
+    "ContactInformation": {
+        "BillingContact": null,
+        "BillingContactEmail": null,
+        "BillingContactFax": null,
+        "BillingContactName": null,
+        "BillingContactPhone": null,
+        "Formula2": true,
+        "Formula3": false,
+        "GroupAdminContact": null,
+        "GroupAdministratorContactEmail": "qwert1y@asd.com",
+        "GroupAdministratorContactFax": null,
+        "GroupAdministratorContactName": null,
+        "GroupAdministratorContactPhone": "98745632178",
+        "ShippingAddressissameAsMailingAddress": null
+    },
+    "ContactLastName": "Test Pra",
+    "ContactType": "Billing Contact",
+    "ContactUpdateId": "003S000001AOlTkIAL",
+    "ContextId": "801S0000000HwgmIAC",
+    "ContrelatId": "a5FS0000000qpPnMAI",
+    "Email": "qwert1y@asd.com",
+    "FirstName": "testing1",
+    "GroupInformation": {
+        "CancelReason": null,
+        "GraceDays": null,
+        "GroupConfig": null,
+        "GroupContact": null,
+        "GroupID": null,
+        "GroupProduct": null,
+        "GroupStatus": null,
+        "IndicateProbationaryPeriod": null,
+        "PremPaidForEachSubDepPerMonth": null,
+        "PremPaidForEachSubPerMonth": null
+    },
+    "GroupNumbervalidation": "Revision Pending Implementations Review",
+    "GroupUpdateID": "a5IS0000000EVrjMAG",
+    "LoadGroupStep": {
+        "CaseInformation": {
+            "ImplementationCaseStatus": "Revision Pending Implementations Review"
+        }
+    },
+    "MailingAddress": ", , , , ",
+    "OrderId": "801S0000000HwgmIAC",
+    "OrderNumber": "IMPL-2783",
+    "PhysicalAddress": ", , , , ",
+    "ProductWithPercent": "%",
+    "RecFetch": false,
+    "RecordTypeName": "Renwal Unlock",
+    "id": "a3CS0000000Fwf0MAC",
+    "layout": "lightning",
+    "st1": "Revision Pending Implementations Review",
+    "st2": false,
+    "st3": true,
+    "timeStamp": "2019-07-26T13:47:37.177Z",
+    "userCurrencyCode": "USD",
+    "userId": "005S000000FuNOzIAN",
+    "userName": "gandla.bhanu.prakash@accenture.com.icerapt",
+    "userProfile": "System Administrator",
+    "userTimeZone": -240,
+    "vlcPersistentComponent": {
+    }
+}

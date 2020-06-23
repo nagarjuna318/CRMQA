@@ -1,0 +1,119 @@
+{
+    "%vlocity_namespace%__Active__c": true,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "ProductConfiguratorGENERAL_LG",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/ANA Library/PSProductConfiguratorGENERAL_LG/English",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__ParentElementId__c": {
+        "%vlocity_namespace%__OmniScriptId__c": {
+            "Name": "ProductConfiguratorGENERAL_LG",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/ANA Library/PSProductConfiguratorGENERAL_LG/English",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+        },
+        "Name": "SetPLComplete",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/ANA Library/PSProductConfiguratorGENERAL_LG/English/SetPLComplete",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c"
+    },
+    "%vlocity_namespace%__ParentElementName__c": "SetPLComplete",
+    "%vlocity_namespace%__ParentElementType__c": "Block",
+    "%vlocity_namespace%__PropertySet__c": {
+        "HTMLTemplateId": "",
+        "controlWidth": 12,
+        "disOnTplt": false,
+        "hideLabel": true,
+        "label": null,
+        "messages": [
+            {
+                "active": false,
+                "text": "",
+                "type": "Success",
+                "value": true
+            },
+            {
+                "active": true,
+                "text": "Please fill in all the mandatory fields for the Product Type - ‘Medical’",
+                "type": "Requirement",
+                "value": false
+            }
+        ],
+        "show": {
+            "group": {
+                "operator": "AND",
+                "rules": [
+                    {
+                        "condition": "=",
+                        "data": "true",
+                        "field": "PLComplete"
+                    },
+                    {
+                        "condition": "=",
+                        "data": "Medical",
+                        "field": "ProductTypeFormula"
+                    }
+                ]
+            }
+        },
+        "validateExpression": {
+            "group": {
+                "operator": "AND",
+                "rules": [
+                    {
+                        "condition": "<>",
+                        "data": null,
+                        "field": "Orthopedic_Travel_Benefits"
+                    },
+                    {
+                        "condition": "<>",
+                        "data": null,
+                        "field": "CEP Indicator"
+                    },
+                    {
+                        "condition": "<>",
+                        "data": null,
+                        "field": "Employer Contribution for the dependent"
+                    },
+                    {
+                        "condition": "<>",
+                        "data": null,
+                        "field": "Employer Contribution for the Employee"
+                    },
+                    {
+                        "condition": "<>",
+                        "data": null,
+                        "field": "ProductTermYearsLeft"
+                    },
+                    {
+                        "condition": "<>",
+                        "data": null,
+                        "field": "Benefit_Period"
+                    },
+                    {
+                        "condition": "<>",
+                        "data": null,
+                        "field": "RX_Vendors"
+                    },
+                    {
+                        "condition": "<>",
+                        "data": null,
+                        "field": "RX/Accumulation"
+                    },
+                    {
+                        "condition": "<>",
+                        "data": null,
+                        "field": "Out_Of_State"
+                    }
+                ]
+            }
+        }
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": false,
+    "%vlocity_namespace%__Type__c": "Validation",
+    "Name": "RequiredBlockMedical",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/ANA Library/PSProductConfiguratorGENERAL_LG/English/RequiredBlockMedical"
+}

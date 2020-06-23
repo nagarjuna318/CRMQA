@@ -1,0 +1,50 @@
+{
+    "dataSource": {
+        "type": null
+    },
+    "filter": {
+        "['RecordType']['Name']": "Local - Automation Eligible"
+    },
+    "states": [
+        {
+            "actionCtxId": "['Id']",
+            "conditions": {
+                "group": [
+                    {
+                        "field": "$scope.data.status",
+                        "operator": "===",
+                        "type": "system",
+                        "value": "'active'"
+                    }
+                ]
+            },
+            "definedActions": {
+                "actions": [
+                    {
+                        "collapse": true,
+                        "hasExtraParams": false,
+                        "id": "Trigger Id Cards",
+                        "isCustomAction": false,
+                        "type": "Vlocity Action"
+                    },
+                    {
+                        "collapse": true,
+                        "hasExtraParams": false,
+                        "id": "Add ID Card Design",
+                        "isCustomAction": false,
+                        "type": "Vlocity Action"
+                    }
+                ]
+            },
+            "fields": [
+            ],
+            "isSmartAction": false,
+            "name": "TriggerCard",
+            "sObjectType": "ID_Cards__c",
+            "smartAction": {
+            },
+            "templateUrl": "IDCardsTemplate"
+        }
+    ],
+    "title": "Trigger ID Card"
+}

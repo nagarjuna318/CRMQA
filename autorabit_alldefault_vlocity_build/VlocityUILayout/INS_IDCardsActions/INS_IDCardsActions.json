@@ -1,0 +1,30 @@
+{
+    "Cards": [
+        "CloneExistingIDCardRequirements",
+        "PencorrectionsIDCards",
+        "Trigger ID Card"
+    ],
+    "dataSource": {
+        "contextVariables": [
+            {
+                "name": "params.Id",
+                "val": "a7S2g000000CceCEAS"
+            }
+        ],
+        "type": "Query",
+        "value": {
+            "jsonMap": "{\"params.id || params.Id\":\"{{params.id || params.Id}}\"}"
+        }
+    },
+    "previewType": "runTime",
+    "templates": {
+        "0": {
+            "templateUrl": "Anthem-card-canvas-2x-slds-nosearch"
+        }
+    },
+    "workspace": [
+        "CloneExistingIDCardRequirements/Anthem Commercial 2.0/1/1529435720506",
+        "PencorrectionsIDCards/Anthem Commercial 2.0/1/1534734095185",
+        "Trigger ID Card/Anthem Commercial 2.0/1/1576489144741"
+    ]
+}

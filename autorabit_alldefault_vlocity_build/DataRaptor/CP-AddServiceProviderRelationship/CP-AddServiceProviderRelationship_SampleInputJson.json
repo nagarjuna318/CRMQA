@@ -1,0 +1,26 @@
+{
+    "AccountId": "0014B00000KMhYh",
+    "ContextId": "",
+    "SelectServiceProvider": {
+        "Account_Id": "0014B00000KMhYh",
+        "CompetitorId": "0014B00000ONJBtQAP",
+        "NotInCompetitorList": true,
+        "ServiceProviderTypeAhead-Block": {
+            "CompetitorAccountId": "0014B00000ONJBtQAP",
+            "ServiceProviderId": "a5K4B0000000sRJUAY",
+            "ServiceProviderTypeAhead": "Regence Blue Shield (Washington)"
+        },
+        "TypeAheadAccount-Block": {
+            "ServiceProviderAccountId": "0014B00000ONJCLQA5",
+            "TypeAheadAccount": "Sharp Healthcare"
+        }
+    },
+    "id": "a3B4B0000002OItUAM",
+    "layout": "lightning",
+    "timeStamp": "2017-06-12T00:45:43.545Z",
+    "userId": "0054B000000op45QAA",
+    "userName": "jcarrero@anthem.com2.config",
+    "userProfile": "System Administrator",
+    "vlcPersistentComponent": {
+    }
+}

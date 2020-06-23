@@ -1,0 +1,25 @@
+{
+    "ContextId": "a7S5B000000D5Uu",
+    "GroupId": "a5I5B0000008mKS",
+    "IDCardGroupId": "a5I5B0000008mKS",
+    "IDCards": {
+        "IDCardReq": null
+    },
+    "id": "a3C5B0000009zOfUAI",
+    "layout": "lightning",
+    "timeStamp": "2018-06-18T19:34:18.148Z",
+    "userCurrencyCode": "USD",
+    "userId": "0055B000001O1w4QAC",
+    "userName": "tlu@anthem.com2.iceconfig",
+    "userProfile": "System Administrator",
+    "userTimeZone": -240,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "DREIDCardGroup": 445,
+        "DRE_IDCardReqs": 589,
+        "OmniScriptSessionToken": "cdae9179-5463-4c60-afd9-4eefd415656c",
+        "SVContextId": 16,
+        "SVExistingMockUp": 20
+    }
+}

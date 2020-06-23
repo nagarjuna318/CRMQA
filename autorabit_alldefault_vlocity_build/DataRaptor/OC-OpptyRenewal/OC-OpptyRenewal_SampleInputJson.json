@@ -1,0 +1,108 @@
+{
+    "Account": {
+        "Id": "0014B00000KMhYhQAL",
+        "Name": "Stark Industries",
+        "RecordTypeId": "0124B0000000QWNQA2"
+    },
+    "ContextId": "0014B00000KMhYh",
+    "CurrentOppty": {
+        "EffectiveDate": "2017-01-01",
+        "ExecComments": "THIS IS THE EXISTING ONE",
+        "Id": "0064B000007o3GAQAY",
+        "IsRenewalStage": true,
+        "Name": "2017 New Business-Stark Industries",
+        "OpptyComments": "THIS IS THE EXISTING ONE",
+        "Pricebook2Id": "01s41000007wBCZAA2",
+        "RFPStatus": "Active Renewal",
+        "ReceivedDate": "2017-05-30",
+        "RecordType": "New Business",
+        "SpecialtyComments": "THIS IS THE EXISTING ONE",
+        "Stage": "Closed Won"
+    },
+    "Customer": "0014B00000KMhYh",
+    "OwnerName": "Juan Carlos",
+    "Prospect": "0014B00000KMWAp",
+    "RC-Interview": {
+        "RC-ActualOffCycle": null,
+        "RC-DayMsg": true,
+        "RC-FullPartial/NewExistingMovement": null,
+        "RC-ImpacttoMembership": null,
+        "RC-OffCycleL1": null,
+        "RC-OnCycleL2": {
+            "RC-YYFN": "None",
+            "RCMinM": "No",
+            "RCPtoG": "Yes"
+        },
+        "RC-OpptyName": "2018 Opportunity Existing Business-Stark Industries",
+        "RC-PotentialGrowLoseMembers": null,
+        "RC-UREffectiveDate": "2018-01-01T06:00:00.000Z",
+        "RC-YNEffectiveDate": "Yes"
+    },
+    "RC-NoOpptyFound": {
+        "NRR-Block8": {
+            "NRR-NewRenewal": "Renewal"
+        }
+    },
+    "RDN-Comments": {
+        "BCK21": {
+            "RDN-ExecComments": "0014B00000KMhYh",
+            "RDN-OpptyComments": "0014B00000KMhYh",
+            "RDN-SpecialtyComments": "0014B00000KMhYh"
+        }
+    },
+    "RDN-Details": {
+        "B22": {
+            "RDN-OwnerName": "Juan Carlos"
+        },
+        "BCK20": {
+            "RDN-AccountName": "Stark Industries",
+            "RDN-ConfEffDate": null,
+            "RDN-DaySelection": "Ok",
+            "RDN-EffectiveDate": "2018-01-01T06:00:00.000Z",
+            "RDN-EffectiveDateCalc": "2018-01-01",
+            "RDN-OpptyName": "2018 Opportunity Existing Business-Stark Industries",
+            "RDN-Probability": 50,
+            "RDN-ProbabilityFlg": "Allow",
+            "RDN-RFPStatus": "Rate Guarantee",
+            "RDN-RFPStatusFlg": "Allow",
+            "RDN-ReceivedDate": "2017-07-01T05:00:00.000Z",
+            "RDN-ReceivedDateCalc": "2017-07-01",
+            "RDN-RecordType": "Renewal",
+            "RDN-SalesSupportTrack": null,
+            "RDN-Stage": "Submitted to Customer",
+            "RDN-StageReason": "Account/Sales Team",
+            "RDN-WARPDate": null,
+            "RDN-WARPDateCalc": "--"
+        },
+        "RDN-DayMsg": true,
+        "RDN-ProbabilityMsg": true,
+        "RDN-StatusFlg": true,
+        "RDN-Type": "OPPTY_TYPE",
+        "RDN-Value": "Renewal"
+    },
+    "RecordType": {
+        "Type": "Customer"
+    },
+    "id": "a3B4B0000002N5TUAU",
+    "layout": "lightning",
+    "timeStamp": "2017-06-04T16:22:09.412Z",
+    "userId": "0054B000000op45QAA",
+    "userName": "jcarrero@anthem.com2.config",
+    "userProfile": "System Administrator",
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "DR-CurrentOppty": 516,
+        "DR-Renewal": 567,
+        "DR-UserName": 326,
+        "Get Account Data DR": 555,
+        "OmniScriptSessionToken": "3f7fe5ca-5aac-49d2-a745-1141c908132b",
+        "RC-Interview": 32338,
+        "RC-NoOpptyFound": 9792,
+        "RC-SetConsts": 2,
+        "RC-SetURD": 11,
+        "RDN-Comments": 7751,
+        "RDN-Details": 39830,
+        "RDN-SettingValues": 5
+    }
+}

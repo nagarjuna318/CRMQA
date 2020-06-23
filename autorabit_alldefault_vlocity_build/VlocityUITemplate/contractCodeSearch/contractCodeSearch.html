@@ -1,0 +1,23 @@
+<div>
+	<div class="search-container">
+		<label>Search Contract Code</label>
+	</div>
+	<div ng-controller="contractCntrl">
+		<input type="text" ng-model="search" list="names" ng-change="showContracts()" placeholder="Search..." id="contractSearch"
+		 ng-disabled="checkForMedical() || names.length >= 10">
+		<datalist id="names" class="form-control">
+			<option value=''>-- select an option --</option>
+			<option ng-repeat="option in contracts | filter:search" value="{{option.ContractCode}}"></option>
+		</datalist>
+		<div class="selected-ccs-container" ng-if="names.length > 0">
+			<div class="selected-ccs" ng-repeat="x in names">
+				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="new_account" height="26px">
+					<path d="M23.1 12.4c0-.8-.6-1-.8-1H14c-.8 0-.8.8-.8.8v9h9.9v-8.8zm-5.7 6.5c0 .4-.4.8-.8.8h-.8c-.4 0-.8-.4-.8-.8v-.8c0-.4.3-.8.8-.8h.8c.4 0 .8.4.8.8v.8zm0-3.9c0 .4-.4.7-.8.7h-.8c-.4 0-.8-.3-.8-.7v-.8c0-.4.3-.8.8-.8h.8c.4 0 .8.4.8.8v.8zm3.8 3.9c0 .4-.3.8-.8.8h-.8c-.4 0-.8-.4-.8-.8v-.8c0-.4.4-.8.8-.8h.8c.4 0 .8.4.8.8v.8zm0-3.9c0 .4-.3.7-.8.7h-.8c-.4 0-.8-.3-.8-.7v-.8c0-.4.4-.8.8-.8h.8c.4 0 .8.4.8.8v.8zm-5.8-6.7V3.8c.1-.8-.5-1-.7-1H1.8c-.8 0-.9.8-.9.8v17.6h9.9V10s0-1 .9-1h3c.4 0 .7-.4.7-.7zM5.1 18.5c0 .4-.3.8-.8.8h-.7c-.4 0-.8-.4-.8-.8v-.8c0-.4.3-.8.8-.8h.8c.4 0 .8.4.8.8v.8zm0-4c0 .5-.3.8-.8.8h-.7c-.4 0-.8-.3-.8-.8v-.7c0-.5.3-.8.8-.8h.8c.4 0 .8.3.8.8v.7zm0-3.9c0 .4-.3.8-.8.8h-.7c-.4 0-.8-.4-.8-.8v-.8c0-.4.3-.8.8-.8h.8c.4 0 .8.4.8.8v.8zm0-3.9c0 .4-.3.8-.8.8h-.7c-.4 0-.8-.4-.8-.8v-.8c0-.4.3-.8.8-.8h.8c.4 0 .8.4.8.8v.8zm4.2 11.8c0 .4-.3.8-.8.8h-.7c-.5 0-.8-.4-.8-.8v-.8c0-.4.3-.8.8-.8h.7c.5 0 .8.4.8.8v.8zm0-4c0 .5-.3.8-.8.8h-.7c-.5 0-.8-.3-.8-.8v-.7c0-.5.3-.8.8-.8h.7c.5 0 .8.3.8.8v.7zm0-3.9c0 .4-.3.8-.8.8h-.7c-.5 0-.8-.4-.8-.8v-.8c0-.4.3-.8.8-.8h.7c.5 0 .8.4.8.8v.8zm0-3.9c0 .4-.3.8-.8.8h-.7c-.5 0-.8-.4-.8-.8v-.8c0-.4.3-.8.8-.8h.7c.5 0 .8.4.8.8v.8zm4.2 0c0 .4-.3.8-.8.8H12c-.4 0-.8-.4-.8-.8v-.8c0-.4.3-.8.8-.8h.8c.4 0 .8.4.8.8v.8z" fill="white"/></svg>
+				<span class="contract-code-name">{{x}}</span>
+				<button class="close-button" type="button" ng-click="removeFromSelected(x)">
+      <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px"><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/><path d="M0 0h24v24H0z" fill="none"/></svg>
+    </button>
+			</div>
+		</div>
+	</div>
+</div>

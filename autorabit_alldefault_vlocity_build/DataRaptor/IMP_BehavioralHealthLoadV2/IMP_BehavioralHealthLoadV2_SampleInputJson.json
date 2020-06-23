@@ -1,0 +1,73 @@
+{
+    "AccountId": "0012a00000MylmSAAR",
+    "AccountName": "Test-17084",
+    "AnthemEntity": "National Accounts",
+    "CaseName": "2019: Change Request Off Cycle-Test-17084",
+    "ContextId": "8012a000000UjPBAA0",
+    "FR-ProductCode": "",
+    "FR-ProductName": "",
+    "FR-QResult": "",
+    "FR-QResultRCR": "",
+    "GroupClaimSystem": "WGS 2.0",
+    "HQState": "AR",
+    "Id": "8012a000000UjPBAA0",
+    "ImplementationNumber": "IMPL-0574",
+    "ImplementationType": "Change Request Off Cycle",
+    "LoggedInUserProfile": "System Administrator",
+    "Redirect": "N",
+    "ST-BehaviorHealthDetail_NB": {
+        "Q5": "NA"
+    },
+    "ST-BehaviorHealthDetail_RCR": {
+        "FR-QResultRCR": "S6",
+        "FR-QResultRCRMsg": true,
+        "Q1_RCR": "Yes",
+        "Q2_RCR": null,
+        "Q3_RCR": null,
+        "Q4_RCR": "Yes",
+        "Q5_RCR": null,
+        "Q6_RCR": null,
+        "Q7_RCR": null,
+        "Q8_RCR": null
+    },
+    "ST-BehavioralHealth": {
+        "FR-AccountName": "Test-17084",
+        "FR-ImplementationCaseName": "2019: Change Request Off Cycle-Test-17084",
+        "FR-ImplementationRecordId": "IMPL-0574",
+        "FR-ImplementationType": "RCR"
+    },
+    "ST-Finish": {
+        "FR-BHScenario": "S6",
+        "FR-FinishMessage": " Creating A Behavioral Health Record For: Test-17084",
+        "FR-ProductCode": "6001"
+    },
+    "ST-ProductDetail": {
+        "BHScenario": "S6",
+        "FR-PD-Q": "BH-Anthem BC Vivity-Integrated Health Systems",
+        "FR-QResult": "S6",
+        "PD-NAComments": null,
+        "PD-NACorrespondingPackageCode": "ee33",
+        "PD-Q": "BH-Anthem BC Vivity-Integrated Health Systems",
+        "PD-QNotAvailable": null
+    },
+    "id": "a3C2a0000004iZcEAI",
+    "layout": "lightning",
+    "timeStamp": "2018-08-06T13:26:21.623Z",
+    "userCurrencyCode": "USD",
+    "userId": "0052a000001AQ5vAAG",
+    "userName": "ilugina@anthem.com2.iceqa",
+    "userProfile": "System Administrator",
+    "userTimeZone": -240,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "DR-BehavioralHealthLoad": 219,
+        "DRE-ImplementationCase": 518,
+        "OmniScriptSessionToken": "a7924696-fe19-43cc-91ca-a64bed0ff8a6",
+        "ST-BehaviorHealthDetail_RCR": 4712,
+        "ST-BehavioralHealth": 1968,
+        "ST-Finish": 44521,
+        "ST-ProductDetail": 11081,
+        "SV-PresetValue": 27
+    }
+}

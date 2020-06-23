@@ -1,0 +1,40 @@
+{
+    "%vlocity_namespace%__Active__c": true,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "ImplementationCase_LG",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/IMPCase Library/IC-ImplementationCase_LG/English",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__PropertySet__c": {
+        "HTMLTemplateId": "",
+        "controlWidth": 12,
+        "disOnTplt": false,
+        "elementValueMap": {
+            "AccountExecutiveTypeCheck": "=IF(%AccountExecutiveTypeAhead% == NULL, true, false)",
+            "AccountManagerTypeCheck": "=IF(%AccountManagerTypeAhead% == NULL, true, false)",
+            "PrimaryCheckboxTypeAhead": "=IF(%CompanyInformation:ContactInformation:ContactInformationRO:ContactLastNameRO% == NULL, true)",
+            "PrimaryContact": "=COUNT(%ContactInformation:ContactRelationId%) == 1",
+            "SalesAccountRepAcctMgmtTypeCheck": "=IF(%SalesAccountRepAcctMgmtTypeAhead% == NULL, true, false)",
+            "SpecialtySalesExecutiveTypeCheck": "=IF(%SpecialtySalesExecutiveTypeAhead% == NULL, true, false)"
+        },
+        "label": null,
+        "message": {
+        },
+        "pubsub": false,
+        "show": null,
+        "showPersistentComponent": [
+            false,
+            false
+        ],
+        "ssm": false,
+        "validationRequired": "Step",
+        "wpm": false
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": false,
+    "%vlocity_namespace%__Type__c": "Set Values",
+    "Name": "SetValuesforTeamMember",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/IMPCase Library/IC-ImplementationCase_LG/English/SetValuesforTeamMember"
+}

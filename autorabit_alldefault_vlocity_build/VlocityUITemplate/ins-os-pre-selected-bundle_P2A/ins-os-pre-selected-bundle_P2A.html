@@ -1,0 +1,49 @@
+<div class="full-width" ng-controller="ins-product-selection-controller">
+	   <!-- <div class="search-container nds-m-bottom_small">
+	        <div class="nds-size_1-of-1">
+	           <div class="nds-form-element">
+	  					<div class="nds-form-element__control nds-input-has-icon nds-input-has-icon_left">
+							<svg class="nds-icon nds-input__icon nds-icon_x-small nds-icon-text-default search-icon-margin" aria-hidden="true">
+								<use xlink:href="../resource/%vlocity_namespace%__slds/assets/icons/utility-sprite/svg/symbols.svg#search"></use>
+							</svg>
+							<input type="text" class="nds-input nds-combobox__input search_plans search-padding-left" id="combobox-unique-id" aria-autocomplete="list" aria-controls="listbox-unique-id" autocomplete="off" ng-model="searchCriteria.Text" role="textbox" placeholder="Search Products">
+	  					</div>
+	           </div>
+	        </div>
+	  </div> -->
+	  <div ng-if="!control.vlcSI['recSet']" class="empty-state-product">
+		<p class="plan-attribute">No products are available under this set of filters. Please go back and select different options.</p>
+  </div>
+			<div ng-if="control.vlcSI['recSet']" class="nds-grid product-bundle-container nds-wrap">
+					
+				<article ng-repeat="p in control.vlcSI['recSet'] | filter:searchCriteria.Text" ng-init='onSelectItem(control, p, $index, this, true)' class="nds-col nds-size_1-of-4">
+					<div class="nds-box product-bundle" >
+			             <div class="product-title-bundle">
+								<h3 class="font-weight-bold product-h3">{{p.Name}}</h3>
+								<!-- <span class="tooltiptext" ng-if="p.HelpText != undefined">{{p.HelpText}}</span> -->
+						</div>	
+			             <!-- <div class="nds-form-element dropdown-width">
+			             	<div class="nds-form-element__control">
+			             		<div class="nds-select_container">
+				                    <select name="loopname" id="vlcBundleStage" class="nds-select" ng-model="vlcBundleStage" ng-change="p.vlcBundleStage = vlcBundleStage">
+				                    	<!-- style="font-size:12px;font-weight:bold;max-width:100%;" -->
+										<!-- <option ng-repeat="option in bpTree.response['AP-Stages']" value="{{option}}">{{option}}</option>
+				                    </select>
+				                </div>
+			                </div> -->
+			             <!-- </div> -->
+			              <div>
+								<!-- 
+									ng-init="p.vlcSelected=false" ng-class="{'vlc-selectableitem-selected' : p.vlcSelected || p.vlcSelected == undefined }" -->
+								<button
+									class="nds-button nds-button_neutral nds-m-top_x-small"
+									disabled=" ">
+									<span>Included</span>
+									<!-- <span ng-hide="p.vlcSelected">Select Product</span>
+									<span ng-show="p.vlcSelected" class="selected"><i class="icon icon-v-check"></i>Selected</span> -->
+								</button>
+						  </div>
+			        </div>
+		    	</article>
+	      </div>
+</div>

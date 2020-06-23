@@ -1,0 +1,376 @@
+{
+    "AP-Family": "",
+    "AP-FamilySelection": {
+        "AP-CatSelection": "Medical",
+        "AP-MarketSelection": "CT",
+        "AP-MarketSelectionFinalvlaue": "CT",
+        "AP-NALGMergeValue": "No",
+        "AP-OpptyType": null,
+        "AP-TypeRequiredMessaging": true,
+        "Aggregate1": null,
+        "AnthemEntity_Abbrev": "",
+        "SetProdStage": "No",
+        "Situs_State_Abbrev": ""
+    },
+    "AP-HasSPP": "No",
+    "AP-ParentId": "01t41000004JBxZAAW",
+    "AP-ProductFamily": {
+        "AP-ProductFamilySelection": "PPO",
+        "AP-ProductFamilySelectionValidation": true
+    },
+    "AP-ProductFamilySelected": "MedicalCT",
+    "AP-ProductName": "MultiSelection",
+    "AP-ProductSelection": {
+        "AP-ProdSelected": true,
+        "AP-Selected": true,
+        "APParentCount": false,
+        "Messaging13": null,
+        "ProdList": [
+            {
+                "$$hashKey": "object:2190",
+                "HasSPP": false,
+                "Id": "01t41000004JBxZAAW",
+                "Name": "Century Preferred PPO",
+                "QLIRecordType": "LocalType",
+                "RecordTypeId": "01241000001IOWvAAO",
+                "vlcSelected": true
+            },
+            {
+                "$$hashKey": "object:2192",
+                "HasSPP": false,
+                "Id": "01t41000004JBxWAAW",
+                "Name": "PPO Basic",
+                "QLIRecordType": "LocalType",
+                "RecordTypeId": "01241000001IOWvAAO",
+                "vlcSelected": true
+            }
+        ]
+    },
+    "AccountId": "",
+    "AnthemEntity": "",
+    "ClinicalProductSelected": "Century Preferred PPO",
+    "ContextId": "0Q05B0000002YPeSAM",
+    "HPCCVal_Count": "",
+    "IGAP": "0Q04B000000AFao",
+    "NewBusiness": "0Q04B000000AJiN",
+    "OpptyType": "",
+    "Opptystage": "",
+    "ProdFamilyList": [
+        {
+            "LOB_Org__c": "MedicalCT"
+        },
+        {
+            "LOB_Org__c": "MedicalCT"
+        },
+        {
+            "LOB_Org__c": "MedicalCT"
+        },
+        {
+            "LOB_Org__c": "MedicalCT"
+        },
+        {
+            "LOB_Org__c": "MedicalCT"
+        },
+        {
+            "LOB_Org__c": "MedicalCT"
+        },
+        {
+            "LOB_Org__c": "MedicalCT"
+        },
+        {
+            "LOB_Org__c": "MedicalCT"
+        },
+        {
+            "LOB_Org__c": "MedicalCT"
+        },
+        {
+            "LOB_Org__c": "MedicalCT"
+        },
+        {
+            "LOB_Org__c": "MedicalCT"
+        },
+        {
+            "LOB_Org__c": "MedicalCT"
+        },
+        {
+            "LOB_Org__c": "MedicalCT"
+        },
+        {
+            "LOB_Org__c": "MedicalCT"
+        },
+        {
+            "LOB_Org__c": "MedicalCT"
+        },
+        {
+            "LOB_Org__c": "MedicalCT"
+        },
+        {
+            "LOB_Org__c": "MedicalCT"
+        },
+        {
+            "LOB_Org__c": "MedicalCT"
+        },
+        {
+            "LOB_Org__c": "MedicalCT"
+        },
+        {
+            "LOB_Org__c": "MedicalCT"
+        },
+        {
+            "LOB_Org__c": "MedicalCT"
+        },
+        {
+            "LOB_Org__c": "MedicalCT"
+        },
+        {
+            "LOB_Org__c": "MedicalCT"
+        },
+        {
+            "LOB_Org__c": "MedicalCT"
+        },
+        {
+            "LOB_Org__c": "MedicalCT"
+        },
+        {
+            "LOB_Org__c": "MedicalCT"
+        },
+        {
+            "LOB_Org__c": "MedicalCT"
+        },
+        {
+            "LOB_Org__c": "MedicalCT"
+        },
+        {
+            "LOB_Org__c": "MedicalCT"
+        },
+        {
+            "LOB_Org__c": "MedicalCT"
+        },
+        {
+            "LOB_Org__c": "MedicalCT"
+        },
+        {
+            "LOB_Org__c": "MedicalCT"
+        },
+        {
+            "LOB_Org__c": "MedicalCT"
+        },
+        {
+            "LOB_Org__c": "MedicalCT"
+        },
+        {
+            "LOB_Org__c": "MedicalCT"
+        },
+        {
+            "LOB_Org__c": "MedicalCT"
+        },
+        {
+            "LOB_Org__c": "MedicalCT"
+        },
+        {
+            "LOB_Org__c": "MedicalCT"
+        },
+        {
+            "LOB_Org__c": "MedicalCT"
+        },
+        {
+            "LOB_Org__c": "MedicalCT"
+        },
+        {
+            "LOB_Org__c": "MedicalCT"
+        },
+        {
+            "LOB_Org__c": "MedicalCT"
+        },
+        {
+            "LOB_Org__c": "MedicalCT"
+        },
+        {
+            "LOB_Org__c": "MedicalCT"
+        },
+        {
+            "LOB_Org__c": "MedicalCT"
+        },
+        {
+            "LOB_Org__c": "MedicalCT"
+        },
+        {
+            "LOB_Org__c": "MedicalCT"
+        },
+        {
+            "LOB_Org__c": "MedicalCT"
+        },
+        {
+            "LOB_Org__c": "MedicalCT"
+        },
+        {
+            "LOB_Org__c": "MedicalCT"
+        }
+    ],
+    "ProductStage": "",
+    "QLD": {
+        "AP-BundleType": "",
+        "Block9": null,
+        "QLD-AccountId": null,
+        "QLD-Block": {
+            "Block8": {
+                "QLD-ParticipationType": null
+            },
+            "Pharmacy Section": {
+                "Annual Op Gain": null,
+                "Annual Revenue": null,
+                "Annualized Claim Count": null,
+                "Formulary": null,
+                "Formulary Disruption Completed": null,
+                "Home Delivery": null,
+                "Pricing Guarantee": null,
+                "Rebate": null,
+                "Retail Maintenance Network": null,
+                "Retail Network": null,
+                "Specialty Network": null
+            },
+            "ProbBlock": {
+                "Probability": "40%"
+            },
+            "QLD-AdminIntegration": false,
+            "QLD-AutoQuote": false,
+            "QLD-CEPIndicator": null,
+            "QLD-ClinicalIntegration": false,
+            "QLD-Discount": null,
+            "QLD-Discountsharing": null,
+            "QLD-DoNotAutoPickPCP": false,
+            "QLD-EPHCEnhPersHealthCare": null,
+            "QLD-EmplyrContDepend": null,
+            "QLD-EmplyrContEmp": null,
+            "QLD-EstimAnnualPrem": null,
+            "QLD-EyemedCollaboration": null,
+            "QLD-Final_Rate": null,
+            "QLD-Financing": "Flat Fee",
+            "QLD-Funding": "N/A",
+            "QLD-Members": 4,
+            "QLD-Network": null,
+            "QLD-NoSalesCredit": null,
+            "QLD-Original_Rate_Adjustment": null,
+            "QLD-Probability": "40%",
+            "QLD-ProdStage": "",
+            "QLD-ProductTermYearsLeft": null,
+            "QLD-RX Vendors": null,
+            "QLD-RateGuarThr": null,
+            "QLD-Rate_Differential": null,
+            "QLD-Rate_Differential_Type": null,
+            "QLD-Rate_Relief": null,
+            "QLD-Reason": null,
+            "QLD-ReasonCalc": null,
+            "QLD-ReasonPck": null,
+            "QLD-Subscribers": 4,
+            "QLD-TermDate": null,
+            "QLD-TermDateIn": null,
+            "QLD-TermSelection": "Ok",
+            "QLD-Upsell": null,
+            "QLD_Stage_Chk": "No",
+            "SetValuesToDropDown": {
+                "ConfigurableProgramSetValueTriggers": "",
+                "ConfigureProgramSetValues": null
+            }
+        },
+        "QLD-DayMsg": true,
+        "QLD-ProductStageMsg": false,
+        "QLD-ReqCompetitor": "No",
+        "QLD-TermReqFlds": "Yes",
+        "QLD-Vendor": null,
+        "QLD_Reason_Chk": true
+    },
+    "QLD-NoSalesCredit": "No",
+    "QuoteDetails:OpptyRecType": "",
+    "QuoteId": "",
+    "QuoteLineItem_RecordType": "LocalType",
+    "Renewals": "0Q04B000000AKWwSAO",
+    "SelectServiceProvider": {
+        "Account_Id": null,
+        "AddComp2": null,
+        "AddComp3": null,
+        "CompIdCalc2": null,
+        "CompIdCalc3": null,
+        "CompStatusCalc2": null,
+        "CompStatusCalc3": null,
+        "CompetitorId": null,
+        "CompetitorStatus": null,
+        "CompetitorStatus1_LG": null,
+        "CompetitorStatusFormula": null,
+        "InvTypeCalc1": null,
+        "InvTypeCalc2": null,
+        "InvTypeCalc3": null,
+        "InvolvementType": null,
+        "InvolvementType2": null,
+        "InvolvementType3": null,
+        "LOBCalc1": null,
+        "LOBCalc2": null,
+        "LOBCalc3": null,
+        "LineOfBusiness": null,
+        "LineOfBusiness2": null,
+        "LineOfBusiness3": null,
+        "Membership1": null,
+        "Membership2": null,
+        "Membership3": null,
+        "Multi-Employer": null,
+        "Multi-Employer2": null,
+        "Multi-Employer3": null,
+        "MultiEmpCalc1": null,
+        "MultiEmpCalc2": null,
+        "MultiEmpCalc3": null,
+        "NA-WarnMembership": null,
+        "NOUFlag": false,
+        "NameOfEmployers": null,
+        "NameOfEmployers2": null,
+        "NameOfEmployers3": null,
+        "NoEmpCalc1": null,
+        "NoEmpCalc2": null,
+        "NoEmpCalc3": null,
+        "ReqComFlds": null,
+        "SP-CompStatus2": null,
+        "SP-CompStatus2_LG": null,
+        "SP-CompStatus3": null,
+        "SP-CompStatus3_LG": null,
+        "SPTD-Msg": null,
+        "SPTermDate": null,
+        "SPTermDateDay": null,
+        "SPTermDateIn": null,
+        "SSP-Msg": null,
+        "SSPMsg-Flg": null,
+        "TACompetitor2-Block": null,
+        "TACompetitor2_NA-Block": null,
+        "TACompetitor3-Block": null,
+        "TACompetitor3_NA-Block": null,
+        "TypeAheadAccount-Block": null,
+        "TypeAheadAccount_NA-Block": null
+    },
+    "Situs_State": "",
+    "id": "a3C4C000000LOISUA4",
+    "layout": "lightning",
+    "testContextId": "0Q04C000000Lf8f",
+    "timeStamp": "2018-12-12T13:03:50.887Z",
+    "userCurrencyCode": "USD",
+    "userId": "00541000006Y54QAAS",
+    "userName": "veramesh@deloitte.com2.icepraveen",
+    "userProfile": "System Administrator",
+    "userTimeZone": null,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "AP-FamilySelection": 6165,
+        "AP-ProductFamily": 5628,
+        "AP-ProductSelection": 3601,
+        "AP-SetProductFamilyValues": 469,
+        "AP-SetValues": 91,
+        "ClinicalProductSelected": 29,
+        "CountHPCCVal": 32,
+        "DR-HPCCCodeRetrieval": 1007,
+        "DR-ProductFamilyRetrieval": 2226,
+        "DR-ProductRetrieval": 2261,
+        "DR-QuoteDetails": 3190,
+        "DR-SitusState": 2392,
+        "OmniScriptSessionToken": "d8d94e78-ef1d-4a0c-b135-26339f5d5c83",
+        "Set AccountId": 54,
+        "Set Constants": 475
+    }
+}

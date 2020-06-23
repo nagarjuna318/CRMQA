@@ -1,0 +1,56 @@
+{
+    "bundleName": "IMP_CreatePendCorrDental_NonEB",
+    "filesMap": {
+    },
+    "objectList": {
+        "CapturePendingCorrectionReasons": {
+            "CorrectionDepartment": "Dental Complete",
+            "CorrectionDepartment_Formula": "Dental Complete",
+            "Formula1": "Dental_Complete",
+            "PendingCorrection": {
+                "InitiatorComments": null,
+                "ReasonE&B": null,
+                "ReasonNonE&B": "Benefit booklets on draft",
+                "Type_E&B": null,
+                "Type_NonE&B": "Other"
+            },
+            "PendingCorrectionType": null,
+            "RateType": "Disability",
+            "Stage": "Pending Response From Implementations"
+        },
+        "ContextId": "a7G4C000000L3JhUAK",
+        "IMPCaseRecordId": "8014C000000LkJcQAK",
+        "ImpTracking": "a7X4C000000L9M2UAK",
+        "IntObjName": "Dental_Complete",
+        "Name": "DENTAL-000015",
+        "RecordTypeName": "Dental Complete",
+        "RecordTypeName_temp": "Dental Complete",
+        "Submit": {
+            "SubmitDate": "2018-11-05T15:18:32.000Z",
+            "SubmitPendCorrection": "Yes"
+        },
+        "contextId": "a7G4C000000L3JhUAK",
+        "id": "a3C4C000000LVjaUAG",
+        "layout": "lightning",
+        "timeStamp": "2018-11-05T14:37:54.311Z",
+        "userCurrencyCode": "USD",
+        "userId": "00541000006Y54PAAS",
+        "userName": "mshankarbangalore@deloitte.com2.icepraveen",
+        "userProfile": "System Administrator",
+        "userTimeZone": -480,
+        "vlcPersistentComponent": {
+        },
+        "vlcTimeTracking": {
+            "CapturePendingCorrectionReasons": 4990,
+            "DR-ExtractDental": 1611,
+            "DR-ExtractIMPTracking": 1529,
+            "End": 1145,
+            "OmniScriptSessionToken": "c412e2ba-1c01-49be-9f12-59fad3af30bb",
+            "SV-1": 98,
+            "SV_2": 16,
+            "SetValues2": 70,
+            "Submit": 2686,
+            "UserSME_Permission": 2605
+        }
+    }
+}

@@ -1,0 +1,135 @@
+{
+    "%vlocity_namespace%__Active__c": false,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "HRAAdministration",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/ANA Library/CDHP/English",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__PropertySet__c": {
+        "HTMLTemplateId": "",
+        "controlWidth": 12,
+        "disOnTplt": false,
+        "elementValueMap": {
+            "CoveredServices": "=IF(EQUALS(%MedicalHRAPaymentTypeExist%,'Provider Pay') && EQUALS(%RxHRAPaymentTypeExist%,'Member Pay'), 'Rx',IF(EQUALS(%MedicalHRAPaymentTypeExist%,'Provider Pay') && EQUALS(%RxHRAPaymentTypeExist%,''), '',IF(EQUALS(%MedicalHRAPaymentTypeExist%,'Provider Pay') && EQUALS(%RxHRAPaymentTypeExist%,'Provider Pay'), 'Rx',IF(EQUALS(%MedicalHRAPaymentTypeExist%,'Member Pay') && EQUALS(%RxHRAPaymentTypeExist%,''), '',IF(EQUALS(%MedicalHRAPaymentTypeExist%,'Member Pay') && EQUALS(%RxHRAPaymentTypeExist%,'Member Pay'), '',%CoveredServices%)))))",
+            "DebitCardServices": "=IF(EQUALS(%MedicalHRAPaymentTypeExist%,'Provider Pay') && EQUALS(%RxHRAPaymentTypeExist%,'Member Pay'), '',IF(EQUALS(%MedicalHRAPaymentTypeExist%,'Provider Pay') && EQUALS(%RxHRAPaymentTypeExist%,''), '',IF(EQUALS(%MedicalHRAPaymentTypeExist%,'Provider Pay') && EQUALS(%RxHRAPaymentTypeExist%,'Provider Pay'), '',IF(EQUALS(%MedicalHRAPaymentTypeExist%,'Member Pay') && EQUALS(%RxHRAPaymentTypeExist%,''), '',IF(EQUALS(%MedicalHRAPaymentTypeExist%,'Member Pay') && EQUALS(%RxHRAPaymentTypeExist%,'Member Pay'), 'Pharmacy',%DebitCardServices%)))))",
+            "HRAA": {
+                "HRAAR": "%Test%"
+            },
+            "Medical": "=IF(EQUALS(%MedicalHRAPaymentTypeExist%,'Provider Pay') && EQUALS(%RxHRAPaymentTypeExist%,'Member Pay'), 'Provider Pay',IF(EQUALS(%MedicalHRAPaymentTypeExist%,'Provider Pay') && EQUALS(%RxHRAPaymentTypeExist%,''), '',IF(EQUALS(%MedicalHRAPaymentTypeExist%,'Provider Pay') && EQUALS(%RxHRAPaymentTypeExist%,'Provider Pay'), '',IF(EQUALS(%MedicalHRAPaymentTypeExist%,'Member Pay') && EQUALS(%RxHRAPaymentTypeExist%,''), '',IF(EQUALS(%MedicalHRAPaymentTypeExist%,'Member Pay') && EQUALS(%RxHRAPaymentTypeExist%,'Member Pay'), '',%Medical%)))))",
+            "PharmacyHRAAdmin": "=IF(EQUALS(%MedicalHRAPaymentTypeExist%,'Provider Pay') && EQUALS(%RxHRAPaymentTypeExist%,'Member Pay'), 'Member Pay (Debit Card)',IF(EQUALS(%MedicalHRAPaymentTypeExist%,'Provider Pay') && EQUALS(%RxHRAPaymentTypeExist%,''), '',IF(EQUALS(%MedicalHRAPaymentTypeExist%,'Provider Pay') && EQUALS(%RxHRAPaymentTypeExist%,'Provider Pay'), '',IF(EQUALS(%MedicalHRAPaymentTypeExist%,'') && EQUALS(%RxHRAPaymentTypeExist%,''), '',IF(EQUALS(%MedicalHRAPaymentTypeExist%,'Member Pay') && EQUALS(%RxHRAPaymentTypeExist%,'Member Pay'), '',%PharmacyHRAAdmin%)))))",
+            "SelectMandatoryRx": "=IF(EQUALS(%MedicalHRAPaymentTypeExist%,'Provider Pay') && EQUALS(%RxHRAPaymentTypeExist%,'Member Pay'), 'Yes','No')",
+            "SelectNoPharmacy": "=IF(EQUALS(%MedicalHRAPaymentTypeExist%,'Member Pay') && EQUALS(%RxHRAPaymentTypeExist%,''), 'Yes','No')",
+            "SelectNoRx": "=IF(EQUALS(%MedicalHRAPaymentTypeExist%,'Provider Pay') && EQUALS(%RxHRAPaymentTypeExist%,''), 'Yes','No')",
+            "SelectPharmacy": "=IF(EQUALS(%MedicalHRAPaymentTypeExist%,'Member Pay') && EQUALS(%RxHRAPaymentTypeExist%,'Member Pay'), 'Yes','No')",
+            "SelectRx": "=IF(EQUALS(%MedicalHRAPaymentTypeExist%,'Provider Pay') && EQUALS(%RxHRAPaymentTypeExist%,'Provider Pay'), 'Yes','No')",
+            "TypeofHRA": "=IF(EQUALS(%MedicalHRAPaymentTypeExist%,'Provider Pay') && EQUALS(%RxHRAPaymentTypeExist%,'Member Pay'), 'Provider Pay Medical with Optional Rx/Dental/Vision Debit Card',IF(EQUALS(%MedicalHRAPaymentTypeExist%,'Provider Pay') && EQUALS(%RxHRAPaymentTypeExist%,''), 'Auto-Pay Provider Only',IF(EQUALS(%MedicalHRAPaymentTypeExist%,'Provider Pay') && EQUALS(%RxHRAPaymentTypeExist%,'Provider Pay'), 'Auto-Pay Provider Only',IF(EQUALS(%MedicalHRAPaymentTypeExist%,'Member Pay') && EQUALS(%RxHRAPaymentTypeExist%,''), 'Member Pay (debit card) Only',IF(EQUALS(%MedicalHRAPaymentTypeExist%,'Member Pay') && EQUALS(%RxHRAPaymentTypeExist%,'Member Pay'), 'Member Pay (debit card) Only',%TypeofHRA%)))))"
+        },
+        "label": "SetValues4",
+        "message": {
+        },
+        "show": {
+            "group": {
+                "operator": "OR",
+                "rules": [
+                    {
+                        "group": {
+                            "operator": "AND",
+                            "rules": [
+                                {
+                                    "condition": "=",
+                                    "data": "Yes",
+                                    "field": "FormProdName"
+                                },
+                                {
+                                    "condition": "=",
+                                    "data": "true",
+                                    "field": "isMedProduct"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "group": {
+                            "operator": "AND",
+                            "rules": [
+                                {
+                                    "condition": "=",
+                                    "data": "Yes",
+                                    "field": "FormProdName"
+                                },
+                                {
+                                    "condition": "=",
+                                    "data": "true",
+                                    "field": "FormCreateConfig"
+                                },
+                                {
+                                    "condition": "=",
+                                    "data": "false",
+                                    "field": "isMedProduct"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "group": {
+                            "operator": "AND",
+                            "rules": [
+                                {
+                                    "condition": "=",
+                                    "data": "Yes",
+                                    "field": "FormProdName"
+                                },
+                                {
+                                    "condition": "=",
+                                    "data": "false",
+                                    "field": "isMedProduct"
+                                },
+                                {
+                                    "condition": "=",
+                                    "data": "false",
+                                    "field": "FormSelectPlan"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "group": {
+                            "operator": "AND",
+                            "rules": [
+                                {
+                                    "condition": "=",
+                                    "data": "Yes",
+                                    "field": "FormProdName"
+                                },
+                                {
+                                    "condition": "=",
+                                    "data": "false",
+                                    "field": "isMedProduct"
+                                },
+                                {
+                                    "condition": "=",
+                                    "data": "true",
+                                    "field": "isContextBlank"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        },
+        "showPersistentComponent": [
+            false,
+            false
+        ],
+        "ssm": false,
+        "validationRequired": "None",
+        "wpm": false
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": true,
+    "%vlocity_namespace%__Type__c": "Set Values",
+    "Name": "SetHRAA",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/ANA Library/CDHP/English/SetHRAA"
+}

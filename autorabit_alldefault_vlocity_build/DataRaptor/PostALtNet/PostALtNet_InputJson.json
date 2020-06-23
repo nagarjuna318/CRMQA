@@ -1,0 +1,124 @@
+{
+    "AccountId": "0014B00000P3majQAB",
+    "CompletionMarker": "Not Complete",
+    "ContextId": "0QL4B0000005xgQWAQ",
+    "CreatedById": "0054B000000u3A2QAI",
+    "CreatedByName": "Juan Carlos",
+    "DRId_QuoteLineItem": "0QL4B0000005xgQWAQ",
+    "FinancingDependent": "Administrative Services Only",
+    "LastModifiedById": "0054B000000op45QAA",
+    "LastModifiedByName": "Juan Carlos",
+    "LineItemNumber": "00001464",
+    "ProductName": "Medical - PPO",
+    "ProductStageDependent": "IGAP In Progress",
+    "QLIid": "0QL4B0000005xgQWAQ",
+    "QuoteId": "0Q04B000000AFaoSAG",
+    "RTMedical": {
+        "CDHP": {
+            "DidClientPurchaseQUE": null,
+            "HRABalanceTransfer": null,
+            "HRAHIAAdministration": null,
+            "HSABankingPartner": null,
+            "IfHSADidClientPurchaseHSAPlus": null,
+            "QuarterlyHealthStatements": null
+        },
+        "CompletionMarkerFormula": "Not Complete",
+        "DateMessage": true,
+        "MultipleProviderTiering": {
+            "DoesMultipleProviderTieringApply": null
+        },
+        "NetworkBlock": {
+            "AlternativeNetwork": null,
+            "Network": null,
+            "Prefix": null
+        },
+        "OppTypeFormula": "In Group Add Product",
+        "PLCompleteX": false,
+        "Pharmacy": {
+            "MedicalCDHPandMedicalCDHPWCIC": {
+                "PBMIntegrationType": null,
+                "PharmacyIDCardDetails": null
+            },
+            "MedicalandMedicalWCIC": {
+                "MedicalRXAccumulation": null,
+                "RXVendors": null
+            }
+        },
+        "ProductNameFormula": "Medical - PPO",
+        "QLD-NotInVendorList": false,
+        "QLD-Vendor": null,
+        "QLD-VendorAccountTA-Block": null,
+        "QLD-VendorTA-Block": {
+            "QLD-VendorTA": null,
+            "VendorId": null
+        },
+        "QuoteLineDetails": {
+            "Financing": "Administrative Services Only",
+            "Formula 13": null,
+            "Formula 14": true,
+            "Funding": "ASO",
+            "InitMedicalRateInc": null,
+            "Members": 10,
+            "OppType": "In Group Add Product",
+            "Probability": "10%",
+            "Probability0": null,
+            "Probability100": null,
+            "ProductStage": "IGAP In Progress",
+            "Reason": null,
+            "ReceivedDate": null,
+            "RecordType": "Medical",
+            "Subscribers": 10,
+            "TermDate": null,
+            "TermSelection": "Ok"
+        },
+        "RecordTypeFormula": "Medical",
+        "SetPLComplete": {
+            "PLComplete": false
+        },
+        "WellPriorityMedicalCDHPWCICandMedicalWCIC": {
+            "CMDMCarvedIntoAurora": null
+        }
+    },
+    "SelectServiceProvider": {
+        "Account_Id": null,
+        "CompetitorId": null,
+        "CompetitorStatus": null,
+        "NotInCompetitorList": null,
+        "SSP-Msg": null,
+        "ServiceProviderTypeAhead-Block": {
+            "CompetitorAccountId": null,
+            "ServiceProviderId": null,
+            "ServiceProviderTypeAhead": null
+        },
+        "TypeAheadAccount-Block": null
+    },
+    "StepAlternateNetworks": {
+        "AltNetworks": [
+            {
+                "ALT": null,
+                "ALTid": null,
+                "ANTermDate": "2017-06-01",
+                "CorrespondingPackageCodeContractCode": "3467",
+                "CorrespondingPrefix": "ABC",
+                "EffectiveDate": "2017-07-01"
+            },
+            {
+                "ALT": null,
+                "ALTid": null,
+                "ANTermDate": "2017-07-01",
+                "CorrespondingPackageCodeContractCode": "3468",
+                "CorrespondingPrefix": "ABC",
+                "EffectiveDate": "2017-07-01"
+            }
+        ]
+    },
+    "id": "a3B4B0000003dPrUAI",
+    "layout": "lightning",
+    "testContextId": "0QL4B0000005xgQWAQ",
+    "timeStamp": "2017-06-15T00:53:36.741Z",
+    "userId": "0054B000000op45QAA",
+    "userName": "jcarrero@anthem.com2.config",
+    "userProfile": "System Administrator",
+    "vlcPersistentComponent": {
+    }
+}

@@ -1,0 +1,82 @@
+[
+    {
+        "%vlocity_namespace%__DomainObjectAPIName__c": "IntakeReturn__c",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 1,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "Id",
+        "%vlocity_namespace%__InterfaceFieldAPIName__c": "ContextId",
+        "%vlocity_namespace%__IsDisabled__c": false,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__MapId__c": "IMP_AddIntakeReasonsCustom4982",
+        "%vlocity_namespace%__UpsertKey__c": false,
+        "Name": "IMP_AddIntakeReasons",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    },
+    {
+        "%vlocity_namespace%__DomainObjectAPIName__c": "IntakeReturn__c",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 1,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "Stage__c",
+        "%vlocity_namespace%__InterfaceFieldAPIName__c": "IntakeReturnStage",
+        "%vlocity_namespace%__IsDisabled__c": false,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__MapId__c": "IMP_AddIntakeReasonsCustom5868",
+        "%vlocity_namespace%__UpsertKey__c": false,
+        "Name": "IMP_AddIntakeReasons",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    },
+    {
+        "%vlocity_namespace%__DomainObjectAPIName__c": "IntakeReturn__c",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 1,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "Submission_Date__c",
+        "%vlocity_namespace%__InterfaceFieldAPIName__c": "SalesReturnDetails:IntakeReasons:Subdate",
+        "%vlocity_namespace%__IsDisabled__c": false,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__MapId__c": "IMP_AddIntakeReasonsCustom2944",
+        "%vlocity_namespace%__UpsertKey__c": false,
+        "Name": "IMP_AddIntakeReasons",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    },
+    {
+        "%vlocity_namespace%__DomainObjectAPIName__c": "IntakeReason__c",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 2,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "Imp_Comments__c",
+        "%vlocity_namespace%__InterfaceFieldAPIName__c": "AddIntakeReasons:AddIntakeReturn:ImplementerComments",
+        "%vlocity_namespace%__IsDisabled__c": false,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__MapId__c": "IMP_AddIntakeReasonsCustom6734",
+        "%vlocity_namespace%__UpsertKey__c": false,
+        "Name": "IMP_AddIntakeReasons",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    },
+    {
+        "%vlocity_namespace%__DomainObjectAPIName__c": "IntakeReason__c",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 2,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "IntReturnId__c",
+        "%vlocity_namespace%__FilterOperator__c": "=",
+        "%vlocity_namespace%__IsDisabled__c": false,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__LinkCreatedField__c": "Id",
+        "%vlocity_namespace%__LinkCreatedIndex__c": 1,
+        "%vlocity_namespace%__MapId__c": "IMP_AddIntakeReasonsCustom8173",
+        "%vlocity_namespace%__UpsertKey__c": false,
+        "Name": "IMP_AddIntakeReasons",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    },
+    {
+        "%vlocity_namespace%__DomainObjectAPIName__c": "IntakeReason__c",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 2,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "Reason__c",
+        "%vlocity_namespace%__InterfaceFieldAPIName__c": "AddIntakeReasons:AddIntakeReturn:ImpReasons",
+        "%vlocity_namespace%__IsDisabled__c": false,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__MapId__c": "IMP_AddIntakeReasonsCustom9160",
+        "%vlocity_namespace%__UpsertKey__c": false,
+        "Name": "IMP_AddIntakeReasons",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    }
+]

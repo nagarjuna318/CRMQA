@@ -1,0 +1,25 @@
+{
+    "Cards": [
+        "HCR_Cards"
+    ],
+    "dataSource": {
+        "contextVariables": [
+            {
+                "name": "params.id",
+                "val": "a6o2F000000CcApQAK"
+            }
+        ],
+        "type": "Query",
+        "value": {
+            "query": "SELECT Id, Name,LoggedInUserProfile__c FROM HCR__c WHERE Id = '{{params.id || params.Id}}'"
+        }
+    },
+    "templates": {
+        "0": {
+            "templateUrl": "card-canvas-1x-slds-nosearch"
+        }
+    },
+    "workspace": [
+        "HCR_Cards/Anthem Commercial 2.0/1/1521184563763"
+    ]
+}

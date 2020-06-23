@@ -1,0 +1,61 @@
+{
+    "CapturePendingCorrectionReasons": {
+        "CorrectionDepartment": "ID Cards",
+        "Formula1": "",
+        "PendingCorrection": [
+            {
+                "InitiatorComments": "tersjdthdc",
+                "Reason": "Benefit discrepancies - Sales is verifying"
+            },
+            {
+                "InitiatorComments": "jlggjhvf",
+                "Reason": "Rate verification"
+            },
+            {
+                "InitiatorComments": "nbgncbvx",
+                "Reason": "Clarification of voucher"
+            },
+            {
+                "InitiatorComments": "hjfjdfgd",
+                "Reason": "Spanish translation requested"
+            },
+            {
+                "InitiatorComments": "mncc",
+                "Reason": "To QA (quality audit)"
+            }
+        ],
+        "PendingCorrectionType": "Billing Address",
+        "RateType": "Disability",
+        "Stage": "Not Started"
+    },
+    "ContextId": "a7S2a0000000REz",
+    "ImpTracking": "a7X2a0000004groEAA",
+    "IntObjName": "",
+    "Name": "IDCARD-000131",
+    "RecordTypeName": "ID Cards",
+    "Submit": {
+        "SubmitDate": null,
+        "SubmitPendCorrection": "No"
+    },
+    "id": "a3C2a000000AlwAEAS",
+    "layout": "lightning",
+    "testContextId": "a7S2a0000000REz",
+    "timeStamp": "2018-08-20T18:52:55.360Z",
+    "userCurrencyCode": "USD",
+    "userId": "0052a000001AQYYAA4",
+    "userName": "schadda@vlocity.com2.iceqa",
+    "userProfile": "System Administrator",
+    "userTimeZone": -240,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "CapturePendingCorrectionReasons": 110960,
+        "DR-IDCards": 489,
+        "End": 1678,
+        "OmniScriptSessionToken": "224117cf-f7cf-4115-a0cd-9da650a1eca0",
+        "SV-1": 101,
+        "SetValues2": 104,
+        "SetValues4": 28,
+        "Submit": 4784
+    }
+}

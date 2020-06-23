@@ -1,0 +1,194 @@
+{
+    "ChildCountDynamic": 0,
+    "CommercialBuyUp": "Commercial Buy-Ups",
+    "Commercial_Clinical": {
+        "AP-ProdSelected": true,
+        "APParentCount": true,
+        "ParentProductId": "01tS0000006IgQbIAK",
+        "ProdList": [
+            {
+                "$$hashKey": "object:319",
+                "Bundle": "Fixed",
+                "ClinicalName": "JAA ASO Basic Foundational",
+                "HasSPP": false,
+                "Id": "01tS0000006IgQbIAK",
+                "Name": "JAA ASO Basic Foundational",
+                "QLIRecordType": "LocalType",
+                "RecordTypeId": "01241000001IOWvAAO",
+                "vlcSelected": true
+            }
+        ],
+        "Wellbeing_Solutions_Custom_Message": null,
+        "Wellbeing_Solutions_Standard_Packages_Message": true
+    },
+    "ContextId": "0QLS0000000QhP8OAK",
+    "EffectiveDate": "2020-01-01",
+    "EffectiveDateCheck1": "Y",
+    "EffectiveDateCheck2": "N",
+    "FixList": [
+        {
+            "Id": "01tS0000005xFKtIAM",
+            "IsActive": true,
+            "Name": "AUTISM SPECTRUM DISORDER (ASD) PROGRAM V2",
+            "QLIRecordType__c": "LocalType"
+        },
+        {
+            "Id": "01tS0000005xFKuIAM",
+            "IsActive": true,
+            "Name": "BEHAVIORAL HEALTH CASE MANAGEMENT WITH MYSTRENGTH",
+            "QLIRecordType__c": "LocalType"
+        },
+        {
+            "Id": "01t1K0000067Ax9QAE",
+            "IsActive": true,
+            "Name": "CASE MANAGEMENT",
+            "QLIRecordType__c": "LocalType"
+        },
+        {
+            "Id": "01t1K0000067AxAQAU",
+            "IsActive": true,
+            "Name": "COMMERCIAL OUTBOUND CALL PROGRAM",
+            "QLIRecordType__c": "LocalType"
+        },
+        {
+            "Id": "01t1K0000067AxTQAU",
+            "IsActive": true,
+            "Name": "NICU CASE MANAGEMENT",
+            "QLIRecordType__c": "LocalType"
+        },
+        {
+            "Id": "01tS0000006GLu7IAG",
+            "IsActive": true,
+            "Name": "SYDNEY",
+            "QLIRecordType__c": "LocalType"
+        },
+        {
+            "Id": "01t1K0000067AxWQAU",
+            "IsActive": true,
+            "Name": "TRANSPLANT",
+            "QLIRecordType__c": "LocalType"
+        },
+        {
+            "Id": "01t1K0000067AxXQAU",
+            "IsActive": true,
+            "Name": "UTILIZATION MANAGEMENT",
+            "QLIRecordType__c": "LocalType"
+        },
+        {
+            "Id": "01tS0000005xFLYIA2",
+            "IsActive": true,
+            "Name": "WEBMD HEALTH ASSESSMENT",
+            "QLIRecordType__c": "LocalType"
+        }
+    ],
+    "Fixed_Bundle": {
+        "FixListClinical": [
+            {
+                "$$hashKey": "object:350",
+                "Id": "01tS0000005xFKtIAM",
+                "Name": "AUTISM SPECTRUM DISORDER (ASD) PROGRAM V2",
+                "vlcSelected": true
+            },
+            {
+                "$$hashKey": "object:351",
+                "Id": "01tS0000005xFKuIAM",
+                "Name": "BEHAVIORAL HEALTH CASE MANAGEMENT WITH MYSTRENGTH",
+                "vlcSelected": true
+            },
+            {
+                "$$hashKey": "object:352",
+                "Id": "01t1K0000067Ax9QAE",
+                "Name": "CASE MANAGEMENT",
+                "vlcSelected": true
+            },
+            {
+                "$$hashKey": "object:353",
+                "Id": "01t1K0000067AxAQAU",
+                "Name": "COMMERCIAL OUTBOUND CALL PROGRAM",
+                "vlcSelected": true
+            },
+            {
+                "$$hashKey": "object:354",
+                "Id": "01t1K0000067AxTQAU",
+                "Name": "NICU CASE MANAGEMENT",
+                "vlcSelected": true
+            },
+            {
+                "$$hashKey": "object:355",
+                "Id": "01tS0000006GLu7IAG",
+                "Name": "SYDNEY",
+                "vlcSelected": true
+            },
+            {
+                "$$hashKey": "object:356",
+                "Id": "01t1K0000067AxWQAU",
+                "Name": "TRANSPLANT",
+                "vlcSelected": true
+            },
+            {
+                "$$hashKey": "object:357",
+                "Id": "01t1K0000067AxXQAU",
+                "Name": "UTILIZATION MANAGEMENT",
+                "vlcSelected": true
+            },
+            {
+                "$$hashKey": "object:358",
+                "Id": "01tS0000005xFLYIA2",
+                "Name": "WEBMD HEALTH ASSESSMENT",
+                "vlcSelected": true
+            }
+        ]
+    },
+    "Funding_Type": "ASO",
+    "HPCCCodeValue": "HJKH",
+    "IncentiveType": {
+        "Clinical_Product": "JAA ASO Basic Foundational",
+        "IncentiveTypeSelect": "NA",
+        "Selected_Product": "JAA ASO Basic Foundational"
+    },
+    "IncentiveTypeSelect": "",
+    "PackageNameValue": "",
+    "ParentCount": 0,
+    "ParentCountDynamic": 0,
+    "ProductSelection": {
+        "Child_Bundles": null,
+        "Commercial_Selections": {
+            "CommercialFlow": "Commercial Clinical"
+        },
+        "DefaultProductCreationMessage": null,
+        "Group_Display": false,
+        "Messaging9": null,
+        "Parent_Count": 1,
+        "Parent_Product": null
+    },
+    "QLI_Contract_Code": "50A1",
+    "QLI_EffectiveDate": "2020-01-01",
+    "QLI_Financing": "JAA (Jointly Administered Arrangement)",
+    "QLI_Funding": "ASO",
+    "QLI_Group_Size": "500 - 999",
+    "QLI_HPCC_Code": "HJ5U",
+    "QLI_Id": "0QLS0000000QhP8OAK",
+    "QLI_Incentive_Type": "NA",
+    "QLI_Market": "OH",
+    "QLI_OppType": "New Business Local",
+    "QLI_Opportunity_RecordType": "New Business Local",
+    "QLI_Product_Name": "Anthem Blue Access Options PPO (3-Tier) Option 1 with Rx Option T2",
+    "QLI_Product_Type": "Medical",
+    "QLI_QuoteId": "0Q0S0000000MmOEKA0",
+    "State": "OH",
+    "TopRangeCheck1": "N",
+    "TopRangeCheck2": "Y",
+    "TopRange_Buyup": 1000,
+    "Top_Range": "999",
+    "id": "a3CS0000000GTQCMA4",
+    "isJAA": "Y",
+    "layout": "newport",
+    "timeStamp": "2019-09-23T09:14:59.176Z",
+    "userCurrencyCode": "USD",
+    "userId": "0051K000008dXgiQAE",
+    "userName": "veramesh@deloitte.com.com2.iceqa",
+    "userProfile": "System Administrator",
+    "userTimeZone": -240,
+    "vlcPersistentComponent": {
+    }
+}

@@ -1,0 +1,23 @@
+.add_btn{
+    display: flex !important;
+    justify-content: center;
+    border: 1px solid #dddbda !important;
+    border-radius: 4px;
+    background-color: white !important;
+    width: 300px !important;
+    margin: 0 auto !important;
+}
+
+.add_btn_text{
+    color: #006dcc;
+    margin-left: 0.5rem !important;
+}
+
+.disabled_text{
+    color: #dddbda;
+    margin-left: 0.5rem !important;
+}
+
+// .add_btn_text:disabled{
+//     color: #dddbda !important;
+// }

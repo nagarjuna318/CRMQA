@@ -1,0 +1,25 @@
+{
+    "%vlocity_namespace%__Author__c": "Anthem Commercial 2.0",
+    "%vlocity_namespace%__Datasource__c": {
+        "contextVariables": [
+            {
+                "name": "params.Id",
+                "val": "0QL1k000000MpaAGAS"
+            }
+        ],
+        "type": "Query",
+        "value": {
+            "query": "SELECT Id, LoggedInUserProfile__c,AnthemEntity__c ,AnthemEntityTransform__c,RecordType__c, National_Local_Merged__c FROM QuoteLineItem WHERE Id = '{{params.id || params.Id}}'"
+        }
+    },
+    "%vlocity_namespace%__Definition__c": "INS_QuoteLineItemActions.json",
+    "%vlocity_namespace%__Description__c": "",
+    "%vlocity_namespace%__GlobalKey__c": "INS_QuoteLineItemActions/2/Anthem Commercial 2.0/1519749412991",
+    "%vlocity_namespace%__ParentID__c": "",
+    "%vlocity_namespace%__Type__c": "Layout",
+    "%vlocity_namespace%__Version__c": 2,
+    "Name": "INS_QuoteLineItemActions",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__VlocityUILayout__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__VlocityUILayout__c/INS_QuoteLineItemActions"
+}

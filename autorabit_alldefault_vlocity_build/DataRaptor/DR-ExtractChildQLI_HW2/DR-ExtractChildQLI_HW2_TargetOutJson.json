@@ -1,0 +1,36 @@
+{
+    "Check_Point": {
+        "Check": null,
+        "Text1": null
+    },
+    "ContextId": "0QL540000001YJgGAM",
+    "Funding_Type": "FI",
+    "Parent_Id": "0QL540000001YJgGAM",
+    "ProductSelection": {
+        "Child_Bundles": null,
+        "Commercial_Selections": {
+            "CommercialFlow": null
+        },
+        "Parent_Product": null
+    },
+    "QLI_Contract_Code": "3XGS",
+    "QLI_EffectiveDate": "2020-01-01",
+    "QLI_Funding": "FI",
+    "QLI_Id": "0QL540000001YJgGAM",
+    "QLI_Market": "WI",
+    "QLI_Opportunity_RecordType": "New Business Local",
+    "QLI_Product_Type": "Medical",
+    "QLI_QuoteId": "0Q0540000000oEOCAY",
+    "State": "WI",
+    "Top_Range": "1000",
+    "id": "a3C54000000OQiIEAW",
+    "layout": "newport",
+    "timeStamp": "2019-05-24T07:02:33.298Z",
+    "userCurrencyCode": "USD",
+    "userId": "00541000006Y54QAAS",
+    "userName": "veramesh@deloitte.com.icegld",
+    "userProfile": "System Administrator",
+    "userTimeZone": -420,
+    "vlcPersistentComponent": {
+    }
+}

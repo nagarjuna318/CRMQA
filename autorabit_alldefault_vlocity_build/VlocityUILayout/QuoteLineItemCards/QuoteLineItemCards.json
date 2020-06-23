@@ -1,0 +1,31 @@
+{
+    "Cards": [
+        "QLICard",
+        "QLICard_LG"
+    ],
+    "componentName": "cfQuoteLineItemCards",
+    "dataSource": {
+        "contextVariables": [
+            {
+                "name": "params.id",
+                "val": "0Q03I0000008jPgSAI"
+            }
+        ],
+        "type": "Query",
+        "value": {
+            "jsonMap": "{\"params.id\":\"{{params.id}}\"}"
+        }
+    },
+    "previewType": "runTime",
+    "templates": {
+        "0": {
+            "templateUrl": "anthem-card-canvas-1x-slds-nosearch-default"
+        }
+    },
+    "workspace": [
+        null,
+        "QLICard/Anthem Commercial 2.0/null/1513958046701",
+        null,
+        "QLICard_LG/Anthem Commercial 2.0/null/1524599656951"
+    ]
+}

@@ -1,0 +1,35 @@
+{
+    "%vlocity_namespace%__Active__c": true,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "IMPCase Library/IC-SubmitImplementationCase",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/IMPCase Library/IC-SubmitImplementationCase/English",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__PropertySet__c": {
+        "HTMLTemplateId": "",
+        "controlWidth": 12,
+        "disOnTplt": false,
+        "elementValueMap": {
+            "ValidationResult": "=IF(EQUALS(%UserRole%,'National Sales Manager'),'SU',IF(OR(EQUALS(%IntakeReturnValidation%,'Failed'),EQUALS(%BHealthCountFailed%,'Failed'),EQUALS(%COBCountFailed%,'Failed'),EQUALS(%FundingCountFailed%,'Failed'),EQUALS(%EligibilityCountFailed%,'Failed')), 'N', 'Y'))",
+            "ValidationResultLocal": "=IF(EQUALS(%UserRole%,'National Sales Manager'),'SU', IF(OR(EQUALS(%IntakeReturnValidation%,'Failed'),EQUALS(%OptyDateSignedPWrkFailed%,'Failed')),'N','Y'))"
+        },
+        "label": "SetValues5",
+        "message": {
+        },
+        "show": null,
+        "showPersistentComponent": [
+            false,
+            false
+        ],
+        "ssm": false,
+        "validationRequired": "None",
+        "wpm": false
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": false,
+    "%vlocity_namespace%__Type__c": "Set Values",
+    "Name": "SV-FinalValidation",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/IMPCase Library/IC-SubmitImplementationCase/English/SV-FinalValidation"
+}

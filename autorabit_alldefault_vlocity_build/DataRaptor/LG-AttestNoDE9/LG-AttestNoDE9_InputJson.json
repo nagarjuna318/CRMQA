@@ -1,0 +1,31 @@
+{
+    "Confirm": {
+        "BrokerEmail": null,
+        "BrokerName": null,
+        "ClientEmail": null,
+        "ClientName": null,
+        "ClientTitle": null,
+        "SelectedUW": null
+    },
+    "ContextId": "",
+    "SendingUserEmail": "joseph.henzi@anthem.com",
+    "SendingUserName": "Joseph Henzi",
+    "StageInformation": {
+        "Brokers": null,
+        "Group": null,
+        "GroupContact": null,
+        "LeadUW": null,
+        "NumSelections": 0,
+        "Validation": false
+    },
+    "id": "a3CS0000000HDSjMAO",
+    "layout": "lightning",
+    "timeStamp": "2019-10-28T22:09:51.823Z",
+    "userCurrencyCode": "USD",
+    "userId": "00541000002s17RAAQ",
+    "userName": "ad70229@anthem.com2.icelo2",
+    "userProfile": "System Administrator",
+    "userTimeZone": -300,
+    "vlcPersistentComponent": {
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "ContextId": null,
+    "Request": {
+        "ActionDate": null
+    },
+    "timeStamp": null,
+    "userId": null,
+    "userName": null,
+    "userProfile": null,
+    "userTimeZone": null,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "DataRaptorPostAction1": null,
+        "Request": null,
+        "SetValues1": null
+    }
+}

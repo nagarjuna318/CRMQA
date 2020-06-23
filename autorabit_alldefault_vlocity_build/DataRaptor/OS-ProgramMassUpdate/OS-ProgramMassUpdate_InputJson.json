@@ -1,0 +1,108 @@
+{
+    "AccountId": "0014B00000KMWAp",
+    "ContextId": "",
+    "DRId_ServiceProviderRelationship__c": "a5K4B0000000secUAA",
+    "GroupDetails": {
+        "AccountId": "0014B00000KMhYhQAL",
+        "GroupId": "a5P4B0000002JhPUAU",
+        "GroupNumber": "000CBF834",
+        "Id": "0Q04B000000AKFRSA4",
+        "OpportunityId": "0064B000009BUW3QAO",
+        "Pricebook2Id": "01s41000007wBCZAA2",
+        "RTName": "Renewal",
+        "RecordTypeId": "0124B0000000QXBQA2",
+        "TotalMembers": 500
+    },
+    "MURecordSelection": {
+        "QLI-ProdSelMsg": true,
+        "QLIProdList": [
+            {
+                "Financing__c": "FI – Deposit Premium",
+                "Funding__c": "FI",
+                "Id": "0QL4B00000063bgWAA",
+                "LOB": "Medical",
+                "Members__c": 50,
+                "Name": "Medical - EPO",
+                "PricebookEntryId": "01u4B000008SVcKQAW",
+                "Probability__c": "0%",
+                "Product2Id": "01t4B000001XE1nQAG",
+                "ProductStage": "Dead",
+                "Reason__c": "Account/Sales Team",
+                "RecordType__c": "Medical",
+                "Subscribers__c": 50,
+                "vlcSelected": true
+            },
+            {
+                "Financing__c": "FI – Deposit Premium",
+                "Funding__c": "FI",
+                "Id": "0QL4B00000063bqWAA",
+                "LOB": "Dental",
+                "Members__c": 50,
+                "Name": "Anthem FlexHour Dental Plan",
+                "PricebookEntryId": "01u4B000008SVagQAG",
+                "Probability__c": "0%",
+                "Product2Id": "01t4B000001XE09QAG",
+                "ProductStage": "Dead",
+                "Reason__c": "Account/Sales Team",
+                "RecordType__c": "Default",
+                "Subscribers__c": 50,
+                "vlcSelected": true
+            }
+        ]
+    },
+    "MUSetFields": {
+        "DayMsg": true,
+        "FinMsg": true,
+        "QLD": {
+            "FFFormula": "NoMsg",
+            "Financing": "Not Applicable",
+            "Funding": "N/A",
+            "Members": 100,
+            "Probability": "100%",
+            "ProbabilityEdit": "10%",
+            "ProbabilityFormula": "100%",
+            "ProdStage": "IGAP Sold",
+            "RTName": "Renewal",
+            "ReqCompetitor": "Yes",
+            "StageReason": "Account/Sales Team",
+            "Subscribers": 50,
+            "TermDate": "",
+            "TermDateIn": null,
+            "TermSelection": "Ok"
+        }
+    },
+    "SelectServiceProvider": {
+        "Account_Id": "0014B00000KMWAp",
+        "CompetitorId": "0014B00000ONJD5QAP",
+        "CompetitorStatus": "Not Incumbent",
+        "NotInCompetitorList": false,
+        "SSP-Msg": true,
+        "ServiceProviderTypeAhead-Block": {
+            "CompetitorAccountId": "0014B00000ONJD5QAP",
+            "ServiceProviderId": "a5K4B0000000secUAA",
+            "ServiceProviderTypeAhead": "The Health Plan of the Upper Valley"
+        },
+        "StageReason": null,
+        "TypeAheadAccount-Block": null
+    },
+    "id": "a3B4B000000H11JUAS",
+    "layout": "lightning",
+    "timeStamp": "2017-06-27T02:21:25.874Z",
+    "userId": "0054B000000op45QAA",
+    "userName": "jcarrero@anthem.com2.config",
+    "userProfile": "System Administrator",
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "DR-GroupInformation": 744,
+        "DR-RetrieveProducts": 580,
+        "DataRaptor Post Action 1": 514,
+        "ExtractAccountId": 363,
+        "MURecordSelection": 4759,
+        "MUSetFields": 27850,
+        "OmniScriptSessionToken": "a3eb2ed0-00be-412c-ba48-a90442791999",
+        "SelectServiceProvider": 6768,
+        "SetConsts": 2,
+        "SetValues": 19
+    }
+}

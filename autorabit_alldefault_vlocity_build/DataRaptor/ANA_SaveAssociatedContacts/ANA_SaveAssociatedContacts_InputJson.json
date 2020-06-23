@@ -1,0 +1,36 @@
+{
+    "AccountID": "",
+    "AssociatedContacts": {
+        "CommentsAC": null,
+        "ConnectionTypeAC": null,
+        "ContactNameAC": null,
+        "ContactType": null,
+        "DateLastUpdatedAC": null,
+        "Past/PresentAffiliation": null,
+        "RelationshipTypeAC": null,
+        "TypeAheadAccountAC-Block": {
+            "TypeAheadAccountAC": null
+        }
+    },
+    "ContextId": "",
+    "Ctcid": "",
+    "RelationshipToConatct": {
+        "ContactRelationships": "Associated Contacts"
+    },
+    "TypeAheadAccountAC-Block": {
+        "AccountId": ""
+    },
+    "id": "a3B4B0000000fgkUAA",
+    "layout": "lightning",
+    "timeStamp": "2017-05-02T10:48:27.705Z",
+    "userId": "0054B000000orR1QAI",
+    "userName": "keerthi.thoutireddy@anthem.com2.config",
+    "userProfile": "System Administrator",
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "GetContactName": 673,
+        "OmniScriptSessionToken": "e333c588-f4af-40b2-b093-5daeb756048d",
+        "RelationshipToConatct": 80996
+    }
+}

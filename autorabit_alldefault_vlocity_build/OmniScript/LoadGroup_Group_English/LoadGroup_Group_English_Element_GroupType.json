@@ -1,0 +1,107 @@
+{
+    "%vlocity_namespace%__Active__c": false,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "Load Group_Order",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/LoadGroup/Group/English",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__ParentElementId__c": {
+        "%vlocity_namespace%__OmniScriptId__c": {
+            "Name": "Load Group_Order",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/LoadGroup/Group/English",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+        },
+        "Name": "GroupInformation",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/LoadGroup/Group/English/GroupInformation",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c"
+    },
+    "%vlocity_namespace%__ParentElementName__c": "GroupInformation",
+    "%vlocity_namespace%__ParentElementType__c": "Step",
+    "%vlocity_namespace%__PropertySet__c": {
+        "HTMLTemplateId": "",
+        "accessibleInFutureSteps": true,
+        "conditionType": "Optional if False",
+        "controlWidth": 6,
+        "controllingField": {
+            "element": "",
+            "source": "",
+            "type": ""
+        },
+        "defaultValue": null,
+        "disOnTplt": false,
+        "help": false,
+        "helpText": "",
+        "hide": false,
+        "inputWidth": 12,
+        "label": "Group Type",
+        "optionSource": {
+            "source": "Quote.Group_Type__c",
+            "type": "SObject"
+        },
+        "options": [
+            {
+                "name": "A (ACTIVE)",
+                "value": "ACTIVE"
+            },
+            {
+                "name": "C (COBRA)",
+                "value": "COBRA"
+            },
+            {
+                "name": "E (STATE EXTENSION)",
+                "value": "STATE EXTENSION"
+            },
+            {
+                "name": "R (RETIREE)",
+                "value": "RETIREE"
+            },
+            {
+                "name": "X (SUPH EXT CONT)",
+                "value": "SUPH EXT CONT"
+            },
+            {
+                "name": "M (SG BILL ENTITY) (Rarely Used)",
+                "value": "SG BILL ENTITY"
+            },
+            {
+                "name": "N (COBRA-NON PART) (Rarely Used)",
+                "value": "COBRA-NON PART"
+            },
+            {
+                "name": "P (COBRA-PART) (Rarely Used)",
+                "value": "COBRA-PART"
+            },
+            {
+                "name": "S (SENIOR COBRA) (Rarely Used)",
+                "value": "SENIOR COBRA"
+            }
+        ],
+        "readOnly": false,
+        "repeat": false,
+        "repeatClone": false,
+        "repeatLimit": null,
+        "required": true,
+        "show": {
+            "group": {
+                "operator": "AND",
+                "rules": [
+                    {
+                        "condition": "=",
+                        "data": "New Business",
+                        "field": "ImplementationType"
+                    }
+                ]
+            }
+        },
+        "showInputWidth": true
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": false,
+    "%vlocity_namespace%__Type__c": "Select",
+    "Name": "GroupType",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/LoadGroup/Group/English/GroupType"
+}

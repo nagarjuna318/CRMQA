@@ -1,0 +1,29 @@
+{
+    "Cards": [
+        "IntakeReturn Standard Card",
+        "IntakeReturn Standard Card Pending Stage",
+        "IntakeReturn Standard Card Other Stages"
+    ],
+    "dataSource": {
+        "contextVariables": [
+            {
+                "name": "params.Id",
+                "val": "a6YW00000000eU9MAI"
+            }
+        ],
+        "type": "Query",
+        "value": {
+            "query": "SELECT Id, Name, Stage__c, ActionDisplay__c, Profile_Group_Name__c FROM IntakeReturn__c WHERE Id = '{{params.id || params.Id}}'"
+        }
+    },
+    "templates": {
+        "0": {
+            "templateUrl": "card-canvas-1x-slds-nosearch"
+        }
+    },
+    "workspace": [
+        "IntakeReturn Standard Card/Anthem Commercial 2.0/1/1515613888676",
+        "IntakeReturn Standard Card Pending Stage/Anthem Commercial 2.0/1/1515621112109",
+        "IntakeReturn Standard Card Other Stages/Anthem Commercial 2.0/1/1515621500011"
+    ]
+}

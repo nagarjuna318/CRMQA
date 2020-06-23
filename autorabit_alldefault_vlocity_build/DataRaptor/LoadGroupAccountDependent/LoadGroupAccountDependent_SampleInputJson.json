@@ -1,0 +1,454 @@
+{
+    "AccTeamMemId": "01MS000000LOzhqMAD",
+    "AccountExecutiveLatest": "",
+    "AccountManagerLatest": "N0",
+    "AccountManagerTest": "Bhagyashree Rath",
+    "AccountUpdateId": "001S000000z4V8oIAE",
+    "AccounteExecutiveTest": "Ipsita Mohapatra",
+    "AddNewDepartmentCodes": false,
+    "AddNewEmployeeClassDivision": false,
+    "AddNewProductMedicalSpecialtyOnly": true,
+    "AddNewProductSupplemental": false,
+    "CaseInformation": {
+        "CaseInformation1": {
+            "ASONewbornOptOutIndicator": "Y",
+            "AccountId": "001S000000z4V8oIAE",
+            "AcountAccessLevel": "Read",
+            "ActiveRenewalDate": "2021-07-03",
+            "AdditionalComments": null,
+            "BenefitRenewalAnniversaryDate": "2019-12-25",
+            "CancelDate": "2019-12-17",
+            "CertofCreditableCoverageSuppression": "Y",
+            "ConversionLetterSuppression": "Y",
+            "DelinquencyCancellationLttrSuppression": "Y",
+            "Formula10": null,
+            "IDCardsSentToInitially": "Subscribers",
+            "ImplementationCaseStatus": "Pending SME Review",
+            "ImplementationEffectiveDate": "2019-07-01",
+            "MBSCode": null,
+            "MaintenanceCardsSentTo": "Group",
+            "MonthUnderwriterStartsRenewalProcess": "January",
+            "NonHmoBlock": {
+                "NonHMOIDCards": "SS",
+                "NonHMOIDCards1": "SS",
+                "NonHmoFormula": null
+            },
+            "OpenEffectiveDate1": null,
+            "OpenEnrollmentStartDate": "2019-11-15",
+            "OppOwner-Block": {
+                "OppOwner": "Ipsita Mohapatra",
+                "OpportunityOwner": null
+            },
+            "OpportunityOwnerAnthemFederationID": "A12345",
+            "OppurtunityEffectiveDate": null,
+            "RecId": "aB7S000000009rwKAA",
+            "SpecialtySalesExecutive": null,
+            "TerminatedReservelessMPPFunding": "C",
+            "TerminationLetterSuppression": "Y",
+            "UnderwriterAnthemFederationID": "123456",
+            "UnderwriterName": "Test Aparna",
+            "WGSMBUCode": "66200000"
+        }
+    },
+    "ChangeAccountName": false,
+    "ChangeAccountPhoneNumber": false,
+    "ChangeAccountPhysicalOrMailingAddress": false,
+    "ChangeAnniversaryMonth": false,
+    "ChangeBenefitDesignOnAtLeastOneProduct": false,
+    "ChangeContactBillingInvoice": false,
+    "ChangeContactNonBilling": false,
+    "ChangeFundingTypeOnAtLeastOneProduct": false,
+    "ChangeNewHireProbationaryPeriod": false,
+    "ChangeProducts": false,
+    "ChangeRequestOffCycleICR": {
+        "AddNewDepartmentCodesBlock": {
+            "AddNewDepartmentCodes": false,
+            "AddNewDepartmentCodesMessage": true
+        },
+        "AddNewEmployeeClassDivisionBlock": {
+            "AddNewEmployeeClassDivision": false,
+            "AddNewEmployeeClassDivisionMessage": true
+        },
+        "AddNewProductMedicalSpecialtyOnlyBlock": {
+            "AddNewProductMedicalSpecialtyOnly": true,
+            "AddNewProductMedicalSpecialtyOnlyMessage": true
+        },
+        "AddNewProductSupplementalBlock": {
+            "AddNewProductSupplemental": false,
+            "AddNewProductSupplementalMessage": true
+        },
+        "AtLeastOneOption": true,
+        "AtleastOneCondition": false,
+        "ChangeAccountNameBlock": {
+            "ChangeAccountName": false,
+            "ChangeAccountNameMessage": false
+        },
+        "ChangeAccountPhoneNumberBlock": {
+            "ChangeAccountPhoneNumber": false,
+            "ChangeAccountPhoneNumberMessage": false
+        },
+        "ChangeAccountPhysicalOrMailingAddressBlock": {
+            "ChangeAccountPhysicalOrMailingAddress": false,
+            "ChangeAccountPhysicalOrMailingAddressMessage": false
+        },
+        "ChangeAnniversaryMonthBlock": {
+            "ChangeAnniversaryMonth": false,
+            "ChangeAnniversaryMonthMessage": true
+        },
+        "ChangeBenefitDesignOnAtLeastOneProductBlock": {
+            "ChangeBenefitDesignOnAtLeastOneProduct": false,
+            "ChangeBenefitDesignOnAtLeastOneProductMessage": true
+        },
+        "ChangeContactBillingInvoiceBlock": {
+            "ChangeContactBillingInvoice": true,
+            "ChangeContactBillingInvoiceMessage": true
+        },
+        "ChangeContactNonBillingBlock": {
+            "ChangeContactNonBilling": false,
+            "ChangeContactNonBillingMessage": false
+        },
+        "ChangeFundingTypeOnAtLeastOneProductBlock": {
+            "ChangeFundingTypeOnAtLeastOneProduct": false,
+            "ChangeFundingTypeOnAtLeastOneProductMessage": true
+        },
+        "ChangeNewHireProbationaryPeriodMessageBlock": {
+            "ChangeNewHireProbationaryPeriod": false,
+            "ChangeNewHireProbationaryPeriodMessage": true
+        },
+        "ChangeProductsBlock": {
+            "ChangeProducts": false,
+            "ChangeProductsMessage": true
+        },
+        "PEOAndAddingNewCompanyThatRequiresNewSuffixesBlock": {
+            "PEOAndAddingNewCompanyThatRequiresNewSuffixes": false,
+            "PEOAndAddingNewCompanyThatRequiresNewSuffixesMessage": true
+        },
+        "RateAdjustmentDueToInternalErrorBlock": {
+            "RateAdjustmentDueToInternalError": false,
+            "RateAdjustmentDueToInternalErrorMessage": false
+        },
+        "SetMaintaianceReason": "Add new Product (Medical/Specialty only);Change Contact (Billing/Invoice);"
+    },
+    "CompanyInformation1": {
+        "CompanyInformation": {
+            "AccontTeam": {
+                "AccountExecutiveBlock": {
+                    "AccountExecutive": "Ipsita Mohapatra"
+                },
+                "AccountManagerBlock": {
+                    "AccountManager": "Bhagyashree Rath"
+                },
+                "SalesAccountRepAcctMgmtBlock": {
+                    "SalesAccountRepAcctMgmt": null
+                },
+                "SpecialtySalesExecutiveTeamBlock": {
+                    "SpecialtySalesExecutiveTeam": null
+                }
+            },
+            "AccountLegalName": "Test Elissa 1 QA",
+            "AccountNameDBA": "Test Elisa",
+            "AccountStatus": "Termed",
+            "AnthemEntity": "Local/Large Group",
+            "ClaimSystem": "WGS 2.0",
+            "CompanySizeGroupSize": "250 - 499",
+            "EOCPaperlessOptionIndicator": "Y",
+            "ERISAStatus": "Non-ERISA",
+            "EmployerTaxID": "21436798",
+            "GroupNumber": "IN2306",
+            "HIPAALetterExclusion": "(N) Do Not Exclude the Generation of HIPAA Add and Term Letters",
+            "HQState": "IN",
+            "LegalEntity": null,
+            "Phone1": "7829122023",
+            "PhysicalAndMailingAddress": {
+                "MalingConditionBlock": {
+                    "MailingBlock": {
+                        "MailingCity": "Terre Haute",
+                        "MailingCountry": "United States",
+                        "MailingCounty": "test",
+                        "MailingState": "IN",
+                        "MailingStreet": "999 Elm Street",
+                        "MailingZipCode": "47807"
+                    },
+                    "MailingFormula": null
+                },
+                "PhysicalCorrectlevel": {
+                    "Physicalblock": {
+                        "PhysicaZiPCode": "30302",
+                        "PhysicalCity": "Florence",
+                        "PhysicalCountry": "United States",
+                        "PhysicalCounty": "GA",
+                        "PhysicalState": "KY",
+                        "PhysicalStreet": "Atlanta,"
+                    }
+                }
+            },
+            "SalesOfficeLocation": "N0",
+            "ShippingAddressissameAsMailingAddress": false,
+            "SicCodeTypeAhead-Block": {
+                "SICCodeName": null,
+                "SICId": null,
+                "SicCodeTypeAhead": "40615_Test"
+            },
+            "SitusState": "Colorado",
+            "VendorReferral": "M",
+            "WorkLocation": "9090"
+        }
+    },
+    "ContactInformation": {
+        "BillingContactEmail": null,
+        "BillingContactName": null,
+        "BillingContactPhone": null,
+        "GroupAdministratorContactEmail": null,
+        "GroupAdministratorContactName": null,
+        "GroupAdministratorContactPhone": null
+    },
+    "ContextId": "801S0000000UDSQ",
+    "CounterValue": false,
+    "CustomerMasterAccount": true,
+    "DataRaptorExtractAction6Status": true,
+    "DataRaptorExtractAction7Status": true,
+    "Formula11": false,
+    "GroupInformation": {
+        "COBRAAdministrationServices": null,
+        "CancelReason": null,
+        "ClaimsSavingsVendor": "NB4",
+        "DoesAnthemGenerateHCID": "G",
+        "DuplicateSupplementalCoverageAllowed": "Y",
+        "EmployeeAssistanceProgram": true,
+        "EmployeeExcludedCode": null,
+        "GroupType": "A (ACTIVE)",
+        "IndicateProbationaryPeriod": null,
+        "OADAutoDelete": "N",
+        "PremPaidForEachSubDepPerMonth": null,
+        "PremPaidForEachSubPerMonth": null,
+        "RetroEnrollmentMaintenanceElectronic": "90",
+        "RetroEnrollmentMaintenanceOnline": "60",
+        "TerminatedReservelessMPPFunding": "C"
+    },
+    "GroupNumbervalidation": "Pending SME Review",
+    "GroupSubmissionCounter": "",
+    "GroupUpdateID": "a5IS0000000EV7JMAW",
+    "ImpactedProductAndCoverageTypeInformation": {
+        "Dental": {
+            "dentalAddReasonCodeImp": null,
+            "dentalBenefitPeriodImp": null,
+            "dentalClaimsRouteCodeImp": null,
+            "dentalProductName": null
+        },
+        "EAP": {
+            "EAPAddReasonCodeImp": null,
+            "EAPBenefitPeriodImp": null,
+            "EAPClaimsRouteCodeImp": null,
+            "EAPProductName": null
+        },
+        "FSA": {
+            "FSAAddReasonCodeImp": null,
+            "FSABenefitPeriodImp": null,
+            "FSAClaimsRouteCodeImp": null,
+            "FSAProductName": null
+        },
+        "LifeAndDisability": {
+            "LifeDisabilityAddReasonCodeImp": null,
+            "LifeDisabilityBenefitPeriodImp": null,
+            "LifeDisabilityClaimsRouteCodeImp": null,
+            "LifeDisabilityProductName": null
+        },
+        "Medical": {
+            "ImpactedMedicalPlans": {
+                "MedicalPlanAddReasonCodeImp": null,
+                "MedicalPlanBenefitPeriodImp": null,
+                "MedicalPlanClaimsRouteCodeImp": null,
+                "MedicalPlanContractCode": null,
+                "MedicalPlanHSABankingPartnerImp": null,
+                "MedicalPlanParentQuoteLineItem": null,
+                "MedicalPlanProductCategory": null,
+                "MedicalPlanProductName": null
+            },
+            "ImpactedMedicalProducts": {
+                "MedicalProductCategory": null,
+                "MedicalProductContractCode": null,
+                "MedicalProductName": null,
+                "MedicalProductPrefix": null
+            }
+        },
+        "Pharmacy": {
+            "Block50": {
+                "ContractCodePharmacy": null,
+                "CustomContractCodePharmacy": null,
+                "PharmacyBenefitIdentifier": null,
+                "PlanNamePharmacy": null,
+                "PlanTypePharmacy": null,
+                "ProductTypePharmacy": null
+            }
+        },
+        "Vision": {
+            "visionAddReasonCodeImp": null,
+            "visionBenefitPeriodImp": null,
+            "visionClaimsRouteCode": null,
+            "visionProductName": null
+        }
+    },
+    "ImplCase": {
+        "ImpactedProduct": "Dental,Life,Disability,Medical,FSA,EAP",
+        "ImpactedProductIds": "0QLS0000000WFI1OAO,0QLS0000000WFI7OAO,0QLS0000000WFIBOA4,0QLS0000000WFICOA4,0QLS0000000WFILOA4,0QLS0000000WFIQOA4,0QLS0000000WFIzOAO",
+        "ImplementationType": "Change Request Off Cycle"
+    },
+    "ImplementationType": "Change Request Off Cycle",
+    "IsLoadGroupSubmitted": false,
+    "LoadGroupStatus": "",
+    "LoadGroupStep": {
+        "CaseInformation": {
+            "ImplementationCaseStatus": "Pending SME Review"
+        }
+    },
+    "LoadGroupSubmissionTimestamp": "",
+    "MailingAddress": "999 Elm Street, Terre Haute, IN, 47807, United States",
+    "MaintenanceReasonCustomerMaster": "Add new Product (Medical/Specialty only)",
+    "OpportunityEffectiveDate": "2019-07-01",
+    "OrderId": "801S0000000UDSQIA4",
+    "OrderNumber": "IMPL-5145",
+    "PEOAndAddingNewCompanyThatRequiresNewSuffixes": false,
+    "PhysicalAddress": "Atlanta,, Florence, KY, 30302, United States",
+    "ProductWithPercent": "%",
+    "QuoteupdateID": "0Q0S0000000Ik2EKAS",
+    "RateAdjustmentDueToInternalError": false,
+    "RecFetch": false,
+    "RecordTypeName": "Renewal Unlock",
+    "ResponseAction2Status": true,
+    "SalesAccountRepAccMgmtTest": "",
+    "SalesOfficeLocationAccountManager": "N0",
+    "SetCustomerMaster": "",
+    "SitusStateValue": "Colorado",
+    "SpecalitySalesExecutiveTest": "",
+    "formula12": false,
+    "formula13": true,
+    "formula14": true,
+    "id": "a3CS0000000IYosMAG",
+    "layout": "lightning",
+    "opportunityupdateID": "006S000000D10mWIAR",
+    "options": {
+        "chainable": false,
+        "postTransformBundle": "",
+        "preTransformBundle": "",
+        "useContinuation": false,
+        "useFuture": false,
+        "vlcClass": "%vlocity_namespace%.IntegrationProcedureService"
+    },
+    "response": {
+        "AccTeamMemId": "01MS000000LOzhqMAD",
+        "AccountUpdateId": "001S000000z4V8oIAE",
+        "CaseInformation": {
+            "CaseInformation1": {
+                "ASONewbornOptOutIndicator": "Y",
+                "AccountId": "001S000000z4V8oIAE",
+                "AcountAccessLevel": "Read",
+                "ActiveRenewalDate": "2021-07-03",
+                "BenefitRenewalAnniversaryDate": "2019-12-25",
+                "CancelDate": "2019-12-17",
+                "CertofCreditableCoverageSuppression": "Y",
+                "ConversionLetterSuppression": "Y",
+                "DelinquencyCancellationLttrSuppression": "Y",
+                "IDCardsSentToInitially": "Subscribers",
+                "ImplementationCaseStatus": "Pending SME Review",
+                "ImplementationEffectiveDate": "2019-07-01",
+                "MaintenanceCardsSentTo": "Group",
+                "MonthUnderwriterStartsRenewalProcess": "January",
+                "NonHmoBlock": {
+                    "NonHMOIDCards": "SS",
+                    "NonHMOIDCards1": "SS"
+                },
+                "OpenEnrollmentStartDate": "2019-11-15",
+                "OppOwner-Block": {
+                    "OppOwner": "Ipsita Mohapatra"
+                },
+                "OpportunityOwnerAnthemFederationID": "A12345",
+                "RecId": "aB7S000000009rwKAA",
+                "TerminatedReservelessMPPFunding": "C",
+                "TerminationLetterSuppression": "Y",
+                "UnderwriterAnthemFederationID": "123456",
+                "UnderwriterName": "Test Aparna",
+                "WGSMBUCode": "66200000"
+            }
+        },
+        "CompanyInformation1": {
+            "CompanyInformation": {
+                "AccountLegalName": "Test Elissa 1 QA",
+                "AccountNameDBA": "Test Elisa",
+                "AccountStatus": "Termed",
+                "AnthemEntity": "Local/Large Group",
+                "ClaimSystem": "WGS 2.0",
+                "CompanySizeGroupSize": "250 - 499",
+                "EOCPaperlessOptionIndicator": "Y",
+                "ERISAStatus": "ERISA",
+                "EmployerTaxID": "21436798",
+                "GroupNumber": "IN2306",
+                "HIPAALetterExclusion": "(N) Do Not Exclude the Generation of HIPAA Add and Term Letters",
+                "HQState": "IN",
+                "Phone1": "7829122023",
+                "PhysicalAndMailingAddress": {
+                    "MalingConditionBlock": {
+                        "MailingBlock": {
+                            "MailingCity": "Terre Haute",
+                            "MailingCountry": "United States",
+                            "MailingCounty": "test",
+                            "MailingState": "IN",
+                            "MailingStreet": "999 Elm Street",
+                            "MailingZipCode": "47807"
+                        }
+                    },
+                    "PhysicalCorrectlevel": {
+                        "Physicalblock": {
+                            "PhysicaZiPCode": "30302",
+                            "PhysicalCity": "Florence",
+                            "PhysicalCountry": "United States",
+                            "PhysicalCounty": "GA",
+                            "PhysicalState": "KY",
+                            "PhysicalStreet": "Atlanta,"
+                        }
+                    }
+                },
+                "ShippingAddressissameAsMailingAddress": false,
+                "SicCodeTypeAhead-Block": {
+                    "SicCodeTypeAhead": "40615_Test"
+                },
+                "SitusState": "Colorado",
+                "VendorReferral": "M"
+            }
+        },
+        "GroupInformation": {
+            "ClaimsSavingsVendor": "NB4",
+            "DoesAnthemGenerateHCID": "G",
+            "DuplicateSupplementalCoverageAllowed": "Y",
+            "EmployeeAssistanceProgram": true,
+            "GroupType": "A (ACTIVE)",
+            "OADAutoDelete": "N",
+            "RetroEnrollmentMaintenanceElectronic": "90",
+            "RetroEnrollmentMaintenanceOnline": "60",
+            "TerminatedReservelessMPPFunding": "C"
+        },
+        "GroupNumbervalidation": "Pending SME Review",
+        "GroupUpdateID": "a5IS0000000EV7JMAW",
+        "MailingAddress": "999 Elm Street, Terre Haute, IN, 47807, United States",
+        "OpenEnrollmentStartDate": "11/15/2019",
+        "OpportunityEffectiveDate": "2019-07-01",
+        "OrderId": "801S0000000UDSQIA4",
+        "PhysicalAddress": "Atlanta,, Florence, KY, 30302, United States",
+        "QuoteupdateID": "0Q0S0000000Ik2EKAS",
+        "RecordTypeName": "Renewal Unlock",
+        "SitusStateValue": "Colorado",
+        "opportunityupdateID": "006S000000D10mWIAR"
+    },
+    "st1": "Pending SME Review",
+    "st2": false,
+    "st3": true,
+    "stImplementationType": "Change Request Off Cycle",
+    "testContextId": "801S0000000UDSQ",
+    "timeStamp": "2020-02-27T15:36:32.953Z",
+    "userCurrencyCode": "USD",
+    "userId": "005S000000Fu8kPIAR",
+    "userName": "s.a.singh.rajput@accenture.com2.iceqa",
+    "userProfile": "System Administrator",
+    "userTimeZone": -300,
+    "vlcPersistentComponent": {
+    }
+}

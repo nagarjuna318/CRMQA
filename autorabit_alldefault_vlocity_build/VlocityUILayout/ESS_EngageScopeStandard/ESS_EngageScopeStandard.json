@@ -1,0 +1,29 @@
+{
+    "Cards": [
+        "EngageScope",
+        "EngageStandard"
+    ],
+    "dataSource": {
+        "contextVariables": [
+            {
+                "name": "params.Id",
+                "val": "a7o2a0000004I7gAAE"
+            }
+        ],
+        "type": "Query",
+        "value": {
+            "jsonMap": "{\"params.id || params.Id\":\"{{params.id || params.Id}}\"}",
+            "timeout": null
+        }
+    },
+    "previewType": "runTime",
+    "templates": {
+        "0": {
+            "templateUrl": "card-canvas-1x-slds-nosearch"
+        }
+    },
+    "workspace": [
+        "EngageScope/Anthem Commercial 2.0/1/1532970009481",
+        "EngageStandard/Anthem Commercial 2.0/1/1532970085973"
+    ]
+}

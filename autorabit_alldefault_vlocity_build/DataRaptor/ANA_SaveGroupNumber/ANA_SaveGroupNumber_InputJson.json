@@ -1,0 +1,37 @@
+{
+    "AccountName": "test customer",
+    "ClaimsSystem": "WGS 2.0",
+    "ContextId": "a5P4B00000008uk",
+    "EligibleNo": {
+        "NotesDetails": null
+    },
+    "EligibleYes": {
+        "NewGroupNumber": "etc"
+    },
+    "IsItAMigration": "Yes",
+    "IsthisPrivateExchange(PEX)": "Yes",
+    "NASCOContracting/SitusState": "76 NY **Must set up as 10 IN",
+    "Region": "South East",
+    "Step1": {
+        "Details": null,
+        "Eligible": "No"
+    },
+    "WGSContracting/SitusState": "NY New York",
+    "id": "a3B4B0000000eahUAA",
+    "layout": "lightning",
+    "timeStamp": "2017-04-28T06:27:31.910Z",
+    "userId": "0054B000000orR1QAI",
+    "userName": "keerthi.thoutireddy@anthem.com2.config",
+    "userProfile": "System Administrator",
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "DataRaptor Extract Action 1": 6582,
+        "EligibleNo": 40804,
+        "EligibleYes": 8813,
+        "EligibleYesMsg": 3290,
+        "OmniScriptSessionToken": "f903119b-424e-4387-80df-4c88f834463b",
+        "Set Values 1": 15,
+        "Step1": 139094
+    }
+}

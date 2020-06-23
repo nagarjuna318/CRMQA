@@ -1,0 +1,125 @@
+$light-grey: #dddbda;
+$brownish-grey: #706E6B;
+$background-blue: #f7fbfe;
+$action-blue: #1589EE;
+$hover-blue: #0070d2;
+$active-blue: #003768;
+
+
+#searchBar::placeholder{
+    font-size: 14px !important;
+    font-weight: normal;
+    line-height: normal !important;
+    letter-spacing: normal !important;
+    color: #dddbda !important;
+    font-style: italic;    
+}
+
+
+.selected_btn{
+    border: 2px solid #ee752f !important;
+}
+
+.noSelect {
+    outline: none;
+}
+
+
+
+.search-container{
+    width: 100%;
+}
+
+.full-width{
+    width: 100%;
+}
+
+.search-padding-left{
+    padding-left: 2rem !important;
+}
+
+.empty-state-product{
+    border-radius: 3px;
+    border: solid 1px $light-grey;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.product-container{
+    border-radius: 3px;
+    border: solid 1px $light-grey;
+    max-height: 950px; 
+    box-shadow: inset 0px 11px 22px -16px rgba(138,138,138,0.76);
+    overflow-y: scroll;
+}
+
+.product-h3{
+    max-height: 90px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    word-break: break-word;
+}
+
+.product{
+    margin: 0.85rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 135px;
+    position: relative;
+    background-color: $background-blue;
+}
+
+.font-weight-bold{
+    font-weight: bold;
+    word-wrap: break-word;
+
+}
+
+.product-title{
+    top: 0;
+    position: absolute;
+    height: 50%;
+    padding-top: 1rem;
+    text-overflow: ellipsis;
+    max-width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+}
+
+.product-button-container{
+    position: absolute;
+    height: 50%;
+    bottom: 0;
+}
+
+.deselect-cta{
+    background-color: $brownish-grey !important;
+    border: 1px solid $brownish-grey;
+    span{
+        color: white;
+    }
+}
+
+.deselect-cta:hover{
+    background-color: rgba(0, 0, 0, 0.3) !important;
+}
+
+.select-cta{
+    background-color: $action-blue;
+    span{
+        color: white;
+    }
+}
+
+.select-cta:hover{
+    background-color: $hover-blue !important;
+}
+
+.select-cta:active{
+    background-color: $active-blue !important;
+}

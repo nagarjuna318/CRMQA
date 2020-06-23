@@ -1,0 +1,383 @@
+{
+    "AccountId": "001S0000018A4GtIAK",
+    "AccountIdUpdate": "001S0000018A4GtIAK",
+    "AccountName": "Synthesis Demo Account",
+    "AddtlDomPartnerDR": "",
+    "COBRAAdminDR": "N",
+    "COBRABillGoDR": "TPA",
+    "COBRAPremiumDR": "TPA",
+    "COBRATPADR": "No",
+    "CalCOBRAEligibileParticipantsDR": "",
+    "CityDR": "",
+    "ClientAllowsDomesticPartnersCoveredDR": "",
+    "ClientAllowsSamsexDR": "",
+    "CobraAdministrationServiceDR": "N",
+    "ContextId": "801S0000000UHVv",
+    "CustomerMasterAccount": true,
+    "DRId_Account": "001S0000018A4GtIAK",
+    "DRId_Eligibility__c": "a7HS00000009RanMAE",
+    "DRId_Order": "801S0000000UHVvIAO",
+    "DifferentContactsAtSuffixLevelDR": "No",
+    "DoesThisInformationApplyToAllGroupDR": "",
+    "DomPartIndSameForAllQliDR": "Yes",
+    "DomesticPartnerApplyToAllGroupDR": "Yes",
+    "DomesticPartnerFirst": "N",
+    "DomesticPartnerFour": "N",
+    "DomesticPartnerIndicator": "",
+    "DomesticPartnerSecond": "N",
+    "DomesticPartnerThird": "N",
+    "DomesticPartnerValues": [
+        {
+            "$$hashKey": "object:1527",
+            "apiName": "--None--",
+            "value": " "
+        },
+        {
+            "$$hashKey": "object:1528",
+            "apiName": "N (No Domestic Partner)",
+            "value": "N (No Domestic Partner)"
+        },
+        {
+            "$$hashKey": "object:1529",
+            "apiName": "A (Any Sex Domestic Partner)",
+            "value": "A (Any Sex Domestic Partner)"
+        },
+        {
+            "$$hashKey": "object:1530",
+            "apiName": "S (Same Sex Domestic Partner)",
+            "value": "S (Same Sex Domestic Partner)"
+        },
+        {
+            "$$hashKey": "object:1531",
+            "apiName": "O (Opposite Sex Domestic Partner)",
+            "value": "O (Opposite Sex Domestic Partner)"
+        }
+    ],
+    "EligibilityChangeIndicatorOne": "01",
+    "EligibilityChangeIndicatorTwo": "01",
+    "EligibilityFirstIndicator": "3002",
+    "EligibilityInformation": {
+        "EmployerEligibility": {
+            "EligibilityBlockLeftSide": {
+                "COBRAAdministrationServicesProvided": "N",
+                "DomesticPartnerApplyToAllGroup": "Yes",
+                "DomesticPartnerIndicator": "N",
+                "DomesticPartnerIndicator1": "N",
+                "DomesticPartnerIndicator2": "N",
+                "DomesticPartnerIndicator3": "N",
+                "DomesticPartnerIndicator4": "N",
+                "EligibilityChangeIndicator": "01",
+                "EligibilityChangeIndicator1": "01",
+                "EligibilityChangeIndicator2": "01",
+                "EligibilityTermIndicator": "01",
+                "EligibilityTermIndicator1": "01",
+                "EligibilityTermIndicator2": "01",
+                "EmployeeExcludeCodeFormula": "16 (CA)",
+                "EmployeeExcludedCode1": "16 (CA)",
+                "EmployeeExcludedCode2": null,
+                "EmployeeExcludedCode3": null,
+                "EmployeeExcludedCode4": null,
+                "EmployeeExcludedCode5": null,
+                "EmployeeExcludedCode6": null,
+                "EmployeeExcludedCode7": null,
+                "EmployeeExcludedCode8": null,
+                "IfDepReachesMaxAgeAutoTermate": "Yes",
+                "MHSAServicelevelIndicator1": null,
+                "MHSAServicelevelIndicator2": null,
+                "MHSAServicelevelIndicator3": null,
+                "MHSAServicelevelIndicator4": "3002",
+                "MHSAServicelevelIndicator5": "3002",
+                "MHSAServicelevelIndicator6": null,
+                "MHSAServicelevelIndicator7": null,
+                "MhsaFormula": "3002",
+                "NewHireProbationaryPeriod": "3B",
+                "Over65Code": "1",
+                "OverageDepTermLettersMailedToBus": "G",
+                "PremPaidForEachSubDepPerMonth": 13,
+                "PremPaidForEachSubPerMonth": 12,
+                "WomenContraceptiveExemptionInd": "Yes - Religious Employer Group"
+            },
+            "EligibilityBlockRightSide": {
+                "Messaging6": true,
+                "NHProbPDSameForAllQliAndSufix": "Yes",
+                "PartIndSameForAllQLIAndSuffix": "Yes",
+                "PercentPremDepSameForAllQliAndSufix": "Yes",
+                "PercentPremSubSameForAllQliAndSufix": "No (Different by QLI/Product)"
+            }
+        },
+        "ImplemenationCaseDetails": {
+            "AccountName1": "Synthesis Demo Account",
+            "ClaimSystem": "WGS 2.0",
+            "EligibilityName": "ELIG-00278"
+        }
+    },
+    "EligibilityRecordId": "a7HS00000009RanMAE",
+    "EligibilityRecordType": "EligibilityCustomerMaster",
+    "EligibilityTermIndicatorOne": "01",
+    "EligibilityTermIndicatorTwo": "01",
+    "EligibilityValidationRule": "Passed",
+    "EligibilityVisible": "ShowEligibility",
+    "EmployeeClass": "",
+    "EmployeeClassStep": {
+        "EditEmployeeBlock": null,
+        "EmployeeClassExtract": null,
+        "EmployeeClassesseparate": null,
+        "Formula24": null,
+        "Formula25": null,
+        "Formula26": null,
+        "Messaging5": null
+    },
+    "EmployeeExcludedCode": "",
+    "EmployeeExcludedCode3": "16 (CA)",
+    "EmployeeExcludedCodeDRs1": "16 (CA)",
+    "EmployeeExcludedCodeDRs2": "16 (CA)",
+    "EmployeeExcludedCodeDRs3": "16 (CA)",
+    "EmployeeExcludedCodeDRs4": "16 (CA)",
+    "EmployeeExcludedCodeDRs5": "16 (CA)",
+    "EmployeeExcludedCodeDRs6": "16 (CA)",
+    "EmployeeExcludedCodeDRs7": "16 (CA)",
+    "EmployeeExcludedCodeDRs8": "16 (CA)",
+    "EmployeeReinstatementDateEligibilityDR": "",
+    "EmployeeReinstatementProbationaryPeriodDR": "",
+    "FContactName": "",
+    "FundingInformation": {
+        "COBRAWest": {
+            "COBRABillGo": null,
+            "COBRAPremium": null,
+            "COBRATPA": null
+        },
+        "FundingDetails": {
+            "DifferentContactsAtSuffixLevel": null,
+            "IfYesPlzExplain": "trespass",
+            "IfYesPlzExpln": null,
+            "IncludeHCIDNumberOnTheInvoice": null,
+            "MoreThanOneBillEntity": null,
+            "PremiumRecdFromMoreThanOneSource": null,
+            "SelfFundedwithReinsurance": null
+        },
+        "FundingImplementationCaseDetails": null,
+        "TPAContactInformation": {
+            "City": null,
+            "FRTPACity": null,
+            "FRTPAPhone": null,
+            "FRTPAState": null,
+            "FRTPAStreetAddress": null,
+            "FRTPAZipCode": null,
+            "Phonee": null,
+            "State": null,
+            "StreetAddress": null,
+            "TPAContactName-Block": {
+                "TPAContactId": null,
+                "TPAContactName": null,
+                "TPAContactNameFM": null
+            },
+            "ZipCode": null
+        }
+    },
+    "FundingName": "FUND-000210",
+    "FundingRecordId": "a7LS00000008XsQMAU",
+    "FundingValidationRule": "Passed",
+    "FundingVisible": "ShowFunding",
+    "GroupClaimSystem": "WGS 2.0",
+    "GroupContractCode": "",
+    "GroupID": "a5IS00000006GMJMA2",
+    "IfDepReachesMaxAgeAutoTermateDR": "Yes",
+    "IfNoPleaseSpecifyDR": "",
+    "IfNoSpecifyGroupsForDomesticPartDR": "",
+    "IfYesIndicateProbPeriodDR": "",
+    "IfYesPlzExplnDR": "trespass",
+    "ImplCase": {
+        "AccountId": "001S0000018A4GtIAK",
+        "AreThereChangesToEligibility": "Yes",
+        "ChangesToFundingOrBillingEntity": "",
+        "GroupId": "a5IS00000006GMJMA2",
+        "Id": "801S0000000UHVvIAO",
+        "ImplementationType": "New Business",
+        "LatestEligibility": "a7HS00000009RanMAE",
+        "LatestFunding": "a7LS00000008XsQMAU"
+    },
+    "IncludeHCIDNumberOnTheInvoiceDR": "Yes",
+    "InvoiceGPDMappingStep": {
+        "BillingArrangements": {
+            "BAId": null,
+            "InvDescription": null,
+            "InvOtherSortingOption1": null,
+            "InvSortingOption1": null,
+            "InvSortingOption2": null,
+            "InvoiceRecordId": null
+        },
+        "GPD": null
+    },
+    "IsThereaWaitingPeriodDR": "",
+    "MembershipCommentsDR": "",
+    "MoreThanOneBillEntityDR": "Yes",
+    "NHProbPDSameForAllQliAndSufixDR": "Yes",
+    "NewHireCoverageEffDateEligibilityDR": "",
+    "NewHireProbValues": [
+        {
+            "$$hashKey": "object:1532",
+            "apiName": "--None--",
+            "value": " "
+        },
+        {
+            "$$hashKey": "object:1533",
+            "apiName": "1 Month",
+            "value": "1 Month"
+        },
+        {
+            "$$hashKey": "object:1534",
+            "apiName": "2 Months",
+            "value": "2 Months"
+        },
+        {
+            "$$hashKey": "object:1535",
+            "apiName": "3 Months",
+            "value": "3 Months"
+        },
+        {
+            "$$hashKey": "object:1536",
+            "apiName": "1 Day",
+            "value": "1 Day"
+        },
+        {
+            "$$hashKey": "object:1537",
+            "apiName": "15 Days",
+            "value": "15 Days"
+        },
+        {
+            "$$hashKey": "object:1538",
+            "apiName": "28 Days",
+            "value": "28 Days"
+        },
+        {
+            "$$hashKey": "object:1539",
+            "apiName": "30 Days",
+            "value": "30 Days"
+        },
+        {
+            "$$hashKey": "object:1540",
+            "apiName": "40 Days",
+            "value": "40 Days"
+        },
+        {
+            "$$hashKey": "object:1541",
+            "apiName": "42 Days",
+            "value": "42 Days"
+        },
+        {
+            "$$hashKey": "object:1542",
+            "apiName": "45 Days",
+            "value": "45 Days"
+        },
+        {
+            "$$hashKey": "object:1543",
+            "apiName": "56 Days",
+            "value": "56 Days"
+        },
+        {
+            "$$hashKey": "object:1544",
+            "apiName": "60 Days",
+            "value": "60 Days"
+        },
+        {
+            "$$hashKey": "object:1545",
+            "apiName": "84 Days",
+            "value": "84 Days"
+        },
+        {
+            "$$hashKey": "object:1546",
+            "apiName": "90 Days",
+            "value": "90 Days"
+        },
+        {
+            "$$hashKey": "object:1547",
+            "apiName": "OTHER",
+            "value": "OTHER"
+        }
+    ],
+    "NotesDR": "",
+    "OverCodeDR": "1",
+    "OverageDepTermLettersMailedToBusDR": "G",
+    "PercentPremDepSameForAllQliAndSufixDR": "Yes",
+    "PercentPremSubSameForAllQliAndSufixDR": "No (Different by QLI/Product)",
+    "PhoneDR": "",
+    "PreSelectedEmpCategory": "Active;Under 65 Retiree;Cal COBRA",
+    "PremPaidForEachSubDepPerMonthDR": 13,
+    "PremPaidForEachSubPerMonthDR": 12,
+    "PremiumRecdFromMoreThanOneSourceDR": "No",
+    "QLIProductEligibility": {
+        "QliEligibility": null,
+        "QliFirstBlock": {
+            "DomPartIndSameForAllQliAndSufixPriview": "Yes",
+            "NHProbPDSameForAllQliAndSufixPriview": "Yes",
+            "PercentPremDepSameForAllQLIAndSuffix": "Yes",
+            "PercentPremSubSameForAllQLIAndSuffix": "No (Different by QLI/Product)"
+        }
+    },
+    "QLIProductsData": {
+        "APNDetails": {
+            "ANPrefixProdName": null,
+            "AssignedPrefixName": null,
+            "CustomNwkName": null,
+            "PrdNwkName": null
+        },
+        "QLIProducts": null
+    },
+    "SelectedBilling": "Single Invoice (containing all Suffixes)",
+    "SelectedEmpCategory": "Active;Under 65 Retiree;Cal COBRA",
+    "SelfFundedwithReinsuranceDR": "Edi546454",
+    "SitusStateValue": "California",
+    "StateDR": "",
+    "StatusDescription": "",
+    "Step1": {
+        "AccountPreferences": {
+            "BillingSystemIndicator": null
+        },
+        "Invoices": null,
+        "WhatareInvoices": null
+    },
+    "Step12": {
+        "Select31": ""
+    },
+    "StreetAddressDR": "",
+    "Submit": {
+        "ASQS": null,
+        "SubmitThisAccountStructure": null,
+        "TrackAccountStructure": null
+    },
+    "TPAContactNameDR": "",
+    "WhoWilHandleCalCOBRABillingDR": "",
+    "WomenContraceptiveIndicatorDR": "Yes - Religious Employer Group",
+    "ZipCodeDR": "",
+    "eligibilityname": "ELIG-00278",
+    "error": "OK",
+    "groupname": "",
+    "id": "a3CS0000000ISiOMAW",
+    "qlirecord": "",
+    "stChangesToEligibility": "Yes",
+    "stChangesToFunding": "",
+    "stImplType": "New Business",
+    "testContextId": "801S0000000UHVv",
+    "timeStamp": "2020-02-20T10:08:03.429Z",
+    "userCurrencyCode": "USD",
+    "userId": "005S000000Fu8kPIAR",
+    "userName": "s.a.singh.rajput@accenture.com2.iceqa",
+    "userProfile": "System Administrator",
+    "userTimeZone": -300,
+    "verticalmode": true,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "AccountStructureAccountExtract": 1619,
+        "DataRaptorPostAction13": 1420,
+        "EligibilityDetailsSt": 199,
+        "EligibilityInformation": 11132,
+        "EligibilityPost": 3391,
+        "EligibilityrecordSt": 873,
+        "ExtractEligibilityFundingByImpleCaseDR": 1926,
+        "ExtractQLIPicklistRemote": 768,
+        "ExtractQliEligibility": 2451,
+        "OmniScriptSessionToken": "0bbb4354-c6b4-4c4e-bed0-eb42954c8a94",
+        "SetValues10": 33
+    }
+}

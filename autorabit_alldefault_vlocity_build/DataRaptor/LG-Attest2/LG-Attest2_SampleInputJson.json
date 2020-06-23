@@ -1,0 +1,60 @@
+{
+    "Account": {
+        "Name": "LG Customer",
+        "Phone": "5555551212"
+    },
+    "AccountId": "0012f000002odasAAA",
+    "AccountManager": "Joseph Henzi",
+    "Confirm": {
+        "BrokerEmail": "joseph.henzi@anthem.com",
+        "BrokerName": "Second Fake Broker",
+        "ClientEmail": "karen.sharabi@empireblue.com",
+        "ClientName": "Test Group Contact",
+        "ClientTitle": "Test",
+        "SelectedUW": "Rick.Groves@anthem.com"
+    },
+    "ContextId": "0062f000001vYfjAAE",
+    "OppId": "0062f000001vYfjAAE",
+    "OppName": "2020 New Business Local-LG Customer",
+    "Quotes": {
+        "GroupNumber__c": "a5I2f0000000dF3EAI"
+    },
+    "StageInformation": {
+        "Brokers": [
+            {
+                "$$hashKey": "object:161",
+                "Email": "joe@henzi.org",
+                "Name": "Second Fake Broker",
+                "vlcSelected": true
+            }
+        ],
+        "Group": null,
+        "GroupContact": [
+            {
+                "$$hashKey": "object:159",
+                "AccountName": "LG Customer",
+                "Email": "karen.sharabi@empireblue.com",
+                "Name": "Test Group Contact",
+                "Title": "Test",
+                "vlcSelected": true
+            }
+        ],
+        "LeadUW": "Rick.Groves@anthem.com",
+        "NumSelections": 3,
+        "Validation": true
+    },
+    "TextBlock2": "<h1 style=\"text-align: center;\"><strong>Email Status:</strong>&nbsp;<strong>&nbsp;<strong></strong></strong></h1>",
+    "id": "a3C2f0000008uk2EAA",
+    "isdtp": "p1",
+    "layout": "lightning",
+    "sfdcIFrameHost": "web",
+    "sfdcIFrameOrigin": "https://commercial--icelo--vlocity-ins.cs34.visual.force.com",
+    "timeStamp": "2019-08-28T20:12:38.478Z",
+    "userCurrencyCode": "USD",
+    "userId": "00541000002s17RAAQ",
+    "userName": "ad70229@anthem.com2.icelo",
+    "userProfile": "System Administrator",
+    "userTimeZone": -300,
+    "vlcPersistentComponent": {
+    }
+}

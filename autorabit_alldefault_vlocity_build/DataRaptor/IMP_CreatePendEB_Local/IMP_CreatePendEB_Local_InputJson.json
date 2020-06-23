@@ -1,0 +1,17 @@
+{
+    "CapturePendCorrectionReasons_Local": {
+        "Formula17": null,
+        "L_CorrectionDepartment": null,
+        "L_CorrectionDepartment_Formula": null,
+        "L_PendingCorrectionType": null,
+        "L_RateType": null,
+        "L_Stage": null,
+        "PendingCorrectionReason": {
+            "Comments": null,
+            "E&B_Reason": null,
+            "E&B_Type": null,
+            "NonE&B_Reason": null,
+            "NonE&B_Type": null
+        }
+    }
+}

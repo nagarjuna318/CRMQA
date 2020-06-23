@@ -1,0 +1,1481 @@
+{
+    "AP-Family": "",
+    "AP-HasSPP": "No",
+    "AP-ParentId": "",
+    "AP-ProductName": "",
+    "AP-ProductSelection": {
+        "PlanList": null
+    },
+    "ASH": false,
+    "AccidentPlan": false,
+    "AccountId": "",
+    "AccountName": "P2A Test Account",
+    "AdminIntegration": false,
+    "AnthemEngageSilver": "Yes",
+    "AnthemEntity": "",
+    "AnthemPrescriptionDrugPlan": false,
+    "ApprovalStatus_LG": "Not started",
+    "Auto Quote": false,
+    "BasicComprehensiveMedicalPlan": false,
+    "ClinicalIntegration": false,
+    "ClonedFromRenewalCheck": false,
+    "CompetitorReadOnly": "Competitor None or Unknown",
+    "CompletionMarker": "Not Complete",
+    "ContextId": "0QL4C00000050D6WAI",
+    "CreatedBy": "00541000006Y54QAAS",
+    "CreatedById": "00541000006Y54QAAS",
+    "CreatedByName": "Vedhaviyas Ramesh",
+    "CriticalCarePlan": false,
+    "DPPVendorDependent": "Solera",
+    "Do Not Auto Pick PCP": false,
+    "DynamicFilters": {
+        "EntityFilter": [
+            {
+                "Id": "a2O4C00000054zyUAA",
+                "Index": "0",
+                "Name": "Test_Manasa"
+            },
+            {
+                "Id": "a2O4C00000054zUUAQ",
+                "Index": "0",
+                "Name": "Medical Filter",
+                "Type": "Qualification"
+            },
+            {
+                "FieldType": "Select",
+                "Id": "a2O4C0000005503UAA",
+                "Index": 2,
+                "Name": "Deductible_Test",
+                "Type": "Qualification"
+            },
+            {
+                "FieldType": "Select",
+                "Id": "a2O4C000000558MUAQ",
+                "Index": 2,
+                "Name": "12",
+                "Type": "Qualification"
+            },
+            {
+                "FieldType": "Select",
+                "Id": "a2O4C000000553lUAA",
+                "Index": 2,
+                "Name": "Test_Manasa_2",
+                "Type": "Qualification"
+            }
+        ],
+        "EntityFilterCondition": [
+            {
+                "EntityFilterId": "a2O4C00000054zUUAQ",
+                "FieldName": "Plan_Name__c,Product2,Name",
+                "Index": 0,
+                "IsNot": false,
+                "Type": "Filter",
+                "Value": "a2O4C00000054zUUAQ",
+                "ValueLabel": "Medical Filter"
+            },
+            {
+                "EntityFilterId": "a2O4C00000054zyUAA",
+                "FieldName": "Deductible:Ddctble.INN Individual:Deductible_Individual_Inn",
+                "FieldType": "currency",
+                "Index": 0,
+                "IsNot": false,
+                "Operator": "≤",
+                "Type": "Attribute",
+                "Value": "100",
+                "ValueLabel": "12345"
+            },
+            {
+                "EntityFilterId": "a2O4C000000553lUAA",
+                "FieldName": "Deductible:Ddctble.INN Individual:Deductible_Individual_Inn",
+                "FieldType": "textarea",
+                "Index": 1,
+                "IsNot": false,
+                "Operator": "=",
+                "ParentFilterType": "Select",
+                "Type": "Attribute",
+                "Value": "2323232",
+                "ValueLabel": "12345"
+            },
+            {
+                "EntityFilterId": "a2O4C000000553lUAA",
+                "FieldName": "MedicalInfo:MdclInf.Coinsurance OON:MdcInf_Cnsrnc_oon",
+                "FieldType": "currency",
+                "Index": 0,
+                "IsNot": false,
+                "Operator": "=",
+                "ParentFilterType": "Select",
+                "Type": "Attribute",
+                "Value": "12233",
+                "ValueLabel": "343434"
+            },
+            {
+                "EntityFilterId": "a2O4C0000005503UAA",
+                "FieldName": "Deductible:Ddctble.INN Individual:Deductible_Individual_Inn",
+                "FieldType": "currency",
+                "Index": 0,
+                "IsNot": false,
+                "Operator": "=",
+                "ParentFilterType": "Select",
+                "Type": "Attribute",
+                "Value": "12345",
+                "ValueLabel": "12345"
+            }
+        ]
+    },
+    "ElevateBH": false,
+    "EmployerPaid": false,
+    "EnhancedComprehensiveMedicalPlan": false,
+    "EssentialFormulary": false,
+    "ExclusiveSpecialtyPharmacyServices": false,
+    "EyemedCollaboration": false,
+    "FinancingDependent": "FI – Refund Agreement",
+    "Funding": "FI",
+    "GroupNumber": "1234567",
+    "HasSPP": false,
+    "HighDeductibleGapPaymentPlan": false,
+    "HospitalOnlyFixedCashBenefitsPlan": false,
+    "HospitalPlusFixedCashBenefitsPlan": false,
+    "IGAP": "0Q04B000000AFao",
+    "IHMProductLineReadyforApproval": false,
+    "LastModifiedBy": "00541000006Y54QAAS",
+    "LastModifiedById": "00541000006Y54QAAS",
+    "LastModifiedByName": "Vedhaviyas Ramesh",
+    "LimitedDurationMedicalPlan": false,
+    "LineItemNumber": "00082752",
+    "MECPlusMedicalPlan": false,
+    "Members": 8,
+    "Multi_Employer": false,
+    "Multi_Employer2": false,
+    "Multi_Employer3": false,
+    "NationalLocalMerged": "No",
+    "NewBusiness": "0Q04B000000AJiN",
+    "No Sales Credit": "No",
+    "NonVoluntaryParticipation": false,
+    "OppType": "New Business Local",
+    "OpptyId": "0064C000005nckiQAA",
+    "OpptyType": "",
+    "Opptystage": "",
+    "PLComplete": false,
+    "Product": "01t4C0000029276QAA",
+    "ProductFamily": "CDHP",
+    "ProductName": "1350/4050 10/30",
+    "ProductType": "Medical",
+    "Profilex": "System Administrator",
+    "QLD": {
+        "AP-BundleType": "",
+        "Block9": null,
+        "QLD-AccountId": null,
+        "QLD-Block": {
+            "Block8": {
+                "QLD-ParticipationType": null
+            },
+            "Pharmacy Section": {
+                "Annual Op Gain": null,
+                "Annual Revenue": null,
+                "Annualized Claim Count": null,
+                "Formulary": null,
+                "Formulary Disruption Completed": null,
+                "Home Delivery": null,
+                "Pricing Guarantee": null,
+                "Rebate": null,
+                "Retail Maintenance Network": null,
+                "Retail Network": null,
+                "Specialty Network": null
+            },
+            "ProbBlock": {
+                "Probability": "10%"
+            },
+            "ProductStage": "In Progress",
+            "QLD-AdminIntegration": false,
+            "QLD-AutoQuote": false,
+            "QLD-CEPIndicator": null,
+            "QLD-ClinicalIntegration": false,
+            "QLD-Discount": null,
+            "QLD-Discountsharing": null,
+            "QLD-DoNotAutoPickPCP": false,
+            "QLD-EPHCEnhPersHealthCare": null,
+            "QLD-EmplyrContDepend": null,
+            "QLD-EmplyrContEmp": null,
+            "QLD-EstimAnnualPrem": null,
+            "QLD-EyemedCollaboration": null,
+            "QLD-Final_Rate": null,
+            "QLD-Financing": "PEPM",
+            "QLD-Funding": "ASO",
+            "QLD-Members": 8,
+            "QLD-Network": null,
+            "QLD-NoSalesCredit": null,
+            "QLD-Original_Rate_Adjustment": null,
+            "QLD-Probability": "10%",
+            "QLD-ProdStage": "In Progress",
+            "QLD-ProductTermYearsLeft": null,
+            "QLD-RX Vendors": null,
+            "QLD-RateGuarThr": null,
+            "QLD-Rate_Differential": null,
+            "QLD-Rate_Differential_Type": null,
+            "QLD-Rate_Relief": null,
+            "QLD-Reason": null,
+            "QLD-ReasonCalc": null,
+            "QLD-ReasonPck": null,
+            "QLD-Subscribers": 8,
+            "QLD-TermDate": null,
+            "QLD-TermDateIn": null,
+            "QLD-TermSelection": "Ok",
+            "QLD-Upsell": null,
+            "QLD_Stage_Chk": "No"
+        },
+        "QLD-DayMsg": true,
+        "QLD-ProductStageMsg": true,
+        "QLD-ReqCompetitor": "No",
+        "QLD-TermReqFlds": "Yes",
+        "QLD-Vendor": null,
+        "QLD_Reason_Chk": true
+    },
+    "QLD-NoSalesCredit": "No",
+    "QLINOUFlagExtract": true,
+    "QLI_Resource_Advisor": true,
+    "QLI_Travel_Assist": true,
+    "QLIid": "0QL4C00000050D6WAI",
+    "QuoteDetails:OpptyRecType": "",
+    "QuoteId": "0Q04C000000977qSAA",
+    "QuoteLineItem_RecordType": "",
+    "RBB": false,
+    "RXChoiceTieredNetwork": false,
+    "Renewals": "0Q04B000000AKWwSAO",
+    "Situs_State": "",
+    "SplitGenericTier": false,
+    "SplitSpecialtyTier": false,
+    "Subscribers": 8,
+    "UserArea": "Local",
+    "VendorNameDependent": "Consumer Medical",
+    "VoluntaryParticipation": false,
+    "VoluntaryParticipationLG": false,
+    "attributeFilters": {
+    },
+    "id": "a3C4C000000Fs4aUAC",
+    "lastRecordId": "01t4C0000028zlwQAA",
+    "layout": "newport",
+    "timeStamp": "2019-03-07T10:28:05.789Z",
+    "undefined": {
+        "cartCompareSelectMap": {
+        },
+        "cartPlans": [
+            {
+                "Id": "01t4C000002QFO1QAO",
+                "IsConfigurable__c": false,
+                "IsRecommended__c": false,
+                "MarketSegment__c": "Large Group",
+                "Name": "Anthem PPO HSA 1500/4500 20/40 (LHSA497H)",
+                "Price": "",
+                "ProductCode": "LHSA497H",
+                "RecordTypeName__c": "Product",
+                "Term__c": "Annual",
+                "attributeCategories": {
+                    "records": [
+                        {
+                            "Code__c": "MdclInf",
+                            "Name": "MedicalInfo",
+                            "displaySequence": 1000,
+                            "id": "a1L4C000000IcbYUAS",
+                            "productAttributes": {
+                                "records": [
+                                    {
+                                        "$$hashKey": "object:378",
+                                        "attributeGroupType": "In-Network",
+                                        "attributeId": "a1M4C000000640xUAA",
+                                        "cloneable": true,
+                                        "code": "MdcInf_Cnsrnc_inn",
+                                        "dataType": "text",
+                                        "description": "10%",
+                                        "disabled": true,
+                                        "displaySequence": 1,
+                                        "filterable": true,
+                                        "hasRules": false,
+                                        "hidden": false,
+                                        "inputType": "text",
+                                        "isNotTranslatable": false,
+                                        "label": "INN Coinsurance",
+                                        "multiselect": false,
+                                        "readonly": true,
+                                        "required": false,
+                                        "userValues": "10",
+                                        "values": [
+                                            {
+                                                "disabled": true,
+                                                "readonly": true
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "$$hashKey": "object:379",
+                                        "attributeGroupType": "Out-Of-Network",
+                                        "attributeId": "a1M4C000000640yUAA",
+                                        "cloneable": true,
+                                        "code": "MdcInf_Cnsrnc_oon",
+                                        "dataType": "text",
+                                        "description": "30%",
+                                        "disabled": true,
+                                        "displaySequence": 2,
+                                        "filterable": true,
+                                        "hasRules": false,
+                                        "hidden": false,
+                                        "inputType": "text",
+                                        "isNotTranslatable": false,
+                                        "label": "Coinsurance OON",
+                                        "multiselect": false,
+                                        "readonly": true,
+                                        "required": false,
+                                        "userValues": "30",
+                                        "values": [
+                                            {
+                                                "disabled": true,
+                                                "readonly": true
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "$$hashKey": "object:380",
+                                        "attributeGroupType": "In-Network",
+                                        "attributeId": "a1M4C000000640zUAA",
+                                        "cloneable": true,
+                                        "code": "MdclInf_DdctFmly_inn",
+                                        "dataType": "text",
+                                        "description": "$3,000",
+                                        "disabled": true,
+                                        "displaySequence": 3,
+                                        "filterable": true,
+                                        "hasRules": false,
+                                        "hidden": false,
+                                        "inputType": "text",
+                                        "isNotTranslatable": false,
+                                        "label": "Deductible Family INN",
+                                        "multiselect": false,
+                                        "readonly": true,
+                                        "required": false,
+                                        "userValues": "3000",
+                                        "values": [
+                                            {
+                                                "disabled": true,
+                                                "readonly": true
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "$$hashKey": "object:381",
+                                        "attributeGroupType": "Out-Of-Network",
+                                        "attributeId": "a1M4C0000006410UAA",
+                                        "cloneable": true,
+                                        "code": "MdclInf_DdctFmly_oon",
+                                        "dataType": "text",
+                                        "description": "$3,000",
+                                        "disabled": true,
+                                        "displaySequence": 4,
+                                        "filterable": true,
+                                        "hasRules": false,
+                                        "hidden": false,
+                                        "inputType": "text",
+                                        "isNotTranslatable": false,
+                                        "label": "Deductible Family OON",
+                                        "multiselect": false,
+                                        "readonly": true,
+                                        "required": false,
+                                        "userValues": "3000",
+                                        "values": [
+                                            {
+                                                "disabled": true,
+                                                "readonly": true
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "$$hashKey": "object:382",
+                                        "attributeGroupType": "In-Network",
+                                        "attributeId": "a1M4C0000006411UAA",
+                                        "cloneable": true,
+                                        "code": "MdclInf_DdctIndv_inn",
+                                        "dataType": "text",
+                                        "description": "$1,350",
+                                        "disabled": true,
+                                        "displaySequence": 5,
+                                        "filterable": true,
+                                        "hasRules": false,
+                                        "hidden": false,
+                                        "inputType": "text",
+                                        "isNotTranslatable": false,
+                                        "label": "Deductible Individual INN",
+                                        "multiselect": false,
+                                        "readonly": true,
+                                        "required": false,
+                                        "userValues": "1350",
+                                        "values": [
+                                            {
+                                                "disabled": true,
+                                                "readonly": true
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "attributeGroupType": "Out-Of-Network",
+                                        "attributeId": "a1M4C0000006412UAA",
+                                        "cloneable": true,
+                                        "code": "MdclInf_DdctIndv_oon",
+                                        "dataType": "text",
+                                        "description": "$2,750",
+                                        "disabled": true,
+                                        "displaySequence": 6,
+                                        "filterable": true,
+                                        "hasRules": false,
+                                        "hidden": false,
+                                        "inputType": "text",
+                                        "isNotTranslatable": false,
+                                        "label": "Deductible Individual OON",
+                                        "multiselect": false,
+                                        "readonly": true,
+                                        "required": false,
+                                        "userValues": "2750",
+                                        "values": [
+                                            {
+                                                "disabled": true,
+                                                "readonly": true
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "attributeGroupType": "In-Network",
+                                        "attributeId": "a1M4C0000006413UAA",
+                                        "cloneable": true,
+                                        "code": "MdclInf_OfpMxFmly_inn",
+                                        "dataType": "text",
+                                        "description": "$6,000",
+                                        "disabled": true,
+                                        "displaySequence": 7,
+                                        "filterable": true,
+                                        "hasRules": false,
+                                        "hidden": false,
+                                        "inputType": "text",
+                                        "isNotTranslatable": false,
+                                        "label": "Out of Pocket Max Family INN",
+                                        "multiselect": false,
+                                        "readonly": true,
+                                        "required": false,
+                                        "userValues": "6000",
+                                        "values": [
+                                            {
+                                                "disabled": true,
+                                                "readonly": true
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "attributeGroupType": "Out-Of-Network",
+                                        "attributeId": "a1M4C0000006414UAA",
+                                        "cloneable": true,
+                                        "code": "MdclInf_OfpMxFmly_oon",
+                                        "dataType": "text",
+                                        "description": "$6,000",
+                                        "disabled": true,
+                                        "displaySequence": 8,
+                                        "filterable": true,
+                                        "hasRules": false,
+                                        "hidden": false,
+                                        "inputType": "text",
+                                        "isNotTranslatable": false,
+                                        "label": "Out of Pocket Max Family OON",
+                                        "multiselect": false,
+                                        "readonly": true,
+                                        "required": false,
+                                        "userValues": "6000",
+                                        "values": [
+                                            {
+                                                "disabled": true,
+                                                "readonly": true
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "attributeGroupType": "In-Network",
+                                        "attributeId": "a1M4C0000006415UAA",
+                                        "cloneable": true,
+                                        "code": "MdclInf_OfpMxIndv_inn",
+                                        "dataType": "text",
+                                        "description": "$3,000",
+                                        "disabled": true,
+                                        "displaySequence": 9,
+                                        "filterable": true,
+                                        "hasRules": false,
+                                        "hidden": false,
+                                        "inputType": "text",
+                                        "isNotTranslatable": false,
+                                        "label": "Out of Pocket Max Individual INN",
+                                        "multiselect": false,
+                                        "readonly": true,
+                                        "required": false,
+                                        "userValues": "3000",
+                                        "values": [
+                                            {
+                                                "disabled": true,
+                                                "readonly": true
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "attributeGroupType": "Out-Of-Network",
+                                        "attributeId": "a1M4C0000006416UAA",
+                                        "cloneable": true,
+                                        "code": "MdclInf_OfpMxIndv_oon",
+                                        "dataType": "text",
+                                        "description": "$3,000",
+                                        "disabled": true,
+                                        "displaySequence": 10,
+                                        "filterable": true,
+                                        "hasRules": false,
+                                        "hidden": false,
+                                        "inputType": "text",
+                                        "isNotTranslatable": false,
+                                        "label": "Out of Pocket Max Individual OON",
+                                        "multiselect": false,
+                                        "readonly": true,
+                                        "required": false,
+                                        "userValues": "3000",
+                                        "values": [
+                                            {
+                                                "disabled": true,
+                                                "readonly": true
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "totalSize": 10
+                            }
+                        }
+                    ],
+                    "totalSize": 1
+                },
+                "displaySequence": -1,
+                "originalIndex": 0,
+                "productId": "01t4C000002QFO1QAO",
+                "selected": true,
+                "vlcCompSelected": false
+            }
+        ],
+        "displayedCartPlans": [
+            {
+                "Id": "01t4C000002QFO1QAO",
+                "IsConfigurable__c": false,
+                "IsRecommended__c": false,
+                "MarketSegment__c": "Large Group",
+                "Name": "Anthem PPO HSA 1500/4500 20/40 (LHSA497H)",
+                "Price": "",
+                "ProductCode": "LHSA497H",
+                "RecordTypeName__c": "Product",
+                "Term__c": "Annual",
+                "attributeCategories": {
+                    "records": [
+                        {
+                            "Code__c": "MdclInf",
+                            "Name": "MedicalInfo",
+                            "displaySequence": 1000,
+                            "id": "a1L4C000000IcbYUAS",
+                            "productAttributes": {
+                                "records": [
+                                    {
+                                        "$$hashKey": "object:378",
+                                        "attributeGroupType": "In-Network",
+                                        "attributeId": "a1M4C000000640xUAA",
+                                        "cloneable": true,
+                                        "code": "MdcInf_Cnsrnc_inn",
+                                        "dataType": "text",
+                                        "description": "10%",
+                                        "disabled": true,
+                                        "displaySequence": 1,
+                                        "filterable": true,
+                                        "hasRules": false,
+                                        "hidden": false,
+                                        "inputType": "text",
+                                        "isNotTranslatable": false,
+                                        "label": "INN Coinsurance",
+                                        "multiselect": false,
+                                        "readonly": true,
+                                        "required": false,
+                                        "userValues": "10",
+                                        "values": [
+                                            {
+                                                "disabled": true,
+                                                "readonly": true
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "$$hashKey": "object:379",
+                                        "attributeGroupType": "Out-Of-Network",
+                                        "attributeId": "a1M4C000000640yUAA",
+                                        "cloneable": true,
+                                        "code": "MdcInf_Cnsrnc_oon",
+                                        "dataType": "text",
+                                        "description": "30%",
+                                        "disabled": true,
+                                        "displaySequence": 2,
+                                        "filterable": true,
+                                        "hasRules": false,
+                                        "hidden": false,
+                                        "inputType": "text",
+                                        "isNotTranslatable": false,
+                                        "label": "Coinsurance OON",
+                                        "multiselect": false,
+                                        "readonly": true,
+                                        "required": false,
+                                        "userValues": "30",
+                                        "values": [
+                                            {
+                                                "disabled": true,
+                                                "readonly": true
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "$$hashKey": "object:380",
+                                        "attributeGroupType": "In-Network",
+                                        "attributeId": "a1M4C000000640zUAA",
+                                        "cloneable": true,
+                                        "code": "MdclInf_DdctFmly_inn",
+                                        "dataType": "text",
+                                        "description": "$3,000",
+                                        "disabled": true,
+                                        "displaySequence": 3,
+                                        "filterable": true,
+                                        "hasRules": false,
+                                        "hidden": false,
+                                        "inputType": "text",
+                                        "isNotTranslatable": false,
+                                        "label": "Deductible Family INN",
+                                        "multiselect": false,
+                                        "readonly": true,
+                                        "required": false,
+                                        "userValues": "3000",
+                                        "values": [
+                                            {
+                                                "disabled": true,
+                                                "readonly": true
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "$$hashKey": "object:381",
+                                        "attributeGroupType": "Out-Of-Network",
+                                        "attributeId": "a1M4C0000006410UAA",
+                                        "cloneable": true,
+                                        "code": "MdclInf_DdctFmly_oon",
+                                        "dataType": "text",
+                                        "description": "$3,000",
+                                        "disabled": true,
+                                        "displaySequence": 4,
+                                        "filterable": true,
+                                        "hasRules": false,
+                                        "hidden": false,
+                                        "inputType": "text",
+                                        "isNotTranslatable": false,
+                                        "label": "Deductible Family OON",
+                                        "multiselect": false,
+                                        "readonly": true,
+                                        "required": false,
+                                        "userValues": "3000",
+                                        "values": [
+                                            {
+                                                "disabled": true,
+                                                "readonly": true
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "$$hashKey": "object:382",
+                                        "attributeGroupType": "In-Network",
+                                        "attributeId": "a1M4C0000006411UAA",
+                                        "cloneable": true,
+                                        "code": "MdclInf_DdctIndv_inn",
+                                        "dataType": "text",
+                                        "description": "$1,350",
+                                        "disabled": true,
+                                        "displaySequence": 5,
+                                        "filterable": true,
+                                        "hasRules": false,
+                                        "hidden": false,
+                                        "inputType": "text",
+                                        "isNotTranslatable": false,
+                                        "label": "Deductible Individual INN",
+                                        "multiselect": false,
+                                        "readonly": true,
+                                        "required": false,
+                                        "userValues": "1350",
+                                        "values": [
+                                            {
+                                                "disabled": true,
+                                                "readonly": true
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "attributeGroupType": "Out-Of-Network",
+                                        "attributeId": "a1M4C0000006412UAA",
+                                        "cloneable": true,
+                                        "code": "MdclInf_DdctIndv_oon",
+                                        "dataType": "text",
+                                        "description": "$2,750",
+                                        "disabled": true,
+                                        "displaySequence": 6,
+                                        "filterable": true,
+                                        "hasRules": false,
+                                        "hidden": false,
+                                        "inputType": "text",
+                                        "isNotTranslatable": false,
+                                        "label": "Deductible Individual OON",
+                                        "multiselect": false,
+                                        "readonly": true,
+                                        "required": false,
+                                        "userValues": "2750",
+                                        "values": [
+                                            {
+                                                "disabled": true,
+                                                "readonly": true
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "attributeGroupType": "In-Network",
+                                        "attributeId": "a1M4C0000006413UAA",
+                                        "cloneable": true,
+                                        "code": "MdclInf_OfpMxFmly_inn",
+                                        "dataType": "text",
+                                        "description": "$6,000",
+                                        "disabled": true,
+                                        "displaySequence": 7,
+                                        "filterable": true,
+                                        "hasRules": false,
+                                        "hidden": false,
+                                        "inputType": "text",
+                                        "isNotTranslatable": false,
+                                        "label": "Out of Pocket Max Family INN",
+                                        "multiselect": false,
+                                        "readonly": true,
+                                        "required": false,
+                                        "userValues": "6000",
+                                        "values": [
+                                            {
+                                                "disabled": true,
+                                                "readonly": true
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "attributeGroupType": "Out-Of-Network",
+                                        "attributeId": "a1M4C0000006414UAA",
+                                        "cloneable": true,
+                                        "code": "MdclInf_OfpMxFmly_oon",
+                                        "dataType": "text",
+                                        "description": "$6,000",
+                                        "disabled": true,
+                                        "displaySequence": 8,
+                                        "filterable": true,
+                                        "hasRules": false,
+                                        "hidden": false,
+                                        "inputType": "text",
+                                        "isNotTranslatable": false,
+                                        "label": "Out of Pocket Max Family OON",
+                                        "multiselect": false,
+                                        "readonly": true,
+                                        "required": false,
+                                        "userValues": "6000",
+                                        "values": [
+                                            {
+                                                "disabled": true,
+                                                "readonly": true
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "attributeGroupType": "In-Network",
+                                        "attributeId": "a1M4C0000006415UAA",
+                                        "cloneable": true,
+                                        "code": "MdclInf_OfpMxIndv_inn",
+                                        "dataType": "text",
+                                        "description": "$3,000",
+                                        "disabled": true,
+                                        "displaySequence": 9,
+                                        "filterable": true,
+                                        "hasRules": false,
+                                        "hidden": false,
+                                        "inputType": "text",
+                                        "isNotTranslatable": false,
+                                        "label": "Out of Pocket Max Individual INN",
+                                        "multiselect": false,
+                                        "readonly": true,
+                                        "required": false,
+                                        "userValues": "3000",
+                                        "values": [
+                                            {
+                                                "disabled": true,
+                                                "readonly": true
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "attributeGroupType": "Out-Of-Network",
+                                        "attributeId": "a1M4C0000006416UAA",
+                                        "cloneable": true,
+                                        "code": "MdclInf_OfpMxIndv_oon",
+                                        "dataType": "text",
+                                        "description": "$3,000",
+                                        "disabled": true,
+                                        "displaySequence": 10,
+                                        "filterable": true,
+                                        "hasRules": false,
+                                        "hidden": false,
+                                        "inputType": "text",
+                                        "isNotTranslatable": false,
+                                        "label": "Out of Pocket Max Individual OON",
+                                        "multiselect": false,
+                                        "readonly": true,
+                                        "required": false,
+                                        "userValues": "3000",
+                                        "values": [
+                                            {
+                                                "disabled": true,
+                                                "readonly": true
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "totalSize": 10
+                            }
+                        }
+                    ],
+                    "totalSize": 1
+                },
+                "displaySequence": -1,
+                "originalIndex": 0,
+                "productId": "01t4C000002QFO1QAO",
+                "selected": true,
+                "vlcCompSelected": false
+            }
+        ],
+        "nextDisabled": true,
+        "prevDisabled": true,
+        "selectedPlans": [
+            {
+                "Id": "01t4C000002QFO1QAO",
+                "IsConfigurable__c": false,
+                "IsRecommended__c": false,
+                "MarketSegment__c": "Large Group",
+                "Name": "Anthem PPO HSA 1500/4500 20/40 (LHSA497H)",
+                "Price": "",
+                "ProductCode": "LHSA497H",
+                "RecordTypeName__c": "Product",
+                "Term__c": "Annual",
+                "attributeCategories": {
+                    "records": [
+                        {
+                            "Code__c": "MdclInf",
+                            "Name": "MedicalInfo",
+                            "displaySequence": 1000,
+                            "id": "a1L4C000000IcbYUAS",
+                            "productAttributes": {
+                                "records": [
+                                    {
+                                        "$$hashKey": "object:378",
+                                        "attributeGroupType": "In-Network",
+                                        "attributeId": "a1M4C000000640xUAA",
+                                        "cloneable": true,
+                                        "code": "MdcInf_Cnsrnc_inn",
+                                        "dataType": "text",
+                                        "description": "10%",
+                                        "disabled": true,
+                                        "displaySequence": 1,
+                                        "filterable": true,
+                                        "hasRules": false,
+                                        "hidden": false,
+                                        "inputType": "text",
+                                        "isNotTranslatable": false,
+                                        "label": "INN Coinsurance",
+                                        "multiselect": false,
+                                        "readonly": true,
+                                        "required": false,
+                                        "userValues": "10",
+                                        "values": [
+                                            {
+                                                "disabled": true,
+                                                "readonly": true
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "$$hashKey": "object:379",
+                                        "attributeGroupType": "Out-Of-Network",
+                                        "attributeId": "a1M4C000000640yUAA",
+                                        "cloneable": true,
+                                        "code": "MdcInf_Cnsrnc_oon",
+                                        "dataType": "text",
+                                        "description": "30%",
+                                        "disabled": true,
+                                        "displaySequence": 2,
+                                        "filterable": true,
+                                        "hasRules": false,
+                                        "hidden": false,
+                                        "inputType": "text",
+                                        "isNotTranslatable": false,
+                                        "label": "Coinsurance OON",
+                                        "multiselect": false,
+                                        "readonly": true,
+                                        "required": false,
+                                        "userValues": "30",
+                                        "values": [
+                                            {
+                                                "disabled": true,
+                                                "readonly": true
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "$$hashKey": "object:380",
+                                        "attributeGroupType": "In-Network",
+                                        "attributeId": "a1M4C000000640zUAA",
+                                        "cloneable": true,
+                                        "code": "MdclInf_DdctFmly_inn",
+                                        "dataType": "text",
+                                        "description": "$3,000",
+                                        "disabled": true,
+                                        "displaySequence": 3,
+                                        "filterable": true,
+                                        "hasRules": false,
+                                        "hidden": false,
+                                        "inputType": "text",
+                                        "isNotTranslatable": false,
+                                        "label": "Deductible Family INN",
+                                        "multiselect": false,
+                                        "readonly": true,
+                                        "required": false,
+                                        "userValues": "3000",
+                                        "values": [
+                                            {
+                                                "disabled": true,
+                                                "readonly": true
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "$$hashKey": "object:381",
+                                        "attributeGroupType": "Out-Of-Network",
+                                        "attributeId": "a1M4C0000006410UAA",
+                                        "cloneable": true,
+                                        "code": "MdclInf_DdctFmly_oon",
+                                        "dataType": "text",
+                                        "description": "$3,000",
+                                        "disabled": true,
+                                        "displaySequence": 4,
+                                        "filterable": true,
+                                        "hasRules": false,
+                                        "hidden": false,
+                                        "inputType": "text",
+                                        "isNotTranslatable": false,
+                                        "label": "Deductible Family OON",
+                                        "multiselect": false,
+                                        "readonly": true,
+                                        "required": false,
+                                        "userValues": "3000",
+                                        "values": [
+                                            {
+                                                "disabled": true,
+                                                "readonly": true
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "$$hashKey": "object:382",
+                                        "attributeGroupType": "In-Network",
+                                        "attributeId": "a1M4C0000006411UAA",
+                                        "cloneable": true,
+                                        "code": "MdclInf_DdctIndv_inn",
+                                        "dataType": "text",
+                                        "description": "$1,350",
+                                        "disabled": true,
+                                        "displaySequence": 5,
+                                        "filterable": true,
+                                        "hasRules": false,
+                                        "hidden": false,
+                                        "inputType": "text",
+                                        "isNotTranslatable": false,
+                                        "label": "Deductible Individual INN",
+                                        "multiselect": false,
+                                        "readonly": true,
+                                        "required": false,
+                                        "userValues": "1350",
+                                        "values": [
+                                            {
+                                                "disabled": true,
+                                                "readonly": true
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "attributeGroupType": "Out-Of-Network",
+                                        "attributeId": "a1M4C0000006412UAA",
+                                        "cloneable": true,
+                                        "code": "MdclInf_DdctIndv_oon",
+                                        "dataType": "text",
+                                        "description": "$2,750",
+                                        "disabled": true,
+                                        "displaySequence": 6,
+                                        "filterable": true,
+                                        "hasRules": false,
+                                        "hidden": false,
+                                        "inputType": "text",
+                                        "isNotTranslatable": false,
+                                        "label": "Deductible Individual OON",
+                                        "multiselect": false,
+                                        "readonly": true,
+                                        "required": false,
+                                        "userValues": "2750",
+                                        "values": [
+                                            {
+                                                "disabled": true,
+                                                "readonly": true
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "attributeGroupType": "In-Network",
+                                        "attributeId": "a1M4C0000006413UAA",
+                                        "cloneable": true,
+                                        "code": "MdclInf_OfpMxFmly_inn",
+                                        "dataType": "text",
+                                        "description": "$6,000",
+                                        "disabled": true,
+                                        "displaySequence": 7,
+                                        "filterable": true,
+                                        "hasRules": false,
+                                        "hidden": false,
+                                        "inputType": "text",
+                                        "isNotTranslatable": false,
+                                        "label": "Out of Pocket Max Family INN",
+                                        "multiselect": false,
+                                        "readonly": true,
+                                        "required": false,
+                                        "userValues": "6000",
+                                        "values": [
+                                            {
+                                                "disabled": true,
+                                                "readonly": true
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "attributeGroupType": "Out-Of-Network",
+                                        "attributeId": "a1M4C0000006414UAA",
+                                        "cloneable": true,
+                                        "code": "MdclInf_OfpMxFmly_oon",
+                                        "dataType": "text",
+                                        "description": "$6,000",
+                                        "disabled": true,
+                                        "displaySequence": 8,
+                                        "filterable": true,
+                                        "hasRules": false,
+                                        "hidden": false,
+                                        "inputType": "text",
+                                        "isNotTranslatable": false,
+                                        "label": "Out of Pocket Max Family OON",
+                                        "multiselect": false,
+                                        "readonly": true,
+                                        "required": false,
+                                        "userValues": "6000",
+                                        "values": [
+                                            {
+                                                "disabled": true,
+                                                "readonly": true
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "attributeGroupType": "In-Network",
+                                        "attributeId": "a1M4C0000006415UAA",
+                                        "cloneable": true,
+                                        "code": "MdclInf_OfpMxIndv_inn",
+                                        "dataType": "text",
+                                        "description": "$3,000",
+                                        "disabled": true,
+                                        "displaySequence": 9,
+                                        "filterable": true,
+                                        "hasRules": false,
+                                        "hidden": false,
+                                        "inputType": "text",
+                                        "isNotTranslatable": false,
+                                        "label": "Out of Pocket Max Individual INN",
+                                        "multiselect": false,
+                                        "readonly": true,
+                                        "required": false,
+                                        "userValues": "3000",
+                                        "values": [
+                                            {
+                                                "disabled": true,
+                                                "readonly": true
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "attributeGroupType": "Out-Of-Network",
+                                        "attributeId": "a1M4C0000006416UAA",
+                                        "cloneable": true,
+                                        "code": "MdclInf_OfpMxIndv_oon",
+                                        "dataType": "text",
+                                        "description": "$3,000",
+                                        "disabled": true,
+                                        "displaySequence": 10,
+                                        "filterable": true,
+                                        "hasRules": false,
+                                        "hidden": false,
+                                        "inputType": "text",
+                                        "isNotTranslatable": false,
+                                        "label": "Out of Pocket Max Individual OON",
+                                        "multiselect": false,
+                                        "readonly": true,
+                                        "required": false,
+                                        "userValues": "3000",
+                                        "values": [
+                                            {
+                                                "disabled": true,
+                                                "readonly": true
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "totalSize": 10
+                            }
+                        }
+                    ],
+                    "totalSize": 1
+                },
+                "displaySequence": -1,
+                "originalIndex": 0,
+                "productId": "01t4C000002QFO1QAO",
+                "selected": true,
+                "vlcCompSelected": false
+            }
+        ],
+        "selectedPlansMap": {
+            "01t4C000002QFO1QAO": {
+                "Id": "01t4C000002QFO1QAO",
+                "IsConfigurable__c": false,
+                "IsRecommended__c": false,
+                "MarketSegment__c": "Large Group",
+                "Name": "Anthem PPO HSA 1500/4500 20/40 (LHSA497H)",
+                "Price": "",
+                "ProductCode": "LHSA497H",
+                "RecordTypeName__c": "Product",
+                "Term__c": "Annual",
+                "attributeCategories": {
+                    "records": [
+                        {
+                            "Code__c": "MdclInf",
+                            "Name": "MedicalInfo",
+                            "displaySequence": 1000,
+                            "id": "a1L4C000000IcbYUAS",
+                            "productAttributes": {
+                                "records": [
+                                    {
+                                        "$$hashKey": "object:378",
+                                        "attributeGroupType": "In-Network",
+                                        "attributeId": "a1M4C000000640xUAA",
+                                        "cloneable": true,
+                                        "code": "MdcInf_Cnsrnc_inn",
+                                        "dataType": "text",
+                                        "description": "10%",
+                                        "disabled": true,
+                                        "displaySequence": 1,
+                                        "filterable": true,
+                                        "hasRules": false,
+                                        "hidden": false,
+                                        "inputType": "text",
+                                        "isNotTranslatable": false,
+                                        "label": "INN Coinsurance",
+                                        "multiselect": false,
+                                        "readonly": true,
+                                        "required": false,
+                                        "userValues": "10",
+                                        "values": [
+                                            {
+                                                "disabled": true,
+                                                "readonly": true
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "$$hashKey": "object:379",
+                                        "attributeGroupType": "Out-Of-Network",
+                                        "attributeId": "a1M4C000000640yUAA",
+                                        "cloneable": true,
+                                        "code": "MdcInf_Cnsrnc_oon",
+                                        "dataType": "text",
+                                        "description": "30%",
+                                        "disabled": true,
+                                        "displaySequence": 2,
+                                        "filterable": true,
+                                        "hasRules": false,
+                                        "hidden": false,
+                                        "inputType": "text",
+                                        "isNotTranslatable": false,
+                                        "label": "Coinsurance OON",
+                                        "multiselect": false,
+                                        "readonly": true,
+                                        "required": false,
+                                        "userValues": "30",
+                                        "values": [
+                                            {
+                                                "disabled": true,
+                                                "readonly": true
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "$$hashKey": "object:380",
+                                        "attributeGroupType": "In-Network",
+                                        "attributeId": "a1M4C000000640zUAA",
+                                        "cloneable": true,
+                                        "code": "MdclInf_DdctFmly_inn",
+                                        "dataType": "text",
+                                        "description": "$3,000",
+                                        "disabled": true,
+                                        "displaySequence": 3,
+                                        "filterable": true,
+                                        "hasRules": false,
+                                        "hidden": false,
+                                        "inputType": "text",
+                                        "isNotTranslatable": false,
+                                        "label": "Deductible Family INN",
+                                        "multiselect": false,
+                                        "readonly": true,
+                                        "required": false,
+                                        "userValues": "3000",
+                                        "values": [
+                                            {
+                                                "disabled": true,
+                                                "readonly": true
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "$$hashKey": "object:381",
+                                        "attributeGroupType": "Out-Of-Network",
+                                        "attributeId": "a1M4C0000006410UAA",
+                                        "cloneable": true,
+                                        "code": "MdclInf_DdctFmly_oon",
+                                        "dataType": "text",
+                                        "description": "$3,000",
+                                        "disabled": true,
+                                        "displaySequence": 4,
+                                        "filterable": true,
+                                        "hasRules": false,
+                                        "hidden": false,
+                                        "inputType": "text",
+                                        "isNotTranslatable": false,
+                                        "label": "Deductible Family OON",
+                                        "multiselect": false,
+                                        "readonly": true,
+                                        "required": false,
+                                        "userValues": "3000",
+                                        "values": [
+                                            {
+                                                "disabled": true,
+                                                "readonly": true
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "$$hashKey": "object:382",
+                                        "attributeGroupType": "In-Network",
+                                        "attributeId": "a1M4C0000006411UAA",
+                                        "cloneable": true,
+                                        "code": "MdclInf_DdctIndv_inn",
+                                        "dataType": "text",
+                                        "description": "$1,350",
+                                        "disabled": true,
+                                        "displaySequence": 5,
+                                        "filterable": true,
+                                        "hasRules": false,
+                                        "hidden": false,
+                                        "inputType": "text",
+                                        "isNotTranslatable": false,
+                                        "label": "Deductible Individual INN",
+                                        "multiselect": false,
+                                        "readonly": true,
+                                        "required": false,
+                                        "userValues": "1350",
+                                        "values": [
+                                            {
+                                                "disabled": true,
+                                                "readonly": true
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "attributeGroupType": "Out-Of-Network",
+                                        "attributeId": "a1M4C0000006412UAA",
+                                        "cloneable": true,
+                                        "code": "MdclInf_DdctIndv_oon",
+                                        "dataType": "text",
+                                        "description": "$2,750",
+                                        "disabled": true,
+                                        "displaySequence": 6,
+                                        "filterable": true,
+                                        "hasRules": false,
+                                        "hidden": false,
+                                        "inputType": "text",
+                                        "isNotTranslatable": false,
+                                        "label": "Deductible Individual OON",
+                                        "multiselect": false,
+                                        "readonly": true,
+                                        "required": false,
+                                        "userValues": "2750",
+                                        "values": [
+                                            {
+                                                "disabled": true,
+                                                "readonly": true
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "attributeGroupType": "In-Network",
+                                        "attributeId": "a1M4C0000006413UAA",
+                                        "cloneable": true,
+                                        "code": "MdclInf_OfpMxFmly_inn",
+                                        "dataType": "text",
+                                        "description": "$6,000",
+                                        "disabled": true,
+                                        "displaySequence": 7,
+                                        "filterable": true,
+                                        "hasRules": false,
+                                        "hidden": false,
+                                        "inputType": "text",
+                                        "isNotTranslatable": false,
+                                        "label": "Out of Pocket Max Family INN",
+                                        "multiselect": false,
+                                        "readonly": true,
+                                        "required": false,
+                                        "userValues": "6000",
+                                        "values": [
+                                            {
+                                                "disabled": true,
+                                                "readonly": true
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "attributeGroupType": "Out-Of-Network",
+                                        "attributeId": "a1M4C0000006414UAA",
+                                        "cloneable": true,
+                                        "code": "MdclInf_OfpMxFmly_oon",
+                                        "dataType": "text",
+                                        "description": "$6,000",
+                                        "disabled": true,
+                                        "displaySequence": 8,
+                                        "filterable": true,
+                                        "hasRules": false,
+                                        "hidden": false,
+                                        "inputType": "text",
+                                        "isNotTranslatable": false,
+                                        "label": "Out of Pocket Max Family OON",
+                                        "multiselect": false,
+                                        "readonly": true,
+                                        "required": false,
+                                        "userValues": "6000",
+                                        "values": [
+                                            {
+                                                "disabled": true,
+                                                "readonly": true
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "attributeGroupType": "In-Network",
+                                        "attributeId": "a1M4C0000006415UAA",
+                                        "cloneable": true,
+                                        "code": "MdclInf_OfpMxIndv_inn",
+                                        "dataType": "text",
+                                        "description": "$3,000",
+                                        "disabled": true,
+                                        "displaySequence": 9,
+                                        "filterable": true,
+                                        "hasRules": false,
+                                        "hidden": false,
+                                        "inputType": "text",
+                                        "isNotTranslatable": false,
+                                        "label": "Out of Pocket Max Individual INN",
+                                        "multiselect": false,
+                                        "readonly": true,
+                                        "required": false,
+                                        "userValues": "3000",
+                                        "values": [
+                                            {
+                                                "disabled": true,
+                                                "readonly": true
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "attributeGroupType": "Out-Of-Network",
+                                        "attributeId": "a1M4C0000006416UAA",
+                                        "cloneable": true,
+                                        "code": "MdclInf_OfpMxIndv_oon",
+                                        "dataType": "text",
+                                        "description": "$3,000",
+                                        "disabled": true,
+                                        "displaySequence": 10,
+                                        "filterable": true,
+                                        "hasRules": false,
+                                        "hidden": false,
+                                        "inputType": "text",
+                                        "isNotTranslatable": false,
+                                        "label": "Out of Pocket Max Individual OON",
+                                        "multiselect": false,
+                                        "readonly": true,
+                                        "required": false,
+                                        "userValues": "3000",
+                                        "values": [
+                                            {
+                                                "disabled": true,
+                                                "readonly": true
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "totalSize": 10
+                            }
+                        }
+                    ],
+                    "totalSize": 1
+                },
+                "displaySequence": -1,
+                "originalIndex": 0,
+                "productId": "01t4C000002QFO1QAO",
+                "selected": true,
+                "vlcCompSelected": false
+            }
+        }
+    },
+    "userCurrencyCode": "USD",
+    "userId": "00541000006Y54QAAS",
+    "userName": "veramesh@deloitte.com2.icepraveen",
+    "userProfile": "System Administrator",
+    "userTimeZone": -480,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "AP-END": 439372,
+        "AP-ProductSelection": 847311,
+        "AP-SetValues": 408,
+        "DR-AddQLIStdPlan": 124347,
+        "DR-QLIDetails": 6481,
+        "DR-SitusState": 1868,
+        "GetDynamicFilters": 886,
+        "OmniScriptSessionToken": "347ce6b8-6bd1-4bc7-9c07-594b9433b7a1",
+        "QLD": 60856,
+        "SetAccountId": 8,
+        "SetConstants": 22,
+        "SetPlanList": 33
+    }
+}

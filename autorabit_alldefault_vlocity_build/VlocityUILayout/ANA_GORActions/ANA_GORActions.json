@@ -1,0 +1,26 @@
+{
+    "Cards": [
+        "GOR_Cards"
+    ],
+    "dataSource": {
+        "contextVariables": [
+            {
+                "name": "params.id",
+                "val": "a9c1b0000008PJ1AAM"
+            }
+        ],
+        "type": "Query",
+        "value": {
+            "jsonMap": "{\"params.id || params.Id\":\"{{params.id || params.Id}}\"}"
+        }
+    },
+    "previewType": "runTime",
+    "templates": {
+        "0": {
+            "templateUrl": "card-canvas-1x-slds-nosearch"
+        }
+    },
+    "workspace": [
+        "GOR_Cards/Anthem Commercial 2.0/1/1551980480307"
+    ]
+}

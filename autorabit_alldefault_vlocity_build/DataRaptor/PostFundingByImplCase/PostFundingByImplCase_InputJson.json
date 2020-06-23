@@ -1,0 +1,102 @@
+{
+    "AccountId": "001W000000amKK5IAM",
+    "AccountName": "Hunter Douglas Inc.",
+    "BillingContactsEntityLevel": {
+        "DifferentContactsAt suffix level?": "Yes",
+        "IfYesPleaseExplain": null
+    },
+    "CaseName": "2018: Renewal-Hunter Douglas Inc.",
+    "CobraWestOnly": {
+        "CobraBillGoToGroupOrCobraTPA": "Group",
+        "CobraPremiumPaidByGroupOrTPA": "Group",
+        "CobraTPAUsingNonBCEnrollmentForm": "Yes"
+    },
+    "ContextId": "801W0000000n9sb",
+    "Finish": {
+        "FR-FinishMessage": " updating  Funding record for: Hunter Douglas Inc."
+    },
+    "Funding": {
+        "IncludeHCIDNumberOnTheInvoice": "Yes",
+        "MoreThanOneBillEntity": "Yes",
+        "PremiumRecdFromMoreThanOneSource": "Yes"
+    },
+    "FundingName": "FUND-000001",
+    "FundingRecordId": "a6cW00000001aPbIAI",
+    "GroupClaimSystem": "WGS 2.0",
+    "GroupId": "a5IW00000000m7PMAQ",
+    "Id": "801W0000000n9sbIAA",
+    "ImplementationCase": {
+        "FR-AccountId": "001W000000amKK5IAM",
+        "FR-AccountName": "Hunter Douglas Inc.",
+        "FR-FundingName": "FUND-000001",
+        "FR-ImplementationCaseName": "2018: Renewal-Hunter Douglas Inc.",
+        "FR-ImplementationRecordId": "00000372"
+    },
+    "ImplementationCaseId": "801W0000000n9sbIAA",
+    "ImplementationNumber": "00000372",
+    "ImplementationType": "Renewal",
+    "RecordId": "",
+    "StopLossCarrierNameContactInformation": {
+        "ChangeToAnAlternativeFundingAccount": "Yes",
+        "CommunicationAllowanceForMarketing": "Yes",
+        "SL-AdditionalComments": "SL Additional Comments",
+        "SL-City": "AK",
+        "SL-ContactName": "SL Contact Name",
+        "SL-Phone": "2222222222",
+        "SL-State": "AK",
+        "SL-StreetAddress": "SL Street Address",
+        "SL-ZipCode": "22222",
+        "StopLossPlanDescription": "Aggregate",
+        "StoppLossCarrierName": "SL Carrier Name"
+    },
+    "TPAContactInformation": {
+        "FR-TPACity": "Chicago",
+        "FR-TPAPhone": "(317) 287-8254",
+        "FR-TPAState": "IL",
+        "FR-TPAStreetAddress": "123 Clark St",
+        "FR-TPAZipCode": "60066",
+        "TPAContactName-Block": null
+    },
+    "TPAContactName-Block": {
+        "TPAContactId": "003W000000jn6zDIAQ",
+        "TPAMailingCity": "Chicago",
+        "TPAMailingState": "IL",
+        "TPAMailingStreet": "123 Clark St",
+        "TPAMailingZipCode": "60066",
+        "TPAPhone": "(317) 287-8254"
+    },
+    "TypeofFunding": {
+        "ReinsuranceCarrierName": "TF Reisurance Carrier Name",
+        "ReinsuranceContactName": "TF Contact Name",
+        "SelfFundedWithReinsurance": "TF Self Funded",
+        "TOF-AdditionalComments": "TF Additional Information",
+        "TOF-City": "TF City",
+        "TOF-Phone": "1111111111",
+        "TOF-State": "IL",
+        "TOF-StreetAddress": "TF Street Address",
+        "TOF-ZipCode": "66666"
+    },
+    "id": "a3CW0000000Aol5MAC",
+    "layout": "lightning",
+    "timeStamp": "2018-02-05T20:07:23.149Z",
+    "userCurrencyCode": "USD",
+    "userId": "005W0000002XquzIAC",
+    "userName": "shravani@chadda@eaglecrk.com.prod.nal1b.dev",
+    "userProfile": "System Administrator",
+    "userTimeZone": -300,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "BillingContactsEntityLevel": 2146,
+        "CobraWestOnly": 1671,
+        "DR-FundingDetailExtract": 2999,
+        "DR-ImplentationCaseExtract": 2967,
+        "Funding": 1985,
+        "ImplementationCase": 31334,
+        "OmniScriptSessionToken": "7e84b874-4047-4830-9d9a-ef95f7e67055",
+        "SV-PresetData": 782,
+        "StopLossCarrierNameContactInformation": 2211,
+        "TPAContactInformation": 4531,
+        "TypeofFunding": 1698
+    }
+}

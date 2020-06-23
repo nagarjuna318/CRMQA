@@ -1,0 +1,101 @@
+{
+    "ContextId": null,
+    "SelectServiceProvider": {
+        "Account_Id": null,
+        "AddComp2": null,
+        "AddComp3": null,
+        "CompIdCalc2": null,
+        "CompIdCalc3": null,
+        "CompStatusCalc2": null,
+        "CompStatusCalc3": null,
+        "CompetitorId": null,
+        "CompetitorStatus": null,
+        "CompetitorStatusFormula": null,
+        "NOUFlag": null,
+        "ReqComFlds": null,
+        "SP-CompStatus2": null,
+        "SP-CompStatus3": null,
+        "SPTD-Msg": null,
+        "SPTermDate": null,
+        "SPTermDateDay": null,
+        "SPTermDateIn": null,
+        "SSP-Msg": null,
+        "SSPMsg-Flg": null,
+        "TACompetitor2-Block": {
+            "SP-CompetitorId2": null,
+            "TACompetitor2": null
+        },
+        "TACompetitor3-Block": {
+            "SP-CompetitorId3": null,
+            "TACompetitor3": null
+        },
+        "TypeAheadAccount-Block": {
+            "ServiceProviderAccountId": null,
+            "TypeAheadAccount": null
+        }
+    },
+    "SelectServiceProviderEditStep": {
+        "ADDComp2": null,
+        "AddCom1": null,
+        "CompValidation": null,
+        "CompValidation2": null,
+        "Compet1ReadOnly": null,
+        "Compet2ReadOnly": null,
+        "Compet3ReadOnly": null,
+        "CompetStat1ReadOnly": null,
+        "CompetStat2ReadOnly": null,
+        "CompetStat3ReadOnly": null,
+        "CompetitorStatus1EditStep": null,
+        "CompetitorStatus2EditStep": null,
+        "CompetitorStatus3EditStep": null,
+        "DeleteComp2": null,
+        "DeleteComp3": null,
+        "EitherNOUFlag": null,
+        "FinalComp1Id": null,
+        "FinalComp1Stat": null,
+        "FinalComp2Id": null,
+        "FinalComp2Stat": null,
+        "FinalComp3Id": null,
+        "FinalComp3Stat": null,
+        "FinalFinalComp1Id": null,
+        "FinalFinalComp2Id": null,
+        "FinalFinalComp3Id": null,
+        "FinalFinalCompStat1": null,
+        "FinalFinalCompStat2": null,
+        "FinalFinalCompStat3": null,
+        "Formula 18": null,
+        "NOUFlagEditStep": null,
+        "TACompetitor1EditStep-Block": {
+            "SPCompetitorId1EditStep": null,
+            "TACompetitor1EditStep": null
+        },
+        "TACompetitor2EditStep-Block": {
+            "SPCompetitorId2EditStep": null,
+            "TACompetitor2EditStep": null
+        },
+        "TACompetitor3EditStep-Block": {
+            "SPCompetitorId3EditStep": null,
+            "TACompetitor3EditStep": null
+        },
+        "Text": {
+        },
+        "UpdateCom1": null,
+        "UpdateCom2": null,
+        "UpdateCom3": null,
+        "ValidationMessage": null
+    },
+    "timeStamp": null,
+    "userId": null,
+    "userName": null,
+    "userProfile": null,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "AddCompProdConfigOnly": true,
+        "EditCompProdConfigOnly": null,
+        "ExtractAccountId": null,
+        "SelectServiceProvider": null,
+        "SelectServiceProviderEditStep": null,
+        "SetConsts": null
+    }
+}

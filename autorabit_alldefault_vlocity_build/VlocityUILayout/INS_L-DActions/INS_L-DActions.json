@@ -1,0 +1,25 @@
+{
+    "Cards": [
+        "L&D Card"
+    ],
+    "dataSource": {
+        "contextVariables": [
+            {
+                "name": "params.Id",
+                "val": "a8N4C000000M5FWUA0"
+            }
+        ],
+        "type": "Query",
+        "value": {
+            "query": "Select Id,Name,LoggedinProfile__c,PendingCorrectionAction__c from Life_and_Disability__c WHERE Id = '{{params.id || params.Id}}'"
+        }
+    },
+    "templates": {
+        "0": {
+            "templateUrl": "anthem-card-canvas-1x-slds-nosearch"
+        }
+    },
+    "workspace": [
+        "L&D Card/Anthem Commercial 2.0/1/1540562644379"
+    ]
+}

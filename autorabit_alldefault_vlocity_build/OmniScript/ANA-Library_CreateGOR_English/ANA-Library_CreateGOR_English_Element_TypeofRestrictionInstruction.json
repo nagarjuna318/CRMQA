@@ -1,0 +1,39 @@
+{
+    "%vlocity_namespace%__Active__c": true,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "CreateGOR",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/ANA Library/CreateGOR/English",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__ParentElementId__c": {
+        "%vlocity_namespace%__OmniScriptId__c": {
+            "Name": "CreateGOR",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/ANA Library/CreateGOR/English",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+        },
+        "Name": "RestrictionInfo",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/ANA Library/CreateGOR/English/RestrictionInfo",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c"
+    },
+    "%vlocity_namespace%__ParentElementName__c": "RestrictionInfo",
+    "%vlocity_namespace%__ParentElementType__c": "Step",
+    "%vlocity_namespace%__PropertySet__c": {
+        "HTMLTemplateId": "",
+        "controlWidth": 6,
+        "dataJSON": false,
+        "disOnTplt": false,
+        "label": null,
+        "show": null,
+        "text": "<p><span style=\"text-decoration: underline;\"><strong>No Restrictions</strong>:</span> There are no offshoring restrictions. All functions including those that involve processing of Member Protected Health Information (e.g.Claims Adjudication, etc.).</p>\n<p><span style=\"text-decoration: underline;\"><strong>No Live Member Touch:</strong></span> This will restrict the following types of services from going offshore: Member Telephonic Service, Live Chat, TeleHealth, etc...</p>\n<p>The following functions will be allowed to go offshore: Claims Adjudication, Enrollment &amp; Billing, Correspondence Processing, PaymentIntegrity, GroupReporting, Application Maintenance (Lights-On), Benefit Coding, Case Installation, Provider Credentialing, Contract Pricing &amp; Configuration, Front-End, etc.</p>\n<p><span style=\"text-decoration: underline;\"><strong>No PHI Processing:</strong></span> This will restrict the following types of services from going offshore: Member Telephonic Service, Provider Telephonic Service, Live Chat, TeleHealth, Claims Adjudication, Enrollment &amp; Billing, Correspondence Processing, Payment Integrity, Group Reporting, etc.</p>\n<p>The following functions will be allowed to go offshore: Benefit Coding, Case Installation, Provider Credentialing, Contract Pricing &amp; Configuration, Front-End, etc</p>",
+        "textKey": ""
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": false,
+    "%vlocity_namespace%__Type__c": "Text Block",
+    "Name": "TypeofRestrictionInstruction",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/ANA Library/CreateGOR/English/TypeofRestrictionInstruction"
+}

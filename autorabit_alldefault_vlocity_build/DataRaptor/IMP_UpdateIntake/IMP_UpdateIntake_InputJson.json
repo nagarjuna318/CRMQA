@@ -1,0 +1,40 @@
+{
+    "ContextId": "",
+    "SalesReturnDetails": {
+        "BenefitDiscrepanciesFM": null,
+        "DocumentsNotAttachedFM": null,
+        "IntakeReasons": {
+            "BLK3": {
+                "ImplementerImpCommentRO": null
+            },
+            "Id": null,
+            "ImplementerImpComments": null,
+            "IntakeReturnStage": null,
+            "MSG-SalesComments": null,
+            "Name": null,
+            "Reason": null,
+            "SalesComments": null,
+            "Stage": null,
+            "StageFormula": null,
+            "Subdate": null
+        },
+        "MismatchDocumentsFM": null,
+        "MismatchEffectiveDateFM": null,
+        "NeedFinalizedBenefitsFM": null,
+        "OpportunityUpdateFM": null,
+        "RateClarificationFM": null,
+        "ReturnRequestedBySalesFM": null
+    },
+    "id": "a3C54000000ORTgEAO",
+    "layout": "lightning",
+    "timeStamp": "2019-06-06T10:49:18.198Z",
+    "userCurrencyCode": "USD",
+    "userId": "00554000001k5kGAAQ",
+    "userName": "bpraneetha@deloitte.com.icegld",
+    "userProfile": "System Administrator",
+    "userTimeZone": -240,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+    }
+}

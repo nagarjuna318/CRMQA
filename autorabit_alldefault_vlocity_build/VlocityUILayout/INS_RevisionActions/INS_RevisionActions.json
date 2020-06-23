@@ -1,0 +1,25 @@
+{
+    "Cards": [
+        "Revision Reasons Card"
+    ],
+    "dataSource": {
+        "contextVariables": [
+            {
+                "name": "params.id",
+                "val": "a5a2F000000CcOqQAK"
+            }
+        ],
+        "type": "Query",
+        "value": {
+            "query": "Select Id,UpdateRevisionAction__c  from Impl_revision__c WHERE Id = '{{params.id || params.Id}}'"
+        }
+    },
+    "templates": {
+        "0": {
+            "templateUrl": "card-canvas-1x-slds-nosearch"
+        }
+    },
+    "workspace": [
+        "Revision Reasons Card/Anthem Commercial 2.0/1/1522443369347"
+    ]
+}

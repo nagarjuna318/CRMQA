@@ -1,0 +1,306 @@
+{
+    "dataSource": {
+        "type": null
+    },
+    "filter": {
+        "[AnthemEntityTransform__c]": "Local"
+    },
+    "states": [
+        {
+            "actionCtxId": "['Id']",
+            "blankCardState": false,
+            "blankStateCheck": false,
+            "collapse": false,
+            "conditions": {
+                "group": [
+                    {
+                        "field": "$scope.data.status",
+                        "operator": "===",
+                        "type": "system",
+                        "value": "'active'"
+                    },
+                    {
+                        "field": "",
+                        "logicalOperator": "&&",
+                        "operator": "===",
+                        "type": "custom",
+                        "value": ""
+                    }
+                ]
+            },
+            "definedActions": {
+                "actions": [
+                    {
+                        "collapse": false,
+                        "conditions": {
+                            "group": [
+                            ]
+                        },
+                        "disableAddCondition": false,
+                        "filter": "",
+                        "hasExtraParams": true,
+                        "id": "Product Configuration",
+                        "isCustomAction": false,
+                        "type": "Vlocity Action"
+                    },
+                    {
+                        "collapse": false,
+                        "conditions": {
+                            "group": [
+                            ]
+                        },
+                        "disableAddCondition": false,
+                        "filter": "",
+                        "hasExtraParams": true,
+                        "id": "ProductConfigurationApprovals",
+                        "isCustomAction": false,
+                        "type": "Vlocity Action"
+                    },
+                    {
+                        "collapse": false,
+                        "conditions": {
+                            "group": [
+                            ]
+                        },
+                        "disableAddCondition": false,
+                        "filter": "",
+                        "hasExtraParams": true,
+                        "id": "ProductConfigurationMedical",
+                        "isCustomAction": false,
+                        "type": "Vlocity Action"
+                    },
+                    {
+                        "collapse": false,
+                        "conditions": {
+                            "group": [
+                            ]
+                        },
+                        "disableAddCondition": false,
+                        "filter": "",
+                        "hasExtraParams": true,
+                        "id": "ProductConfigurationProductSelectionDetails",
+                        "isCustomAction": false,
+                        "type": "Vlocity Action"
+                    },
+                    {
+                        "collapse": false,
+                        "conditions": {
+                            "group": [
+                            ]
+                        },
+                        "disableAddCondition": false,
+                        "filter": "",
+                        "hasExtraParams": true,
+                        "id": "ProductConfigurationForLG",
+                        "isCustomAction": false,
+                        "type": "Vlocity Action"
+                    },
+                    {
+                        "collapse": true,
+                        "hasExtraParams": false,
+                        "id": "Add Program - Needs Update",
+                        "isCustomAction": false,
+                        "type": "Vlocity Action"
+                    },
+                    {
+                        "collapse": true,
+                        "hasExtraParams": false,
+                        "id": "SubmitApproval",
+                        "isCustomAction": false,
+                        "type": "Vlocity Action"
+                    },
+                    {
+                        "collapse": true,
+                        "hasExtraParams": false,
+                        "id": "Recall Approval Request",
+                        "isCustomAction": false,
+                        "type": "Vlocity Action"
+                    },
+                    {
+                        "collapse": true,
+                        "hasExtraParams": false,
+                        "id": "Mass Update - QLI",
+                        "isCustomAction": false,
+                        "type": "Vlocity Action"
+                    },
+                    {
+                        "collapse": true,
+                        "hasExtraParams": false,
+                        "id": "AddPlanLG_P2A",
+                        "isCustomAction": false,
+                        "type": "Vlocity Action"
+                    },
+                    {
+                        "collapse": true,
+                        "hasExtraParams": false,
+                        "id": "Capture_Plan_Benefits_LG",
+                        "isCustomAction": false,
+                        "type": "Vlocity Action"
+                    },
+                    {
+                        "collapse": true,
+                        "hasExtraParams": false,
+                        "id": "LG_AddRemoveRider",
+                        "isCustomAction": false,
+                        "type": "Vlocity Action"
+                    }
+                ]
+            },
+            "editMode": false,
+            "fields": [
+                {
+                    "collapse": true,
+                    "displayLabel": "['Product2']['Name']",
+                    "editing": false,
+                    "group": "Custom Properties",
+                    "label": "Product",
+                    "name": "['Product2']['Name']",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "displayLabel": "['Product2']['Bundle__c']",
+                    "editing": false,
+                    "group": "Custom Properties",
+                    "label": "Product Bundle",
+                    "name": "['Product2']['Bundle__c']",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "displayLabel": "['CompletionMarker__c']",
+                    "editing": false,
+                    "fieldType": "standard",
+                    "group": "Custom Properties",
+                    "label": "Completion Marker",
+                    "name": "['CompletionMarker__c']",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "displayLabel": "['ProductStage__c']",
+                    "editing": false,
+                    "fieldType": "standard",
+                    "group": "Custom Properties",
+                    "label": "Product Stage",
+                    "name": "['ProductStage__c']",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "displayLabel": "['Funding__c']",
+                    "editing": false,
+                    "fieldType": "standard",
+                    "group": "Custom Properties",
+                    "label": "Funding",
+                    "name": "['Funding__c']",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "displayLabel": "['Financing__c']",
+                    "editing": false,
+                    "fieldType": "standard",
+                    "group": "Custom Properties",
+                    "label": "Financing",
+                    "name": "['Financing__c']",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "displayLabel": "['Probability__c']",
+                    "editing": false,
+                    "fieldType": "standard",
+                    "group": "Custom Properties",
+                    "label": "Probability",
+                    "name": "['Probability__c']",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "displayLabel": "['Subscribers__c']",
+                    "editing": false,
+                    "fieldType": "standard",
+                    "group": "Custom Properties",
+                    "label": "Subscribers",
+                    "name": "['Subscribers__c']",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "displayLabel": "['Members__c']",
+                    "editing": false,
+                    "fieldType": "standard",
+                    "group": "Custom Properties",
+                    "label": "Members",
+                    "name": "['Members__c']",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "displayLabel": "['Reason__c']",
+                    "editing": false,
+                    "fieldType": "standard",
+                    "group": "Custom Properties",
+                    "label": "Reason",
+                    "name": "['Reason__c']",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "displayLabel": "['CurrentSubscribers__c']",
+                    "editing": false,
+                    "fieldType": "standard",
+                    "group": "Custom Properties",
+                    "label": "Current Subscribers",
+                    "name": "['CurrentSubscribers__c']",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "displayLabel": "['CurrentMembers__c']",
+                    "editing": false,
+                    "fieldType": "standard",
+                    "group": "Custom Properties",
+                    "label": "Current Members",
+                    "name": "['CurrentMembers__c']",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "displayLabel": "['ProductLineApprovalStatus__c']",
+                    "editing": false,
+                    "fieldType": "standard",
+                    "group": "Custom Properties",
+                    "label": "Approval Status",
+                    "name": "['ProductLineApprovalStatus__c']",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "data": {
+                        "['Estimated_Annualized_Premium__c']": ""
+                    },
+                    "displayLabel": "['Id']",
+                    "fieldType": "standard",
+                    "group": "Custom Properties",
+                    "label": "Id",
+                    "name": "['Id']",
+                    "type": "string"
+                }
+            ],
+            "filter": "$scope.data.status === 'active'",
+            "flyout": {
+                "data": "",
+                "layout": "QuoteLineItemFlyoutCard"
+            },
+            "isSmartAction": false,
+            "name": "active-quoteLI-parent-card",
+            "sObjectType": "QuoteLineItem",
+            "smartAction": {
+            },
+            "templateUrl": "anthem-parent-quotelineitem-card-horiz-slds_LG"
+        }
+    ],
+    "title": "QLICard_LG"
+}

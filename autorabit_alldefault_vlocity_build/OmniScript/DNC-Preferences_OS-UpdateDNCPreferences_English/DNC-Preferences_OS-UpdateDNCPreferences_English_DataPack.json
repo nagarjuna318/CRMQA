@@ -1,0 +1,32 @@
+{
+    "%vlocity_namespace%__AdditionalInformation__c": "Updates DNC Preferences details on Account Record",
+    "%vlocity_namespace%__DisableMetadataCache__c": false,
+    "%vlocity_namespace%__ElementTypeToHTMLTemplateList__c": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "%vlocity_namespace%__Element__c": [
+        "DNC-Preferences_OS-UpdateDNCPreferences_English_Element_DNCPreferencesExtract.json",
+        "DNC-Preferences_OS-UpdateDNCPreferences_English_Element_DNCPreferences.json",
+        "DNC-Preferences_OS-UpdateDNCPreferences_English_Element_DNC.json",
+        "DNC-Preferences_OS-UpdateDNCPreferences_English_Element_DNCEffectiveDate.json",
+        "DNC-Preferences_OS-UpdateDNCPreferences_English_Element_DNCReason.json",
+        "DNC-Preferences_OS-UpdateDNCPreferences_English_Element_GroupPreferenceComment.json",
+        "DNC-Preferences_OS-UpdateDNCPreferences_English_Element_RequestedBy.json",
+        "DNC-Preferences_OS-UpdateDNCPreferences_English_Element_MessageStep.json",
+        "DNC-Preferences_OS-UpdateDNCPreferences_English_Element_Message.json",
+        "DNC-Preferences_OS-UpdateDNCPreferences_English_Element_Agree.json",
+        "DNC-Preferences_OS-UpdateDNCPreferences_English_Element_AgreeErrorMessage2.json",
+        "DNC-Preferences_OS-UpdateDNCPreferences_English_Element_Savedata.json",
+        "DNC-Preferences_OS-UpdateDNCPreferences_English_Element_RedirectToAccount.json"
+    ],
+    "%vlocity_namespace%__IsLwcEnabled__c": false,
+    "%vlocity_namespace%__IsProcedure__c": false,
+    "%vlocity_namespace%__IsReusable__c": false,
+    "%vlocity_namespace%__Language__c": "English",
+    "%vlocity_namespace%__LwcId__c": "f87eda87-54e7-8a16-1d2a-fa38662970ea",
+    "%vlocity_namespace%__PropertySet__c": "DNC-Preferences_OS-UpdateDNCPreferences_English_PropertySet.json",
+    "%vlocity_namespace%__SubType__c": "OS-UpdateDNCPreferences",
+    "%vlocity_namespace%__Type__c": "DNC Preferences",
+    "Name": "Submit DNC Preferences",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__OmniScript__c/DNC Preferences/OS-UpdateDNCPreferences/English"
+}

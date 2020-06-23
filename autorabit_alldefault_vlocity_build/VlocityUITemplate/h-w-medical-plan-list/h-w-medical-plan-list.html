@@ -1,0 +1,57 @@
+<div  ng-controller="displayPlansOfQuote"  class="nds-scrollable_x search-container" >
+    <div class="nds-size_1-of-1">
+        <table class="nds-table nds-table_bordered nds-table_cell-buffer nds-wrap" >
+            <thead>
+                <tr class="nds-text-title_caps">
+                    <th scope="col">
+                        <div class="nds-truncate"> 
+                            <div class="nds-form-element">
+                                <div class="nds-form-element__control">
+                                    <label class="nds-checkbox">
+                                    <input type="checkbox" value="on" ng-model="checkAll" ng-change="captureAllRows(bpTree,control)">
+                                    <span class="nds-checkbox_faux"></span>
+                                    </label>
+                                </div>  
+                            </div>
+                        </div>
+                    </th>
+                    <th scope="col" >
+                        <div class="nds-truncate nds-p-around_small nds-text-heading_small nds-size_8-of-8" title="Plan">Plan</div>
+                    </th>
+                    <th scope="col" >
+                        <div class="nds-truncate nds-p-around_small nds-text-heading_small nds-size_4-of-4" title="Umbrella Product">Umbrella Product</div>
+                    </th>
+                    <th scope="col" >
+                        <div class="nds-truncate nds-p-around_small nds-text-heading_small nds-size_4-of-4" title="Existing Package">Existing Package</div>
+                    </th>
+                </tr>
+            </thead>
+            <tbody> 
+        <tr ng-repeat='plan in checkArray(bpTree, bpTree.response.CoPlans)' >
+                    <td>
+                        <div class="nds-truncate">
+                            <div class="nds-form-element__control">
+                                    <label class="nds-checkbox" > 
+                                        <input type="checkbox" value="on"  
+                                                ng-disabled="bpTree.response.ContextId === {{plan.Id}} ? true : false"  
+                                                ng-model="plan[plan.Id]" 
+                                                ng-click="captureClickedRow(bpTree,control,plan)">
+                                        <span class="nds-checkbox_faux"></span>
+                                    </label>
+                            </div> 
+                        </div>
+                    </td>
+                    <td data-label="Plan" scope="row">
+                        <div class="nds-truncate nds-text-heading_small nds-p-around_x-small nds-size_8-of-8" title="{{plan.ProductName}}">{{plan.ProductName}}</div>
+                    </td>
+                    <td data-label="Umbrella Product" scope="row">
+                        <div class="nds-truncate nds-text-heading_small nds-p-around_x-small nds-size_4-of-4" title="{{plan.UmbrellaProdName}}">{{plan.UmbrellaProdName}}</div>
+                    </td>
+                    <td data-label="Existing Package" scope="row">
+                        <div class="nds-truncate nds-text-heading_small nds-p-around_x-small nds-size_4-of-4" title="{{plan.PackageName}}">{{plan.PackageName}}</div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>

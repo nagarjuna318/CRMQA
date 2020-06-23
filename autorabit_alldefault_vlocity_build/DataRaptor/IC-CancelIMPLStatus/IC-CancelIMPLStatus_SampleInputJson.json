@@ -1,0 +1,25 @@
+{
+    "AccountManager": "00541000003bWWXAA2",
+    "AccountManagerName": "Cheryl Gibson",
+    "CancelStatusString": "Canceled",
+    "ConfirmImplementationCancellation": {
+        "msgImplAcctManager": false,
+        "msgImplStatus": true
+    },
+    "ContextId": "8013I00000004ZyQAI",
+    "ImplementationStatus": "Initiated",
+    "OrderNumber": "IMPL-19043",
+    "id": "a3C3I0000004OIlUAM",
+    "isAcctManager": false,
+    "isInitiateStatus": true,
+    "isShowAcctManagerMsg": true,
+    "layout": "lightning",
+    "timeStamp": "2020-01-30T19:01:40.842Z",
+    "userCurrencyCode": "USD",
+    "userId": "00541000006Y65yAAC",
+    "userName": "chanmin.hoo@anthem.com2.icelo2",
+    "userProfile": "System Administrator",
+    "userTimeZone": -480,
+    "vlcPersistentComponent": {
+    }
+}

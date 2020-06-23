@@ -1,0 +1,40 @@
+{
+    "ContextId": "801W0000000mjsF",
+    "ContextIdShravani": "801W0000000lqobIAA",
+    "IntakeReason": {
+        "Block1": [
+            {
+                "Reason": "Need finalized benefits",
+                "Tx1": "IMP COMMENTS"
+            },
+            {
+                "Reason": "Need finalized benefits",
+                "Tx1": "IMPLEMENTER COMMENTS"
+            }
+        ]
+    },
+    "IntakeReturnStage": "Pending Response from Sales/ Account Management",
+    "Submit": {
+        "SubmitDate": "2018-01-14T21:11:25.000Z",
+        "SubmitIntReturn": "Yes"
+    },
+    "SubmitDate": "",
+    "id": "a3CW0000000AlHgMAK",
+    "layout": "lightning",
+    "timeStamp": "2018-01-14T21:10:35.923Z",
+    "userCurrencyCode": "USD",
+    "userId": "005W0000002XPj6IAG",
+    "userName": "jcarrero@vlocity.com.prod.nal1b.dev",
+    "userProfile": "System Administrator",
+    "userTimeZone": -300,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "DRE-IntakereturnStage": 394,
+        "IntakeReason": 33852,
+        "OmniScriptSessionToken": "b643e1a1-0830-4f37-831f-c9312775ea6b",
+        "SV-ContextId": 46,
+        "SetValues2": 11,
+        "Submit": 104283
+    }
+}

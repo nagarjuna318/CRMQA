@@ -1,0 +1,32 @@
+<style>
+ #Group~label{color: #EE0C35}
+</style>
+<script type="text/ng-template" id="vlcGroupSelection.html">
+ <div class="panel panel-default" style="width:20%">
+  <!<table class="table slds-table slds-table--bordered slds-table--cell-buffer" style="table-layout: auto;" width="100%">  
+<table>  
+ <thead>
+    <tr>
+          <!-- Header for checkbox 
+            <th>Select</th>     
+            <th  style="text-align:center">Group</th>    -->
+     </tr>
+   </thead>
+   <tbody class='ins' ng-if="control.vlcSI[control.itemsKey].length > 0">
+    <tr ng-repeat='p in control.vlcSI[control.itemsKey]' ng-class="{ 'vlc-selectableitem-selected' : p.vlcSelected }" >
+     <th class="slds-cell-shrink"  style= 'width:10px; text-align:right'>
+        <label class="slds-checkbox">
+          <input id="xyz" type="checkbox" ng-model='p.vlcSelected' ng-change='onSelectItem(control, p, $index, this);'  style= 'width:10px; text-align:right'/>
+          <span class="slds-checkbox--faux"></span>
+        </label>
+     </th>
+        <td style="text-align:left"  ng-required="true">{{p.GroupName}}</td>
+ <td style="text-align:left; display: none;">{{p.GroupId}}</td>
+         </tr>
+   </tbody>
+  </table>
+ </div>
+ <p> </p>
+</script>
+<!-- ----------------------------- -->
+<!-- End of vlcGroupSelection.html  Template. -->

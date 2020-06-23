@@ -1,0 +1,74 @@
+{
+    "AddRevisionReasons": {
+        "InputBlock1": null,
+        "Msg-Duplicate": null,
+        "RevisionBlock": {
+            "AddDescription": null,
+            "AddDoesChangeImpactBenefitBooklets": null,
+            "AddDoesChangeImpactSBCs": null,
+            "AddImpactedPackages/Suffixes/Sections": null,
+            "RevisionReasons": null,
+            "RevisionType": null
+        },
+        "Text1": null
+    },
+    "ContextId": null,
+    "CurrentRevisionsReasons": {
+        "AddRevisionreasons": null,
+        "RevisionReason": {
+            "Description": null,
+            "DoesChangeImpactBenefitBooklets": null,
+            "DoesChangeImpactSBCs": null,
+            "ImpactedPackages/Suffixes/Sections": null,
+            "RRevisionReasons": null,
+            "RevisionReasonType": null
+        },
+        "UserProfileStage": null
+    },
+    "End": {
+    },
+    "FileAttachment": {
+        "FileCount": null,
+        "MSG-AttachmentError": null,
+        "UploadAttachment": [
+            {
+                "data": null,
+                "filename": null,
+                "size": null
+            }
+        ]
+    },
+    "Revision": {
+        "Comments": null,
+        "ReturnReason": null,
+        "RevisionRecordStatus": null
+    },
+    "Submit": {
+        "SubmitRevision": null
+    },
+    "timeStamp": null,
+    "userId": null,
+    "userName": null,
+    "userProfile": null,
+    "userTimeZone": null,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "AddRevisionReasons": null,
+        "CurrentRevisionsReasons": null,
+        "DA-End": null,
+        "DR-InsertRevisionReasons": null,
+        "DR-UpdateRevision": null,
+        "DRE-FileAttachment": null,
+        "DRE-RevisionDetails": null,
+        "End": null,
+        "FileAttachment": null,
+        "Revision": null,
+        "SV-ContextId": null,
+        "SV-FileAttachmentValidation": null,
+        "SV-RevisionDetails": null,
+        "SetValues4": null,
+        "SetValues5": null,
+        "Submit": null
+    }
+}

@@ -1,0 +1,57 @@
+<!-- ------------------------------------------------------------------- -->
+<!-- Start of vlcSMEDeptSelection.html Template.  Created at 2018-03-29 18:50:22 UTC -->
+<!-- ------------------------------------------------------------------- -->
+<style>
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 5px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: rgb(216, 221, 230);; 
+    border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #b30000; 
+}
+</style>
+<script type="text/ng-template" id="vlcSMEDeptSelection.html">
+ <div class="panel panel-default">
+  <table class="table slds-table slds-table--bordered slds-table--cell-buffer" style="table-layout: auto;">
+   <thead>
+    <tr>
+     <!-- Header for checkbox -->
+     <th style="white-space: initial;" colspan=1 class="slds-cell-shrink">Send SME Approval Record </th>
+     <th  class="slds-cell-shrink">SME Department(2)</th>
+     <th    class="slds-cell-shrink" colspan="2">SME Engagement Guideline</th>
+    </tr>
+   </thead>
+   <tbody class='ins' ng-if="control.vlcSI[control.itemsKey].length > 0">
+    <tr ng-repeat='p in control.vlcSI[control.itemsKey]' ng-class="{ 'vlc-selectableitem-selected' : p.vlcSelected }" ng-init ='p.vlcSelected =(p.vlcSelected == "true"? true:false);onSelectItem(control, p, $index, this)'>
+     <th class="slds-cell-shrink">
+        <label class="slds-checkbox">
+          <input type="checkbox" ng-model="p.vlcSelected "  ng-change='onSelectItem(control, p, $index, this);'/>
+          <span class="slds-checkbox--faux"></span>
+        </label>
+     </th>
+     <td  >{{p.Name}}</td>
+     <td style="float:right;width:400px;overflow-x: hidden; overflow-y: scroll,auto;text-overflow: 
+         ellipsis;height:64px;white-space: initial;">{{p.Omni_Script_Help_Text}}</td>
+     </tr>
+   </tbody>
+  </table>
+ </div>
+ <p> </p>
+</script>
+<!-- ----------------------------- -->
+<!-- End of vlcSMEDeptSelection.html  Template. -->
+<!-- ----------------------------- -->

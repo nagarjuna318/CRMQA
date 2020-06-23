@@ -1,0 +1,78 @@
+{
+    "AccountName": "Hunter Douglas Inc.",
+    "COBRADetails": {
+        "CD-Block": null,
+        "COBRAAppliestoDomesticPartner?NASCO": "Yes",
+        "ClientAllowsSamesexSpousesCovered": "Yes"
+    },
+    "CaseName": "2018: Pre Work-Hunter Douglas Inc.",
+    "ChildMaxAgeLimit": {
+        "AgeandRuleDetails": "TEST",
+        "ApplytoAllPackages/Suffixe": "Yes",
+        "ChildMaxAgeLimit_Child": "Birthday",
+        "DefineAgeandRuleperPackage/Suffix": "Other"
+    },
+    "ContextId": "801W0000000mgMoIAI",
+    "DisabledVerification": {
+        "ResponsibleforDisabledVerification?": "Anthem"
+    },
+    "EligibilityDetails": {
+        "ED-Block": {
+            "Doesthisinformationapplytoallgroup": "Yes",
+            "IfNopleasespecify": "TEST",
+            "Ifyesindicateprobationaryperiod": "1H = First of Month following DOH",
+            "IsthereaWaitingPeriodforNewHires?": "Yes",
+            "Notes": "TEST"
+        },
+        "EDW-WGS-Block": null,
+        "Enrollment&BillingImpacted?": "Yes"
+    },
+    "GroupClaimSystem": "NASCO",
+    "IDCards": {
+        "AtwhatlevelwillIDcardsbegenerated": "000 - None",
+        "Variancesbypackagespecifyhere": "TEST"
+    },
+    "Id": "801W0000000mgMoIAI",
+    "ImpCase": {
+        "FRM-AccountName1": "Hunter Douglas Inc.",
+        "FRM-Id1": "801W0000000mgMoIAI",
+        "FRM-Name1": "2018: Pre Work-Hunter Douglas Inc."
+    },
+    "RecordType": "EligibilityNASCO",
+    "StudentMaxAgeLimitEligibility": {
+        "AgeandRuleDetailsStudents": "TEST",
+        "ApplytoAllPackages/Suffixes": "Yes",
+        "DefineAgeandRuleperPackage/Suffixforstudent": "26",
+        "IfDepreachesmaxageautoterminate?": null,
+        "OveragedeptermItrsbemailedtosub?": null,
+        "ResponsesReceivedby?": "Anthem",
+        "ResponsibleforStudentCertification?": "Anthem - Letters go to the Subscriber",
+        "StudentMaxAgeLimit": "Close"
+    },
+    "id": "a3CW0000000AnSRMA0",
+    "layout": "lightning",
+    "testContextId": "801W0000000mgMoIAI",
+    "timeStamp": "2018-01-14T04:23:27.725Z",
+    "userCurrencyCode": "USD",
+    "userId": "005W0000002nEcaIAE",
+    "userName": "ilugina@vlocity.com.prod.nal1b.dev",
+    "userProfile": "System Administrator",
+    "userTimeZone": -300,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "COBRADetails": 3929,
+        "ChildMaxAgeLimit": 7207,
+        "DRE-EligibilityDetailsToUpdate": 417,
+        "DRE-ICE": 392,
+        "DRP-Eligibility": 561,
+        "DisabledVerification": 2890,
+        "EligibilityDetails": 11025,
+        "Finish": 1653,
+        "IDCards": 4995,
+        "ImpCase": 1393,
+        "OmniScriptSessionToken": "a8176d4c-9786-429f-9c1b-87e2e5538c4f",
+        "SV-Eligibility": 12,
+        "StudentMaxAgeLimitEligibility": 9197
+    }
+}

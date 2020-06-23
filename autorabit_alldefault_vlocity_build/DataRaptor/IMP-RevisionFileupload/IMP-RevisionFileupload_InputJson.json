@@ -1,0 +1,74 @@
+{
+    "AccountName": "Aero OpCo LLC",
+    "AttachmentFormulaValidation": false,
+    "ContextId": "801W0000000myjwIAA",
+    "DRId_Impl_Revision__c": "a6PW0000000EDGIMA4",
+    "DRId_Revision_Reason__c": "a7FW00000009AmtMAE",
+    "FileAttachment": {
+        "File": [
+            {
+                "$$hashKey": "object:613",
+                "data": "c666b93a-ae6e-419c-9d75-19a034aef5f6",
+                "filename": "Revisions version2.json",
+                "size": 145468
+            }
+        ],
+        "FileCount": "NA"
+    },
+    "IMPCaseName": "IMPL-000339",
+    "IMPCaseStatus": "Pending SME Review",
+    "IMPRecordtype": "012W00000009VeOIAU",
+    "IMPRecordtypename": "Change Request Off Cycle",
+    "IMPType": "Change Request Off Cycle",
+    "Profile": "System Administrator",
+    "Revision": {
+        "FRM-AccountName": "Aero OpCo LLC",
+        "FRM-ImplementationCase": "IMPL-000339",
+        "FRM-ImplementationCaseStatus": "Pending SME Review",
+        "FRM-RecordType": "Change Request Off Cycle"
+    },
+    "RevisionStatus": "Initiated/In Progress",
+    "RevisionsReasons": {
+        "Msg-Duplicate": true,
+        "RevisionBlock": {
+            "AttachmentFormula": "No",
+            "DescriptionNBPW": null,
+            "DoesChangeImpactBenefitBooklets": false,
+            "DoesChangeImpactSBCs": false,
+            "ImpactedPackagesDetailsBlock": {
+                "Description": "ghhvg",
+                "ImpactedPackages/Suffixes/Sections": null
+            },
+            "RevisionReason": "Domestic Partner Change",
+            "RevisionType": "Client Request Change After Original Intake"
+        },
+        "Text1": null
+    },
+    "Submission": {
+        "SubmitRevision": "Yes"
+    },
+    "id": "a3CW00000013S0NMAU",
+    "layout": "lightning",
+    "timeStamp": "2018-03-29T20:44:09.220Z",
+    "userCurrencyCode": "USD",
+    "userId": "005W0000002XquzIAC",
+    "userName": "shravani@chadda@eaglecrk.com.prod.nal1b.dev",
+    "userProfile": "System Administrator",
+    "userTimeZone": -240,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "DR-FileUpload": 2251,
+        "DR-RevisionUpdate": 4883,
+        "FileAttachment": 58671,
+        "Finish": 2379,
+        "IMPCaseExtract": 4026,
+        "OmniScriptSessionToken": "927588ee-1222-41e7-93e7-357a0f7b2b6b",
+        "Revision": 317184,
+        "RevisionsReasons": 19740,
+        "SV-AttachmentFormula": 84,
+        "SV-ContextId": 225,
+        "SV2": 42,
+        "Submission": 3709
+    }
+}

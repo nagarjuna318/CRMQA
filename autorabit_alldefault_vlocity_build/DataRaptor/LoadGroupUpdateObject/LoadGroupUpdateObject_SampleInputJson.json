@@ -1,0 +1,481 @@
+{
+    "AccountExecutiveLatest": "",
+    "AccountManagerLatest": "",
+    "AccountManagerTest": "",
+    "AccountUpdateId": "0012g00000Gdds0AAB",
+    "AccounteExecutiveTest": "",
+    "AddNewDepartmentCodes": false,
+    "AddNewEmployeeClassDivision": false,
+    "AddNewProductMedicalSpecialtyOnly": false,
+    "AddNewProductSupplemental": false,
+    "BrokerInformation": {
+        "BORandCOR": null,
+        "BrokerageConsultantInformation": {
+            "BCId": null,
+            "BOR": false,
+            "BrokerageEffectiveDate": null,
+            "BrokerageEndDate": null,
+            "BrokerageName-Block": {
+                "BrokerageId": null,
+                "BrokerageName": null
+            },
+            "COR": false,
+            "ConsultantEffectiveDate": null,
+            "ConsultantEndDate": null,
+            "ConsultantName-Block": {
+                "ConsultantId": null,
+                "ConsultantName": null
+            }
+        },
+        "Messaging18": null
+    },
+    "CaseInformation": {
+        "ASONewbornOptOutIndicator": null,
+        "CaseInformation1": {
+            "AccountId": "0012g00000Gdds0AAB",
+            "ActiveRenewalDate": null,
+            "AdditionalComments": null,
+            "BenefitRenewalAnniversaryDate": null,
+            "CancelDate": null,
+            "CertofCreditableCoverageSuppression": "N",
+            "ConversionLetterSuppression": "N",
+            "DelinquencyCancellationLttrSuppression": "N",
+            "Formula10": null,
+            "IDCardsSentToInitially": null,
+            "ImplementationCaseStatus": "Pending SME Review",
+            "ImplementationEffectiveDate": "2020-01-01",
+            "MBSCode": null,
+            "MaintenanceCardsSentTo": "Subscribers",
+            "MonthUnderwriterStartsRenewalProcess": null,
+            "NonHmoBlock": {
+                "NonHMOIDCards": "SS",
+                "NonHMOIDCards1": "AL",
+                "NonHmoFormula": null
+            },
+            "OpenEffectiveDate1": null,
+            "OpenEnrollmentStartDate": null,
+            "OppOwner-Block": {
+                "OppOwner": "jeganathan A",
+                "OpportunityOwner": null
+            },
+            "OpportunityOwnerAnthemFederationID": "5678",
+            "OppurtunityEffectiveDate": null,
+            "RecId": "aAZ2g000000CbM0GAK",
+            "SpecialtySalesExecutive": null,
+            "TerminatedReservelessMPPFunding": null,
+            "TerminationLetterSuppression": "N",
+            "UnderwriterAnthemFederationID": null,
+            "UnderwriterName": null,
+            "WGSMBUCode": "66500000"
+        },
+        "OngoingEnrollmentSubmissionType": null
+    },
+    "ChangeAccountName": false,
+    "ChangeAccountPhoneNumber": false,
+    "ChangeAccountPhysicalOrMailingAddress": false,
+    "ChangeAnniversaryMonth": false,
+    "ChangeBenefitDesignOnAtLeastOneProduct": false,
+    "ChangeContactBillingInvoice": false,
+    "ChangeContactNonBilling": false,
+    "ChangeFundingTypeOnAtLeastOneProduct": false,
+    "ChangeNewHireProbationaryPeriod": false,
+    "ChangeProducts": false,
+    "ChangeRequestOffCycleICR": {
+        "AddNewDepartmentCodesBlock": {
+            "AddNewDepartmentCodes": false,
+            "AddNewDepartmentCodesMessage": true
+        },
+        "AddNewEmployeeClassDivisionBlock": {
+            "AddNewEmployeeClassDivision": false,
+            "AddNewEmployeeClassDivisionMessage": true
+        },
+        "AddNewProductMedicalSpecialtyOnlyBlock": {
+            "AddNewProductMedicalSpecialtyOnly": true,
+            "AddNewProductMedicalSpecialtyOnlyMessage": true
+        },
+        "AddNewProductSupplementalBlock": {
+            "AddNewProductSupplemental": false,
+            "AddNewProductSupplementalMessage": true
+        },
+        "AtLeastOneOption": true,
+        "AtleastOneCondition": false,
+        "ChangeAccountNameBlock": {
+            "ChangeAccountName": false,
+            "ChangeAccountNameMessage": false
+        },
+        "ChangeAccountPhoneNumberBlock": {
+            "ChangeAccountPhoneNumber": false,
+            "ChangeAccountPhoneNumberMessage": false
+        },
+        "ChangeAccountPhysicalOrMailingAddressBlock": {
+            "ChangeAccountPhysicalOrMailingAddress": false,
+            "ChangeAccountPhysicalOrMailingAddressMessage": false
+        },
+        "ChangeAnniversaryMonthBlock": {
+            "ChangeAnniversaryMonth": false,
+            "ChangeAnniversaryMonthMessage": true
+        },
+        "ChangeBenefitDesignOnAtLeastOneProductBlock": {
+            "ChangeBenefitDesignOnAtLeastOneProduct": false,
+            "ChangeBenefitDesignOnAtLeastOneProductMessage": true
+        },
+        "ChangeContactBillingInvoiceBlock": {
+            "ChangeContactBillingInvoice": false,
+            "ChangeContactBillingInvoiceMessage": false
+        },
+        "ChangeContactNonBillingBlock": {
+            "ChangeContactNonBilling": false,
+            "ChangeContactNonBillingMessage": false
+        },
+        "ChangeFundingTypeOnAtLeastOneProductBlock": {
+            "ChangeFundingTypeOnAtLeastOneProduct": false,
+            "ChangeFundingTypeOnAtLeastOneProductMessage": true
+        },
+        "ChangeNewHireProbationaryPeriodMessageBlock": {
+            "ChangeNewHireProbationaryPeriod": false,
+            "ChangeNewHireProbationaryPeriodMessage": true
+        },
+        "ChangeProductsBlock": {
+            "ChangeProducts": false,
+            "ChangeProductsMessage": true
+        },
+        "PEOAndAddingNewCompanyThatRequiresNewSuffixesBlock": {
+            "PEOAndAddingNewCompanyThatRequiresNewSuffixes": false,
+            "PEOAndAddingNewCompanyThatRequiresNewSuffixesMessage": true
+        },
+        "RateAdjustmentDueToInternalErrorBlock": {
+            "RateAdjustmentDueToInternalError": false,
+            "RateAdjustmentDueToInternalErrorMessage": false
+        },
+        "SetMaintaianceReason": "Add new Product (Medical/Specialty only);"
+    },
+    "CompanyInformation1": {
+        "CompanyInformation": {
+            "AccontTeam": {
+                "AccountExecutiveBlock": {
+                    "AccountExecutive": null
+                },
+                "AccountManagerBlock": {
+                    "AccountManager": null
+                },
+                "SalesAccountRepAcctMgmtBlock": {
+                    "SalesAccountRepAcctMgmt": null
+                },
+                "SpecialtySalesExecutiveTeamBlock": {
+                    "SpecialtySalesExecutiveTeam": null
+                },
+                "UnderwriterBlock": {
+                    "Underwriter": null
+                }
+            },
+            "AccountLegalName": "Test 0508_02",
+            "AccountNameDBA": null,
+            "AccountStatusCROC": "Closed",
+            "AccountStatusFormula": "Closed",
+            "AccountStatusNB": "Active",
+            "AnthemEntity": "Local/Large Group",
+            "ClaimSystem": "WGS 2.0",
+            "CompanySizeGroupSize": "1000+",
+            "EOCPaperlessOptionIndicator": null,
+            "ERISAStatus": "ERISA",
+            "EmployerTaxID": null,
+            "GroupNumber": "L10936",
+            "HIPAALetterExclusion": "(Y) Exclude the Generation of HIPAA Add and Term Letters Due To HCR",
+            "HQState": "CA",
+            "LegalEntity": null,
+            "Phone1": "0123455667",
+            "PhysicalAndMailingAddress": {
+                "MalingConditionBlock": {
+                    "MailingBlock": {
+                        "MailingCity": "Huntington Beach",
+                        "MailingCountry": "United States",
+                        "MailingCounty": "California",
+                        "MailingState": "CA",
+                        "MailingStreet": "California 1",
+                        "MailingZipCode": "90201"
+                    },
+                    "MailingFormula": {
+                        "MailingCityFormula": "Huntington Beach",
+                        "MailingCountryFormula": "United States",
+                        "MailingCountyFormula": "California",
+                        "MailingStateFormula": "CA",
+                        "MailingStreetFormula": "California 1",
+                        "MailingZipCodeFormula": "90201"
+                    }
+                },
+                "PhysicalCorrectlevel": {
+                    "Physicalblock": {
+                        "PhysicaZiPCode": "90201",
+                        "PhysicalCity": "Huntington Beach",
+                        "PhysicalCountry": "United States",
+                        "PhysicalCounty": "California",
+                        "PhysicalState": "CA",
+                        "PhysicalStreet": "California 1"
+                    }
+                },
+                "ShippingAddressissameAsMailingAddress": true
+            },
+            "SalesOfficeLocation": "",
+            "SicCodeTypeAhead-Block": {
+                "SICCodeName": null,
+                "SICId": null,
+                "SicCodeTypeAhead": "1222 - Underground Coal Mine"
+            },
+            "SitusState": "California",
+            "VendorReferral": null,
+            "WorkLocation": "4100"
+        }
+    },
+    "ContactInformation": {
+        "BillingContactEmail": null,
+        "BillingContactMailingCity": null,
+        "BillingContactMailingState": null,
+        "BillingContactMailingStreet": null,
+        "BillingContactMailingZipCode": null,
+        "BillingContactName": null,
+        "BillingContactPhone": null,
+        "GroupAdministratorContactEmail": null,
+        "GroupAdministratorContactName": null,
+        "GroupAdministratorContactPhone": null,
+        "GroupAdministratorMailingCity": null,
+        "GroupAdministratorMailingState": null,
+        "GroupAdministratorMailingStreet": null,
+        "GroupAdministratorMailingZipCode": null
+    },
+    "ContextId": "8012g0000004uKrAAI",
+    "CounterValue": false,
+    "CustomerMasterAccount": false,
+    "DataRaptorExtractAction6Status": true,
+    "DataRaptorExtractAction7Status": true,
+    "Formula11": true,
+    "GroupInformation": {
+        "COBRAAdministrationServices": null,
+        "CancelReason": null,
+        "ClaimsSavingsVendor": null,
+        "DeleteDependentCode": "1N",
+        "DoesAnthemGenerateHCID": "G",
+        "DuplicateSupplementalCoverageAllowed": "N",
+        "EmployeeAssistanceProgram": false,
+        "EmployeeExcludedCode": null,
+        "GroupType": null,
+        "IndicateProbationaryPeriod": null,
+        "OADAutoDelete": "Y",
+        "OptOutofLHOURLonIDCards": "N",
+        "PremPaidForEachSubDepPerMonth": null,
+        "PremPaidForEachSubPerMonth": null,
+        "ProrationRule": "D",
+        "RetroEnrollmentMaintenanceElectronic": null,
+        "RetroEnrollmentMaintenanceOnline": null
+    },
+    "GroupNumbervalidation": "Pending SME Review",
+    "GroupSubmissionCounter": "",
+    "GroupUpdateID": "a5I2g000000CiZlEAK",
+    "ImpactedProductAndCoverageTypeInformation": {
+        "Dental": {
+            "dentalAddReasonCodeImp": null,
+            "dentalBenefitPeriodImp": null,
+            "dentalClaimsRouteCodeImp": null,
+            "dentalProductName": null
+        },
+        "EAP": {
+            "EAPAddReasonCodeImp": null,
+            "EAPBenefitPeriodImp": null,
+            "EAPClaimsRouteCodeImp": null,
+            "EAPProductName": null
+        },
+        "FSA": {
+            "FSAAddReasonCodeImp": null,
+            "FSABenefitPeriodImp": null,
+            "FSAClaimsRouteCodeImp": null,
+            "FSAProductName": null
+        },
+        "LifeAndDisability": {
+            "LifeDisabilityAddReasonCodeImp": null,
+            "LifeDisabilityBenefitPeriodImp": null,
+            "LifeDisabilityClaimsRouteCodeImp": null,
+            "LifeDisabilityProductName": null
+        },
+        "Medical": {
+            "ImpactedMedicalPlans": {
+                "MedicalPlanAddReasonCodeImp": null,
+                "MedicalPlanBenefitPeriodImp": null,
+                "MedicalPlanClaimsRouteCodeImp": null,
+                "MedicalPlanContractCode": null,
+                "MedicalPlanHSABankingPartnerImp": null,
+                "MedicalPlanParentQuoteLineItem": null,
+                "MedicalPlanProductCategory": null,
+                "MedicalPlanProductName": null
+            },
+            "ImpactedMedicalProducts": {
+                "MedicalProductCategory": null,
+                "MedicalProductContractCode": null,
+                "MedicalProductName": null,
+                "MedicalProductPrefix": null
+            }
+        },
+        "Pharmacy": {
+            "Block50": {
+                "ContractCodePharmacy": null,
+                "CustomContractCodePharmacy": null,
+                "PharmacyBenefitIdentifier": null,
+                "PlanNamePharmacy": null,
+                "PlanTypePharmacy": null,
+                "ProductTypePharmacy": null
+            }
+        },
+        "Vision": {
+            "visionAddReasonCodeImp": null,
+            "visionBenefitPeriodImp": null,
+            "visionClaimsRouteCode": null,
+            "visionProductName": null
+        }
+    },
+    "ImplCase": {
+        "ImpactedProduct": "Vision,Dental",
+        "ImpactedProductIds": "0QL2g000000CvOSGA0,0QL2g000000CvSzGAK,0QL2g000000CvSVGA0,",
+        "ImplementationType": "Change Request Off Cycle"
+    },
+    "ImplementationType": "Change Request Off Cycle",
+    "IsLoadGroupSubmitted": false,
+    "LoadGroupStatus": "",
+    "LoadGroupStep": {
+        "CaseInformation": {
+            "ImplementationCaseStatus": "Pending SME Review"
+        }
+    },
+    "LoadGroupSubmissionTimestamp": "",
+    "MailingAddress": "California 1, Huntington Beach, CA, 90201, United States",
+    "OpportunityEffectiveDate": "2020-01-01",
+    "OrderId": "8012g0000004uKrAAI",
+    "OrderNumber": "IMPL-32316",
+    "PEOAndAddingNewCompanyThatRequiresNewSuffixes": false,
+    "PhysicalAddress": "California 1, Huntington Beach, CA, 90201, United States",
+    "ProductWithPercent": "%",
+    "QuoteupdateID": "0Q02g000000CkjeCAC",
+    "RateAdjustmentDueToInternalError": false,
+    "RecFetch": false,
+    "RecordTypeName": "Renewal Unlock",
+    "ResponseAction2Status": true,
+    "SalesAccountRepAccMgmtTest": "",
+    "SetCustomerMaster": "",
+    "SitusStateNB": "California",
+    "SitusStateValue": "California",
+    "SpecalitySalesExecutiveTest": "",
+    "SpecialtySalesExecutive": "",
+    "UnderwriterTest": "",
+    "formula12": true,
+    "formula13": true,
+    "formula14": true,
+    "formula15": true,
+    "id": "a3C2g000000CprDEAS",
+    "isdtp": "p1",
+    "layout": "lightning",
+    "opportunityupdateID": "0062g000003Z1JPAA0",
+    "options": {
+        "chainable": false,
+        "postTransformBundle": "",
+        "preTransformBundle": "",
+        "useContinuation": false,
+        "useFuture": false,
+        "vlcClass": "%vlocity_namespace%.IntegrationProcedureService"
+    },
+    "response": {
+        "AccountUpdateId": "0012g00000Gdds0AAB",
+        "CaseInformation": {
+            "CaseInformation1": {
+                "AccountId": "0012g00000Gdds0AAB",
+                "CertofCreditableCoverageSuppression": "N",
+                "ConversionLetterSuppression": "N",
+                "DelinquencyCancellationLttrSuppression": "N",
+                "ImplementationCaseStatus": "Pending SME Review",
+                "ImplementationEffectiveDate": "2020-01-01",
+                "MaintenanceCardsSentTo": "Subscribers",
+                "NonHmoBlock": {
+                    "NonHMOIDCards": "SS",
+                    "NonHMOIDCards1": "AL"
+                },
+                "OppOwner-Block": {
+                    "OppOwner": "jeganathan A"
+                },
+                "OpportunityOwnerAnthemFederationID": "5678",
+                "RecId": "aAZ2g000000CbM0GAK",
+                "TerminationLetterSuppression": "N",
+                "WGSMBUCode": "66500000"
+            }
+        },
+        "CompanyInformation1": {
+            "CompanyInformation": {
+                "AccountLegalName": "Test 0508_02",
+                "AccountStatusCROC": "Active",
+                "AccountStatusNB": "Active",
+                "AnthemEntity": "Local/Large Group",
+                "ClaimSystem": "WGS 2.0",
+                "CompanySizeGroupSize": "1000+",
+                "GroupNumber": "L10936",
+                "HIPAALetterExclusion": "(Y) Exclude the Generation of HIPAA Add and Term Letters Due To HCR",
+                "HQState": "CA",
+                "Phone1": "1234567890",
+                "PhysicalAndMailingAddress": {
+                    "MalingConditionBlock": {
+                        "MailingBlock": {
+                            "MailingCity": "Huntington Beach",
+                            "MailingCountry": "United States",
+                            "MailingCounty": "California",
+                            "MailingState": "CA",
+                            "MailingStreet": "California 1",
+                            "MailingZipCode": "90201"
+                        }
+                    },
+                    "PhysicalCorrectlevel": {
+                        "Physicalblock": {
+                            "PhysicaZiPCode": "90201",
+                            "PhysicalCity": "Huntington Beach",
+                            "PhysicalCountry": "United States",
+                            "PhysicalCounty": "California",
+                            "PhysicalState": "CA",
+                            "PhysicalStreet": "California 1"
+                        }
+                    },
+                    "ShippingAddressissameAsMailingAddress": true
+                },
+                "SicCodeTypeAhead-Block": {
+                    "SicCodeTypeAhead": "1222 - Underground Coal Mine"
+                },
+                "SitusState": "California"
+            }
+        },
+        "GroupInformation": {
+            "DoesAnthemGenerateHCID": "G",
+            "DuplicateSupplementalCoverageAllowed": "N",
+            "EmployeeAssistanceProgram": false,
+            "OADAutoDelete": "Y",
+            "OptOutofLHOURLonIDCards": "N",
+            "ProrationRule": "D"
+        },
+        "GroupNumbervalidation": "Pending SME Review",
+        "GroupUpdateID": "a5I2g000000CiZlEAK",
+        "MailingAddress": "California 1, Huntington Beach, CA, 90201, United States",
+        "OpportunityEffectiveDate": "2020-01-01",
+        "OrderId": "8012g0000004uKrAAI",
+        "PhysicalAddress": "California 1, Huntington Beach, CA, 90201, United States",
+        "QuoteupdateID": "0Q02g000000CkjeCAC",
+        "RecordTypeName": "Renewal Unlock",
+        "SitusStateValue": "California",
+        "opportunityupdateID": "0062g000003Z1JPAA0"
+    },
+    "sfdcIFrameHost": "web",
+    "sfdcIFrameOrigin": "https://commercial--crm2qa--vlocity-ins.visualforce.com",
+    "st1": "Pending SME Review",
+    "st2": false,
+    "st3": true,
+    "stImplementationType": "Change Request Off Cycle",
+    "testContextId": "8012g0000004uKrAAI",
+    "timeStamp": "2020-05-21T12:46:52.793Z",
+    "userCurrencyCode": "USD",
+    "userId": "0052g000000MuffAAC",
+    "userName": "saritha.singamsetty@accenture.com.crm2qa",
+    "userProfile": "System Administrator",
+    "userTimeZone": -240,
+    "vlcPersistentComponent": {
+    }
+}

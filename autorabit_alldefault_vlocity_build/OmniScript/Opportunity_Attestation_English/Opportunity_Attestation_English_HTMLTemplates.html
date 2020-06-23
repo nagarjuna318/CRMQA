@@ -1,0 +1,105 @@
+<!-- ------------------------------------------------------------------- -->
+<!-- Start of vlcAttest.html Template.  Created at 2018-01-31 07:50:22 UTC -->
+<!-- ------------------------------------------------------------------- -->
+<script type="text/ng-template" id="vlcAttest.html">
+ <div class="panel panel-default">
+  <table class="slds-table slds-table_cell-buffer slds-table_bordered slds-table_col-bordered" style="table-layout: fixed;">
+    <thead>
+     <tr class="slds-text-title--caps">
+      <!-- Header for checkbox -->
+      <th style="width:100px">Select</th>
+      <th class="slds-truncate" scope="col">
+        Group Number
+        </th>
+     </tr>
+    </thead>
+    <tr ng-repeat='p in control.vlcSI[control.itemsKey]' ng-class="{ 'vlc-selectableitem-selected' : p.vlcSelected }" >
+     <th style="width:100px">
+        <label class="slds-checkbox">
+          <input type="checkbox" ng-model='p.vlcSelected' ng-change='onSelectItem(control, p, $index, this)'/>
+          <span class="slds-checkbox--faux"></span>
+        </label>
+     </th>
+     
+     <td class="slds-truncate" >{{p.Name}}</td>
+    </tr>
+   </tbody>
+  </table>
+ </div>
+ <p> </p>
+</script>
+
+<!-- ------------------------------------------------------------------- -->
+<!-- Start of vlcAttest2.html Template.  Created at 2018-01-31 07:50:22 UTC -->
+<!-- ------------------------------------------------------------------- -->
+<script type="text/ng-template" id="vlcAttest2.html">
+ <div class="panel panel-default">
+  <table class="slds-table slds-table_cell-buffer slds-table_bordered slds-table_col-bordered" style="table-layout: fixed;">
+    <thead>
+     <tr class="slds-text-title--caps">
+      <!-- Header for checkbox -->
+      <th style="width:100px">Select</th>
+
+      <th class="slds-truncate" scope="col">
+        Name
+        </th>
+        <th class="slds-truncate" scope="col">
+          Title
+          </th>
+          <th class="slds-truncate" scope="col">
+            Email
+            </th>
+     </tr>
+    </thead>
+    <tr ng-repeat='p in control.vlcSI[control.itemsKey]' ng-class="{ 'vlc-selectableitem-selected' : p.vlcSelected }" >
+     <th style="width:100px"">
+        <label class="slds-checkbox">
+          <input type="checkbox" ng-model='p.vlcSelected' ng-change='onSelectItem(control, p, $index, this)'/>
+          <span class="slds-checkbox--faux"></span>
+        </label>
+     </th>
+     <td>{{p.Name}}</td>
+     <td>{{p.Title}}</td>
+     <td>{{p.Email}}</td>
+    </tr>
+   </tbody>
+  </table>
+ </div>
+ <p> </p>
+</script>
+
+<!-- ------------------------------------------------------------------- -->
+<!-- Start of vlcAttest.html Template.  Created at 2018-01-31 07:50:22 UTC -->
+<!-- ------------------------------------------------------------------- -->
+<script type="text/ng-template" id="vlcAttest3.html">
+ <div class="panel panel-default">
+  <table class="slds-table slds-table_cell-buffer slds-table_bordered slds-table_col-bordered" style="table-layout: fixed;">
+    <thead>
+     <tr class="slds-text-title--caps">
+      <!-- Header for checkbox -->
+      <th style="width:100px">Select</th>
+
+      <th class="slds-truncate" scope="col">
+        Name
+        </th>
+        <th class="slds-truncate" scope="col">
+          Email
+          </th>
+      
+     </tr>
+    </thead>
+    <tr ng-repeat='p in control.vlcSI[control.itemsKey]' ng-class="{ 'vlc-selectableitem-selected' : p.vlcSelected }" >
+     <th class="slds-cell-shrink">
+        <label class="slds-checkbox">
+          <input type="checkbox" ng-model='p.vlcSelected' ng-change='onSelectItem(control, p, $index, this)'/>
+          <span class="slds-checkbox--faux"></span>
+        </label>
+     </th>
+     <td>{{p.Name}}</td>
+     <td>{{p.Email}}</td>
+    </tr>
+   </tbody>
+  </table>
+ </div>
+ <p> </p>
+</script>

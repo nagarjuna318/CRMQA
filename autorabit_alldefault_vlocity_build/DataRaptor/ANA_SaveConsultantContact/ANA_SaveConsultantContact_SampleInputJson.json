@@ -1,0 +1,34 @@
+{
+    "AccountID": "",
+    "ConsultantContact": {
+        "ClinicalLeads": false,
+        "ConsultantNews": false,
+        "ConsultantSummit": false,
+        "ContactNameCC": null,
+        "DirectMarketingCampaign": false,
+        "EffectiveDate": null,
+        "EndDate": null,
+        "RegionalLeads": false,
+        "TypeAheadAccountCC-Block": {
+            "TypeAheadAccountCC": null
+        }
+    },
+    "ContextId": "",
+    "Ctcid": "",
+    "RelationshipToConatct": {
+        "BrokerageContactRelationships": "Consultant Contact"
+    },
+    "TypeAheadAccountCC-Block": {
+        "AccountId": ""
+    },
+    "id": "a3B4B0000000fgkUAA",
+    "layout": "lightning",
+    "timeStamp": "2017-05-02T10:58:23.882Z",
+    "userId": "0054B000000orR1QAI",
+    "userName": "keerthi.thoutireddy@anthem.com2.config",
+    "userProfile": "System Administrator",
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+    }
+}

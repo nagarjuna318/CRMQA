@@ -1,0 +1,26 @@
+{
+    "Cards": [
+        "QuoteandQLI"
+    ],
+    "dataSource": {
+        "contextVariables": [
+            {
+                "name": "parent.obj.Id",
+                "val": "0Q04C00000056vESAQ"
+            }
+        ],
+        "type": "Query",
+        "value": {
+            "jsonMap": "{\"parent.obj.Id\":\"{{parent.obj.Id}}\"}"
+        }
+    },
+    "previewType": "runTime",
+    "templates": {
+        "0": {
+            "templateUrl": "anthem-card-canvas-1x-slds-nosearch-with-background"
+        }
+    },
+    "workspace": [
+        "QuoteandQLI/Anthem Commercial 2.0/null/1513958127288"
+    ]
+}

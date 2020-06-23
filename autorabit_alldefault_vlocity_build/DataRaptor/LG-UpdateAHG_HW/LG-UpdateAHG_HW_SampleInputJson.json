@@ -1,0 +1,586 @@
+{
+    "ChildCountDynamic": 21,
+    "CommercialBuyUp": "Commercial Buy-Ups",
+    "Commercial_BuyUpSelection": {
+        "AP-ProductSelectionValidation": true,
+        "APParentCount2": true,
+        "FixList": [
+            {
+                "$$hashKey": "object:439",
+                "Id": "01t1K0000067At8QAE",
+                "IsActive": true,
+                "LOB": "Health and Wellness",
+                "Name": "ANTHEM HEALTH GUIDE",
+                "QLIRecordType__c": "Anthem Health Guide",
+                "vlcSelected": true
+            },
+            {
+                "$$hashKey": "object:442",
+                "Id": "01t1K0000067As0QAE",
+                "IsActive": true,
+                "LOB": "Health and Wellness",
+                "Name": "AUTISM SPECTRUM DISORDER (ASD) PROGRAM V2",
+                "QLIRecordType__c": "Default",
+                "vlcSelected": true
+            },
+            {
+                "$$hashKey": "object:444",
+                "Id": "01t1K0000067As1QAE",
+                "IsActive": true,
+                "LOB": "Health and Wellness",
+                "Name": "BEHAVIORAL HEALTH CASE MANAGEMENT WITH MYSTRENGTH",
+                "QLIRecordType__c": "Default",
+                "vlcSelected": true
+            },
+            {
+                "$$hashKey": "object:447",
+                "Id": "01t1K0000067AsVQAU",
+                "IsActive": true,
+                "LOB": "Health and Wellness",
+                "Name": "CASE MANAGEMENT",
+                "QLIRecordType__c": "Default",
+                "vlcSelected": true
+            },
+            {
+                "$$hashKey": "object:448",
+                "Id": "01t1K0000067AszQAE",
+                "IsActive": true,
+                "LOB": "Health and Wellness",
+                "Name": "CLAIMS BASED INCENTIVE ADULT WELLNESS EXAM",
+                "QLIRecordType__c": "Default",
+                "vlcSelected": true
+            },
+            {
+                "$$hashKey": "object:450",
+                "Id": "01t1K0000067At0QAE",
+                "IsActive": true,
+                "LOB": "Health and Wellness",
+                "Name": "CLAIMS BASED INCENTIVE ANNUAL FLU SHOT",
+                "QLIRecordType__c": "Default",
+                "vlcSelected": true
+            },
+            {
+                "$$hashKey": "object:451",
+                "Id": "01t1K0000067As3QAE",
+                "IsActive": true,
+                "LOB": "Health and Wellness",
+                "Name": "CLINICAL REVIEW - CANCER CARE QUALITY PROGRAM",
+                "QLIRecordType__c": "Default",
+                "vlcSelected": true
+            },
+            {
+                "$$hashKey": "object:455",
+                "Id": "01t1K0000067AsWQAU",
+                "IsActive": true,
+                "LOB": "Health and Wellness",
+                "Name": "COMMERCIAL OUTBOUND CALL PROGRAM",
+                "QLIRecordType__c": "Default",
+                "vlcSelected": true
+            },
+            {
+                "$$hashKey": "object:459",
+                "Id": "01t1K0000067AsXQAU",
+                "IsActive": true,
+                "LOB": "Health and Wellness",
+                "Name": "CONDITIONCARE:CORE",
+                "QLIRecordType__c": "Default",
+                "vlcSelected": true
+            },
+            {
+                "$$hashKey": "object:460",
+                "Id": "01t1K0000067AsYQAU",
+                "IsActive": true,
+                "LOB": "Health and Wellness",
+                "Name": "CONDITIONCARE:ESRD",
+                "QLIRecordType__c": "Default",
+                "vlcSelected": true
+            },
+            {
+                "$$hashKey": "object:478",
+                "Id": "01t1K0000067AsnQAE",
+                "IsActive": true,
+                "LOB": "Health and Wellness",
+                "Name": "FUTURE MOMS WITH ID AND LHO LACTATION",
+                "QLIRecordType__c": "Default",
+                "vlcSelected": true
+            },
+            {
+                "$$hashKey": "object:480",
+                "Id": "01t1K0000067At6QAE",
+                "IsActive": true,
+                "LOB": "Health and Wellness",
+                "Name": "GYM REIMBURSEMENT",
+                "QLIRecordType__c": "Default",
+                "vlcSelected": true
+            },
+            {
+                "$$hashKey": "object:487",
+                "Id": "01t1K0000067AsFQAU",
+                "IsActive": true,
+                "LOB": "Health and Wellness",
+                "Name": "MYHEALTH ADVANTAGE GOLD V2",
+                "QLIRecordType__c": "Default",
+                "vlcSelected": true
+            },
+            {
+                "$$hashKey": "object:490",
+                "Id": "01t1K0000067AspQAE",
+                "IsActive": true,
+                "LOB": "Health and Wellness",
+                "Name": "NICU CASE MANAGEMENT",
+                "QLIRecordType__c": "Default",
+                "vlcSelected": true
+            },
+            {
+                "$$hashKey": "object:494",
+                "Id": "01t1K0000067AsqQAE",
+                "IsActive": true,
+                "LOB": "Health and Wellness",
+                "Name": "PHARMACY OUTREACH PROGRAMS",
+                "QLIRecordType__c": "Default",
+                "vlcSelected": true
+            },
+            {
+                "$$hashKey": "object:497",
+                "Id": "01t1K0000067AsrQAE",
+                "IsActive": true,
+                "LOB": "Health and Wellness",
+                "Name": "QUICK CARE OPTIONS",
+                "QLIRecordType__c": "Default",
+                "vlcSelected": true
+            },
+            {
+                "$$hashKey": "object:501",
+                "Id": "01t1K0000067At2QAE",
+                "IsActive": true,
+                "LOB": "Health and Wellness",
+                "Name": "TOBACCO FREE CERTIFICATION",
+                "QLIRecordType__c": "Default",
+                "vlcSelected": true
+            },
+            {
+                "$$hashKey": "object:502",
+                "Id": "01t1K0000067AssQAE",
+                "IsActive": true,
+                "LOB": "Health and Wellness",
+                "Name": "TRANSPLANT",
+                "QLIRecordType__c": "Default",
+                "vlcSelected": true
+            },
+            {
+                "$$hashKey": "object:503",
+                "Id": "01t1K0000067AstQAE",
+                "IsActive": true,
+                "LOB": "Health and Wellness",
+                "Name": "Utilization Management",
+                "QLIRecordType__c": "Default",
+                "vlcSelected": true
+            },
+            {
+                "$$hashKey": "object:506",
+                "Id": "01t1K0000067AsuQAE",
+                "IsActive": true,
+                "LOB": "Health and Wellness",
+                "Name": "WEBMD HEALTH ASSESSMENT",
+                "QLIRecordType__c": "Default",
+                "vlcSelected": true
+            },
+            {
+                "$$hashKey": "object:507",
+                "Id": "01t1K0000067At3QAE",
+                "IsActive": true,
+                "LOB": "Health and Wellness",
+                "Name": "Well-being Coach - LM Coaching",
+                "QLIRecordType__c": "Default",
+                "vlcSelected": true
+            }
+        ],
+        "ValidateParentCount": true
+    },
+    "Commercial_Clinical": {
+        "AP-ProdSelected": true,
+        "APParentCount": true,
+        "ProdList": [
+            {
+                "$$hashKey": "object:391",
+                "Bundle": "Fixed",
+                "ClinicalName": "FI Foundational + Be Active",
+                "HasSPP": false,
+                "Id": "01tS0000006IOZDIA4",
+                "Name": "FI Foundational + Be Active",
+                "QLIRecordType": "LocalType",
+                "RecordTypeId": "01241000001IOWvAAO",
+                "vlcSelected": true
+            }
+        ],
+        "Wellbeing_Solutions_Custom_Message": true,
+        "Wellbeing_Solutions_Standard_Packages_Message": null
+    },
+    "ContainsAHG": true,
+    "ContextId": "0QLS0000000QT0WOAW",
+    "DRId_QuoteLineItem": "0QLS0000000QTK7OAO",
+    "EffectiveDate": "2020-01-01",
+    "EffectiveDateCheck1": "Y",
+    "EffectiveDateCheck2": "N",
+    "ExistingAHGRecord": 0,
+    "Funding_Type": "FI",
+    "IncentiveType": {
+        "Clinical_Product": "FI Foundational + Be Active",
+        "IncentiveTypeSelect": "GC",
+        "Selected_Product": "FI Foundational + Be Active"
+    },
+    "IncentiveTypeSelect": "",
+    "MasterFlag": true,
+    "NewAHGRecord": 1,
+    "NewAHGRecordId": "0QLS0000000QTK7OAO",
+    "PackageNameValue": [
+        "Commercial Buy-Ups"
+    ],
+    "ParentCount": 1,
+    "ParentCountDynamic": 1,
+    "ProdListCB": {
+        "Bundle": "Variable",
+        "BundleType_LG": "Commercial Buy-Ups",
+        "HasSPP": false,
+        "Id": "01t1K0000067AsKQAU",
+        "NALGProdRecordType": "Commercial Buy-Ups",
+        "Name": "Commercial Buy-Ups",
+        "QLIRecordType": "Default",
+        "RecordTypeId": "01241000001IOWvAAO"
+    },
+    "ProductSelection": {
+        "Child_Bundles": {
+            "ChildList": [
+                {
+                    "$$hashKey": "object:224",
+                    "Name": "ANTHEM HEALTH GUIDE",
+                    "vlcSelected": true
+                },
+                {
+                    "$$hashKey": "object:225",
+                    "Name": "AUTISM SPECTRUM DISORDER (ASD) PROGRAM V2",
+                    "vlcSelected": true
+                },
+                {
+                    "$$hashKey": "object:226",
+                    "Name": "BEHAVIORAL HEALTH CASE MANAGEMENT WITH MYSTRENGTH",
+                    "vlcSelected": true
+                },
+                {
+                    "$$hashKey": "object:227",
+                    "Name": "CASE MANAGEMENT",
+                    "vlcSelected": true
+                },
+                {
+                    "$$hashKey": "object:228",
+                    "Name": "CLAIMS BASED INCENTIVE ADULT WELLNESS EXAM",
+                    "vlcSelected": true
+                },
+                {
+                    "$$hashKey": "object:229",
+                    "Name": "CLAIMS BASED INCENTIVE ANNUAL FLU SHOT",
+                    "vlcSelected": true
+                },
+                {
+                    "$$hashKey": "object:230",
+                    "Name": "CLINICAL REVIEW - CANCER CARE QUALITY PROGRAM",
+                    "vlcSelected": true
+                },
+                {
+                    "$$hashKey": "object:231",
+                    "Name": "COMMERCIAL OUTBOUND CALL PROGRAM",
+                    "vlcSelected": true
+                },
+                {
+                    "$$hashKey": "object:232",
+                    "Name": "CONDITIONCARE:CORE",
+                    "vlcSelected": true
+                },
+                {
+                    "$$hashKey": "object:233",
+                    "Name": "CONDITIONCARE:ESRD",
+                    "vlcSelected": true
+                },
+                {
+                    "$$hashKey": "object:234",
+                    "Name": "FUTURE MOMS WITH ID AND LHO LACTATION",
+                    "vlcSelected": true
+                },
+                {
+                    "$$hashKey": "object:235",
+                    "Name": "GYM REIMBURSEMENT",
+                    "vlcSelected": true
+                },
+                {
+                    "$$hashKey": "object:236",
+                    "Name": "MYHEALTH ADVANTAGE GOLD V2",
+                    "vlcSelected": true
+                },
+                {
+                    "$$hashKey": "object:237",
+                    "Name": "NICU CASE MANAGEMENT",
+                    "vlcSelected": true
+                },
+                {
+                    "$$hashKey": "object:238",
+                    "Name": "PHARMACY OUTREACH PROGRAMS",
+                    "vlcSelected": true
+                },
+                {
+                    "$$hashKey": "object:239",
+                    "Name": "QUICK CARE OPTIONS",
+                    "vlcSelected": true
+                },
+                {
+                    "$$hashKey": "object:240",
+                    "Name": "TOBACCO FREE CERTIFICATION",
+                    "vlcSelected": true
+                },
+                {
+                    "$$hashKey": "object:241",
+                    "Name": "TRANSPLANT",
+                    "vlcSelected": true
+                },
+                {
+                    "$$hashKey": "object:242",
+                    "Name": "Utilization Management",
+                    "vlcSelected": true
+                },
+                {
+                    "$$hashKey": "object:243",
+                    "Name": "WEBMD HEALTH ASSESSMENT",
+                    "vlcSelected": true
+                },
+                {
+                    "$$hashKey": "object:244",
+                    "Name": "Well-being Coach - LM Coaching",
+                    "vlcSelected": true
+                }
+            ]
+        },
+        "Commercial_Selections": {
+            "CommercialFlow": "Commercial Buy-Ups"
+        },
+        "DefaultProductCreationMessage": null,
+        "Group_Display": false,
+        "Messaging9": true,
+        "Parent_Count": 1,
+        "Parent_Product": {
+            "SelectedParentProduct": [
+                {
+                    "$$hashKey": "object:221",
+                    "Id": "01t1K0000067AsKQAU",
+                    "Name": "Commercial Buy-Ups",
+                    "vlcSelected": true
+                }
+            ]
+        }
+    },
+    "ProgramList": [
+        {
+            "Id": "01t1K0000067Ax4QAE",
+            "IsActive": true,
+            "Name": "24/7 NURSELINE"
+        },
+        {
+            "Id": "01tS0000005xFKtIAM",
+            "IsActive": true,
+            "Name": "AUTISM SPECTRUM DISORDER (ASD) PROGRAM V2"
+        },
+        {
+            "Id": "01tS0000005xFKuIAM",
+            "IsActive": true,
+            "Name": "BEHAVIORAL HEALTH CASE MANAGEMENT WITH MYSTRENGTH"
+        },
+        {
+            "Id": "01t1K0000067Ax9QAE",
+            "IsActive": true,
+            "Name": "CASE MANAGEMENT"
+        },
+        {
+            "Id": "01t1K0000067AxdQAE",
+            "IsActive": true,
+            "Name": "CLAIMS BASED INCENTIVE ADULT WELLNESS EXAM"
+        },
+        {
+            "Id": "01t1K0000067AxeQAE",
+            "IsActive": true,
+            "Name": "CLAIMS BASED INCENTIVE ANNUAL FLU SHOT"
+        },
+        {
+            "Id": "01tS0000005xFKzIAM",
+            "IsActive": true,
+            "Name": "CLINICAL REVIEW - CANCER CARE QUALITY PROGRAM"
+        },
+        {
+            "Id": "01tS0000005xFL0IAM",
+            "IsActive": true,
+            "Name": "CLINICAL REVIEW - CARDIOLOGY"
+        },
+        {
+            "Id": "01tS0000005xFL1IAM",
+            "IsActive": true,
+            "Name": "CLINICAL REVIEW - GENETIC TESTING"
+        },
+        {
+            "Id": "01tS0000005xFL2IAM",
+            "IsActive": true,
+            "Name": "CLINICAL REVIEW - IMAGING W SITE OF CARE"
+        },
+        {
+            "Id": "01tS0000005xFL3IAM",
+            "IsActive": true,
+            "Name": "CLINICAL REVIEW - MUSCULOSKELETAL"
+        },
+        {
+            "Id": "01tS0000005xFL4IAM",
+            "IsActive": true,
+            "Name": "CLINICAL REVIEW - PROCEDURE SHOPPER"
+        },
+        {
+            "Id": "01tS0000005xFL5IAM",
+            "IsActive": true,
+            "Name": "CLINICAL REVIEW - RADIATION THERAPY"
+        },
+        {
+            "Id": "01tS0000005xFL6IAM",
+            "IsActive": true,
+            "Name": "CLINICAL REVIEW - RADIOLOGY BENEFIT MANAGEMENT"
+        },
+        {
+            "Id": "01tS0000005xFL7IAM",
+            "IsActive": true,
+            "Name": "CLINICAL REVIEW - REHABILITATIVE SERVICES"
+        },
+        {
+            "Id": "01tS0000005xFL8IAM",
+            "IsActive": true,
+            "Name": "CLINICAL REVIEW - SLEEP"
+        },
+        {
+            "Id": "01tS0000005xFLAIA2",
+            "IsActive": true,
+            "Name": "CLINICAL REVIEW - SPECIALTY RX W SITE OF CARE"
+        },
+        {
+            "Id": "01tS0000005xFLBIA2",
+            "IsActive": true,
+            "Name": "CLINICAL REVIEW - SURGICAL GI"
+        },
+        {
+            "Id": "01tS0000005xFLCIA2",
+            "IsActive": true,
+            "Name": "CLINICAL REVIEW - SURGICAL SHOPPER"
+        },
+        {
+            "Id": "01t1K0000067AxAQAU",
+            "IsActive": true,
+            "Name": "COMMERCIAL OUTBOUND CALL PROGRAM"
+        },
+        {
+            "Id": "01t1K0000067AxBQAU",
+            "IsActive": true,
+            "Name": "CONDITIONCARE:CORE"
+        },
+        {
+            "Id": "01t1K0000067AxCQAU",
+            "IsActive": true,
+            "Name": "CONDITIONCARE:ESRD"
+        },
+        {
+            "Id": "01t1K0000067AxRQAU",
+            "IsActive": true,
+            "Name": "FUTURE MOMS WITH ID AND LHO LACTATION"
+        },
+        {
+            "Id": "01t1K0000067AxkQAE",
+            "IsActive": true,
+            "Name": "GYM REIMBURSEMENT"
+        },
+        {
+            "Id": "01tS0000006Gb4HIAS",
+            "IsActive": true,
+            "Name": "MY HEALTH REWARDS"
+        },
+        {
+            "Id": "01tS0000005xFLOIA2",
+            "IsActive": true,
+            "Name": "MYHEALTH ADVANTAGE GOLD V2"
+        },
+        {
+            "Id": "01t1K0000067AxTQAU",
+            "IsActive": true,
+            "Name": "NICU CASE MANAGEMENT"
+        },
+        {
+            "Id": "01t1K0000067AxUQAU",
+            "IsActive": true,
+            "Name": "PHARMACY OUTREACH PROGRAMS"
+        },
+        {
+            "Id": "01t1K0000067AxVQAU",
+            "IsActive": true,
+            "Name": "QUICK CARE OPTIONS"
+        },
+        {
+            "Id": "01t1K0000067AxgQAE",
+            "IsActive": true,
+            "Name": "TOBACCO FREE CERTIFICATION"
+        },
+        {
+            "Id": "01t1K0000067AxWQAU",
+            "IsActive": true,
+            "Name": "TRANSPLANT"
+        },
+        {
+            "Id": "01t1K0000067AxXQAU",
+            "IsActive": true,
+            "Name": "Utilization Management"
+        },
+        {
+            "Id": "01t1K0000067AxYQAU",
+            "IsActive": true,
+            "Name": "WEBMD HEALTH ASSESSMENT"
+        },
+        {
+            "Id": "01t1K0000067AxhQAE",
+            "IsActive": true,
+            "Name": "Well-being Coach - LM Coaching"
+        }
+    ],
+    "QLI2": {
+        "Id": "0QLS0000000QTK7OAO"
+    },
+    "QLI_Contract_Code": "4ZZZ",
+    "QLI_EffectiveDate": "2020-01-01",
+    "QLI_Funding": "FI",
+    "QLI_Group_Size": "1000+",
+    "QLI_HPCC_Code": "HJ68",
+    "QLI_Id": "0QLS0000000QTJWOA4",
+    "QLI_Incentive_Type": "NA",
+    "QLI_Market": "IN",
+    "QLI_OppType": "New Business Local",
+    "QLI_Opportunity_RecordType": "New Business Local",
+    "QLI_Product_Name": "Anthem HealthSync Options POS (3-Tier) Option 3 with Rx Option T10",
+    "QLI_Product_Type": "Commercial Buy-Ups",
+    "QLI_QuoteId": "0Q0S0000000Me1wKAC",
+    "State": "IN",
+    "TopRangeCheck1": "N",
+    "TopRangeCheck2": "N",
+    "TopRange_Buyup": 1000,
+    "Top_Range": "1000",
+    "error": "OK",
+    "id": "a3CS0000000G1wEMAS",
+    "isdtp": "p1",
+    "layout": "newport",
+    "sfdcIFrameHost": "web",
+    "sfdcIFrameOrigin": "https://commercial--iceqa--vlocity-ins.cs1.visual.force.com",
+    "timeStamp": "2019-08-19T08:47:23.602Z",
+    "userCurrencyCode": "USD",
+    "userId": "00541000006Y55AAAS",
+    "userName": "psingh@deloitte.com2.iceqa",
+    "userProfile": "System Administrator",
+    "userTimeZone": -420,
+    "vlcPersistentComponent": {
+    }
+}

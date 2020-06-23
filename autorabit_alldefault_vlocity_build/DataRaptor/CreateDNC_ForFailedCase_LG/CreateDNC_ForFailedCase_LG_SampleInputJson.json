@@ -1,0 +1,46 @@
+{
+    "bundleName": "CreateDNC_LG",
+    "filesMap": {
+    },
+    "objectList": {
+        "AccountId": "001W000000fiD8GIAU",
+        "ContextId": "001W000000fiD8G",
+        "DNC": "None",
+        "DNCEffectiveDate": "2018-04-27",
+        "DNCPreferences": {
+            "DNC": "None",
+            "DNCEffectiveDate": "04/26/2018",
+            "DNCReason": "Broker Preference",
+            "GroupPreferenceComment": null,
+            "RequestedBy": "Account Manager",
+            "Status": ""
+        },
+        "DNCReason": "Broker Preference",
+        "DoNotUseOverride": "N",
+        "Id": "001W000000fiD8GIAU",
+        "MessageStep": {
+            "Agree": true
+        },
+        "PrefId": "No",
+        "RequestedBy": "Account Manager",
+        "contextId": "001W000000fiD8G",
+        "id": "a3CW0000000BUeHMAW",
+        "layout": "lightning",
+        "timeStamp": "2018-04-23T11:38:22.249Z",
+        "userCurrencyCode": "USD",
+        "userId": "00541000004RYC8AAO",
+        "userName": "mshankarbangalore@deloitte.com.prod.lg.dev",
+        "userProfile": "System Administrator",
+        "userTimeZone": null,
+        "vlcPersistentComponent": {
+        },
+        "vlcTimeTracking": {
+            "DNCPreferences": 5941,
+            "DNCPreferencesExtract": 1169,
+            "MessageStep": 2294,
+            "OmniScriptSessionToken": "7f0bcfc3-d1fb-4fc0-8161-d0982c4f7583",
+            "SetValues1": 321,
+            "SetValues2": 282
+        }
+    }
+}

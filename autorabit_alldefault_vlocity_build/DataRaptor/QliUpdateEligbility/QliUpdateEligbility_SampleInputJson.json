@@ -1,0 +1,284 @@
+{
+    "AccountName": "Cleveland Company",
+    "AddtlDomPartnerDR": "",
+    "COBRAAdminDR": "",
+    "COBRABillGoDR": "",
+    "COBRAPremiumDR": "",
+    "COBRATPADR": "",
+    "CalCOBRAEligibileParticipantsDR": "",
+    "CityDR": "",
+    "ClientAllowsDomesticPartnersCoveredDR": "",
+    "ClientAllowsSamsexDR": "",
+    "CobraAdministrationServiceDR": "",
+    "ContextId": "801S0000000Nb6gIAC",
+    "CustomerMasterAccount": true,
+    "DifferentContactsAtSuffixLevelDR": "",
+    "DoesThisInformationApplyToAllGroupDR": "",
+    "DomPartIndSameForAllQliDR": "Yes",
+    "DomesticPartnerApplyToAllGroupDR": "",
+    "DomesticPartnerIndicatorDR": "",
+    "DomesticPartnerValues": [
+        {
+            "$$hashKey": "object:686",
+            "apiName": "N (No Domestic Partner)",
+            "value": "N (No Domestic Partner)"
+        },
+        {
+            "$$hashKey": "object:687",
+            "apiName": "A (Any Sex Domestic Partner)",
+            "value": "A (Any Sex Domestic Partner)"
+        },
+        {
+            "$$hashKey": "object:688",
+            "apiName": "S (Same Sex Domestic Partner)",
+            "value": "S (Same Sex Domestic Partner)"
+        },
+        {
+            "$$hashKey": "object:689",
+            "apiName": "O (Opposite Sex Domestic Partner)",
+            "value": "O (Opposite Sex Domestic Partner)"
+        }
+    ],
+    "EligibilityFirstIndicator": "",
+    "EligibilityInformation": {
+        "ImplemenationCaseDetails": {
+            "ClaimSystem": "WGS 2.0"
+        }
+    },
+    "EligibilityRecordId": "",
+    "EligibilityRecordType": "EligibilityWGS",
+    "EligibilityValidationRule": "Failed",
+    "EligibilityVisible": "ShowEligibility",
+    "EmployeeClass": "",
+    "EmployeeClassStep": {
+        "EditEmployeeBlock": null,
+        "EmployeeClassExtract": null,
+        "EmployeeClassesseparate": null,
+        "Formula25": null,
+        "Formula26": null,
+        "Messaging5": null
+    },
+    "EmployeeExcludedCodeDRs": "",
+    "EmployeeReinstatementDateEligibilityDR": "",
+    "EmployeeReinstatementProbationaryPeriodDR": "",
+    "FContactName": "",
+    "FundingInformation": {
+        "COBRAWest": {
+            "COBRABillToGo": "",
+            "COBRAPremiumPaid": "",
+            "COBRATPAUsingNonBC": ""
+        },
+        "FundingDetails": {
+            "IfYesPlzExplain": ""
+        },
+        "TPAContactInformation": {
+            "State": "",
+            "ZipCode": ""
+        }
+    },
+    "FundingName": "FUND-000214",
+    "FundingRecordId": "a7LS0000000D9jqMAC",
+    "FundingValidationRule": "Passed",
+    "FundingVisible": "ShowFunding",
+    "GroupClaimSystem": "WGS 2.0",
+    "GroupContractCode": "",
+    "GroupID": "a5IS00000005LKmMAM",
+    "IfDepReachesMaxAgeAutoTermateDR": "",
+    "IfNoPleaseSpecifyDR": "",
+    "IfNoSpecifyGroupsForDomesticPartDR": "",
+    "IfYesIndicateProbPeriodDR": "",
+    "IfYesPlzExplnDR": "",
+    "ImplCase": {
+        "AccountId": "001S000000yl42tIAA",
+        "AreThereChangesToEligibility": "Yes",
+        "ChangesToFundingOrBillingEntity": "Yes",
+        "GroupId": "a5IS00000005LKmMAM",
+        "Id": "801S0000000Nb6gIAC",
+        "ImplementationType": "Change Request Off Cycle",
+        "LatestEligibility": "",
+        "LatestFunding": "a7LS0000000D9jqMAC"
+    },
+    "IncludeHCIDNumberOnTheInvoiceDR": "No",
+    "InvoiceGPDMappingStep": {
+        "GPD": null,
+        "InvoiceList": {
+            "InvDescription": null,
+            "InvOtherSortingOption1": null,
+            "InvRecordId": null,
+            "InvSortingOption1": null,
+            "InvSortingOption2": null
+        }
+    },
+    "IsThereaWaitingPeriodDR": "",
+    "MembershipCommentsDR": "",
+    "MoreThanOneBillEntityDR": "Yes",
+    "NHProbPDSameForAllQliAndSufixDR": "Yes",
+    "NewHireCoverageEffDateEligibilityDR": "",
+    "NewHireProbValues": [
+        {
+            "$$hashKey": "object:690",
+            "apiName": "1 Month",
+            "value": "1 Month"
+        },
+        {
+            "$$hashKey": "object:691",
+            "apiName": "2 Months",
+            "value": "2 Months"
+        },
+        {
+            "$$hashKey": "object:692",
+            "apiName": "3 Months",
+            "value": "3 Months"
+        },
+        {
+            "$$hashKey": "object:693",
+            "apiName": "1 Day",
+            "value": "1 Day"
+        },
+        {
+            "$$hashKey": "object:694",
+            "apiName": "15 Days",
+            "value": "15 Days"
+        },
+        {
+            "$$hashKey": "object:695",
+            "apiName": "28 Days",
+            "value": "28 Days"
+        },
+        {
+            "$$hashKey": "object:696",
+            "apiName": "30 Days",
+            "value": "30 Days"
+        },
+        {
+            "$$hashKey": "object:697",
+            "apiName": "40 Days",
+            "value": "40 Days"
+        },
+        {
+            "$$hashKey": "object:698",
+            "apiName": "42 Days",
+            "value": "42 Days"
+        },
+        {
+            "$$hashKey": "object:699",
+            "apiName": "45 Days",
+            "value": "45 Days"
+        },
+        {
+            "$$hashKey": "object:700",
+            "apiName": "56 Days",
+            "value": "56 Days"
+        },
+        {
+            "$$hashKey": "object:701",
+            "apiName": "60 Days",
+            "value": "60 Days"
+        },
+        {
+            "$$hashKey": "object:702",
+            "apiName": "84 Days",
+            "value": "84 Days"
+        },
+        {
+            "$$hashKey": "object:703",
+            "apiName": "90 Days",
+            "value": "90 Days"
+        },
+        {
+            "$$hashKey": "object:704",
+            "apiName": "OTHER",
+            "value": "OTHER"
+        }
+    ],
+    "NewHireProbationaryPeriodDR": "",
+    "NotesDR": "",
+    "OverCodeDR": "",
+    "OverageDepTermLettersMailedToBusDR": "",
+    "PercentPremDepSameForAllQliAndSufixDR": "Yes",
+    "PercentPremSubSameForAllQliAndSufixDR": "Yes",
+    "PhoneDR": "",
+    "PremPaidForEachSubDepPerMonthDR": "",
+    "PremPaidForEachSubPerMonthDR": "",
+    "PremiumRecdFromMoreThanOneSourceDR": "",
+    "QLIProductEligibility": {
+        "QliEligibility": [
+            {
+                "DomesticPartnerIndicator": null,
+                "NewHireProbationaryPeriod": null,
+                "PercentageSubDepMonth": 10,
+                "PercentageSubMonth": 10,
+                "ProductLOB": "Medical",
+                "ProductName": "Aac Inc Anthem KeyCare Plus 10/10%/3000",
+                "QLIId": "0QLS0000000VhLmOAK"
+            }
+        ],
+        "QliFirstBlock": {
+            "DomPartIndSameForAllQliAndSufixPriview": null,
+            "NHProbPDSameForAllQliAndSufixPriview": null,
+            "PercentPremDepSameForAllQLIAndSuffix": null,
+            "PercentPremSubSameForAllQLIAndSuffix": null
+        }
+    },
+    "QLIProductsData": {
+        "APNDetails": {
+            "ANPrefixProdName": null,
+            "AssignedPrefixName": null,
+            "CustomNwkName": null,
+            "PrdNwkName": null
+        },
+        "QLIProducts": null
+    },
+    "SelectedBilling": "One Invoice per LOB",
+    "SelectedEmpCategory": "Active",
+    "SelfFundedwithReinsuranceDR": "",
+    "SitusStateValue": "Colorado",
+    "StateDR": "",
+    "StatusDescription": "",
+    "Step12": {
+        "Select31": ""
+    },
+    "StreetAddressDR": "",
+    "Submit": {
+        "ASQS": null,
+        "CustomerRequestedGroupNumber": null,
+        "SubmitThisAccountStructure": null,
+        "TrackAccountStructure": null
+    },
+    "TPAContactNameDR": "",
+    "WhoWilHandleCalCOBRABillingDR": "",
+    "WomenContraceptiveIndicatorDR": "",
+    "ZipCodeDR": "",
+    "eligibilityname": "",
+    "error": "OK",
+    "groupname": "",
+    "id": "a3CS0000000Hv4dMAC",
+    "isdtp": "p1",
+    "qlirecord": "",
+    "sfdcIFrameHost": "web",
+    "sfdcIFrameOrigin": "https://commercial--icerapt--vlocity-ins.cs1.visual.force.com",
+    "stChangesToEligibility": "Yes",
+    "stChangesToFunding": "Yes",
+    "stImplType": "Change Request Off Cycle",
+    "testContextId": "801S0000000Nb6gIAC",
+    "timeStamp": "2019-12-05T06:14:08.379Z",
+    "userCurrencyCode": "USD",
+    "userId": "005S000000FtiNSIAZ",
+    "userName": "sebanti.chowdhury@accenture.com.icerapt",
+    "userProfile": "System Administrator",
+    "userTimeZone": -300,
+    "verticalmode": true,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "AccountStructureAccountExtract": 1618,
+        "DataRaptorExtractAction10": 418,
+        "EligibilityrecordSt": 30,
+        "ExtractEligibilityFundingByImpleCaseDR": 1580,
+        "ExtractQ": 1555,
+        "ExtractQLIPicklistRemote": 418,
+        "ExtractQliEligibility": 2101,
+        "OmniScriptSessionToken": "7e8f85cf-4e30-4d40-8838-95d4c15e146a",
+        "SetValues10": 20
+    }
+}

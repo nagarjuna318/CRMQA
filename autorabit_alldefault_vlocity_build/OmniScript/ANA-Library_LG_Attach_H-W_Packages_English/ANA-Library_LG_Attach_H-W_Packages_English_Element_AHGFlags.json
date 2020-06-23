@@ -1,0 +1,57 @@
+{
+    "%vlocity_namespace%__Active__c": false,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "LG_Attach_H&W_Packages",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/ANA Library/LG_Attach_H&W_Packages/English",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__PropertySet__c": {
+        "HTMLTemplateId": "",
+        "controlWidth": 12,
+        "disOnTplt": false,
+        "elementValueMap": {
+            "ExistingAHGRecord": "=COUNT(%QLI%)",
+            "NewAHGRecord": "=COUNT(%QLI2%)",
+            "NewAHGRecordId": "=%QLI2:Id%"
+        },
+        "label": "SetValues5",
+        "message": {
+        },
+        "show": {
+            "group": {
+                "operator": "OR",
+                "rules": [
+                    {
+                        "condition": "=",
+                        "data": "true",
+                        "field": "ContainsAHG"
+                    },
+                    {
+                        "condition": "=",
+                        "data": "true",
+                        "field": "ContainsAHG1"
+                    },
+                    {
+                        "condition": "=",
+                        "data": "true",
+                        "field": "ContainsAHG2"
+                    }
+                ]
+            }
+        },
+        "showPersistentComponent": [
+            false,
+            false
+        ],
+        "ssm": false,
+        "validationRequired": "Step",
+        "wpm": false
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": false,
+    "%vlocity_namespace%__Type__c": "Set Values",
+    "Name": "AHGFlags",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/ANA Library/LG_Attach_H&W_Packages/English/AHGFlags"
+}

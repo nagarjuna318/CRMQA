@@ -1,0 +1,207 @@
+{
+    "AccountId": "0015B00000SvcvDQAR",
+    "Carriers": {
+        "AnthemDental": {
+            "2YearDentalGroupNumbers": "2",
+            "AnthemDentalCarrier": "Anthem Dental Prime And Complete;Anthem Dental Essential Choice PPO;Anthem Dental Consumer Choice PPO",
+            "DeltaDentalState": null,
+            "FutureDentalClaims": true,
+            "FutureDentalGroupNumbers": "2",
+            "IfOtherAnthemDeltaDentalSelected": false,
+            "IfOtherAnthemDentalSelected": false,
+            "IfOtherAnthemDentalSpecifyCarriers": null,
+            "IsThereAnthemDental": "Yes",
+            "Past2YearDentalClaimHistory": true,
+            "SelectAllAnthemDentalThatApply": null
+        },
+        "MedicalBlock": {
+            "AnthemOnlyOrMultiCarrier": "Multi-Carrier",
+            "IfMultiCarrierSelectAllThatApply": "Aetna;Arkansas Blue Cross Blue Shield;HealthSCOPE Benefits;Other",
+            "IfMutliCarrierSelectOther": true,
+            "IfOtherSpecifyMedicalCarriers": "testdadsf"
+        },
+        "Pharmacy": {
+            "2YearPharmacyGroupNumbers": "22",
+            "ESICarveIn": "Yes",
+            "FuturePharmacyClaims": true,
+            "FuturePharmacyGroupNumbers": "22",
+            "IfCarveOutSelectAllThatApply": null,
+            "IfCarveOutSelectApplyHasOther": false,
+            "IfOtherSpecifyRxCarriers": null,
+            "IfYesPleaseIndicateRxVendor": null,
+            "IsPharmacyIncluded": "Yes",
+            "Past2YearPharmacyClaimHistory": true
+        }
+    },
+    "ClientBillingCity": "Chicago",
+    "ClientBillingCountry": "USA",
+    "ClientBillingPostalCode": "60606",
+    "ClientBillingState": "IL",
+    "ClientBillingStreet": "123 Main St",
+    "ContextId": "0Q05B000000Ej94SAC",
+    "DRId_Engage_Scoping_And_Engage_Standard__c": "a7r5B0000008SrTQAU",
+    "EngageScopingGeneralInfo": {
+        "AccountExcutiveManager": "Kristin Chung",
+        "AccountImplementationLead": "Indra Lugina",
+        "AccountLegalName": "KC Test",
+        "AccountRenewalOrNewSale": "New Sale",
+        "AnthemControlState": "NY New York",
+        "ClaimSystem": "WGS 2.0",
+        "ClientMarket": "National Accounts",
+        "ContractType": "Anthem Contract With Client",
+        "GroupNumber": "WGS 011",
+        "OpportunityName": "2019 New Business-KC Test",
+        "OpportunityType": "New Business",
+        "QuoteName": "2019 New Business-KC Test",
+        "RecordIdFM": "a7r5B0000008SrTQAU",
+        "RequestedDate": {
+            "AnthemContractSignDate": "2018-07-18",
+            "CastlightContractSignDate": "2018-07-18",
+            "ClientPreferredLaunchDateForEngage": "2018-07-26",
+            "ClientTerminationEffectiveDate": "2018-07-26",
+            "ExistingClientChangesEffectiveDate": "2018-07-26",
+            "RegistrationAvailabilityDuringOE": "Yes",
+            "WhenDoesPlanYearStart": "2018-07-19",
+            "WhenIsOpenEnrollment": "2018-07-18"
+        }
+    },
+    "EngageScopingGeneralInfo:ClientBillingCity": "",
+    "EngageScopingGeneralInfo:ClientBillingCountry": "",
+    "EngageScopingGeneralInfo:ClientBillingPostalCode": "",
+    "EngageScopingGeneralInfo:ClientBillingState": "",
+    "EngageScopingGeneralInfo:ClientBillingStreet": "",
+    "EstimatedTotalMembershipByProduct": {
+        "EstimatedTotalMembershipFM": 8,
+        "ProductElite": true,
+        "ProductEliteBlock": {
+            "SubscribersE": 2,
+            "TotalMembershipE": 2
+        },
+        "ProductElitePlus": true,
+        "ProductElitePlusBlock": {
+            "SubscribersElitePlus": 2,
+            "TotalMembershipEP": 2
+        },
+        "ProductEssentials": true,
+        "ProductEssentialsBlock": {
+            "ProductEssentialsCCF": true,
+            "ProductEssentialsEYCFAD": true,
+            "SubscribersES": 2,
+            "TotalMembershipES": 2
+        },
+        "ProductEssentialsNonAnthem": true,
+        "ProductEssentialsNonAnthemBlock": {
+            "SubscribersENA": 2,
+            "TotalMembershipENA": 2
+        },
+        "ProductEssentialsPlus": true,
+        "ProductEssentialsPlusBlock": {
+            "SubscribersESP": 2,
+            "TotalMembershipESP": 2
+        }
+    },
+    "ExpectedIntegrations": {
+        "BenefitEnrollmentBlock": {
+            "ClientHaveBenefitEnrollmentPlatform": "Yes",
+            "EmbedRegistrationIntoAEAndNHE": "No",
+            "IfOtherSpecifyBEPAdministrator": null,
+            "IfYesSpecifyBEPAdministrator": "ADP (Link only)",
+            "IfYesSpecifyBEPAdministratorOtherSelected": false
+        },
+        "HealthAccountsBlocks": {
+            "FSAHealthAccount": true,
+            "HRAHealthAccount": true,
+            "HSAHealthAccount": true,
+            "IfYesSpecifyFSAVendor": "Act Wise",
+            "IfYesSpecifyHRAVendor": "Act Wise",
+            "IfYesSpecifyHSAVendor": "Aon",
+            "OtherHealthAccount": true,
+            "SpecifyAccountTypeAndVendorDetails": "adsfdsf"
+        },
+        "OnsiteClinicsBlock": {
+            "DoesTheClientHaveOnsiteClinics": "Yes",
+            "IfYesSpecifyOCAdministrator": "Healthcare Clinic"
+        },
+        "SSOBlock": {
+            "InboundSSOPartnersDesired": "Okta;Regis;Xerox",
+            "IsInboundSSORequired": "Yes",
+            "IsOutboundSSORequired": "Yes",
+            "OutboundSSOPartnersDesired": "Health Equity;HSA Bank;RedBrick Health;WageWorks"
+        }
+    },
+    "ImplementerId": "0055B000001O1xCQAS",
+    "Interests": {
+        "DeviceCreditBudget": "Yes",
+        "DoesClientHaveAnthemHealthRewards": "Yes",
+        "IncentivesBudget": "Yes",
+        "IsClientInterestedInDeviceCredit": true,
+        "IsClientInterestedInIncentives": true,
+        "IsClientInterestedInRewardsCenter": true
+    },
+    "NetworksCommunications": {
+        "CommunicationsBlock": {
+            "AnthemToProvideCommSupport": "No",
+            "IfNoSpecifyAlternativeArrangement": "222"
+        },
+        "NetworkStructure": {
+            "AdvantageNetworks": true,
+            "AdvantageNetworksAlphaPrefixes": "2",
+            "IfOtherSpecifyNetwork": "22",
+            "NationalNetworks": true,
+            "NationalNetworksAlphaPrefixes": "2",
+            "NumberOfPlans": 2
+        }
+    },
+    "Programs": {
+        "BehavioralHealthBlock": {
+            "AnthemBasicOfEnhancedEAP": "Basic",
+            "IFEAPSelectAllThatApply": "Anthem;Ceridian LifeWorks;Chesnut",
+            "IFEAPSelectAllThatApplyEqANTHEM": true,
+            "IFEAPSelectAllThatApplyOtherSelected": false,
+            "IfBehavioralHealthSelectAllThatApply": "Anthem;Beacon Health Options;ComPsych",
+            "IfOtherBehaviorHealthSelected": false,
+            "IfOtherPleaseSpecifyBHEAP": null,
+            "IfOtherSpecifyBehaviorHealth": null,
+            "IncludesBehavioralHealthElevate": "Yes"
+        },
+        "ClinicalBlock": {
+            "ClinicalSharedDataAndExperiences": "Other",
+            "IfOtherClinicalPleaseSpecify": "2"
+        },
+        "WellnessBlock": {
+            "ClientHaveOwnWellnessVendors": "Yes",
+            "IfYesWhichVendorUsedToday": "2"
+        }
+    },
+    "ReadyToSubmit": {
+        "FR-FinishMessage": " Updating Castligtht Engage Scoping Record For: KC Test"
+    },
+    "RecordId": "a7r5B0000008SrTQAU",
+    "RecordType": "Engage Scoping",
+    "RecordTypeName": "Engage Standard",
+    "TodaysDate": "2018-07-02T05:00:00.000Z",
+    "id": "a3C5B000000A29iUAC",
+    "layout": "lightning",
+    "timeStamp": "2018-07-03T00:05:22.319Z",
+    "userCurrencyCode": "USD",
+    "userId": "0055B000001O1xCQAS",
+    "userName": "ilugina@anthem.com2.iceconfig",
+    "userProfile": "System Administrator",
+    "userTimeZone": -240,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "Carriers": 290947,
+        "DRE_ENGAGE_ExtractESS": 6127,
+        "DRE_ENGAGE_ExtractQuoteAccount": 12381,
+        "EngageScopingGeneralInfo": 184542,
+        "EstimatedTotalMembershipByProduct": 271091,
+        "ExpectedIntegrations": 35352,
+        "Interests": 39794,
+        "NetworksCommunications": 132343,
+        "OmniScriptSessionToken": "57efd885-729a-4600-966f-f3048df48c88",
+        "PostSetValue": 153,
+        "PreSetValue": 3110,
+        "Programs": 29808
+    }
+}

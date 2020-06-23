@@ -1,0 +1,27 @@
+{
+    "Cards": [
+        "UnderWritingCard"
+    ],
+    "dataSource": {
+        "contextVariables": [
+            {
+                "name": "params.Id",
+                "val": "a7i5B0000008RgXQAU"
+            }
+        ],
+        "type": "Query",
+        "value": {
+            "jsonMap": "{\"params.id || params.Id\":\"{{params.id || params.Id}}\"}"
+        }
+    },
+    "previewType": "runTime",
+    "templates": {
+        "0": {
+            "templateUrl": "anthem-card-canvas-1x-slds-nosearch"
+        }
+    },
+    "workspace": [
+        "UnderWritingCard/Anthem Commercial 2.0/1/1533676389576",
+        "Final Rate Sheet Card/Anthem Commercial 2.0/1/1574054769252"
+    ]
+}

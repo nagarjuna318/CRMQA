@@ -1,0 +1,24 @@
+{
+    "ContextId": "",
+    "DNCPreferences": {
+        "DNC": null,
+        "DNCEffectiveDate": null,
+        "DNCReason": null,
+        "DoNotUseOverride": null,
+        "GroupPreferenceComment": null,
+        "RequestedBy": "Employer"
+    },
+    "MessageStep": {
+        "Agree": false
+    },
+    "id": "a3E4B0000001JAyUAM",
+    "layout": "lightning",
+    "timeStamp": "2017-04-12T06:05:22.989Z",
+    "userId": "0054B000000vRjwQAE",
+    "userName": "naveen.mallepalli@anthem.com2.proto",
+    "userProfile": "System Administrator",
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+    }
+}

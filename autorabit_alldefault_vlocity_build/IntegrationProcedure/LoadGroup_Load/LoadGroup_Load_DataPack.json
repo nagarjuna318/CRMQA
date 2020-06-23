@@ -1,0 +1,23 @@
+{
+    "%vlocity_namespace%__AdditionalInformation__c": "Adding an ResponseAction to send back results",
+    "%vlocity_namespace%__CustomJavaScript__c": "LoadGroup_Load_SampleInput.json",
+    "%vlocity_namespace%__DisableMetadataCache__c": false,
+    "%vlocity_namespace%__ElementTypeToHTMLTemplateList__c": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "%vlocity_namespace%__Element__c": [
+        "LoadGroup_Load_Element_DataRaptorExtractAction7.json",
+        "LoadGroup_Load_Element_DataRaptorExtractAction6.json",
+        "LoadGroup_Load_Element_ResponseAction2.json"
+    ],
+    "%vlocity_namespace%__IsLwcEnabled__c": false,
+    "%vlocity_namespace%__IsProcedure__c": true,
+    "%vlocity_namespace%__IsReusable__c": false,
+    "%vlocity_namespace%__Language__c": "Procedure",
+    "%vlocity_namespace%__ProcedureKey__c": "LoadGroup_Load",
+    "%vlocity_namespace%__PropertySet__c": "LoadGroup_Load_PropertySet.json",
+    "%vlocity_namespace%__SubType__c": "Load",
+    "%vlocity_namespace%__Type__c": "LoadGroup",
+    "Name": "New Integration Procedure",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__OmniScript__c/LoadGroup/Load/Procedure"
+}

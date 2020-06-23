@@ -1,0 +1,27 @@
+{
+    "Cards": [
+        "Account_Plan"
+    ],
+    "customPreviewPages": [
+    ],
+    "dataSource": {
+        "contextVariables": [
+            {
+                "name": "params.Id",
+                "val": "a6l1F0000004KouQAE"
+            }
+        ],
+        "type": "Query",
+        "value": {
+            "query": "SELECT Id, Name FROM Account_Plan__c WHERE Id = '{{params.id || params.Id}}'"
+        }
+    },
+    "templates": {
+        "0": {
+            "templateUrl": "card-canvas-1x-slds-nosearch"
+        }
+    },
+    "workspace": [
+        "Account_Plan/Anthem Commercial 2.0/1/1532460249363"
+    ]
+}

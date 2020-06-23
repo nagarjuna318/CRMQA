@@ -1,0 +1,745 @@
+{
+    "Account": {
+        "Active_Renewal_Date": "",
+        "AnthemEntityTransform": "Local",
+        "Anthem_Entity": "Local/Large Group",
+        "ClaimsRepricingTool": "",
+        "CustomSaving": "",
+        "Id": "0015400000V37PgAAJ",
+        "LoggedInUserProfile": "System Administrator",
+        "Name": "cloud consulting",
+        "ProgramSelectionDetails": "No",
+        "RecordType": "LG Prospect",
+        "RecordTypeId": "01241000001EdidAAC",
+        "SharedSavings": "",
+        "SitusState": "Colorado",
+        "Type": ""
+    },
+    "AccountExecutiveTypeCheck": true,
+    "AccountGroupSizeFormula": "",
+    "AccountId": "0015400000V37PgAAJ",
+    "AccountManager": "Samantha Alviti",
+    "AccountManagerDR": {
+        "AccountAccessLevel": "Edit",
+        "AccountId": "0015400000V37PgAAJ",
+        "CaseAccessLevel": "Edit",
+        "ContactAccessLevel": "Edit",
+        "Id": "01M54000007D34sEAC",
+        "OpportunityAccessLevel": "Edit",
+        "PhotoURL": "/profilephoto/005/T",
+        "TeamMemberRole": "Account Manager",
+        "Title": "Account Mgmt Exec Consultant"
+    },
+    "AccountManagerId": "00541000003bWWgAAM",
+    "AccountManagerTypeCheck": false,
+    "AccountManagerUserName": "Samantha Alviti",
+    "AccountRecordType": "LG Prospect",
+    "AnthemEntity": "Local/Large Group",
+    "ArethereChangestoBehavioralHealth": "No",
+    "AretherechangestoBrokerCommissionsBlock": {
+        "AretherechangestoBrokerCommissions": ""
+    },
+    "BBDocAttach": "NotAllow",
+    "BrokerInformation": {
+        "BCIdCount": null,
+        "BORCORConsolidation": null,
+        "BrokerageConsultantInformation": {
+            "BCId": null,
+            "BOR": false,
+            "BORandCORFormula": null,
+            "BrokerValidationMessaging": null,
+            "BrokerageEffectiveDate": null,
+            "BrokerageName-Block": {
+                "BrokerageId": null,
+                "BrokerageName": null
+            },
+            "COR": false,
+            "ConsultantName-Block": {
+                "ConsultantId": null,
+                "ConsultantName": null
+            },
+            "ConsultantValidationMessaging": null
+        },
+        "MultipleBORCORMessaging": null,
+        "SingleBORCORMessaging": null,
+        "skip_broker_screen": null
+    },
+    "BundleCount": false,
+    "BundleCount1": false,
+    "CastlightProductCheck": false,
+    "CheckOSName": "GroupNumberRequest",
+    "Comments": {
+        "AdditionalCommentsBlock": {
+            "AdditionalComments": null
+        },
+        "ImpactedPackagesSuffixesSectionsBlock": null
+    },
+    "CompanyInformation": {
+        "AccountName": "cloud consulting",
+        "AccountNameDBA": "test",
+        "AccountTeamMembers": {
+            "AccountExecutive": null,
+            "AccountExecutiveCheck": false,
+            "AccountExecutiveTypeAhead-Block": {
+                "AccountExecutiveTypeAhead": null
+            },
+            "AccountManager": "Samantha Alviti",
+            "AccountManagerCheck": false,
+            "AccountManagerTypeAhead-Block": {
+                "AccountManagerTypeAhead": "Samantha Alviti"
+            },
+            "GenericMessage": true,
+            "IdenticalCheck": false,
+            "IdenticalCheckMessage": null,
+            "MultipleRoleValidationMessaging": null,
+            "SalesAccountRepAcctMgmt": null,
+            "SalesAccountRepAcctMgmtCheck": false,
+            "SalesAccountRepAcctMgmtTypeAhead-Block": {
+                "SalesAccountRepAcctMgmtTypeAhead": null
+            },
+            "SpecialtySalesExecutive": null,
+            "SpecialtySalesExecutiveCheck": false,
+            "SpecialtySalesExecutiveTypeAhead-Block": {
+                "SpecialtySalesExecutiveTypeAhead": null
+            }
+        },
+        "ContactEmailEditFormula": "n@p.c",
+        "ContactFirstNameEditFormula": "Niharika",
+        "ContactIdEditFormula": "0035400000Y1czEAAR",
+        "ContactInformation": {
+            "ContactInformationEdit": {
+                "ContactEmailEdit": null,
+                "ContactFirstNameEdit": null,
+                "ContactIdEdit": null,
+                "ContactLastNameEdit": null,
+                "ContactPhoneEdit": null,
+                "ContactRelationIdEdit": null
+            },
+            "ContactInformationRO": {
+                "ContactEmailRO": null,
+                "ContactFirstNameRO": null,
+                "ContactLastNameRO": null,
+                "ContactPhoneRO": null
+            },
+            "ContactType": "Group Administrator",
+            "PrimaryContact": true
+        },
+        "ContactLastNameEditFormula": "Patil",
+        "ContactNameTypeAhead-Block": {
+            "AccountIdFormula": "0015400000V37PgAAJ",
+            "ContactAccountId": null,
+            "ContactEmail": "n@p.c",
+            "ContactFirstName": "Niharika",
+            "ContactId": "0035400000Y1czEAAR",
+            "ContactLastName": "Patil",
+            "ContactNameTypeAhead": "Niharika Patil",
+            "ContactPhone": "7896546789",
+            "ContactRelationId": "a5F540000006xdMEAQ",
+            "ContactTypeAhead": "Benefits"
+        },
+        "ContactPhoneEditFormula": "7896546789",
+        "ContactPrimaryCheckboxFormula": true,
+        "ContactRelationIdEditFormula": "a5F540000006xdMEAQ",
+        "ContactRelationshipNameFormula": "Niharika Patil",
+        "ContactTypeAheadFormula": "Benefits;Group Administrator",
+        "ERISAStatus": "ERISA",
+        "LegalEntity": "IN = Individual",
+        "MultipleContactSelection": true,
+        "OnePrimaryCheck": true,
+        "OnePrimaryContactValidation": true,
+        "Phone": "1234567891",
+        "PhysicalANDMailingAddress": {
+            "MailingConditionBlock": {
+                "MailingBlock": {
+                    "MailingCity": "Irving",
+                    "MailingState": "TX",
+                    "MailingStreetAddress": "6750 North MacArthur Boulevard",
+                    "MailingZipCode": "75039"
+                },
+                "MailingFormula": null
+            },
+            "PhysicalCorrectlevel": {
+                "PhysicalBlock": {
+                    "PhysicalCity": "Irving",
+                    "PhysicalState": "TX",
+                    "PhysicalStreetAddress": "6750 North MacArthur Boulevard",
+                    "PhysicalZipCode": "75039"
+                }
+            }
+        },
+        "PrimaryCheckboxTypeAhead": true,
+        "PrimaryContactCheck": null,
+        "ShippingAddressSame": false,
+        "SitusState": "Colorado",
+        "WGSMBUCode": "CSP00000"
+    },
+    "ContactRelationshipNOGA": {
+        "Id": "a5F540000006xdMEAQ"
+    },
+    "ContextId": "0Q05400000064H9CAI",
+    "EffectiveDate": "True",
+    "EligibleMPIQLIs": 2,
+    "EligibleMPIQLIsForCROC": 0,
+    "EngageAloneProductCheck": false,
+    "EngageProductCheck": false,
+    "ExisitingOrder": "Allow",
+    "GroupId": "a5I54000000bHFJEA2",
+    "GroupIdPresent": "Yes",
+    "GroupInformation": {
+        "AreBrokerCommissionsImpactedBlock": {
+            "AccumulatorHistoryLoadNB": "No",
+            "AreBrokerCommissionsImpacted": "No"
+        },
+        "AreCustomIDCardsRequestedBlock": {
+            "AreCustomIDCardsRequested": "No"
+        },
+        "AreThereChangesToRatesBlock": {
+            "AreThereChangesToRates": null
+        },
+        "ArethereCustomIVRTelephonychangesCROCBlock": {
+            "ArethereCustomIVRTelephonychangesCROC": null
+        },
+        "ArethereCustomIVRTelephonychangesNewBlock": {
+            "ArethereCustomIVRTelephonychangesNew": "No"
+        },
+        "ArethereCustomIVRTelephonychangesRenewalBlock": {
+            "ArethereCustomIVRTelephonychangesRenewal": null
+        },
+        "AretherechangestoGroupStructureBlock": {
+            "AretherechangestoGroupStructure": null
+        },
+        "CPDVisibilityBlock": null,
+        "CarrierDedCreditAccumulation": {
+            "CreditAccumulation": "Don't Know at This Time"
+        },
+        "DiscoveryCallDesiredBlock": {
+            "DiscoveryCallDesired": "No"
+        },
+        "DoesapartialtermapplyBlock": {
+            "Doesapartialtermapply": null
+        },
+        "DoeschangereqimpactPreCertDetailsBlock": {
+            "DoeschangereqimpactPreCertDetails": null
+        },
+        "FPCRVisibilityBlock": {
+            "FinalPreCertificationRules": null
+        },
+        "FirstImpressionsNeeded": null,
+        "Formula23": false,
+        "IDCardChangesBlock": {
+            "IDCardChanges": null
+        },
+        "IDCardsLocalBlock": {
+            "CustomIDCards": false
+        },
+        "IfNoPleaseprovidedetailsBlock": null,
+        "IfYesPleaseExplaintheChangesMadeBlock": null,
+        "IfyespleaseexplainthechangesmadeBlock": null,
+        "IfyespleaseexplainupdatesmadeBlock": null,
+        "LocalLargeGroup": null,
+        "MPIdetails": {
+            "BLK_MPIDetail": {
+                "ClaimsRepricingTool": "Yes",
+                "CustomSavingCalc": null,
+                "CustomSavings": null,
+                "CustomSavings_MPI": null,
+                "CustomSavings_Standard": 50,
+                "IsValidPercentage": null,
+                "Messaging9": null,
+                "SharedSavings": "Standard"
+            },
+            "ProgramSelectionDetails": "No"
+        },
+        "MandatorylegislativeupdatesforGroupBlock": {
+            "MandatorylegislativeupdatesforGroup": null
+        },
+        "OpenEnrollmentDateBlock": {
+            "OpenEnrollmentDate": null,
+            "OpenEnrollmentEndDate": null
+        },
+        "PreImplementation": {
+            "PreImplementationAudit": null
+        },
+        "ProvidePartialTermReasonBlock": null
+    },
+    "GroupInformation_LG": {
+        "BenefitRenewalAnniversaryDate": "2022-01-01",
+        "EligibleEmployees": 400,
+        "EmployeeTaxId": null,
+        "GroupId": "a5I54000000bHFJEA2",
+        "MonthUnderwriterstartsrenewalprocess": "January",
+        "OriginalEffectiveDate": "2020-06-01",
+        "QuoteId": "0Q05400000064H9CAI",
+        "RetroEnrollment/MaintenanceElectronic": "60",
+        "RetroEnrollmentMaintenanceOnline": "60"
+    },
+    "HTMLTemplateId": "",
+    "IC-OpptyRecordType": [
+        "Dead",
+        "Declined to Quote",
+        "In Progress",
+        "Lost",
+        "Sold"
+    ],
+    "IGAP": "0Q00r0000000AzICAU",
+    "IGC": "0Q00r0000000AzICAU",
+    "IMP-ProgramStages": [
+        "Dead",
+        "Declined to Quote",
+        "In Progress",
+        "Lost",
+        "Sold"
+    ],
+    "IT-Admin Change": false,
+    "IT-RenewalAsIs": false,
+    "ImplementationType": "New Business",
+    "InProgressCount": true,
+    "JAAMCSFlag": "N",
+    "LnDProducts": true,
+    "LnT_Identifier": "No",
+    "MPIAccountId": "0015400000V37PgAAJ",
+    "MPIQLI": [
+        {
+            "Funding": "ASO",
+            "Id": "0QL540000006vVmGAI",
+            "ProductCat": "Product",
+            "ProductType": "Medical"
+        },
+        {
+            "Funding": "ASO",
+            "Id": "0QL540000006vVnGAI",
+            "ProductCat": "Product",
+            "ProductType": "Medical"
+        }
+    ],
+    "MonthName": "January",
+    "Monthofrenewaldate": 1,
+    "NewBusiness": "0Q0S0000000PdI3KAK",
+    "OppCloseDate": "2022-01-01",
+    "OpportunityDetails": {
+        "AnthemEntity": "Local/Large Group",
+        "OpportunityName": "2021 New Business-cloud consulting",
+        "OpportunityType": "New Business Local"
+    },
+    "OpportunityTeamMemberUserId": "",
+    "OpptyRType": "New Business",
+    "PreRuleValidation": "Y",
+    "PreWork": [
+        "Engage Product",
+        "New Eligibility Vendor Setup",
+        "Data Interface New Vendor Build",
+        "SSCR Build for Client Customization",
+        "SBC"
+    ],
+    "ProductLOB": "Life",
+    "ProductsInprogress": {
+        "ImpactedProductsCheck": false,
+        "ImpactedProductsMessage": null,
+        "QuoteDetailsQLI": [
+            {
+                "$$hashKey": "object:2886",
+                "Area": false,
+                "BenefitPeriod": "Benefit Year",
+                "EmployeeAssistanceProgram": false,
+                "Funding": "ASO",
+                "Id": "0QL540000006vUAGAY",
+                "Probability": "100%",
+                "ProductCategory": "Product",
+                "ProductFamily": "DENTAL PPO",
+                "ProductName": "Dental Prime/Complete (DDS)",
+                "ProductStage": "Sold",
+                "ProductType": "Dental",
+                "vlcBundleStage": "Sold",
+                "vlcSelected": true
+            },
+            {
+                "$$hashKey": "object:2887",
+                "Area": true,
+                "EmployeeAssistanceProgram": false,
+                "Funding": "ASO",
+                "Id": "0QL540000006vV8GAI",
+                "Probability": "10%",
+                "ProductCategory": "Product",
+                "ProductFamily": "LIFE",
+                "ProductName": "Basic Dependent AD&D",
+                "ProductStage": "In Progress",
+                "ProductType": "Life",
+                "vlcBundleStage": "In Progress",
+                "vlcSelected": true
+            },
+            {
+                "$$hashKey": "object:2888",
+                "Area": false,
+                "EmployeeAssistanceProgram": false,
+                "Funding": "ASO",
+                "Id": "0QL540000006vUBGAY",
+                "Probability": "100%",
+                "ProductCategory": "Product",
+                "ProductFamily": "DENTAL PPO",
+                "ProductName": "Dental Prime/Complete (WGS)",
+                "ProductStage": "Sold",
+                "ProductType": "Dental",
+                "vlcBundleStage": "Sold",
+                "vlcSelected": true
+            },
+            {
+                "$$hashKey": "object:2889",
+                "Area": false,
+                "EmployeeAssistanceProgram": false,
+                "Funding": "ASO",
+                "Id": "0QL540000006vUCGAY",
+                "Probability": "100%",
+                "ProductCategory": "Product",
+                "ProductFamily": "DENTAL PPO",
+                "ProductName": "Essential Choice PPO",
+                "ProductStage": "Sold",
+                "ProductType": "Dental",
+                "vlcBundleStage": "Sold",
+                "vlcSelected": true
+            },
+            {
+                "$$hashKey": "object:2890",
+                "Area": true,
+                "EmployeeAssistanceProgram": false,
+                "Funding": "ASO",
+                "Id": "0QL540000006vV9GAI",
+                "Probability": "10%",
+                "ProductCategory": "Product",
+                "ProductFamily": "LIFE",
+                "ProductName": "Basic Dependent Life",
+                "ProductStage": "In Progress",
+                "ProductType": "Life",
+                "vlcBundleStage": "In Progress",
+                "vlcSelected": true
+            },
+            {
+                "$$hashKey": "object:2891",
+                "Area": true,
+                "EmployeeAssistanceProgram": false,
+                "Funding": "ASO",
+                "Id": "0QL540000006vVAGAY",
+                "Probability": "10%",
+                "ProductCategory": "Product",
+                "ProductFamily": "LIFE",
+                "ProductName": "Life - Basic Employee Life",
+                "ProductStage": "In Progress",
+                "ProductType": "Life",
+                "vlcBundleStage": "In Progress",
+                "vlcSelected": true
+            }
+        ]
+    },
+    "QLIGroupId": "No",
+    "QuoteDetails": {
+        "AccountId": "0015400000V37PgAAJ",
+        "Account_Name": "cloud consulting",
+        "AnthemEntityTransform": "Local",
+        "CastlightProductChk": false,
+        "EffectiveDate": "2021-01-01",
+        "EngageAloneProductChk": false,
+        "EngageProductChk": false,
+        "GNReqStatus": "Not Requested",
+        "GroupId": "a5I54000000bHFJEA2",
+        "GroupName": "12345",
+        "GroupNumber": "a5I54000000bHFJEA2",
+        "Id": "0Q05400000064H9CAI",
+        "OpptyId": "0065400000CHpodAAD",
+        "OpptyRecordType": "New Business Local",
+        "OpptyStage": "Quoting",
+        "PriceBookId": "01s41000007wBCZAA2"
+    },
+    "RENEWAL": "0Q00r0000000AzICAU",
+    "RateChanges": "No",
+    "SBCDocAttach": "NotAllow",
+    "SalesAccountRep": {
+        "AccountAccessLevel": "Private",
+        "CaseAccessLevel": "Private",
+        "ContactAccessLevel": "Private",
+        "OpportunityAccessLevel": "Private"
+    },
+    "SalesAccountRepAcctMgmtTypeCheck": true,
+    "Select-IMPType": {
+        "AccountManager": {
+            "Name": "00541000003bWWgAAM",
+            "Value": "Samantha Alviti"
+        },
+        "Formula22": false,
+        "Formula24": true,
+        "Formula39": "UnCheck",
+        "Formula40": "N",
+        "Formula41": "3",
+        "GroupNumberExist": null,
+        "GroupNumberExistInput": "",
+        "IC-EffectiveDateBlock": {
+            "IC-EffectiveDate": "2020-12-31T18:30:00.000Z",
+            "IC-EffectiveDateCalc": "2021-01-01"
+        },
+        "IMPTypeBlock": {
+            "IMPType": "New Business",
+            "Messaging14": true
+        },
+        "IMPTypeMsg": null,
+        "ImplementationCaseTopic": null,
+        "ImplementationCaseTopicFG": "Full Group Term",
+        "ImplementationCaseTopicNonFG": null,
+        "JAAMCSCROCCalc": "N",
+        "JAAMCSNBCalc": "N",
+        "JAAMCSRenewalsCalc": "N",
+        "MaintenanceReason": null,
+        "Messaging16": null,
+        "Pre-WorkIMPType": {
+            "CastlightProducts": {
+                "CompleteTheClientInformationFormElite": "",
+                "CompleteTheClientScopingDocument": "",
+                "IsTheProductSaleFinal": "",
+                "UploadCasClientAttachment1": "",
+                "UploadClientScopeAttachment": ""
+            },
+            "CastlightProductsMsg": null,
+            "DataInterfaceBlock": null,
+            "Formula11": null,
+            "Formula9": null,
+            "NewEligibility": {
+                "FileLayout": "",
+                "IfCombinationorOtherPleaseExplain": "",
+                "IfOtherExplainFileLayout": "",
+                "IfOtherListVendorName": "",
+                "IfOtherSpecifyProducts": "",
+                "Other": null,
+                "SpecifyApplicablePopulationForSetup": "",
+                "VendorContactEmail": "",
+                "VendorContactName": "",
+                "VendorName": "",
+                "VendorPhoneNumber": "",
+                "VendorTechnicalContactEmail": "",
+                "VendorTechnicalContactName": "",
+                "VendorTechnicalContactPhoneNumber": "",
+                "WhatProductsDoesThisImplApplyTo": ""
+            },
+            "PreWorkIMPSelect": null,
+            "RFP": {
+                "IsAProjectPlanNeeded": "",
+                "IsaDecisionsDeliverablesListNeeded": "",
+                "ProposalContact": "",
+                "SendDocumentsTo": ""
+            },
+            "SBC": {
+                "ContractCodePackagesCustomization": "",
+                "DoesAnthemProduceSBCs": "",
+                "WantTheSBCCreatedByTheSBCTeam": ""
+            },
+            "SSCRBuild": {
+                "HaveYouBeenInformedASSCRIsRequired": "",
+                "NotateWhyYouFeelASSCRIsNeeded": "",
+                "WhatAreaDeptProvidedThatDirection": "",
+                "WhatIsYourCustomizationDescription": ""
+            }
+        },
+        "QliGroupValidation": true,
+        "RenewalStatus": null,
+        "RenewalStatusFormula": "",
+        "SelectIMP": {
+            "AcquisitionBlock": {
+                "CarryOverAccumulatorsDataFiles": "",
+                "GroupStructureImpacts": "",
+                "IsTheAcquisitionConfidential": "",
+                "IsTheSaleDateFinal": "",
+                "WhoIsPriorVendor": ""
+            },
+            "GroupTermBlock": {
+                "ClaimsHistoryTimeframeRequired": "",
+                "ClaimsRunOutApplied": "",
+                "ClaimsRunOutAppliedBlock": null,
+                "ComminglingRunOutDateF": null,
+                "ComminglingRunOutNumF": null,
+                "CurrentOutstandingClaimsFG": null,
+                "CustomIDCardsFGFormula": null,
+                "CustomIDCardsNonSales": null,
+                "CustomIDCardsSales": null,
+                "De-ImplementationType": "",
+                "De-ImplementationTypeFG": "Full",
+                "De-ImplementationTypeNonFG": "Partial",
+                "EstimatedCountOfContractsLost": "",
+                "FSARunOutDateF": null,
+                "FSARunOutNumF": null,
+                "HSAHRARunOutDateF": null,
+                "HSAHRARunOutNumF": null,
+                "IDCardsRequiredFG": null,
+                "IVRImpact": "",
+                "IfClaimsRunOutWhichClaimsPlatform": "",
+                "IfClientMigratingListNewPlatform": "",
+                "IfClientMigratingListNewPlatformFG": null,
+                "IfClientMigratingListNewPlatformNonFG": null,
+                "IfRecordTransfersRequiredExplain": "",
+                "IfYesPleaseExplainIDCardRequirementFG": null,
+                "IndicateAnySpecialDe-ImpAgreements": "",
+                "IndicateSpecialProcessingReq": "",
+                "IsAnAnthemClientAcquiringThisGroup": "",
+                "IsClientMigratingToAnotherPlatform": "",
+                "LastClaimDateFG": null,
+                "ListAllAccumulatorsToBeTransmitted": "",
+                "ListHistoryConversionRequirements": "",
+                "MedicalClaimsRunOutDateF": null,
+                "MedicalClaimsRunOutNumF": null,
+                "NewCarrierName": "",
+                "OtherDITRunOutDateF": null,
+                "OtherDITRunOutNumF": null,
+                "PaidToDateFG": null,
+                "PrefixesToBeCancelled": "",
+                "ReasonforCancellation": "",
+                "RecordTransfersRequired": "",
+                "WhatIsGroupNumberOfAcquiringGroup": ""
+            },
+            "IT-Acquisition": null,
+            "IT-Admin Change": null,
+            "IT-ChangeToCurrentRenewal": null,
+            "IT-ExistingShifttoJAA": null,
+            "IT-GroupTerm": false,
+            "IT-Migration": null,
+            "IT-RenewalAsIs": null,
+            "IT-Retro": null,
+            "IT-SpinOff": null,
+            "IT-TransferMarketSegment": false,
+            "MigrationBlock": {
+                "IndicateSystemHere": "",
+                "ProvideSystemBeingMigratedFrom": "",
+                "RenewBasedOnCustomerIntent": "",
+                "RenewFinalPaperworkAttached": "",
+                "RenewWithChangesPost-MBCLockdown": "",
+                "RenewedAsMapped": ""
+            },
+            "Pre-WorkIMPType": {
+                "RFP": {
+                    "IsAProjectPlanNeeded": "",
+                    "IsaDecisionsDeliverablesListNeeded": ""
+                },
+                "SBC": {
+                    "ContractCodePackagesCustomization": "",
+                    "DoesAnthemProduceSBCs": "",
+                    "WantTheSBCCreatedByTheSBCTeam": ""
+                },
+                "SSCRBuild": {
+                    "HaveYouBeenInformedASSCRIsRequired": "",
+                    "NotateWhyYouFeelASSCRIsNeeded": "",
+                    "WhatAreaDeptProvidedThatDirection": "",
+                    "WhatIsYourCustomizationDescription": ""
+                }
+            },
+            "RetroBlock": {
+                "AdditionalReasonDetails": "",
+                "ApplyClaimsStop": "",
+                "IfEffectiveDateIsRetro": "",
+                "ReasonForRetro": ""
+            },
+            "SpinOffBlock": {
+                "CarryOverAccumulatorsOrDataFiles": "",
+                "IsTheSpinOffConfidential": "",
+                "IsTheSpinoffSaleDateFinal": "",
+                "WillTherebePortability": ""
+            },
+            "TransferMarketBlock": {
+                "IfOtherIndicateComingFromSystem": "",
+                "MovingFrom": "",
+                "OTHER": null,
+                "ProvideSystemComingFrom": ""
+            }
+        },
+        "ShortPlanYearNewBiz": "No",
+        "ShortPlanYearRenewal": "No",
+        "UserGroup": "Local New Business Local"
+    },
+    "SpecialtySalesExecutiveTypeCheck": true,
+    "Stage": "",
+    "UserArea": "Local",
+    "UserProfileId": "00e41000001fYPTAA2",
+    "UserProfileName": "PT1",
+    "UserRole": "Enterprise Role",
+    "UserRoleId": "00E41000000RxTOEA0",
+    "UsrName": "Vedha Ramesh",
+    "benfitPickValues": [
+        "Calendar Year",
+        "Benefit Year"
+    ],
+    "error": "OK",
+    "fundingPickValues": [
+        "ASO",
+        "FI",
+        "N/A",
+        "ASO/FI"
+    ],
+    "hsaPickValues": [
+        "BenefitWallet",
+        "Chase/HSA Bank",
+        "Direct Relationship with Bank",
+        "HealthEquity",
+        "HEQ Direct Relationship",
+        "Benefit Wallet (LITES)",
+        "Alternate Bank",
+        "UMB Bank (Act Wise only)",
+        "PNC Bank (Act Wise only)",
+        "HSA Bank",
+        "None",
+        "PNC",
+        "UMB"
+    ],
+    "id": "a3C54000000JogpEAC",
+    "message": {
+    },
+    "showPersistentComponent": {
+        "vlcCart": false,
+        "vlcKnowledge": false
+    },
+    "ssm": false,
+    "timeStamp": "2020-06-03T15:37:28.537Z",
+    "userCurrencyCode": "USD",
+    "userId": "0051K000008dXgiQAE",
+    "userName": "veramesh@deloitte.com.borg",
+    "userProfile": "System Administrator",
+    "userProfilelocal": "N",
+    "userTimeZone": -240,
+    "verticalmode": true,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "AccountExecutiveExtract": 3521,
+        "DRE-AccountDetails": 3280,
+        "DRE-Bundles": 2167,
+        "DRE-ExistingOrder": 1561,
+        "DRE-MPI_QLIExract": 2283,
+        "DRE-OpportunityDetails": 1424,
+        "DRE-ProductExtract": 4671,
+        "DRE-VariableBundles": 2618,
+        "DREQuoteDetails": 25182,
+        "DREUserGroup": 2520,
+        "DataRaptorExtractAction8": 1209,
+        "DataRaptorExtractLnD": 5217,
+        "GENIMPAccountManagerExtract": 4039,
+        "GENIMP_Account_Extract_LG": 2869,
+        "GEN_IMP_ACC_GRP_QLI_SPR_Extract_LG": 1799,
+        "GroupInformation": 8270,
+        "OmniScriptSessionToken": "7d272190-45f5-4c53-9605-f8a34538d357",
+        "ProductsInprogress": 2092,
+        "QLIGroupNumber": 5513,
+        "RemoteAction1": 859,
+        "ST-RecordType": 41,
+        "ST-ValValues": 188,
+        "SV-Bundle": 24,
+        "SV-BundleCount1": 34,
+        "SV-InProgressCount": 68,
+        "SV-MPIDetails": 379,
+        "SV-ProgramStagesLocal": 66,
+        "SV1-MPIDetails": 184,
+        "SVContextId": 1373,
+        "SalesAccountRepAcctMgmtExtract": 3110,
+        "Select-IMPType": 8060,
+        "SetValues19": 19,
+        "SetValuesGroupInfo": 284,
+        "SetValuesIMPreset": 79,
+        "SetValuesIMPreset1": 33,
+        "SetValuesImp": 69,
+        "SetValuesforTeamMember": 69,
+        "SpecialtySalesExecutiveExtract": 3107,
+        "UserGroupValidation": 350
+    },
+    "wpm": false
+}

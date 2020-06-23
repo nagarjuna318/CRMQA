@@ -1,0 +1,60 @@
+{
+    "%vlocity_namespace%__Active__c": false,
+    "%vlocity_namespace%__InternalNotes__c": "cmh 6/17/20\nFinalPreCertificationRules_Val will show when \"Does Change Request Impact Pre-Cert Details\" = Yes;  elmentname = DoeschangereqimpactPreCertDetails",
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "ImplementationCase",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/IMPCase Library/IC-ImplementationCase/English",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__PropertySet__c": {
+        "HTMLTemplateId": "",
+        "controlWidth": 12,
+        "disOnTplt": false,
+        "elementValueMap": {
+            "AddedplansorplanschangedHCRStatus_Val": "=%AddedplansorplanschangedHCRStatus45515%",
+            "AretherechangestoCOB_Val": "=%AretherechangestoCOB45515%",
+            "AretherechangestoEligibility_Val": "=%AretherechangestoEligibility45515%",
+            "AretherechangestoEnrollmentBilling_Val": "=%AretherechangestoEnrollmentBilling45515%",
+            "AretherechangestoGroupStructure_Val": "=%AretherechangestoGroupStructure45515%",
+            "ChangestoEligVendororFileFeed_Val": "=%ChangestoEligVendororFileFeed45515%",
+            "DoesAnthemproduceSBCs_Val": "=%DoesAnthemproduceSBCs45515%",
+            "FinalPreCertificationRules_Val": "=%FinalPreCertificationRules45515%",
+            "IDCardChanges_Val": "=%IDCardChanges45515%",
+            "MandatorylegislativeupdatesforGroup_Val": "=%MandatorylegislativeupdatesforGroup45515%",
+            "ModExistBooklet_Val": "=%ModExistBooklet45515%",
+            "ProBenBooklet_Val": "=%ProBenBooklet45515%",
+            "ReqBenBooklet_Val": "=%ReqBenBooklet45515%",
+            "SBCcreatedbytheSBCteam_Val": "=%SBCcreatedbytheSBCteam45515%"
+        },
+        "label": "SetValues26",
+        "message": {
+        },
+        "pubsub": false,
+        "show": {
+            "group": {
+                "operator": "AND",
+                "rules": [
+                    {
+                        "condition": "=",
+                        "data": "true",
+                        "field": "is45515"
+                    }
+                ]
+            }
+        },
+        "showPersistentComponent": [
+            false,
+            false
+        ],
+        "ssm": false,
+        "validationRequired": "Step",
+        "wpm": false
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": false,
+    "%vlocity_namespace%__Type__c": "Set Values",
+    "Name": "Sv45515b",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/IMPCase Library/IC-ImplementationCase/English/Sv45515b"
+}

@@ -1,0 +1,44 @@
+{
+    "AddPendingCorrections": {
+        "AddPendingCorrectionReason": {
+            "AddInitiatorComments": null,
+            "AddReason": null
+        }
+    },
+    "ContextId": null,
+    "CurrentPendingCorrections": {
+        "AddPendingCorrection": null,
+        "CorrectionDepartment": null,
+        "PendingCorrection": {
+            "CorrectionComments": null,
+            "InitiatorComments": null,
+            "PendingCorrectionsStage": null,
+            "Reason": null
+        },
+        "PendingCorrectionType": null,
+        "RateType": null,
+        "Stage": null,
+        "SubmitDateext": null
+    },
+    "Submit": {
+        "SubmitDate": null,
+        "SubmitPendCorrection": null
+    },
+    "timeStamp": null,
+    "userId": null,
+    "userName": null,
+    "userProfile": null,
+    "userTimeZone": null,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "AddPendingCorrections": null,
+        "CurrentPendingCorrections": null,
+        "DR- AddPendCorrections": null,
+        "DR-ExtractPencorrection": null,
+        "DR-UpdatePendCorrections": null,
+        "DoneAction1": null,
+        "SV1": null,
+        "Submit": null
+    }
+}

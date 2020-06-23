@@ -1,0 +1,53 @@
+{
+    "AccountGroupInfo": {
+        "Account": null,
+        "Platform": null,
+        "TypeOfAccount": null
+    },
+    "ApprovalInfo": {
+        "GOROwner": null,
+        "IsSubmitter": null,
+        "SeniorManagementApproval": null,
+        "Status": null,
+        "Submitter-Block": {
+            "AccountTeamUserId": null,
+            "Submitter": null,
+            "UserName": null
+        }
+    },
+    "ContextId": null,
+    "ContractualInfo": {
+        "ASOFI": null,
+        "ClientRequest": null,
+        "ContractNumber": null,
+        "ContractualLanguage": null,
+        "EffectiveDate": null,
+        "InternalRequest": null
+    },
+    "RestrictionInfo": {
+        "AdditionalComments": null,
+        "IRComments": null,
+        "PriorGroup": null,
+        "TypeofRestriction": null,
+        "Typeofrequest": null
+    },
+    "timeStamp": null,
+    "userId": null,
+    "userName": null,
+    "userProfile": null,
+    "userTimeZone": null,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "AccountGroupInfo": null,
+        "ApprovalInfo": null,
+        "ContractualInfo": null,
+        "DRE-Account": null,
+        "DRE-CreateGOR": null,
+        "DRE_ExtractOwner": null,
+        "DoneAction2": null,
+        "PreSetValues": null,
+        "RestrictionInfo": null,
+        "SetVaues_3": null
+    }
+}

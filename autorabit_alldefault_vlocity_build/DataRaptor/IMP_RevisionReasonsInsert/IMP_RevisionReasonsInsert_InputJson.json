@@ -1,0 +1,98 @@
+{
+    "AccountName": "<a href=\"001W000000amKK5\" target=\"_blank\">Hunter Douglas Inc.</a>",
+    "AddRevisionReasons": {
+        "Msg-Duplicate": true,
+        "RevisionBlock": [
+            {
+                "AddDescription": "asas",
+                "AddDoesChangeImpactBenefitBooklets": false,
+                "AddDoesChangeImpactSBCs": false,
+                "AddImpactedPackages/Suffixes/Sections": null,
+                "RevisionReasons": "Benefit Change",
+                "RevisionType": "Client Request Change After Original Intake"
+            },
+            {
+                "AddDescription": "dasdas",
+                "AddDoesChangeImpactBenefitBooklets": false,
+                "AddDoesChangeImpactSBCs": false,
+                "AddImpactedPackages/Suffixes/Sections": "dsada",
+                "RevisionReasons": "Domestic Partner Change",
+                "RevisionType": "Client Request Change After Original Intake"
+            }
+        ],
+        "Text1": null
+    },
+    "AttachmentSRA": 0,
+    "AttachmentSRR": 0,
+    "AttachmentWSRA": 0,
+    "AttachmentWSRR": 0,
+    "ContextId": "a6PW0000000EDPV",
+    "CreatedUser": "Others",
+    "CreatedUserProfile": "Others",
+    "CurrentRevisionsReasons": {
+        "AddRevisionreasons": true,
+        "RevisionReason": {
+            "Description": "jhfdsjghfdsjgh",
+            "DoesChangeImpactBenefitBooklets": true,
+            "DoesChangeImpactSBCs": true,
+            "ImpactedPackages/Suffixes/Sections": "N/A",
+            "RRevisionReasons": "Selections Report Attached",
+            "RevisionReasonType": "Clarification Based On Discovery Call"
+        },
+        "UserProfileStage": "OthersInitiated/In Progress"
+    },
+    "DRId_Impl_Revision__c": "a6PW0000000EDPVMA4",
+    "DRId_Revision_Reason__c": "a7FW00000009B02MAE",
+    "FileAttachment": {
+        "FileCount": 1,
+        "MSG-AttachmentError": null,
+        "UploadAttachment": [
+            {
+                "$$hashKey": "object:1010",
+                "data": "28c9ed9f-e0d3-4321-8f8f-95bef206b2a0",
+                "filename": "Revision Version 4.json",
+                "size": 135667
+            }
+        ]
+    },
+    "IMPCaseStatus": "Approved",
+    "ImpCaseStatus": "Approved",
+    "ImplementationType": "Renewal",
+    "LoggedinProfile": "Others",
+    "Profile": "Others",
+    "RecordType": "Renewal",
+    "RevisionName": "REV-0051",
+    "RevisionReason": {
+        "Id": "a7FW00000009AznMAE"
+    },
+    "RevisionRecordStatus": "Initiated/In Progress",
+    "RevisionStatus": "Initiated/In Progress",
+    "Submit": {
+        "SubmitRevision": "Yes"
+    },
+    "id": "a3CW00000013V2vMAE",
+    "layout": "lightning",
+    "timeStamp": "2018-04-03T02:17:29.608Z",
+    "userCurrencyCode": "USD",
+    "userId": "005W0000002XquzIAC",
+    "userName": "shravani@chadda@eaglecrk.com.prod.nal1b.dev",
+    "userProfile": "System Administrator",
+    "userTimeZone": -240,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "AddRevisionReasons": 14292,
+        "CurrentRevisionsReasons": 9918,
+        "DR-InsertRevisionReasons": 1473,
+        "DR-UpdateRevision": 899,
+        "DRE-RevisionDetails": 673,
+        "FileAttachment": 7026,
+        "OmniScriptSessionToken": "e1c484a0-87e5-4ce0-9d5f-e456c9f07fe7",
+        "SV-ContextId": 91,
+        "SV-FileAttachmentValidation": 53,
+        "SV-RevisionDetails": 28,
+        "SetValues4": 43,
+        "SetValues5": 57,
+        "Submit": 2610
+    }
+}

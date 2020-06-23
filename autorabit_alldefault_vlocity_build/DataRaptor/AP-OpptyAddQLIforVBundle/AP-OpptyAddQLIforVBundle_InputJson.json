@@ -1,0 +1,218 @@
+{
+    "AP-BundleSelection": {
+        "AP-BundleSelected": true,
+        "BundleList": [
+            {
+                "$$hashKey": "object:1377",
+                "Id": "01t4B000001XE0iQAG",
+                "IsActive": true,
+                "LOB": "Health and Wellness",
+                "Name": "Anthem Cancer Care Quality Program",
+                "QLIRecordType__c": "Default",
+                "vlcBundleStage": "IGAP In Progress",
+                "vlcSelected": true
+            },
+            {
+                "$$hashKey": "object:1379",
+                "Id": "01t4B000001XDzoQAG",
+                "IsActive": true,
+                "LOB": "AIM",
+                "Name": "Anthem Procedure Shopper",
+                "QLIRecordType__c": "Default",
+                "vlcBundleStage": "IGAP In Progress",
+                "vlcSelected": true
+            },
+            {
+                "$$hashKey": "object:1381",
+                "Id": "01t4B000001XDzqQAG",
+                "IsActive": true,
+                "LOB": "AIM",
+                "Name": "Cardiology RQI Model",
+                "QLIRecordType__c": "Default",
+                "vlcBundleStage": "IGAP In Progress",
+                "vlcSelected": true
+            }
+        ]
+    },
+    "AP-Family": "AIM",
+    "AP-FamilySelection": {
+        "AP-CatSelection": "AIM",
+        "AP-OpptyType": "In Group Add Product",
+        "AP-SubType": null
+    },
+    "AP-HasSPP": "No",
+    "AP-ParentId": "01t4B000001XE01QAG",
+    "AP-ProductName": "AIM: A La Carte",
+    "AP-ProductSelection": {
+        "AP-ProdSelected": true,
+        "ProdList": [
+            {
+                "Bundle": "Variable",
+                "Family": "AIM",
+                "HasSPP": false,
+                "HelpText": "Utilize this bundle when individual AIM components are sold vs. packaged offerings.  Unbundling may require approval.",
+                "Id": "01t4B000001XE01QAG",
+                "Name": "AIM: A La Carte",
+                "ProductType": "AIM",
+                "QLIRecordType__c": "AIM",
+                "RecordTypeId": "0124B0000008rwzQAA",
+                "vlcSelected": true
+            }
+        ]
+    },
+    "AP-Selected": false,
+    "AP-Stages": [
+        "IGAP Dead",
+        "IGAP In Progress",
+        "IGAP Lost",
+        "IGAP Sold"
+    ],
+    "AccountId": "0014B00000KMhYhQAL",
+    "ContextId": "",
+    "IGAP": "0064B000007p3pJ",
+    "NewBusiness": "0064B000007oLSJ",
+    "QLD": {
+        "AP-BundleType": "Variable",
+        "QLD-AccountId": [
+            "0014B00000KMhYhQAL",
+            "0014B00000KMhYhQAL",
+            "0014B00000KMhYhQAL",
+            "0014B00000KMhYhQAL"
+        ],
+        "QLD-Block": {
+            "QLD-Financing": "FI – Deposit Premium",
+            "QLD-Funding": "FI",
+            "QLD-Probability": "10%",
+            "QLD-ProbabilityEdit": "10%",
+            "QLD-ProbabilityFormula": "",
+            "QLD-ProdStage": "IGAP In Progress",
+            "QLD-Reason": "Bankruptcy/Client Went Out of Business",
+            "QLD-ReasonCalc": null,
+            "QLD-ReasonPck": "Bankruptcy/Client Went Out of Business",
+            "QLD-TermDate": null,
+            "QLD-TermDateIn": null,
+            "QLD-TermSelection": "Ok"
+        },
+        "QLD-DayMsg": true,
+        "QLD-ReqCompetitor": "Yes",
+        "QLD-TermReqFlds": "No",
+        "QLD-TermReqMsg": true,
+        "QLD-Vendor": null
+    },
+    "QuoteDetails": [
+        {
+            "AccountId": "0014B00000KMhYhQAL",
+            "EffectiveDate": "2019-01-01",
+            "GNReqStatus": "Not Requested",
+            "GroupId": "a5P4B0000002JhPUAU",
+            "GroupName": "000CBF834",
+            "GroupNumber": "a5P4B0000002JhPUAU",
+            "Id": "0Q04B0000006V2jSAE",
+            "Members": 100,
+            "OpptyId": "0064B000009scXtQAI",
+            "OpptyRecType": "In Group Add Product",
+            "OpptyStage": "Initiated",
+            "PriceBookId": "01s41000007wBCZAA2",
+            "Subscribers": 85
+        },
+        {
+            "AccountId": "0014B00000KMhYhQAL",
+            "EffectiveDate": "2019-01-01",
+            "GNReqStatus": "Not Requested",
+            "GroupId": "a5P4B0000002JhPUAU",
+            "GroupName": "000CBF834",
+            "GroupNumber": "a5P4B0000002JkYUAU",
+            "Id": "0Q04B0000006V2kSAE",
+            "Members": 120,
+            "OpptyId": "0064B000009scXtQAI",
+            "OpptyRecType": "In Group Add Product",
+            "OpptyStage": "Initiated",
+            "PriceBookId": "01s41000007wBCZAA2",
+            "Subscribers": 90
+        },
+        {
+            "AccountId": "0014B00000KMhYhQAL",
+            "EffectiveDate": "2019-01-01",
+            "GNReqStatus": "Requested",
+            "GroupId": "a5P4B0000002JkYUAU",
+            "GroupName": "003320023",
+            "GroupNumber": "a5P4B0000002JhPUAU",
+            "Id": "0Q04B0000006V2jSAE",
+            "Members": 100,
+            "OpptyId": "0064B000009scXtQAI",
+            "OpptyRecType": "In Group Add Product",
+            "OpptyStage": "Initiated",
+            "PriceBookId": "01s41000007wBCZAA2",
+            "Subscribers": 85
+        },
+        {
+            "AccountId": "0014B00000KMhYhQAL",
+            "EffectiveDate": "2019-01-01",
+            "GNReqStatus": "Requested",
+            "GroupId": "a5P4B0000002JkYUAU",
+            "GroupName": "003320023",
+            "GroupNumber": "a5P4B0000002JkYUAU",
+            "Id": "0Q04B0000006V2kSAE",
+            "Members": 120,
+            "OpptyId": "0064B000009scXtQAI",
+            "OpptyRecType": "In Group Add Product",
+            "OpptyStage": "Initiated",
+            "PriceBookId": "01s41000007wBCZAA2",
+            "Subscribers": 90
+        }
+    ],
+    "RC-S6Flg2": "FullExisting",
+    "Renewals": "0064B000009scXt",
+    "SelectServiceProvider": {
+        "Account_Id": "0014B00000KMhYhQAL",
+        "AddComp2": false,
+        "AddComp3": null,
+        "CompIdCalc2": null,
+        "CompIdCalc3": null,
+        "CompStatusCalc2": null,
+        "CompStatusCalc3": null,
+        "CompetitorId": null,
+        "CompetitorStatus": null,
+        "CompetitorStatusFormula": null,
+        "NOUFlag": true,
+        "ReqComFlds": "Yes",
+        "SP-CompStatus2": null,
+        "SP-CompStatus3": null,
+        "SPTD-Msg": null,
+        "SPTermDate": null,
+        "SPTermDateDay": null,
+        "SPTermDateIn": null,
+        "SSP-Msg": true,
+        "SSPMsg-Flg": "No",
+        "TACompetitor2-Block": null,
+        "TACompetitor3-Block": null,
+        "TypeAheadAccount-Block": {
+            "ServiceProviderAccountId": null,
+            "TypeAheadAccount": null
+        }
+    },
+    "id": "a3B4B0000004oYvUAI",
+    "layout": "lightning",
+    "timeStamp": "2017-09-18T17:07:55.501Z",
+    "userId": "0054B000000op45QAA",
+    "userName": "jcarrero@anthem.com2.config",
+    "userProfile": "System Administrator",
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "AP-BundleSelection": 7530,
+        "AP-FamilySelection": 2240,
+        "AP-ProductSelection": 3657,
+        "AP-SetValues": 5,
+        "DR-BundleRetrieval": 634,
+        "DR-ProductRetrieval": 445,
+        "DR-QuoteDetails": 629,
+        "ExtractAccountId": 367,
+        "OmniScriptSessionToken": "52480570-2857-4e4c-8b24-16fbd525b86f",
+        "QLD": 8544,
+        "SelectServiceProvider": 2748,
+        "Set AccountId": 1,
+        "Set Constants": 2,
+        "SetConsts": 3
+    }
+}

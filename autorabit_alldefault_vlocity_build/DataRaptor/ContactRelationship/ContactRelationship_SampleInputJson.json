@@ -1,0 +1,41 @@
+{
+    "ContactTypeAhead-Block": {
+        "AccountId": "0012F00000ADPdVQAX",
+        "AccountName": "Little Wing Inc",
+        "ContactEmail": "paulfirst@email.com",
+        "ContactName": "Paul First-paulfirst@email.com",
+        "Primary_Contact": false
+    },
+    "ContextId": "0032F000007LXn0",
+    "SearchContact": {
+        "ContactTypeAhead-Block": {
+            "ContactId": "0032F000007DTDzQAO",
+            "ContactTypeAhead": "Paul First-paulfirst@email.com"
+        },
+        "DateLastUpdated": "2017-12-19T06:00:00.000Z",
+        "RelationshipStrength": "3",
+        "RelationshipType": "Personal"
+    },
+    "Step 2": {
+        "ContactSelected": {
+            "AccountName": "Little Wing Inc",
+            "ContactEmail": "paulfirst@email.com",
+            "ContactName": "Paul First-paulfirst@email.com"
+        }
+    },
+    "id": "a3C2F000001CMtlUAG",
+    "layout": "lightning",
+    "timeStamp": "2017-12-19T21:30:48.112Z",
+    "userId": "0052F000000ktDXQAY",
+    "userName": "jmccarthy@vlocity.com.iceconfig",
+    "userProfile": "System Administrator",
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "OmniScriptSessionToken": "2eb8d79f-41a1-4078-bd3b-0f6bf7bf6ce1",
+        "SearchContact": 34013,
+        "Set Values 1": 15,
+        "Set Values 2": 6,
+        "Step 2": 142331
+    }
+}

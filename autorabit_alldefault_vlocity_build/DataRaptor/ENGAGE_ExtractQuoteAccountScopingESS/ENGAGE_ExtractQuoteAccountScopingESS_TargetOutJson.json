@@ -1,0 +1,175 @@
+{
+    "AccountId": "0015B00000SvcvDQAR",
+    "Carriers": {
+        "AnthemDental": {
+            "2YearDentalGroupNumbers": "2",
+            "AnthemDentalCarrier": "Anthem Dental Essential Choice PPO",
+            "DeltaDentalState": null,
+            "FutureDentalClaims": false,
+            "FutureDentalGroupNumbers": "2",
+            "IfOtherAnthemDeltaDentalSelected": false,
+            "IfOtherAnthemDentalSelected": false,
+            "IfOtherAnthemDentalSpecifyCarriers": null,
+            "IsThereAnthemDental": "Yes",
+            "Past2YearDentalClaimHistory": false,
+            "SelectAllAnthemDentalThatApply": "Aetna Dental;Other"
+        },
+        "MedicalBlock": {
+            "AnthemOnlyOrMultiCarrier": "Multi-Carrier",
+            "IfMultiCarrierSelectAllThatApply": "Cigna;CoreSource;HealthPartners",
+            "IfMutliCarrierSelectOther": false,
+            "IfOtherSpecifyMedicalCarriers": null
+        },
+        "Pharmacy": {
+            "2YearPharmacyGroupNumbers": null,
+            "ESICarveIn": "No",
+            "FuturePharmacyClaims": false,
+            "FuturePharmacyGroupNumbers": null,
+            "IfCarveOutSelectAllThatApply": null,
+            "IfCarveOutSelectApplyHasOther": false,
+            "IfOtherSpecifyRxCarriers": "tet",
+            "Past2YearPharmacyClaimHistory": false
+        }
+    },
+    "ContextId": "0Q05B000000Ej94SAC",
+    "EngageScopingGeneralInfo": {
+        "AccountExcutiveManager": null,
+        "AccountImplementationLead": "Indra Lugina",
+        "AccountLegalName": null,
+        "AccountRenewalOrNewSale": null,
+        "AnthemControlState": null,
+        "ClaimSystem": "WGS 2.0",
+        "ClientMarket": "National Accounts",
+        "ContractType": null,
+        "GroupNumber": "a5I5B0000008makUAA",
+        "OpportunityName": "2019 New Business-KC Test",
+        "OpportunityType": "New Business",
+        "QuoteName": "2019 New Business-KC Test",
+        "RequestedDate": {
+            "AnthemContractSignDate": "2018-06-22",
+            "CastlightContractSignDate": "2018-06-29",
+            "ClientPreferredLaunchDateForEngage": "2018-06-30",
+            "ClientTerminationEffectiveDate": "2018-06-30",
+            "ExistingClientChangesEffectiveDate": "2018-06-30",
+            "RegistrationAvailabilityDuringOE": "2018-06-30",
+            "WhenDoesPlanYearStart": "2018-06-30",
+            "WhenIsOpenEnrollment": "2018-06-30"
+        },
+        "TodaysDate": "2018-06-21T05:00:00.000Z"
+    },
+    "EngageScopingGeneralInfo:ClientBillingCity": "",
+    "EngageScopingGeneralInfo:ClientBillingCountry": "",
+    "EngageScopingGeneralInfo:ClientBillingPostalCode": "",
+    "EngageScopingGeneralInfo:ClientBillingState": "",
+    "EngageScopingGeneralInfo:ClientBillingStreet": "",
+    "EstimatedTotalMembershipByProduct": {
+        "EstimatedTotalMembershipFM": null,
+        "ProductElite": false,
+        "ProductEliteBlock": null,
+        "ProductElitePlus": false,
+        "ProductElitePlusBlock": null,
+        "ProductEssentials": false,
+        "ProductEssentialsBlock": {
+            "ProductEssentialsCCF": false,
+            "ProductEssentialsEYCFAD": false
+        },
+        "ProductEssentialsNonAnthem": false,
+        "ProductEssentialsNonAnthemBlock": null
+    },
+    "ExpectedIntegrations": {
+        "BenefitEnrollmentBlock": {
+            "ClientHaveBenefitEnrollmentPlatform": "Yes",
+            "EmbedRegistrationIntoAEAndNHE": "No",
+            "IfOtherSpecifyBEPAdministrator": null,
+            "IfYesSpecifyBEPAdministrator": "Other",
+            "IfYesSpecifyBEPAdministratorOtherSelected": true
+        },
+        "HealthAccountsBlocks": {
+            "FSAHealthAccount": false,
+            "HRAHealthAccount": false,
+            "HSAHealthAccount": false,
+            "IfYesSpecifyFSAVendor": null,
+            "IfYesSpecifyHRAVendor": null,
+            "IfYesSpecifyHSAVendor": null,
+            "OtherHealthAccount": false,
+            "SpecifyAccountTypeAndVendorDetails": null
+        },
+        "OnsiteClinicsBlock": {
+            "DoesTheClientHaveOnsiteClinics": "Yes",
+            "IfYesSpecifyOCAdministrator": null
+        },
+        "SSOBlock": {
+            "InboundSSOPartnersDesired": null,
+            "OutboundSSOPartnersDesired": null
+        }
+    },
+    "ImplementerId": "0055B000001O1xCQAS",
+    "Interests": {
+        "Device Credit Budget": "No",
+        "DeviceCreditBudget": "Yes",
+        "IncentivesBudget": "Yes",
+        "IsClientInterestedInDeviceCredit": true,
+        "IsClientInterestedInIncentives": true,
+        "IsClientInterestedInRewardsCenter": true
+    },
+    "NetworksCommunications": {
+        "CommunicationsBlock": {
+            "AnthemToProvideCommSupport": "Yes",
+            "IfNoSpecifyAlternativeArrangement": null
+        },
+        "NetworkStructure": {
+            "AdvantageNetworks": false,
+            "AdvantageNetworksAlphaPrefixes": null,
+            "IfOtherSpecifyNetwork": "3",
+            "NationalNetworks": false,
+            "NationalNetworksAlphaPrefixes": null,
+            "NumberOfPlans": 3
+        }
+    },
+    "Programs": {
+        "BehavioralHealthBlock": {
+            "AnthemBasicOfEnhancedEAP": "Basic",
+            "IFEAPSelectAllThatApply": "Anthem;ComPsych;Ceridian LifeWorks;Chesnut;E4 Health;Optum;Other",
+            "IFEAPSelectAllThatApplyEqANTHEM": true,
+            "IFEAPSelectAllThatApplyOtherSelected": true,
+            "IfBehavioralHealthSelectAllThatApply": "Beacon Health Options;ComPsych",
+            "IfOtherBehaviorHealthSelected": false,
+            "IfOtherPleaseSpecifyBHEAP": "33",
+            "IfOtherSpecifyBehaviorHealth": "test",
+            "IncludesBehavioralHealthElevate": "Yes"
+        },
+        "ClinicalBlock": {
+            "ClinicalSharedDataAndExperiences": "Other",
+            "IfOtherClinicalPleaseSpecify": "33"
+        },
+        "WellnessBlock": {
+            "ClientHaveOwnWellnessVendors": "Yes",
+            "IfYesWhichVendorUsedToday": "33"
+        }
+    },
+    "ReadyToSubmit": {
+        "ReadyToSubmitEngageScopingForm": null
+    },
+    "id": "a3C5B000000A0QIUA0",
+    "layout": "lightning",
+    "timeStamp": "2018-06-21T18:36:29.414Z",
+    "userCurrencyCode": "USD",
+    "userId": "0055B000001O1xCQAS",
+    "userName": "ilugina@anthem.com2.iceconfig",
+    "userProfile": "System Administrator",
+    "userTimeZone": -240,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "Carriers": 44380,
+        "DRE_ENGAGE_ExtractEngageScopeStandard": 12743,
+        "EngageScopingGeneralInfo": 69451,
+        "EstimatedTotalMembershipByProduct": 11951,
+        "Interests": 36775,
+        "NetworksCommunications": 590195,
+        "OmniScriptSessionToken": "aa682e3a-2191-43c8-8f2c-2b35c9e0e3a8",
+        "PostSetValue": 143,
+        "PreSetValue": 1417,
+        "Programs": 233728
+    }
+}

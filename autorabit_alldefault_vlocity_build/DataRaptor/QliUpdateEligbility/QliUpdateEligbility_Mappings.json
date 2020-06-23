@@ -1,0 +1,81 @@
+[
+    {
+        "%vlocity_namespace%__DomainObjectAPIName__c": "QuoteLineItem",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 1,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "Domestic_Partner_Indicator__c",
+        "%vlocity_namespace%__InterfaceFieldAPIName__c": "QLIProductEligibility:QliEligibility:DomesticPartnerIndicator",
+        "%vlocity_namespace%__IsDisabled__c": false,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__MapId__c": "QliUpdateEligbilityCustom5542",
+        "%vlocity_namespace%__UpsertKey__c": false,
+        "Name": "QliUpdateEligbility",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    },
+    {
+        "%vlocity_namespace%__DomainObjectAPIName__c": "QuoteLineItem",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 1,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "Id",
+        "%vlocity_namespace%__InterfaceFieldAPIName__c": "QLIProductEligibility:QliEligibility:QLIId",
+        "%vlocity_namespace%__IsDisabled__c": false,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__MapId__c": "QliUpdateEligbilityCustom6332",
+        "%vlocity_namespace%__UpsertKey__c": false,
+        "Name": "QliUpdateEligbility",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    },
+    {
+        "%vlocity_namespace%__ConfigurationValue__c": "FAKEMAPPING",
+        "%vlocity_namespace%__DomainObjectAPIName__c": "QuoteLineItem",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 1,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "Id",
+        "%vlocity_namespace%__FilterOperator__c": "=",
+        "%vlocity_namespace%__IsDisabled__c": true,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__MapId__c": "QliUpdateEligbilityCustom4215",
+        "%vlocity_namespace%__UpsertKey__c": false,
+        "Name": "QliUpdateEligbility",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    },
+    {
+        "%vlocity_namespace%__DomainObjectAPIName__c": "QuoteLineItem",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 1,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "New_Hire_Probationary_Period__c",
+        "%vlocity_namespace%__InterfaceFieldAPIName__c": "QLIProductEligibility:QliEligibility:NewHireProbationaryPeriod",
+        "%vlocity_namespace%__IsDisabled__c": false,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__MapId__c": "QliUpdateEligbilityCustom2212",
+        "%vlocity_namespace%__UpsertKey__c": false,
+        "Name": "QliUpdateEligbility",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    },
+    {
+        "%vlocity_namespace%__DomainObjectAPIName__c": "QuoteLineItem",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 1,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "Of_Prem_Paid_For_Each_Sub_Per_Month__c",
+        "%vlocity_namespace%__InterfaceFieldAPIName__c": "QLIProductEligibility:QliEligibility:PercentageSubMonth",
+        "%vlocity_namespace%__IsDisabled__c": false,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__MapId__c": "QliUpdateEligbilityCustom4244",
+        "%vlocity_namespace%__UpsertKey__c": false,
+        "Name": "QliUpdateEligbility",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    },
+    {
+        "%vlocity_namespace%__DomainObjectAPIName__c": "QuoteLineItem",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 1,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "Prem_Paid_For_Each_Sub_Dep_Per_Month__c",
+        "%vlocity_namespace%__InterfaceFieldAPIName__c": "QLIProductEligibility:QliEligibility:PercentageSubDepMonth",
+        "%vlocity_namespace%__IsDisabled__c": false,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__MapId__c": "QliUpdateEligbilityCustom4736",
+        "%vlocity_namespace%__UpsertKey__c": false,
+        "Name": "QliUpdateEligbility",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    }
+]

@@ -1,0 +1,80 @@
+{
+    "AccountId": "001W000000amKPZIA2",
+    "AccountName": "Stark Industries International Inc",
+    "BEName": "BILL-000015",
+    "BillingContact": {
+        "BillingContactName1-Block": {
+            "BillingContactName1": "test record"
+        },
+        "FR-City": null,
+        "FR-Email": null,
+        "FR-Phone": null,
+        "FR-State": null,
+        "FR-StreetAddress": null,
+        "FR-Title": null,
+        "FR-ZipCode": null,
+        "Forthefollowingsuffixes": null
+    },
+    "BillingEntity": {
+        "BillCopies": null,
+        "BillFrequency": "1 MONTHLY",
+        "BillSequence": "1 LAST NAME",
+        "BillSource": null,
+        "BillingEntity#": 78,
+        "BillingSpecifics": "If variations exist between multiple entities, please make your selections below for each one, otherwise just complete Entity 1",
+        "CycleCode": "28 MONTHLY CYCLE ON THE TWENTY EIGHTH OF THE MONTH",
+        "EntityType": "Consolidated",
+        "Formula14": "WASHOUT CODE == 16 Enrollment: Enrollment 1st- 15th, Premium due on 1st of the same month. Enrollment 16th-31st, premium due from 1st of next month. Contract Change: Date of events 1st- 15th, Premium due from 1st of the same month. Date of events 16th-31st, premium due from 1st of next month. Terminations: Benefits terminated 1st- 15th, Premium due on 1st of the same month. Terminated 16th-31st, premium credited from 1st of next month.",
+        "FundingTypeCode": "None",
+        "GraceDays": 60,
+        "PayTypeCode": "Wire Transfer",
+        "PlanName": "tets",
+        "RateMethodCode": "F -- EXP RTD NONREF",
+        "RetroDays": null,
+        "ToleranceLevel": "0.8",
+        "WashoutCode": "Code 16"
+    },
+    "BillingEntityDetail": {
+        "FR-AccountId": "001W000000amKPZIA2",
+        "FR-AccountLegalName": "Stark Industries International Inc",
+        "FR-BillingEntityName": "BILL-000015",
+        "FR-Funding": "FUND-000014",
+        "FR-ImplementationCaseName": "2018: New Business-Stark Industries International Inc",
+        "FR-ImplementationRecordId": "00000261"
+    },
+    "BillingFundingId": "a6cW00000001aU2IAI",
+    "BillingRecordId": "",
+    "BillingTypeSelection": {
+        "BillingType": "Billing"
+    },
+    "ContextId": "a6cW00000001aU2IAI",
+    "DRId_Billing__c": "a6dW0000000wZxcIAE",
+    "End": {
+        "FR-Finish": " creating an Billing record for: Stark Industries International Inc"
+    },
+    "FundingName": "FUND-000014",
+    "IMPName": "2018: New Business-Stark Industries International Inc",
+    "IMPNumber": "00000261",
+    "ImplementaionId": "801W0000000mjt8IAA",
+    "id": "a3CW0000000AohwMAC",
+    "layout": "lightning",
+    "timeStamp": "2018-02-05T22:20:11.477Z",
+    "userCurrencyCode": "USD",
+    "userId": "005W0000002XquzIAC",
+    "userName": "shravani@chadda@eaglecrk.com.prod.nal1b.dev",
+    "userProfile": "System Administrator",
+    "userTimeZone": -300,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "BillingContact": 328365,
+        "BillingEntity": 10470,
+        "BillingEntityDetail": 42880,
+        "BillingTypeSelection": 2757,
+        "DRA-Billing": 936,
+        "DRE-BEDetails": 522,
+        "OmniScriptSessionToken": "ae0c011e-f36c-4647-bfce-531f33c1d099",
+        "SV-ContextId": 79,
+        "SV-DefaultValues": 101
+    }
+}

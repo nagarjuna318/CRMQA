@@ -1,0 +1,92 @@
+{
+    "AccountName": "BhanuTest",
+    "AttachmentSRA": 0,
+    "AttachmentSRR": 0,
+    "AttachmentWSRA": 0,
+    "AttachmentWSRR": 0,
+    "CROFC": "801W0000000qDE2",
+    "ContextId": "8011b0000000Sse",
+    "FileAttachment": {
+        "File": [
+            {
+                "$$hashKey": "object:926",
+                "data": "6d8708e3-7b43-4f7c-bd13-40f6dc959126",
+                "filename": "test.doc",
+                "size": 3814912
+            }
+        ],
+        "FileCount": 1,
+        "MSG-AttachmentError": null
+    },
+    "IMPCaseName": "IMPL-0371",
+    "IMPCaseStatus": "Pending SME Review",
+    "IMPRecordtype": "01241000001EeAjAAK",
+    "IMPRecordtypename": "Renewal",
+    "IMPType": "Renewal",
+    "ImplCaseId": "8011b0000000Sse",
+    "LocalProfile": "Others",
+    "LoggedinProfile": "System Administrator",
+    "Profile": "System Administrator",
+    "Project": "801W0000000qDDs",
+    "RFPP": "801W0000000myjw",
+    "Revision": {
+        "FRM-AccountName": "BhanuTest",
+        "FRM-ImplementationCase": "IMPL-0371",
+        "FRM-ImplementationCaseStatus": "Pending SME Review",
+        "FRM-RecordType": "Renewal"
+    },
+    "RevisionStatus": "Initiated/In Progress",
+    "RevisionsReasons": {
+        "Msg-Duplicate": true,
+        "RevisionBlock": {
+            "Description": "test",
+            "DoesChangeImpactBenefitBooklets": false,
+            "DoesChangeImpactSBCs": false,
+            "ImpactedPackagesDetailsBlock": {
+                "ImpactedPackages/Suffixes/Sections": null
+            },
+            "Messaging3": null,
+            "RenewalStatus": "Pre-Renewal",
+            "RenewalStatusFormula": "Pre-Renewal",
+            "RevisionReason": "Account Setup Form Revised",
+            "RevisionType": "Benefit Discrepancy"
+        },
+        "RevisionReasonsProject": {
+            "DescriptionProject": null,
+            "DoesChangeImpactBenefitBookletsProject": false,
+            "DoesChangeImpactSBCsProject": false,
+            "Impacted Packages/Suffixes/SectionsProject": null,
+            "RevisionReasonProject": null,
+            "RevisionTypeProject": null
+        },
+        "Text1": null
+    },
+    "Submission": {
+        "SubmitRevision": "Yes"
+    },
+    "id": "a3C1b0000005BnjEAE",
+    "layout": "lightning",
+    "timeStamp": "2018-10-22T14:53:13.556Z",
+    "userCurrencyCode": "USD",
+    "userId": "0051b0000011W4lAAE",
+    "userName": "ilugina@vlocity.com2.iceanup",
+    "userProfile": "System Administrator",
+    "userTimeZone": -240,
+    "verticalmode": true,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "DR-RevisionUpdate": 114840,
+        "FileAttachment": 4027,
+        "Finish": 1143,
+        "GlobalImpCaseId": 36,
+        "IMPCaseExtract": 4410,
+        "OmniScriptSessionToken": "4168ee86-eca2-4aa4-966a-2de407897aef",
+        "Revision": 152980,
+        "RevisionsReasons": 14365,
+        "SV-AttachmentFormula": 26,
+        "SV-ContextId": 346,
+        "SV2": 9,
+        "Submission": 2823
+    }
+}

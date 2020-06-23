@@ -1,0 +1,44 @@
+{
+    "Cards": [
+        "Quote Card with_LG",
+        "Quote Card with Requested status on GN _LG",
+        "Quote Card with Not Requested status on GN_LG",
+        "Quote Card With_NA",
+        "Quote Card With Requested Status on GN_NA",
+        "Quote Card with GRS Profile",
+        "Quote Card with Not Requested status on GN_NA",
+        "Quote Card Admin"
+    ],
+    "dataSource": {
+        "contextVariables": [
+            {
+                "name": "params.id",
+                "val": "0Q0S0000000Q0yBKAS"
+            }
+        ],
+        "type": "Query",
+        "value": {
+            "jsonMap": "{\"params.id || params.Id\":\"{{params.id || params.Id}}\"}"
+        }
+    },
+    "previewType": "runTime",
+    "templates": {
+        "0": {
+            "templateUrl": "card-canvas-1x-slds-nosearch"
+        }
+    },
+    "workspace": [
+        null,
+        "Quote Card with_LG/Anthem Commercial 2.0/null/1516705906140",
+        "Quote Card with Requested status on GN _LG/Anthem Commercial 2.0/null/1516705937160",
+        "Quote Card with Not Requested status on GN_LG/Anthem Commercial 2.0/null/1516706051834",
+        "Quote Card With_NA/Anthem Commercial 2.0/null/1517475130843",
+        "Quote Card With Requested Status on GN_NA/Anthem Commercial 2.0/null/1517475166265",
+        "Quote Card with GRS Profile/Anthem Commercial 2.0/1/1570812028805",
+        "Quote Card with Not Requested status on GN_NA/Anthem Commercial 2.0/null/1517475197084",
+        null,
+        "Quote Card Admin/Anthem Commercial 2.0/1/1571159970476",
+        "Quote Card with_LG/Anthem Commercial 2.0/1/1581421108161",
+        "Quote Card with Requested status on GN _LG/Anthem Commercial 2.0/1/1581421479272"
+    ]
+}

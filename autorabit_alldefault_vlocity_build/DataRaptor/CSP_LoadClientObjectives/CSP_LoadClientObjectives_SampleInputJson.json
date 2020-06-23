@@ -1,0 +1,49 @@
+{
+    "AccountId": "0011F000007ETAcQAO",
+    "BenefitObjectiveType": "Benefit Objective",
+    "BusinessObjectivesRank": {
+        "BusinessObjectiveBlock": {
+            "BusinessObjectiveDesc": null,
+            "BusinessObjectiveId": null,
+            "BusinessObjectiveLookup": null,
+            "BusinessObjectiveRank": null
+        }
+    },
+    "ClientObjectives": {
+        "ClientObjective": {
+            "ClientObjectActive": true,
+            "ClientObjectiveDescription": null,
+            "ClientObjectiveId": "a6i1F000000DEIEQA4",
+            "ClientObjectiveType": "Corporate"
+        },
+        "ClientObjectiveCount": 1,
+        "ClientObjectiveMsgMax": true
+    },
+    "ContextId": "0011F000007ETAc",
+    "DRId_Account_Plan__c": "a6l1F0000004KouQAE",
+    "Name": "Microsoft Corporation",
+    "PlanDetails": {
+        "AccountId": "0011F000007ETAcQAO",
+        "AccountName": "Microsoft Corporation",
+        "Id": "a6l1F0000004KouQAE",
+        "Name": "Manual Test",
+        "Status": "Observations"
+    },
+    "PlanDetailsId": "a6l1F0000004KouQAE",
+    "id": "a3C1F0000001X1hUAE",
+    "layout": "lightning",
+    "timeStamp": "2018-07-18T04:34:23.231Z",
+    "userCurrencyCode": "USD",
+    "userId": "0051F000001e386QAA",
+    "userName": "ilugina@vlocity.com2.configdev",
+    "userProfile": "System Administrator",
+    "userTimeZone": -240,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "DR_ExtractAccountPlan": 710,
+        "DR_LoadAccountPlan": 367,
+        "OmniScriptSessionToken": "7fa8a38a-faf9-41e8-8a3a-2a3f6516ff2c",
+        "PreSetValue": 32
+    }
+}

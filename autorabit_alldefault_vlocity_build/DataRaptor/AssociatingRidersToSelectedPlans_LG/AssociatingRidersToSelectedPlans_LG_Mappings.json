@@ -1,0 +1,41 @@
+[
+    {
+        "%vlocity_namespace%__DomainObjectAPIName__c": "Formula",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 0,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "Formula",
+        "%vlocity_namespace%__FormulaOrder__c": 1,
+        "%vlocity_namespace%__IsDisabled__c": false,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__MapId__c": "AssociatingRidersToSelectedPlans_LGCustom9239",
+        "%vlocity_namespace%__UpsertKey__c": false,
+        "Name": "AssociatingRidersToSelectedPlans_LG",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    },
+    {
+        "%vlocity_namespace%__DomainObjectAPIName__c": "json",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 1,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "jsonReturned:Rider_Selected_to_Plans",
+        "%vlocity_namespace%__InterfaceFieldAPIName__c": "DR-BuildingPlanList:Plan_Info",
+        "%vlocity_namespace%__IsDisabled__c": false,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__MapId__c": "AssociatingRidersToSelectedPlans_LGCustom443",
+        "%vlocity_namespace%__UpsertKey__c": false,
+        "Name": "AssociatingRidersToSelectedPlans_LG",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    },
+    {
+        "%vlocity_namespace%__DomainObjectAPIName__c": "json",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 1,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "jsonReturned:Rider_Selected_to_Plans:Custom_Riders_List",
+        "%vlocity_namespace%__InterfaceFieldAPIName__c": "CustomRidersList",
+        "%vlocity_namespace%__IsDisabled__c": false,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__MapId__c": "AssociatingRidersToSelectedPlans_LGCustom2150",
+        "%vlocity_namespace%__UpsertKey__c": false,
+        "Name": "AssociatingRidersToSelectedPlans_LG",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    }
+]

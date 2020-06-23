@@ -1,0 +1,38 @@
+{
+    "%vlocity_namespace%__Active__c": true,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "GL-CaptureHCRDetails",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/GroupLibrary/CaptureHCRDetails/English",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__ParentElementId__c": {
+        "%vlocity_namespace%__OmniScriptId__c": {
+            "Name": "GL-CaptureHCRDetails",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/GroupLibrary/CaptureHCRDetails/English",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+        },
+        "Name": "NonGrandfathered",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/GroupLibrary/CaptureHCRDetails/English/NonGrandfathered",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c"
+    },
+    "%vlocity_namespace%__ParentElementName__c": "NonGrandfathered",
+    "%vlocity_namespace%__ParentElementType__c": "Step",
+    "%vlocity_namespace%__PropertySet__c": {
+        "HTMLTemplateId": "",
+        "controlWidth": 12,
+        "dataJSON": false,
+        "disOnTplt": false,
+        "label": null,
+        "show": null,
+        "text": "<p style=\"text-align: center;\"><strong>Reference Note A: OOP Costshare Maximum for CY 2015</strong></p>\n<p>Note: This mandate applies 1) to NGF plans only and 2) for IN-NETWORK (and OON E.R.) services only. Commingling with Non Anthem vendors will require review and approval for meeting compliance and may not be practical in all situations (i.e. Medical and Pediatric Dental only).<br /><br /><strong>Note: Anthem will not determine what is an EHB for a carve-out vendor.&nbsp;</strong><br /><br /><strong>Options for Compliance other than Commingling</strong><br />Worknet Document Link: Commingling Options &amp; Expected Benefits definition<br /><strong>Carve-out PBM Policy&nbsp;</strong><br />Worknet Document Link: TO BE ADDED TO WORKNET<br /><br />1. Set up benefit plans that have separate out-of-pocket maximums for each insurer/type or product (i.e. medical, Rx) that, when added together, are not more than the total out-of-pocket maximum. For example, a group could set a total OOP at $6,600, with the medical deductible at $5,250, and the pharmacy deductible at $1,350* *For illustration only<br />2. Pediatric Dental and Vision only: remove any cost shares from EHBs for the separate insurers / type or product.<br />3. Pediatric Dental and Vision only: set up a plan so that it meets the standards of excepted benefits</p>\n<p></p>"
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": false,
+    "%vlocity_namespace%__Type__c": "Text Block",
+    "Name": "NGReferenceA",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/GroupLibrary/CaptureHCRDetails/English/NGReferenceA"
+}

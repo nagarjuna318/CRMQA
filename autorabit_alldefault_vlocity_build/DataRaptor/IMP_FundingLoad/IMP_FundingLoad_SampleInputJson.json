@@ -1,0 +1,99 @@
+{
+    "AccountName": "Hunter Douglas Inc.",
+    "BillingContactsEntityLevel": {
+        "DifferentContactsAt suffix level?": "Yes"
+    },
+    "CaseName": "2018: Renewal-Hunter Douglas Inc.",
+    "CobraWestOnly": {
+        "CobraBillGoToGroupOrCobraTPA": "Yes",
+        "CobraPremiumPaidByGroupOrTPA": "Group",
+        "CobraTPAUsingNonBCEnrollmentForm": "Yes"
+    },
+    "ContextId": "801W0000000n9sb",
+    "Finish": {
+        "FR-FinishMessage": " creating an Funding record for: Hunter Douglas Inc."
+    },
+    "Funding": {
+        "IncludeHCIDNumberOnTheInvoice": "Yes",
+        "MoreThanOneBillEntity": "Yes",
+        "PremiumRecdFromMoreThanOneSource": "Yes"
+    },
+    "FundingName": "",
+    "FundingRecordId": "",
+    "GroupClaimSystem": "WGS 2.0",
+    "Id": "801W0000000n9sbIAA",
+    "ImplementationCase": {
+        "FR-AccountName": "Hunter Douglas Inc.",
+        "FR-FundingName": null,
+        "FR-ImplementationCaseName": "2018: Renewal-Hunter Douglas Inc.",
+        "FR-ImplementationRecordId": "00000372"
+    },
+    "ImplementationCaseId": "801W0000000n9sbIAA",
+    "ImplementationNumber": "00000372",
+    "ImplementationType": "Renewal",
+    "RecordId": "",
+    "StopLossCarrierNameContactInformation": {
+        "ChangeToAnAlternativeFundingAccount": "Yes",
+        "CommunicationAllowanceForMarketing": "Yes",
+        "SL-AdditionalComments": "SL Additional Comments",
+        "SL-City": "SL CITY",
+        "SL-ContactName": "SL Contact",
+        "SL-Phone": "2222222222",
+        "SL-State": "IL",
+        "SL-StreetAddress": "SL Street Address",
+        "SL-ZipCode": "77777",
+        "StopLossPlanDescription": "Aggregate",
+        "StoppLossCarrierName": "SL Carrier Name"
+    },
+    "TPAContactInformation": {
+        "FR-TPACity": "Chicago",
+        "FR-TPAPhone": "(317) 287-8254",
+        "FR-TPAState": "IL",
+        "FR-TPAStreetAddress": "123 Clark St",
+        "FR-TPAZipCode": "60066"
+    },
+    "TPAContactName-Block": {
+        "TPAContactId": "003W000000jn6zDIAQ",
+        "TPAMailingCity": "Chicago",
+        "TPAMailingState": "IL",
+        "TPAMailingStreet": "123 Clark St",
+        "TPAMailingZipCode": "60066",
+        "TPAPhone": "(317) 287-8254"
+    },
+    "TypeofFunding": {
+        "ReinsuranceCarrierName": "TOF Carrier Name",
+        "ReinsuranceContactName": "TOF Contact Name",
+        "SelfFundedWithReinsurance": "TOF Self funded",
+        "TOF-AdditionalComments": "TOF Additional Comments",
+        "TOF-City": "TOF City",
+        "TOF-Phone": "1111111111",
+        "TOF-State": "ID",
+        "TOF-StreetAddress": "TOF Street Address",
+        "TOF-ZipCode": "66666"
+    },
+    "id": "a3CW0000000Aol5MAC",
+    "layout": "lightning",
+    "timeStamp": "2018-01-28T02:33:52.869Z",
+    "userCurrencyCode": "USD",
+    "userId": "005W0000002nEcaIAE",
+    "userName": "ilugina@vlocity.com.prod.nal1b.dev",
+    "userProfile": "System Administrator",
+    "userTimeZone": -300,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "BillingContactsEntityLevel": 7917,
+        "CobraWestOnly": 6536,
+        "DR-FundingDetailExtract": 1605,
+        "DR-FundingLoad": 2280526,
+        "DR-ImplentationCaseExtract": 1761,
+        "Finish": 1431,
+        "Funding": 9753,
+        "ImplementationCase": 37058,
+        "OmniScriptSessionToken": "be688e1d-75e4-4b4f-ad08-ae03d75d5a6e",
+        "SV-PresetData": 305,
+        "StopLossCarrierNameContactInformation": 49358,
+        "TPAContactInformation": 172443,
+        "TypeofFunding": 50096
+    }
+}

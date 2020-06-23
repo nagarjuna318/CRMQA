@@ -1,0 +1,18 @@
+{
+    "ContextId": "0Q04B000000AYhO",
+    "RequestGroupNumberStep": {
+        "CallServiceCenter": null,
+        "ClaimServiceCenter": null,
+        "ClaimSystem": null,
+        "DeliveryChannel": null
+    },
+    "id": "a3B4B000000ILT8UAO",
+    "layout": "lightning",
+    "testContextId": "0Q04B000000AYhO",
+    "timeStamp": "2017-08-03T04:52:17.469Z",
+    "userId": "0054B000000orR1QAI",
+    "userName": "keerthi.thoutireddy@anthem.com2.config",
+    "userProfile": "System Admin",
+    "vlcPersistentComponent": {
+    }
+}

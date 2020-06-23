@@ -1,0 +1,234 @@
+{
+    "BillingArrangementstep": {
+        "BillingArrangement": null
+    },
+    "ContextId": null,
+    "EligibilityInformation": {
+        "EmployerEligibility": {
+            "EligibilityBlockLeftSide": {
+                "DomesticPartnerApplyToAllGroup": null,
+                "DomesticPartnerIndicator": null,
+                "EmployeeExcludedCode": null,
+                "IfDepReachesMaxAgeAutoTermate": null,
+                "NewHireProbationaryPeriod": null,
+                "OverageDepTermLettersMailedToBus": null,
+                "PremPaidForEachSubDepPerMonth": null,
+                "PremPaidForEachSubPerMonth": null
+            },
+            "EligibilityBlockRightSide": {
+                "Messaging6": null,
+                "NHProbPDSameForAllQliAndSufix": null,
+                "PartIndSameForAllQLIAndSuffix": null,
+                "PercentPremDepSameForAllQliAndSufix": null,
+                "PercentPremSubSameForAllQliAndSufix": null
+            }
+        },
+        "ImplemenationCaseDetails": {
+            "AccountName1": null,
+            "ClaimSystem": null,
+            "EligibilityName": null
+        }
+    },
+    "EligibilityandFundingValidations": {
+    },
+    "EmployeeCategorySelection": {
+        "EmpCatValidationMessaging": null,
+        "EmployeeCategories": null
+    },
+    "EmployeeClassStep": {
+        "EditEmployeeBlock": {
+            "EmployeeClassId": null,
+            "EmployeeClassName": null,
+            "EmployeeClassType": null,
+            "LastModifiedBy": null
+        },
+        "EmployeeClassExtract": null,
+        "EmployeeClassesseparate": {
+        },
+        "Formula25": null,
+        "Formula26": null,
+        "Messaging5": null
+    },
+    "FundingInformation": {
+        "COBRAWest": {
+            "COBRABillGo": null,
+            "COBRAPremium": null,
+            "COBRATPA": null
+        },
+        "FundingDetails": {
+            "DifferentContactsAtSuffixLevel": null,
+            "IfYesPlzExpln": null,
+            "IncludeHCIDNumberOnTheInvoice": null,
+            "MoreThanOneBillEntity": null,
+            "PremiumRecdFromMoreThanOneSource": null,
+            "SelfFundedwithReinsurance": null
+        },
+        "FundingImplementationCaseDetails": {
+            "FRM-AccountName2": null,
+            "FRM-ClaimSystem1": null,
+            "FRM-FundingName": null
+        },
+        "TPAContactInformation": {
+            "City": null,
+            "FRTPACity": null,
+            "FRTPAPhone": null,
+            "FRTPAState": null,
+            "FRTPAStreetAddress": null,
+            "FRTPAZipCode": null,
+            "Phonee": null,
+            "State": null,
+            "StreetAddress": null,
+            "TPAContactName-Block": {
+                "TPAContactId": null,
+                "TPAContactName": null,
+                "TPAContactNameFM": null
+            },
+            "ZipCode": null
+        }
+    },
+    "GroupPlanDesignSuffix": {
+        "GroupPlanDesigns": null,
+        "activeGPDSelectionVal": null
+    },
+    "InvoiceGPDMappingStep": {
+        "GPD": null,
+        "InvoiceList": {
+            "InvDescription": null,
+            "InvOtherSortingOption1": null,
+            "InvRecordId": null,
+            "InvSortingOption1": null,
+            "InvSortingOption2": null
+        }
+    },
+    "QLIProductEligibility": {
+        "QliEligibility": null,
+        "QliFirstBlock": {
+            "DomPartIndSameForAllQliAndSufixPriview": null,
+            "NHProbPDSameForAllQliAndSufixPriview": null,
+            "PercentPremDepSameForAllQLIAndSuffix": null,
+            "PercentPremSubSameForAllQLIAndSuffix": null
+        }
+    },
+    "QLIProductsData": {
+        "APNDetails": {
+            "ANPrefixProdName": null,
+            "AssignedPrefixName": null,
+            "CustomNwkName": null,
+            "PrdNwkName": null
+        },
+        "QLIProducts": null
+    },
+    "RecapandNextSteps": {
+        "NextBlock": {
+        },
+        "RecapBlock": {
+        }
+    },
+    "Step1": {
+        "Invoices": {
+            "BillingFrequency": null,
+            "BillingPreference": null,
+            "ClaimGraceDays": null,
+            "EBillingContactTitle": null,
+            "FaxDispl": null,
+            "FullName": null,
+            "GraceDays": null,
+            "InvoiceDescription": null,
+            "InvoiceFormat": null,
+            "InvoiceSortingOption": null,
+            "InvoiceSortingOption2": null,
+            "InvoicesId": null,
+            "Messaging2": null,
+            "OtherInvoiceSortingOption": null,
+            "OtherInvoiceSortingOption2": null,
+            "PhoneDisplay": null,
+            "SortingOrderForOption1": null,
+            "SortingOrderForOption2": null,
+            "TARANameLookup-Block": {
+                "Fax": null,
+                "FirstName": null,
+                "Id": null,
+                "LastName": null,
+                "MailingCity": null,
+                "MailingPostalCode": null,
+                "MailingState": null,
+                "MailingStreet": null,
+                "Phone": null,
+                "TARANameLookup": null,
+                "Title": null,
+                "eMail": null
+            },
+            "ToleranceLevel": null,
+            "TypeOfBill": null,
+            "eId": null,
+            "eMailDisp": null,
+            "eMailingCity": null,
+            "eMailingPostalCode": null,
+            "eMailingState": null,
+            "eMailingStreet": null
+        },
+        "WhatareInvoices": {
+        }
+    },
+    "Submit": {
+        "ASQS": null,
+        "CustomerRequestedGroupNumber": null,
+        "SubmitThisAccountStructure": null,
+        "TrackAccountStructure": null
+    },
+    "timeStamp": null,
+    "userId": null,
+    "userName": null,
+    "userProfile": null,
+    "userTimeZone": null,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "APNSetValues": null,
+        "BillingArrangementRemote": null,
+        "BillingArrangementstep": null,
+        "CreateGroupPlanDesign_Remote": null,
+        "DoneAction1": null,
+        "EC": null,
+        "ECset": null,
+        "EligibilityDetailsSt": null,
+        "EligibilityInformation": null,
+        "EligibilityPost": null,
+        "EligibilityandFundingValidations": null,
+        "EligibilityrecordSt": null,
+        "EmpCatPostDR": null,
+        "EmpCategoryRemote": null,
+        "EmployeeCategorySelection": null,
+        "EmployeeClassDataRaptor": null,
+        "EmployeeClassPostAction": null,
+        "EmployeeClassStep": null,
+        "ExtractAPNDetailsDR": null,
+        "ExtractEligibilityFundingByImpleCaseDR": null,
+        "ExtractGPDDetails": null,
+        "ExtractInvoiceAndGPDs": null,
+        "ExtractQliEligibility": null,
+        "FundingDetailsSt": null,
+        "FundingInformation": null,
+        "GroupPlanDesignSuffix": null,
+        "ImpTrackandGroupUpdate": null,
+        "ImplementationTrackingUpdate": null,
+        "InvoiceExtractTypeaHead": null,
+        "InvoiceGPDMappingStep": null,
+        "InvoicePostAction": null,
+        "PostFundingByImplCaseDR": null,
+        "PostGPDDetails": null,
+        "QLIAPNUpdatePostDR": null,
+        "QLIProductEligibility": null,
+        "QLIProductsData": null,
+        "QliEligibilityPostAction": null,
+        "RecapandNextSteps": null,
+        "SetBillingList": null,
+        "SetInvoiceValues": null,
+        "SetValues10": null,
+        "SetValues12": null,
+        "SetValues7": null,
+        "Step1": null,
+        "Submit": null,
+        "UpdateGPDWithInvoiceId": null
+    }
+}

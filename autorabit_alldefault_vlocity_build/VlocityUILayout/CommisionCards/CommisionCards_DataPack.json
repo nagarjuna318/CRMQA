@@ -1,0 +1,25 @@
+{
+    "%vlocity_namespace%__Author__c": "Anthem Commercial 2.0",
+    "%vlocity_namespace%__Datasource__c": {
+        "contextVariables": [
+            {
+                "name": "params.id",
+                "val": "a8S1b000000Cvu0EAC"
+            }
+        ],
+        "type": "Query",
+        "value": {
+            "query": "SELECT Id, OwnerId, Total_Comp_Amount_For_Person__c , Owner_Name__c, Multiplier_Percentage__c, Opportunity_Effective_Date__c, Reports_To__c, Internal_Commission__c, Role__c FROM Commission_Paid_People__c WHERE Internal_Commission__c= '{{params.id}}' and OwnerId \nIN (SELECT User__c FROM Internal_Commission_Reporting_Hierarchy__c WHERE LoginUser__c = 'Y')"
+        }
+    },
+    "%vlocity_namespace%__Definition__c": "CommisionCards.json",
+    "%vlocity_namespace%__Description__c": "",
+    "%vlocity_namespace%__GlobalKey__c": "CommisionCards/1/Anthem Commercial 2.0/1548427261096",
+    "%vlocity_namespace%__ParentID__c": "",
+    "%vlocity_namespace%__Type__c": "Layout",
+    "%vlocity_namespace%__Version__c": 1,
+    "Name": "CommisionCards",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__VlocityUILayout__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__VlocityUILayout__c/CommisionCards"
+}

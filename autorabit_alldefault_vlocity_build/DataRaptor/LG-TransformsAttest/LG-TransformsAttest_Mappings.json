@@ -1,0 +1,93 @@
+[
+    {
+        "%vlocity_namespace%__DomainObjectAPIName__c": "json",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 1,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "BrokerName",
+        "%vlocity_namespace%__InterfaceFieldAPIName__c": "StageInformation:Brokers:Name",
+        "%vlocity_namespace%__IsDisabled__c": false,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__MapId__c": "LG-TransformsAttestCustom6327",
+        "%vlocity_namespace%__UpsertKey__c": false,
+        "Name": "LG-TransformsAttest",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    },
+    {
+        "%vlocity_namespace%__DomainObjectAPIName__c": "json",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 1,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "Confirm:BrokerEmail",
+        "%vlocity_namespace%__InterfaceFieldAPIName__c": "StageInformation:Brokers:Email",
+        "%vlocity_namespace%__IsDisabled__c": false,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__MapId__c": "LG-TransformsAttestCustom7626",
+        "%vlocity_namespace%__UpsertKey__c": false,
+        "Name": "LG-TransformsAttest",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    },
+    {
+        "%vlocity_namespace%__DomainObjectAPIName__c": "json",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 1,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "Confirm:ClientEmail",
+        "%vlocity_namespace%__InterfaceFieldAPIName__c": "StageInformation:GroupContact:Email",
+        "%vlocity_namespace%__IsDisabled__c": false,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__MapId__c": "LG-TransformsAttestCustom7244",
+        "%vlocity_namespace%__UpsertKey__c": false,
+        "Name": "LG-TransformsAttest",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    },
+    {
+        "%vlocity_namespace%__DomainObjectAPIName__c": "json",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 1,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "Confirm:ClientName",
+        "%vlocity_namespace%__InterfaceFieldAPIName__c": "StageInformation:GroupContact:Name",
+        "%vlocity_namespace%__IsDisabled__c": false,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__MapId__c": "LG-TransformsAttestCustom6631",
+        "%vlocity_namespace%__UpsertKey__c": false,
+        "Name": "LG-TransformsAttest",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    },
+    {
+        "%vlocity_namespace%__DomainObjectAPIName__c": "json",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 1,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "Confirm:ClientTitle",
+        "%vlocity_namespace%__InterfaceFieldAPIName__c": "StageInformation:GroupContact:Title",
+        "%vlocity_namespace%__IsDisabled__c": false,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__MapId__c": "LG-TransformsAttestCustom6978",
+        "%vlocity_namespace%__UpsertKey__c": false,
+        "Name": "LG-TransformsAttest",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    },
+    {
+        "%vlocity_namespace%__DomainObjectAPIName__c": "json",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 1,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "Confirm:SelectedUW",
+        "%vlocity_namespace%__InterfaceFieldAPIName__c": "StageInformation:LeadUW",
+        "%vlocity_namespace%__IsDisabled__c": false,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__MapId__c": "LG-TransformsAttestCustom332",
+        "%vlocity_namespace%__UpsertKey__c": false,
+        "Name": "LG-TransformsAttest",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    },
+    {
+        "%vlocity_namespace%__DomainObjectAPIName__c": "json",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 1,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "GroupNumber",
+        "%vlocity_namespace%__InterfaceFieldAPIName__c": "StageInformation:Group:Name",
+        "%vlocity_namespace%__IsDisabled__c": false,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__MapId__c": "LG-TransformsAttestCustom2071",
+        "%vlocity_namespace%__UpsertKey__c": false,
+        "Name": "LG-TransformsAttest",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    }
+]

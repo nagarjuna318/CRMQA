@@ -1,0 +1,36 @@
+{
+    "Cards": [
+        "OpportunityQuoteFlyoutCard",
+        "OpportunityQuoteFlyoutCard_LG",
+        "OpportunityQuoteFlyoutCard GRS",
+        "OpportunityQuoteFlyoutCard Admin"
+    ],
+    "dataSource": {
+        "contextVariables": [
+            {
+                "name": "parent.obj.Id",
+                "val": "0060r000002ppWUAAY"
+            }
+        ],
+        "type": "Query",
+        "value": {
+            "jsonMap": "{\"parent.obj.Id\":\"{{parent.obj.Id}}\"}"
+        }
+    },
+    "previewType": "runTime",
+    "templates": {
+        "0": {
+            "templateUrl": "anthem-card-canvas-1x-slds-nosearch"
+        }
+    },
+    "workspace": [
+        null,
+        "OpportunityQuoteFlyoutCard/Anthem Commercial 2.0/null/1513958194638",
+        null,
+        null,
+        null,
+        "OpportunityQuoteFlyoutCard_LG/Anthem Commercial 2.0/null/1523378639185",
+        "OpportunityQuoteFlyoutCard GRS/Anthem Commercial 2.0/1/1571342201395",
+        "OpportunityQuoteFlyoutCard Admin/Anthem Commercial 2.0/1/1571344490154"
+    ]
+}

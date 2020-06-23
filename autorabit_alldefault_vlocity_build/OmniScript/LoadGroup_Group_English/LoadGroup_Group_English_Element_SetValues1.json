@@ -1,0 +1,56 @@
+{
+    "%vlocity_namespace%__Active__c": true,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "Load Group_Order",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/LoadGroup/Group/English",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__PropertySet__c": {
+        "HTMLTemplateId": "",
+        "controlWidth": 12,
+        "disOnTplt": false,
+        "elementValueMap": {
+            "AddNewDepartmentCodes": "=IF(AND(%MaintenanceReasonCustomerMaster% != null, %MaintenanceReasonCustomerMaster% !=\"\", CONTAINS(%MaintenanceReasonCustomerMaster%, \"Add new Department Codes\")), true, false)",
+            "AddNewEmployeeClassDivision": "=IF(AND(%MaintenanceReasonCustomerMaster% != null, %MaintenanceReasonCustomerMaster% !=\"\", CONTAINS(%MaintenanceReasonCustomerMaster%, \"Add new Employee Class (Division)\")), true, false)",
+            "AddNewProductMedicalSpecialtyOnly": "=IF(AND(%MaintenanceReasonCustomerMaster% != null, %MaintenanceReasonCustomerMaster% !=\"\", CONTAINS(%MaintenanceReasonCustomerMaster%, \"Add new Product (Medical/Specialty only)\")), true, false)",
+            "AddNewProductSupplemental": "=IF(AND(%MaintenanceReasonCustomerMaster% != null, %MaintenanceReasonCustomerMaster% !=\"\", CONTAINS(%MaintenanceReasonCustomerMaster%, \"Add new Product (Supplemental)\")), true, false)",
+            "ChangeAccountName": "=IF(AND(%MaintenanceReasonCustomerMaster% != null, %MaintenanceReasonCustomerMaster% !=\"\", CONTAINS(%MaintenanceReasonCustomerMaster%, \"Change Account Name\")), true, false)",
+            "ChangeAccountPhoneNumber": "=IF(AND(%MaintenanceReasonCustomerMaster% != null, %MaintenanceReasonCustomerMaster% !=\"\", CONTAINS(%MaintenanceReasonCustomerMaster%, \"Change Account Phone Number\")), true, false)",
+            "ChangeAccountPhysicalOrMailingAddress": "=IF(AND(%MaintenanceReasonCustomerMaster% != null, %MaintenanceReasonCustomerMaster% !=\"\", CONTAINS(%MaintenanceReasonCustomerMaster%, \"Change Account Physical or Mailing Address\")), true, false)",
+            "ChangeAnniversaryMonth": "=IF(AND(%MaintenanceReasonCustomerMaster% != null, %MaintenanceReasonCustomerMaster% !=\"\", CONTAINS(%MaintenanceReasonCustomerMaster%, \"Change Anniversary Month\")), true, false)",
+            "ChangeBenefitDesignOnAtLeastOneProduct": "=IF(AND(%MaintenanceReasonCustomerMaster% != null, %MaintenanceReasonCustomerMaster% !=\"\", CONTAINS(%MaintenanceReasonCustomerMaster%, \"Change Benefit Design on at least one Product\")), true, false)",
+            "ChangeContactBillingInvoice": "=IF(AND(%MaintenanceReasonCustomerMaster% != null, %MaintenanceReasonCustomerMaster% !=\"\", CONTAINS(%MaintenanceReasonCustomerMaster%, \"Change Contact (Billing/Invoice)\")), true, false)",
+            "ChangeContactNonBilling": "=IF(AND(%MaintenanceReasonCustomerMaster% != null, %MaintenanceReasonCustomerMaster% !=\"\", CONTAINS(%MaintenanceReasonCustomerMaster%, \"Change Contact (Non Billing)\")), true, false)",
+            "ChangeFundingTypeOnAtLeastOneProduct": "=IF(AND(%MaintenanceReasonCustomerMaster% != null, %MaintenanceReasonCustomerMaster% !=\"\", CONTAINS(%MaintenanceReasonCustomerMaster%, \"Change Funding Type on at least one Product\")), true, false)",
+            "ChangeNewHireProbationaryPeriod": "=IF(AND(%MaintenanceReasonCustomerMaster% != null, %MaintenanceReasonCustomerMaster% !=\"\", CONTAINS(%MaintenanceReasonCustomerMaster%, \"Change New Hire Probationary Period\")), true, false)",
+            "ChangeProducts": "=IF(AND(%MaintenanceReasonCustomerMaster% != null, %MaintenanceReasonCustomerMaster% !=\"\", CONTAINS(%MaintenanceReasonCustomerMaster%, \"Change Products\")), true, false)",
+            "GroupSubmissionCounter": "=%OutGroupSubmissionCounter%",
+            "LoadGroupStatus": "=%OutLoadGroupStatus%",
+            "LoadGroupSubmissionTimestamp": "=%OutLoadGroupSubmissionTimestamp%",
+            "PEOAndAddingNewCompanyThatRequiresNewSuffixes": "=IF(AND(%MaintenanceReasonCustomerMaster% != null, %MaintenanceReasonCustomerMaster% !=\"\", CONTAINS(%MaintenanceReasonCustomerMaster%, \"PEO and adding new Company that requires new suffixes\")), true, false)",
+            "RateAdjustmentDueToInternalError": "=IF(AND(%MaintenanceReasonCustomerMaster% != null, %MaintenanceReasonCustomerMaster% !=\"\", CONTAINS(%MaintenanceReasonCustomerMaster%, \"Rate adjustment due to internal error\")), true, false)",
+            "RecFetch": "=IF(OR(%RecordTypeName%=='LG Renewals', %RecordTypeName%=='LG Change Request Off Cycle Lock',%RecordTypeName%=='LG Change Request Off Cycle Unlock',%RecordTypeName%=='LG Local and National Change Request Off Cycle ReadOnly',%RecordTypeName%=='LG Local and National Renewals ReadOnly',%RecordTypeName%=='LG Renewal Lock',%RecordTypeName%=='LG Renwal Unlock') , true,false )",
+            "st2": "=IF(OR(%st1%=='Implementation Completed'||%st1%=='Initiated'|| %st1%=='Ready for Imps'|| %st1%=='Pending Response from AE'|| %st1%=='Withdrawn'|| %st1%=='Approved'), true,false)",
+            "st3": "=IF(OR(%st1%=='RFP Review Finalized'||%st1%=='Revision Pending Response from Sales/Account Management'|| %st1%=='Revision Pending Implementations Review'|| %st1%=='Pending SME Review'), true,false)"
+        },
+        "label": "SetValues1",
+        "message": {
+        },
+        "pubsub": false,
+        "show": null,
+        "showPersistentComponent": [
+            false,
+            false
+        ],
+        "ssm": false,
+        "validationRequired": "Step",
+        "wpm": false
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": false,
+    "%vlocity_namespace%__Type__c": "Set Values",
+    "Name": "SetValues1",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/LoadGroup/Group/English/SetValues1"
+}

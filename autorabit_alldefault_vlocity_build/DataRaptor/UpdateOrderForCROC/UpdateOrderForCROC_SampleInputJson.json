@@ -1,0 +1,323 @@
+{
+    "AccTeamMemId": "01M23000007uwvTEAQ",
+    "AccountPreferences": {
+        "ASONewbornOptOutIndicator": "N",
+        "CertofCreditableCoverageSuppression": "N",
+        "ConversionLetterSuppression": "N",
+        "DelinquencyCancellationLttrSuppression": "N",
+        "DoesAnthemGenerateHCID": "G",
+        "TerminationLetterSuppression1": "Y",
+        "TerminationLetterSuppression2": "N"
+    },
+    "AccountUpdateId": "0012i00000EOKBsAAP",
+    "AddNewDepartmentCodes": false,
+    "AddNewEmployeeClassDivision": false,
+    "AddNewProductMedicalSpecialtyOnly": false,
+    "AddNewProductSupplemental": false,
+    "CaseInformation": {
+        "CaseInformation1": {
+            "AcountAccessLevel": "Read",
+            "ImplementationCaseStatus": "Pending SME Review",
+            "ImplementationEffectiveDate": "2021-01-01",
+            "OppOwner-Block": {
+                "OppOwner": "Devansu Kasyap"
+            },
+            "OpportunityOwnerAnthemFederationID": "AG61828",
+            "UnderwriterAnthemFederationID": "AG21237",
+            "UnderwriterName": "Amy Profitt",
+            "WGSMBUCode": "66700000"
+        }
+    },
+    "ChangeAccountName": false,
+    "ChangeAccountPhoneNumber": false,
+    "ChangeAccountPhysicalOrMailingAddress": false,
+    "ChangeAnniversaryMonth": false,
+    "ChangeBenefitDesignOnAtLeastOneProduct": false,
+    "ChangeContactBillingInvoice": false,
+    "ChangeContactNonBilling": false,
+    "ChangeFundingTypeOnAtLeastOneProduct": false,
+    "ChangeNewHireProbationaryPeriod": false,
+    "ChangeProducts": false,
+    "ChangeRequestOffCycleICR": {
+        "AtLeastOneOption": true,
+        "AtleastOneCondition": false,
+        "ChangeAccountNameBlock": {
+            "ChangeAccountName": false,
+            "ChangeAccountNameMessage": false
+        },
+        "ChangeAccountPhoneNumberBlock": {
+            "ChangeAccountPhoneNumber": false,
+            "ChangeAccountPhoneNumberMessage": false
+        },
+        "ChangeAccountPhysicalOrMailingAddressBlock": {
+            "ChangeAccountPhysicalOrMailingAddress": true,
+            "ChangeAccountPhysicalOrMailingAddressMessage": true
+        },
+        "ChangeContactBillingInvoiceBlock": {
+            "ChangeContactBillingInvoice": false,
+            "ChangeContactBillingInvoiceMessage": false
+        },
+        "ChangeContactNonBillingBlock": {
+            "ChangeContactNonBilling": false,
+            "ChangeContactNonBillingMessage": false
+        },
+        "RateAdjustmentDueToInternalErrorBlock": {
+            "RateAdjustmentDueToInternalError": false,
+            "RateAdjustmentDueToInternalErrorMessage": false
+        },
+        "SetMaintaianceReason": "Change Account Physical or Mailing Address;"
+    },
+    "CompanyInformation1": {
+        "CompanyInformation": {
+            "AccontTeam": {
+                "AccountExecutiveBlock": {
+                    "AccountExecutive": null
+                },
+                "AccountManagerBlock": {
+                    "AccountManager": null
+                },
+                "SalesAccountRepAcctMgmtBlock": {
+                    "SalesAccountRepAcctMgmt": null
+                },
+                "SpecialtySalesExecutiveTeamBlock": {
+                    "SpecialtySalesExecutiveTeam": null
+                },
+                "UnderwriterBlock": {
+                    "Underwriter": null
+                }
+            },
+            "AccountLegalName": "NATL Automation PRSPCT_PnQw",
+            "AccountNameDBA": null,
+            "AccountStatusCROC": "Active",
+            "AccountStatusFormula": null,
+            "AccountStatusNB": "Active",
+            "AnthemEntity": "National Accounts",
+            "CompanySizeGroupSize": "5001 - 10000",
+            "EOCPaperlessOptionIndicator": null,
+            "ERISAStatus": null,
+            "EmployerTaxID": null,
+            "HIPAALetterExclusion": "(Y) Exclude the Generation of HIPAA Add and Term Letters Due To HCR",
+            "HQState": "AL",
+            "LegalEntity": null,
+            "Phone1": null,
+            "PhysicalAndMailingAddress": {
+                "MalingConditionBlock": {
+                    "MailingBlock": {
+                        "MailingCity": "Gurugram",
+                        "MailingCountry": "India",
+                        "MailingCounty": null,
+                        "MailingState": "HR",
+                        "MailingStreet": "house no - 258/P, sector-14 Old Delhi Gurgaon Road",
+                        "MailingZipCode": "122001"
+                    },
+                    "MailingFormula": null
+                },
+                "PhysicalCorrectlevel": {
+                    "Physicalblock": {
+                        "PhysicaZiPCode": "122001",
+                        "PhysicalCity": "Gurugram",
+                        "PhysicalCountry": "India",
+                        "PhysicalCounty": null,
+                        "PhysicalState": "HR",
+                        "PhysicalStreet": "house no - 258/P, sector-14 Old Delhi Gurgaon Road"
+                    }
+                },
+                "ShippingAddressissameAsMailingAddress": true
+            },
+            "SitusState": "California",
+            "VendorReferral": "A",
+            "WorkLocation": null
+        }
+    },
+    "ContactInformation": {
+        "BillingContactContactType": null,
+        "BillingContactEmail": null,
+        "BillingContactFirstName": null,
+        "BillingContactLastName": null,
+        "BillingContactMailingCity": null,
+        "BillingContactMailingState": null,
+        "BillingContactMailingStreet": null,
+        "BillingContactMailingZipCode": null,
+        "BillingContactPhone": null,
+        "ContactTypeBillingAndGroupAdmin": null,
+        "GroupAdministratorContactEmail": null,
+        "GroupAdministratorContactPhone": null,
+        "GroupAdministratorContactType": null,
+        "GroupAdministratorFirstName": null,
+        "GroupAdministratorLastName": null,
+        "GroupAdministratorMailingCity": null,
+        "GroupAdministratorMailingState": null,
+        "GroupAdministratorMailingStreet": null,
+        "GroupAdministratorMailingZipCode": null
+    },
+    "ContextId": "8012i000000cG64",
+    "CounterValue": false,
+    "DataRaptorExtractAction6Status": true,
+    "DataRaptorExtractAction7Status": true,
+    "GroupInformation": {
+        "ClaimSystem": "WGS 2.0",
+        "ClaimsDetails": {
+            "DuplicateSupplementalCoverageAllowed": "N"
+        },
+        "EmployeeAssistanceProgram": false,
+        "GroupNumber": "TBD",
+        "IDCardsDetails": {
+            "IDCardsSentToInitially": "Subscribers",
+            "MaintenanceCardsSentTo": "Subscribers",
+            "NonHmoBlock": {
+                "NonHMOIDCards": "SS",
+                "NonHMOIDCards1": "AL"
+            }
+        },
+        "OADAutoDelete": "Y",
+        "OpportunityEffectiveDate": "2021-01-01",
+        "RenewalDetails": {
+            "ActiveRenewalDate": "01/15/2020",
+            "MonthUnderwriterStartsRenewalProcess": "February"
+        }
+    },
+    "GroupNumbervalidation": "Pending SME Review",
+    "GroupSubmissionCounter": "",
+    "GroupUpdateID": "a5I2i0000004Y88EAE",
+    "ImplCase": {
+        "ImplementationType": "Change Request Off Cycle"
+    },
+    "ImplementationType": "Change Request Off Cycle",
+    "IsLoadGroupSubmitted": false,
+    "LoadGroupStatus": "",
+    "LoadGroupStep": {
+        "CaseInformation": {
+            "ImplementationCaseStatus": "Pending SME Review"
+        }
+    },
+    "LoadGroupSubmissionTimestamp": "",
+    "MailingAddress": "house no - 258/P, sector-14 Old Delhi Gurgaon Road, Gurugram, HR, 122001, India",
+    "OrderId": "8012i000000cG64AAE",
+    "OrderNumber": "IMPL-32147",
+    "PEOAndAddingNewCompanyThatRequiresNewSuffixes": false,
+    "PhysicalAddress": "house no - 258/P, sector-14 Old Delhi Gurgaon Road, Gurugram, HR, 122001, India",
+    "ProductWithPercent": "%",
+    "QuoteupdateID": "0Q02i0000002u7sCAA",
+    "RateAdjustmentDueToInternalError": false,
+    "RecFetch": false,
+    "RecordTypeName": "Renewal Unlock",
+    "ResponseAction2Status": true,
+    "SitusStateValue": "California",
+    "id": "a3C23000000I7sKEAS",
+    "layout": "lightning",
+    "opportunityupdateID": "0062i000003TCyJAAW",
+    "options": {
+        "chainable": false,
+        "postTransformBundle": "",
+        "preTransformBundle": "",
+        "useContinuation": false,
+        "useFuture": false,
+        "vlcClass": "%vlocity_namespace%.IntegrationProcedureService"
+    },
+    "response": {
+        "AccTeamMemId": "01M23000007uwvTEAQ",
+        "AccountPreferences": {
+            "ASONewbornOptOutIndicator": "N",
+            "CertofCreditableCoverageSuppression": "N",
+            "ConversionLetterSuppression": "N",
+            "DelinquencyCancellationLttrSuppression": "N",
+            "DoesAnthemGenerateHCID": "G",
+            "TerminationLetterSuppression1": "Y",
+            "TerminationLetterSuppression2": "N"
+        },
+        "AccountUpdateId": "0012i00000EOKBsAAP",
+        "CaseInformation": {
+            "CaseInformation1": {
+                "AcountAccessLevel": "Read",
+                "ImplementationCaseStatus": "Pending SME Review",
+                "ImplementationEffectiveDate": "2021-01-01",
+                "OppOwner-Block": {
+                    "OppOwner": "Devansu Kasyap"
+                },
+                "OpportunityOwnerAnthemFederationID": "AG61828",
+                "UnderwriterAnthemFederationID": "AG21237",
+                "UnderwriterName": "Amy Profitt",
+                "WGSMBUCode": "66700000"
+            }
+        },
+        "CompanyInformation1": {
+            "CompanyInformation": {
+                "AccountLegalName": "NATL Automation PRSPCT_PnQw",
+                "AccountStatusCROC": "Active",
+                "AccountStatusNB": "Active",
+                "AnthemEntity": "National Accounts",
+                "CompanySizeGroupSize": "5001 - 10000",
+                "ERISAStatus": "No",
+                "HIPAALetterExclusion": "(Y) Exclude the Generation of HIPAA Add and Term Letters Due To HCR",
+                "HQState": "AL",
+                "PhysicalAndMailingAddress": {
+                    "MalingConditionBlock": {
+                        "MailingBlock": {
+                            "MailingCity": "Gurugram",
+                            "MailingCountry": "India",
+                            "MailingState": "HR",
+                            "MailingStreet": "house no - 258/P, sector-14 Old Delhi Gurgaon Road",
+                            "MailingZipCode": "122001"
+                        }
+                    },
+                    "PhysicalCorrectlevel": {
+                        "Physicalblock": {
+                            "PhysicaZiPCode": "122001",
+                            "PhysicalCity": "Gurugram",
+                            "PhysicalCountry": "India",
+                            "PhysicalState": "HR",
+                            "PhysicalStreet": "house no - 258/P, sector-14 Old Delhi Gurgaon Road"
+                        }
+                    },
+                    "ShippingAddressissameAsMailingAddress": true
+                },
+                "SitusState": "California",
+                "VendorReferral": "A"
+            }
+        },
+        "GroupInformation": {
+            "ClaimSystem": "WGS 2.0",
+            "ClaimsDetails": {
+                "DuplicateSupplementalCoverageAllowed": "N"
+            },
+            "EmployeeAssistanceProgram": false,
+            "GroupNumber": "TBD",
+            "IDCardsDetails": {
+                "IDCardsSentToInitially": "Subscribers",
+                "MaintenanceCardsSentTo": "Subscribers",
+                "NonHmoBlock": {
+                    "NonHMOIDCards": "SS",
+                    "NonHMOIDCards1": "AL"
+                }
+            },
+            "OADAutoDelete": "Y",
+            "OpportunityEffectiveDate": "2021-01-01",
+            "RenewalDetails": {
+                "ActiveRenewalDate": "01/15/2020",
+                "MonthUnderwriterStartsRenewalProcess": "February"
+            }
+        },
+        "GroupNumbervalidation": "Pending SME Review",
+        "GroupUpdateID": "a5I2i0000004Y88EAE",
+        "MailingAddress": "house no - 258/P, sector-14 Old Delhi Gurgaon Road, Gurugram, HR, 122001, India",
+        "OrderId": "8012i000000cG64AAE",
+        "PhysicalAddress": "house no - 258/P, sector-14 Old Delhi Gurgaon Road, Gurugram, HR, 122001, India",
+        "QuoteupdateID": "0Q02i0000002u7sCAA",
+        "RecordTypeName": "Renewal Unlock",
+        "SitusStateValue": "California",
+        "opportunityupdateID": "0062i000003TCyJAAW"
+    },
+    "st1": "Pending SME Review",
+    "st2": false,
+    "st3": true,
+    "stImplementationType": "Change Request Off Cycle",
+    "testContextId": "8012i000000cG64",
+    "timeStamp": "2020-06-15T15:14:06.138Z",
+    "userCurrencyCode": "USD",
+    "userId": "0052i000001IziDAAS",
+    "userName": "s.a.singh.rajput@accenture.com.raptors",
+    "userProfile": "System Administrator",
+    "userTimeZone": -240,
+    "vlcPersistentComponent": {
+    }
+}

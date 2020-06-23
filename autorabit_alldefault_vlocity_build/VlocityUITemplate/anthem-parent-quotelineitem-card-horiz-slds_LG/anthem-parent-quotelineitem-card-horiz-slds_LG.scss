@@ -1,0 +1,76 @@
+.via-slds .via-slds-card--horiz-parent {
+    .via-slds-card__header {
+        background-clip: padding-box;
+        background-color: #ced8e4;
+        border-bottom: 2px solid #d8dde6;
+        margin-bottom: 0;
+        max-height: 55px;
+    }
+    
+    .via-slds-x-small-card__body > .via-slds-grid {
+        border-bottom: 1px solid #d8dde6;
+    }
+    
+    .via-slds-card__body {
+        background: #FFF;
+        background-clip: padding-box;
+    }
+
+    .via-slds-card__body > .via-slds-border--bottom {
+        border-bottom: 1px solid #d8dde6;
+    }
+    
+    .via-slds-card__header.header-red {
+        background-color: #ea5555;
+    }
+    
+    .via-slds-card__header.header-blue {
+        background-color: #abd6ff;
+    }
+    
+    .via-slds-card__header.header-green {
+        background-color: #99ff9c;
+    }
+    
+    .via-slds-card__header.header-yellow {
+        background-color: #fffa99;
+    }
+    
+    .via-slds-card__header.header-default {
+        background-color: #f4f6f9;
+    }
+    
+    .slds-icon-action-goal {
+        background-color: #FF5953;
+    }
+    
+    .slds-icon-action-check {
+        background-color: #00BC63;
+    }
+    
+    .slds-icon-action-more {
+        background-color: #E6CE5D;
+    }
+    
+    .innercircle {
+        height:14px;
+        width:14px;
+        border-radius:7px;
+    }
+    .innercircle.grey{
+        background: grey;
+    }
+    .innercircle.yellow{
+        background: #E6CE5D;
+    }
+    .innercircle.green{
+        background: #00BC63;
+    }
+    .innercircle.red{
+        background: #FF5953;
+    }
+    .slds-button.slds-button_neutral {
+        border-width: 0px;
+        line-height: 1.75em;
+    }
+}

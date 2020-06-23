@@ -1,0 +1,65 @@
+{
+    "ContextId": null,
+    "Step1": {
+        "AccountName": null,
+        "MeetingEntry": {
+            "Block13": {
+                "MGPlanType": null
+            },
+            "Block9": {
+                "MGLIneOffered": null,
+                "VoluntaryArrangement": null
+            },
+            "Facilitator": null,
+            "MGName": null,
+            "MGSource": null,
+            "MaterialsNeeded": null,
+            "OECoordinator": null,
+            "TenMeetings": null
+        }
+    },
+    "Step2": {
+        "Block10": {
+            "AdditionalComments": null,
+            "ClientDriversRisk": null,
+            "OEMicrosite": null,
+            "OtherComments": null,
+            "PlanChanges": null
+        },
+        "Block12": {
+            "CarrierType": null,
+            "DressCode": null,
+            "Website": null
+        },
+        "MemberCSDetails": {
+            "Hours": null,
+            "PrimPhone": null,
+            "TimeZone": null
+        }
+    },
+    "Step4": {
+        "CaseSize": null,
+        "DPType": null,
+        "DomesticPartner": null,
+        "Takeover": null
+    },
+    "Step6": {
+    },
+    "timeStamp": null,
+    "userId": null,
+    "userName": null,
+    "userProfile": null,
+    "userTimeZone": null,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "DataRaptorPostAction1": null,
+        "DoneAction1": null,
+        "Get Account Data DR": null,
+        "SV-Context": null,
+        "Step1": null,
+        "Step2": null,
+        "Step4": null,
+        "Step6": null
+    }
+}

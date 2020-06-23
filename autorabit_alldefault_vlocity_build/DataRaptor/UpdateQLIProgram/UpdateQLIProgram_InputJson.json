@@ -1,0 +1,58 @@
+{
+    "ConfigureProgram": {
+        "CPLCodesFormula": null,
+        "ConfigurableProgram": {
+            "CompetitorReadOnly": null,
+            "CompetitorReadOnlyFormula": null,
+            "CompetitorRequired": null,
+            "CompetitorStatusReadOnly": null,
+            "ProbBlock": {
+                "Probability": null
+            },
+            "ProbabilityFixedFormula": null,
+            "ProbabilityNOT0": null,
+            "ProbabilityNOT100": null,
+            "Reason": null,
+            "ReasonRequired": null,
+            "ReasonTerm": {
+                "ReasonPL": null,
+                "TermDate": null
+            },
+            "RecTypeOppType": {
+                "OppType": null,
+                "RecordType": null
+            },
+            "SetValuesToDropDown": {
+                "ConfigurableProgramSetValueTriggers": null,
+                "ConfigureProgramSetValues": {
+                }
+            },
+            "TermSelection": null,
+            "UpdateCompetitor": null
+        },
+        "DateMessage": null,
+        "OppTypeFormula": null,
+        "ProdStage5-95ProbMessage": null,
+        "ProfileReadOnly": null,
+        "ProgramName": null,
+        "QLD-AccountId": null,
+        "ReasonRequiredMessage": null,
+        "ReasonRequiredValidation": null,
+        "TermDateNullFormula": null,
+        "TermDateNullMessage": null
+    },
+    "ContextId": null,
+    "timeStamp": null,
+    "userId": null,
+    "userName": null,
+    "userProfile": null,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "ConfigureProgram": null,
+        "Done Action 2": null,
+        "ExtractProgramQLI": null,
+        "POSTQLIDATAProgram": null,
+        "SetDependentFields": null
+    }
+}

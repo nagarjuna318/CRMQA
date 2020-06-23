@@ -1,0 +1,25 @@
+{
+    "ContextId": "",
+    "DNCPreferences": {
+        "DNC": null,
+        "DNCEffectiveDate": null,
+        "DNCReason": null,
+        "GroupPreferenceComment": null,
+        "RequestedBy": null
+    },
+    "MessageStep": {
+        "Agree": false
+    },
+    "id": "a3E4B0000001KknUAE",
+    "layout": "lightning",
+    "timeStamp": "2017-04-17T13:20:21.141Z",
+    "userId": "0054B000000vRjwQAE",
+    "userName": "naveen.mallepalli@anthem.com2.proto",
+    "userProfile": "System Administrator",
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "DNCPreferencesExtract": 738,
+        "OmniScriptSessionToken": "e1eceeec-5a18-458c-a414-0e4df0a8bf8a"
+    }
+}

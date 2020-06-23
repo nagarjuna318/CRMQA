@@ -1,0 +1,89 @@
+{
+    "CIFGeneralInformation": {
+        "AccountLegalName": null,
+        "CIFSelectMessage": true,
+        "ClaimSystem": null,
+        "ClientTermination": false,
+        "ClientTerminationEffectiveDate": null,
+        "ExistingClientEffectiveDate": "2019-12-01",
+        "ExistingClientImplementation": true,
+        "GroupNumber": null,
+        "NewClientEffective Date": "2019-12-01",
+        "NewClientImplementation": true,
+        "OpportunityEffectiveDate": null,
+        "OpportunityRecordType": null,
+        "OpportunityStage": null,
+        "QuoteName": null,
+        "TermingCastlightLegacyForEngage": "Yes"
+    },
+    "ContextId": "a7n2300000HjNvAAAV",
+    "EngageOptions": {
+        "AnthemDental": false,
+        "AnthemDentalBlock": {
+            "AnthemDentalEligiblePopulation": null,
+            "ClientQualifiedAnthemDental": false
+        },
+        "EngageElevate": false,
+        "EngageElevateBlock": {
+            "CastlightBehavioralHealthBuyup": null,
+            "EngageElevateEligiblePopulation": null
+        },
+        "EngageElite": true,
+        "EngageEliteBlock": {
+            "ClientWithAnthemRXCheck": true,
+            "EngageEliteEligiblePopulation": "34567"
+        },
+        "EngageEliteBlockPlus": {
+            "ClientwithAnthemRXElitePlus": false,
+            "EngageElitePlusEligiblePopulation": null
+        },
+        "EngageElitePlus": false,
+        "EngageEssential": false,
+        "EngageEssentialBlock": {
+            "ClientCareCostFinder": false,
+            "ClientEstimateYourCost": false,
+            "EngageEssentialEligiblePopulation": null
+        },
+        "EngageEssentialBlockPlus": {
+            "ClientCurrentlyUsingCCFPlus": false,
+            "ClientCurrentlyUsingEYCandFADPlus": false,
+            "EngageEssentialsPlusEligiblePopulation": null
+        },
+        "EngageEssentialPlus": false,
+        "ReferenceBasedBenefit": false,
+        "ReferenceBasedBenefitBlock": {
+            "ReferenceBasedBenefitEligiblePopulation": null
+        }
+    },
+    "Finish": {
+        "FR-FinishMessage": " Updating The Castlight Engage Client Information Form Record For: "
+    },
+    "NonEngageCastlightOption": {
+        "TradionalLegacyMdeicalBuyup": true,
+        "TraditionalLegacyBlock": {
+            "MedicalBuyupEligiblePopulation": "23949"
+        }
+    },
+    "RecordId": "a7n2300000HjNvAAAV",
+    "id": "a3C23000000D6SYEA0",
+    "isdtp": "p1",
+    "layout": "lightning",
+    "sfdcIFrameHost": "web",
+    "sfdcIFrameOrigin": "https://commercial--ruat--vlocity-ins.cs28.visual.force.com",
+    "timeStamp": "2019-12-11T22:18:26.547Z",
+    "userCurrencyCode": "USD",
+    "userId": "00541000002sFoNAAU",
+    "userName": "jcarrero@anthem.com2.ruat",
+    "userProfile": "System Administrator",
+    "userTimeZone": -300,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "CIFGeneralInformation": 11414,
+        "DRE-EngageCIF": 1311,
+        "EngageOptions": 9323,
+        "NonEngageCastlightOption": 2971,
+        "OmniScriptSessionToken": "7ddcbec3-3c5d-4377-a1dc-d10e96921162",
+        "PreSetValues": 21
+    }
+}

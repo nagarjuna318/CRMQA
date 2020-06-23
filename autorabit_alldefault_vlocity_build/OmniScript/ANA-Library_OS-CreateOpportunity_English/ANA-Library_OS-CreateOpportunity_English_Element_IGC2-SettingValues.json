@@ -1,0 +1,79 @@
+{
+    "%vlocity_namespace%__Active__c": true,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "OpptyCreation",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/ANA Library/OS-CreateOpportunity/English",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__PropertySet__c": {
+        "HTMLTemplateId": "",
+        "cancelLabel": "Cancel",
+        "cancelMessage": "Are you sure?",
+        "completeLabel": "Complete",
+        "completeMessage": "Are you sure you want to complete the script?",
+        "conditionType": "Hide if False",
+        "controlWidth": 12,
+        "elementValueMap": {
+            "IGC2-AddLose": "='Add Lives'",
+            "IGC2-EffectiveDate": "=IF(EQUALS(%RC-S6Flg%,'PartialExisting'),%IGC-EffectiveDate%,IF(%RC-EffectiveDate%=NULL,%RC-UREffectiveDate%,%RC-EffectiveDate%))",
+            "IGC2-ExecComments": "=IF(EQUALS(%RC-S6Flg%,'PartialExisting'),%IGC-ExecComments%,NULL)",
+            "IGC2-OpptyComments": "=IF(EQUALS(%RC-S6Flg%,'PartialExisting'),%IGC-OpptyComments%,NULL)",
+            "IGC2-OpptyName": "=IF(%RC-EffectiveDate%=NULL,CONCATENATE(YEAR(%RC-UREffectiveDate%),' Opportunity In Group Change-',%Account:Name%),CONCATENATE(YEAR(%RC-EffectiveDate%),' Opportunity In Group Change-',%Account:Name%))",
+            "IGC2-RFPStatus": "=IF(EQUALS(%RC-S6Flg%,'PartialExisting'),%IGC-RFPStatus%,IF(%CurrentOppty:RFPStatus%<>NULL,%CurrentOppty:RFPStatus%,''))",
+            "IGC2-ReceivedDate": "=IF(EQUALS(%RC-S6Flg%,'PartialExisting'),%IGC-ReceivedDate%,NULL)",
+            "IGC2-SpecialtyComments": "=IF(EQUALS(%RC-S6Flg%,'PartialExisting'),%IGC-SpecialtyComments%,NULL)",
+            "IGC2-StageName": "=IF(EQUALS(%RC-S6Flg%,'PartialExisting'),%IGC-StageName%,NULL)",
+            "IGC2-StageReason": "=IF(EQUALS(%RC-S6Flg%,'PartialExisting'),%IGC-StageReason%,NULL)"
+        },
+        "knowledgeOptions": {
+            "dataCategoryCriteria": "",
+            "keyword": "",
+            "language": "English",
+            "publishStatus": "Online",
+            "remoteTimeout": 30000
+        },
+        "label": "OpportunityName",
+        "message": {
+        },
+        "nextLabel": "Next",
+        "nextWidth": 3,
+        "previousLabel": "Previous",
+        "previousWidth": 3,
+        "remoteOptions": {
+        },
+        "remoteTimeout": 30000,
+        "saveLabel": "Save for later",
+        "saveMessage": "Are you sure you want to save it for later?",
+        "show": {
+            "group": {
+                "operator": "OR",
+                "rules": [
+                    {
+                        "condition": "=",
+                        "data": "PartialExisting",
+                        "field": "RC-S6Flg"
+                    },
+                    {
+                        "condition": "=",
+                        "data": "FullExisting",
+                        "field": "RC-S6Flg"
+                    }
+                ]
+            }
+        },
+        "showPersistentComponent": [
+            false,
+            false
+        ],
+        "ssm": false,
+        "validationRequired": "None",
+        "wpm": false
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": false,
+    "%vlocity_namespace%__Type__c": "Set Values",
+    "Name": "IGC2-SettingValues",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/ANA Library/OS-CreateOpportunity/English/IGC2-SettingValues"
+}

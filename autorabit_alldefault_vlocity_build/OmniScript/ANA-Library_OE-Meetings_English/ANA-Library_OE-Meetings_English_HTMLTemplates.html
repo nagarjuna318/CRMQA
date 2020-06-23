@@ -1,0 +1,111 @@
+<style>
+.message description ng-binding ng-scope {
+  height: 10px;
+  background-color: white;
+}
+.via-slds.via-omni .vlc-slds-block label[vlc-slds-toggle="toggle"] ~ div[vlc-slds-toggle-elem="visible"] {{
+padding-top: 10px;
+}
+</style>
+<style>
+.via-slds.via-omni .slds-textarea {
+    min-height: 3rem;
+}
+.via-slds.via-omni .slds-form-element__control .vlc-control-wrapper {
+ min-height: 3rem;
+}
+.via-slds.via-omni .slds-form-element__control .vlc-control-wrapper.vlc-control-text-area__wrapper{
+ min-height: 3rem;
+}
+.via-slds.via-omni div.message.description {
+ min-height: 1.5rem;
+background-color: white;
+color: red;
+}
+#StepValidationMessage{
+background-color: red;
+text-align: center;
+}
+#SubmitValidationMessage{
+ height: 1.5rem;
+background-color: red;
+}
+.via-slds .slds-checkbox .slds-checkbox--faux, .via-slds .slds-checkbox .slds-checkbox_faux {
+width: 2rem;
+height: 2rem;
+}
+</style>
+<script type="text/ng-template" id="vlcEmailEdit.html">
+    <div class='slds-col--padded slds-size--1-of-1'>
+        <ng-form name='loopform'
+             class='slds-form-element vlc-flex'
+             ng-repeat='control in child.eleArray'>
+             <!--<div vlc-slds-include="vlcLabelController.html"></div>-->
+             <div class="slds-form-element__control slds-input-has-icon slds-input-has-icon--right">
+                  <div class="vlc-control-wrapper" help="{{::control.propSetMap.help}}">
+                    <input id='{{::control.name}}'
+                          type='email' 
+	                  ng-pattern="/^[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,4}$/"
+                          ng-disabled='control.ro'
+                          ng-required='control.req'
+                          class='slds-input form-control'
+                          name='loopname'
+                          ng-init='init(this, control)'
+                          ng-model='control.response'
+                          ng-model-options="{ updateOn: 'default focusout blur', debounce: { 'default': control.propSetMap.debounceValue, 'focusout': 0, 'blur': 0 } }"
+                          ng-blur='aggregate(this, control.index, control.indexInParent, true, -1)'
+                          vlc-slds-val-checker="response" />
+	                  <label for="{{::control.name}}" class='slds-form-element__label'  text-align: top;>{{::control.propSetMap.label}}
+                                <!--  <span class='vlc-asterix icon-v-asterix'
+                                 ng-if='control.req'>  
+                                </span>-->
+                          </label> 
+
+                <!-- tooltip template -->
+               <!-- <a vlc-slds-tool-tip="test" help="{{control.propSetMap.help}}"> i </a> -->
+                
+            </div>
+
+            <!-- OMNI-1718 -->
+            <slds-svg-icon aria-hidden="true"
+                           sprite="'utility'"
+                           icon="'email'"
+                           size="'small'"
+                           extra-classes="'slds-button__icon slds-button__icon--large'">
+            </slds-svg-icon>
+            
+            <div ng-include="::errHTMLId"></div>
+
+        </div>
+
+    </ng-form>
+</div>
+
+</script>
+<script type="text/ng-template" id="vlcSaveForLaterAcknowledge1.html">
+ <div class='slds-col'>
+    <div class="slds-grid slds-box vlc-slds-save_for_later">
+        <div class="slds-col" ng-if="response.error==='OK'">
+            <figure class="vlc-slds-figure">
+                <span class="slds-icon_container slds-icon-action-check slds-icon_container--circle">
+                    <slds-svg-icon aria-hidden="true"
+                                   sprite="'utility'"
+                                   icon="'check'"
+                                   size="'small'"
+                                   extra-classes="''">
+                    </slds-svg-icon>
+                </span>
+                <div>
+                    <figcaption class="slds-form-element__label">{{::customLabels.OmniSaved}}</figcaption>
+                </div>
+            </figure>
+
+            <div class="vlc-slds-button--tertiary ng-binding ng-scope" ng-click="cancel()" role="button" tabindex="0">
+                            Done
+             </div>   
+        </div>
+     </div>
+
+  </div>
+  </script>
+</apex:component>

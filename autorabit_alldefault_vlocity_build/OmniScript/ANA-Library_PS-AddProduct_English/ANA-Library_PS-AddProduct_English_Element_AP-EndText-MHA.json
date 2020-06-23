@@ -1,0 +1,49 @@
+{
+    "%vlocity_namespace%__Active__c": true,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "AddProduct",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/ANA Library/PS-AddProduct/English",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__ParentElementId__c": {
+        "%vlocity_namespace%__OmniScriptId__c": {
+            "Name": "AddProduct",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/ANA Library/PS-AddProduct/English",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+        },
+        "Name": "AP-END",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/ANA Library/PS-AddProduct/English/AP-END",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c"
+    },
+    "%vlocity_namespace%__ParentElementName__c": "AP-END",
+    "%vlocity_namespace%__ParentElementType__c": "Step",
+    "%vlocity_namespace%__PropertySet__c": {
+        "HTMLTemplateId": "",
+        "controlWidth": 12,
+        "dataJSON": false,
+        "label": "TextBlock7",
+        "show": {
+            "group": {
+                "operator": "AND",
+                "rules": [
+                    {
+                        "condition": "=",
+                        "data": "Mercer Health Advantage",
+                        "field": "AP-ProductSelection:ProdList:Name"
+                    }
+                ]
+            }
+        },
+        "text": "<p><span style=\"text-decoration: underline;\"><span style=\"color: #ff0000; text-decoration: underline;\"><strong>Mercer Health Advantage</strong></span></span>:</p>\n<p><span style=\"font-size: 10.0pt; font-family: 'Arial',sans-serif;\"> Mercer Health Advantage requires approval. In order to proceed with the request for approval, you must add the following products to your opportunity if you have not already done so: </span></p>\n<ol style=\"font-size: 10.0pt; font-family: 'Arial',sans-serif;\">\n<li>AIM Integrated Imaging (RQI)</li>\n<li>Live Health Online (unless carved out)</li>\n<li>Anthem Health Guide (approval required)</li>\n<li>Virtual Second Opinion via 2nd MD</li>\n</ol>",
+        "textKey": ""
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": false,
+    "%vlocity_namespace%__Type__c": "Text Block",
+    "Name": "AP-EndText-MHA",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/ANA Library/PS-AddProduct/English/AP-EndText-MHA"
+}

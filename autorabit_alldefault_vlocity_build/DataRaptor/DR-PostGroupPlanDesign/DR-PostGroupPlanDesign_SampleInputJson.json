@@ -1,0 +1,105 @@
+{
+    "AcctDet": {
+        "Situs_State": "CA"
+    },
+    "AddGroupPlanDesign": {
+        "AddMultiPlanDesign": {
+            "Plan_Name": "Medical Silver Plan",
+            "Status": "Active",
+            "Suffix": "NNNN"
+        },
+        "GroupPlanDesign": [
+            {
+                "Id": "a7x4C000000GubNQAS",
+                "Name": "CCCC",
+                "Select": "Suffix",
+                "vlcSelected": true
+            },
+            {
+                "Id": "a7x4C000000GubOQAS",
+                "Name": "BBBB",
+                "Select": "Suffix",
+                "vlcSelected": true
+            }
+        ],
+        "NewSuffix": true
+    },
+    "ContextId": "0QL4C000000LfeKWAS",
+    "CreatedPlanId": "0QL4C000000AM6MWAW",
+    "DRId_QuoteLineItem": "0QL4C000000AM6MWAW",
+    "GroupId": "a5I4C000000L75OUAS",
+    "Network": "VI = Vivity",
+    "OpptyDet": {
+        "Id": "0064C000005RKYWQA4",
+        "Name": "2019 New Business Local-Test Prop",
+        "RecordTypeName": "Renewal Local"
+    },
+    "OpptyRecordType": "Renewal Local",
+    "PId": "01t4C0000028zlrQAA",
+    "PlanBenefitDetail": {
+        "PlanBenefitDetails": [
+            {
+                "$$hashKey": "object:326",
+                "Id": "01t4C0000028zlrQAA",
+                "Name": "Medical Silver Plan",
+                "PMTEffectiveDate": "2019-10-10",
+                "PMTNetwork": "VI = Vivity",
+                "Select": "Product",
+                "vlcSelected": true
+            }
+        ],
+        "PlanDetErrorMessage": true
+    },
+    "Product2Id": "01t41000004JBwrAAG",
+    "QLIDet": {
+        "ContractCode": "AA12",
+        "Id": "0QL4C000000AM6MWAW",
+        "Market": "CA",
+        "Network": "VI = Vivity",
+        "Product2Id": "01t4C0000028zlrQAA",
+        "ProductName": "Medical Silver Plan",
+        "QuoteId": "0Q04C000000LSHSSA4"
+    },
+    "QuoteDet": {
+        "GroupId": "1234567",
+        "GroupNumber": "a5I4C000000L75OUAS"
+    },
+    "QuoteId": "0Q04C000000LSHSSA4",
+    "Update_Plan_Details": {
+        "Actwise_Member_Provider_Pay_Indicator": null,
+        "Anthem_Engage_Indicators": null,
+        "Corporate_Plan_Code": null,
+        "HCR_Option": null,
+        "HCR_Status": null,
+        "OpptyName": "2019 New Business Local-Test Prop",
+        "Plan_Benefit_Change": null,
+        "Plan_Comments": null,
+        "Plan_Term_Date": null,
+        "Plan_Type": null,
+        "State": null,
+        "WLP_Reference_Based_Benefit": false
+    },
+    "id": "a3C4C0000000c9OUAQ",
+    "layout": "lightning",
+    "timeStamp": "2019-01-23T03:05:14.568Z",
+    "userCurrencyCode": "USD",
+    "userId": "00541000006Y54QAAS",
+    "userName": "veramesh@deloitte.com2.icepraveen",
+    "userProfile": "System Administrator",
+    "userTimeZone": -480,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "DR-GetSelectedPlanDetail": 2611,
+        "DR-GroupPlanDesignExtract": 1318,
+        "DR-PlanExtract": 1965,
+        "DR-PostPlanBenefit": 4514,
+        "DR-QLIDetails": 4743,
+        "OmniScriptSessionToken": "e87ca1e7-4694-4eba-a8b2-53e702309514",
+        "PlanBenefitDetail": 4618,
+        "SetValue2": 27,
+        "SetValueContextId": 13,
+        "SetValues": 1001,
+        "Update_Plan_Details": 2250
+    }
+}

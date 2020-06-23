@@ -1,0 +1,389 @@
+{
+    "APNs": {
+        "APNId": "",
+        "AlphanumericPrefixProductsName": "",
+        "AssignedPrefix": "",
+        "CustomNetworkName": "",
+        "ProductNetworkName": ""
+    },
+    "AccountId": "0012300000U8SF3AAN",
+    "AccountIdUpdate": "0012300000U8SF3AAN",
+    "AccountName": "Kumaresh Mohan",
+    "AccountName1": "Kumaresh Mohan",
+    "AddtlDomPartnerDR": "",
+    "COBRAAdminDR": "",
+    "COBRAAdministrationServicesProvided": "",
+    "COBRABillGo": "",
+    "COBRABillGoDR": "",
+    "COBRAPremium": "",
+    "COBRAPremiumDR": "",
+    "COBRATPA": "",
+    "COBRATPADR": "",
+    "CalCOBRAEligibileParticipantsDR": "",
+    "CheckEligibility": {
+        "GPDSuffix": null,
+        "ValidationForPlanSuffixDesign": true
+    },
+    "City": "",
+    "CityDR": "",
+    "ClaimSystem": "",
+    "ClientAllowsDomesticPartnersCoveredDR": "",
+    "ClientAllowsSamsexDR": "",
+    "ContextId": "80123000000sUYaAAM",
+    "CustomerMasterAccount": false,
+    "DRId_Account": "0012300000U8SF3AAN",
+    "DRId_Eligibility__c": "a7H230000009gZoEAI",
+    "DRId_Funding__c": "a7L230000005VNxEAM",
+    "DRId_Order": "80123000000sUYaAAM",
+    "DepartmentCode": {
+        "DepartmentBlockCode": [
+            {
+                "DepartmentCodeValue": "003",
+                "DepartmentId": "aAe230000000sECCAY",
+                "DepartmentName": "testing 2"
+            },
+            {
+                "DepartmentCodeValue": "002",
+                "DepartmentId": "aAe230000000sD9CAI",
+                "DepartmentName": "Testing"
+            }
+        ]
+    },
+    "DifferentContactsAtSuffixLevel": "",
+    "DifferentContactsAtSuffixLevelDR": "",
+    "DoesThisInformationApplyToAllGroupDR": "",
+    "DomPartIndSameForAllQliAndSufixPriview": "Yes",
+    "DomPartIndSameForAllQliDR": "Yes",
+    "DomesticPartnerApplyToAllGroup": "",
+    "DomesticPartnerApplyToAllGroupDR": "",
+    "DomesticPartnerFirst": "A",
+    "DomesticPartnerFour": "N",
+    "DomesticPartnerIndicator": "",
+    "DomesticPartnerIndicator1": "A",
+    "DomesticPartnerIndicator2": "N",
+    "DomesticPartnerIndicator3": "A",
+    "DomesticPartnerIndicator4": "N",
+    "DomesticPartnerSecond": "N",
+    "DomesticPartnerThird": "A",
+    "EligibilityChangeIndicator1": "01 = ALL DEPENDENT (DEP) ADDS & TERMS EFF FOMF DT OF LIFE EVENT",
+    "EligibilityChangeIndicator2": "",
+    "EligibilityChangeIndicatorOne": "01 = ALL DEPENDENT (DEP) ADDS & TERMS EFF FOMF DT OF LIFE EVENT",
+    "EligibilityChangeIndicatorTwo": "",
+    "EligibilityFirstIndicator": "",
+    "EligibilityInformation": {
+        "ImplemenationCaseDetails": {
+            "ClaimSystem": ""
+        }
+    },
+    "EligibilityName": "ELIG-01280",
+    "EligibilityRecordId": "a7H230000009gZoEAI",
+    "EligibilityRecordType": "EligibilityNASCO",
+    "EligibilityTermIndicator1": "01 = 1ST OF MONTH FOLLOWING LAST DAY WORKED",
+    "EligibilityTermIndicator2": "",
+    "EligibilityTermIndicatorOne": "01 = 1ST OF MONTH FOLLOWING LAST DAY WORKED",
+    "EligibilityTermIndicatorTwo": "",
+    "EligibilityValidationRule": "Passed",
+    "EligibilityVisible": "ShowEligibility",
+    "EmployeeCategoryList": [
+        {
+            "$$hashKey": "object:791",
+            "name": "All",
+            "value": ""
+        },
+        {
+            "$$hashKey": "object:792",
+            "name": "Active",
+            "value": "Active"
+        },
+        {
+            "$$hashKey": "object:793",
+            "name": "COBRA",
+            "value": "COBRA"
+        },
+        {
+            "$$hashKey": "object:794",
+            "name": "Retiree All",
+            "value": "Retiree All"
+        }
+    ],
+    "EmployeeClass": "",
+    "EmployeeClassList": [
+        {
+            "$$hashKey": "object:795",
+            "name": "All",
+            "value": ""
+        },
+        {
+            "$$hashKey": "object:796",
+            "name": "Hello",
+            "value": "Hello"
+        }
+    ],
+    "EmployeeClassStep": {
+        "EditEmployeeBlock": null,
+        "EmployeeClassExtract": null,
+        "EmployeeClassesseparate": null,
+        "Formula24": null,
+        "Formula25": null,
+        "Formula26": null,
+        "Messaging5": null
+    },
+    "EmployeeExcludedCode1": "16 (CA)",
+    "EmployeeExcludedCode2": "16 (NY)",
+    "EmployeeExcludedCode3": "16 (CO – non EAP benefits)",
+    "EmployeeExcludedCode4": "16 (NV – non EAP benefits)",
+    "EmployeeExcludedCode5": "00 (GA)",
+    "EmployeeExcludedCode6": "16 (Central)",
+    "EmployeeExcludedCode7": "16 (NE)",
+    "EmployeeExcludedCode8": "16 (All other VA)",
+    "EmployeeExcludedCodeDRs1": "16 (CA)",
+    "EmployeeExcludedCodeDRs2": "16 (NY)",
+    "EmployeeExcludedCodeDRs3": "16 (CO – non EAP benefits)",
+    "EmployeeExcludedCodeDRs4": "16 (NV – non EAP benefits)",
+    "EmployeeExcludedCodeDRs5": "00 (GA)",
+    "EmployeeExcludedCodeDRs6": "16 (Central)",
+    "EmployeeExcludedCodeDRs7": "16 (NE)",
+    "EmployeeExcludedCodeDRs8": "16 (All other VA)",
+    "EmployeeReinstatementDateEligibilityDR": "",
+    "EmployeeReinstatementProbationaryPeriodDR": "",
+    "FContactName": "",
+    "FundingInformation": {
+        "COBRAWest": {
+            "COBRABillToGo": "",
+            "COBRAPremiumPaid": "",
+            "COBRATPAUsingNonBC": ""
+        },
+        "FundingDetails": {
+            "IfYesPlzExplain": ""
+        },
+        "TPAContactInformation": {
+            "State": "",
+            "ZipCode": ""
+        }
+    },
+    "FundingName": "FUND-001075",
+    "FundingRecordId": "a7L230000005VNxEAM",
+    "FundingValidationRule": "Passed",
+    "FundingVisible": "ShowFunding",
+    "GroupClaimSystem": "",
+    "GroupContractCode": "",
+    "GroupID": "a5I230000006fYgEAI",
+    "IfDepReachesMaxAgeAutoTermate": "",
+    "IfDepReachesMaxAgeAutoTermateDR": "",
+    "IfNoPleaseSpecifyDR": "",
+    "IfNoSpecifyGroupsForDomesticPartDR": "",
+    "IfYesPlzExpln": "",
+    "IfYesPlzExplnDR": "",
+    "ImplCase": {
+        "AccountId": "0012300000U8SF3AAN",
+        "AreThereChangesToEligibility": "",
+        "ChangesToFundingOrBillingEntity": "",
+        "GroupId": "a5I230000006fYgEAI",
+        "Id": "80123000000sUYaAAM",
+        "ImplementationType": "New Business",
+        "LatestEligibility": "a7H230000009gZoEAI",
+        "LatestFunding": "a7L230000005VNxEAM"
+    },
+    "IncludeHCIDNumberOnTheInvoice": "",
+    "IncludeHCIDNumberOnTheInvoiceDR": "",
+    "IsThereaWaitingPeriodDR": "",
+    "LOBList": [
+        {
+            "$$hashKey": "object:797",
+            "name": "All",
+            "value": ""
+        },
+        {
+            "$$hashKey": "object:798",
+            "name": "Dental",
+            "value": "Dental"
+        }
+    ],
+    "MHSAServicelevelIndicator1": "",
+    "MHSAServicelevelIndicator2": "",
+    "MHSAServicelevelIndicator3": "",
+    "MHSAServicelevelIndicator4": "",
+    "MHSAServicelevelIndicator5": "",
+    "MHSAServicelevelIndicator6": "",
+    "MembershipCommentsDR": "",
+    "MoreThanOneBillEntity": "",
+    "MoreThanOneBillEntityDR": "",
+    "NHProbPDSameForAllQliAndSufix": "Yes",
+    "NHProbPDSameForAllQliAndSufixDR": "Yes",
+    "NHProbPDSameForAllQliAndSufixPriview": "Yes",
+    "NewHireCoverageEffDateEligibilityDR": "",
+    "NewHireProbationaryPeriod": "21",
+    "NewHireProbationaryPeriodDR": "21",
+    "NotesDR": "",
+    "OverCodeDR": "",
+    "OverageDepTermLettersMailedToBus": "",
+    "PRDCRM-55750-RemoveFundingStep": false,
+    "PartIndSameForAllQLIAndSuffix": "Yes",
+    "PercentPremDepSameForAllQLIAndSuffix": "Yes",
+    "PercentPremDepSameForAllQliAndSufix": "Yes",
+    "PercentPremDepSameForAllQliAndSufixDR": "Yes",
+    "PercentPremSubSameForAllQLIAndSuffix": "Yes",
+    "PercentPremSubSameForAllQliAndSufix": "Yes",
+    "PercentPremSubSameForAllQliAndSufixDR": "Yes",
+    "PhoneDR": "",
+    "Phonee": "",
+    "PreSelectedEmpCategory": "Active;COBRA;Retiree All",
+    "PremPaidForEachSubDepPerMonth": "",
+    "PremPaidForEachSubPerMonth": "",
+    "PremiumRecdFromMoreThanOneSource": "",
+    "PremiumRecdFromMoreThanOneSourceDR": "",
+    "QLIId": "",
+    "QLIProductsData": {
+        "APNDetails": {
+            "ANPrefixProdName": null,
+            "AssignedPrefixName": null,
+            "CustomNwkName": null,
+            "PrdNwkName": null
+        },
+        "QLIProducts": null
+    },
+    "QliEligibility": [
+        {
+            "DomesticPartnerIndicator": "",
+            "NewHireProbationaryPeriod": "",
+            "PercentageSubDepMonth": "",
+            "PercentageSubMonth": "",
+            "ProductLOB": "Benefits Admin",
+            "ProductName": "Benefits Admin - Act Wise FSA",
+            "QLIId": "0QL23000000IRapGAG"
+        },
+        {
+            "DomesticPartnerIndicator": "",
+            "NewHireProbationaryPeriod": "",
+            "PercentageSubDepMonth": "",
+            "PercentageSubMonth": "",
+            "ProductLOB": "Benefits Admin",
+            "ProductName": "Benefits Admin - Act Wise Commuter",
+            "QLIId": "0QL23000000IOqfGAG"
+        },
+        {
+            "DomesticPartnerIndicator": "",
+            "NewHireProbationaryPeriod": "",
+            "PercentageSubDepMonth": "",
+            "PercentageSubMonth": "",
+            "ProductLOB": "Network Based",
+            "ProductName": "Network Based - Blue Distinction: Ortho",
+            "QLIId": "0QL23000000IRbYGAW"
+        },
+        {
+            "DomesticPartnerIndicator": "",
+            "NewHireProbationaryPeriod": "",
+            "PercentageSubDepMonth": "",
+            "PercentageSubMonth": "",
+            "ProductLOB": "Commercial Engage",
+            "ProductName": "Engage Basic",
+            "QLIId": "0QL23000000IRbiGAG"
+        },
+        {
+            "DomesticPartnerIndicator": "",
+            "NewHireProbationaryPeriod": "",
+            "PercentageSubDepMonth": "",
+            "PercentageSubMonth": "",
+            "ProductLOB": "Network Based",
+            "ProductName": "Network Based - Blue Distinction: Cardiac",
+            "QLIId": "0QL23000000IOxEGAW"
+        },
+        {
+            "DomesticPartnerIndicator": "",
+            "NewHireProbationaryPeriod": "",
+            "PercentageSubDepMonth": "",
+            "PercentageSubMonth": "",
+            "ProductLOB": "Dental",
+            "ProductName": "DENTAL NET",
+            "QLIId": "0QL23000000I51pGAC"
+        }
+    ],
+    "RouteCodeCheck": false,
+    "SelectedBilling": "One Invoice per Employee Category",
+    "SelectedEmpCategory": "Active;COBRA;Retiree All",
+    "SelfFundedwithReinsurance": "",
+    "SelfFundedwithReinsuranceDR": "",
+    "SitusStateValue": "New York",
+    "State": "",
+    "StateDR": "",
+    "StatusDescription": "",
+    "Step1": {
+        "AccountPreferences": {
+            "BillingSystemIndicator": null
+        },
+        "CountOfInvoices": null,
+        "InvoiceExists": null,
+        "Invoices": null,
+        "ValidationForInvoice": null,
+        "WhatareInvoices": null
+    },
+    "Step12": {
+        "Select31": ""
+    },
+    "StreetAddress": "",
+    "StreetAddressDR": "",
+    "Submit": {
+        "ASQS": null,
+        "SubmitThisAccountStructure": null,
+        "TrackAccountStructure": null
+    },
+    "TPAContactName": "",
+    "TPAContactNameDR": "",
+    "WhoWilHandleCalCOBRABillingDR": "",
+    "WomenContraceptiveExemptionInd": "",
+    "WomenContraceptiveExemptionIndicator": "",
+    "ZipCode": "",
+    "ZipCodeDR": "",
+    "eligibilityname": "ELIG-01280",
+    "error": "OK",
+    "groupname": "",
+    "id": "a3C23000000I7oNEAS",
+    "isdtp": "p1",
+    "qlirecord": "",
+    "requiredfieldmessage": 0,
+    "sfdcIFrameHost": "web",
+    "sfdcIFrameOrigin": "https://commercial--synthesis--vlocity-ins.visualforce.com",
+    "stChangesToEligibility": "",
+    "stChangesToFunding": "",
+    "stImplType": "New Business",
+    "testContextId": "80123000000sUYaAAM",
+    "timeStamp": "2020-06-18T09:21:46.310Z",
+    "userCurrencyCode": "USD",
+    "userId": "0054N000004gNdMQAU",
+    "userName": "sandeep.r@legatohealth.com2.synthesis",
+    "userProfile": "System Administrator",
+    "userTimeZone": -240,
+    "verticalmode": true,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "APNSetValues": 10,
+        "ASQGetFilterOptionForEligibilityFilter": 817,
+        "AccountStructureAccountExtract": 2066,
+        "AccountUpdateAction": 1918,
+        "CheckEligibility": 10012,
+        "DREligibility": 3458,
+        "DRPostEligibility": 1310,
+        "DRWomenContraceptiveExemptionIndicator": 2919,
+        "DataRaptorPostAction17": 1317,
+        "DepartmentCodeExtract": 1916,
+        "DepartmentCodePost": 1118,
+        "EligibilityDetailsSt": 10,
+        "EligibilityPost": 4824,
+        "EligibilityrecordSt": 28,
+        "ExtractAPNDetailsDR": 4725,
+        "ExtractEligibilityFundingByImpleCaseDR": 2622,
+        "ExtractQliEligibility": 2367,
+        "FundingDetailsSt": 6,
+        "IsProductTypeMedical": 2871,
+        "OmniScriptSessionToken": "6e15009c-2908-418d-a421-71b9e1ea249c",
+        "PRDCRM-55750-RemoveFundingStep": 10,
+        "PostFundingByImplCaseDR": 3969,
+        "QLIId": 6,
+        "QliEligibilityPostAction": 1872,
+        "SetValues10": 10,
+        "SetValues17": 5,
+        "SetValues7": 6,
+        "WomenContraceptiveExemptionIndicator": 39
+    }
+}

@@ -1,0 +1,59 @@
+<style>
+hr {
+    border: none;
+    height: 1px;
+    /* Set the hr color */
+    color: #46D7CC; /* old IE */
+    background-color: #46D7CC; /* Modern Browsers */
+}
+</style>
+<!-- ------------------------------------------------------------------- -->
+<!-- Start of vlcActionPlanSelection.html Template.  Created at 2018-01-31 07:50:22 UTC -->
+<!-- ------------------------------------------------------------------- -->
+
+<script type="text/ng-template" id="vlcActionPlanSelection.html">
+ <div class="panel panel-default">
+  <table class="table slds-table slds-table--bordered slds-table--cell-buffer" style="table-layout: auto;">
+   <thead>
+    <tr>
+     <!-- Header for checkbox -->
+     <th class="slds-cell-shrink">Select</th>
+     <th>Action Plan</th>
+     <th>Category</th>
+     <th>Benefit Objective</th>
+    </tr>
+   </thead>
+   <tbody class='ins' ng-if="control.vlcSI[control.itemsKey].length > 0">
+    <tr ng-repeat='p in control.vlcSI[control.itemsKey]' ng-class="{ 'vlc-selectableitem-selected' : p.vlcSelected }" ng-disabled="!p.vlcSelected">
+     <th class="slds-cell-shrink">
+        <label class="slds-checkbox">
+          <input type="checkbox" ng-model='p.vlcSelected' ng-change='onSelectItem(control, p, $index, this)'/>
+          <span class="slds-checkbox--faux"></span>
+        </label>
+     </th>
+     <td class='slds-cell-wrap'>{{p.Name}}</td>
+     <td class='slds-cell-wrap'>{{p.Category}}</td>
+     <td class='slds-cell-wrap'>{{p.BenefitObjective}}</td>
+    </tr>      
+    </tr>
+   </tbody>
+  </table>
+ </div>
+
+ <p> </p>
+</script>
+
+<!-- ------------------------------------------------------------------- -->
+<!-- Start of vlcCancelled.html Template.  Created at 2018-01-31 07:50:22 UTC -->
+<!-- ------------------------------------------------------------------- -->
+<script type="text/ng-template" id="vlcCancelled.html">
+</script>
+
+<!-- ----------------------------- -->
+<!-- End of vlcCancelled.html  Template. -->
+<!-- ----------------------------- -->
+
+
+<!-- ----------------------------- -->
+<!-- End of vlcActionPlanSelection.html  Template. -->
+<!-- ----------------------------- -->

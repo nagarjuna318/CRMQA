@@ -1,0 +1,131 @@
+<div class="nds-grid test-width">    
+            <div class="vloc-small-group-plan-selection-container" ng-controller="insOsConfirmationCtrl" ng-init="test(bpTree, control)" style="width: 100%;">   
+                <div class="nds-box display-flex padding-left-0">
+                    <!-- <p ng-repeat="item in bpTree.response.undefined.cartPlans">Hello World!</p> -->
+                    <div class="nds-grid list-header">
+                        <div class="nds-size_1-of-2 margin-left-16">
+                            <p class="plans-text" ng-cloak><b class="ng-binding">{{bpTree.response.undefined.selectedPlans.length}}</b> Selected Plans</p>
+                        
+                        </div>
+                        
+                        <!-- <div class="nds-size_1-of-2 padding-right-16">
+                             <div class="tile-btns-corner">
+                                <div class="btn-col-left">
+                                    <button class="nds-button nds-button_neutral btn-wrap" ng-disabled="totalSelected < 2" ng-click="openCompareModal(null, control)">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="nds-button__icon nds-button__icon_left" viewBox="0 0 24 24" id="check" width="100%" height="100%">
+                                            <path fill="inherit" d="M8.8 19.6L1.2 12c-.3-.3-.3-.8 0-1.1l1-1c.3-.3.8-.3 1 0L9 15.7c.1.2.5.2.6 0L20.9 4.4c.2-.3.7-.3 1 0l1 1c.3.3.3.7 0 1L9.8 19.6c-.2.3-.7.3-1 0z"></path>
+                                        </svg>
+                                        
+                                        <span>Compare Plans</span>
+                                    </button>
+                                </div>
+                                <div class="btn-col-right">
+                                    <button class="nds-button nds-button_neutral btn-wrap" ng-disabled="totalSelected < 1" ng-click="clearSelection(control)">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="nds-button__icon nds-button__icon_left" viewBox="0 0 24 24" id="close" width="100%" height="100%">
+                                            <path fill="inherit" d="M14.3 11.7l6-6c.3-.3.3-.7 0-1l-.9-1c-.3-.2-.7-.2-1 0l-6 6.1c-.2.2-.5.2-.7 0l-6-6.1c-.3-.3-.7-.3-1 0l-1 1c-.2.2-.2.7 0 .9l6.1 6.1c.2.2.2.4 0 .6l-6.1 6.1c-.3.3-.3.7 0 1l1 1c.2.2.7.2.9 0l6.1-6.1c.2-.2.4-.2.6 0l6.1 6.1c.2.2.7.2.9 0l1-1c.3-.3.3-.7 0-1l-6-6c-.2-.2-.2-.5 0-.7z"></path>
+                                        </svg>
+
+                                        <span>Clear Selection</span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div> -->
+                    </div>
+                    <!-- <div class="nds-col nds-size_3-of-3 empty-state" ng-if="visible_plans.length == 0 || visiblePlansCount() == 0">
+                            <p class="plan-attribute">No products are available with this set of filters. Remove some or all filters to see more results.</p>
+                    </div > -->
+                    <div class="nds-grid nds-grid_pull-padded-medium nds-wrap  height-900">
+                        <article ng-repeat="plan in bpTree.response.undefined.selectedPlans" class="nds-col nds-size_1-of-3 width-control">
+                            <div class="nds-box nds-m-around_small vloc-plan-box" style="background-color: #F8FBFE; min-height: 300px;">
+                                <header class="nds-split-view__header">
+                                    <div class="nds-media nds-media_center fixed-height">
+                                        <div class="nds-media__figure">
+                                            <div class="nds-icon_container nds-icon-standard-lead">
+                                                <svg xmlns="http://www.w3.org/2000/svg" class="nds-icon" viewBox="0 0 24 24" id="custom86" width="100%" height="100%">
+                                                    <path d="M9.1 7.2h1c.1 0 .2-.1.2-.2v-.8h3.4V7c0 .1.1.2.2.2h1c.1 0 .2-.1.2-.2v-.8c0-.8-.6-1.4-1.4-1.4h-3.4c-.8 0-1.4.6-1.4 1.4V7c0 .1.1.2.2.2zm8.7 1.4H6.2c-.8 0-1.4.7-1.4 1.5v7.7c0 .8.6 1.4 1.4 1.4h11.6c.8 0 1.4-.6 1.4-1.4v-7.7c0-.8-.6-1.5-1.4-1.5zM12 17.3c-1.8 0-3.4-1.5-3.4-3.4s1.6-3.3 3.4-3.3 3.4 1.5 3.4 3.3-1.6 3.4-3.4 3.4zm1.4-4.1h-.7v-.7c0-.3-.2-.5-.5-.5h-.4c-.3 0-.5.2-.5.5v.7h-.7c-.3 0-.5.2-.5.5v.5c0 .2.2.4.5.4h.7v.8c0 .2.2.4.5.4h.4c.3 0 .5-.2.5-.4v-.8h.7c.3 0 .5-.2.5-.4v-.5c0-.3-.2-.5-.5-.5z" fill="#fff"></path>
+                                                </svg>
+
+                                                </span>
+                                            </div>
+                                        </div>
+                                        <div class="nds-media__body">
+                                            <h1 class="plan-header">{{plan.Name}}</h1>
+                                        </div>
+                                    </div>
+                                </header>
+                               <div class="nds-media__body tile_padding">
+                                    <div class="nds-tile__detail">
+                                        <div class="nds-list_horizontal nds-wrap dlt-truncate">
+                                            <p class="nds-item_label nds-text-color_weak width-auto">
+                                                Network
+                                            </p>
+                                            <p class="nds-item_detail nds-truncate width-auto float-right plan-attribute">
+                                                {{plan.Network__c}}
+                                            </p>
+                                        </div>
+                                        <div class="nds-list_horizontal nds-wrap dlt-truncate" ng-hide="(baseCtrl.$scope.bpTree.response.AccountDetails.Situs_State_Abbrev == 'CA' && baseCtrl.$scope.bpTree.response.AccountDetails.Pooled_NonPooled == 'Non-Pooled')">
+                                            <p class="nds-item_label nds-text-color_weak width-auto">
+                                                Contract Code
+                                            </p>
+                                            <p class="nds-item_detail nds-truncate width-auto float-right plan-attribute">
+                                                {{plan.Contract_Code__c}}
+                                            </p>
+                                        </div>
+                                        <dl class="nds-list_horizontal nds-wrap" ng-repeat="attribute in plan.attributeCategories.records">
+                                            <dl class="nds-list_horizontal nds-wrap" ng-repeat="prod_attr in attribute.productAttributes.records | filter: myFilter" style="width: 100%;">
+                                                <dt class="nds-item_label nds-text-color_weak width-auto dlt-truncate">
+                                                    {{prod_attr.label}}                                             
+                                                </dt>
+                                                <dd class="nds-item_detail nds-truncate width-auto float-right plan-attribute dlt-truncate" ng-if="prod_attr.formattedValues.length == 0">
+                                                    {{prod_attr.userValues}}
+                                                </dd>
+                                                <dd class="nds-item_detail nds-truncate width-auto float-right plan-attribute dlt-truncate" ng-if="prod_attr.dataType === 'currency'">
+                                                    {{prod_attr.userValues | currency}}
+                                                </dd>
+                                                <dd class="nds-item_detail nds-truncate width-auto float-right plan-attribute dlt-truncate" ng-if="prod_attr.dataType === 'percent'">
+                                                    {{prod_attr.userValues}}%
+                                                </dd>
+
+                                                </dl>
+                                        </dl>
+                                    </div>
+                                </div>
+<!--                                 <div class="vloc-plan-footer">
+                                    <div class="nds-grid">
+                                    
+                                        <div class="nds-col btn-col-left">
+                                            <button class="nds-button nds-button_neutral nds-m-top_x-small vloc-plan-select-button btn-width select-cta" ng-class="{'nds-button_brand': plan.selected}" ng-click="addNewPlan(plan, planIndex, control)">
+                                                <span>{{plan.selected ? 'Selected' : 'Select'}}</span>
+                                            </button>
+                                        </div>
+                                        
+                                        <div class="nds-col btn-col-right">
+                                            <button class="nds-button nds-button_neutral nds-m-top_x-small vloc-plan-select-button btn-width" ng-click="openDetailModal(plan, control)">
+                                                <span>Details</span>
+                                            </button>
+                                        </div>
+                                    
+                                    </div>
+                                    <div class="nds-form-element nds-m-top_x-small">
+                                        <div class="nds-form-element__control">
+                                            <div class="nds-checkbox">
+                                                <input ng-checked="plan.vlcCompSelected" ng-disabled = "totalSelected == 5 && !plan.vlcCompSelected" ng-click="toggleNewCompareSelect(plan, control)" type="checkbox" name="options" id="vloc-checkbox-plan-{{plan.Id}}"/>
+                                                <label class="nds-checkbox__label" for="vloc-checkbox-plan-{{plan.Id}}">
+                                                    <span class="nds-checkbox_faux"></span>
+                                                    <span class="nds-form-element__label">Compare</span>
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div> -->
+                            </div>
+
+                        </article>
+                    </div>
+
+                </div>
+            </div>
+        
+
+
+</div>

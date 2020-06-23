@@ -1,0 +1,32 @@
+{
+    "Account": {
+        "AccountID": "0014100000ii4DpAAI"
+    },
+    "AssociatedContacts": {
+        "AccountAC": null,
+        "CommentsAC": null,
+        "ConnectionTypeAC": null,
+        "ContactNameAC": null,
+        "ContactType": null,
+        "DateLastUpdatedAC": null,
+        "Past/PresentAffiliation": null,
+        "RelationshipTypeAC": null
+    },
+    "ContextId": "",
+    "RelationshipToConatct": {
+        "ContactRelationships": "Associated Contacts"
+    },
+    "id": "a3B4B0000000fgkUAA",
+    "layout": "lightning",
+    "timeStamp": "2017-05-02T10:48:27.705Z",
+    "userId": "0054B000000orR1QAI",
+    "userName": "keerthi.thoutireddy@anthem.com2.config",
+    "userProfile": "System Administrator",
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "GetContactName": 673,
+        "OmniScriptSessionToken": "e333c588-f4af-40b2-b093-5daeb756048d",
+        "RelationshipToConatct": 80996
+    }
+}

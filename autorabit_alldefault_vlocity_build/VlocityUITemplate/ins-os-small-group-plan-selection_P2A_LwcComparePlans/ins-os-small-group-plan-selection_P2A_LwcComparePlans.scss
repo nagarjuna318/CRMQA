@@ -1,0 +1,494 @@
+$light-blue: #F8FBFE;
+$royal-blue: #0070D2;
+$dark-blue: #080707;
+$link: #006dcc;
+$orange: #F06E2F;
+$bronze: #B2720C;
+$silver: #C1CCDF;
+$gold: #F8C300;
+$light-peach: #DDDBDA;
+$brownish-grey: #706E6B;
+$action-blue: #1589EE;
+
+.lwc_compare_iframe_container{
+    z-index: 3;
+    position: absolute;
+    width: 100%;
+    height: 200%;
+    border: 1px solid #abaaa7;  
+}
+
+.lwc_competitor_iframe_container {
+    z-index: 3;
+    position: absolute;
+    width: 100%;
+    height: 39%;
+    border: 1px solid #abaaa7; 
+}
+
+#searchBar::placeholder{
+    // width: 109px;
+    // height: 18px;
+    // font-family: SalesforceSans;
+    font-size: 14px !important;
+    font-weight: normal;
+    line-height: normal !important;
+    letter-spacing: normal !important;
+    color: #dddbda !important;
+    font-style: italic;
+    
+}
+
+.width-auto{
+    width: auto !important;
+}
+
+.riders_tooltip::before{
+    border-bottom: 1px solid #ff9a3c !important;
+    border-right: 1px solid #ff9a3c !important;
+}
+
+.riders_count_with_icon_container{
+    display: flex;
+    right: 0;
+    position: absolute !important;
+}
+
+.test-width{
+    width: 101%;
+}
+// .via-nds .nds-grid--vertical{
+//    margin-left: 17rem;
+// }
+// .via-nds_height{
+//          margin-top: -52.5rem !important;
+//  }
+
+.empty-state{
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.height-900{
+    max-height: 950px !important;
+    overflow-y: scroll;
+    padding-left: 16px;
+}
+
+.list-header{
+    border-bottom: 1px solid #dddbda;
+    height: 49px;
+    z-index: 2;
+    box-shadow: 0px 11px 22px -16px rgba(138,138,138,0.76);
+}
+
+.margin-left-16{
+    margin-left: 16px;
+}
+
+.padding-right-16{
+    padding-right: 16px;
+}
+
+.padding-left-0{
+    padding-left: 0 !important;
+}
+
+.clear-filters-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.network_accordion_font-size{
+    font-size: 0.8125rem !important;   
+}
+
+.network_accordion_padding_left{
+    padding-left: 1.5rem !important;
+}
+
+
+
+.width-990{
+    //min-width: 990px;
+}
+
+.display-flex{
+    display: flex;
+    flex-direction: column;
+}
+
+.margin-bottom-fix{
+    margin-bottom: 0.5rem !important;
+}
+
+.width-control{
+    max-width: 33% !important;
+    min-width: 33% !important;
+}
+
+.pagination-arrows{
+    padding-right: 0.5rem !important;
+    padding-left: 0 !important;
+}
+
+.pagination-container{
+    text-align: right;
+}
+
+.btn-wrap{
+    white-space: nowrap !important;
+}
+
+.tile-btns-corner{
+    display: flex;
+    float: right;
+}
+
+
+
+.plans-text{
+    font-size: 16px;
+}
+
+.right-panel-width{
+    margin-left: 1%;
+    //max-width: 80%;
+    //min-width: 990px;
+    width: 80%;
+}
+
+.float-right{
+    position: absolute;
+    right: 0;
+}
+
+.via-nds .nds-knowledge_cont-init-width{		
+    display: none;		
+}		
+// Long scroll modal on center of screen fix
+.via-nds .nds-modal{   		
+    bottom: auto;		
+}
+
+.dlt-truncate{
+    margin-bottom: 0.5rem !important;
+    max-width: 75%;
+    text-align: left;
+    overflow: hidden;
+    text-overflow: ellipse;
+}
+
+.dlt-plan-header{
+    height: 63px;
+    display: table;
+    nds-media nds-media_center{
+        display: table-cell;
+    }
+    nds-media__body{
+        display: table-cell;
+    }
+}
+
+.via-nds {
+    .vloc-small-group-plan-selection {
+        //width: 100%;
+
+        .vloc-cart-plans-button {
+            max-height: 2.5rem;
+        }
+
+        .vloc-ins-selectable-item-icon {
+          position: absolute;
+          top: 1rem;
+          width: 100%;
+          left: 50%;
+          margin-left: -50%;
+        }
+        
+        .vloc-plan-box-collapse{
+            height: 100px;
+        }
+
+        .vloc-plan-box {
+            position: relative;
+            //height: 25rem;
+            height: 450px;
+            text-align: center;
+            padding: 0;
+            background-color: $light-blue;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            //animation: fadeIn 2s;
+            overflow: hidden;
+        }
+
+        .vloc-plan-box-header {
+            height: 46%;
+            display: flex;
+            flex-direction: column;
+
+            .vloc-link {
+                color: black;
+            }
+        }
+
+        .vloc-plan-image {
+            max-width: 3rem;
+            max-height: 3rem;
+            padding: 0.5rem;
+        }
+
+        .vloc-plan-icon {
+            .slds-icon {
+                fill: $orange;
+            }
+
+            &.gold .slds-icon {
+                fill: $gold;
+            }
+
+            &.silver .slds-icon {
+                fill: $silver;
+            }
+
+            &.bronze .slds-icon {
+                fill: $bronze;
+            }
+        }
+
+        .vloc-plan-header-text {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            flex: 1 1 auto;
+        }
+
+        .vloc-plan-box-body {
+            //height: 54%;
+            padding: 0 1rem 1rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .vloc-plan-table {
+            margin: 0 auto;
+
+            td {
+                width: 50%;
+                max-width: 0;
+                padding-bottom: 0.25rem;
+            }
+        }
+
+        .vloc-plan-footer {
+            width: 100%;
+            padding-bottom: 1rem;
+        }
+
+        .vloc-link {
+            &:hover {
+                text-decoration: underline;
+            }
+            &:focus {
+                box-shadow: none;
+            }
+        }
+
+        // .vloc-plan-select-button {
+        //     width: 60%;
+        // }
+
+        .vloc-renewal-header {
+            background-color: rgba($royal-blue, .3);
+            color: white;
+            position: relative;
+            z-index: 1;
+            font-size: 0.8rem;
+            font-weight: 100;
+            height: 2.4rem;
+
+            .vloc-link {
+                color: white;
+                line-height: 1;
+                text-decoration: underline;
+            }
+        }
+
+        .vloc-renewal-header-svg {
+            display: block;
+            fill: rgba($royal-blue, .3);;
+        }
+
+        .vloc-renewal-flag-hidden {
+            opacity: 0;
+        }
+
+        .vloc-selected-plan {
+            border-color: $royal-blue;
+            box-shadow: -1px 0 0 1px $royal-blue, inset -1px 0 0 1px $royal-blue;
+            background-color: darken($light-blue, 3%);
+
+            .vloc-renewal-header {
+                background-color: $royal-blue;
+            }
+
+            .vloc-renewal-header-svg {
+                fill: $royal-blue;
+            }
+        }
+
+        .vloc-cart-plans-collapse {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.5s cubic-bezier(0.65, 0.05, 0.36, 1);
+
+            &.in {
+                max-height: 50rem;
+            }
+        }
+
+        .vloc-cart-plans-collapse-toggle {
+            text-align: center;
+
+            .nds-icon {
+                fill: $royal-blue;
+            }
+
+            .vloc-toggle-closed .nds-icon {
+                transform: rotate(180deg);
+            }
+        }
+    }
+    .filter_panel{
+        display: table !important;
+    }
+    .white_bkg{
+        background-color: white;
+    }
+    .search_plans{
+        border: 1px solid $light-peach;
+        border-radius: 4px;
+    }
+
+    .border-none{
+        border: none;
+    }
+
+    .display-grid{
+        display: grid;
+    }
+
+    .filter-border{
+        border: 1px solid $light-peach;
+        border-radius: 3px;
+    }
+    
+    .filter-padding{
+        padding-left: 1.5rem;
+    }
+
+    .search-icon-margin{
+        margin-left: 0.7rem;
+    }
+
+    .tile_padding{
+        padding-left: 1rem;
+        padding-right: 1rem;
+        padding-top: 1rem;
+        overflow: auto;
+    }
+
+    .btn-width{
+        width: 5rem;
+    }
+
+    .btn-col-first {
+        padding-right: 1rem;
+    }
+
+    .btn-col-left{
+        text-align: right;
+        padding-right: 0.5rem;
+    }
+    .btn-col-right{
+        text-align: left;
+        padding-left: 0.5rem;
+    }
+    .deselect-cta{
+        background-color: $brownish-grey;
+        border: 1px solid $brownish-grey;
+        span{
+            color: white;
+        }
+    }
+
+    .select-cta{
+        background-color: $action-blue;
+        span{
+            color: white;
+        }
+    }
+
+    .plan-header{
+        color: $brownish-grey;
+        font-weight: bold;
+        font-size: 0.9rem;
+    }
+
+    .plan-attribute{
+        color: $brownish-grey;
+        font-style: italic;
+    }
+
+    .fixed-height{
+        //height: 63px;
+        //overflow: hidden;
+    }
+
+    .clear-filter-btn{
+        border: 1px solid $royal-blue;
+        width: 10rem;
+        margin: 11% auto;
+    }
+
+    .accordion-plan-name{
+        font-size: 13px;
+        //width: 95%;
+        margin-right: 10%;
+        color: $link; 
+    }
+
+    .accordion-box{
+        //height: 50px;
+        padding: 0;
+        background-color: $light-blue;
+        text-align: center;
+    }
+
+    .accordion-chevon{
+        position: absolute;
+        right: 7px;
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+iframe.hidden
+{
+    display:none;
+}

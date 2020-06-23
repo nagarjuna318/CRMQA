@@ -1,0 +1,28 @@
+{
+    "Cards": [
+        "Commisions"
+    ],
+    "dataSource": {
+        "contextVariables": [
+            {
+                "name": "params.id",
+                "val": "a8S1b000000Cvu0EAC"
+            }
+        ],
+        "type": "Query",
+        "value": {
+            "jsonMap": "{\"params.id\":\"{{params.id}}\"}"
+        }
+    },
+    "previewType": "runTime",
+    "sessionVars": [
+    ],
+    "templates": {
+        "0": {
+            "templateUrl": "card-canvas-3x-slds"
+        }
+    },
+    "workspace": [
+        "Commisions/Anthem Commercial 2.0/1/1548427363421"
+    ]
+}

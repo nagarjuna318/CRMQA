@@ -1,0 +1,73 @@
+{
+    "AccountAC": "Anthem CST Test Account 1",
+    "AccountAR": "Anthem CST Test Account 1",
+    "AccountCC": "Anthem CST Test Account 1",
+    "AccountID": "0012F000009lIxCQAU",
+    "AccountId": "0012F000009lIxCQAU",
+    "AccountLookup": "Anthem CST Test Account 1",
+    "AccountNewContact": "Anthem CST Test Account 1",
+    "AccountRecordType": "Customer",
+    "ContactEmail": "paulfirst@email.com",
+    "ContactEmail1": "paulfirst@email.com",
+    "ContactFirstName": "Paul",
+    "ContactId": "0032F000007DTDzQAO",
+    "ContactLastName": "First",
+    "ContactName": "Paul First",
+    "ContactNameAC": "Paul First",
+    "ContactNameAR": "Paul First",
+    "ContactNameCC": "Paul First",
+    "ContactRelationshipAccountGC": {
+        "SpeaktheLanguageOfGC": "Results and Outcomes",
+        "TheyCanGC": "Manage",
+        "TheyCareAboutOrganizationallyGC": "MeetingBudgetGoals;MeetingCorporateGoals;SavingsandtheBottomLine;DemonstrateSavings",
+        "TheyCareAboutPersonallyGC": "everything2"
+    },
+    "ContactTypeAhead-Block": {
+        "ContactId": "0032F000007DTDzQAO",
+        "contactnamelookup": "Paul First"
+    },
+    "ContextId": "0012F000009lIxCQAU",
+    "Ctcid": "0032F000007DTDzQAO",
+    "GroupContact": {
+        "AESurvey": true,
+        "AMSurvey": true,
+        "AccountGC": "Anthem CST Test Account 1",
+        "CAGCallParticipationOnly": true,
+        "ClientNewsletter": true,
+        "ClientSurvey": true,
+        "ContactNameGC": "Paul First",
+        "ContactTypeGC": "Benefits;Billing Contact;Consultant;Decision Maker;Group Administrator;HIPAA Privacy Officer;HIPAA Rep;Human Resources",
+        "Description": "everything1"
+    },
+    "RecordTypeId": "01241000001IOh7AAG",
+    "RelationshipToConatct": {
+        "ACHelpText": false,
+        "ARHelpText": false,
+        "BrokerageContactRelationships": null,
+        "ContactIncSelect": "Existing Contact",
+        "ContactRelationships": "Group Contact",
+        "ContactTypeAhead-Block": {
+            "ContactTypeAhead": "Paul First-paulfirst@email.com"
+        }
+    },
+    "id": "a3C2F000001CLPZUA4",
+    "layout": "lightning",
+    "timeStamp": "2017-12-20T04:40:59.225Z",
+    "userId": "0052F000000ktDXQAY",
+    "userName": "jmccarthy@vlocity.com.iceconfig",
+    "userProfile": "System Administrator",
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "ContactRelationshipAccountGC": 20664,
+        "ExtractAccountDetails": 372,
+        "ExtractAccountRecordType": 678,
+        "ExtractContactDetails": 442,
+        "GroupContact": 52387,
+        "OmniScriptSessionToken": "365c8a60-3703-41d3-b204-2ab2efb8d519",
+        "RelationshipToConatct": 17711,
+        "SetAccountId": 8,
+        "SetConstants": 22,
+        "SetContactId": 2
+    }
+}

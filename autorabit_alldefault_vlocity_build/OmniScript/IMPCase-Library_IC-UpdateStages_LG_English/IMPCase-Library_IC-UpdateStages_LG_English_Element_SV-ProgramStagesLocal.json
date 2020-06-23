@@ -1,0 +1,52 @@
+{
+    "%vlocity_namespace%__Active__c": true,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "UpdateStages_LG",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/IMPCase Library/IC-UpdateStages_LG/English",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__PropertySet__c": {
+        "HTMLTemplateId": "",
+        "controlWidth": 12,
+        "elementValueMap": {
+            "AnthemEntity": "=%OpportunityDetails:AnthemEntity%",
+            "IC-OpptyRecordType": "=IF(EQUALS(%OpportunityDetails:OpportunityType%,'In Group Change Local'),ARRAY(['Dead', 'In Progress', 'Lost', 'Sold']),IF(EQUALS(%OpportunityDetails:OpportunityType%,'New Business Local'),ARRAY(['Dead', 'Declined to Quote', 'In Progress', 'Lost', 'Sold']),IF(EQUALS(%OpportunityDetails:OpportunityType%,'In Group Add Product Local'),ARRAY(['Declined to Quote','IGAP Dead', 'IGAP In Progress', 'IGAP Lost', 'IGAP Sold']),IF(EQUALS(%OpportunityDetails:OpportunityType%,'Renewal Local'),ARRAY(['In Progress', 'IGAP Dead', 'IGAP In Progress', 'IGAP Lost', 'IGAP Sold', 'Jeopardy', 'Not renewing in Current Period', 'Renewed', 'Termed']),''))))",
+            "IMP-ProgramStages": "=IF(EQUALS(%OpportunityDetails:OpportunityType%,'In Group Change Local'),ARRAY(['Dead', 'In Progress', 'Lost', 'Sold']),IF(EQUALS(%OpportunityDetails:OpportunityType%,'New Business Local'),ARRAY(['Dead', 'Declined to Quote', 'In Progress', 'Lost', 'Sold']),IF(EQUALS(%OpportunityDetails:OpportunityType%,'In Group Add Product Local'),ARRAY(['Declined to Quote','IGAP Dead', 'IGAP In Progress', 'IGAP Lost', 'IGAP Sold']),IF(EQUALS(%OpportunityDetails:OpportunityType%,'Renewal Local'),ARRAY(['In Progress', 'IGAP Dead', 'IGAP In Progress', 'IGAP Lost', 'IGAP Sold', 'Jeopardy', 'Not renewing in Current Period', 'Renewed', 'Termed']),''))))",
+            "Stage": "=%QuoteLineItem:ProductStage__c%"
+        },
+        "label": null,
+        "message": {
+        },
+        "show": {
+            "group": {
+                "operator": "OR",
+                "rules": [
+                    {
+                        "condition": "=",
+                        "data": "LG Customer",
+                        "field": "AccountRecordType"
+                    },
+                    {
+                        "condition": "=",
+                        "data": "LG Prospect",
+                        "field": "AccountRecordType"
+                    }
+                ]
+            }
+        },
+        "showPersistentComponent": [
+            false,
+            false
+        ],
+        "ssm": false,
+        "validationRequired": null,
+        "wpm": false
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": true,
+    "%vlocity_namespace%__Type__c": "Set Values",
+    "Name": "SV-ProgramStagesLocal",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/IMPCase Library/IC-UpdateStages_LG/English/SV-ProgramStagesLocal"
+}

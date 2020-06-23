@@ -1,0 +1,122 @@
+{
+    "AcctDet": {
+        "Situs_State": "CA"
+    },
+    "AddGroupPlanDesign": {
+        "AddMultiPlanDesign": {
+            "DuplicatePlanDesignCheck": null,
+            "Duplicate_PlanMessage": null,
+            "GroupPlanDesignName": null,
+            "Plan_Name": null,
+            "Status": null,
+            "Suffix": null
+        },
+        "GroupPlanDesign": null,
+        "NewSuffix": false
+    },
+    "ContextId": "0QL54000000DSplGAG",
+    "CurrentProfile": "System Administrator",
+    "GroupId": "a5I5400000015uYEAQ",
+    "Network": "",
+    "OpptyDet": {
+        "Id": "00654000007esGUAAY",
+        "Name": "2020 New Business Local-Test-Eligibility",
+        "RecordTypeName": "In Group Change"
+    },
+    "OpptyRecordType": "In Group Change",
+    "Plan_Name": "PPO Prudent Buyer PPO",
+    "Product2Id": "01t1K00000673QBQAY",
+    "QLIDet": {
+        "Id": "0QL54000000DSplGAG",
+        "Market": "CA",
+        "Pooled_Non_Pooled": "Pooled",
+        "Product2Id": "01t1K00000673QBQAY",
+        "ProductName": "PPO Prudent Buyer PPO",
+        "QuoteId": "0Q0540000000yxvCAA"
+    },
+    "QuoteDet": {
+        "GroupId": "1234",
+        "GroupNumber": "a5I5400000015uYEAQ"
+    },
+    "QuoteId": "0Q0540000000yxvCAA",
+    "RxPlanCheckProfile": "N",
+    "RxPlanPoolCheck": "Y",
+    "Update_Plan_Details": {
+        "Block7": {
+            "Actwise_Member_RO": null,
+            "Anthem_Engage_Indicators_RO": null,
+            "Block4": {
+                "HCR_Option_RO": null,
+                "HCR_Religious_Exception_RO": null,
+                "HCR_Status_RO": null
+            },
+            "Block5": {
+                "Change_Medicare_RO": "Not Reviewed",
+                "Formula7": null,
+                "Formula8": null,
+                "Letter_Sent_To_RO": "Client",
+                "Medicare_Letter_Sent_RO": null
+            },
+            "Contract_Code_RO": null,
+            "Corporate_Plan_Code_RO": null,
+            "HPCC_Code_RO": null,
+            "Opportunity_Name_RO": null,
+            "Plan_Benefit_Change_RO": null,
+            "Plan_Comments_RO": null,
+            "Plan_Term_Date_RO": null,
+            "Plan_Type_RO": null,
+            "State_RO": null,
+            "WLP_Reference_RO": false
+        },
+        "Block8": {
+            "Actwise_Member_Provider_Pay_Indicator": null,
+            "Anthem_Engage_Indicators": null,
+            "Block9": {
+                "Rx_Plan": "Plan A"
+            },
+            "ContractCodes": null,
+            "Corporate_Plan_Code": null,
+            "CustomContractCode": null,
+            "HCRSection": {
+                "HCRReligiousException": null,
+                "HCR_Option": null,
+                "HCR_Status": null
+            },
+            "HPCCCode": null,
+            "MedicarePlanDSection": {
+                "Change_Medicare_Part_D_Rx_To": "Not Reviewed",
+                "CheckLocalProfile": "N",
+                "CheckUnderwritingProfile": "N",
+                "Letter_Sent_To": "Client",
+                "Medicare_Letter_Sent": null
+            },
+            "OpptyName": "2020 New Business Local-Test-Eligibility",
+            "Plan_Benefit_Change": null,
+            "Plan_Comments": null,
+            "Plan_Term_Date": null,
+            "Plan_Type": null,
+            "SkipSuffix": false,
+            "State": null,
+            "WLP_Reference_Based_Benefit": false
+        }
+    },
+    "id": "a3C54000000DlJzEAK",
+    "isdtp": "p1",
+    "layout": "lightning",
+    "sfdcIFrameHost": "web",
+    "sfdcIFrameOrigin": "https://commercial--icegld--vlocity-ins.cs40.visual.force.com",
+    "timeStamp": "2019-07-04T06:41:19.114Z",
+    "userCurrencyCode": "USD",
+    "userId": "00554000001k5fUAAQ",
+    "userName": "prabehera@deloitte.com.icegld",
+    "userProfile": "System Administrator",
+    "userTimeZone": -240,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "DR-QLIDetails_LG": 2717,
+        "OmniScriptSessionToken": "99b2ba88-8aa0-470f-b075-5cd3b8dee0af",
+        "SetValueContextId": 316,
+        "SetValues": 89
+    }
+}

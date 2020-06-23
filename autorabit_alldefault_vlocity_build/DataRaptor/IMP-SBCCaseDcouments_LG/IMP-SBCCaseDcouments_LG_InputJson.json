@@ -1,0 +1,192 @@
+{
+    "ArethereCustomIVRTelephonychanges": "Yes",
+    "AttachSBCRequest": {
+        "ContractCodesPackagesCustomization": null,
+        "SBCAttachments": [
+            {
+                "$$hashKey": "object:1634",
+                "data": "20f2037b-5dda-4f98-acf8-32de559f9954",
+                "filename": "test - Copy.txt",
+                "size": 4
+            }
+        ],
+        "SBCVisibilityBlock": {
+            "DoesAnthemproduceSBCs": "Yes",
+            "SBCcreatedbytheSBCteam": "No"
+        }
+    },
+    "BBDocAttach": "NotAllow",
+    "BenefitBookletDetails": {
+        "BBDVisibilityBlock": {
+            "ModExistBooklet": "No"
+        },
+        "BenefitBookletAttachments": null,
+        "ProBenBooklet": "Yes",
+        "ReqBenBooklet": "Yes"
+    },
+    "Comments": {
+        "AdditionalComments": "WDWQD",
+        "ImpactedPackagesSuffixesSections": "DWQDQ"
+    },
+    "ContextId": "0Q0W0000000HPMx",
+    "DRId_Order": "801W0000000mykaIAA",
+    "EffectiveDate": "True",
+    "ExisitingOrder": "Allow",
+    "GroupInformation": {
+        "AreBrokerCommissionsImpactedBlock": {
+            "AreBrokerCommissionsImpacted": ""
+        },
+        "AreBrokerCommissionstobepaidBlock": {
+            "AreBrokerCommissionstobepaid": "No"
+        },
+        "AreCustomIDCardsRequestedBlock": {
+            "AreCustomIDCardsRequested": ""
+        },
+        "ArethereCustomIVRTelephonychangesCROCBlock": {
+            "ArethereCustomIVRTelephonychangesCROC": ""
+        },
+        "ArethereCustomIVRTelephonychangesNewBlock": {
+            "ArethereCustomIVRTelephonychangesNew": ""
+        },
+        "ArethereCustomIVRTelephonychangesRenewalBlock": {
+            "ArethereCustomIVRTelephonychangesRenewal": "No"
+        },
+        "AretherechangestoBrokerCommissionsBlock": {
+            "AretherechangestoBrokerCommissions": ""
+        },
+        "AretherechangestoGroupStructureBlock": {
+            "AretherechangestoGroupStructure": "Yes"
+        },
+        "CPDVisibilityBlock": {
+            "CustomPreCertDetails": ""
+        },
+        "DiscoveryCallDesiredBlock": {
+            "DiscoveryCallDesired": "No"
+        },
+        "DoesapartialtermapplyBlock": {
+            "Doesapartialtermapply": "No"
+        },
+        "FPCRVisibilityBlock": {
+            "FinalPreCertificationRules": "CCMU"
+        },
+        "IDCardChangesBlock": {
+            "IDCardChanges": "No"
+        },
+        "IfyespleaseexplainthechangesmadeBlock": {
+            "Ifyespleaseexplainthechangesmade": "DQWDWQ"
+        },
+        "IfyespleaseexplainupdatesmadeBlock": {
+            "Ifyespleaseexplainupdatesmade": "QDWQDQ"
+        },
+        "MandatorylegislativeupdatesforGroupBlock": {
+            "MandatorylegislativeupdatesforGroup": "Yes"
+        },
+        "OpenEnrollmentDateBlock": {
+            "OpenEnrollmentDate": null
+        },
+        "ProvidePartialTermReasonBlock": null
+    },
+    "GroupSetupInformation": {
+        "Arehereanythirdpartyvendorrequir": "No",
+        "MainGroupSetup": {
+            "AretherechangestoCOB": "No",
+            "AretherechangestoEligibility": "No",
+            "AretherechangestoEnrollmentBilling": "No",
+            "ChangestoEligVendororFileFeed": "No"
+        },
+        "Requestincludebenefitchanges": ""
+    },
+    "HCR": {
+        "AddedplansorplanschangedHCRStatus": "Yes",
+        "HCRformincludedinpriorsubmission": null,
+        "IfsopleaselistImplementationRecord": null
+    },
+    "IGAP": "0Q0W0000000HIx8",
+    "IGC": "0Q0W0000000HIwy",
+    "ImplementationName": "2018: Renewal-Hunter Douglas Inc.",
+    "NewBusiness": "0Q0W0000000HCJM",
+    "OpptyRType": "Renewal",
+    "OrderRecordType": "IF(OR(EQUALS(Renewal,'New Business'),EQUALS(Renewal,'Pre Work')),Renewal,IF(EQUALS(Renewal,'Renewal'),CONCATENATE(National,' ',Renewal),CONCATENATE(National,' CR Off Cycle')))",
+    "PreRuleValidation": "Y",
+    "PreWork": [
+        "Engage Product",
+        "New Eligibility Vendor Setup",
+        "Data Interface New Vendor Build",
+        "SSCR Build for Client Customization",
+        "SBC",
+        "RFP"
+    ],
+    "QuoteDetails": {
+        "AccountId": "001W000000amKK5IAM",
+        "Account_Name": "Hunter Douglas Inc.",
+        "EffectiveDate": "2018-12-01",
+        "GroupId": "TDB Customer",
+        "GroupName": "TDB Customer",
+        "GroupNumber": "a5IW00000000oCwMAI",
+        "Id": "0Q0W0000000HPMxKAO",
+        "OpptyId": "006W000000DCFZMIA5",
+        "OpptyRecordType": "Renewal",
+        "OpptyStage": "Initiated",
+        "PriceBookId": "01s41000007wBCZAA2"
+    },
+    "RENEWAL": "0Q0W0000000HJ5l",
+    "SBCDocAttach": "Allow",
+    "Select-IMPType": {
+        "IC-EffectiveDate": "2018-12-01T05:00:00.000Z",
+        "IMPType": "Renewal",
+        "IMPTypeMsg": null,
+        "ImplementationCaseTopic": null,
+        "Pre-WorkIMPType": null,
+        "SelectIMP": {
+            "IT-Acquisition": false,
+            "IT-ExistingShifttoJAA": false,
+            "IT-ExistingShifttoPEX": false,
+            "IT-GroupTerm": false,
+            "IT-Migration": true,
+            "IT-Retro": null,
+            "IT-SpinOff": false,
+            "IT-TransferMarketSegment": false
+        },
+        "UserGroup": "National Renewal"
+    },
+    "Status": "Initiated",
+    "UserArea": "National",
+    "id": "a3CW0000000AnzuMAC",
+    "layout": "lightning",
+    "timeStamp": "2018-01-19T14:09:38.734Z",
+    "userCurrencyCode": "USD",
+    "userId": "005W0000002ndMIIAY",
+    "userName": "tlu@vlocity.com.prod.nal1b.dev",
+    "userProfile": "System Administrator",
+    "userTimeZone": -300,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "AttachSBCRequest": 5361,
+        "BenefitBookletDetails": 2090,
+        "Comments": 13552,
+        "DRE-ExistingOrder": 917,
+        "DREQuoteDetails": 753,
+        "DREUserGroup": 1121,
+        "DRT-Order": 1092,
+        "GroupInformation": 11661,
+        "GroupSetupInformation": 2660,
+        "HCR": 3425,
+        "OmniScriptSessionToken": "4ffe1b60-c1ec-4851-81ce-19d8a3e2efe9",
+        "ST-OrderRT": 66,
+        "ST-RecordType": 49,
+        "ST-ValValues": 135,
+        "SVContextId": 248,
+        "Select-IMPType": 6658,
+        "SetValuesBBD": 141,
+        "SetValuesBBDReset": 75,
+        "SetValuesGroupInfo": 181,
+        "SetValuesGroupInfoReset": 150,
+        "SetValuesGroupSetup": 179,
+        "SetValuesGroupSetupReset": 77,
+        "SetValuesHCRRet": 155,
+        "SetValuesSBC": 249,
+        "SetValuesSBCReset": 74,
+        "UserGroupValidation": 174
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "Cards": [
+        "SbcCard"
+    ],
+    "dataSource": {
+        "contextVariables": [
+            {
+                "name": "params.Id",
+                "val": "a7x2a00000003z9AAA"
+            }
+        ],
+        "type": "Query",
+        "value": {
+            "query": "Select Id, Name, LoggedinProfile__c, PendingCorrectionAction__c from Sbc__c WHERE Id = '{{params.id || params.Id}}'"
+        }
+    },
+    "templates": {
+        "0": {
+            "templateUrl": "anthem-card-canvas-1x-slds-nosearch"
+        }
+    },
+    "workspace": [
+        "SbcCard/Anthem Commercial 2.0/1/1534847492565"
+    ]
+}

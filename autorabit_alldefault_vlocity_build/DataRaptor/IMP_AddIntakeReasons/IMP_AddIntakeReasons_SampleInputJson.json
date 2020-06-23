@@ -1,0 +1,41 @@
+{
+    "AddIntakeReasons": {
+        "AddIntakeReturn": {
+            "ImpReasons": null,
+            "ImplementerComments": null
+        }
+    },
+    "ContextId": null,
+    "End": {
+    },
+    "SalesReturnDetails": {
+        "IntakeReasons": {
+            "AddIntakereasons": null,
+            "Id": null,
+            "ImpComments": null,
+            "IntakeReasonStage": null,
+            "Reason": null,
+            "SalesComments": null
+        }
+    },
+    "timeStamp": null,
+    "userId": null,
+    "userName": null,
+    "userProfile": null,
+    "userTimeZone": null,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "AddIntakeReasons": null,
+        "DRE-ExistingIntakeReturn": null,
+        "DRE-IntakeReason": null,
+        "DataRaptorPostAction2": null,
+        "DoneAction1": null,
+        "End": null,
+        "SV-ContextId": null,
+        "SV-UserGroup": null,
+        "SalesReturnDetails": null,
+        "SetValues2": null,
+        "UpdateIntakeReasons": null
+    }
+}

@@ -1,0 +1,35 @@
+{
+    "dataSource": {
+        "type": null,
+        "value": {
+        }
+    },
+    "filter": {
+        "['Is_GRS_Profile_With_Correct_Record_Type__c']": "GRS"
+    },
+    "states": [
+        {
+            "blankStateCheck": false,
+            "conditions": {
+                "group": [
+                    {
+                        "field": "$scope.data.status",
+                        "operator": "===",
+                        "type": "system",
+                        "value": "'active'"
+                    }
+                ]
+            },
+            "definedActions": {
+                "actions": [
+                ]
+            },
+            "fields": [
+            ],
+            "name": "Open-actions",
+            "sObjectType": "Opportunity",
+            "templateUrl": "AdminOpportunityActionCardsTemplate"
+        }
+    ],
+    "title": "Opportunity Actions GRS"
+}

@@ -1,0 +1,29 @@
+{
+    "data": {
+        "actions": [
+            {
+                "Name": "CreateDIT",
+                "displayName": "Create Data Interface Team",
+                "vlocityIcon": "icon-v-heart"
+            }
+        ],
+        "fields": [
+            {
+                "label": "Description",
+                "name": "description"
+            },
+            {
+                "label": "Cost",
+                "name": "cost",
+                "type": "currency"
+            }
+        ],
+        "title": "Card Title"
+    },
+    "obj": {
+        "Id": "123456",
+        "LoggedInUserProfile__c": "National Sales",
+        "Name": "Object Name",
+        "QLIFinJAA__c": "0"
+    }
+}

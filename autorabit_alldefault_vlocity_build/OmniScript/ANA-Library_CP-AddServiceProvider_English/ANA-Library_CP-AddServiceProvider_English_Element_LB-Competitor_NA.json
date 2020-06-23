@@ -1,0 +1,127 @@
+{
+    "%vlocity_namespace%__Active__c": true,
+    "%vlocity_namespace%__InternalNotes__c": "SELECT A SERVICE PROVIDER TO SERVE AS COMPETITOR",
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "AddServiceProvider",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/ANA Library/CP-AddServiceProvider/English",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__ParentElementId__c": {
+        "%vlocity_namespace%__OmniScriptId__c": {
+            "Name": "AddServiceProvider",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/ANA Library/CP-AddServiceProvider/English",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+        },
+        "Name": "SelectServiceProvider",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/ANA Library/CP-AddServiceProvider/English/SelectServiceProvider",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c"
+    },
+    "%vlocity_namespace%__ParentElementName__c": "SelectServiceProvider",
+    "%vlocity_namespace%__ParentElementType__c": "Step",
+    "%vlocity_namespace%__PropertySet__c": {
+        "HTMLTemplateId": "",
+        "controlWidth": 5,
+        "dataJSON": false,
+        "label": "SELECT A COMPETITOR",
+        "show": {
+            "group": {
+                "operator": "OR",
+                "rules": [
+                    {
+                        "group": {
+                            "operator": "AND",
+                            "rules": [
+                                {
+                                    "condition": "<>",
+                                    "data": "true",
+                                    "field": "NOUFlag"
+                                },
+                                {
+                                    "condition": "=",
+                                    "data": "Yes",
+                                    "field": "AP-MarketSelectionFinalvlaue"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "group": {
+                            "operator": "AND",
+                            "rules": [
+                                {
+                                    "condition": "<>",
+                                    "data": "true",
+                                    "field": "NOUFlag"
+                                },
+                                {
+                                    "condition": "<>",
+                                    "data": "Local",
+                                    "field": "UserGroup"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "group": {
+                            "operator": "AND",
+                            "rules": [
+                                {
+                                    "group": {
+                                        "operator": "OR",
+                                        "rules": [
+                                            {
+                                                "condition": "=",
+                                                "data": "AIM",
+                                                "field": "RecordType"
+                                            },
+                                            {
+                                                "condition": "=",
+                                                "data": "Default",
+                                                "field": "RecordType"
+                                            },
+                                            {
+                                                "condition": "=",
+                                                "data": "Castlight",
+                                                "field": "RecordType"
+                                            },
+                                            {
+                                                "condition": "=",
+                                                "data": "Medical",
+                                                "field": "RecordType"
+                                            },
+                                            {
+                                                "condition": "=",
+                                                "data": "Benefits Admin",
+                                                "field": "RecordType"
+                                            }
+                                        ]
+                                    }
+                                },
+                                {
+                                    "condition": "<>",
+                                    "data": "true",
+                                    "field": "NOUFlag"
+                                },
+                                {
+                                    "condition": "=",
+                                    "data": "Local",
+                                    "field": "UserGroup"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        },
+        "text": ""
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": true,
+    "%vlocity_namespace%__Type__c": "Text Block",
+    "Name": "LB-Competitor_NA",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/ANA Library/CP-AddServiceProvider/English/LB-Competitor_NA"
+}

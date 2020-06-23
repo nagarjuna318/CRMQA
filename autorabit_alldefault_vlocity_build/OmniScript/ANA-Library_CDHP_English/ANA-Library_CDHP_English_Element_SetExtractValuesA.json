@@ -1,0 +1,50 @@
+{
+    "%vlocity_namespace%__Active__c": true,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "HRAAdministration",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/ANA Library/CDHP/English",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__PropertySet__c": {
+        "controlWidth": 0,
+        "disOnTplt": false,
+        "elementValueMap": {
+            "ADId": "%ADId%",
+            "BenefitAccum": "%BenAccumulation%",
+            "BenefitAccumLG": "%BenAccumulationLG%",
+            "ClaimRunOutDate": "%ClaimRunOutDate%",
+            "HRA1GroupSuffix": "%HRA1GroupSuffix%",
+            "HRAFundsProRateEntryDate": "%HRAFundsProRateEntryDate%",
+            "HRALITESRollover": "%HRALITESRollover%",
+            "HRARollover": "%HRARollover%",
+            "Medical": "%Medical%",
+            "Pharmacy": "%Pharmacy%",
+            "PlanEndDate": "%PlanEndDate%",
+            "PlanStartDate": "%PlanStartDate%",
+            "QLI": "%QLI%",
+            "RolloverDiffAdmin": "%RolloverDiffAdmin%",
+            "Specialty": "%Specialty%",
+            "TermCanSubmitClaims": "%TermCanSubmitClaims%",
+            "TypeofHRA": "%TypeofHRA%"
+        },
+        "label": null,
+        "message": {
+        },
+        "pubsub": false,
+        "show": null,
+        "showPersistentComponent": [
+            false,
+            false
+        ],
+        "ssm": false,
+        "validationRequired": null,
+        "wpm": false
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": true,
+    "%vlocity_namespace%__Type__c": "Set Values",
+    "Name": "SetExtractValuesA",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/ANA Library/CDHP/English/SetExtractValuesA"
+}

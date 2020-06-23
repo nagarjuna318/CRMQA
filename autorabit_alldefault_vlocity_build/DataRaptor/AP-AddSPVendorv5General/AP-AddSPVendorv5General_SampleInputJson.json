@@ -1,0 +1,152 @@
+{
+    "AccountId": "0014B00000KMhYhQAL",
+    "ApprovalProcessHelper": "Complete required fields prior to submitting for approval",
+    "CompletionMarker": "Validate Product Line Details",
+    "ContextId": "0QL4B0000005vtu",
+    "CreatedBy": "0054B000000op45QAA",
+    "CreatedById": "0054B000000op45QAA",
+    "CreatedByName": "Juan Carlos",
+    "DRId_QuoteLineItem": "0QL4B0000005vtuWAA",
+    "EffectiveDate": "2017-09-01",
+    "FinancingDependent": "Not Applicable",
+    "IHMProductLineReadyforApproval": false,
+    "LastModifiedBy": "0054B000000oxn3QAA",
+    "LastModifiedById": "0054B000000oxn3QAA",
+    "LastModifiedByName": "Lisa Svenningsen",
+    "LineItemNumber": "00000925",
+    "ProductLineEligableForAutoApproval": false,
+    "ProductName": "Medical - HMO",
+    "ProductStageDependent": "IGAP Lost",
+    "QLI": "0QL4B0000005vtuWAA",
+    "QuoteId": "0Q04B000000AFR8SAO",
+    "RTGeneral": {
+        "AIM": {
+            "AIMNewToClient": null,
+            "AccountMigratingtoAnotherPlatform": null,
+            "DoesAccountHaveMedicareSuppPlans": null,
+            "DoesAcctHaveRBBForMRICT": null,
+            "IfNoApprovedNumber": null,
+            "IfYesProvidePkgCCTiedtoMedicare": null,
+            "IsThereAnAIMROIGuarantee": null,
+            "MedicalManagementPlatformAIM": null,
+            "MemberPenaltyAmount": null,
+            "PrecertVendor": null,
+            "StandardNationalAIMNumOnIDCard": null
+        },
+        "AnthemEngageSilverBlock": {
+            "AnthemEngageSilver": "Yes",
+            "ElevateBH": false,
+            "RBB": true
+        },
+        "AnthemFLexHourMedicalPlanOptions": {
+            "BasicComprehensiveMedicalPlan": false,
+            "EnhancedComprehensiveMedicalPlan": false,
+            "MECPlusMedicalPlan": false
+        },
+        "AnthemFlexhourSupplimentalPlanOptions": {
+            "AccidentPlan": false,
+            "CriticalCarePlan": false,
+            "HighDeductibleGapPaymentPlan": false,
+            "HospitalOnlyFixedCashBenefitsPlan": false,
+            "HospitalPlusFixedCashBenefitsPlan": false,
+            "LimitedDurationMedicalPlan": false
+        },
+        "BenefitsAdmin": {
+            "ActivationCode": null,
+            "EffectiveDateFormula": null,
+            "IntegratedHRAFSA": null,
+            "ServicedByBA": null,
+            "ServicedByBAFSA": null,
+            "TermDateFormula": null,
+            "Vendors": null
+        },
+        "CastLightDetails": {
+            "RelationshipType": null
+        },
+        "CommentsBlock": {
+            "Comments": null
+        },
+        "CompletionMarkerFormula": "Validate Product Line Details",
+        "DPPDetails": {
+            "DPPVendor": "Solera"
+        },
+        "DateMessage": true,
+        "OpportunityTypeFormula": "In Group Add Product",
+        "PLCompleteX": false,
+        "PharmacyDetail": {
+            "AnthemPrescriptionDrugPlan": false,
+            "DoesRXApplyToAllPackages": null,
+            "EssentialFormulary": false,
+            "ExclusiveSpecialtyPharmacyServices": false,
+            "IfNoPleaseProvideDetailsHere": null,
+            "MailOrder": null,
+            "RXChoiceTieredNetwork": false,
+            "Retail": null,
+            "SplitGenericTier": false,
+            "SplitSpecialtyTier": false
+        },
+        "ProductNameFormula": "Medical - HMO",
+        "ProductivitySolutionsBlock": {
+            "ProductivitySolutions": null
+        },
+        "QLD-NotInVendorList": true,
+        "QLD-Vendor": null,
+        "QLD-VendorAccountTA-Block": {
+            "QLD-VendorAccountTA": "Rocky Mountain Life",
+            "VendorAccountId": "0014B00000ONJC5QAP"
+        },
+        "QLD-VendorTA-Block": {
+            "QLD-VendorTA": "y",
+            "VendorId": null
+        },
+        "QuoteLineDetails": {
+            "CompetitorStatus": "Unknown",
+            "Financing": "Not Applicable",
+            "Funding": "N/A",
+            "Members": 300,
+            "OppType": "In Group Add Product",
+            "Probability": "25%",
+            "ProductStage": "IGAP Lost",
+            "Reason": "Brand",
+            "RecordType": "Medical",
+            "Subscribers": 75,
+            "TermDate": null,
+            "TermSelection": "Ok"
+        },
+        "RecordTypeFormula": "Medical",
+        "SetPLComplete": {
+            "PLComplete": true
+        },
+        "SpecialtyPharmacy": {
+            "MedicalManagementPlatformMSPh": null,
+            "RXVendors": null,
+            "SpecialtyDrugsCarvedOutToRX": null
+        },
+        "VirtualSecondOpinion": {
+            "VendorName": "Consumer Medical"
+        },
+        "VisionParticipation": {
+            "NonVoluntaryParticipation": false,
+            "VoluntaryParticipation": false
+        }
+    },
+    "ReasonDependent": "Brand",
+    "SetToCompletePL": "Yes",
+    "id": "a3B4B0000002AnIUAU",
+    "layout": "lightning",
+    "testContextId": "0QL4B0000005vtu",
+    "timeStamp": "2017-06-12T04:51:40.209Z",
+    "userId": "0054B000000oxn3QAA",
+    "userName": "lisa.svenningsen@anthem.com.config",
+    "userProfile": "System Administrator",
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "DR-AddSPVendor": 219,
+        "ExtractQLI": 8259,
+        "OmniScriptSessionToken": "608f15e5-a381-4556-91cf-0f32b66e2651",
+        "POSTQLIDATA": 1769,
+        "RTGeneral": 30020,
+        "SetDependentFields": 28
+    }
+}

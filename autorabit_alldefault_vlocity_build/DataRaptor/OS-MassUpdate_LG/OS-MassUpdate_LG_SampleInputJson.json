@@ -1,0 +1,57 @@
+{
+    "ContextId": "0Q04B000000AE8K",
+    "GroupDetails": {
+        "Id": "0Q04B000000AE8KSAW",
+        "OpportunityId": "0064B000007o3AFQAY",
+        "Pricebook2Id": "01s41000007wBCZAA2",
+        "TotalMembers": 300
+    },
+    "MURecordSelection": {
+        "QLI-ProdSelMsg": true,
+        "QLIProdList": [
+            {
+                "Financing__c": "Cost Plus",
+                "Funding__c": "ASO",
+                "Id": "0QL4B00000062rqWAA",
+                "LOB": "Benefits Admin",
+                "Members__c": 300,
+                "Name": "Benefits Admin – Act Wise FSA",
+                "PricebookEntryId": "01u4B000008SVd9QAG",
+                "Probability__c": "10%",
+                "Product2Id": "01t4B000001XE2cQAG",
+                "ProductStage": "In Progress",
+                "RecordType__c": "Benefits Admin: ActWise FSA",
+                "Subscribers__c": 100,
+                "vlcSelected": true
+            }
+        ]
+    },
+    "MUSetFields": {
+        "FinMsg": true,
+        "QLD": {
+            "FFFormula": "NoMsg",
+            "Financing": "Refunding",
+            "Funding": "FI",
+            "Members": null,
+            "Probability": null,
+            "ProductStage": null,
+            "Subscribers": null
+        }
+    },
+    "id": "a3B4B000000H11JUAS",
+    "layout": "lightning",
+    "timeStamp": "2017-06-21T22:37:40.998Z",
+    "userId": "0054B000000op45QAA",
+    "userName": "jcarrero@anthem.com2.config",
+    "userProfile": "System Administrator",
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "DR-GroupInformation": 325,
+        "DR-RetrieveProducts": 423,
+        "MURecordSelection": 7845,
+        "MUSetFields": 12971,
+        "OmniScriptSessionToken": "b67f96b0-5b62-42b7-954c-5f8daa8b846b",
+        "SetValues": 8
+    }
+}

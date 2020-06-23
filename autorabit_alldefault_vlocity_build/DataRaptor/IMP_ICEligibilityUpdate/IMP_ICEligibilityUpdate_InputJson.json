@@ -1,0 +1,83 @@
+{
+    "COBRADetails": {
+        "CD-Block": {
+            "ClientAllowsSamesexSpousesCoveredWSG": null,
+            "Doesthisinformationapplytoallgroups": null,
+            "IfNopleasespecify_WGS": null,
+            "Ifyesindicateprobationaryperiod_WGS": null,
+            "IsthereaWaitingPeriodforNewHires": null,
+            "NotesCOBRA": null,
+            "PremPaidforEachSubDepperMonth": null,
+            "PremPaidforEachSubperMonth": null
+        },
+        "COBRAAppliestoDomesticPartner?NASCO": null,
+        "ClientAllowsSamesexSpousesCovered": "Yes"
+    },
+    "ChildMaxAgeLimit": {
+        "AgeandRuleDetails": null,
+        "ApplytoAllPackages/Suffixe": "Yes",
+        "ChildMaxAgeLimit_Child": "Birthday",
+        "DefineAgeandRuleperPackage/Suffix": "26"
+    },
+    "ContextId": "801W0000000pjCoIAI",
+    "DisabledVerification": {
+        "ResponsibleforDisabledVerification?": "Anthem - Letters go to the Account"
+    },
+    "EligibilityDetails": {
+        "ED-Block": {
+            "Doesthisinformationapplytoallgroup": null,
+            "IfNopleasespecify": null,
+            "Ifyesindicateprobationaryperiod": null,
+            "IsthereaWaitingPeriodforNewHires?": null,
+            "Notes": null
+        },
+        "EDW-WGS-Block": {
+            "AdditionalDomPartnerDetail(WestOnly)": null,
+            "COBRAAppliestoDomesticPartner?": null,
+            "ExclusionsApply": null
+        },
+        "Enrollment&BillingImpacted": "Yes",
+        "Enrollment&BillingImpacted?": "Yes"
+    },
+    "Finish": {
+        "F-Message": " creating an Eligibility record for: "
+    },
+    "RecordId": "",
+    "RecordType": "EligibilityNASCO",
+    "StudentMaxAgeLimitEligibility": {
+        "AgeandRuleDetailsStudents": null,
+        "ApplytoAllPackages/Suffixes": "No",
+        "DefineAgeandRuleperPackage/Suffixforstudent": "26",
+        "IfDepreachesmaxageautoterminate?": null,
+        "OveragedeptermItrsbemailedtosub?": null,
+        "ResponsesReceivedby?": "Account",
+        "ResponsibleforStudentCertification?": "Anthem - Letters go to the Account",
+        "StudentMaxAgeLimit": "End of Birthday Month"
+    },
+    "id": "a3CW00000013NYgMAM",
+    "layout": "lightning",
+    "timeStamp": "2018-04-16T22:22:45.170Z",
+    "userCurrencyCode": "USD",
+    "userId": "005W0000002XquzIAC",
+    "userName": "shravani@chadda@eaglecrk.com.prod.nal1b.dev",
+    "userProfile": "System Administrator",
+    "userTimeZone": -240,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "COBRADetails": 2811,
+        "ChildMaxAgeLimit": 4758,
+        "DRE-EligibilityDetailsToUpdate": 1844,
+        "DRE-ICE": 3207,
+        "DRP-Eligibility": 9819,
+        "DisabledVerification": 2853,
+        "EligibilityDetails": 3053,
+        "Finish": 6761,
+        "ImpCase": 21348,
+        "OmniScriptSessionToken": "1ba2e812-6f79-4baf-ae7d-123e61803f12",
+        "SV-ChildMaxAgeDefineAge": 80,
+        "SV-ContextId": 237,
+        "SV-Eligibility": 26,
+        "StudentMaxAgeLimitEligibility": 8266
+    }
+}

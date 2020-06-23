@@ -1,0 +1,63 @@
+{
+    "AccountRecordType": null,
+    "ContextId": "id",
+    "GroupName": null,
+    "OppId": null,
+    "OppOwner": null,
+    "OppOwnerEmail": null,
+    "OpportunityId": null,
+    "RequestGroupNumberStep": {
+        "AdditionalComments": {
+            "Comments": null,
+            "GroupFundingType": null,
+            "IsPartOfAMigration?": null
+        },
+        "CallServiceCenter": null,
+        "ClaimServiceCenter": null,
+        "ClaimSystem": null,
+        "DeliveryChannel": null
+    },
+    "RequiredInformation": {
+        "Additional Information": {
+            "Branding": null,
+            "CheckSuppression": null,
+            "DoesNYHCRAApply": null,
+            "EligibleEmployees": null,
+            "GroupSize": null,
+            "HQState": null,
+            "IsthisGroupsubjecttoERISA": null,
+            "NASCOContractingSitusState": null,
+            "TotalEmployees": null,
+            "WGSContractingSitusState": null
+        },
+        "Block3": {
+            "AnthemEntity": null,
+            "OriginalEffectiveDate": null,
+            "ReceivedDate": null,
+            "Region": null
+        },
+        "RenewalInformation": {
+            "ActiveRenewalDate": null,
+            "ClientRenewalsOccur": null,
+            "MonthUnderwriterstartsrenewalprocess": null,
+            "RenewalMonth": null
+        }
+    },
+    "UserEmail": null,
+    "UserName": null,
+    "id": "a3B4B0000000eLQUAY",
+    "layout": "lightning",
+    "opptyid": "id2",
+    "quteid": "id1",
+    "timeStamp": "2017-04-26T11:17:01.386Z",
+    "userId": "0054B000000orNTQAY",
+    "userName": "naveen.mallepalli@anthem.com2.config",
+    "userProfile": "System Administrator",
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "AccountDetailsForGroupNumber": 2706,
+        "OmniScriptSessionToken": "e55a5c1a-3f98-4db1-8e21-0209bffb8145",
+        "const": 3
+    }
+}

@@ -1,0 +1,17 @@
+$brownish-grey: #706E6B;
+
+.empty-state{
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.plan-attribute{
+    color: $brownish-grey;
+    font-style: italic;
+}
+
+.min-width-300{
+    min-width: 300px;
+}

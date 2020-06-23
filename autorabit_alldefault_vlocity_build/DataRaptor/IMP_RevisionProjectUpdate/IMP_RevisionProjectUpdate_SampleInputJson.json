@@ -1,0 +1,78 @@
+{
+    "AccountName": "AJ",
+    "AttachmentSRR": 0,
+    "AttachmentWSRA": 0,
+    "AttachmentWSRR": 0,
+    "CROFC": "801W0000000qDE2",
+    "ContextId": "801W0000000qDDs",
+    "FileAttachment": {
+        "File": null,
+        "FileCount": 0,
+        "MSG-AttachmentError": null
+    },
+    "IMPCaseName": "IMPL-998",
+    "IMPCaseStatus": "Initiated",
+    "IMPRecordtype": "012W00000009VLCIA2",
+    "IMPRecordtypename": "Project",
+    "IMPType": "Project",
+    "ImplCaseId": "801W0000000qDDs",
+    "LoggedinProfile": "System Administrator",
+    "Profile": "System Administrator",
+    "Project": "801W0000000qDDs",
+    "RFPP": "801W0000000myjw",
+    "Revision": {
+        "FRM-AccountName": "AJ",
+        "FRM-ImplementationCase": "IMPL-998",
+        "FRM-ImplementationCaseStatus": "Initiated",
+        "FRM-RecordType": "Project"
+    },
+    "RevisionStatus": "Initiated/In Progress",
+    "RevisionsReasons": {
+        "Msg-Duplicate": true,
+        "RevisionBlock": {
+            "Description": null,
+            "DoesChangeImpactBenefitBooklets": false,
+            "DoesChangeImpactSBCs": false,
+            "ImpactedPackagesDetailsBlock": {
+                "ImpactedPackages/Suffixes/Sections": null
+            },
+            "RevisionReason": null,
+            "RevisionType": null
+        },
+        "RevisionReasonsProject": {
+            "DescriptionProject": "ipjoihihj",
+            "DoesChangeImpactBenefitBookletsProject": false,
+            "DoesChangeImpactSBCsProject": false,
+            "Impacted Packages/Suffixes/SectionsProject": "iju9joij",
+            "RevisionReasonProject": "Project",
+            "RevisionTypeProject": "Project"
+        },
+        "Text1": null
+    },
+    "Submission": {
+        "SubmitRevision": "No"
+    },
+    "id": "a3CW00000013jCbMAI",
+    "layout": "lightning",
+    "timeStamp": "2018-04-25T20:33:23.101Z",
+    "userCurrencyCode": "USD",
+    "userId": "005W0000002XquzIAC",
+    "userName": "shravani@chadda@eaglecrk.com.prod.nal1b.dev",
+    "userProfile": "System Administrator",
+    "userTimeZone": -240,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "FileAttachment": 1857,
+        "GlobalImpCaseId": 6,
+        "IMPCaseExtract": 594,
+        "OmniScriptSessionToken": "1f5f0c0f-d49f-432d-912b-1b1952283c45",
+        "Revision": 4561,
+        "RevisionsReasons": 9581,
+        "SV-AttachmentFormula": 39,
+        "SV-ContextId": 65,
+        "SV-ProjectDefault": 79,
+        "SV2": 31,
+        "Submission": 3873
+    }
+}

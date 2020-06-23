@@ -1,0 +1,41 @@
+{
+    "%vlocity_namespace%__Active__c": true,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "ImplementationCase",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/IMPCase Library/IC-ImplementationCase/English",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__PropertySet__c": {
+        "HTMLTemplateId": "",
+        "controlWidth": 12,
+        "disOnTplt": false,
+        "elementValueMap": {
+            "AccumulatorHistoryLoadOutput": "=IF(%AccumulatorHistoryLoadOutput% == null || %AccumulatorHistoryLoadOutput% ==\"\", IF(EQUALS(%IMPType%,'New Business'), %AccumulatorHistoryLoadNB%, IF(OR(EQUALS(%IMPType%,'Renewal'),EQUALS(%IMPType%,'Change Request Off Cycle')), %AccumulatorHistoryLoad%, '')),%AccumulatorHistoryLoadOutput%)",
+            "Comments": {
+                "ImpactedPackagesSuffixesSectionsBlock": {
+                    "ImpactedPackagesSuffixesSections": "=IF(%ImpactedPackagesSuffixesSections% == null || %ImpactedPackagesSuffixesSections% ==\"\", IF(EQUALS(%IMPType%,'New Business'),'',%ImpactedPackagesSuffixesSections%),%ImpactedPackagesSuffixesSections%)"
+                }
+            },
+            "OrderRecordTypeTemp": "=IF(%OrderRecordTypeTemp% == null || %OrderRecordTypeTemp% ==\"\", IF(EQUALS(%IMPType%,'Renewal'),CONCATENATE(%UserArea%,' ',%IMPType%),CONCATENATE(%UserArea%,' CR Off Cycle')),%OrderRecordTypeTemp%)"
+        },
+        "label": null,
+        "message": {
+        },
+        "pubsub": false,
+        "show": null,
+        "showPersistentComponent": [
+            false,
+            false
+        ],
+        "ssm": false,
+        "validationRequired": "None",
+        "wpm": false
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": false,
+    "%vlocity_namespace%__Type__c": "Set Values",
+    "Name": "SetValuesCommentsReset",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/IMPCase Library/IC-ImplementationCase/English/SetValuesCommentsReset"
+}

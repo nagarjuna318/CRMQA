@@ -1,0 +1,34 @@
+{
+    "AP-BundleSelection": {
+        "AP-BundleSelected": false,
+        "filteredPrograms": [
+            {
+                "Id": "01t4B000001XDzqQAG",
+                "IsActive": true,
+                "LOB": "AIM",
+                "Name": "Cardiology RQI Model",
+                "QLIRecordType": "Default",
+                "vlcBundleStage": "In Progress",
+                "vlcSelected": true
+            }
+        ]
+    },
+    "ContextId": "",
+    "ProdId": "",
+    "QLIid": "",
+    "QuoteId": "",
+    "error": "OK",
+    "id": "a3B4B000000H6VnUAK",
+    "layout": "lightning",
+    "timeStamp": "2017-06-30T11:46:45.376Z",
+    "userId": "0054B000000vHPhQAM",
+    "userName": "venkata.rao.javvaji@anthem.com2.config",
+    "userProfile": "System Administrator",
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "FilterPrograms": 859,
+        "OmniScriptSessionToken": "07638d9d-a44a-4dc5-88a7-aa156bd0fed9",
+        "SetValues": 0
+    }
+}

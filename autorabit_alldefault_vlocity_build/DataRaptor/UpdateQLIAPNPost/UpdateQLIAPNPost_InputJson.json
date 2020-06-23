@@ -1,0 +1,102 @@
+{
+    "ContextId": null,
+    "EmployeeClasseStatus": {
+        "EmployeeClassesseparate": {
+            "AccountLegalName": null,
+            "EmployeeClass": {
+                "EmployeeClassDescriptionStat": null,
+                "EmployeeClassTypeStat": null,
+                "EmployeeID": null
+            },
+            "EmployeeGroup": null
+        }
+    },
+    "GroupPlanDesignSuffix": {
+        "GroupPlanDesigns": null
+    },
+    "QLIProductsData": {
+        "APNDetails": {
+            "ANPrefixProdName": null,
+            "AssignedPrefixName": null,
+            "CustomNwkName": null,
+            "PrdNwkName": null
+        },
+        "QLIProducts": null
+    },
+    "RecapandNextSteps": {
+        "NextBlock": {
+        },
+        "RecapBlock": {
+        }
+    },
+    "Step1": {
+        "Invoices": {
+            "BillingPreference": null,
+            "EBillingContactTitle": null,
+            "FaxDispl": null,
+            "FullName": null,
+            "InvoiceDescription": null,
+            "InvoiceFormat": null,
+            "InvoiceSortingOption": null,
+            "InvoicesId": null,
+            "Messaging2": null,
+            "OtherInvoiceSortingOption": null,
+            "PhoneDisplay": null,
+            "SourceSystem": null,
+            "TARANameLookup-Block": {
+                "Fax": null,
+                "FirstName": null,
+                "Id": null,
+                "LastName": null,
+                "MailingCity": null,
+                "MailingPostalCode": null,
+                "MailingState": null,
+                "MailingStreet": null,
+                "Phone": null,
+                "TARANameLookup": null,
+                "Title": null,
+                "eMail": null
+            },
+            "eId": null,
+            "eMailDisp": null,
+            "eMailingCity": null,
+            "eMailingPostalCode": null,
+            "eMailingState": null,
+            "eMailingStreet": null
+        },
+        "WhatareInvoices": {
+        }
+    },
+    "timeStamp": null,
+    "userId": null,
+    "userName": null,
+    "userProfile": null,
+    "userTimeZone": null,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "APNSetValues": null,
+        "DataRaptorPostAction6": null,
+        "DoneAction1": null,
+        "EligibilityDetailsSt": null,
+        "EligibilityrecordSt": null,
+        "EligibilityrecordSt193": null,
+        "EmployeeClassDataRaptor": null,
+        "EmployeeClassPostAction": null,
+        "EmployeeClasseStatus": null,
+        "ExtractAPNDetailsDR": null,
+        "ExtractEligibilityFundingByImpleCaseDR": null,
+        "ExtractGPDDetails": null,
+        "FundingDetailsSt": null,
+        "GroupPlanDesignSuffix": null,
+        "InvoiceExtractTypeaHead": null,
+        "InvoicePostAction": null,
+        "PostGPDDetails": null,
+        "QLIAPNUpdatePostDR": null,
+        "QLIProductsData": null,
+        "RecapandNextSteps": null,
+        "SetValues6": null,
+        "SetValues7": null,
+        "Step1": null
+    }
+}

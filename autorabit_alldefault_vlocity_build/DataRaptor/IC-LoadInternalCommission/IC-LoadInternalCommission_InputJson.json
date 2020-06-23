@@ -1,0 +1,116 @@
+{
+    "AccountExecutiveId": "0051b0000011P9KAAU",
+    "AccountExecutiveName": "National Sales Test User",
+    "AccountId": "0011b00000XdXIcAAN",
+    "AccountName": "Acc 08102018",
+    "ApprovalReviewStep": {
+        "ApprovalReviewBlock": [
+            {
+                "AM1Lookup": "0051b0000011P9UAAU",
+                "AM1MultiplierPercentage": 10,
+                "AM2Lookup": "0051b0000011P9UAAU",
+                "AM2MultiplierPercentage": 12,
+                "AM3Lookup": "0051b0000011P9UAAU",
+                "AM3MultiplierPercentage": 23,
+                "DivisionName": "TBD -Test Division",
+                "ErrMsgAM": true,
+                "Formula1": 45,
+                "GroupId": "a5I1b000001Ity8EAC",
+                "GroupNumber": "TBD",
+                "QuoteId": "0Q01b0000005hhyCAA"
+            },
+            {
+                "AM1Lookup": "0051b0000011P9UAAU",
+                "AM1MultiplierPercentage": 11,
+                "AM2Lookup": "00541000003bWX3AAM",
+                "AM2MultiplierPercentage": 12,
+                "AM3Lookup": "0051b0000011P9UAAU",
+                "AM3MultiplierPercentage": 13,
+                "DivisionName": "XYZ - Division Name",
+                "ErrMsgAM": true,
+                "Formula1": 36,
+                "GroupId": "a5I1b0000007iDwEAI",
+                "GroupNumber": "XYZ",
+                "QuoteId": "0Q01b0000005tTECAY"
+            }
+        ]
+    },
+    "ContextId": "0061b000003xAV4AAM",
+    "DSAMId": "0051b0000011OwfAAE",
+    "DSAMName": "Sai Ram Akella",
+    "OpportunityName": "2019 New Business-Acc 08102018",
+    "ProrationPercentages": {
+        "AEMultiplierPercentage": 100,
+        "AccountExecutive": "0051b0000011P9KAAU",
+        "DSAM": "0051b0000011OwfAAE",
+        "DSAMMultiplierPercentage": 100,
+        "RMMultiplierPercentage": 100,
+        "RVP": null,
+        "RVPMultiplierPercentage": 100,
+        "RegionalManager": "0051b0000011W4lAAE"
+    },
+    "QLILostStep": {
+        "QLILost": null
+    },
+    "QLISoldRenewedStep": {
+        "QLISoldRenewed": [
+            {
+                "$$hashKey": "object:694",
+                "QLIEstimatedRenew": "80",
+                "QLIGroupNumber": "TBD",
+                "QLIId": "0QL1b0000006RHJGA2",
+                "QLIMembers": 78,
+                "QLIProductName": "Anthem FlexHour Medical",
+                "QLIProductStage": "Renewed",
+                "QLIRenewWithGrowth": true,
+                "QuoteId": "0Q01b0000005hhyCAA",
+                "vlcSelected": true
+            },
+            {
+                "$$hashKey": "object:695",
+                "QLIGroupNumber": "TBD",
+                "QLIId": "0QL1b0000006RHKGA2",
+                "QLIMembers": 78,
+                "QLIProductName": "Medical - PPO",
+                "QLIProductStage": "Sold",
+                "QuoteId": "0Q01b0000005hhyCAA",
+                "vlcSelected": true
+            },
+            {
+                "$$hashKey": "object:696",
+                "QLIGroupNumber": "XYZ",
+                "QLIId": "0QL1b0000009q0RGAQ",
+                "QLIMembers": 1,
+                "QLIProductName": "Onsite Clinics",
+                "QLIProductStage": "Sold",
+                "QuoteId": "0Q01b0000005tTECAY",
+                "vlcSelected": true
+            }
+        ]
+    },
+    "RegionalManagerId": "0051b0000011W4lAAE",
+    "RegionalManagerName": "Indra Lugina",
+    "id": "a3C1b0000009UxwEAE",
+    "layout": "lightning",
+    "timeStamp": "2019-01-31T20:18:10.591Z",
+    "userCurrencyCode": "USD",
+    "userId": "0051b0000011W4lAAE",
+    "userName": "ilugina@vlocity.com2.iceanup",
+    "userProfile": "System Administrator",
+    "userTimeZone": -300,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "ApprovalReviewStep": 32367,
+        "DRE-Approval": 1481,
+        "DRE-OppAccount": 1920,
+        "DRE-Quote": 1211,
+        "DRE-QuoteNotSold": 1242,
+        "OmniScriptSessionToken": "d5d80c3d-45ec-454b-99c8-4419297c568c",
+        "PostSetValues": 7,
+        "PreSetValues": 64,
+        "ProrationPercentages": 9864,
+        "QLILostStep": 1431,
+        "QLISoldRenewedStep": 7299
+    }
+}

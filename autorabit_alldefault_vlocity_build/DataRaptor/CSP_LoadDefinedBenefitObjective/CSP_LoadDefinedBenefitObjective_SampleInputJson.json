@@ -1,0 +1,73 @@
+{
+    "AccountId": "0011F000007ETAcQAO",
+    "BenefitObjectiveType": "Benefit Objective",
+    "BenefitObjectives": {
+        "BusinessObjectiveSelectCount": 0,
+        "ObjectiveSelect": null
+    },
+    "ClientObjectives": {
+        "ClientObjective": {
+            "ClientObjectActive": true,
+            "ClientObjectiveDescription": "test corporate",
+            "ClientObjectiveId": "a6i1F000000DFd6QAG",
+            "ClientObjectiveType": "Corporate"
+        },
+        "ClientObjectiveCount": 1,
+        "ClientObjectiveMsgMax": true
+    },
+    "ContextId": "0011F000007ETAc",
+    "DRId_AccountObjective__c": "a6i1F000000DFd6QAG",
+    "DRId_Account_Plan__c": "a6l1F0000004KouQAE",
+    "DefineBenefitObjectives": {
+        "BenefitObjectiveBlock": [
+            {
+                "BenefitObjectiveComment": "111",
+                "BenefitObjectiveDesc": "Address Cancer Driving Costs",
+                "BenefitObjectiveId": "a6i1F000000DFdBQAW",
+                "BenefitObjectiveLookup": "a6i1F000000DFd6QAG",
+                "BenefitObjectiveRank": "5"
+            },
+            {
+                "BenefitObjectiveComment": "222",
+                "BenefitObjectiveDesc": "Adequate Access to care",
+                "BenefitObjectiveId": "a6i1F000000DFdCQAW",
+                "BenefitObjectiveLookup": {
+                    "name": "a6i1F000000DFd6QAG",
+                    "value": "test corporate"
+                },
+                "BenefitObjectiveRank": "1"
+            }
+        ]
+    },
+    "Name": "Microsoft Corporation",
+    "PlanDetails": {
+        "AccountId": "0011F000007ETAcQAO",
+        "AccountName": "Microsoft Corporation",
+        "Id": "a6l1F0000004KouQAE",
+        "Name": "Manual Test",
+        "Status": "Observations"
+    },
+    "PlanDetailsId": "a6l1F0000004KouQAE",
+    "id": "a3C1F0000001YXaUAM",
+    "layout": "lightning",
+    "timeStamp": "2018-07-20T15:56:44.865Z",
+    "userCurrencyCode": "USD",
+    "userId": "0051F000001e386QAA",
+    "userName": "ilugina@vlocity.com2.configdev",
+    "userProfile": "System Administrator",
+    "userTimeZone": -240,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "BenefitObjectives": 2610,
+        "ClientObjectives": 3513,
+        "DR_ExtractAccountPlan": 556,
+        "DR_ExtractAccountPlanReload": 421,
+        "DR_ExtractBusinessObjective": 454,
+        "DR_ExtractObjectives": 724,
+        "DR_LoadAccountPlan": 270,
+        "DR_LoadClientObjective": 362,
+        "OmniScriptSessionToken": "ac3850cc-09a6-4941-9cf9-e07f2faa0111",
+        "PreSetValue": 20
+    }
+}

@@ -1,0 +1,31 @@
+{
+    "AccountId": "001W000000amKI0IAM",
+    "BPD": {
+        "BPDStatus": "Initiated In Implementations Review",
+        "EBALead": "005W0000003BpBjIAK",
+        "Formula1": "a6pW00000007YouIAE",
+        "InitialDateImpReceivedBPDFromEBA": "2018-04-03",
+        "IsClientApprovalNeeded": "Yes"
+    },
+    "ContextId": "a6pW00000007YouIAE",
+    "IMPOwner": "005W0000002oXF8IAM",
+    "IMPTClaimSystem": "NASCO",
+    "id": "a3CW00000013kS1MAI",
+    "layout": "lightning",
+    "timeStamp": "2018-04-25T16:21:51.962Z",
+    "userCurrencyCode": "USD",
+    "userId": "005W0000002oXEFIA2",
+    "userName": "rama.k.gangavarapu@accenture.com.national1b",
+    "userProfile": "System Administrator",
+    "userTimeZone": -240,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "BPD": 15904,
+        "DR_AMAssignment": 914,
+        "DataRaptorExtractAction2": 945,
+        "OmniScriptSessionToken": "37c0b83a-2a65-4ccd-950a-8fd4d1c8ad83",
+        "SetValues1": 163,
+        "Step2": 24219
+    }
+}
